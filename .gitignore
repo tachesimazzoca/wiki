@@ -1,0 +1,6 @@
+*~
+/.rvmrc
+/.bundle
+/vendor
+/Gemfile.lock
+/src/_site

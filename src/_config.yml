@@ -1,0 +1,11 @@
+title: "tachesimazzoca.github.com/wiki"
+
+baseurl: "/wiki"
+
+source: . 
+destination: ./_site
+plugins: ./_plugins 
+
+markdown: rdiscount 
+
+pygments: false 

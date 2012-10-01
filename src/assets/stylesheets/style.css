@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* Globals */
+
+h1 {
+  margin: 12px 0;
+  color: #AAA;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 12px 0;
+  border-bottom: 1px solid #CCC;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h3 {
+  margin: 12px 0 4px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+h4, h5, h6 {
+  margin: 12px 0 4px 0;
+  font-size: 14px;
+  color: #000;
+}
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+/* Layouts */
+
+body {
+  /* padding-top: 50px; */
+}
+
+#header {
+  margin-bottom: 20px;
+}
+
+#main {
+  margin-bottom: 20px;
+}
+
+#footer {
+  border-top: 1px solid #CCC;
+  height: 100%;
+}
+
+.toctree {
+  padding: 8px 0;
+}
+
