@@ -10,13 +10,13 @@ layout: global
 <link href="{{ site.baseurl }}/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css">
 <script src="{{ site.baseurl }}/assets/javascripts/jquery-1.7.1.min.js"></script>
 <script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="{{ site.baseurl }}/assets/javascripts/jquery.autoc.js"></script>
+<script src="{{ site.baseurl }}/assets/javascripts/jquery.toctree.js"></script>
 <script>
 
 (function($) {
 
     $(function() {
-        $('#toc').toc({ selector:'#content :header', offset:1, depth:3 });
+        $('#toc').toctree({ selector:'#content :header', offset:1, depth:3 });
     });
 
 })(window.jQuery);
