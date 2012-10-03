@@ -56,3 +56,12 @@ body {
   padding: 8px 0;
 }
 
+.search form {
+  width: 400px !important;
+}
+.search input,
+.search input:focus {
+  border: none;
+  box-shadow: none;
+}
+
