@@ -1,8 +1,15 @@
+require 'cgi'
 require 'yaml'
 
 module Jekyll
 
   class AppTag < Liquid::Tag
+
+    class AttributeString < String
+      def to_b
+        !match(/^(false|no|0+|)$/i)
+      end
+    end
 
     def initialize(tag_name, text, tokens)
       super
@@ -16,7 +23,6 @@ module Jekyll
   end
 
   class DirectoryIndexTag < AppTag
-
     def render(context)
       site = context.registers[:site]
       page = context['page']
@@ -50,7 +56,9 @@ module Jekyll
             if "#{dir}/#{content}.html" == pg.destination("")
               dest = pg.destination("")
               attr = (page['url'] != dest) ? "" : (@attributes.key?('active') ? " #{@attributes['active']}" : "")
-              html << sprintf('<li%s><a href="%s%s">%s</a></li>', attr, site.config['baseurl'], dest, pg.data['title'])
+              html << sprintf(
+                  '<li%s><a href="%s%s">%s</a></li>',
+                  attr, site.config['baseurl'], dest, CGI.escapeHTML(pg.data['title']))
               break
             end
           end
@@ -63,7 +71,6 @@ module Jekyll
   end
 
   class ToctreeTag < AppTag
-
     def initialize(tag_name, text, tokens)
       super
       @attributes['recursive'] = 'true' unless @attributes.key?('recursive')
@@ -99,11 +106,13 @@ module Jekyll
           if "#{dir}/#{content}.html" == pg.destination("")
             dest = pg.destination("")
             attr = (page['url'] != dest) ? "" : (@attributes.key?('active') ? " #{@attributes['active']}" : "")
-            html << sprintf('<li%s><a href="%s%s">%s</a></li>', attr, site.config['baseurl'], dest, pg.data['title'])
+            html << sprintf(
+                '<li%s><a href="%s%s">%s</a></li>',
+                attr, site.config['baseurl'], dest, CGI.escapeHTML(pg.data['title']))
             break
           end
         end
-        if content.match(/\/index$/) && !@attributes['recursive'].match(/^(false|no|0+|)$/i)
+        if content.match(/\/index$/) && AttributeString.new(@attributes['recursive']).to_b
           html << _render_toctree((dir + "/" + content.gsub(/\/index$/, "")), site, page)
         end
       end
@@ -112,6 +121,10 @@ module Jekyll
   end
 
   class TocrootTag < AppTag
+    def initialize(tag_name, text, tokens)
+      super
+      @attributes['link'] = 'true' unless @attributes.key?('link')
+    end
 
     def render(context)
       site = context.registers[:site]
@@ -128,7 +141,13 @@ module Jekyll
         site.pages.each do |pg|
           if url == pg.destination("")
             pagename = pg.data.key?('title') ? pg.data['title'] : dir
-            html << sprintf('<a href="%s%s">%s</a>', site.config['baseurl'], url, pagename)
+            if AttributeString.new(@attributes['link']).to_b
+              html << sprintf(
+                  '<a href="%s%s">%s</a>',
+                  site.config['baseurl'], url, CGI.escapeHTML(pagename))
+            else
+              html << CGI.escapeHTML(pagename)
+            end
             break
           end
         end
@@ -139,7 +158,6 @@ module Jekyll
   end
 
   class BreadcrumbTag < AppTag
-
     def render(context)
       site = context.registers[:site]
       page = context['page']
@@ -157,12 +175,14 @@ module Jekyll
         site.pages.each do |pg|
           if url == (File.dirname(pg.destination("")).gsub(/\/+$/, "") + "/#{pg.basename}")
             pagename = pg.data.key?('title') ? pg.data['title'] : dir
-            html << sprintf('<li><a href="%s%s/index.html">%s</a>%s</li>', site.config['baseurl'], indexdir, pagename, divider)
+            html << sprintf(
+                '<li><a href="%s%s/index.html">%s</a>%s</li>',
+                site.config['baseurl'], indexdir, CGI.escapeHTML(pagename), divider)
             break
           end
         end
       end
-      html << sprintf('<li>%s</li>', page['title'])
+      html << sprintf('<li>%s</li>', CGI.escapeHTML(page['title']))
 
       html
     end
