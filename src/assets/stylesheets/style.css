@@ -35,10 +35,6 @@ code {
 
 /* Layouts */
 
-body {
-  /* padding-top: 50px; */
-}
-
 #header {
   margin-bottom: 20px;
 }
@@ -59,9 +55,13 @@ body {
 .search form {
   width: 400px !important;
 }
+.search th,
+.search td {
+  margin: 0;
+  padding: 0 4px;
+}
 .search input,
 .search input:focus {
   border: none;
   box-shadow: none;
 }
-
