@@ -36,8 +36,9 @@ module Jekyll
 
         site.pages.each do |page|
           path = File.dirname(page.destination("")).gsub(/\/+$/, "") + "/" + page.name
-          lastmod = FileTest.exist?(site.source + path) ? File.mtime(site.source + path) : Time.now
-          xml << "\n<url><loc>#{baseloc}#{page.destination("")}</loc><lastmod>#{lastmod.strftime("%Y-%m-%dT%H:%M:%S%z")}</lastmod></url>"
+          lastmod = (FileTest.exist?(site.source + path) ? File.mtime(site.source + path) : Time.now)
+            .strftime("%Y-%m-%dT%H:%M:%S%z").gsub(/00$/, ':00')
+          xml << "\n<url><loc>#{baseloc}#{page.destination("")}</loc><lastmod>#{lastmod}</lastmod></url>"
         end
 
         f.write(xml)
