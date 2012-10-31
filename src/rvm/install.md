@@ -54,7 +54,17 @@ title: インストール
     # For JRuby, install the following:
       jruby: yum install -y java
 
-`For Ruby / Ruby HEAD (MRI, Rubinius, & REE), install the following:` にあるパッケージをあらかじめインストールしておきます。`iconv-devel` は `NOTE: For centos >= 5.4 iconv-devel is provided by glibc` とありますので除外します。
+`For Ruby / Ruby HEAD (MRI, Rubinius, & REE), install the following:` にあるパッケージが必要になります。
+
+`libyaml-devel` `libffi-devel` は標準のCentOSパッケージにふくまれていません。EPEL リポジトリを追加しておきます。
+
+    % rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-5
+    # i386(32bit) の場合
+    % rpm -ivh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
+    # x86_64(64bit) の場合
+    % rpm -ivh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm
+
+`iconv-devel` は `NOTE: For centos >= 5.4 iconv-devel is provided by glibc` とありますので除外してインストールします。
 
     % yum install gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison
 

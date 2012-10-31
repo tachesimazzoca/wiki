@@ -91,3 +91,28 @@ DHCPサーバを利用している場合、自動的に設定が書き換わっ�
     % /etc/init.d/yum-updatesd stop
     % chkconfig yum-updatesd off
 
+
+## EPEL リポジトリの追加
+
+    % rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-5
+    # i386(32bit)
+    % rpm -ivh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
+    # x86_64(64bit)
+    % rpm -ivh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm
+
+* /etc/yum.repos.d/epel.repo
+* /etc/yum.repos.d/epel-testing.repo
+
+が追加されます。通常は EPEL は含めないように `enabled=0` としておくとよいでしょう。
+
+    [epel]
+    name=Extra Packages for Enterprise Linux 5 - $basearch
+    #baseurl=http://download.fedoraproject.org/pub/epel/5/$basearch
+    mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-5&arch=$basearch
+    failovermethod=priority
+    enabled=0
+    gpgcheck=1
+    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL
+
+    ....
+
