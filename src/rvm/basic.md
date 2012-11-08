@@ -10,14 +10,20 @@ title: 基本操作
     # インストール可能なバージョンを確認
     % rvm list known
 
+
 ## 指定バージョンのインストール
 
 `rvm install (パッケージ名)` で、指定バージョンのソース取得/ビルド/パッチまで行ってくれます。`~/.rvm/rubies/` に保存されます。
 
     % rvm install ruby-1.8.7
     ...
-    % rvm install ruby-1.9.2
+    % rvm install ruby-1.9.3
     ...
+
+`-C` により configure オプションを指定できます。
+
+    % rvm install ruby-1.9.3 -C --with-opt-dir=$HOME/.rvm/usr
+
 
 ## バージョン切替
 
@@ -46,14 +52,16 @@ title: 基本操作
     RUBY_VERSION=ruby-1.8.7-p358
     ...
 
-## ライブラリの手動追加
 
-`rvm requirements` により確認できる必要なパッケージがインストールされていないと、ライブラリ不足でエラーとなります。この場合は、ライブラリを手動で再インストールすることで解決します。
+## 拡張ライブラリ
 
-    % yum install openssl-devel
+ライブラリを rvm ディレクトリ以下にソースインストールする方法です。
 
-    % cd ~/.rvm/src/ruby-1.8.7-p358/ext/openssl
-    % ruby extconf.rb
-    % make
-    % make install
+    % rvm pkg install openssl 
+    % rvm reinstall 1.9.3 -C --with-openssl-dir=$HOME/.rvm/usr
+
+インストール済みのパスを指定することもできます。
+
+    % rvm reinstall 1.9.3 -C --with-openssl-dir=/usr/local
+
 
