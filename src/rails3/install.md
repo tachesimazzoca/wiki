@@ -1,33 +1,75 @@
 ---
 layout: page
 
-title: Install
+title: インストール
 ---
 
-## RVM + Bundler
+## rvm + ruby-1.9.x
 
-RVM と Bundler を使ってプロジェクト毎に Rails 環境を作る手順です。`rvm gemset` で gem を管理する方法もありますが、本セクションでは RVM は Ruby のバージョン切替のみに利用し、プロジェクトに依存する gem は Bundler で管理します。
+Rails3 には Ruby 1.9 が必要です。rvm でインストールする手順です。
 
-Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いておくことで、同ディレクトリに `cd` した時に初期コマンドとして読み込まれます。
+    % curl -L "get.rvm.io" | bash -s stable
+
+    # rvm requirements:
+    % yum install gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison
+
+    # nokogiri:
+    % yum install libxml2-devel libxslt-devel 
+
+    % rvm install 1.9.3 -C --with-opt-dir=$HOME/.rvm/usr
+    % rvm use 1.9.3 
+
+
+## bundler 
+
+bundler を使って Rails 環境を作る手順です。gem パッケージをプロジェクトディレクトリ内に持ちます。
+
+Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いておきます。この方法で常に ruby-1.9.x に切り替わるようにしておきます。
 
     % mkdir /path/to/rails/sandbox
     % cd /path/to/rails/sandbox
     % vi .rvmrc
-    rvm use 1.9.2
+    rvm use 1.9.3
 
-    # cd した時に .rvmrc が読み込まれます。初回は Warning が表示されます。
+    # cd . した時に .rvmrc が読み込まれます。初回は Warning が表示されます。
     % cd .
     ...
     y[es], n[o], v[iew], c[ancel]> y
-    Using .../.rvm/gems/ruby-1.9.2-p320
+    Using .../.rvm/gems/ruby-1.9.3-p286
 
-始めに `rails` のみインストールする `Gemfile` を作成します。
+`Gemfile` を作成します。
 
     source 'https://rubygems.org'
+    
+    gem 'therubyracer'
+    gem 'unicorn'
+    
+    gem 'rails', '3.2.8'
 
-    gem 'rails', '3.2.6'
+    gem 'mysql2'
+    
+    # Gems used only for assets and not required
+    # in production environments by default.
+    group :assets do
+      gem 'sass-rails', '3.2.5'
+      gem 'coffee-rails', '3.2.2'
+      gem 'uglifier', '1.2.3'
+    end
 
-`bundle` コマンドでインストールします。`--path` オプションでプロジェクトディレクトリ直下の `vendor/bundle` にインストールするようにします。
+    gem 'jquery-rails', '2.0.2'
+    
+    group :development, :test do
+      gem 'rspec-rails', '2.11.0'
+    end
+
+上記例は以下のパッケージ構成になります。
+
+* JavaScript runtime に `therubyracer` を利用 
+* アプリケーションサーバに `unicorn` を利用
+* データベースに `mysql` を利用
+* テストツールに `rspec` を利用
+
+`bundle install` で gem パッケージをインストールします。`--path` オプションで `vendor/bundle` 以下にインストールするようにします。
 
     % ls -a
     . .. .rvmrc Gemfile
@@ -43,66 +85,79 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
     % ls -a
     . .. .bundle/ .rvmrc Gemfile Gemfile.lock vendor/
 
-Bundler でインストールした `rails` コマンドは `bundle exec` を付与して実行できます。
+`rails` コマンドは `bundle exec` を付与して実行できます。
 
     % rails --version
     /usr/bin/which: no rails in ..
     # bundle exec 経由で rails コマンドが実行できます。
     % bundle exec rails --version
-    Rails 3.2.6
+    Rails 3.2.8
 
-`rails new (プロジェクト名)` でプロジェクトを作成します。`Gemfile` が上書き確認されますので `Y - yes` を選択します。
+カレントディレクトリに Rails プロジェクトを作成します。
 
-    # カレントディレクトリに mysql 利用の rails プロジェクトを作成
-    % bundle exec rails new . -d mysql
+    # -d 利用するデータベースを指定
+    # --skip-test-unit テストツールに Test::Unit を利用しない
+    % bundle exec rails new . -d mysql --skip-test-unit
            exist
           create  README.rdoc
           create  Rakefile
           create  config.ru
           create  .gitignore
+
+`Gemfile` の上書きが確認されますが `n - No` を選択します。
+
         conflict  Gemfile
     Overwrite /path/to/rails/sandbox/Gemfile? (enter "h" for help) [Ynaqdh]
 
-`jquery-rails` が見つからないと言われますが、もう一度 `bundle install` するとインストールできます。
+`rails server` でサーバを起動します。`http://(ホスト名):3000` で確認できます。
 
-    ..../.rvm/gems/ruby-1.9.2-p320@global/gems/bundler-1.1.4/lib/bundler/resolver.rb:287:in `resolve': Could not find gem 'jquery-rails (>= 0) ruby' in the gems available on this machine. (Bundler::GemNotFound)
-
-    % bundle install
-
-`config/database.yml` を利用データベース環境に合わせて設定します。設定したユーザに権限があれば `rake db:create` でデータベースを作成することもできます。
-
-    % vim config/database.yml
-    ...
-    % bundle exec rake db:create
-    % echo "SHOW DATABASES" | mysql -u root
-    ...
-    sandbox_develpment
-    sandbox_test
-    ...
-
-V8 Node.js などの Javascript runtime がないと `rake` コマンドでエラーとなります。
-
-    % bundle exec rake db:create
-    rake aborted!
-    Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
-
-この場合は `Gemfile` に `therubyracer` (Google V8)を追加して `bundle install` します。
-
-    % vim Gemfile
-    ...
-    gem "therubyracer"
-    ...
-
-    % bundle install
-    Installing libv8 (3.3.10.4)
-    ...
-    Installing therubyracer (0.10.1) with native extensions
-    ...
-
-    % bundle exec rake db:create
-
-`rails server` でサーバを起動します。
-
-    # http://(ホスト名):3000/ で確認できます。
     % bundle exec rails server
+
+`CTRL-C` でアプリケーションサーバを停止します。
+
+## unicorn
+
+`rails server` で起動するアプリケーションサーバは WEBrick で実用レベルではありません。代わりに unicorn を利用します。
+
+    # gem パッケージに含まれていなければ追加します
+    % vi Gemfile
+    ...
+    gem 'unicorn'
+
+    % bundle update
+
+`config/unicorn.rb` として設定ファイルを作成します。
+
+    worker_processes 2
+    
+    stderr_path File.expand_path('../../log/unicorn.log', __FILE__)
+    stdout_path File.expand_path('../../log/unicorn.log', __FILE__)
+    
+    preload_app false
+
+unicorn を起動します。`http://(ホスト名):8080` で確認できます。
+
+    # -c 設定ファイルへのパス
+    # -D デーモン起動
+    % bundle exec unicorn -c config/unicorn.rb -D
+
+unicorn を再起動するには、親プロセスに `-HUP` シグナルを送ります。
+
+    % pgrep -f 'unicorn master' | xargs kill -HUP
+
+unicorn を停止するには、親プロセスに `-QUIT` シグナルを送ります。
+
+    % pgrep -f 'unicorn master' | xargs kill -QUIT
+
+以下のような Makefile を作成し make コマンドで起動/停止できるようにしておくとよいでしょう。
+
+    all:
+        @echo "Usage: make (start|stop|restart)"
+    start:
+        @bundle exec unicorn -c config/unicorn.rb -D
+    stop:
+        @pgrep -f 'unicorn master' | xargs kill -QUIT
+    restart:
+        @pgrep -f 'unicorn master' | xargs kill -HUP
+
 
