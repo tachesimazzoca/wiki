@@ -35,6 +35,7 @@ module Jekyll
         xml = ""
 
         site.pages.each do |page|
+          next unless page.destination("").match(/\.html$/)
           path = File.dirname(page.destination("")).gsub(/\/+$/, "") + "/" + page.name
           lastmod = (FileTest.exist?(site.source + path) ? File.mtime(site.source + path) : Time.now)
             .strftime("%Y-%m-%dT%H:%M:%S%z").gsub(/00$/, ':00')
