@@ -1,6 +1,8 @@
+---
+---
 @charset "utf-8";
 
-/* Globals */
+@import "mixins/font-family";
 
 h1 {
   margin: 12px 0;
@@ -30,10 +32,8 @@ h4, h5, h6 {
 }
 
 code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  @include font-family("monospace");
 }
-
-/* Layouts */
 
 #header {
   margin-bottom: 20px;
@@ -52,16 +52,17 @@ code {
   padding: 8px 0;
 }
 
-.search form {
-  width: 400px !important;
+.search {
+  form {
+    width: 400px !important;
+  }
+  th, td {
+    margin: 0;
+    padding: 0 4px;
+  }
+  input, input:focus {
+    border: none;
+    box-shadow: none;
+  }
 }
-.search th,
-.search td {
-  margin: 0;
-  padding: 0 4px;
-}
-.search input,
-.search input:focus {
-  border: none;
-  box-shadow: none;
-}
+

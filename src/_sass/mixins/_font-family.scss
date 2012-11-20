@@ -1,0 +1,10 @@
+@mixin font-family($type, $important: false) {
+  @if $important == 'important' or $important == true {
+    $important: ' !important';
+  } @else {
+    $important: '';
+  }
+  @if $type == 'monospace' {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+  }
+}
