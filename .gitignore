@@ -4,3 +4,4 @@
 /vendor
 /Gemfile.lock
 /src/_site
+/src/.sass-cache
