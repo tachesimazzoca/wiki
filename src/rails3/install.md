@@ -41,12 +41,12 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
 
     source 'https://rubygems.org'
     
-    gem 'therubyracer'
-    gem 'unicorn'
+    gem 'therubyracer', '0.10.2'
+    gem 'unicorn', '4.4.0'
     
     gem 'rails', '3.2.8'
 
-    gem 'mysql2'
+    gem 'mysql2', '0.3.11'
     
     # Gems used only for assets and not required
     # in production environments by default.
@@ -60,14 +60,20 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
     
     group :development, :test do
       gem 'rspec-rails', '2.11.0'
+      gem 'spork', '0.9.2'
+    end
+
+    group :development do
+      gem 'pry-rails', '0.2.2'
     end
 
 上記例は以下のパッケージ構成になります。
 
 * JavaScript runtime に `therubyracer` を利用 
 * アプリケーションサーバに `unicorn` を利用
-* データベースに `mysql` を利用
-* テストツールに `rspec` を利用
+* データベースに `mysql2` を利用
+* テストツールに `rspec-rails` `spork` を利用
+* コンソールに `pry-rails` を利用
 
 `bundle install` で gem パッケージをインストールします。`--path` オプションで `vendor/bundle` 以下にインストールするようにします。
 

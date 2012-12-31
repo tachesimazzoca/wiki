@@ -1,7 +1,7 @@
 ---
 layout: page 
 
-title: ビュー生成
+title: Views 
 ---
 
 ## ERB テンプレート 
