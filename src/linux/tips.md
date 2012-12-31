@@ -56,8 +56,17 @@ title: Tips
 
 ## システム言語の設定
 
+    # 利用可能な ja_JP ロケールを確認
+    % locale -a | grep ja_JP
+    % ja_JP
+    % ja_JP.eucjp
+    % ja_JP.ujis
+    % ja_JP.utf8
+
+    # ja_JP.utf8 を指定 
     % vim /etc/sysconfig/i18n
-    LANG="ja_JP.UTF-8"
+    LANG="ja_JP.utf8"
+    LC_CTYPE="ja_JP.utf8"
 
 
 ## ネームサーバ指定
