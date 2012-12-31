@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: TIPS 
+title: TIPS
 ---
 
 ## ruby-1.9.3 で yaml.rb の Warning
@@ -13,6 +13,6 @@ ruby-1.9.3 より YAML パーサに [psych](http://doc.ruby-lang.org/ja/1.9.3/li
 
 RVM は libyaml を `~/.rvm/usr` 以下にソースインストールしてくれるのですが、バージョンによってはコンパイルオプションが正常に渡らない場合があります。この場合は明示的にパス指定してインストールしなおします。
 
-    % rvm pkg install libyaml 
+    % rvm pkg install libyaml
     % rvm reinstall 1.9.3 -C --with-libyaml-dir=$HOME/.rvm/usr
 

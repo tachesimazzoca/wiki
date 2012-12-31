@@ -3,7 +3,7 @@ layout: page
 
 title: RSpec Rails + Spork
 ---
-## 概要 
+## 概要
 
 * [RSpec Rails](https://github.com/rspec/rspec-rails)
 * [Spork](https://github.com/sporkrb/spork)
@@ -37,20 +37,20 @@ title: RSpec Rails + Spork
     Spork.prefork do
       # Spork サーバ起動時の処理を記述
     end
-    
+
     Spork.each_run do
-      # テスト毎に実行する処理を記述 
+      # テスト毎に実行する処理を記述
     end
 
 必要に応じて、`Spork.prefork` `Spork.each_run` のブロックに初期化処理を記述しておきます。
 
-## テストの実行 
+## テストの実行
 
 あらかじめ、テストサーバ Spork を起動しておきます。
 
-    % bundle exec spork 
+    % bundle exec spork
 
 `--drb` オプションを付けることで、テストサーバ経由で `rspec` を実行します。
 
-    % bundle exec rspec --drb /path/to/spec 
+    % bundle exec rspec --drb /path/to/spec
 

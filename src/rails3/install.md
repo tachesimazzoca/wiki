@@ -14,13 +14,13 @@ Rails3 には Ruby 1.9 が必要です。rvm でインストールする手順�
     % yum install gcc-c++ patch readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison
 
     # nokogiri:
-    % yum install libxml2-devel libxslt-devel 
+    % yum install libxml2-devel libxslt-devel
 
     % rvm install 1.9.3 -C --with-opt-dir=$HOME/.rvm/usr
-    % rvm use 1.9.3 
+    % rvm use 1.9.3
 
 
-## bundler 
+## bundler
 
 bundler を使って Rails 環境を作る手順です。gem パッケージをプロジェクトディレクトリ内に持ちます。
 
@@ -40,14 +40,14 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
 `Gemfile` を作成します。
 
     source 'https://rubygems.org'
-    
+
     gem 'therubyracer', '0.10.2'
     gem 'unicorn', '4.4.0'
-    
+
     gem 'rails', '3.2.8'
 
     gem 'mysql2', '0.3.11'
-    
+
     # Gems used only for assets and not required
     # in production environments by default.
     group :assets do
@@ -57,7 +57,7 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
     end
 
     gem 'jquery-rails', '2.0.2'
-    
+
     group :development, :test do
       gem 'rspec-rails', '2.11.0'
       gem 'spork', '0.9.2'
@@ -69,7 +69,7 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
 
 上記例は以下のパッケージ構成になります。
 
-* JavaScript runtime に `therubyracer` を利用 
+* JavaScript runtime に `therubyracer` を利用
 * アプリケーションサーバに `unicorn` を利用
 * データベースに `mysql2` を利用
 * テストツールに `rspec-rails` `spork` を利用
@@ -135,10 +135,10 @@ Rails プロジェクトのディレクトリ直下に `.rvmrc` を置いてお�
 `config/unicorn.rb` として設定ファイルを作成します。
 
     worker_processes 2
-    
+
     stderr_path File.expand_path('../../log/unicorn.log', __FILE__)
     stdout_path File.expand_path('../../log/unicorn.log', __FILE__)
-    
+
     preload_app false
 
 unicorn を起動します。`http://(ホスト名):8080` で確認できます。

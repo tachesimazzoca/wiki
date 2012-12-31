@@ -1,10 +1,10 @@
 ---
-layout: page 
+layout: page
 
-title: Views 
+title: Views
 ---
 
-## ERB テンプレート 
+## ERB テンプレート
 
 ビュー生成には ERB が用いられます。PHP のように Ruby 構文を含めることができます。
 
@@ -32,7 +32,7 @@ Rails3 からはデフォルトでHTMLエスケープされた結果が出力さ
 
 ## テンプレートからレイアウトテンプレートにコンテンツを渡す
 
-* [ActionView::Helpers::CaptureHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/CaptureHelper.html) 
+* [ActionView::Helpers::CaptureHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/CaptureHelper.html)
 
 `content_for` メゾッドを使います。
 
@@ -61,7 +61,7 @@ Rails3 からはデフォルトでHTMLエスケープされた結果が出力さ
 
 ## 他ファイルのインクルード
 
-* [ActionView::Helpers::RenderingHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/RenderingHelper.html) 
+* [ActionView::Helpers::RenderingHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/RenderingHelper.html)
 * [ActionView::PartialRenderer](http://api.rubyonrails.org/classes/ActionView/PartialRenderer.html)
 
 `render` メゾッドにより他のファイルを差し込むことができます。
@@ -100,7 +100,7 @@ partial_name を明示的に指定するには `:as` で指定します。
 
 ## URLの一元管理
 
-* [ActionView::Helpers::UrlHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html) 
+* [ActionView::Helpers::UrlHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)
 
 `url_for` メゾッドで `config/routes.rb` で設定したマッピングで URL を取得できます。
 

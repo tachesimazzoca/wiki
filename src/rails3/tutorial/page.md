@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: HTMLページ出力 
+title: HTMLページ出力
 ---
 
 ## ページ出力フロー
@@ -27,7 +27,7 @@ title: HTMLページ出力
 `app/controllers/pages_controller.rb` を作成し home メゾッドを定義します。
 
     class PagesController < ApplicationController
-      def home 
+      def home
       end
     end
 
@@ -51,13 +51,13 @@ title: HTMLページ出力
 
 `/pages/home` または `/pages/home.html` で作成したページが表示されることがわかります。
 
-このページをルートURL `/` で表示させてみましょう。`public/index.html` が存在するとこのファイルが表示されますので削除しておきます。 
+このページをルートURL `/` で表示させてみましょう。`public/index.html` が存在するとこのファイルが表示されますので削除しておきます。
 
     % rm public/index.html
 
 `root :to => '(:controller)#(:action)'` と指定すると、URL `/` で表示されることが確認できます。
 
     Sandbox::Application.routes.draw do
-      root :to => 'pages#home' 
+      root :to => 'pages#home'
     end
 

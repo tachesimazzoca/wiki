@@ -1,14 +1,14 @@
 ---
-layout: page 
+layout: page
 
 title: データベース操作
 ---
-## データベース設定 
+## データベース設定
 
 `config/database.yml` にデータベースの設定を記述します。
 
 `mysql2` アダプタを用いた場合の記述例です。
-    
+
     development:
       adapter: mysql2
       encoding: utf8
@@ -18,24 +18,24 @@ title: データベース操作
       username: root
       password:
       socket: /var/lib/mysql/mysql.sock
-    
+
     test:
       adapter: mysql2
       encoding: utf8
       reconnect: false
       database: sandbox_test
       pool: 5
-      username: root 
+      username: root
       password:
       socket: /var/lib/mysql/mysql.sock
-    
+
     production:
       adapter: mysql2
       encoding: utf8
       reconnect: false
       database: sandbox
       pool: 5
-      username: root 
+      username: root
       password:
       socket: /var/lib/mysql/mysql.sock
 
@@ -56,7 +56,7 @@ title: データベース操作
 
 [ActiveRecord::Migration](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) の仕組みを用いてデータベース管理を容易にします。
 
-### データベース作成/削除 
+### データベース作成/削除
 
 設定したユーザに、データベース作成権限があれば、`rake` コマンドで作成/削除ができます。
 
@@ -65,7 +65,7 @@ title: データベース操作
     # データベース削除
     % bundle exec rake db:drop
 
-### テーブル作成 
+### テーブル作成
 
 `db/migrate/(バージョン番号)_create_(テーブル名).rb` の命名規則でファイルを作成します。
 
@@ -79,7 +79,7 @@ title: データベース操作
           t.string :code, :null => false, :default => ''
           t.string :name, :null => false, :default => ''
           t.text :description
-          t.integer :price, :null => false, :default => 0 
+          t.integer :price, :null => false, :default => 0
           t.datetime :open_date
           t.datetime :close_date
           t.timestamp :deleted_at
@@ -93,7 +93,7 @@ title: データベース操作
 
     % bundle exec rake db:migrate
 
-間違えた場合は `db:rollback` でやり直すことができます。 
+間違えた場合は `db:rollback` でやり直すことができます。
 
     % bundle exec rake db:rollback
     % vim db/migrate/1_create_products.rb

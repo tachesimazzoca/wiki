@@ -1,7 +1,7 @@
 ---
 layout: index
 
-title: gitolite 
+title: gitolite
 ---
 
 **gitolite**

@@ -57,7 +57,7 @@ title: 基本操作
 
 ライブラリを rvm ディレクトリ以下にソースインストールする方法です。
 
-    % rvm pkg install openssl 
+    % rvm pkg install openssl
     % rvm reinstall 1.9.3 -C --with-openssl-dir=$HOME/.rvm/usr
 
 インストール済みのパスを指定することもできます。

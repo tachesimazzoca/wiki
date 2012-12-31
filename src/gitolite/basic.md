@@ -17,7 +17,7 @@ title: 基本操作
 
     host gitolite-admin
         user gitolite
-        hostname gitolite.example.net 
+        hostname gitolite.example.net
         port 22
         identityfile ~/.ssh/gitolite_admin.pem
 
@@ -26,7 +26,7 @@ title: 基本操作
     % git clone ssh://gitolite-admin/gitolite-admin.git
 
 
-## ユーザ追加 
+## ユーザ追加
 
 ユーザごとに SSH 鍵を作成します。
 
@@ -40,7 +40,7 @@ title: 基本操作
     % cd /path/to/gitolite-admin/keydir
     % cp /path/to/new/id_rsa.pub staff.pub
     % git add staff.pub
-    % git commit -m 'Add user staff' 
+    % git commit -m 'Add user staff'
 
 ユーザ側は秘密鍵を使ってアクセスできるようになります。
 
@@ -54,18 +54,18 @@ title: 基本操作
         identityfile ~/.ssh/staff.pem
 
     ...
-   
+
     % git clone ssh://gitolite-staff/testing.git
 
- 
+
 ## 権限設定
 
 `gitolite-admin/conf/gitolite.conf` を編集し push することで反映されます。
 
     repo    gitolite-admin
-            RW+     = admin 
+            RW+     = admin
 
-    repo    testing 
-            RW+     = @all 
+    repo    testing
+            RW+     = @all
 
 

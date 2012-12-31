@@ -1,9 +1,9 @@
 ---
 layout: page
 
-title: Pry 
+title: Pry
 ---
-## 概要 
+## 概要
 
 * [Pry](http://pryrepl.org/)
 
@@ -13,7 +13,7 @@ title: Pry
       gem 'pry-rails', '0.2.2'
     end
 
-## 使い方 
+## 使い方
 
 `rails console` コマンドで `irb` の代わりに `pry` が起動します。
 

@@ -63,7 +63,7 @@ title: Tips
     % ja_JP.ujis
     % ja_JP.utf8
 
-    # ja_JP.utf8 を指定 
+    # ja_JP.utf8 を指定
     % vim /etc/sysconfig/i18n
     LANG="ja_JP.utf8"
     LC_CTYPE="ja_JP.utf8"
