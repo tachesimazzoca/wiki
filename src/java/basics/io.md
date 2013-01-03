@@ -24,12 +24,12 @@ title: 入出力
     fos.close();
     fis.close();
 
-を用いて、バッファを介して読み書きすることができます。
+上記例では１バイトづつ読み書きを行っていますので非効率です。
 
 * [java.io.BufferedInputStream](http://docs.oracle.com/javase/6/docs/api/java/io/BufferedInputStream.html)
 * [java.io.BufferedOutputStream](http://docs.oracle.com/javase/6/docs/api/java/io/BufferedOutputStream.html)
 
-を用いて、バッファを介することで読み書き回数を減らすようにします。
+を用いて、バッファを介して読み書きすることができます。
 
     FileInputStream fis = new FileInputStream("/path/to/input.dat");
     BufferedInputStream bis = new BufferedInputStream(fis);
