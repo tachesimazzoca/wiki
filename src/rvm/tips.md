@@ -3,6 +3,13 @@ layout: page
 
 title: TIPS
 ---
+## screen 上で利用
+
+[Using RVM inside GNU Screen](https://rvm.io/workflow/screen/)
+
+`~/.screenrc` に以下のコマンドを設定する
+
+    shell -${SHELL}
 
 ## ruby-1.9.3 で yaml.rb の Warning
 
