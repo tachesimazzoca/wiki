@@ -3,7 +3,7 @@ layout: page
 
 title: 入出力
 ---
-## バイトストリーム 
+## バイトストリーム
 
 * [java.io.InputStream](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)
 * [java.io.OutputStream](http://docs.oracle.com/javase/6/docs/api/java/io/OutputStream.html)
@@ -41,7 +41,7 @@ title: 入出力
     while ((len = bis.read(buf)) != -1) {
         for (int i = 0; i < len; i++) {
             System.out.print(String.format("%02X ", buf[i]));
-        }   
+        }
         System.out.println();
 
         bos.write(buf, 0, len);
@@ -57,7 +57,7 @@ title: 入出力
 * `BufferedOutputStream#flush` メゾッドにより、任意のタイミングでバッファを出力
 * `BufferedOutputStream#close` メゾッドにより、ストリームを閉じる際にバッファを出力
 
-## 文字ストリーム 
+## 文字ストリーム
 
 Java では文字データは Unicode で扱われます。Unicode 以外の文字は、システムのエンコード方式 `System.getProperty("file.encoding")` に従い変換されます。
 
@@ -71,13 +71,13 @@ Java では文字データは Unicode で扱われます。Unicode 以外の文�
     InputStreamReader isr = new InputStreamReader(fis, "EUC-JP");
     FileOutputStream fos = new FileOutputStream("/path/to/utf8.txt");
     OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
-    
-    int chr; 
+
+    int chr;
     while ((chr = isr.read()) != -1) {
         System.out.println(String.format("%c", chr));
         osw.write(chr);
-    }   
-    
+    }
+
     osw.close();
     isr.close();
 
@@ -94,7 +94,7 @@ Java では文字データは Unicode で扱われます。Unicode 以外の文�
     FileOutputStream fos = new FileOutputStream("/path/to/utf8.txt");
     OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
     BufferedWriter bw = new BufferedWriter(osw);
-    
+
     char[] cbuf = new char[8]; // 8文字づつ読み込み
     int len;
     while ((len = br.read(cbuf)) != -1) {
@@ -102,10 +102,10 @@ Java では文字データは Unicode で扱われます。Unicode 以外の文�
             System.out.print(String.format("%c", cbuf[i]));
         }
         System.out.println();
-    
+
         bw.write(cbuf, 0, len);
     }
-    
+
     bw.flush(); // 溜めているバッファを出力します。
     bw.close();
     br.close();

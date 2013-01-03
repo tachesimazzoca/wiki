@@ -1,5 +1,5 @@
 ---
 layout: directory
 
-title: Basics 
+title: Basics
 ---
