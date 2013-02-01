@@ -103,11 +103,11 @@ DHCPサーバを利用している場合、自動的に設定が書き換わっ�
 
 ## EPEL リポジトリの追加
 
-<http://dl.fedoraproject.org/pub/epel/> より `epel-release` パッケージをインストールします。 
+<http://dl.fedoraproject.org/pub/epel/> より `epel-release` パッケージをインストールします。
 
 あらかじめ GPG キー `http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-*` をインポートしておきます。
 
-    # CentOS6系の場合 
+    # CentOS6系の場合
     % rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-6
 
 `http://dl.fedoraproject.org/pub/epel/(バージョン番号)/(i386|x86_64)/epel-release.html` よりパッケージ名を確認して rpm インストールします。
