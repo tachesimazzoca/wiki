@@ -60,6 +60,12 @@ layout: global
           </div>
         </div>
         <div class="span9">
+          {% capture src %}{{ page.url | replace:'.html','.md' }}{% endcapture %}
+          <div class="btn-group pull-right">
+            <a class="btn" href="https://raw.github.com/tachesimazzoca/wiki/master/src{{ src }}">Raw</a>
+            <a class="btn" href="https://github.com/tachesimazzoca/wiki/blame/master/src{{ src }}">Blame</a>
+            <a class="btn" href="https://github.com/tachesimazzoca/wiki/commits/master/src{{ src }}">History</a>
+          </div>
           <div id="content">
           <h1>{{ page.title | escape }}</h1>
           <div id="toc">
