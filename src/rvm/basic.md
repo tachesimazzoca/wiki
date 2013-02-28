@@ -31,9 +31,9 @@ title: 基本操作
     % ruby --version
     ruby 1.8.7 (2012-02-08 patchlevel 358) [i686-linux]
 
-    % rvm use ruby-1.9.2
+    % rvm use ruby-1.9.3
     % ruby --version
-    ruby 1.9.2p320 (2012-04-20 revision 35421) [i686-linux]
+    ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-linux]
 
 環境変数の書き換えにより、バージョン切り換えが行われていることがわかります。
 
@@ -52,6 +52,12 @@ title: 基本操作
     RUBY_VERSION=ruby-1.8.7-p358
     ...
 
+`.rvmrc` をディレクトリに設置しておくと `cd` 時にシェルスクリプトとして読み込まれます。`rvm use` を記述しておくことで切り替えを自動化できます。
+
+    % cd /path/to/rvm/project
+    % echo 'rvm use 1.9.3' > .rvmrc
+    % cd .
+    Using /home/dev/.rvm/gems/ruby-1.9.3-p392
 
 ## 拡張ライブラリ
 
