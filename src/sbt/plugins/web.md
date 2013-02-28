@@ -6,7 +6,7 @@ title: xsbt-web-plugin
 
 ## Dependencies
 
-<https://github.com/siasia/xsbt-web-plugin>
+<https://github.com/JamesEarlDouglas/xsbt-web-plugin>
 
 `build.sbt`:
 
@@ -25,6 +25,7 @@ title: xsbt-web-plugin
       case "0.11.1" => "com.github.siasia" %% "xsbt-web-plugin" % "0.11.1-0.2.10"
       case "0.11.2" => "com.github.siasia" %% "xsbt-web-plugin" % "0.11.2-0.2.11"
       case "0.11.3" => "com.github.siasia" %% "xsbt-web-plugin" % "0.11.3-0.2.11.1"
+      case x if (x.startsWith("0.12")) => "com.github.siasia" %% "xsbt-web-plugin" % "0.12.0-0.2.11.1"
     })
 
 
@@ -105,6 +106,14 @@ sbt コンソールから `container:start` で Jetty を起動します。
 
 
 生成される .war ファイル名にバージョン情報が付与されるのを回避するには、`build.sbt` に以下の行を追加して `artifactName` 値でパッケージ名のフォーマットを変更します。
+
+0.12.x 系では artifactName の型は `(ScalaVersion, ModuleID, Artifact) => String` になります。
+
+    artifactName := { (config:ScalaVersion, module:ModuleID, artifact:Artifact) =>
+      artifact.name + "." + artifact.extension
+    }
+
+0.11.x 系では artifactName の型は `(String, ModuleID, Artifact) => String` になります。
 
     artifactName := { (config:String, module:ModuleID, artifact:Artifact) =>
       artifact.name + "." + artifact.extension

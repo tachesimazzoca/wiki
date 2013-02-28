@@ -4,9 +4,9 @@ layout: index
 title: sbt
 ---
 
-**sbt, a build tool for Scala**
+**sbt**
 
-<https://github.com/harrah/xsbt>
+<http://www.scala-sbt.org/>
 
 **始める sbt**
 

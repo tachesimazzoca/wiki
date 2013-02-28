@@ -28,7 +28,7 @@ title: 基本操作
 
 `project/build.properties` に sbt の情報を記載しておきます。
 
-    sbt.version=0.11.3
+    sbt.version=0.12.0
 
 ソースは `src/main/(java|scala)` に置きます。`src/main/scala/Sandbox.scala` を作成してみます。
 

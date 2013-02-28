@@ -3,7 +3,6 @@ layout: page
 
 title: インストール
 ---
-
 ## Unix
 
 以下の2つのファイルが必要になります。
@@ -11,9 +10,9 @@ title: インストール
 * `sbt-launch.jar`
 * `sbt-launch.jar` を起動するシェルスクリプト = `sbt` コマンド
 
-`sbt-launch.jar` は [typesafe のリポジトリ](http://typesafe.artifactoryonline.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/) から取得します。
+`sbt-launch.jar` を [typesafe のリポジトリ](http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.12.2/) から取得します。
 
-    % curl -LO "http://typesafe.artifactoryonline.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.11.3-2/sbt-launch.jar"
+    % curl -LO "http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.12.2/sbt-launch.jar"
 
 同ディレクトリに、以下のシェルスクリプトで `sbt-launch.jar` を起動する `sbt` コマンドを作成します。
 
@@ -35,4 +34,10 @@ title: インストール
     % source ~/.bash_profile
     % which sbt
     ~/.sbt/bin/sbt
+
+## Links
+
+### Setup - sbt Documentation
+
+* <http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html>
 
