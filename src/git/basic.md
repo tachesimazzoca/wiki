@@ -37,6 +37,25 @@ title: 基本操作
     % git commit -a
 
 
+## タグ
+
+バージョンのタグについては `-a` オプションで注釈つきでタグをつける方法を推奨します。
+
+     % git tag -a v1.0 -m "version 1.0"
+
+コミットへのポインタのみのタグを作成することもできます。作業時など単に特定リビジョンをマークしたい場合に便利です。
+
+    % git tag 20120123-01
+
+リモートリポジトリにはタグは送信されません。タグを `push` する必要があります。
+
+    # タグ v1.0 をリモート origin に送信
+    % git push origin v1.0
+
+    # ローカルリポジトリの全てのタグを origin に送信
+    % git push origin --tags
+
+
 ## 差分比較
 
 <table class="table table-bordered table-striped">
