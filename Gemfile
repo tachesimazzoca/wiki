@@ -5,5 +5,5 @@ gem 'rdiscount', '1.6.8'
 gem 'sass', '3.2.3'
 
 group :development do
-  gem 'guard-shell'
+  gem 'guard-shell', '0.5.1'
 end
