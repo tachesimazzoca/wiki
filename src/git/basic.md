@@ -1,10 +1,10 @@
 ---
 layout: page
 
-title: 基本操作
+title: Basic
 ---
 
-## リポジトリの作成
+## init
 
     % cd /path/to/git/project
     % git init
@@ -13,13 +13,13 @@ title: 基本操作
     . .. .git
 
 
-## ユーザ情報の登録
+## config
 
     % git config user.name "Taro Yamada"
     % git config user.email "yamada@example.net"
 
 
-## コミット
+## commit
 
     # コミット候補を追加
     % git add a.txt
@@ -37,7 +37,7 @@ title: 基本操作
     % git commit -a
 
 
-## タグ
+## tag
 
 バージョンのタグについては `-a` オプションで注釈つきでタグをつける方法を推奨します。
 
@@ -56,7 +56,7 @@ title: 基本操作
     % git push origin --tags
 
 
-## ログ
+## log
 
 ログのフォーマットを指定することができます。
 
@@ -66,7 +66,7 @@ title: 基本操作
     % man git-log
 
 
-## 表示
+## show
 
 `git show (リビジョン):(ファイル名)` で特定リビジョンのファイルを表示できます。
 
@@ -75,7 +75,7 @@ title: 基本操作
     # コミット deadbeef.... の ./README.md を表示
     % git show deadbeef:./README.md
 
-## 差分比較
+## diff
 
 <table class="table table-bordered table-striped">
 <tr>
@@ -93,7 +93,7 @@ title: 基本操作
 </table>
 
 
-## ブランチ操作
+## branch
 
     # 現在のブランチを確認
     % git branch
@@ -132,7 +132,7 @@ title: 基本操作
     % git branch -d current
 
 
-## リモート操作
+## Working with Remotes
 
     # リモートを確認
     % git remove -v
@@ -186,3 +186,12 @@ title: 基本操作
     % git push origin :development
 
 
+## History
+
+To rewrite Git history, Use `filter-branch` like this.
+
+    % git filter-branch --commit-filter '
+    GIT_AUTHOR_NAME="Foo Bar"
+    GIT_AUTHOR_EMAIL="foo@example.net"
+    git commit-tree "$@"
+    ' HEAD
