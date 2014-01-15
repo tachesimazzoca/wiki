@@ -1,4 +1,5 @@
 *~
+/.ruby-version
 /.rvmrc
 /.bundle
 /vendor
