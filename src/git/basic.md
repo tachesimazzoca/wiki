@@ -36,6 +36,17 @@ title: Basic
     # 全ての追跡対象ファイルを ad したのち commit することと同義
     % git commit -a
 
+## clean
+
+カレントディレクトリ以下の追跡対象外のファイルを削除します。
+
+    # 未追跡ファイル/ディレクトリを確認
+    % git clean -nd
+    # 未追跡ファイル/ディレクトリを削除
+    % git clean -fd
+    # x オプションで .gitignore 対象も含めることができます
+    % git clean -ndx
+    % git clean -fdx
 
 ## tag
 
