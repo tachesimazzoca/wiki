@@ -6,9 +6,9 @@ title: CentOS
 
 ## CentOS-5.8-x86_64-netinstall.iso
 
-`/5.8/isos/x86_64/CentOS-5.8-x86_64-netinstall.iso` から最小構成でインストールする例です。
+* <http://vault.centos.org/>
 
-<http://vault.centos.org/Linux/centos/5.8/isos/x86_64/>
+`/5.8/isos/x86_64/CentOS-5.8-x86_64-netinstall.iso` から最小構成でインストールする例です。
 
 <dl>
 <dt>Choose a language</dt>
@@ -21,7 +21,7 @@ title: CentOS
 <dd>IPv6 が不要なら <code>Enable IPv6 Support</code> をオフにします。</dd>
 <dt>FTP Setup</dt>
 <dd><code>vault.centos.org</code></dd>
-<dd><code>/Linux/centos/5.8/os/x86_64</code></dd>
+<dd><code>/5.8/os/x86_64</code></dd>
 </dl>
 
 ネット経由でインストーライメージがダウンロードされた後、インストーラが起動します。
