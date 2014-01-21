@@ -4,17 +4,11 @@ layout: page
 title: CentOS
 ---
 
-## CentOS-5.x-i386-netinstall.iso
+## CentOS-5.8-x86_64-netinstall.iso
 
-`/5/isos/i386/CentOS-5.x-i386-netinstall.iso` から最小構成でインストールする例です。
+`/5.8/isos/x86_64/CentOS-5.8-x86_64-netinstall.iso` から最小構成でインストールする例です。
 
-以下のミラーサイトを例に説明します。
-
-<http://ftp.riken.jp/Linux/centos/5/isos/i386/>
-
-旧バージョンは <http://vault.centos.org> にあります。
-
-`netinstall.iso` では、ネット経由でのインストールを行います。
+<http://vault.centos.org/Linux/centos/5.8/isos/x86_64/>
 
 <dl>
 <dt>Choose a language</dt>
@@ -26,8 +20,8 @@ title: CentOS
 <dt>Configure TCP/IP</dt>
 <dd>IPv6 が不要なら <code>Enable IPv6 Support</code> をオフにします。</dd>
 <dt>FTP Setup</dt>
-<dd><code>ftp.riken.jp</code></dd>
-<dd><code>/Linux/centos/5/os/i386</code></dd>
+<dd><code>vault.centos.org</code></dd>
+<dd><code>/Linux/centos/5.8/os/x86_64</code></dd>
 </dl>
 
 ネット経由でインストーライメージがダウンロードされた後、インストーラが起動します。
