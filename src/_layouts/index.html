@@ -6,10 +6,10 @@ layout: global
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <title>{{ page.title | escape }}</title>
-<link href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-<link href="{{ site.baseurl }}/assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css">
-<script src="{{ site.baseurl }}/assets/javascripts/jquery-1.7.1.min.js"></script>
-<script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
+<link href="{% relative_path path:'/assets/bootstrap/css/bootstrap.min.css' %}" media="screen" rel="stylesheet" type="text/css">
+<link href="{% relative_path path:'/assets/stylesheets/style.css' %}" media="screen" rel="stylesheet" type="text/css">
+<script src="{% relative_path path:'/assets/javascripts/jquery-1.7.1.min.js' %}"></script>
+<script src="{% relative_path path:'/assets/bootstrap/js/bootstrap.min.js' %}"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -17,7 +17,7 @@ layout: global
     <div class="navbar navbar-static-top navbar-inverse">
       <div class="navbar-inner">
         <div class="pull-left">
-          <a class="btn btn-inverse" href="{{ site.baseurl }}"><i class="icon-home icon-white"></i></a>
+          <a class="btn btn-inverse" href="{% relative_path path:'/index.html' %}"><i class="icon-home icon-white"></i></a>
         </div>
         {% include search.html %}
       </div>

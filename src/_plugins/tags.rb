@@ -1,5 +1,6 @@
 require 'cgi'
 require 'yaml'
+require 'pathname'
 
 module Jekyll
 
@@ -19,6 +20,24 @@ module Jekyll
             @attributes[key] = value.gsub(/^"([^"]*)"$/, '\1').gsub(/^'([^']*)'$/, '\1')
           end
       end
+    end
+
+    def relative_dir(from, to)
+      path = Pathname.new(File.dirname(to)) 
+      base = Pathname.new(File.dirname(from)) 
+      path.relative_path_from(base).to_s
+    end
+
+    def relative_path(from, to)
+      path = Pathname.new(File.dirname(to)) 
+      base = Pathname.new(File.dirname(from)) 
+      path.relative_path_from(base).to_s << "/" << File.basename(to)
+    end
+  end
+
+  class RelativePathTag < AppTag
+    def render(context)
+      relative_path(context['page']['url'], @attributes['path'])
     end
   end
 
@@ -57,8 +76,8 @@ module Jekyll
               dest = pg.destination("")
               attr = (page['url'] != dest) ? "" : (@attributes.key?('active') ? " #{@attributes['active']}" : "")
               html << sprintf(
-                  '<li%s><a href="%s%s">%s</a></li>',
-                  attr, site.config['baseurl'], dest, CGI.escapeHTML(pg.data['title']))
+                  '<li%s><a href="%s">%s</a></li>',
+                  attr, relative_path(page['url'], dest), CGI.escapeHTML(pg.data['title']))
               break
             end
           end
@@ -107,8 +126,8 @@ module Jekyll
             dest = pg.destination("")
             attr = (page['url'] != dest) ? "" : (@attributes.key?('active') ? " #{@attributes['active']}" : "")
             html << sprintf(
-                '<li%s><a href="%s%s">%s</a></li>',
-                attr, site.config['baseurl'], dest, CGI.escapeHTML(pg.data['title']))
+                '<li%s><a href="%s">%s</a></li>',
+                attr, relative_path(page['url'], dest), CGI.escapeHTML(pg.data['title']))
             break
           end
         end
@@ -143,8 +162,8 @@ module Jekyll
             pagename = pg.data.key?('title') ? pg.data['title'] : dir
             if AttributeString.new(@attributes['link']).to_b
               html << sprintf(
-                  '<a href="%s%s">%s</a>',
-                  site.config['baseurl'], url, CGI.escapeHTML(pagename))
+                  '<a href="%s">%s</a>',
+                  relative_path(page['url'], url), CGI.escapeHTML(pagename))
             else
               html << CGI.escapeHTML(pagename)
             end
@@ -176,8 +195,9 @@ module Jekyll
           if url == (File.dirname(pg.destination("")).gsub(/\/+$/, "") + "/#{pg.basename}")
             pagename = pg.data.key?('title') ? pg.data['title'] : dir
             html << sprintf(
-                '<li><a href="%s%s/index.html">%s</a>%s</li>',
-                site.config['baseurl'], indexdir, CGI.escapeHTML(pagename), divider)
+                '<li><a href="%s">%s</a>%s</li>',
+                relative_path(page['url'], indexdir << "/index.html"),
+                CGI.escapeHTML(pagename), divider)
             break
           end
         end
@@ -189,6 +209,7 @@ module Jekyll
   end
 end
 
+Liquid::Template.register_tag('relative_path', Jekyll::RelativePathTag)
 Liquid::Template.register_tag('directory_index', Jekyll::DirectoryIndexTag)
 Liquid::Template.register_tag('toctree', Jekyll::ToctreeTag)
 Liquid::Template.register_tag('tocroot', Jekyll::TocrootTag)
