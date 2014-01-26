@@ -1,34 +1,54 @@
 ---
-layout: index
+layout: page 
 
-title: VirtualBox Guest Additions
+title: Guest Additions
 ---
 
-## CentOS5
+## CentOS-5.8-x86_64
 
-* gcc
-* kernel
-* kernel-devel
-
-のパッケージが必要になります。
-
-`kernel-devel` は `kernel` と同じバージョンを指定してインストールしておきます。
+Install `kernel-devel` and remove the old (mismatch) `kernel` package:
 
     % yum list installed | grep kernel
-    kernel.i686 2.6.18-274.el5
+    kernel.x86_64             2.6.18-308.el5
+    % yum update
+    % yum install kernel-devel
+    % yum list installed | grep kernel
+    kernel.x86_64             2.6.18-308.el5
+    kernel.x86_64             2.6.18-371.3.1.el5
+    kernel-devel.x86_64       2.6.18-371.3.1.el5
+    % yum remove kernel-2.6.18-308.el5
+
+and then restart the VM to load the updated kernel.
+
+    % uname -r
+    2.6.18-308.el5
+    % shutdown -r now
     ...
-    % yum install kernel-devel-2.6.18-274.el5
+    % uname -r
+    2.6.18-371.3.1.el5
 
-ゲストOSのウインドウメニューより
+For versions prior to 6, add `divider=0 clocksource=acpi_pm` to the kernel boot options.
 
-    デバイス > Guest Additions のインストール
+    % vi /etc/grub.conf
+    ....
+    title CentOS (2.6.18-371.3.1.el5)
+        root (hd0,0)
+        kernel /vmlinuz-2.6.18-371.3.1.el5 ro root=/dev/VolGroup00/LogVol00 divider=10 clocksource=acpi_pm
+        initrd /initrd-2.6.18-371.3.1.el5.img
+    ....
+    % shutdown -r now
 
-を選択すると、インストールCDが `/dev/cdrom` にマウントされます。
+Install "Development Tools" for gcc/make utilities.
 
-`/mnt/cdrom` などにマウントし、インストールCD内の `VBoxLinuxAdditions.run` を実行します。
+    % yum groupinstall "Development Tools"
+
+Select a menu `VirtualBox VM > Devices > Insert Guest Additions CD image ...` and mount the CD device as `/mnt/cdrom`.
 
     % mkdir /mnt/cdrom
     % mount -r /dev/cdrom /mnt/cdrom
+
+Execute the script `VBoxLinuxAdditions.run`.
+
     % cd /mnt/cdrom
     % ./VBoxLinuxAdditions.run
 
