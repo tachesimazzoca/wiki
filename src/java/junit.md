@@ -4,13 +4,11 @@ layout: page
 title: JUnit
 ---
 
-## 概要
+## Overview 
 
-**JUnit**
+* <http://www.junit.org/>
 
-<http://www.junit.org/>
-
-## Unix
+### Unix
 
     % cd /path/to/project
     % mkdir test
@@ -23,41 +21,12 @@ title: JUnit
     # JUnit4
     % java -classpath /path/to/junit.jar:/path/to/classes org.junit.runner.JUnitCore HelloWorldTest
 
-## Eclipse
-
-テストクラスを作成するソースフォルダを選択し
-
-    File > New > JUnit Test Case
-
-でテストクラスの作成ウィザードが起動します。
-
-<dl>
-<dt>SourceFolder</dt>
-<dd><code>(Eclipse プロジェクト)/test</code></dd>
-<dt>Package</dt>
-<dd>作成するテストクラスの `package</code> 名</dd>
-<dt>Name</dt>
-<dd>作成するテストクラス名</dd>
-<dt>Class under test</dt>
-<dd>テスト対象クラス名</dd>
-</dl>
-
-作成したテストクラスのソースを選択し
-
-    Run > Run As > JUnit Test
-
-でテスト実行されます。
-
-
 ## JUnit4
-
-テストメゾッドは `@Test` アノテーションをつけるだけです。
 
     import static org.junit.Assert.*;
     import org.junit.Test;
 
     public class PersonTest {
-
         @Test
         public void testGetName() {
             Person obj = new Person();
@@ -87,7 +56,6 @@ title: JUnit
     }
 
     public class Person {
-
         private String name;
         private int age;
 
@@ -114,5 +82,4 @@ title: JUnit
             return year - this.age;
         }
     }
-
 

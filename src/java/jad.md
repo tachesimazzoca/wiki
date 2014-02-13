@@ -4,31 +4,27 @@ layout: page
 title: JAD Java Decompiler
 ---
 
-## 概要
+## Overview 
 
-**JAD Java Decompiler Download Mirror**
-
-<http://www.varaneckas.com/jad/>
+* <http://www.varaneckas.com/jad/>
 
 ## Unix
 
-jad コマンドを実行するだけです。
-
     % jad A.class
-    # .java ファイルを上書きしないように、デフォルトでは .jad で書き出されます。
+    # .jad is decompiled source
     % ls A.*
     A.class A.jad
 
-    # -p オプションで標準出力に出力されます。
+    # To output STDOUT, use -p option 
     % jad -p B.class > B.java
     % ls B.*
     B.class B.java
 
-以下のエラーが表示される場合は `libstdc++-libc6.2-2.so.3` が含まれていません。
+If you get the following error, you need to install the shared library `libstdc++-libc6.2-2.so.3`.
 
     jad: error while loading shared libraries: libstdc++-libc6.2-2.so.3: cannot open shared object file: No such file or directory
 
-`libstdc++-libc6.2-2.so.3` が含まれるパッケージを yum でインストールする例です。
+Here is an example for yum package `libstdc++-libc6.2-2.so.3`:
 
     % yum provides libstdc++-libc6.2-2.so.3
 
