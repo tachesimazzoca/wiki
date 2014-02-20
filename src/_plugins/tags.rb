@@ -31,7 +31,7 @@ module Jekyll
     def relative_path(from, to)
       path = Pathname.new(File.dirname(to)) 
       base = Pathname.new(File.dirname(from)) 
-      path.relative_path_from(base).to_s << "/" << File.basename(to)
+      path.relative_path_from(base).to_s + "/" + File.basename(to)
     end
   end
 
@@ -196,7 +196,7 @@ module Jekyll
             pagename = pg.data.key?('title') ? pg.data['title'] : dir
             html << sprintf(
                 '<li><a href="%s">%s</a>%s</li>',
-                relative_path(page['url'], indexdir << "/index.html"),
+                relative_path(page['url'], indexdir + "/index.html"),
                 CGI.escapeHTML(pagename), divider)
             break
           end
