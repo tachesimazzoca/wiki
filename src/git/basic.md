@@ -33,8 +33,11 @@ title: Basic
     % git commit
 
     # -a オプションで作業ファイルの状態でコミットできる
-    # 全ての追跡対象ファイルを ad したのち commit することと同義
+    # 全ての追跡対象ファイルを add したのち commit することと同義
     % git commit -a
+
+    # commit with empty message
+    % git commit -a --allow-empty-message -m ''
 
 ## clean
 
