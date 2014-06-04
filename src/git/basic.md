@@ -15,8 +15,8 @@ title: Basic
 
 ## config
 
-    % git config user.name "Taro Yamada"
-    % git config user.email "yamada@example.net"
+    % git config user.name "Foo Bar"
+    % git config user.email "foo@example.net"
 
 
 ## commit
@@ -35,6 +35,11 @@ title: Basic
     # -a オプションで作業ファイルの状態でコミットできる
     # 全ての追跡対象ファイルを add したのち commit することと同義
     % git commit -a
+
+    # reset author 
+    % git config user.name "Foo Bar"
+    % git config user.email "foo@example.net"
+    % git commit --amend --reset-author
 
     # commit with empty message
     % git commit -a --allow-empty-message -m ''
