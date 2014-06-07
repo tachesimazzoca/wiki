@@ -1,12 +1,23 @@
 ---
 layout: page
 
-title: Cheat Sheet 
+title: Reflection 
 ---
 
-## Reflection 
+## Contructor 
 
-### Instance method
+    try {
+        Class<?> clazz = Class.forName("net.example.reflection.Foo");
+        Foo foo = (Foo) clazz.newInstance(); 
+    } catch (ClassNotFoundException e) {
+        throw e;
+    } catch (InstantiationException e) {
+        throw e;
+    } catch (IllegalAccessException e) {
+        throw e;
+    }
+
+## Instance method
 
     import java.lang.reflect.Method;
     import java.lang.reflect.InvocationTargetException;
@@ -27,22 +38,5 @@ title: Cheat Sheet
                 throw e;
             }
         }
-    }
-
-## Tips 
-
-### Raising a number to a power
-
-Use `Math.pow`. The operator `^` means XOR in Java.
-
-    System.out.println(Math.pow(10, 3)); // 1000.0 
-    System.out.println(10 ^ 3); // 9 -> 1010 XOR 0011 = 1001 
-
-Consider to use `x * x` instead of `Math.pow(x, 2)`.
-
-### Getting the current class name statically 
-
-    public class MyClass {
-        private static final String TAG = (new Throwable()).getStackTrace()[0].getClassName();
     }
 
