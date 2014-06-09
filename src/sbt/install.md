@@ -3,41 +3,55 @@ layout: page
 
 title: インストール
 ---
-## Unix
 
-以下の2つのファイルが必要になります。
+## Universal Package
 
-* `sbt-launch.jar`
-* `sbt-launch.jar` を起動するシェルスクリプト = `sbt` コマンド
+[sbt 公式 の Universal package](https://bintray.com/sbt/native-packages/sbt/view) を利用することを推奨します。[Bintray](https://bintray.com) で配布されています。
 
-`sbt-launch.jar` を [typesafe のリポジトリ](http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.12.2/) から取得します。
+### Unix
 
-    % curl -LO "http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.12.2/sbt-launch.jar"
+Universal package を _dotfiles_ でインストールする例です。`~/.sbt` 以下にダウンロードし解凍します。
+
+    % mkdir ~/.sbt
+    % cd .sbt
+    % curl -LO "http://dl.bintray.com/sbt/native-packages/sbt/0.13.5/sbt-0.13.5.zip"
+    % unzip sbt-0.13.5.zip
+
+`~/.sbt/sbt/bin/sbt` が _sbt_ を起動する bash スクリプトになります。
+
+    # -h オプションでヘルプを表示します
+    % ~/.sbt/sbt/bin/sbt -h
+
+`~/.bash_profile` で、この `sbt` コマンドへのパスを通しておきます。
+
+    % vi ~/.bash_profile
+    ...
+    export PATH=~/.sbt/sbt/bin:${PATH}
+    ...
+
+    % source ~/.bash_profile
+    % which sbt
+    ~/.sbt/sbt/bin/sbt
+
+
+## Manual Installation
+
+`sbt-launch.jar` を [typesafe のリポジトリ](http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/) から取得します。
+
+    % curl -LO "http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.5/sbt-launch.jar"
 
 同ディレクトリに、以下のシェルスクリプトで `sbt-launch.jar` を起動する `sbt` コマンドを作成します。
 
     #!/bin/sh
 
-    java -Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=384M -jar `dirname $0`/sbt-launch.jar "$@"
+    SBT_OPTS="java -Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
+    java $SBT_OPS -jar `dirname $0`/sbt-launch.jar "$@"
 
 32bit OS で JavaVM のメモリ制限にかかる場合は -Xmx (ヒープの最大サイズ) を下げます。
 
-    java -Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=384M -jar `dirname $0`/sbt-launch.jar "$@"
-
-作成した `sbt` コマンドにパスを通しておきます。以下の例では `~/.sbt/bin` に設置しています。
-
-    % vi ~/.bash_profile
-    ...
-    export PATH=~/.sbt/bin:${PATH}
-    ...
-
-    % source ~/.bash_profile
-    % which sbt
-    ~/.sbt/bin/sbt
+    SBT_OPS="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
 
 ## Links
 
-### Setup - sbt Documentation
-
-* <http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html>
+* [sbt - Download](http://www.scala-sbt.org/download.html)
 

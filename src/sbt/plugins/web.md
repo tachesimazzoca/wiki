@@ -4,19 +4,36 @@ layout: page
 title: xsbt-web-plugin
 ---
 
-## Dependencies
+## Build Definitions
 
-<https://github.com/JamesEarlDouglas/xsbt-web-plugin>
+### 0.9.x
+
+`project/plugins.sbt`:
+
+    addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "0.9.0")
+    // for sbt-0.12.x
+    //addSbtPlugin("com.earldouglas" % "xsbt-web-plugin" % "0.5.0")
+
+_0.9.x_ は sbt-0.13.0 以上が必要です。sbt-0.12.x 系の場合は _0.5.x_ を利用します。
 
 `build.sbt`:
 
     seq(webSettings :_*)
 
     libraryDependencies ++= Seq(
-      "org.mortbay.jetty" % "jetty" % "6.1.22" % "container",
-      "javax.servlet" % "servlet-api" % "2.5" % "provided"
+      "javax.servlet" % "javax.servlet-api" % "3.0.1" % "provided",
+      "org.eclipse.jetty" % "jetty-webapp" % "9.1.0.v20131115" % "container",
+      "org.eclipse.jetty" % "jetty-plus"   % "9.1.0.v20131115" % "container",
+      //"org.apache.tomcat.embed" % "tomcat-embed-core"         % "7.0.22" % "container",
+      //"org.apache.tomcat.embed" % "tomcat-embed-logging-juli" % "7.0.22" % "container",
+      //"org.apache.tomcat.embed" % "tomcat-embed-jasper"       % "7.0.22" % "container"
     )
 
+    host in container.Configuration := "0.0.0.0"
+
+    port in container.Configuration := 8080
+
+### 0.2.x
 
 `project/plugins.sbt`:
 
@@ -28,8 +45,16 @@ title: xsbt-web-plugin
       case x if (x.startsWith("0.12")) => "com.github.siasia" %% "xsbt-web-plugin" % "0.12.0-0.2.11.1"
     })
 
+`build.sbt`:
 
-## 使い方
+    seq(webSettings :_*)
+
+    libraryDependencies ++= Seq(
+      "org.mortbay.jetty" % "jetty" % "6.1.22" % "container",
+      "javax.servlet" % "servlet-api" % "2.5" % "provided"
+    )
+
+## Usage
 
 `net.example.servlets.SandboxServlet` を作成してみます。ソースは `src/main/scala/net/example/servlets/SandboxServlet.scala` に設置します。
 
@@ -107,13 +132,13 @@ sbt コンソールから `container:start` で Jetty を起動します。
 
 生成される .war ファイル名にバージョン情報が付与されるのを回避するには、`build.sbt` に以下の行を追加して `artifactName` 値でパッケージ名のフォーマットを変更します。
 
-0.12.x 系では artifactName の型は `(ScalaVersion, ModuleID, Artifact) => String` になります。
+sbt-0.12.x 系では artifactName の型は `(ScalaVersion, ModuleID, Artifact) => String` になります。
 
     artifactName := { (config:ScalaVersion, module:ModuleID, artifact:Artifact) =>
       artifact.name + "." + artifact.extension
     }
 
-0.11.x 系では artifactName の型は `(String, ModuleID, Artifact) => String` になります。
+sbt-0.11.x 系では artifactName の型は `(String, ModuleID, Artifact) => String` になります。
 
     artifactName := { (config:String, module:ModuleID, artifact:Artifact) =>
       artifact.name + "." + artifact.extension

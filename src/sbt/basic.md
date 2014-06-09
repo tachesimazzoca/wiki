@@ -24,11 +24,11 @@ title: 基本操作
 
     version := "1.0"
 
-    scalaVersion := "2.9.1"
+    scalaVersion := "2.10.4"
 
 `project/build.properties` に sbt の情報を記載しておきます。
 
-    sbt.version=0.12.0
+    sbt.version=0.13.5
 
 ソースは `src/main/(java|scala)` に置きます。`src/main/scala/Sandbox.scala` を作成してみます。
 
