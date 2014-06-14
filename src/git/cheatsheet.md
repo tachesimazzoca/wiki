@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Basic
+title: Cheat Sheet
 ---
 
 ## init
@@ -12,12 +12,49 @@ title: Basic
     % ls -a
     . .. .git
 
-
 ## config
 
     % git config user.name "Foo Bar"
     % git config user.email "foo@example.net"
 
+## add
+
+    % touch a.txt
+    % touch b.txt
+    % git add .
+    % git status -s
+    A  a.txt
+    A  b.txt
+
+    % touch c.txt
+    % rm a.txt
+    % git status -s
+    AD a.txt
+    A  b.txt
+    ?? c.txt
+
+The `-u` option removes as well as modifies index entries to match the working tree, but adds no new files.
+
+    % git add -u .
+    % git status -s
+    A  b.txt
+    ?? c.txt
+
+To Add, modifiy and remove them, use the `-A` option.
+
+    % rm b.txt
+    % git add -A .
+    % git status -s
+    A  c.txt
+
+## rm
+
+    % git rm /path/to/file
+    % git rm -r /path/to/dir/
+
+The following is an one-liner to remove index entries to match deleted files.
+
+    % git status -s | grep ^'.D' | awk '{print $2}' | xargs git rm
 
 ## commit
 
@@ -36,7 +73,7 @@ title: Basic
     # 全ての追跡対象ファイルを add したのち commit することと同義
     % git commit -a
 
-    # reset author 
+    # reset author
     % git config user.name "Foo Bar"
     % git config user.email "foo@example.net"
     % git commit --amend --reset-author
@@ -207,10 +244,11 @@ title: Basic
 
 ## History
 
-To rewrite Git history, Use `filter-branch` like this.
+To rewrite Git history, use `filter-branch`. The following is an example:
 
     % git filter-branch --commit-filter '
     GIT_AUTHOR_NAME="Foo Bar"
     GIT_AUTHOR_EMAIL="foo@example.net"
     git commit-tree "$@"
     ' HEAD
+
