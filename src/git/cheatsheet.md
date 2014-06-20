@@ -244,7 +244,44 @@ The following is an one-liner to remove index entries to match deleted files.
 
 ## History
 
-To rewrite Git history, use `filter-branch`. The following is an example:
+To reset author, use `git-rebase` with `-i` option. The following is an example to modify last 2 commits.
+
+    % git rebase -i HEAD~2
+    pick b234567  Do something
+    pick a123456  Do something at last
+    
+    # Rebase ....
+    #
+    # Commands:
+    #  p, pick = use commit
+    ...
+    #  e, edit = use commit, but stop for amending
+    ...
+
+Replace the command `pick` at each line with `edit` and then quit the editor.
+
+    edit b234567  Do something
+    edit a123456  Do something at last
+    ...
+    :q
+    
+    You can amend the commit now, with
+    
+            git commit --amend
+    
+    Once you are satisfied with your changes, run
+    
+            git rebase --continue
+
+Repeat running `commit --amend --reset-author` and `rebase --continue`.
+
+    % git commit --amend --reset-author
+    % git rebase --continue
+    % git commit --amend --reset-author
+    % git rebase --continue
+    Successfully rebased and updated refs/heads/...
+
+You can use `filter-branch` to reset all commits. The following is an example:
 
     % git filter-branch --commit-filter '
     GIT_AUTHOR_NAME="Foo Bar"
