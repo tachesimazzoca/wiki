@@ -19,3 +19,7 @@ Consider to use `x * x` instead of `Math.pow(x, 2)`.
         private static final String TAG = (new Throwable()).getStackTrace()[0].getClassName();
     }
 
+## JAVA\_HOME on Mac OS X
+
+    export JAVA_HOME=`/usr/libexec/java_home`
+ 
