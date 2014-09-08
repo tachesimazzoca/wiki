@@ -6,7 +6,7 @@ title: Present Continuous
 
 ## 使い方
 
-_(am|are|is) + ... ing_ で、一定期間の行動や出来事について、その最中であることを伝える場合に使う。
+現在進行形 _Present Continuous_ は _(am|are|is)_ + 現在分詞 _participle_ で、一定期間の行動や出来事について、その最中であることを伝える場合に使う。
 
 * I__'m working__.
 * I__'m going__ to work.
