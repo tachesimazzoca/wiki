@@ -6,17 +6,17 @@ title: Present Perfect
 
 ## 使い方
 
-現在完了形 _Present Perfect_ は _(have|has)_ + 過去分詞 _past participle_ で、過去から現在までの期間で完了している（体験している）事を伝える場合に使う。
+現在完了形 _Present Perfect_ は _(have|has)_ + 過去分詞 _past participle_ で、過去から現在に至る状態（経験）を伝える場合に使う。
 
 * I__'ve been__ in Japan.
 * __Have__ you __read__ the book?
 
-期間の指定がない場合は「これまでの人生」が範囲になり、経験を伝えることができる。多くの場合 _(ever|never)_ を伴う。
+期間の指定がない場合は「これまでの人生」が範囲になる。多くの場合 _(ever|never)_ を伴う。
 
 * Have you __ever__ been to Japan?
 * I've __never__ eaten sushi.
 
-_recently / in the last few days / so far / for a long time / since ..._ 等で範囲を区切る事ができる。
+_recently / in the last few days / so far / for a long time / since ..._ 等で、期間の開始地点を指定できる。
 
 * Have you met Alice __recently__?
 * I've worked hard __in the last few days__.
@@ -24,15 +24,15 @@ _recently / in the last few days / so far / for a long time / since ..._ 等で�
 * We haven't met each other __for a long time__.
 * I haven't eaten anything __since breakfast__.
 
-_today / this (morning|week|month|year|semester)_ の期間で区切ることもできる。これらの終了地点は現在ではないが、現在完了形を使う。
+_today / this (morning|week|month|year|semester)_ で期間を区切ることもできる。これらの終了地点は現在ではないが、現在完了形を使う。
 
 * Have you had lunch __today__?
 * I've seen Alice __this morning__.
 * He's studied very hard __this semester__.
 
-## I've got/gotten
+## have got/gotten
 
-_I've got_ は _have_ と同じ意味で使われる。現在完了形 _I've gotten_ の _get (i.e. obtain, become, etc.)_ 「得た」の意味と混同しないように注意する。
+_have got_ は _have_ と同じ意味で使われる。現在完了形 _have gotten_ の「得た」の意味 _(i.e. obtain, become, etc.)_ と混同しないように注意する。
 
 * I__'ve got__ a car. = 車を持っている
 * I__'ve gotten__ the answer. = 答えを手に入れた
