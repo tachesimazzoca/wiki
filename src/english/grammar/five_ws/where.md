@@ -8,14 +8,14 @@ title: Where
 
 ### at + 地点
 
-_at_ は、ピンポイントで居場所を指し示す時に使う。地図上にピンを立てるイメージで、指し示した場所に行けば、見つけることができることが目安になる。
+_at_ は、ピンポイントで場所を指し示す時に使う。待ち合わせや探し物をしているときに、どこにいるか（あるか）を明確に伝える。
 
 * I'm __at the station__.
 * There were many people __at the party__.
 * He's working __at his desk__.
 * The post office is __at the end of the street__.
 
-地理に限らず _at the (top|bottom|left|right) of ..._ で画面やページの位置を指し示すこともできる。
+地理に限らず _at the (top|bottom|left|right) of ..._ で画面やページ上の位置を指し示すこともできる。
 
 * Touch __at the left of__ the screen.
 * You can see it __at the bottom of__ the page.
@@ -23,7 +23,9 @@ _at_ は、ピンポイントで居場所を指し示す時に使う。地図上
 _work / school / college_ の場合は _in_ との違いに注意する。
 
 * Are you home? No, I'm __at school__. = 学校にいる
-* What does he do? He's __in school__. = 学生である
+  * What does he do? He's __in school__. = 学生である
+* He's __at work__. = 仕事中である
+  * He's __in work__. = 仕事している（i.e. 社会人である）
 
 ### on + 面
 
@@ -71,6 +73,31 @@ _on the way to ..._ で、「... への道すがら」という表現が使え�
 
 場所として捉えがちだが、必ずしも _where_ ではない点に注意する。
 
+### in + 空間
+
+_in_ は空間内にあることを伝える。立体的に存在する物質でなくても、その世界（仮想空間） _world_ の中という意味で使える。
+
+* 国 / 町 / 施設 / 部屋
+  * I've been __in Japan__.
+  * I'd like to live __in a big city__.
+  * He works __in a store__.
+  * I'm __in the kitchen__.
+* 箱 / かばん
+  * What's __in that box__?
+  * Show me what's __in your bag__!
+* 自然 / 空 / 川 / 水
+  * There are a lot of stars __in the sky__.
+  * When I was swimming __in the river__, ...
+* 本 / 新聞 / 写真 / 言語
+  * I found a typo __in the book__.
+  * Who is the girl __in this picture__?
+  * He's fluent __in Japanese__.
+
+_in (bed|school|...)_ 等で冠詞がつかない理由は、「寝ている」「学生である」という意味合いであり、物としてのベッド・学校を示していないためである。
+
+* She's __in bed__.
+* He's __in school__.
+
 ## home
 
 _go / come / walk / get_ で行き先として _home_ を伝える場合、副詞としての _home_ 「家へ」を用い、副詞句 _to home_ は使われない。
@@ -80,11 +107,11 @@ _go / come / walk / get_ で行き先として _home_ を伝える場合、副�
 
 _arrive_ も副詞としての _home_ を用いる。
 
-* I arrived home.
+* I arrived __home__.
 
 他人の家で _(your|his|her)_ と限定詞が付くときは _home_ は名詞になるので、この場合は副詞句 _at_ になる。
 
-* There are 10 things to do when you arrive at your new home.
+* There are 10 things to do when you arrive __at your new home__.
 
 _(be|stay)_ で居場所を伝える時は、副詞の「家に」と副詞句 _at home_ のどちらを用いても良い。
 
