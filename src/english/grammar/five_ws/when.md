@@ -73,7 +73,7 @@ _at the end of ..._ で「... 末に」「... の後で」という表現が使�
 * at the end of a meeting
 * at the end of night
 
-*at the end of the day_ は「いろいろと考慮した結果」という意味もある。*
+_at the end of the day_ は「いろいろと考慮した結果」という意味もある。
 
 「... 末までに」という場合は _by_ を使う。
 
