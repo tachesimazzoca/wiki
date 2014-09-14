@@ -103,6 +103,22 @@ _for / since_ で期間を伝える時は、現在完了形を使う。
 * I__'ve been studying__ English __for 10 years__. <del>I'm studying ..</del>
 * He__'s been doing__ the same job __for 20 years__. <del>He is doing ...</del>
 
+## 過去完了形との使い分け
+
+昔話をする時に、その時点で「その状態になっていた」という意味で、_had + 過去分詞_ の過去完了形を使う。
+
+* When I arrived at the party, she __had already gone home__.
+* I met him a few days ago. He __had just came back__ from vacation.
+
+過去の一点の動作（過去形）なのか、その時点で継続した状態（過去完了形）なのかで区別するようにする。
+
+* I __saw__ a car that __had broken__ down, so I __stopped__ to help.
+
+同じように、過去完了進行形は、その時点で「行動していた」ことを伝える。
+
+* When it started to rain yesterday, we__'d been playing__ tennis for an hour.
+* When he arrived at my house, I__'d been working__ at the office. He__'d been waiting__ at my house for an hour, but he__'d already left__ when I arrived home.
+
 ## have got/gotten
 
 _have got_ は _have_ と同じ意味で使われる。現在完了形 _have gotten_ の「得た」の意味 _(i.e. obtain, become, etc.)_ と混同しないように注意する。
