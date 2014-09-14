@@ -72,13 +72,36 @@ _When / What time_ で質問する時も、過去形しか使えない。
 * It __has been rainning__ since this morning.
 * Did you finish work? Yes, I've just done. I__'ve been working__ very hard.
 
-現在までに、どれだけの時間がかかっているかを伝える時は、現在完了進行形を用いる。
+現在までに、どれだけの時間がかかっているか _How long_ を伝える時は、現在完了進行形を用いる。
 
 * How long have you been reading the book? I__'ve been reading__ for 2 hours.
 
-現在までに、どの位のことを経験した（完了した）かどうかを伝える時は、現在完了形になる。
+現在までに、どの位のことを経験した（完了した）かどうか _How many_ を伝える時は、現在完了形になる。
 
 * How many books have you read this year? I__'ve read__ about 5 books so far.
+
+現在完了進行形が使えるのは、「どのくらいの期間、その行動を続けているか？」という行動のみである。進行形がない _know / believe_ 等は、「いつからその状態になったか？」という意味で、現在完了形を使う。
+
+* We__'ve known__ each other for a long time. <del>We've been knowing ...</del>
+
+_live / work_ はどちらでもよい。
+
+* I__'ve (lived|been living)__ in Tokyo for a long time.
+* I__'ve (worked|been working)__ here for 3 years.
+
+ただし、_always_ を伴い「今までずっと...してきた（これからもずっとそうであろう）」という場合は、現在完了形を使う。
+
+* I__'ve always lived__ in Tokyo. <del>I've always been living ...</del>
+* __Have__ you __always worked__ here? <del>Have you always been working ...</del>
+
+## 現在形との使い分け
+
+_for / since_ で期間を伝える時は、現在完了形を使う。
+
+* I__'ve been__ in Japan __for 5 years__. <del>I'm in Japan for ...</del>
+* I__'ve known__ him __since 2012__. <del>I know him since ...</del>
+* I__'ve been studying__ English __for 10 years__. <del>I'm studying ..</del>
+* He__'s been doing__ the same job __for 20 years__. <del>He is doing ...</del>
 
 ## have got/gotten
 
