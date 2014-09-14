@@ -11,11 +11,6 @@ title: Present Continuous
 * I__'m working__.
 * I__'m going__ to work.
 
-未来の場合も現在進行形を用いる。_will be ... ing_ とはならない。
-
-* I__'m playing__ tennis tommrow.
-* __Are__ you __going__ out tonight?
-
 ## 進行形がない動作
 
 すべての動詞が進行形を使える訳ではない。思考・傾向・状態などを伝える動詞では、期間が存在しないので、進行形は使えない。
@@ -53,4 +48,22 @@ _look / feel_ は、現在形と現在進行形のどちらでも使える。
 ただし _feel_  で日常を伝える場合は、現在進行形は使えない。
 
 * I usually __feel__ so bad in the morning.
+
+## 未来形との使い分け
+
+手配済みの予定を伝える場合は、現在進行形を用いる。未来形 _will ..._ とはならない。
+
+* I__'m playing__ tennis tomorrow. <del>I'll play tennis tomorrow.</del>
+* He__'s getting__ married next month. <del>He'll get married next month.</del>
+* __Are__ you __going__ out tonight? <del>Will you go out tonight?</del>
+
+_will_ を使うと、現時点での意思を伝えることになる。招待された時に使うと「（そうするくらいなら）自分は...する」という意味になってしまう。
+
+* Shall we go shopping tomorrow? I__'ll play__ tennis tomorrow. _明日買い物に行かない？（そうするくらいなら）明日はテニスするよ。_
+
+公共機関や公演などの固定のスケジュールは、未来の日付であっても現在形を使う。「その時間にそうすることが決められている」という意味になる。
+
+* We__'re going__ to the movies tonight. It __starts__ at 20:30.
+* I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
+* Tomorrow __is__ Sunday.
 
