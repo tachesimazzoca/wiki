@@ -109,3 +109,19 @@ _by today_ は「今日中に」となるが、今日はすでに始まってい
 * What time did you get up today? I got up at 9:00 today.
 * When does the final round start? It starts on May 12th at 13:00.
 
+## How long との使い分け
+
+いつ _When_ なのか、どのくらいの期間 _How long_ なのかを区別する。
+
+_When_ に対する答えは、 _at / ago / when_ で開始点を伝える。
+
+* __When__ did it start raining? I started raining __this morning__.
+* __When__ did you get married? I got married __5 years ago__.
+* __When__ did you and Bob first meet? We first met __when I was in college__.
+
+_How long_ に対する答えは、_for / since_ で期間を伝える。
+
+* __How long__ has it been raining? It has been raining __since this morning__.
+* __How long__ have you been married? I've been married __for 5 years__.
+* __How long__ have you and Bob known each other? We've known each other __since I was in college__.
+
