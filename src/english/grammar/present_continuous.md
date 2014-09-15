@@ -67,17 +67,21 @@ _will_ を使うと、会話時点で意思決定した意味になる。招待�
 * I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
 * Tomorrow __is__ Sunday.
 
-## going to
+## is going to (do|happen)
 
-_is going to (do|happen)_ は、決まってはいないが、たぶんそうなるだろうという時に使う。そうなる起点が過去にあり、意思とは関係なく、進んでいるという意味になる。
+_is going to do_ は、決めてはいるが、決まった時間に予定を入れていない時に使う。
 
 * I__'m going to__ wash my car later.
+* I__'m going to__ buy some milk when I've finished with the cleaning..
+
+自然現象 / 社会現象 / 運命のように、人間の意思決定とは関係なく、そうなりつつあることにも _is going to happen_ を使う。
+
 * It__'s going to__ rain.
 * He__'s going to__ be sick.
 * These problems __are going to__ get worse.
 * He has liver cancer. He __is going to__ die within the next 6 months. <del>He will die ..</del>
 
-_was going to (do|happen)_ は、そうなりそうだったが、そうはならなかった時に使う。
+_was going to_ は、そうなりそうだったが、そうはならなかった時に使う。
 
 * It __was going to__ rain. _(But it didn't.)_
 * I __was going to__ play tennis yesterday, but Alice invited me to a party. So I went to the party.
