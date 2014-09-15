@@ -57,7 +57,7 @@ _look / feel_ は、現在形と現在進行形のどちらでも使える。
 * He__'s getting__ married next month. <del>He'll get married next month.</del>
 * __Are__ you __going__ out tonight? <del>Will you go out tonight?</del>
 
-_will_ を使うと、現時点での意思を伝えることになる。招待された時に使うと「（そうするくらいなら）自分は...する」という意味になってしまう。
+_will_ を使うと、会話時点で意思決定した意味になる。招待された時に使うと「（そうするくらいなら）自分は...する」という意味になってしまう。
 
 * Shall we go shopping tomorrow? I__'ll play__ tennis tomorrow. _明日買い物に行かない？（そうするくらいなら）明日はテニスするよ。_
 
@@ -66,4 +66,19 @@ _will_ を使うと、現時点での意思を伝えることになる。招待�
 * We__'re going__ to the movies tonight. It __starts__ at 20:30.
 * I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
 * Tomorrow __is__ Sunday.
+
+## going to
+
+_is going to (do|happen)_ は、決まってはいないが、たぶんそうなるだろうという時に使う。そうなる起点が過去にあり、意思とは関係なく、進んでいるという意味になる。
+
+* I__'m going to__ wash my car later.
+* It__'s going to__ rain.
+* He__'s going to__ be sick.
+* These problems __are going to__ get worse.
+* He has liver cancer. He __is going to__ die within the next 6 months. <del>He will die ..</del>
+
+_was going to (do|happen)_ は、そうなりそうだったが、そうはならなかった時に使う。
+
+* It __was going to__ rain. _(But it didn't.)_
+* I __was going to__ play tennis yesterday, but Alice invited me to a party. So I went to the party.
 
