@@ -92,6 +92,12 @@ _by today_ は「今日中に」となるが、今日はすでに始まってい
 
 * Shall we go shopping today?
 
+### at the time of ... ing
+
+_at the time of ... ing_ で「ちょうど ... する時」という表現で、適用時間を狭めることができる。
+
+* We use "will" to say what we decide to do something at the time of speaking.
+
 ## 時間表現の順番
 
 通常は、... 場所 + 時間 の順番で置く。
