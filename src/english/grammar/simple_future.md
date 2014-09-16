@@ -12,15 +12,13 @@ _will_ で、会話時点で決めた事を伝えることができる。主に 
 * Could you give me an estimate? Yes, I__'ll email__ you later.
 * Are you stuck? I__'ll help__ you.
 * Can you do the dishes? OK, __I'll do__ that right away.
-* I promise. I __won't tell__ anyone.
 * __Will you__ be quiet?
 
-過去に決めたことは、現在進行形を使う。
+否定形は _won't_ になる。「拒絶する」_refuse_ の意味もある。
 
-* Have you decided where to stay tomorrow?
-  * Yes, I__'m staying__ at a hotel.
-  * No, I__'ll stay__ at a hotel.
-* _Alice:_ I__'m taking__ a walk tomorrow morning. _Bob:_ That sounds nice. I think I__'ll join__ you.
+* I promise. I __won't tell__ anyone.
+* She __won't__ listen my advice.
+* My phone __won't__ work.
 
 ## Shall
 
@@ -29,16 +27,56 @@ _will_ で、会話時点で決めた事を伝えることができる。主に 
 * Shall I turn off the radio? <del>Will I turn off the radio?</del>
 * Where shall we have dinner? <del>Where will we have dinner?</del>
 
-## よく使う表現
+## 現在進行形との使い分け
 
-### I think I'll
+手配済みの（すでに決めている）予定を伝える場合は、現在進行形を用いる。
 
-_I think I'll_ で「そうしようと思う」という表現がよく使われる。ただし _I think I won't_ は使わない。
+* I__'m playing__ tennis tomorrow. <del>I'll play tennis tomorrow.</del>
+* He__'s getting__ married next month. <del>He'll get married next month.</del>
+* __Are__ you __going__ out tonight? <del>Will you go out tonight?</del>
 
-* We have no problems. __I think I'll__ stay at the club.
-* We have some problems. __I don't think I'll__ stay at the club. <del>I think I won't stay ...</del>
-* What time __do you think__ you__'ll__ be back?
-* What __do you think will__ happen?
+未来形 _will_ を使うと、会話時点で意思決定した意味になる。
+
+* Have you decided where to stay tomorrow?
+  * Yes, I__'m staying__ at a hotel.
+  * No, I__'ll stay__ at a hotel.
+* _Alice:_ I__'m taking__ a walk tomorrow morning. _Bob:_ That sounds nice. I think I__'ll join__ you.
+
+招待された時に使うと「（それなら）自分は...する」という意味になってしまう。
+
+* Shall we go shopping tomorrow? I__'ll play__ tennis tomorrow. _明日買い物に行かない？（そうするくらいなら）明日はテニスするよ。_
+
+公共機関や公演などの固定のスケジュールは、未来の日付であっても現在形を使う。「その時間にそうすることが決められている」という意味になる。
+
+* We__'re going__ to the movies tonight. It __starts__ at 20:30.
+* I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
+* Tomorrow __is__ Sunday.
+
+### is going to (do|happen)
+
+_is going to do_ は、決めてはいるが、決まった時間に予定を入れていない時に使う。
+
+* I__'m going to__ wash my car later.
+* I__'m going to__ buy some milk when I've finished with the cleaning..
+
+理由が明らかで、これから必ず起こる出来事について話す時に _is going to happen_ を使う。
+
+* It__'s going to__ rain.
+* He__'s going to__ be sick.
+* These problems __are going to__ get worse.
+* He has liver cancer. He __is going to__ die within the next 6 months. <del>He will die ..</del>
+
+そうでない出来事については _will_ を使う。
+
+* I'm caught in a traffic jam. I__'ll be__ late.
+* I think he __will like__ the present.
+
+_was going to_ は、そうなりそうだったが、そうはならなかった昔話をする時に使う。
+
+* It __was going to__ rain. _(But it didn't.)_
+* I __was going to__ play tennis yesterday, but Alice invited me to a party. So I went to the party.
+
+## 未来について話す
 
 ### think / suppose / guess
 
@@ -63,6 +101,17 @@ _hope_ では現在形を使う。
 
 * I __hope__ you pass the exam.
 * I __hope__ the score is 0-0.
+
+## よく使う表現
+
+### I think I'll
+
+_I think I'll_ で「そうしようと思う」という表現がよく使われる。ただし _I think I won't_ は使わない。
+
+* We have no problems. __I think I'll__ stay at the club.
+* We have some problems. __I don't think I'll__ stay at the club. <del>I think I won't stay ...</del>
+* What time __do you think__ you__'ll__ be back?
+* What __do you think will__ happen?
 
 ### 居場所
 
