@@ -1,12 +1,12 @@
 ---
 layout: page
 
-title: Simple Future
+title: Future
 ---
 
 ## 使い方
 
-_will_ で、会話時点で決めた事を伝えることができる。主に 提案 / 同意 / 約束 / 依頼 するケースで用いられる。
+未来形 _will_ で、会話時点で決めた事を伝えることができる。主に 提案 / 同意 / 約束 / 依頼 するケースで用いられる。
 
 * We don't have something to eat. I__'ll go and get__ some now.
 * Could you give me an estimate? Yes, I__'ll email__ you later.
@@ -14,7 +14,7 @@ _will_ で、会話時点で決めた事を伝えることができる。主に 
 * Can you do the dishes? OK, __I'll do__ that right away.
 * __Will you__ be quiet?
 
-否定形は _won't_ になる。「拒絶する」_refuse_ の意味もある。
+否定は _won't_ になる。「拒絶する」_refuse_ の意味もある。
 
 * I promise. I __won't tell__ anyone.
 * She __won't__ listen my advice.
