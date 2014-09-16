@@ -54,12 +54,13 @@ _will_ で、会話時点で決めた事を伝えることができる。主に 
 
 ### is going to (do|happen)
 
-_is going to do_ は、決めてはいるが、決まった時間に予定を入れていない時に使う。
+_is going to do_ は、過去に意思決定済みで、もうすぐそうする（そのプロセスに入りつつある）という時に使う。予定を伝える _is ...ing_ とほぼ同じだが、予定を組んだ（手配した）ニュアンスはない。
 
 * I__'m going to__ wash my car later.
-* I__'m going to__ buy some milk when I've finished with the cleaning..
+* I__'m going to__ buy some milk when I've finished with the cleaning.
+* We've decided to have a party. We__'re going to invite__ lots of people.
 
-理由が明らかで、これから必ず起こる出来事について話す時に _is going to happen_ を使う。
+理由が明らかで、これから必ず起こる出来事について話す時にも _is going to happen_ を使う。
 
 * It__'s going to__ rain.
 * He__'s going to__ be sick.
@@ -75,6 +76,40 @@ _was going to_ は、そうなりそうだったが、そうはならなかっ�
 
 * It __was going to__ rain. _(But it didn't.)_
 * I __was going to__ play tennis yesterday, but Alice invited me to a party. So I went to the party.
+
+## 未来進行形との使い分け
+
+未来進行形 _will be ...ing_ は、未来の時点で、行動（動作）している状態を伝える時に使う。
+
+* I__'ll be attending__ the conference this weekend.
+  * 時間を未来に進めて、今週の会議に出席しているシーンを話し相手と共有する時に使う。
+* I__'m attending__ the conference this weekend.
+  * 会議に出席する予定があることを伝える時に使う。
+* I__'m going to attend__ the conference this weekend.
+  * 会議に出席するために準備をすすめている時に使う。
+* I__'ll attend__ the conference this weekend.
+  * 会話時点で今週末の会議に出席することを決断する時に使う。
+
+フライトアナウンスで「当機はまもなく富士山上空を通過します」という場合、_We_ を主語として、私たちにそのようなシーンが訪れるニュアンスで伝える時は、未来進行形が自然である。
+
+* We__'ll be flying__ over Mt.Fuji soon. _（乗客に飛行しているシーンを空想させる）_
+  * <del>We'll fly over Mt.Fuji.</del> _「これから富士山上空を飛ぼうと思います」_
+  * <del>We are going to fly over Mt.Fuji.</del> _「富士山上空を飛行しようと決めています」_
+
+「そのころは...している最中だろう」なので未来の時間軸で動作をしていなければならない。
+
+* If you need to contact him, he__'ll be working__ at the office from 10:00 until 17:00.
+
+## 未来完了形との使い分け
+
+未来完了形 _will have done_ は、未来の時点で、行動（動作）が完了している状態を伝える時に使う。未来進行形のように、時間を未来に進めて、完了しているシーンを話し相手と共有する。
+
+* Can we meet at 20:00 today? Yes, I__'ll have finished__ work by then.
+  * 今日の20時に会えますか？ はい、それまでには仕事を終えています。
+* When will you finish work? I__'ll finish__ work at 19:00.
+  * 仕事はいつ終わりますか？ 19:00 で仕事を終えるつもりです。
+
+「そのころには...し終えている」なので未来の時間軸で完了していなければならない。
 
 ## 未来について話す
 
