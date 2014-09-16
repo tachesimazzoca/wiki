@@ -131,3 +131,29 @@ _How long_ に対する答えは、_for / since_ で期間を伝える。
 * __How long__ have you been married? I've been married __for 5 years__.
 * __How long__ have you and Bob known each other? We've known each other __since I was in college__.
 
+## when / if
+
+_when_ 節で時間条件を伝える時、未来であっても現在形または現在完了形を使う。
+
+* I'll call you __when__ I __get__ home. <del>... when I'll get home.</del>
+* Let me know __when__ you __are__ stuck. <del>... when you'll be stuck.</del>
+* You can recover with the following steps __when__ you've forgotten your password. <del>... when you'll have forgotten ...</del>
+
+_when_ の他に _while / before / after / as soon as / until_ が使える。
+
+* I'll send you a postcard __while__ I'm in Paris.
+* __Before__ you go out, clean your room.
+* I'll go straight home __after__ I've done the shopping.
+* I'll come to the party __as soon as__ I've finished work.
+* Please wait here __until__ I come back.
+
+現在完了形を使う場合、_when_ 節の状態は終わっていなければならない。同時に起こることは現在形を使う。（日本語で考えても不自然なので、間違える事な少ないが...）
+
+* When I __call__ Bob, I'll ask him about this problem. <del>When I've called Bob, ...</del>
+* When you __take__ a walk, be aware of each step. <del>When you've taken a walk, ...</del>
+
+確実でない未来については、_if_ を使う。この場合は現在形のみ使える。
+
+* She'll really get mad __if__ you don't apologize to her.
+* __If__ you prefer, you can choose this option.
+
