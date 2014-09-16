@@ -48,9 +48,15 @@ _at (dawn|noon|night|...)_ は状態なので _at_ が使えるが、午前/午�
 
 _last / this / next / every_ で 先月/今月/来月/毎月 のように使える。これらは、前置詞 _at / on / in_ は伴わない。
 
-* (last|this|next|every) (morning|afternoon|evening|week|month|year)
-* yesterday / today / tomorrow / every night
-* last night / tonight / tommorow night / every night
+* (last|this|next|every) (week|month|year)
+* yesterday / today / tomorrow / every day
+* last night / tonight / tomorrow night / every night
+* (yesterday|this|tomorrow|every) (morning|afternoon|evening)
+
+_everyday_ は形容詞であることに注意する。副詞句は _every day_ になる。
+
+* __everyday__ life _日常生活_
+* __everyday__ clothes _普段着_
 
 ### ago
 
