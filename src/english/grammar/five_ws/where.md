@@ -122,6 +122,20 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 * What time do you get __to work__? _何時から仕事を始めていますか？_
 * He didn't go __to school__ yesterday.
 
+### 相対位置
+
+* _near ..._ 「... の近くに」地理的に近い
+* _(by|next to|beside) ..._ 「... のそばに」寄り添っているくらい近い
+* _(inside|outside) ..._ 「... の内側/外側に」
+* _in (front|back) of ..._ 「... の前/後ろに」
+* _infrond|behind ..._ 「... の前/後ろに」
+* _accross from ..._ 「... の対面に」
+* _opposite ..._ 「... の反対側に」_「競演」の意味もある: She appears opposite Johnny Depp in the movie._
+* _between ... and ..._ 「... と ... の間に」
+* _in the middle (of ...)_ 「（... の）真ん中に」
+* _(over|under) ..._ 「... の上/下に」机/木/空/衣服などの物体に対しての位置
+* _(above|below) ..._ 「... の上/下に」壁/文章/高度など境界線に対しての位置
+
 ## 副詞
 
 副詞は、１つの単語で「...へ」「...で」「...に」と修飾する。副詞句 _to / at / in + ..._ と混同しないように注意する。
