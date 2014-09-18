@@ -63,7 +63,7 @@ _must_ には _have to_ の意味もあるが、より「必ず守らなけれ�
 * Code __must__ use 4 spaces for indenting, no tabs.
 * To start a game, you __must__ press the button "Start".
 
-_must not_ は「... してはならない」だが、_not have to_ は「... すべきでない（あえてするなら、それでもよい）」になる。
+_must not_ は「... してはならない」だが、_not have to_ は「... する必要はない（あえてするなら、それでもよい）」になる。
 
 * You __must not__ tell lies. _嘘をついてはいけない_
 * You __don't have to__ use "Ruby on Rails" for web applications in Ruby. _使わないとダメってわけじゃない_
@@ -99,10 +99,48 @@ _ought to_ は _should_ の「... したほうがよい」と同じだが、「�
 
 * You __ought to__ choose iPhone 6 plus. _You can't avoid to choose it_
 
-このため「期待」「評価」の意味では使えない。
+このため「期待」「評価」の意味で _ought to_ は使えない。
 
 * I think you <del>ought to</del> pass the exam.
-  * ... you __should__ pass the exam.
+  * ... you __should__ pass the exam. _君なら試験に通ると思うよ_
 * It's interesting that she <del>ought to</del> say so.
-  * ... that she __should__ say so.
+  * ... that she __should__ say so. _彼女がそう言うなんて興味深い_
+
+## would
+
+_would_ は _will / won't_ の過去形になる。
+
+* _Alice: "I'll come to the party."_ Alice said she __would__ come to the party.
+* _Bob: "I won't tell anybody"_ Bob promised he __wouldn't__ tell anybody.
+
+現在の会話で使うと「... するだろう（であろう）」という意味になる。そうなるか分からない時や、実際には起こらない場合に使う。
+
+* Alice: "Should I apologize her?" Bob: "I __would__ do that". _自分ならそうする_
+* What __would__ a sample code look like? _そうなるサンプルコードはある？_
+* It __would__ be nice to buy it, but I don't have much money. _買えればいいけど、そんなお金はない_
+
+過去に遡って「... していただろう」と伝えるには _would have + 過去分詞_ を使う。
+
+* I __would have called__ you, but I __didn't have__ your number.
+  * I __would call__ you, but I __don't have__ your number.
+* I __would have bought__ it, but It __was__ too expensive.
+  * I __would buy__ it, but it__'s__ too expensive.
+
+_if_ と組み合わせて、条件を付け加えることができる。
+
+この場合 _if_ 節は
+
+* 現在の仮定について話しているなら「過去形」 _if ... (was / were / ... ed)_
+* 過去の仮定について話しているなら「過去完了形」 _if ... (had been / had ... ed)_
+
+になる。
+
+* I __would__ call you if I __had__ your number.
+  * I __would have__ called you if I__'d had__ your number.
+* I __would__ buy it if it __were__ more cheaper.
+  * I __would have__ bought it if it__'d been__ more cheaper.
+
+時間を巻き戻して「_if_ の条件だったら _would_ のように決断していた」（だけど現実はそうでない）という仮定のシーンを話し手と共有することができる。
+
+## may / might
 
