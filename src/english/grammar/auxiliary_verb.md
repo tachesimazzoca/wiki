@@ -68,3 +68,41 @@ _must not_ は「... してはならない」だが、_not have to_ は「... �
 * You __must not__ tell lies. _嘘をついてはいけない_
 * You __don't have to__ use "Ruby on Rails" for web applications in Ruby. _使わないとダメってわけじゃない_
 
+## should / ought to
+
+_should_ は「... したほうがよい」という提案を伝える。_must / have to_ よりも弱い。
+
+* You __should__ take a break from work. _休憩したら？_
+* You __shouldn't__ beleive everything you read in Twtter. _何でも信じないほうがいいよ_
+
+提案の意味になるので _I think_ とよく一緒に使われる。
+
+* I think you __should__ learn algorithms and data structures. You don't even know how they work.
+
+「おそらく ... する」という期待の意味もある。
+
+* You've been training so hard. You __should__ win the game.
+* It __should__ be easy to find what you are looking for.
+
+_It's ... that ... should ..._「... が ... するとは ... だ」という評価の表現も使える。
+
+* It's funny that he __should__ say such a thing.
+* It's strange that you __should__ think so.
+
+過去形「... したほうがよかった」「... すると期待していた」（しかしそうならなかった）は _shoud have + 過去分詞_ になる。
+
+* I __should have__ taken care of him.
+* You __shouldn't have__ eaten so much.
+* We __should have__ won. _勝てたなぁ_
+
+_ought to_ は _should_ の「... したほうがよい」と同じだが、「それ以外に手だてがない」という意味になる。
+
+* You __ought to__ choose iPhone 6 plus. _You can't avoid to choose it_
+
+このため「期待」「評価」の意味では使えない。
+
+* I think you <del>ought to</del> pass the exam.
+  * ... you __should__ pass the exam.
+* It's interesting that she <del>ought to</del> say so.
+  * ... that she __should__ say so.
+
