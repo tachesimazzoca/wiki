@@ -35,7 +35,7 @@ _was able to_ は 「なんとかやり遂げた」_managed to_ の意味にな�
 * 疑問形で「... していただけますか？」
   * __Could__ you give me your autograph?
 
-過去に遡るには _could have + 過去分詞_ を使う。
+過去形は _could have + 過去分詞_ を使う。
 
 * 「... できたんだけどしなかった」
   * Why did you walk? You __could have taken__ a taxi.
@@ -51,7 +51,7 @@ _must_ は「... である（する）に決まっている」という確信を
 * You've worked for 12 hours! You __must__ be tired. _疲れたでしょう？_
 * He is very busy today. He __must not__ come to the party. _彼は来ないよ_
 
-_have to_ は「... すべきだ」（義務を負っている）ということを伝える。
+_have to_ は「... すべきだ」という義務（を負っていること）を伝える。
 
 * When do you have time this or next week? I __have to__ work this weekend, so other than friday next week.
 * Your phone has broken. You'll __have to__ buy a new one.
@@ -79,6 +79,11 @@ _should_ は「... したほうがよい」という提案を伝える。_must /
 
 * I think you __should__ learn algorithms and data structures. You don't even know how they work.
 
+誤りに対し「本来は ... であるべきだ」という意味もある。違反や不正解に対し、正しい事を言うときに使う。
+
+* The filename is wrong. It __should__ be "/path/to/valid/filename.txt".
+* The unit test has failed. The method __should__ return "false" in this case.
+
 「おそらく ... する」という期待の意味もある。
 
 * You've been training so hard. You __should__ win the game.
@@ -95,16 +100,14 @@ _It's ... that ... should ..._「... が ... するとは ... だ」という評
 * You __shouldn't have__ eaten so much.
 * We __should have__ won. _勝てたなぁ_
 
-_ought to_ は _should_ の「... したほうがよい」と同じだが、「それ以外に手だてがない」という意味になる。
+_ought to_ は _should_ の「... したほうがよい」と同じだが、やや強めに「そうして当然」という意味になる。
 
 * You __ought to__ choose iPhone 6 plus. _You can't avoid to choose it_
 
 このため「期待」「評価」の意味で _ought to_ は使えない。
 
-* I think you <del>ought to</del> pass the exam.
-  * ... you __should__ pass the exam. _君なら試験に通ると思うよ_
-* It's interesting that she <del>ought to</del> say so.
-  * ... that she __should__ say so. _彼女がそう言うなんて興味深い_
+* I think you <del>ought to</del> __should__ pass the exam. _君なら試験に通ると思うよ_
+* It's interesting that she <del>ought to</del> __should__ say so. _彼女がそう言うなんて興味深い_
 
 ## would
 
@@ -119,7 +122,7 @@ _would_ は _will / won't_ の過去形になる。
 * What __would__ a sample code look like? _そうなるサンプルコードはある？_
 * It __would__ be nice to buy it, but I don't have much money. _買えればいいけど、そんなお金はない_
 
-過去に遡って「... していただろう」と伝えるには _would have + 過去分詞_ を使う。
+過去形で「... していただろう」と伝えるには _would have + 過去分詞_ を使う。
 
 * I __would have called__ you, but I __didn't have__ your number.
   * I __would call__ you, but I __don't have__ your number.
@@ -142,5 +145,45 @@ _if_ と組み合わせて、条件を付け加えることができる。
 
 時間を巻き戻して「_if_ の条件だったら _would_ のように決断していた」（だけど現実はそうでない）という仮定のシーンを話し手と共有することができる。
 
-## may / might
+## might / may
+
+_might_ は「たぶん ... する（である）」という可能性を伝える。
+
+* It __might__ be true.
+* You __might__ know, but I work at Google now.
+* Do you know where he is? He __might__ be watching TV at home.
+
+否定文は _might not_ になる。
+
+* It __might__ not be true.
+* He __might__ not want to come to the party.
+
+_might_ のかわりに _may_ も使えるが、実際に起こらない例えで使うときには _might_ しか使えない。
+
+* It __may__ be true.
+* You __may__ know about it.
+* If I were Scottish, I <del>may</del> __might__ vote "YES" to independence.
+
+過去形は、_(might|may) have + 過去分詞_ を使う。
+
+* A: "I've lost my key." B: "You __might have__ left it in your car."
+* He didn't come to the meeting. He __might have__ forgoten the schedule.
+
+_could_ を _might_ のように使う事もできる。
+
+* It __could__ be true.
+* You __could have__ left your key in your car.
+
+ただし _couldn't_ と _might not_ では意味が異なる。
+
+* He __couldn't__ know that. _知ることができなかった_
+* He __might not__ know that. _多分知らない_
+
+_might as well ..._ で「... する他によい選択肢がない」という表現が使える。
+
+* Alice and Bob have just missed the bus.
+  * Alice: "The next bus arrives after 3 hours!"
+  * Bob: "It takes about 30 minutes to get there on foot. Should we walk?"
+  * Alice: "I guess we __might as well__ do that."
+* A: "Can you repair my computer?" B: "There are no parts to fix it. You __might as well__ buy a new one."
 
