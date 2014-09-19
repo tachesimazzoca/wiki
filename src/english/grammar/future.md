@@ -77,6 +77,13 @@ _was going to_ は、そうなりそうだったが、そうはならなかっ�
 * It __was going to__ rain. _(But it didn't.)_
 * I __was going to__ play tennis yesterday, but Alice invited me to a party. So I went to the party.
 
+口語上では _going to_ の代わりに _gonna_ が多く使われる。
+
+* Today, we__'re gonna__ talk about a new project.
+* He__'s gonna__ be sick.
+* I__'m gonna__ be a singer.
+* I __was gonna__ be a singer.
+
 ## 未来進行形との使い分け
 
 未来進行形 _will be ...ing_ は、未来の時点で、行動（動作）している状態を伝える時に使う。
