@@ -136,22 +136,6 @@ _would_ は _will / won't_ の過去形になる。
 * I __would have bought__ it, but It __was__ too expensive.
   * I __would buy__ it, but it__'s__ too expensive.
 
-_if_ と組み合わせて、条件を付け加えることができる。
-
-この場合 _if_ 節は
-
-* 現在の仮定について話しているなら「過去形」 _if ... (was / were / ... ed)_
-* 過去の仮定について話しているなら「過去完了形」 _if ... (had been / had ... ed)_
-
-になる。
-
-* I __would__ call you if I __had__ your number.
-  * I __would have__ called you if I__'d had__ your number.
-* I __would__ buy it if it __were__ more cheaper.
-  * I __would have__ bought it if it__'d been__ more cheaper.
-
-時間を巻き戻して「_if_ の条件だったら _would_ のように決断していた」（だけど現実はそうでない）という仮定のシーンを話し手と共有することができる。
-
 _Would you like ..._ は誘う時に使う。
 
 * __Would you like__ something to drink?
