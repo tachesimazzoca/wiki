@@ -17,7 +17,7 @@ _be_ 動詞は主に _were_ を用いる。
 
 ### 仮定法過去完了
 
-仮定法過去完了 _Subjunctive Past Perfect_ は、助動詞を過去完了形を用いて、予測または実現不可能であった「過去の願望」を伝える。
+仮定法過去完了 _Subjunctive Past Perfect_ は、助動詞の過去完了形を用いて、予測または実現不可能であった「過去の願望」を伝える。
 
 * If you __had helped__ me, I would have finished my assignment earlier. 
   * _Because you didn't help me, I couldn't finish my assignment earlier._
