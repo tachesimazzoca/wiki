@@ -32,8 +32,6 @@ _was able to_ は 「なんとかやり遂げた」_managed to_ の意味にな�
   * The party sounds nice. I __could__ be there.
 * 「（非現実的な）それくらいのことができるほどの思いがある」
   * I'm so hungry. I __could__ eat a horse.
-* 疑問形で「... していただけますか？」
-  * __Could__ you give me your autograph?
 
 過去形は _could have + 過去分詞_ を使う。
 
@@ -42,6 +40,15 @@ _was able to_ は 「なんとかやり遂げた」_managed to_ の意味にな�
   * You __could have bought__ a ticket for the final. There were many vacant seats in the stadium.
 * 「... できたくらいの思いがあった」
   * I was so hungry. I __could have eaten__ a horse.
+
+疑問形で以下の表現が使える。_Could_ のほうが丁寧な表現になる。
+
+* 要求する「... してくれますか？ / していただけますか？」
+  * __(Can / Could) you__ help me?
+* 許可を得る「... してよいですか？ / してよろしいですか？」
+  * __(Can / Could) I__ have a grass of water?
+
+許可の _(Can|Could) I_ は、対等か目下の相手（友人 / 店員）に対し使う。そうでなければ _May I_ を使う。
 
 ## must / have to
 
@@ -145,6 +152,16 @@ _if_ と組み合わせて、条件を付け加えることができる。
 
 時間を巻き戻して「_if_ の条件だったら _would_ のように決断していた」（だけど現実はそうでない）という仮定のシーンを話し手と共有することができる。
 
+_Would you like ..._ は誘う時に使う。
+
+* __Would you like__ something to drink?
+* __Would you like__ to go shopping with us?
+
+_I would like ..._ は「... をいただければ / できればと思います」という _want_ の丁寧な表現になる。
+
+* __I woud like__ some coffee.
+* __I woud like__ to make a reservation.
+
 ## might / may
 
 _might_ は「たぶん ... する（である）」という可能性を伝える。
@@ -186,4 +203,14 @@ _might as well ..._ で「... する他によい選択肢がない」という�
   * Bob: "It takes about 30 minutes to get there on foot. Should we walk?"
   * Alice: "I guess we __might as well__ do that."
 * A: "Can you repair my computer?" B: "There are no parts to fix it. You __might as well__ buy a new one."
+
+疑問形 _May I ...?_ で以下の表現が使える。
+
+* 提案する「... しましょうか？」
+  * __May I__ help you?
+* 許可を得る「... してよろしいですか？」
+  * __May I__ have your name?
+  * __May I__ come in?
+
+許可の _May I_ は、目上の人（お客 / 親 / 先生）に対し使う。そうでなければ _(Can|Could) I_ を使う。
 
