@@ -116,6 +116,13 @@ _ought to_ は _should_ の「... したほうがよい」と同じだが、や�
 * I think you <del>ought to</del> __should__ pass the exam. _君なら試験に通ると思うよ_
 * It's interesting that she <del>ought to</del> __should__ say so. _彼女がそう言うなんて興味深い_
 
+_had better_ は、普段と違う状況により「... しないとマズい」という意味合いになる。
+
+* We __had better__ go now.
+* It might rain. You __had better__ take an umbrella.
+* It's too cold. You __had better__ wear a coat.
+* You may be sick. You __had better not__ go to work today.
+
 ## would
 
 _would_ は _will / won't_ の過去形になる。
