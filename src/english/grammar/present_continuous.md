@@ -49,3 +49,14 @@ _look / feel_ は、現在形と現在進行形のどちらでも使える。
 
 * I usually __feel__ so bad in the morning.
 
+## よく使う表現
+
+### be being ...
+
+_be being ..._ は「普段と違って ... である」という意味になる。
+
+* He__'s being__ very quiet. _（普段と違って）やけに静かだ_
+* You__'re being__ silly. _（普段と違って）なにバカなことしてるんだ_
+* I'm a student. But now, I__'m being__ a teacher. _普段は学生ですが、今は先生（役 or 家庭教師）をします。_
+* "May I help you?" I__'m being__ helped, thanks. _もう応対してもらってます。_
+
