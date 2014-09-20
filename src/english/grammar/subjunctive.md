@@ -94,3 +94,19 @@ _wish ... would_ は、現状に不満があり変えたい気持ちを伝える
 * I __wish__ I <del>would have</del> had your number.
 * I __wish__ it <del>wouldn't be</del> weren't so cold.
 
+## It's time ...
+
+_It's time to ..._ で「... する時間だ」という意味になる。
+
+* __It's time to__ go home.
+
+仮定法過去で「もう ... する時間なのに（そうでない）」という批判や不満を伝える事ができる。
+
+* __It's time__ you __went__ home.  _もう家に帰る時間だよ_
+* He's still in bed. __It's time__ he __got__ up. _彼はまだ寝てるよ。もう起きる時間なのに。_
+* __It's time__ the train __left__. _もう発車する時間なのに。_
+
+「今 ... する時間」になるので、仮定法過去完了による過去の願望には使えない。_It was time_ 「... する時間だった」なら、単に直接法過去になる。
+
+* <del>__It's time__ you __had gone__ home.</del> __It was time__ you had gone home.
+
