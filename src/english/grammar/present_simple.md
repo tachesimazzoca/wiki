@@ -1,12 +1,12 @@
 ---
 layout: page
 
-title: Simple Present
+title: Present Simple
 ---
 
 ## 使い方
 
-現在形 _Simple Present_ は、一般的なことや日常の状態を伝える時に使う。
+現在形 _Present Simple_ は、一般的なことや日常の状態を伝える時に使う。
 
 * I__'m__ a teacher.
 * You __speak__ Japanese quite well.
