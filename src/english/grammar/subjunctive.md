@@ -24,10 +24,15 @@ _be_ 動詞は主に _were_ を用いる。
 
 ### 仮定法現在
 
-仮定法現在 _Subjunctive Present_ は、_suggest / recommend / insist ..._ 等の動詞と組み合わせて、現在や未来の仮定を表す際に、_should_ を省いて動詞の原形を用いる。
+仮定法現在 _Subjunctive Present_ は、_should_ を省いた動詞の原形を用いて、現在や未来の仮定を表す。
 
 * I suggested that he _(should)_ __take__ a break on Twitter.
 * The doctor recommended that I _(should)_ __not go__ to work today.
+
+ただし、英国式では明示的に _should_ を置く。最近では直接法の動詞も使われる。
+
+* He insisted that she __should get__ married.
+* It's necessary that he __goes__ there.
 
 ## if / would
 
@@ -47,12 +52,12 @@ _be_ 動詞は主に _were_ を用いる。
 
 未来の話「そうなったら ... するでしょう（でしょう）」をする場合は、_if_ 節は現在形になる。
 
-* If I __find__ your key, I__'ll__ tell you.
+* If I __find__ your key, I__'ll tell__ you.
 
 _would_ は _if_ 節では使えない。現在形（未来） / 過去形（現在） / 過去完了形（過去） の動詞のみ使える。
 
-* If you <del>wouldn't</del> __didn't__ aplogize her, she would get angry.
-* If I <del>would</del> find your key, I'll tell you.
+* If you <del>wouldn't</del> __didn't aplogize__ her, she would get angry.
+* If I <del>would</del> __find__ your key, I'll tell you.
 
 ## wish
 
@@ -106,22 +111,50 @@ _It's time to ..._ で「... する時間だ」という意味になる。
 
 * <del>__It's time__ you __had gone__ home.</del> __It was time__ you had gone home.
 
-## 仮定法現在の例
+## suggest
 
-仮定法現在では、_should_ を省いて動詞の原形を用いる。
+_suggest_ 「提案する」のように相手に何かをしてもらう動詞は、仮定法現在を用いる。
+
+_that_ 節に、相手に決定権がある仮定を置き、現在 / 過去 / 未来の時制に関わらず _should_ を省いた動詞の原形を用いる。
+
+* Alice __suggested__ that Bob _(should)_ __buy__ a new car.
+* I __suggest__ that you _(should)_ __be__ careful about getting involved in a community that has a lot of rules.
+* He__'ll suggest__ that they _(should)_ __try__ to contact each other.
+
+_suggest_ の他には、以下のような動詞がある。
 
 * demand
-  * He __demanded__ that she _(should)_ __tell__ the truth.
+  * He __demanded__ that she __tell__ the truth.
 * expect
-  * I __expect__ that you _(should)_ __be__ well behaved and __follow__ the rules.
+  * I __expect__ that you __be__ well behaved and __follow__ the rules.
 * insist
-  * She __insisted__ that I _(should)_ __be__ on time for the presentation.
+  * She __insisted__ that I __be__ on time for the presentation.
 * propose
-  * The manager __proposed__ that she _(should)_ take a new approach.
+  * The manager __proposed__ that she __take__ a new approach.
 * recommend
-  * A doctor __recommended__ that I _(should)_ __rest__ for a few days.
+  * A doctor __recommended__ that I __rest__ for a few days.
 * request
-  * The development department __requested__ that we _(should)_ __hire__ a senior Java programmer.
-* suggest
-  * Alice __suggested__ that Bob _(should)_ __buy__ a new car.
+  * The development department __requested__ that we __hire__ a senior Java programmer.
+
+## It's important ...
+
+_It's important that ..._ のように評価を伝える場合に、仮定法現在を用いる。
+
+* __It's necessary__ that he _(should)_ __attend__ the conference.
+* __It's important__ that you _(should)_ __not be__ late for work.
+* __It's essential__ that everyone _(should)_ __get__ to work by 8:00 tomorrow.
+
+## as if
+
+_as if / as though_ により「あたかも ... であるように」という意味になる。
+
+_as if_ 前後の二つの時制が同じ場合は、仮定法過去を用いる。
+
+* He __looks__ as if he __were__ sick. _まるで病気であるように見える_
+* He __looked__ as if he __were__ sick. _まるで病気であるように見えた_
+
+_as if_ 以降の時制が異なる（過去になる）場合は、仮定法過去完了を用いる。
+
+* He __looks__ as if he __had been__ sick. _まるで（以前に）病気だったように見える_
+* He __looked__ as if he __had been__ sick. _まるで（以前に）病気だったように見えた_
 
