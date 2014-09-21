@@ -46,3 +46,72 @@ title: Passive
 * The conference __has been canceled__.
 * The house is __being restored__.
 
+## said / supposed
+
+_It's said that / is said to_ で「... と言われている」という噂を伝えることができる。
+
+* It__'s said that__ she is a teacher.
+  * She__'s said to__ be a teacher.
+* It__'s known that__ Lisp is the best programming language.
+  * Lisp __is known to__ be the best programming language.
+* It__'s believed that__ he will win the game.
+  * He __is believed to__ win the game.
+* It__'s expected that__ more than 10,000 people will visit the site per day on average.
+  * More than 10,000 people __is expected to__ visit the site per day on average.
+
+警察の捜査の際に _allege / believe / report_ がよく使われる。過去について言及する時は _to have + 過去分詞_ の形になる。
+
+* It__'s alleged that__ he stole the money. _彼がその金を盗んだと疑われている_
+  * He __is alleged to__ have stolen the money.
+* It__'s believed that__ he is wearing a hat. _彼は帽子をかぶっているらしい_
+  * He __is believed to__ be wearing a hat.
+* It__'s reported that__ he was walking along the street. _彼はその道路を歩いていたと報告がある_
+  * He __is reported to__ have been walking along the street.
+
+_said to_ の代わりに _supposed to_ 「... という噂だ」も使える。
+
+* The new version __is supposed to__ work fine. _ちゃんと動くみたいだ_
+* The book __is supposed to__ not be very good. _あまり良くないらしい_
+* He__'s supposed to__ have stolen money. _お金を盗んだらしい_
+
+_supposed to_ には「... すること（予定）である」という意味もある。
+
+* Our technicians __are supposed to__ be coming up to fix the trouble.
+* He __was supposed to__ email me yesterday.
+
+_not supposed to_ の場合は「... することは想定されていない = してはならない」意味になる。
+
+* You're __not supposed to__ eat here. Could you wait until seats are available?
+* He has just left the hospital a few days ago. He's __not supposed to__ work so hard.
+
+## get
+
+出来事や変化のある動詞で、_be_ の代わりに _get_ が用いられることがある。
+
+* I __got invited__ to the party. _誘われていた_
+* I __get involved__ in Haskell. _夢中になっている_
+* I didn't __get offered__ the job. _仕事をもらえなかった_
+
+ただし、以下のフレーズにあるように、必ずしも _get + 過去分詞_ が受動態を表すわけではない。
+
+* get married _結婚する_
+* get divorced _結婚する_
+* get dressed _着る_
+* get changed _着替える_
+* get lost _道に迷う_
+
+## have somthing done
+
+_have something done_ は「... を ... してもらう（手配をする）」という意味になる。
+
+* I __had__ my car __repaired__.
+* I'm __having__ my car __repaired__.
+* Do you __have__ your report __reviewd__?
+* I don't like __having__ my room __cleaned__.
+
+手配はしなくても、予期しない嫌なことをされた場合でも使われる。
+
+* I __had__ my bag __stolen__.
+* I __had__ my flight __canceled__.
+* I __had__ my license __taken away__.
+
