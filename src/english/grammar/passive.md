@@ -106,7 +106,7 @@ _have something done_ は「... を ... してもらう（手配をする）」�
 
 * I __had__ my car __repaired__.
 * I'm __having__ my car __repaired__.
-* Do you __have__ your report __reviewd__?
+* Do you __have__ your report __reviewed__?
 * I don't like __having__ my room __cleaned__.
 
 手配はしなくても、予期しない嫌なことをされた場合でも使われる。
