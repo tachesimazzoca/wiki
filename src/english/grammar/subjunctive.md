@@ -24,14 +24,10 @@ _be_ 動詞は主に _were_ を用いる。
 
 ### 仮定法現在
 
-仮定法現在 _Subjunctive Present_ は、_suggest / recommend / insist that ..._ 等を用いて、現在や未来の期待や願望を伝える。
+仮定法現在 _Subjunctive Present_ は、_suggest / recommend / insist ..._ 等の動詞と組み合わせて、現在や未来の仮定を表す際に、_should_ を省いて動詞の原形を用いる。
 
-_that_ 節では、助動詞は省略され、動詞の原形のみ用いられる。
-
-* I suggested that he __take__ a break on Twitter.
-  * _I said "You __should take__ a break on Twitter."_
-* The doctor recommended that I __not go__ to work today.
-  * _The doctor said "You __shouldn't go__ to work."_
+* I suggested that he _(should)_ __take__ a break on Twitter.
+* The doctor recommended that I _(should)_ __not go__ to work today.
 
 ## if / would
 
@@ -109,4 +105,23 @@ _It's time to ..._ で「... する時間だ」という意味になる。
 「今 ... する時間」になるので、仮定法過去完了による過去の願望には使えない。_It was time_ 「... する時間だった」なら、単に直接法過去になる。
 
 * <del>__It's time__ you __had gone__ home.</del> __It was time__ you had gone home.
+
+## 仮定法現在の例
+
+仮定法現在では、_should_ を省いて動詞の原形を用いる。
+
+* demand
+  * He __demanded__ that she _(should)_ __tell__ the truth.
+* expect
+  * I __expect__ that you _(should)_ __be__ well behaved and __follow__ the rules.
+* insist
+  * She __insisted__ that I _(should)_ __be__ on time for the presentation.
+* propose
+  * The manager __proposed__ that she _(should)_ take a new approach.
+* recommend
+  * A doctor __recommended__ that I _(should)_ __rest__ for a few days.
+* request
+  * The development department __requested__ that we _(should)_ __hire__ a senior Java programmer.
+* suggest
+  * Alice __suggested__ that Bob _(should)_ __buy__ a new car.
 
