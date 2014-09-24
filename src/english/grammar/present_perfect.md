@@ -50,15 +50,24 @@ _just / already_ は、肯定文で用いることができる。過去分詞の
 
 現在完了形は、過去形に置き換えることができる。
 
-* I__'ve lost__ my key. or I __lost__ my key.
-* He__'s__ already __left__ the office. or He already __left__ the office.
+* He __has__ already __left__ the office. or He already __left__ the office.
 
 _yesterday / last ..._ のように、終了点が過去日付になる時は、過去形しか使えない。
 
-* I __lost__ my key yesterday. <del>I've lost my key yesterday.</del>
 * He already __left__ the office 10 minutes ago. <del>He's already left the office 10 minutes ago.</del>
 * I __saw__ Bob yesteday. <del>I've seen Bob yesterday.</del>
 * It __rained__ last week. <del>It has rained last week.</del>
+
+過去形と違い、完了形は今も続いている状態を表すことができる。
+
+* lose
+  * I __lost__ my key. _鍵をなくした_
+  * I__'ve lost__ my key. _鍵をなくしている（今も見つかっていない）_
+* forget
+  * He __forgot__ the meeting. _会議のことを忘れていた_
+  * He __has forgotten__ the meeting. _会議のことを忘れている（今も忘れた状態のまま）_
+  * I __forgot__ the meeting. _忘れていたが今思い出した_
+  * <del>I__'ve forgotten__ the meeting.</del> 自分のことを話しているのに、忘れたままということはない。
 
 _When / What time_ で質問する時も、過去形しか使えない。
 
