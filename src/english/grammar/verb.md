@@ -102,12 +102,16 @@ _want_ は _that_ 節や動名詞とともに用いることはできない。
   * <del>They __want that I__ go there.</del>
   * <del>They __want me__ going there.</del>
 
-_suggest / recommend_ のように動名詞しかとれない動詞は、不定詞 _to ..._ は使えない。_that_ 節で仮定法現在を使う。
+動名詞しかとれない動詞は、不定詞 _to ..._ は使えない。_that_ 節、または動名詞を使う。
 
 * I __suggested that__ he __learn__ English.
   * <del>I suggested him to learn English.</del>
 * I __recommended that__ he __check__ the API documents.
   * <del>I recommended to him to check the API documents.</del>
+* I don't __mind you turning__ down the volume.
+  * <del>I don't mind you to turn down the volume.</del>
+* I can't __imagine them getting__ married.
+  * <del>I can't imagine them to get married.</del>
 
 _advise / allow_ は動名詞 _...ing_ 、または 目的語 + _to ..._ の両方をとることができる。
 
