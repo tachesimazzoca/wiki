@@ -4,13 +4,15 @@ layout: page
 title: Verb
 ---
 
-## 動詞 + ...ing
+## 動詞 + 動名詞 ...ing
+
+動名詞 _...ing_ は、「やること / やっていたこと」を表す。
 
 * I __enjoy watching__ TV.
 * I've __finished working__.
 * He __suggested reading__ this book.
 
-動名詞 _...ing_ は、「やること / やっていたこと」を表すので「やろうとしていること」には使えない。以下の動詞は、動名詞しか使う事が出来ない。
+「やろうとしていること」には使えないので、以下の動詞は、動名詞しか使う事が出来ない。
 
 * finish / stop (= give up)  / quit
 * keep (on) / postpone (= put off)
@@ -19,22 +21,19 @@ title: Verb
 * admit / avoid / escape / deny
 * recommend / suggest
 
-_I stopped to work._ は文法上誤りではないが、あまり使われない（意味が異なる）。
-
-* I stopped __running__. _走るのをやめた_
-* I stopped __to run__. _走るためにやめた_
-
-過去の場合は、_having + 過去分詞_ でもよい。
+_...ing_ の時制が過去「... やろうとしていた」になる場合は、_having + 過去分詞_ でもよい。
 
 * He admitted __(stealing|having stolen)__ my money.
 
-## 動詞 + to ...
+## 動詞 + 不定詞 to ...
+
+不定詞 _to ..._ は「これからすること」「現実には起きていないこと」を表す。
 
 * I __hope to hear__ from you.
 * I __decided not to go__ to the movie.
-* I've __forgotten to call__ you.
+* He has __forgotten to call__ you.
 
-不定詞 _to ..._ は「これからすること」「現実には起きていないこと」を表す。動詞の後に起こることでなければならない。以下の動詞は不定詞を用いる。
+後に起こる（かもしれない）場合に用いるので、以下の動詞は不定詞を用いる。
 
 * decide / arrange / manage / plan
 * hope / promise
@@ -43,14 +42,25 @@ _I stopped to work._ は文法上誤りではないが、あまり使われな�
 * fail / forget / threaten
 * seem / appear / tend / pretend
 
-動名詞か不定詞かで意味が異なる。
+## 動名詞と不定詞の使い分け
 
+以下の動詞は、動名詞か不定詞かで意味が異なる。
+
+* try
+  * I __tried reloading__ the web page. _再読み込みしてみた_
+  * I __tried to reload__ the web page. _再読み込みしてみようと思った（思っただけで実際には試したかは不明）_
+* forget
+  * I __forgot locking__ the door. _鍵を閉めていたんだった（閉めたことを忘れていた）_
+  * Don't __forget to lock__ the door. _鍵を閉め忘れないようにね_
 * remember
-  * _"Did you lock the door?"_ I __remember locking__ the door. _ドアをロックしたことを覚えている_
-  * _"Don't forget to lock the door."_ I __remember to lock__ the door. _ドアをロックするを覚えている_
+  * I __remember locking__ the door. _ドアをロックしたことを覚えている_
+  * I __remember to lock__ the door. _ドアをロックするを覚えている_
 * regret
   * I __regret saying__ what I said. _言った事を悔んでいる_
   * We __regret to inform__ you that we can't offer you the job. _お伝えする事をお詫びします（申し訳ございません）_
+* stop
+  * I __stopped running__. _走るのをやめた_
+  * I __stopped to run__. _走るためにやめた_
 
 ## 動詞 + 目的語 + to ...
 
@@ -67,10 +77,6 @@ _I stopped to work._ は文法上誤りではないが、あまり使われな�
 * He __asked to__ stay here. / He __asked me to__ stay here.
 * I __would like to__ go there. / I __would like you to__ go there.
 * I __expected to__ be late. / I __expected him to__ be late.
-
-_help_ は _to_ を省略することができる。
-
-* Could you __help me (to)__ move the table?
 
 _want_ は _that_ 節や動名詞とともに用いることはできない。
 
@@ -103,4 +109,19 @@ _make / let_ は、動詞の原形をとる。
 
 * I __was made to__ laugh by this video.
 * I've __been let to know__ that there are such modules.
+
+_Let's_ は _Let us_ の省略形である。
+
+## help
+
+_help to ..._ の場合 _to_ を省略してもよい。
+
+* He __helped__ me __solve__ the problem.
+* Can you __help__ me __move__ these chairs?
+
+_can't help ...ing_ は「... せずにはいられない」という意味になる。
+
+* I __could't help laughing__. _笑わずにはいられなかった_
+* I __can't help feeling__ bad. _嫌な思いをせずにはいられなかった_
+* "Can't Help Falling In Love / Elvis Presley"
 
