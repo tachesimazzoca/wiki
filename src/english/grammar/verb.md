@@ -252,3 +252,32 @@ _would rather someone + 仮定法過去_ で「どちらかといえば ... に 
 * I prefer driving __to__ <del>travel</del> __traveling__ by train.
 * I'm looking foward __to__ <del>see</del> __seeing__ you.
 
+## to ... / for ... ing / so that
+
+_to 動詞_ で「... するために」の目的を表す意味もある。
+
+* __To start__ this game, press the button "Enter".
+* This function is __to calculate__ MD5 checksum.
+* I can't find a place __to park__.
+* Whould you like something __to eat__?
+
+名詞の場合は、_for 名詞_ を用いる。目的を質問するときは _What ... for?_ を使う。
+
+* Would you like to join us __for lunch__?
+* The cloth is __for washing cars__.
+* What is the cloth __for__?
+
+_for someone to ..._ で「... が ... するために」という表現が使える。　
+
+* We created short examples __for you to get__ started.
+
+「... しないように」という場合は、_so that ... (won't / wouldn't)_ を用いる。
+
+* We developed these __so that__ you __wouldn't__ miss awesome stuff around you.
+* Check our blog __so that__ you __(won't|don't)__ miss any important information.
+
+「... できるように」という場合は、_so that ... (can / could)_ を用いる。
+
+* We developed these __so that__ you __could__ get awesome stuff around you.
+* Check our blog __so that__ you __can__ get any important information.
+
