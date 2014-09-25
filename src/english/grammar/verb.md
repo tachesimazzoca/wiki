@@ -281,3 +281,33 @@ _for someone to ..._ で「... が ... するために」という表現が使�
 * We developed these __so that__ you __could__ get awesome stuff around you.
 * Check our blog __so that__ you __can__ get any important information.
 
+## 形容詞 + to ...
+
+_形容詞 （+ 名詞） + to ..._ で「... することは ... である」の意味になる。
+
+* It's __hard to__ answer the question.
+* The question is __hard to__ answer.
+* This is a __difficult question to__ answer.
+* It's __interesting to__ talk to you.
+* You are __interesting to__ talk to.
+
+_形容詞 of someone to ..._ で「... が ... することは ... である」の意味になる。 _for some one to ..._ の「... にとって」とは意味が異なる。
+
+* It's __nice of you__ to say so. _そう言ってくれてありがとう_
+* It's __kind of you__ to help me my homework. _宿題を手伝ってくれて、ご親切にありがとう_
+* It's __stupid of him__ to do that. _彼がそんなことするなんて馬鹿だな_
+* It's __good for you__ to know that. _それを知っておいたほうがよいよ_
+
+_I'm sorry to ..._ の用法もよく用いられる。
+
+* I__'m sorry to__ hear that your father died. _お気の毒に_
+* I__'m glad to__ see you.
+
+_sorry_ の他に以下の形容詞がよく用いられる
+
+* sorry / sad
+* happy / glad / pleased
+* surprised  / amazed / astonished
+* disappointed
+* relieved
+
