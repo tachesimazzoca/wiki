@@ -6,23 +6,12 @@ title: Verb
 
 ## 自動詞と他動詞
 
-「... を」の目的語 _Object_ を取らない動詞を自動詞 _Intransitive Verb_ という。登場物が一つでも成立する。
+「... を/に」の目的語 _Object_ を取る動詞を他動詞 _Transitive Verb_ という。必ず動詞の後に目的語の名詞が続く。
 
-* I apologize.
-* I'm talking.
-* I'm speaking.
-* I was running.
-* He's walking.
-* It rained.
-* It exists.
-
-自動詞の後に、名詞を置く事はできない。前置詞 + 名詞 で修飾する。
-
-* I apologize <del>you</del> __to you__.
-* I'm talking <del>them</del> __to them__ about programming.
-
-「... を/に」の目的語を取る動詞を他動詞 _Transitive Verb_ という。登場物が二つ以上でなければ成立しない。動詞の後に目的語の名詞を置く。
-
+* get
+  * I got __it__.
+* read
+  * I've already read __the book__.
 * tell
   * He told __the truth__ (to me).
   * He told __me__ the truth.
@@ -36,15 +25,34 @@ title: Verb
   * She bought __the present__ (to me).
   * She bought __me__ the present.
 
-動詞が自動詞か他動詞かということを考える必要ははない。必ずどちらかに属するわけではなく、_speak_ を例に上げると 自動詞 / 他動詞としてそれぞれの意味を持つ。
+目的語を取らない動詞を自動詞 _Intransitive Verb_ という。自動詞の後に、名詞を置く事はできない。「前置詞 + 名詞」で修飾する。
+
+* think
+   * I'm thinking.
+   * I'm thinking <del>buying</del> __of buying__ a new car. _（買う事を）考えています_
+* talk
+  * I'm talking.
+  * I'm talking <del>them</del> __to them__ about programming. _（彼らと）話しています_
+* apologize
+  * I apologize.
+  * I apologize <del>you</del> __to you__. _（あなたに）謝ります_
+
+相手がいるから他動詞と考えるのは誤り。「相手がいないと成立しない」動詞が他動詞になる。
+
+_I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立する自動詞で、_to him_ の「前置詞 + 名詞」で修飾していることになる。相手がいるので勘違いしやすいが、目的語ではない。
+
+* I talked (to him). _自動詞 + （前置詞 + 名詞）_
+* <del>I talked to (him).</del> 「前置詞をとる動詞（他動詞）」ではない。
+
+動詞は、自動詞か他動詞のどちらか一方に属するわけではない。_speak_ を例に上げると 自動詞 / 他動詞としてそれぞれの意味を持つ。
 
 * I'm speaking (to someone about something). _語っています（自動詞）_
 * I speak Japanese. _日本語を話します（他動詞）_
 
-_I talked to him._ を例にすると、登場物が二つ以上だから「他動詞」と考えるのは誤り。登場物は二つ以上だが、_I talked._ 「話した」だけで成立する自動詞で、_to him_ 「彼と」で修飾していることになる。 _talked to / him_ ではなくて _talked / to him_ と考える。
+ゆえに、動詞が自動詞か他動詞かを考えることに意味はない。
 
-* 「...を/に」の目的語を取る場合は他動詞になる。必ず動詞の直後に目的語の名詞を取る。
-* そうでない自動詞は、前置詞 + 名詞で修飾する。「前置詞が必要な動詞」として覚えるのではない。
+* 自動詞の意味の場合は「前置詞 + 名詞」で修飾する。 _i.e._  「前置詞 + 名詞」が続く場合は自動詞
+* 他動詞の意味の場合は、直後に目的語「... を/に」の名詞を置く。 _i.e._ 「名詞」が続く場合は他動詞
 
 ## 動詞 + 動名詞 ...ing
 
