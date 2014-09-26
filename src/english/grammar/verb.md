@@ -314,3 +314,20 @@ _sorry_ の他に以下の形容詞がよく用いられる
 * disappointed
 * relieved
 
+## see / hear / feel
+
+_saw somobody (do|doing) something_ で「... が ... （した / している）のを見た」という意味になる。すでに完了したことには原形不定詞をとり、継続中のことには現在分詞を使う。
+
+* I __saw__ him __get__ into a car and __drive__ away. _車乗って走り去ったのを見た（完了している）_
+* I __saw__ you __crossing__ the street. _渡っているところを見た（渡りきっていない）_
+
+_see_ の他に、知覚する動詞で同様にこの形式が使える。
+
+* see / hear / listen to / smell
+* feel / find / notice
+
+知覚した意味で _that_ 節は取らない。意味が違ってくる。
+
+* I __heard__ him __talking__ to you. _あなたと話しているのが聞こえた_
+* I __heard that__ he __talked__ to you. _あなたと話したということを聞いた（自分は聞いていない）_
+
