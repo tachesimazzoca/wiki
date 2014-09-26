@@ -99,11 +99,11 @@ _would (like|love|hate|prefer) to have + 過去分詞_ は、実際には起き�
 
 ## 動名詞と不定詞の使い分け
 
-概念やすでに起きている事実に対して言及する動詞は、動名詞しか使えない。
+事実やすでに起きた事に対しては、動名詞しか使えない。
 
 * I __enjoy__ <del>to play</del> __playing__ tennis.
 
-_mind / consider / imagine_ など思考する動詞が間違いやすいが、動名詞しか使えない。（考えた後にするのではなく、シーンと同時に考えている）
+_mind / consider / imagine_ など思考する動詞が間違いやすいが、動名詞しか使えない。（思考と同時に ... している）
 
 * Would you __mind__ <del>to close</del> __closing__ the window?
 
@@ -111,6 +111,15 @@ _mind / consider / imagine_ など思考する動詞が間違いやすいが、�
 
 * I agree __to buy__ a new car.
 * I would prefer __to have__ lunch now.
+
+動詞の意味によっては、動名詞か不定詞かどちらかしか取れないことが分かる。
+
+* I __want__ to do it. _「したい」ということは、まだしていない_
+* I __dream__ of doing it. _「夢みている」ということは、空想上でその状態にある_
+* I __failed__ to do it. _「失敗した」ということは、実際にはできなかった_
+  * I __succeeded__ in doing it. _「成功した」ということは、実際にできた_
+* I __expect__ you to do it. _「期待している」ということは、まだなされていない_
+  * I __keep__ you from doing it. _「続ける」ということは、その状態にある_
 
 以下の動詞は、動名詞か不定詞かで意味が異なる。
 
@@ -122,7 +131,7 @@ _mind / consider / imagine_ など思考する動詞が間違いやすいが、�
   * Don't __forget to lock__ the door. _鍵を閉め忘れないようにね_
 * remember
   * I __remember locking__ the door. _ドアをロックしたことを覚えている_
-  * I __remember to lock__ the door. _ドアをロックするを覚えている_
+  * I __remember to lock__ the door. _ドアをロックすることを覚えている_
 * regret
   * I __regret saying__ what I said. _言った事を悔んでいる_
   * We __regret to inform__ you that we can't offer you the job. _お伝えする事をお詫びします（申し訳ございません）_
@@ -199,6 +208,23 @@ _can't help ...ing_ は「... せずにはいられない」という意味に�
 * I __could't help laughing__. _笑わずにはいられなかった_
 * I __can't help feeling__ bad. _嫌な思いをせずにはいられなかった_
 * "Can't Help Falling In Love / Elvis Presley"
+
+## see / hear / feel
+
+_saw somobody (do|doing) something_ で「... が ... （した / している）のを見た」という意味になる。すでに完了したことには原形不定詞をとり、継続中のことには現在分詞を使う。
+
+* I __saw__ him __get__ into a car and __drive__ away. _車乗って走り去ったのを見た（完了している）_
+* I __saw__ you __crossing__ the street. _渡っているところを見た（渡りきっていない）_
+
+_see_ の他に、知覚する動詞で同様にこの形式が使える。
+
+* see / hear / listen to / smell
+* feel / find / notice
+
+知覚した意味で _that_ 節は取らない。意味が違ってくる。
+
+* I __heard__ him __talking__ to you. _あなたと話しているのが聞こえた_
+* I __heard that__ he __talked__ to you. _あなたと話したということを聞いた（自分は聞いていない）_
 
 ## prefer / would rather
 
@@ -301,33 +327,39 @@ _形容詞 of someone to ..._ で「... が ... することは ... である」
 * It's __stupid of him__ to do that. _彼がそんなことするなんて馬鹿だな_
 * It's __good for you__ to know that. _それを知っておいたほうがよいよ_
 
-_I'm sorry to ..._ の用法もよく用いられる。
+## sorry to ...
+
+_I'm sorry to hear that ..._ で「... を聞いて気の毒に思う」の意味になる。
 
 * I__'m sorry to__ hear that your father died. _お気の毒に_
-* I__'m glad to__ see you.
 
-_sorry_ の他に以下の形容詞がよく用いられる。
+_hear / see / read / learn / know / find_ と共に用いられ、それに対する気持ちを伝える時に使う。_sorry_ の他に以下の形容詞がよく用いられる。
 
-* sorry / sad
+* sorry / sad / disappointed
 * happy / glad / pleased
+  * I'm __glad to__ see you.
 * surprised  / amazed / astonished
-* disappointed
+  * I was __surprised to__ hear that they are married.
 * relieved
 
-## see / hear / feel
+## afraid to ... / afraid of ...ing
 
-_saw somobody (do|doing) something_ で「... が ... （した / している）のを見た」という意味になる。すでに完了したことには原形不定詞をとり、継続中のことには現在分詞を使う。
+_afraid to ..._ と _afraid of ...ing_ では意味が異なる。_afraid of_ は、自分で故意にする事には使えない。
 
-* I __saw__ him __get__ into a car and __drive__ away. _車乗って走り去ったのを見た（完了している）_
-* I __saw__ you __crossing__ the street. _渡っているところを見た（渡りきっていない）_
+* I'm _afraid to go_ near the dog. _怖くて...できない（あえてしなければならないが）_
+* I'm _afraid of being_ biten. _... するのが怖い_
+* <del>I'm __afraid to__ mistake.</del> _怖くて誤解できない_
+* I'm __afraid of__ making a mistake. _誤解されるのが怖い_
 
-_see_ の他に、知覚する動詞で同様にこの形式が使える。
+## interested to ... / interested in ...
 
-* see / hear / listen to / smell
-* feel / find / notice
+_interested to ..._ と _interested in ..._ は、興味があるという点では同じ意味だが、状態遷移がことなる。
 
-知覚した意味で _that_ 節は取らない。意味が違ってくる。
+* I was __interested to__ know what he thought. _彼が考えていた事を知って興味が湧いた_
+* I would be __interested to__ know what he thinks. _彼が考えている事を知ったら興味が湧くだろう_
+* I'm interested in what he thinks. _彼が考えていることに興味がある_
+* I was interested in what he thought. _彼が考えていることに興味があった_
+* I would be interested in what he thinks. _彼が考えている事に興味が湧くだろう_
 
-* I __heard__ him __talking__ to you. _あなたと話しているのが聞こえた_
-* I __heard that__ he __talked__ to you. _あなたと話したということを聞いた（自分は聞いていない）_
+_interested to ..._ の場合は、実際にそうなったあとで興味を持ったことになる。_interested in ..._ の場合は、興味があるだけで、まだその内容は体験していない。
 
