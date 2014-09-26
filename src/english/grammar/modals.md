@@ -153,6 +153,11 @@ _I would like ..._ は「... をいただければ / できればと思います
 * __I woud like__ some coffee.
 * __I woud like__ to make a reservation.
 
+_would (like|love|hate|prefer) to have + 過去分詞_ は、実際には起きなかった場合に使える。
+
+* I __would like to have come__ to the party. _行きたかった_
+* I __would hate to have been__ in your position. _私があなたの立場だったら嫌だろう_
+
 ## might / may
 
 _might_ は「たぶん ... する（である）」という可能性を伝える。
