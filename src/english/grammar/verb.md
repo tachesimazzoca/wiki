@@ -168,21 +168,24 @@ _advise / allow_ は動名詞 _...ing_ 、または 目的語 + _to ..._ の両�
 * I wouldn't __advise (staying|anybody to stay)__ here.
 * You're not __allowed (reading|to read)__ the document.
 
-## make / let
+## make / let / have
 
-_make / let_ は、動詞の原形をとる。
+「... に ... させる」_make / let / have_ は、原形不定詞（動詞の原形）をとる。
 
-* This video __made__ me __laugh__.
-* He __made__ me __promise__ that he would apologize you.
-* __Let__ me __know__ anytime you want.
-* __Let__ me __help__ you.
+* __let__ _... することを許す_
+  * __Let__ me __know__ when you find out. _分かったら教えてください_
+  * I'll __let__ you __know__ when I arrive.
+* __make__ _強制的に ... させる_
+  * This video __made__ me __laugh__.
+  * He __made__ me __promise__ that he would apologize you.
+* __have__ _非強制的に ... させる。目上の人が目下の人に使う_
+  * I __had__ my son __do__ the dishes.
+  * She __had__ me __report__ to headquarters.
 
 ただし、受動態にする時は _to_ を伴う。
 
 * I __was made to__ laugh by this video.
 * I've __been let to know__ that there are such modules.
-
-_Let's_ は _Let us_ の省略形である。
 
 ## help
 
