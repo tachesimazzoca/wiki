@@ -4,26 +4,68 @@ layout: page
 title: Verb
 ---
 
+## 動詞型
+
+### 第一文型 S + V
+
+主語 _Subject_ + 動詞 _Verb_ の文型。三番目以降のその他の句は、動詞 (V) を修飾する。
+
+* I __live__ (in Japan).
+* He __is walking__ (along the street).
+* I __thought__ (of buying a new car).
+
+### 第二文型 S + V + C
+
+主語 _Subject_ + 動詞 _Verb_ + 補語 _Complement_ の文型。補語 (C) は 主語 (S) を修飾する。
+
+* She __is__ a student.
+* That __sounds__ good.
+* You __looks__ tired (today).
+
+### 第三文型 S + V + O
+
+主語 _Subject_ + 動詞 _Verb_ + 目的語 _Object_ の文型。第二文型とは異なり、三番目の目的語 (O) は、主語 (S) とは関係がない。
+
+* You __go__ it.
+* I __have already read__ the book.
+* Shee __has lost__ her key (since yesterday).
+
+### 第四文型 S + V + O1 + O2
+
+主語 _Subject_ + 動詞 _Verb_ + 間接目的語 _Indirect Object_ + 直接目的語 _Direct Object_ の文型。間接目的語 (O1) は「誰に」、直接目的語 (O2) は「... を」を表す。
+
+* I __told__ him the truth.
+* __Could__ you __call__ me a taxi?
+* He __gave__ me a book.
+* She __brought__ me the present.
+
+間接目的語を修飾語にして、第三文型にすることができる。
+
+* I told _the truth_ __to him__.
+* Could you call _a taxi_ __for me__?
+* He gave _a book_ __to me__.
+* She brought _the present_ __for me__.
+
+前置詞は、相手がその場にいて伝達する必要がある場合は「... に」の _to_ 、そうでない「... のために」 _for_ を用いる。
+
+* I'll send a message __to you__. _あなたにメッセージを送ります_
+* I'll send a message __for you__. _あなたのために（誰かに）メッセージを送ります_
+
+### 第五文型 S + V + O + C
+
+主語 _Subject_ + 動詞 _Verb_ + 目的語 _Object_ + 補語 _Complement_ の文型。「補語 (C) = 目的語 (O) 」の関係が成り立つ。
+
+* You __can call__ me _Alice_.
+* This video __made__ me _laugh_.
+* We __should keep__ our room _clean_.
+
 ## 自動詞と他動詞
 
-「... を/に」の目的語 _Object_ を取る動詞を他動詞 _Transitive Verb_ という。必ず動詞の後に目的語の名詞が続く。
+目的語を取る動詞を他動詞 _Transitive Verb_ という。第3/4/5文型が該当し、必ず動詞の後に目的語の名詞が続く。
 
-* get
-  * I got __it__.
-* read
-  * I've already read __the book__.
-* tell
-  * He told __the truth__ (to me).
-  * He told __me__ the truth.
-* call
-  * Could you call __a taxi__ (for me)?.
-  * Could you call __me__ a taxi?.
-* give
-  * He gave __the book__ (to me).
-  * He gave __me__ the book.
-* buy
-  * She bought __the present__ (to me).
-  * She bought __me__ the present.
+* I've read __the book__.
+* He's playing __tennis__ tomorrow.
+* You should send __him__ a message.
 
 目的語を取らない動詞を自動詞 _Intransitive Verb_ という。自動詞の後に、名詞を置く事はできない。「前置詞 + 名詞」で修飾する。
 
