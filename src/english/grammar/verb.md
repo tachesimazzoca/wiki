@@ -168,9 +168,9 @@ _advise / allow_ は動名詞 _...ing_ 、または 目的語 + _to ..._ の両�
 * I wouldn't __advise (staying|anybody to stay)__ here.
 * You're not __allowed (reading|to read)__ the document.
 
-## make / let / have
+## let / make / have
 
-「... に ... させる」_make / let / have_ は、原形不定詞（動詞の原形）をとる。
+「... に ... させる」_let / make / have_ は、原形不定詞をとる。
 
 * __let__ _... することを許す_
   * __Let__ me __know__ when you find out. _分かったら教えてください_
@@ -306,7 +306,7 @@ _I'm sorry to ..._ の用法もよく用いられる。
 * I__'m sorry to__ hear that your father died. _お気の毒に_
 * I__'m glad to__ see you.
 
-_sorry_ の他に以下の形容詞がよく用いられる
+_sorry_ の他に以下の形容詞がよく用いられる。
 
 * sorry / sad
 * happy / glad / pleased
