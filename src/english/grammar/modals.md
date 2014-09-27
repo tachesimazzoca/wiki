@@ -132,7 +132,7 @@ _would_ は _will / won't_ の過去形になる。
 
 現在の会話で使うと「... するだろう（であろう）」という意味になる。そうなるか分からない時や、実際には起こらない場合に使う。
 
-* Alice: "Should I apologize her?" Bob: "I __would__ do that". _自分ならそうする_
+* Alice: "Should I apologize to her?" Bob: "I __would__ do that". _自分ならそうする_
 * What __would__ a sample code look like? _そうなるサンプルコードはある？_
 * It __would__ be nice to buy it, but I don't have much money. _買えればいいけど、そんなお金はない_
 
