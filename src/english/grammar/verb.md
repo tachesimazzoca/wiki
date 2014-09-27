@@ -28,7 +28,7 @@ title: Verb
 
 * You __go__ it.
 * I __have already read__ the book.
-* Shee __has lost__ her key (since yesterday).
+* She __has lost__ her key (since yesterday).
 
 ### 第四文型 S + V + O1 + O2
 
