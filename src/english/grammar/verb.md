@@ -58,6 +58,7 @@ title: Verb
 * You __can call__ me _Alice_.
 * This video __made__ me _laugh_.
 * We __should keep__ our room _clean_.
+* _What_ do you __want__ it _to say_?
 
 ## 自動詞と他動詞
 
