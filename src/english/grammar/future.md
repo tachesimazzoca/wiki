@@ -84,6 +84,12 @@ _was going to_ は、そうなりそうだったが、そうはならなかっ�
 * I__'m gonna__ be a singer.
 * I __was gonna__ be a singer.
 
+### is about to
+
+「もうすぐ ... するところです」という直近の未来には _is (just) about to_ を使う。
+
+* I__'m__ just __about to__ leave the offce.
+
 ## 未来進行形との使い分け
 
 未来進行形 _will be ...ing_ は、未来の時点で、行動（動作）している状態を伝える時に使う。
