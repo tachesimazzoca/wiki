@@ -62,6 +62,10 @@ _everyday_ は形容詞であることに注意する。副詞句は _every day_
 
 * (a few days / an hour / five minutes) ago
 
+### around
+
+* See you around 15:00. _15時ごろにお会いしましょう_
+
 ### half (past|to) ...
 
 * at half past 2 = 2時半
