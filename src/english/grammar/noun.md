@@ -90,3 +90,33 @@ _some / any_ はどちらでも使える。
 * There are __some__ nice __chairs__. _いくつかの素敵な椅子がある_
 * I bought __two__ good __books__. _二册の良い本を買った_
 
+## 集合名詞
+
+_family / audience / company / team / staff / crew_ は集合名詞と呼ばれ、ひとつのチームを差す場合には単数扱いになり、個々の人員を差す時は複数形を用いる。
+
+* Tell the <del>staffs</del> __staff__ that there'll be a meeting tomorrow. _スタッフ（全員）に伝える_
+* The staff __is__ very friendly. _スタッフ（全員）はとても親切です_
+* I'm a member of __the team__.
+* The company __was__ acquired.
+* The audience __were__ all excited.
+
+_people / police_ は複数扱いになる。複数形は持たず、単数形で複数扱いになる。
+
+* The police __are__ coming up.
+* I'm __a police officer__. _個々は police officer / policeman / policewoman_
+
+_people_ は _person_ の複数形ではない。_person_ の複数形は _persons_ だが、人々を表す集合名詞 _people_ を用いるということになる。
+
+## 単位
+
+合計値を表す際 _dollars / years / miles_ のように単位は複数形だが、単数扱いになる。
+
+* 1,000 dollars __was__ stolen.
+* 10 years __is__ so long.
+
+_10-dollar bill_「10ドル札」のように形容詞のように用いられる場合がある。この場合の単位は複数形にしない。
+
+* This is a __5-page__ document.
+* I took a __7-week__ course.
+* He is like a __30-year-old__ man.
+
