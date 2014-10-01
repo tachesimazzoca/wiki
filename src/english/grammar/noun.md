@@ -120,3 +120,35 @@ _10-dollar bill_「10ドル札」のように形容詞のように用いられ�
 * I took a __7-week__ course.
 * He is like a __30-year-old__ man.
 
+## 属性
+
+物の属性を表す時は、_the 属性名 of ..._ で表すことができる。場合によっては _the book name_ のように、「物 + 属性名」でつなげることもできる。
+
+* the name __of the book__ / the book name
+* the owner __of the restaurant__ / the restaurant owner
+* the beginning __of the month__
+
+人や動物の属性は、_...'s 属性名_ を用いる。ただし、関係代名詞でつなげるときは _of_ を使う。
+
+* <del>the name of my father</del> __my father's__ name
+* What is <del>the man's name</del> the name __of the man__ who is speaking?
+
+複数形の表記は _...s'_ になる。
+
+* my <del>brothers's</del> __brothers'__ room
+
+_'s_ には「... のもの」の意味もある。
+
+* __Alice's__ book
+* The book of __Alice's__
+
+人の集まりになる組織や地域はどちらも使える。
+
+* __the company's__ decision / the decision __of the company__
+* __Japan's__ GDP / GDP __of Japan__
+
+時間「（今日/明日/昨日/...）の ...」にも _...'s_ が使える。
+
+* __Today's meeting__ _(The meeting today)_ has been canceled.
+* __Tonight's party__ _(The party tonight)_ starts at 18:00.
+
