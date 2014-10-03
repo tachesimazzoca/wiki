@@ -21,11 +21,12 @@ title: Pronoun
 * feel / relax / concentrate / meet
   * Where should we __meet__ <del>ourselves</del>?
 * wash / shave / dress
-  * You must get __dressed__.
+  * You must get __dressed__ <del>yourself</del>. _dress = ... に服を着せる_
 
 _themselves_ は、各自自身を差す。お互いを差す場合は _each other_ を使う。
 
-* They've known __each other__ since high school.
+* They should take care of __themselves__. _自分自身を注視_
+* They've known __each other__ since high school. _高校からお互いに知り合い_
 
 主語のすぐ後に、再帰代名詞を置く事で、自身で成し遂げた事を強調することもできる。紛らわしくなければ、末尾に置いてもよい。
 
@@ -37,4 +38,17 @@ _by ...self_ で「独りで」の意味になる。
 
 * I spent last Christmas __by myself__.
 * Are you studying __by yourself__?
+
+## 所有代名詞
+
+所有代名詞 _Possessive Pronoun_ は、「... のもの」という所有物の集合を表す。
+
+* mine / yours / his / hers
+* ours / yours / theirs /
+* (人名)'s
+
+限定詞の制限により、_a my friend_ のように、複数の限定詞（この場合、冠詞と所有限定詞）を同時に用いることはできない。このような場合に、_... of mine_ として、集合の中から限定して取り出すように置き換える。
+
+* He is <del>a my friend</del> __a friend of mine__.
+* It's a good idea __of Alice's__.
 
