@@ -128,6 +128,25 @@ _for / since_ で期間を伝える時は、現在完了形を使う。
 * When it started to rain yesterday, we__'d been playing__ tennis for an hour.
 * When he arrived at my house, I__'d been working__ at the office. He__'d been waiting__ at my house for an hour, but he__'d already left__ when I arrived home.
 
+## used to
+
+_used to ..._ は「（習慣として）以前は ... していた」という意味になる。過去完了形と似ているが、扱いは過去形になる。
+
+* I __used to__ play the piano.
+* I __didn't use to__ play the piano.
+* __Did__ you __use to__ play the piano?
+
+完了形は継続を表すが、_used to_ は繰り返しする習慣を表す。このため住まいや職業ではあまり使われない。代わりに過去形か過去完了形を用いる。
+
+* I <del>used to be</del> __had been__ in Japan for 5 years. _どのくらい住んでいたか？_
+* I <del>used to be</del> __lived__ in Japan 3 years ago. _いつから住んでいたか？_
+
+_(be|get) used to ..._ は「... することに慣れている」という意味で、時制は問わない。_to_ は不定詞ではなく前置詞なので、後には名詞が続く。
+
+* I __wasn't used to__ driving on the left. _不慣れだった_
+* I __got used to__ driving on the left. _慣れた_
+* I__'m used to__ driving on the left. _慣れている_
+
 ## have got/gotten
 
 _have got_ は _have_ と同じ意味で使われる。現在完了形 _have gotten_ の「得た」の意味 _(i.e. obtain, become, etc.)_ と混同しないように注意する。
