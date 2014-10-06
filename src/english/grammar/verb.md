@@ -72,10 +72,13 @@ title: Verb
 
 * think
    * I'm thinking.
-   * I'm thinking <del>buying</del> __of buying__ a new car. _（買う事を）考えています_
+   * I'm thinking <del>buying</del> __of buying a new car__. _（買う事を）考えています_
 * talk
   * I'm talking.
   * I'm talking <del>them</del> __to them__ about programming. _（彼らと）話しています_
+* wait
+  * I'm waiting.
+  * I'm waiting __for you__ to get off. _（あなたが降りるために）じっとしています_
 * apologize
   * I apologize.
   * I apologize <del>you</del> __to you__. _（あなたに）謝ります_
