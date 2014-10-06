@@ -53,10 +53,9 @@ _go to the movies / do the dishes_ という慣用句がある。特定の集ま
 
 ## 動作目的
 
-_work / bed / home_ など「... しに行く」という場合は、何かの物を表しているのではなく動作目的を表す。この場合には冠詞はつけない。
+_work / bed_ など「... しに行く」という場合は、何かの物を表しているのではなく動作目的を表す。この場合には冠詞はつけない。
 
 * I __got to work__ at 10:00. _働き始めた_
-* I __arrived home__ at 18:00. _帰宅した_
 * I __went to bed__ at 23:00. _就寝した_
 * breakfast / lunch / dinner
   * I __had lunch__ at 13:00.
