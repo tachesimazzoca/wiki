@@ -31,17 +31,9 @@ title: Noun
 * song / picture / story
 * accident / message / suggestion
 
-可算名詞では、個々でそれぞれの状態を持つため、どのインスタンスを示すかの冠詞 _Article_ が必要になる。
+可算名詞は、複数形を用いて、一般名としての集合を表すことができる。
 
-* I bought __a book__. _「とある本」（会話空間にインスタンスを生成する時）_
-* __The book__ was written by Alice. _「その本」（既知のインスタンスを示す時）_
-
-可算名詞は、複数形を用いてその集合を表すことができる。一般名のように漠然とした集合を示す時は冠詞はつけない。既知の有限集合を示す場合には、冠詞をつける。
-
-* I love __books__. _「本」(本というもの）_
-* I bought __two books__ written by Alice. _「とある2册の本」_
-* __The books__ are very nice. _「それらの本」（既知の2冊の本）_
-* I'll give you __one of the books__. _「それらの本の１つ」（その2冊の本のうちの一つ）_
+* I love __books__. _本という集合_
 
 必ずしも、どちらか一方に属するわけでない。特定できるものを差しているのか、一般的なことを差しているのかで使い分ける。
 
