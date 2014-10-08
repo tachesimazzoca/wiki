@@ -155,7 +155,10 @@ _the_ が付いて特定の意味になるものもある。
 * I got the news on __the internet__.
 * I talked to him on __the phone__.
 * I often listen to __the radio__.
+* I often read __the newspaper__.
 * I often watch __TV__.
+
+新聞について勘違いしやすいが、_the_ は特定の新聞一刊を差すのではなく、新聞というメディアを差す。「新聞を読む」という行為では _the newspaper_ を使う。読み物や紙としての新聞を差すときは _paper_ を使う。
 
 ## 場所名
 
