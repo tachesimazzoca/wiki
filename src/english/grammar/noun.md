@@ -59,6 +59,15 @@ title: Noun
 * I have __a little__ money. _少しなら持っている（前向き）_
 * I have __much__ money. _たくさん持っている_
 
+_a lot of / lots of / plenty of_ は、可算名詞 / 不可算名詞のどちらでも使えるが、ややカジュアルな印象になる。_lot_ 「ロット」は生産単位で、_a lot of_ は、それなりに「たくさん」を表す。_lots of_ なら複数ロットなので「かなりたくさん」になる。
+
+* I have __many__ books.
+* I have __a lot of__ books.
+* I have __lots of__ books.
+* I don't have __much__ money. _否定文ではあまり使われない_
+* He has __(much|lots of)__ confidence.
+* We have __plenty of__ time. _plenty は「十分な」量_
+
 _some / any_ はどちらでも使える。
 
 * Do you have __any__ questions?
