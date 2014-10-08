@@ -67,7 +67,7 @@ _on my own_ で「独立して / 自力で」（誰の助けも借りない）�
 
 数量詞 _Quantifier_ は、物の数量を表す。
 
-### some / any
+### some / any / no
 
 _some / any_ は「いくつかの ...」という意味で、集合の中から数個を取り出す。
 
@@ -98,7 +98,26 @@ _any_ には「何でも」という任意の物を差す意味もある。
 * Ask me __anytime__ you want.
 * You can have __any drink__ except coke. _コーラ以外なら何でも_
 
-_someone / anyone_ は単数扱いであるが、男女の区別はつかないので、所有形容詞には _they / them / their_ を用いる。
+_no_ は _not (a|any)_ の略になる。名詞により単数形か複数形になる。
+
+* There's __no__ bus.
+* There were __no__ stores open.
+
+_of_ と併用する場合は、_none of ..._ になる。この場合は単数形でもよい。
+
+* __None of__ the stores __(were|was)__ open.
+
+_no_ の場合は、否定形を用いた重複否定はできない。
+
+* I have __no__ questions.
+  * I don't have __any__ questions.
+  * <del>I don't have no questions</del> I have __some__ questions.
+* __No one__ said "Yes".
+  * <del>No one didn't say "No".</del> __Anyone__ didn't say "Yes".
+
+「誰か」を表す _someone / somebody / anyone / anybody / no one / nobody_ は単数扱いになる。男女の区別はつかないので、所有形容詞には _they / them / their_ を用いる。
 
 * Someone __has__ forgotten __their__ key. _誰かが鍵を忘れている_
+* If anyone __calls__ me, please tell __them__ I'll call back later.
+* Nobody __knows__ where __they__ are.
 
