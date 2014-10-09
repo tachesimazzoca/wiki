@@ -33,7 +33,7 @@ title: Tips
     </VirtualHost>
 
 
-## Basic認証
+## Basic Authentication
 
 htpasswd コマンドで、パスワードファイルを作成します。
 
@@ -66,30 +66,13 @@ htpasswd コマンドで、パスワードファイルを作成します。
     </Files>
 
 
-## メンテナンスモード
+## Maitenance Mode
 
 Webサイトをメンテナンス状態とする場合、単にページ内容を変更したり、メンテナンスページへリダイレクトする方法ではSEO対策として問題があります。検索エンジンのクローラにとっては、メンテナンス状態であるかの判断はできないため、通常のページ更新があったものとみなされてメンテナンスページが収集されてしまうことになります。
 
-HTTPステータスコードを `503 Service Temporarily Unavailable` で応答することで、クローラに通常のページ応答ではないことを伝えることができます。mod_rewrite + PHP を使って、503 エラーで応答する例です。
+HTTPステータスコードを `503 Service Temporarily Unavailable` で応答することで、クローラに通常のページ応答ではないことを伝えることができます。
 
-    # /maintenance/ ディレクトリ以外のURLの場合は /maintenance/index.php にリライト
-    RewriteEngine on
-    RewriteCond %{REQUEST_URI} !^/maintenance/
-    RewriteRule ^.*$ /maintenance/index.php [L]
-    /maintenance/index.php
-
-`/maintenance/index.php` の例です。
-
-    <?php
-
-    header('HTTP/1.1 503 Service Temporarily Unavailable');
-
-    include '/path/to/maintenance.html';
-
-
-`/maintenance/` ディレクトリ内であればリライトされませんので、メンテナンスページで用いる画像/CSSファイルはこのディレクトリ内に置くようにします。
-
-Apache2.2系であれば、mod_rewrite だけで 503 のレスポンスコード指定ができます。
+2.2 系であれば、mod\_rewrite だけで 503 のレスポンスコード指定ができます。以下の例では `/maintenance/` ディレクトリ内であればリライトされませんので、メンテナンスページで用いる画像/CSSファイルはこのディレクトリ内に置くようにします。
 
     # 503 エラー用の maintenance.html を用意します。
     ErrorDocument 503 /maintenance/index.html
@@ -97,6 +80,66 @@ Apache2.2系であれば、mod_rewrite だけで 503 のレスポンスコード
     RewriteCond %{REQUEST_URI} !^/maintenance/
     RewriteRule ^.*$ - [R=503,L]
 
+`/maintenance/index.html` 自身へのリクエストは 503 とならない点に注意してください。`/maintenance/index.html` へのリンクやサイトマップが存在すればクロールされる可能性はあります。meta タグや `robot.txt` と併用してクロール対象外であることを伝えるようにします。
 
-この場合 `/maintenance/index.html` 自身へのリクエストは 503 となりません。`/maintenance/index.html` へのリンク/サイトマップが存在すればクロールされる可能性はあります。meta タグや `robot.txt` と併用してクロール対象外であることを伝えるようにします。
+1.3 系ではこの方法がつかえません。代わりに、動的に 503 ステータスを送出する PHP クリプト等にリライトします。
+
+以下のような `/maintenance/index.php` を設置しておきます。
+
+    <?php
+
+    header('HTTP/1.1 503 Service Temporarily Unavailable');
+    include '/path/to/maintenance.html';
+
+`/maintenance/` ディレクトリ以外のURLの場合は `/maintenance/index.php` にリライトします。
+
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} !^/maintenance/
+    RewriteRule ^.*$ /maintenance/index.php [L]
+
+## Load Blancing
+
+[mod\_proxy](http://httpd.apache.org/docs/2.2/en/mod/mod_proxy.html) により、httpd 単体でロードバランサを実現できます。
+
+ダウンタイムなしで、更新を行なう運用例です。
+
+* マスタ `http://localhost:8080`
+* スタンバイ `http://localhost:8081`
+
+でバックエンドアプリケーションを起動させるとします。
+
+    <VirtualHost *:80>
+      ServerName lb.example.net
+      <Proxy balancer://tomcat>
+        BalancerMember http://localhost:8080
+        BalancerMember http://localhost:8081 status=+H
+      </Proxy>
+      <Proxy *>
+        Order Allow,Deny
+        Allow From All
+      </Proxy>
+      ProxyPreserveHost On
+      ProxyPass / balancer://tomcat/
+      ProxyPassReverse / balancer://tomcat/
+    </VirtualHost>
+
+`status=+H` は _hot-standby_ の意味です。通常は使われずに、全てのメンバがダウンしている時にのみ利用されます。
+
+以下の手順で、ダウンタイムなしで切り替えることができます。
+
+* スタンバイ `8081` へ更新アプリケーションをデプロイ＆起動; _バランサから切り離されているため影響なし_
+* マスタ `8080` を停止。スタンバイ `8081` に切り替わる
+* マスタ `8080` へ更新アプリケーションをデプロイ後＆起動; _バランサから切り離されているため影響なし_
+* スタンバイ `8081` を停止。マスタ `8080` に切り替わる
+
+この設定では、スタンバイにいったん切り替わると、マスタが復旧してもスタンバイのままです。スタンバイを停止しない限り、マスタに切り替わりません。一見デメリットのように思えますが、マスタが起動しても自動的に切り替わらないことを生かして、起動後に受け入れテストを実施し、任意のタイミングでマスタに切り替えることができます。
+
+常にマスタ優先で切り替えたい場合は、`BalancerMember` ディレクティブに `retry` オプションを指定します。
+
+      <Proxy balancer://tomcat>
+        BalancerMember http://localhost:8080 retry=30
+        BalancerMember http://localhost:8081 status=+H retry=0
+      </Proxy>
+
+`retry` 秒毎に疎通がチェックされ、マスタの復旧と同時に切り替わります。
 
