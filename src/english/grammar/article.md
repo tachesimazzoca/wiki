@@ -218,23 +218,3 @@ _Swiss_ は形容詞も同じなので、_The Swiss / a Swiss_ になる。
 * Thais / a Thai
 * Filipinos / a Filipino
 
-## 限定詞の制限
-
-冠詞は限定詞 _Determiner_ の一つである。形容詞とは異なり、限定詞は一つの名詞に対し一つしか使うことができない。
-
-* 冠詞 _Article_: a / the
-* 指示限定詞 _Demonstrative_: this / that / these / those
-* 所有限定詞 _Possessive_: my / your / his / her / our / their
-* 疑問限定詞 _Interrogative_: which / what
-* 否定限定詞: no
-* 数量詞 _Quantifier_
-  * all / every / each / many / some
-  * one / two / first / second
-
-例えば _some my books_ という言い方はできない。限定詞が一つになるように置き換える。
-
-* some __of my books__
-* some books __of mine__
-* <del>this my book</del> this book of mine
-* He asked me <del>which my book</del> __which book of mine__ is the most suitable for beginners.
-

@@ -12,11 +12,7 @@ title: Determiner
 * 指示 _Demonstrative_: this / that / these / those
 * 所有 _Possessive_: my / your / his / her / our / their
 * 疑問 _Interrogative_: which / what
-* 数量詞 _Quantifier_
-  * all / most / much many / litte few / some / any / no
-  * every / each
-  * several / enough
-  * both / either / neither / other / another
+* 数量詞 _Quantifier_: all / most / some / no / every / each / many / both / other / ...
 * 数詞: one / two / first / second
 
 特定の物には、限定詞をつける。一般的な物には、限定詞はつけない。
@@ -67,6 +63,14 @@ _on my own_ で「独立して / 自力で」（誰の助けも借りない）�
 
 数量詞 _Quantifier_ は、物の数量を表す。
 
+* all / half
+* most / some / any / no
+* much or many / little or few
+* every / each
+* both / either / neither
+* other / another
+* several / enough
+
 ### some / any / no
 
 _some / any_ は「いくつかの ...」という意味で、集合の中から数個を取り出す。
@@ -103,10 +107,6 @@ _no_ は _not (a|any)_ の略になる。名詞により単数形か複数形に
 * There's __no__ bus.
 * There were __no__ stores open.
 
-_of_ と併用する場合は、_none of ..._ になる。この場合は単数形でもよい。
-
-* __None of__ the stores __(were|was)__ open.
-
 _no_ の場合は、否定形を用いた重複否定はできない。
 
 * I have __no__ questions.
@@ -120,4 +120,28 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * Someone __has__ forgotten __their__ key. _誰かが鍵を忘れている_
 * If anyone __calls__ me, please tell __them__ I'll call back later.
 * Nobody __knows__ where __they__ are.
+
+### of を伴うケース
+
+同一グループの限定詞は一つしかつかえないため、_the / this / that / these / those / my / ..._ で限定されている場合は、_of_ をつける。そうでない場合はつけない。
+
+* __Most__ people have a job.
+* __Some of__ the people I work with are not friendly.
+* __Most of__ those books are mine.
+
+_no_ は、_none of_ になり、単数形でもよい。
+
+* __None of__ the stores __(were|was)__ open.
+
+_all / half / both_ の場合は _of_ を省略できる。ただし、_us / you / them / it_ の場合は省略できない。
+
+* __All__ (of) the Japanese people here can't speak English.
+* __Half__ (of) this money is yours.
+* __Both__ (of) these books are good.
+* __All of__ them must be done by tomorrow.
+
+自明な場合は、_of ..._ を省略することもある。
+
+* __Half of it__ is mine, and __half__ _(of it)_ is yours.
+* Do all American husbands help around the house? Not all of them. __Some__ do, __some__ don’t.
 
