@@ -6,7 +6,7 @@ title: Determiner
 
 ## 使い方
 
-英語では、名詞が特定の物を差すのか、一般的な事柄を差すのかを区別する。限定詞 _Determiner_ を用いて、物を特定することができる。
+英語では、名詞が特定の物を指すのか、一般的な事柄を指すのかを区別する。限定詞 _Determiner_ を用いて、物を特定することができる。
 
 * 冠詞 _Article_: a / the
 * 指示 _Demonstrative_: this / that / these / those
@@ -97,7 +97,7 @@ _some / any_ どちらを使うかで、相手に与える印象が異なる。
 * Do you have __some__ friends? _友達はいますよね？_
 * Do you have __any__ friends? _友達がいるんですか？_
 
-_any_ には「何でも」という任意の物を差す意味もある。
+_any_ には「何でも」という任意の物を指す意味もある。
 
 * Ask me __anytime__ you want.
 * You can have __any drink__ except coke. _コーラ以外なら何でも_
@@ -121,17 +121,42 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * If anyone __calls__ me, please tell __them__ I'll call back later.
 * Nobody __knows__ where __they__ are.
 
+### both / either / neither
+
+_both / neither / either_ は二つの事柄について指す。_neither / either_ は単数扱いになる。自明の名詞は省略できる。
+
+* There're 2 restaurants. Which restaurant shall we go?
+  * __Both (restaurants)__ are very good.
+  * __Neither (restaurant)__ is expensive.
+  * We can go to __either (restaurant)__.
+
+_and / nor / or_ で二つの事柄を明示できる。
+
+* I asked __both__ Alice __and__ Bob which was better.
+* __Neither__ Alice __nor__ Bob came to the party.
+* You can ask __either__ Alice __or__ Bob.
+
+これらは名詞以外の句でも使える。
+
+* She is both __beautiful__ and __intelligent__.
+* I neither __moved__ nor __touched__ it.
+* Either __you come here__ or __I go there__.
+
 ### of を伴うケース
 
-同一グループの限定詞は一つしかつかえないため、_the / this / that / these / those / my / ..._ で限定されている場合は、_of_ をつける。そうでない場合はつけない。
+指示または所有 _the / this / that / these / those / my / ..._ で限定されている場合は、_of_ をつける。そうでない場合はつけない。
 
 * __Most__ people have a job.
 * __Some of__ the people I work with are not friendly.
 * __Most of__ those books are mine.
 
-_no_ は、_none of_ になり、単数形でもよい。
+_none of_ の場合は、単数扱いでもよい。
 
 * __None of__ the stores __(were|was)__ open.
+
+_neither of_ の場合は、複数扱いでもよい。
+
+* __Neither of__ these restaurants __(is|are)__ expensive.
 
 _all / half / both_ の場合は _of_ を省略できる。ただし、_us / you / them / it_ の場合は省略できない。
 
