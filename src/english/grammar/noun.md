@@ -93,7 +93,7 @@ _some / any_ はどちらでも使える。
 
 ## 集合名詞
 
-_family / audience / company / team / staff / crew_ は集合名詞と呼ばれ、ひとつのチームを差す場合には単数扱いになり、個々の人員を差す時は複数形を用いる。
+_family / audience / company / team / staff / crew_ は集合名詞と呼ばれ、ひとつのチームを指す場合には単数扱いになり、個々の人員を指す時は複数形を用いる。
 
 * Tell the <del>staffs</del> __staff__ that there'll be a meeting tomorrow. _スタッフ（全員）に伝える_
 * The staff __is__ very friendly. _スタッフ（全員）はとても親切です_

@@ -23,7 +23,7 @@ title: Pronoun
 * wash / shave / dress
   * You must get __dressed__ <del>yourself</del>. _dress = ... に服を着せる_
 
-_themselves_ は、各自自身を差す。お互いを差す場合は _each other_ を使う。
+_themselves_ は、各自自身を指す。お互いを指す場合は _each other_ を使う。
 
 * They should take care of __themselves__. _自分自身を注視_
 * They've known __each other__ since high school. _高校からお互いに知り合い_
