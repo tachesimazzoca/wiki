@@ -40,3 +40,11 @@ title: Reflection
         }
     }
 
+## Tips
+
+### Getting the current class name statically 
+
+    public class MyClass {
+        private static final String TAG = (new Throwable()).getStackTrace()[0].getClassName();
+    }
+
