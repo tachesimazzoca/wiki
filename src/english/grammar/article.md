@@ -191,6 +191,26 @@ _McDonald's_ のように人名から始まる場合は、_the_ はつかない�
 * __the__ Financial Times
 * __the__ British Broadcasting Corporation (BBC)
 
+## 季節
+
+季節の括り _spring / summer / autumn / winter_ には冠詞はつけない。_AmE_ では _the_ をつけてもよい。
+
+* I go swimming __in (the) summer__.
+
+特定の季節や _of ..._ を伴う時は _the_ をつける。
+
+* __The spring of__ life
+* __The autumn of__ 2000
+
+形容詞をともなう時は _a_ をつける。
+
+* It's gonna be __a hot summer__.
+
+形容詞として使われる場合は、もちろん文脈に依存する。
+
+* I went to Japan during __the spring break__ when I was 18.
+* He's on __summer vacation__.
+
 ## The + 形容詞
 
 _the young (= young people)_ 「若者」のように、_the + 形容詞_ だけで特定の人々表すことができる。
