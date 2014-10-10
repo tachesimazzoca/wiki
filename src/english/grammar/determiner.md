@@ -115,11 +115,32 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * __No one__ said "Yes".
   * <del>No one didn't say "No".</del> __Anyone__ didn't say "Yes".
 
-「誰か」を表す _someone / somebody / anyone / anybody / no one / nobody_ は単数扱いになる。男女の区別はつかないので、所有形容詞には _they / them / their_ を用いる。
+### each / every
+
+_each / every_ は集合の個々の要素を指し、単数扱いになる。_each_ は個々の状態にフォーカスが当たり、_every_ は _all_「全て」の意味に近い。
+
+* __Each__ side of a square is the same length.
+* He asked __each participant__ to fill out a survey.
+* I've read __every__ book.
+* __Every__ sheet was taken.
+
+2名以下の場合は、_every_ は使えない。
+
+* In Wimbledon men's singles, <del>every</del> __each__ player is allowed to take a bathroom break after a set.
+
+_each_ は単体で名詞として使える。_every_ は形容詞の意味しかもたないため、_every one_ とする。
+
+* There are 5 rooms. __Each (one)__ (of the rooms) has a different color.
+* I checked out __every one__ of their profiles.
+
+### ...body / ...one
+
+人を表す _everyone / everybody / someone / somebody / anyone / anybody / no one / nobody_ は単数扱いになる。男女の区別はつかないので、所有形容詞には _they / them / their_ を用いる。
 
 * Someone __has__ forgotten __their__ key. _誰かが鍵を忘れている_
 * If anyone __calls__ me, please tell __them__ I'll call back later.
 * Nobody __knows__ where __they__ are.
+* Everybody __knows__ where __they__ go.
 
 ### both / either / neither
 
