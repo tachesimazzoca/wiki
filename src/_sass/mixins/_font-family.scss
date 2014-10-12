@@ -5,6 +5,6 @@
     $important: '';
   }
   @if $type == 'monospace' {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   }
 }
