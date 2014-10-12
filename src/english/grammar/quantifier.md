@@ -8,13 +8,16 @@ title: Quantifier
 
 数量詞 _Quantifier_ は、物の数量を表す。
 
-* all / half
+* all / half / both
+* twice
 * most / some / any / no
 * each / every
-* both / either / neither
-* other / another
+* either / neither
 * much or many / little or few
 * several / enough
+* other / additional
+* first / second / next / last / ...
+* one / two / three / ...
 
 ## some / any / no
 
@@ -107,6 +110,24 @@ _and / nor / or_ で二つの事柄を明示できる。
 * She is both __beautiful__ and __intelligent__.
 * I neither __moved__ nor __touched__ it.
 * Either __you come here__ or __I go there__.
+
+## other / another
+
+_other_ は「他の」物を指す。単数の場合は _another (an other)_ を用いる。
+
+* Do you have any __other__ questions?
+* I want to learn __another__ language.
+
+_other_ は代名詞としても使える。
+
+* another (an other): 未知集合の他の一つ
+  * I dropped my fork. Could you bring me another?
+* others: 未知集合の他の二つ以上（未知なので、全ての残りはわからない）
+  * I don't know. Please ask others.
+* the other: 既知集合の他の一つ
+  * I have two iPhone. One is white. The other is black.
+* the others: 既知集合の他の全て（既知なので、全ての残りを知っている）
+  * There are 5 rooms. These 2 rooms are mine and the others are yours.
 
 ## of を伴うケース
 

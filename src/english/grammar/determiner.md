@@ -35,13 +35,51 @@ title: Determiner
 
 * I live in __Japan__.
 
-一つの名詞に対し、一つの限定詞しか使うことができない。
+## 限定詞のグループ
 
-例えば _some my books_ という言い方はできない。限定詞が一つになるように置き換える。
+限定詞は以下の３つのグループに分けられる。
+
+* 前限定詞 _Pre Determiner_
+  * all / half / both
+  * twice
+  * what / such
+* 中央限定詞 _Central Determiner_
+  * a / the
+  * this / that / these / those
+  * most / some / any / no
+  * each / every
+  * either / neither
+  * which
+* 後限定詞 _Post Determiner_
+  * much or many / little or few
+  * several / enough
+  * other / additional
+  * first / second / next / last / ...
+  * one / two / three / ...
+
+限定詞は、この３グループの順序でならべる。
+
+* all the people
+* such a thing
+* these many books
+* the other books
+
+原則として、各グループ内で重複すると限定が矛盾するため、同時にはつかえない。
+
+* <del>all half books</del> _all books? half books?_
+
+例外もあり、_each / every_ や、数詞は同時に使える。
+
+* __my each__ book
+* __his every__ word
+* the __last two__ days
+
+間違いやすい例として「私の本の中のいくつか」という場合、 _some my books_ という言い方はできない。「いくつかの本」「私の本」という二つの集合が混在してしまう。_of_ で階層を明示して、部分集合を表す。
 
 * some __of my books__
 * some books __of mine__
-* <del>this my book</del> this book of mine
+* <del>this my book</del> this book __of mine__
+* <del>most these books</del> most __of these books__
 * He asked me <del>which my book</del> __which book of mine__ is the most suitable for beginners.
 
 ## 所有形容詞
