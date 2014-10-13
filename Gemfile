@@ -1,9 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '0.11.2'
-gem 'rdiscount', '1.6.8'
-gem 'sass', '3.2.3'
+gem 'jekyll', '2.4.0'
 
-group :development do
-  gem 'guard-shell', '0.5.1'
-end

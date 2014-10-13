@@ -2,13 +2,10 @@ title: "tachesimazzoca.github.com/wiki"
 
 baseurl: "/wiki"
 
-source: . 
+source: .
 destination: ./_site
-plugins: ./_plugins 
+plugins: ./_plugins
 
-markdown: rdiscount 
-rdiscount:
-  extensions:
-    - strict
+markdown: redcarpet
 
-pygments: false 
+highlighter: pygments
