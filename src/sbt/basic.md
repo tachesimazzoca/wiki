@@ -32,11 +32,13 @@ title: 基本操作
 
 ソースは `src/main/(java|scala)` に置きます。`src/main/scala/Sandbox.scala` を作成してみます。
 
-    object Sandbox {
-      def main(args:Array[String]) {
-         println("Hello World")
-      }
-    }
+```scala
+object Sandbox {
+  def main(args:Array[String]) {
+     println("Hello World")
+  }
+}
+```
 
 プロジェクトディレクトリ直下で `sbt` コマンドを実行するとインタラクティブモードでコンソールが立ち上がります。初回起動時は必要なパッケージがダウンロードされます。
 
@@ -72,20 +74,21 @@ title: 基本操作
 
 `src/main/resources/sandbox.properties` を読み込む `src/main/scala/Sandbox.scala` のサンプルコードです。
 
-    import java.io.FileInputStream
-    import java.util.Properties
+```scala
+import java.io.FileInputStream
+import java.util.Properties
 
-    import scala.collection.JavaConversions._
+import scala.collection.JavaConversions._
 
-    object Sandbox {
-      def main(args:Array[String]) {
+object Sandbox {
+  def main(args:Array[String]) {
 
-        val prop = new Properties()
-        prop.load(getClass().getResourceAsStream("/sandbox.properties"))
+    val prop = new Properties()
+    prop.load(getClass().getResourceAsStream("/sandbox.properties"))
 
-        prop.stringPropertyNames().foreach { key =>
-          println(prop.getProperty(key))
-        }
-      }
+    prop.stringPropertyNames().foreach { key =>
+      println(prop.getProperty(key))
     }
-
+  }
+}
+```

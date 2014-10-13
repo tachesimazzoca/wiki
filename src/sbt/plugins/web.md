@@ -58,32 +58,34 @@ _0.9.x_ は sbt-0.13.0 以上が必要です。sbt-0.12.x 系の場合は _0.5.x
 
 `net.example.servlets.SandboxServlet` を作成してみます。ソースは `src/main/scala/net/example/servlets/SandboxServlet.scala` に設置します。
 
-    package net.example.servlets
+```scala
+package net.example.servlets
 
-    import javax.servlet.http.{HttpServlet, HttpServletRequest, HttpServletResponse}
+import javax.servlet.http.{HttpServlet, HttpServletRequest, HttpServletResponse}
 
-    class SandboxServlet extends HttpServlet {
-      override def doGet(request:HttpServletRequest, response:HttpServletResponse) {
-        response.setContentType("text/plain")
-        response.setCharacterEncoding("UTF-8")
-        response.getWriter().write("Hello World")
-      }
-    }
-
+class SandboxServlet extends HttpServlet {
+  override def doGet(request:HttpServletRequest, response:HttpServletResponse) {
+    response.setContentType("text/plain")
+    response.setCharacterEncoding("UTF-8")
+    response.getWriter().write("Hello World")
+  }
+}
+```
 
 `src/main/webpp/WEB-INF/web.xml` を配置します。
 
-    <web-app>
-      <servlet>
-        <servlet-name>sandbox</servlet-name>
-        <servlet-class>net.example.servlets.SandboxServlet</servlet-class>
-      </servlet>
-      <servlet-mapping>
-        <servlet-name>sandbox</servlet-name>
-        <url-pattern>/sandbox</url-pattern>
-      </servlet-mapping>
-    </web-app>
-
+```xml
+<web-app>
+  <servlet>
+    <servlet-name>sandbox</servlet-name>
+    <servlet-class>net.example.servlets.SandboxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sandbox</servlet-name>
+    <url-pattern>/sandbox</url-pattern>
+  </servlet-mapping>
+</web-app>
+```
 
 sbt コンソールから `container:start` で Jetty を起動します。
 

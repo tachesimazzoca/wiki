@@ -20,14 +20,16 @@ _java.io_ の基本が詰まっているので、ぜひソースを読んでお�
 
 により `byte` 単位での入出力を行うことができます。
 
-    public static void copy(
-            InputStream input, OutputStream output) throws IOException {
-        byte[] buffer = new byte[4096];
-        int n = 0;
-        while (-1 != (n = input.read(buffer))) {
-            output.write(buffer, 0, n);
-        }
+```java
+public static void copy(
+        InputStream input, OutputStream output) throws IOException {
+    byte[] buffer = new byte[4096];
+    int n = 0;
+    while (-1 != (n = input.read(buffer))) {
+        output.write(buffer, 0, n);
     }
+}
+```
 
 * [java.io.BufferedInputStream](http://docs.oracle.com/javase/6/docs/api/java/io/BufferedInputStream.html)
 * [java.io.BufferedOutputStream](http://docs.oracle.com/javase/6/docs/api/java/io/BufferedOutputStream.html)
@@ -47,14 +49,16 @@ _java.io_ の基本が詰まっているので、ぜひソースを読んでお�
 
 により `char` 単位での入出力を行うことができます。
 
-    public static void copy(
-            Reader input, Writer output) throws IOException {
-        char[] buffer = new char[4096];
-        int n = 0;
-        while (-1 != (n = input.read(buffer))) {
-            output.write(buffer, 0, n);
-        }
+```java
+public static void copy(
+        Reader input, Writer output) throws IOException {
+    char[] buffer = new char[4096];
+    int n = 0;
+    while (-1 != (n = input.read(buffer))) {
+        output.write(buffer, 0, n);
     }
+}
+```
 
 * [java.io.BufferedReader](http://docs.oracle.com/javase/6/docs/api/java/io/BufferedReader.html)
 * [java.io.BufferedWriter](http://docs.oracle.com/javase/6/docs/api/java/io/BufferedWriter.html)
