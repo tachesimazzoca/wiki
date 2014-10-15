@@ -129,6 +129,12 @@ _other_ は代名詞としても使える。
 * the others: 既知集合の他の全て（既知なので、全ての残りを知っている）
   * There are 5 rooms. These 2 rooms are mine and the others are yours.
 
+_other than ..._ で「... 以外の」の意味になる。代名詞ではなく前置詞的な使い方なので、名詞の後に続く。
+
+* Do you have any ideas __other than__ that?
+* There is no one __other than__ him.
+* I'm available anytime __other than__ Friday.
+
 ## of を伴うケース
 
 指示または所有 _the / this / that / these / those / my / ..._ で限定されている場合は、_of_ をつける。そうでない場合はつけない。
