@@ -15,14 +15,10 @@ _who_ により、人物を特定するための情報を追加できる。文�
 
 * The people _(who|that)_ I work with are very friendly.
 
-目的語の場合 _whom_ も使える。ペアの前置詞を前に持ってくる事ができる。ただし、_whom_ は口語ではあまり使われない。
+特定する情報でなければ、カンマで区切って _who_ をエイリアスのように使い、補足情報として追加する。この場合は _that_ を使う事はできない。
 
-* The people __whom__ I work with are very friendly.
-* The people __with whom__ I work are very friendly.
-
-既知の人物の場合は、特定する必要はないため、上記の方法は使わないが、カンマで区切って _who_ をエイリアスのように使い、補足情報として追加できる。この場合は _that_ を使う事はできない。
-
-* My sister Alice, <del>that</del> __who__ lives in Cupertino, works for Apple. _アリスは、クパチーノに住んでいて、アップルで働いている。_
+* My sister Alice, <del>that</del> __who__ lives in Cupertino, works for Apple.
+* I had a new job, __which__ I'm enjoying a lot.
 
 物に対しては _which_ を使う。ルールは _who_ と同様である。
 
@@ -30,6 +26,7 @@ _who_ により、人物を特定するための情報を追加できる。文�
 * The hotel __that__ you recommended was very comfortable.
 * Have you finished reading the book _(which)_ I lent to you?
 * The Scala programming language, <del>that</del> __which__ is a JVM language, makes you a better programmer.
+* Yesterday I visited Bob's house, __which__ I've never been to.
 
 _what_ は _the thing that_ の意味になる。
 
@@ -43,4 +40,17 @@ _whose_ は _his / her / their_ の代わりとして、関係節を組み立て
 
 * I met a man __whose__ brother knows you.
 * in Quebec, many people __whose__ mother tongue is English speak French.
+
+## whom
+
+目的語の場合 _whom / which_ で、ペアの前置詞を前に持ってくる事ができる。前置詞をともなう場合はカンマで区切り、_that_ に置き換えることはできない。ただし、口語ではあまり使われない。
+
+* The people, <del>with that</del> __with whom__ I work, are very friendly.
+* Mr. Yamada, <del>to that</del> __to whom__ I talked yesterday, is interesting.
+* I had a map, <del>without that</del> __without which__ I wouldn't have gotten here.
+
+_of_ で部分集合を扱うときは、_whom / which_ を使う。
+
+* I have a lot of friends, __most of whom__ I met in college.
+* She said that she bought a book, __the name of which__ I can't remember.
 
