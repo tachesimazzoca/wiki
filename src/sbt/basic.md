@@ -32,13 +32,13 @@ title: 基本操作
 
 ソースは `src/main/(java|scala)` に置きます。`src/main/scala/Sandbox.scala` を作成してみます。
 
-```scala
+{% highlight scala %}
 object Sandbox {
   def main(args:Array[String]) {
      println("Hello World")
   }
 }
-```
+{% endhighlight %}
 
 プロジェクトディレクトリ直下で `sbt` コマンドを実行するとインタラクティブモードでコンソールが立ち上がります。初回起動時は必要なパッケージがダウンロードされます。
 
@@ -74,7 +74,7 @@ object Sandbox {
 
 `src/main/resources/sandbox.properties` を読み込む `src/main/scala/Sandbox.scala` のサンプルコードです。
 
-```scala
+{% highlight scala %}
 import java.io.FileInputStream
 import java.util.Properties
 
@@ -91,4 +91,4 @@ object Sandbox {
     }
   }
 }
-```
+{% endhighlight %}

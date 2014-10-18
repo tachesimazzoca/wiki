@@ -6,6 +6,10 @@ source: .
 destination: ./_site
 plugins: ./_plugins
 
-markdown: redcarpet
+markdown: rdiscount 
+
+rdiscount:
+  extensions:
+    - strict
 
 highlighter: pygments

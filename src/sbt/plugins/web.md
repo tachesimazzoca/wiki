@@ -58,7 +58,7 @@ _0.9.x_ は sbt-0.13.0 以上が必要です。sbt-0.12.x 系の場合は _0.5.x
 
 `net.example.servlets.SandboxServlet` を作成してみます。ソースは `src/main/scala/net/example/servlets/SandboxServlet.scala` に設置します。
 
-```scala
+{% highlight scala %}
 package net.example.servlets
 
 import javax.servlet.http.{HttpServlet, HttpServletRequest, HttpServletResponse}
@@ -70,11 +70,11 @@ class SandboxServlet extends HttpServlet {
     response.getWriter().write("Hello World")
   }
 }
-```
+{% endhighlight %}
 
 `src/main/webpp/WEB-INF/web.xml` を配置します。
 
-```xml
+{% highlight xml %}
 <web-app>
   <servlet>
     <servlet-name>sandbox</servlet-name>
@@ -85,7 +85,7 @@ class SandboxServlet extends HttpServlet {
     <url-pattern>/sandbox</url-pattern>
   </servlet-mapping>
 </web-app>
-```
+{% endhighlight %}
 
 sbt コンソールから `container:start` で Jetty を起動します。
 

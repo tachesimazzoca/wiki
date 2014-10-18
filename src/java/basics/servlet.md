@@ -8,7 +8,7 @@ title: Servlet
 
 `web.xml`:
 
-```xml
+{% highlight xml %}
 <servlet>
   <servlet-name>Index</servlet-name>
   <servlet-class>net.example.servlet.IndexServlet</servlet-class>
@@ -17,11 +17,11 @@ title: Servlet
     <param-value>bar</param-value>
   </init-param>
 </servlet>
-```
+{% endhighlight %}
 
 `IndexServlet.java`:
 
-```java
+{% highlight java %}
 public class IndexServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
@@ -29,4 +29,4 @@ public class IndexServlet extends HttpServlet {
         System.out.println(config.getInitParameter("foo")); // "bar"
     }
 }
-```
+{% endhighlight %}

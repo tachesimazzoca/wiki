@@ -6,7 +6,7 @@ title: Reflection
 
 ## Contructor 
 
-```java
+{% highlight java %}
 try {
     Class<?> clazz = Class.forName("net.example.reflection.Foo");
     Foo foo = (Foo) clazz.newInstance(); 
@@ -17,11 +17,11 @@ try {
 } catch (IllegalAccessException e) {
     throw e;
 }
-```
+{% endhighlight %}
 
 ## Instance method
 
-```java
+{% highlight java %}
 import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
 
@@ -42,14 +42,14 @@ public class Calc {
         }
     }
 }
-```
+{% endhighlight %}
 
 ## Tips
 
 ### Getting the current class name statically 
 
-```java
+{% highlight java %}
 public class MyClass {
     private static final String TAG = (new Throwable()).getStackTrace()[0].getClassName();
 }
-```
+{% endhighlight %}
