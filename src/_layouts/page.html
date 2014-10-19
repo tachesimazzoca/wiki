@@ -62,6 +62,10 @@ layout: global
           </div>
           {{ content }}
           </div>
+          {% if page.index %}
+          <h2>Table of Contents</h2>
+          {% toctree %}
+          {% endif %}
         </div>
       </div>
     </div>

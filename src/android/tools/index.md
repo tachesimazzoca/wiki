@@ -1,5 +1,7 @@
 ---
-layout: directory
+layout: page
 
 title: Tools
+
+index: true
 ---

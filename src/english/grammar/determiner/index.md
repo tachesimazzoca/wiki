@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: page 
 
 title: Determiner
+
+index: true 
 ---
 
 ## 使い方
@@ -10,9 +12,9 @@ title: Determiner
 
 * 指示詞 _Demonstrative_
   * 冠詞 _Article_: a / the
-  * 指示 _Demonstrative_: this / that / these / those
-  * 所有 _Possessive_: my / your / his / her / our / their
-  * 疑問 _Interrogative_: which / what
+  * 指示形容詞 _Demonstrative Adjective_: this / that / these / those
+  * 所有形容詞 _Possessive Adjective_: my / your / his / her / our / their
+  * 疑問形容詞 _Interrogative Adjective_: which / what
 * 数量詞 _Quantifier_
   * 不定数量詞: all / most / some / no / every / each / many / both / either / ...
   * 数詞: one / two / first / second
@@ -84,7 +86,7 @@ title: Determiner
 
 ## 所有形容詞
 
-所有形容詞 _Possessive Determiner_ で「（誰）の ...」という所有を表す。
+所有形容詞 _Possessive Adjective_ で「（誰）の ...」という所有を表す。
 
 * my / your / his / her
 * our / your / their
