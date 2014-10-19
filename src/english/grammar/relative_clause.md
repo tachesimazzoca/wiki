@@ -54,3 +54,21 @@ _of_ で部分集合を扱うときは、_whom / which_ を使う。
 * I have a lot of friends, __most of whom__ I met in college.
 * She said that she bought a book, __the name of which__ I can't remember.
 
+## ...ing / ...ed
+
+一時的に起こっていること _(who / which) + be + ...ing_ は _...ing_ に省略できる。
+
+* There are some people __waiting__ for a bus. _(... some people who are waiting ...)_
+* The man __standing__ by that door is my father.
+* The taxi __taking__ us to the airport broke down.
+
+常時起こっていること _which do_ についても、_...ing_ で省略できる。
+
+* He has a book __containing__ the information we need. _(The book contains the information.)_
+
+_(who / which) + be + ...ed_ は _...ed_ に省略できる。
+
+* There's a car __broken__ by somebody. _(... a car which is broken ...)_
+* The book __written__ by him is very nice.
+* Somebody __named__ Alice called you about an hour ago.
+
