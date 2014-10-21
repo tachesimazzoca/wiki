@@ -21,11 +21,12 @@ title: Adverb
   * I __absolutely__ agree with you.
   * I __almost__ won the match.
 
-形容詞や副詞を修飾する時は、直前に置く。
+形容詞や副詞を修飾する時は、直前に置く。_enough_ のように例外もある。
 
 * The book is __extremely__ good.
 * It's __completely__ wrong.
 * She speaks Japanese __quite__ well.
+* The room is large __enough__ to accommodate a double bed.
 
 _Fortunately, ..._ のように、文全体を修飾する時は先頭に置く。
 
@@ -60,6 +61,15 @@ _fast / late / hard_ は形容詞と副詞も同じ意味になる。
   * I got up __late__.
 * He works __hard__.
   * He's a __hard__ worker.
+
+### enough
+
+_enough_ は形容詞と副詞も同じ意味になる。形容詞や副詞を修飾する場合はその後に置く。
+
+* I don't have __enough__ money for a vacation.
+* He's expericenced __enough__ to do the job.
+* Fair __enough__.
+* Suprisingly __enough__, the picture was drawn by an 8-year old girl.
 
 ### lately
 
