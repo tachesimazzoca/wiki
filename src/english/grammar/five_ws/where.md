@@ -138,12 +138,13 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 
 ## 副詞
 
-副詞は、１つの単語で「...へ」「...で」「...に」と修飾する。副詞句 _to / at / in + ..._ と混同しないように注意する。
+副詞は「...へ」「...で」「...に」と修飾する。前置詞 _to / at / in + ..._ をともなう副詞句と混同しないように注意する。
 
-* I'm __here__. <del>I'm at here.</del>
-* I went __there__ yesterday. <del>I went to there yesterday.</del>
-* I'm going __home__. <del>I'm going to home.</del>
-* I'm going __abroad__ on vacation. <del>I'm going to abroad on vacation.</del>
+* I'm <del>at</del> __here__.
+* I went <del>to</del> __there__ yesterday.
+* I'm going <del>to</del> __home__.
+* I'm going <del>to</del> __abroad__ on vacation.
+* You're going <del>to</del> __the wrong way__.
 
 ### home
 
