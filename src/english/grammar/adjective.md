@@ -44,6 +44,16 @@ title: Adjective
 * Could you speak __more slowly__?
 * I used to play tennis __more often__.
 
+_much / a lot (= far) / a bit / a little (= slightly) / any / no_ で比較級を修飾することができる。
+
+* It's __much__ cheaper.
+* The problem was __far__ more serious.
+* It's __a bit__ more expensive.
+* Using this tool makes it __slightly__ easier.
+* Do you feel __any__ better?
+* I couldn't wait __any__ longer.
+* I could wait __no__ longer.
+
 ### better / worse
 
 _good / well_ の比較級は _better_ になる。
@@ -67,4 +77,63 @@ _far_ の比較級は _farther / further_ になる。
 * Do you have any __further__ questions?
 
 どちらも同じように使えるが、距離であっても漠然とした「遠さ」には _farther_ よりも、_further_ が使われているケースがあるので、曖昧な時は _further_ を使うほうが無難。
+
+### elder / eldest
+
+家族構成上の、年上の関係を指すときには _older / oldest_ の代わりに _elder / eldest_ が使える。ただし、家族関係の名詞を修飾する場合に限る。
+
+* He is my __elder__ brother.
+* He is <del>elder</del> __older__ than me.
+
+### than
+
+_than ..._ で比較元の対象を示すことができる。
+
+* It's cheaper to go _by car_ __than__ _by train_.
+* _Going by car_ is cheaper __than__ _going by train_.
+
+主語と比較する時は、「主語 + 助動詞」で比較対象を置く。意味が変わらない場合は、目的格に置き換える事ができる。
+
+* He is wiser __than I am__. He is wiser __than me__.
+* I know Alice better __than he does__. (I know Alice vs. He knows Alice)
+* I know Alice better __than him__. (I know Alice vs. I know him)
+
+### as ... as
+
+_not as ... (as 比較元)_ は、比較元と同等でないことを表す。比較元は自明であれば、省略できる。
+
+* He's __not as__ old __as__ he looks.
+  * _i.e._ He looks older than he is.
+* It's __not as__ cold today (as it was yesterday).
+
+否定文であれば _not so ... as_ のように _so_ に置き換えることができる。
+
+* He is 25 years old. He's __not so__ old (as he looks).
+* It's __not so__ cold today (as it was yesterday).
+
+肯定文の場合は、比較元と同等であることを表す。肯定文では _so_ は使えない。
+
+* Would you send me a message <del>so soon as</del> __as soon as__ possible?
+* He speaks Spanish. He can speak English __as well__ (as Spanish).
+
+_twice as / N times as_ で倍数を表すことができる。
+
+* My car is __twice as__ expensive __as__ his one.
+* Standard 4G LTE is __5 times as__ fast __as__ 3G.
+
+形容詞では意見「高い / 安い」等を持っているので、同等であることを伝えるにはやや不向きである。_the same ... as_ で「... と同じ ...」としたほうが伝わりやすい。
+
+* This bag is <del>as expensive as</del> __the same__ price __as__ that one.
+
+_助動詞 + not so much as ..._ で「... さえしない」の意味になる。
+
+* I __won't so much as__ consider it.
+* I __don't so much as__ know your name.
+* I __didn't so much as__ look at him.
+* I __couldn't so much as__ install the SDK.
+
+_not so much A as B_ は「A というより B」の意味になる。
+
+* He is __not so much__ a programmer __as__ an artist.
+* It's __not so much__ the job you've had. _あなたがやってきた仕事がどうこうという事ではありません_
 
