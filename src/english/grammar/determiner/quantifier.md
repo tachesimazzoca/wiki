@@ -23,7 +23,7 @@ title: Quantifier
 
 _some / any_ は「いくつかの ...」という意味で、集合の中から数個を取り出す。
 
-_some_ は、明らかに存在する場合に使う。肯定文では必ず _some_ になる。
+_some_ は、明らかに存在する場合に使う。
 
 * I have __some__ books.
 * May I have __some__ coffee?
@@ -35,7 +35,7 @@ _any_ は、存在するか定かでない時に使う。否定文では存在�
 * I don't have __any__ money.
 * Do you have __any__ questions?
 
-疑問/否定は _any_ という覚え方はいけない。肯定文でも _if_ を伴う場合、存在は定かでない。
+疑問/否定文は _any_ という覚え方はいけない。肯定文でも _if_ を伴う場合、存在は定かでない。
 
 * Let me know if you need __anything__.
 * __Anyone__ who wants to attend the conference should tell me by the end of this week.
