@@ -23,6 +23,7 @@ title: Adverb
 * _all / both_
   * _Alice and Bob_ are __both__ programmers.
   * _We_ __all__ got the answer.
+  * _We_ have __all__ done things we wish we hadn't.
 
 形容詞や副詞を修飾する時は、直前に置く。_enough_ のように例外もある。
 
@@ -110,4 +111,31 @@ _(so / such) ... that_ で「... であるので ...」 と _that_ 節で成り�
 
 * I was __so__ tired __that__ I went straight to bed yesterday.
 * I was __such__ a good book __that__ I finished reading it in a day.
+
+## still / yet
+
+_still_ は「まだ ...」の副詞になる。疑問/否定文の時は _yet_ を用い、文末に置く。
+
+* I'm __still__ working.
+  * I haven't finished working __yet__.
+* I __still__ have the toys.
+  * I haven't thrown them away __yet__.
+* Has she left the offce __yet__?
+  * She is __still__ at the office.
+  * She has __just__ left the office.
+  * She has __already__ left the office.
+
+## anymore / no longer
+
+_not ... anymore (any longer)_ は「今ではもう ... していない」の意味になる。_anymore_ は文末に置く。
+
+* I'm not interested in PHP __anymore__.
+* I never see him __anymore__.
+* He doesn't play the guitar __anymore__.
+
+肯定文での _no longer_ も使える。この場合は、副詞と同じく動詞の直前に置く。
+
+* I'm __no longer__ interested in PHP.
+* I __no longer__ see him.
+* He __no longer__ play the guitar.
 
