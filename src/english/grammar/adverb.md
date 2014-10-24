@@ -11,15 +11,18 @@ title: Adverb
 * He spoke __quietly__.
 * He speaks English __perfectly__.
 
-頻度や程度を修飾する時は、動詞の直前に置く。_be_ 動詞や助動詞の場合は直後に置く。
+頻度や程度など、主体を修飾する時は、動詞の直前に置く。_be_ 動詞や助動詞の場合は直後に置く。
 
-* always / usually / often / sometimes / seldom / hardly / never
+* 頻度: _always / usually / often / sometimes / seldom / hardly / never_
   * I __always__ get to work at 10:00.
   * He's __usually__ at the office by 18:00.
   * I've __never__ been to Japan.
-* completely / absolutely / almost / rather
+* 程度: _completely / absolutely / almost / rather_
   * I __absolutely__ agree with you.
   * I __almost__ won the match.
+* _all / both_
+  * _Alice and Bob_ are __both__ programmers.
+  * _We_ __all__ got the answer.
 
 形容詞や副詞を修飾する時は、直前に置く。_enough_ のように例外もある。
 
