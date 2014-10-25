@@ -54,37 +54,6 @@ _much / a lot (= far) / a bit / a little (= slightly) / any / no_ で比較級�
 * I couldn't wait __any__ longer.
 * I could wait __no__ longer.
 
-### better / worse
-
-_good / well_ の比較級は _better_ になる。
-
-* Your suggestion is __better__ than mine.
-* I feel __better__.
-
-_bad / badly_ の比較級は _worse_ になる。
-
-* The result was __worse__ than expected.
-* Are you feeling any better? No, It's __worse__.
-
-### farther / further
-
-_far_ の比較級は _farther / further_ になる。
-
-比喩的な距離感 _more_ の意味なら _further_ を用い、物理的に計測できる距離には _farther_ を用いる。
-
-* My son can run __farther__ than I can.
-* He didn't complain any __further__.
-* Do you have any __further__ questions?
-
-どちらも同じように使えるが、距離であっても漠然とした「遠さ」には _farther_ よりも、_further_ が使われているケースがあるので、曖昧な時は _further_ を使うほうが無難。
-
-### elder / eldest
-
-家族構成上の、年上の関係を指すときには _older / oldest_ の代わりに _elder / eldest_ が使える。ただし、家族関係の名詞を修飾する場合に限る。
-
-* He is my __elder__ brother.
-* He is <del>elder</del> __older__ than me.
-
 ### than
 
 _than ..._ で比較元の対象を示すことができる。
@@ -136,4 +105,57 @@ _not so much A as B_ は「A というより B」の意味になる。
 
 * He is __not so much__ a programmer __as__ an artist.
 * It's __not so much__ the job you've had. _あなたがやってきた仕事がどうこうという事ではありません_
+
+## 最上級
+
+最上級 _Superlative_ は、最もそうであることを表す。_the ...est_ を加えると最上級になる。音節 _Syllables_ が二つ以上の場合は、_the most + ..._ とする。
+
+* This is __the nicest__ book I've ever read.
+* This class may be __the best__ (one) I've ever taken.
+* He's one of __the best__ friends of mine.
+* __The most important__ thing is to enjoy your life.
+* It happened at __the worst possible__ time.
+
+場所や集団内の最上級には _in_ を用いる。
+
+* What's the longest river __in the world__?
+* I'm the eldest __in my family__.
+* Who's the best player __in your team__?
+
+期間内の最上級には _of_ を用いる。
+
+* It was the most difficult decision __of my life__.
+* Yesterday was the hottest day __of the year__.
+* Who has been the best player __of the season__ so far?.
+
+## better / worst
+
+_good / well_ の比較級は _better_ になる。最上級は _best_ になる。
+
+* Your suggestion is __better__ than mine.
+* I feel __better__.
+
+_bad / badly_ の比較級は _worse_ になる。最上級は _worst_ になる。
+
+* The result was __worse__ than expected.
+* Are you feeling any better? No, It's __worse__.
+
+## farther / further
+
+_far_ の比較級は _farther / further_ になる。最上級は _farthest / furthest_ になる。
+
+比喩的な距離感 _more_ の意味なら _further_ を用い、物理的に計測できる距離には _farther_ を用いる。
+
+* My son can run __farther__ than I can.
+* He didn't complain any __further__.
+* Do you have any __further__ questions?
+
+どちらも同じように使えるが、距離であっても漠然とした「遠さ」には _farther_ よりも、_further_ が使われているケースがあるので、曖昧な時は _further_ を使うほうが無難。
+
+## elder / eldest
+
+家族構成上の、年上の関係を指すときには _older / oldest_ の代わりに _elder / eldest_ が使える。ただし、家族関係の名詞を修飾する場合に限る。
+
+* He is my __elder__ brother.
+* He is <del>elder</del> __older__ than me.
 
