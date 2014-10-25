@@ -104,7 +104,11 @@ _助動詞 + not so much as ..._ で「... さえしない」の意味になる�
 _not so much A as B_ は「A というより B」の意味になる。
 
 * He is __not so much__ a programmer __as__ an artist.
+
+_not so much ...(, but ...)_ で「... というわけではありません。（そうではなくて ... ）」と文節で区切った表現もある。
+
 * It's __not so much__ the job you've had. _あなたがやってきた仕事がどうこうという事ではありません_
+* It's __not so much__ what you did, __but__ what you learned from your experience.
 
 ## 最上級
 
