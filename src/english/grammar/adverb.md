@@ -139,3 +139,27 @@ _not ... anymore (any longer)_ は「今ではもう ... していない」の�
 * I __no longer__ see him.
 * He __no longer__ play the guitar.
 
+## even
+
+_even_ は「... さえも」という、想定していない驚きを加える。動詞を修飾するときは、通常の副詞と同じルールで置く。
+
+* He __even__ cuts his own hair.
+* My husband often cooks dinner. He's __even__ good at sewing.
+* She can't __even__ boil water.
+* I've not __even__ been on a train.
+
+主語や副詞句も修飾できる。
+
+* It's easy. __Even__ I could do it.
+* __Not even__ experts know how to do it.
+  * No one, not __even__ experts, know how to do it.
+* Do you know how to use iPhone? No, I don't know __even__ how to start.
+* She was texting on her phone, __even__ while we were talking to each other.
+* he managed to control himself, __even__ in that situation.
+
+比較級を修飾すると「さらに ...」という意味になる。比較する文節を提示した後に、_, but ..._ などで続けて使う。
+
+* I'm good at playing guitar, but she is __even__ better. _彼女はさらに上手だ_
+
+日本語訳にした場合、比較級で意味が変わったように感じるが、想定していない驚きを加える点では相違ない。
+
