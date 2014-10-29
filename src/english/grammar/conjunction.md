@@ -66,6 +66,37 @@ _since_ は「... から今まで」、 _until_ 「今から ... まで」の継
 
 * I'll come to the party __as soon as__ I've finished work.
 
+### 理由
+
+#### because / because of
+
+理由が主題であるときには _because_ を用い、主節の後に続ける。理由を伝える事が目的になるので、補足情報として文頭に置くことはまれである。
+
+* Your account has been locked __because__ there were too many login attempts in a day.
+* The reservation had been cancelled __because__ we were late.
+* StringBuilder is faster than StringBuffer __because__ it's not synchronized (i.e. not thread-safe).
+
+名詞句には _because of_ が使える。
+
+* I didn't go out yesterday __because of__ the rain.
+
+_It's because ... that ..._ の強調構文で用いることもできる。
+
+* __It's because__ you don't understand how it works __that__ you can't find where the problem lies.
+
+#### since / as
+
+理由が既知で補足情報である場合には、_since / as_ が使える。文頭に置くこともできる。
+
+* __Since__ I wasn't familiar with the area, I had no idea where the shop was.
+* __Since__ I didn't have much time, I had lunch at McDonald's.
+* __As__ I was on vacation, I didn't have a chanse to reply earlier.
+
+理由を尋ねられた時や強調構文では使えない。代わりに _because_ を用いる。
+
+* _"Why didn't you attend the meeting?"_ I missed it <del>since</del> __because__ I was caught in a traffic jam.
+* __It's__ <del>since</del> __because__ we are late __that__ our reservation has been cancelled.
+
 ### 譲歩
 
 #### although / in spite of
