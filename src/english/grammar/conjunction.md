@@ -97,6 +97,43 @@ _It's because ... that ..._ の強調構文で用いることもできる。
 * _"Why didn't you attend the meeting?"_ I missed it <del>since</del> __because__ I was caught in a traffic jam.
 * __It's__ <del>since</del> __because__ we are late __that__ our reservation has been cancelled.
 
+### 条件
+
+#### if
+
+_if ..._ は条件を付け加える。主節が未来であっても、現在形または現在完了形を使う。
+
+* Let me know __if__ you need any help.
+* __If__ it's fine tomorrow, I'll go shopping.
+
+#### unless / as long as / provided
+
+_unless ..._ は例外条件を付け加える。主節の内容が本線で「... でない限り」実現不可能という場合に使う。「... でなかったら」という意味なら _if ... not ..._ を使う。_unless_ では仮定法は使えない。
+
+* The match will restart at 17:30 __unless__ there's any problem.
+* She will be disappointed <del>unless you come</del> __if you don't come__  to the party.
+* <del>unless I were</del> __If I weren't__ busy, I would come to the party.
+
+_unless ..._ に対応する反対の表現「... である限り」は _as long as_ になる。同じ意味で _provided_ もあり約束事（契約書 / 注意書き）等で用いられる。
+
+* You can stay here __as long as__ you want.
+* You'll pass the exam __as long as__ you study hard.
+* You should now be able to authenticate automatically, __as long as__ the cookie exists.
+* I don't mind lending you the money __provided__ you pay it back within a month.
+* You have the right to cancel your order, __provided__ you give us written notice within 14 days.
+
+#### in case
+
+_in case ..._ は「万が一に備えて」という意味になる。条件が満たされて主節が実現する _if_ とは異なり、条件に備えるために、主節を行なう点が異なる。
+
+* __In case__ it rains, take my umbrella with you.
+* I'll stay here __in case__ she comes back.
+* Just __in case__, there is something that I want to confirm.  _念のため、確認したいことがあります。_
+
+名詞句には _in case of ..._ が使える。
+
+* In Case of Emergency (ICE)
+
 ### 譲歩
 
 #### although / in spite of
