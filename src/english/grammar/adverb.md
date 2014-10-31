@@ -107,11 +107,6 @@ _so_ は形容詞と副詞を修飾する。強調したり _like this_ のよ�
 * You're __such__ a great help.
 * I can't wait for __such__ a long time.
 
-_(so / such) ... that_ で「... であるので ...」 と _that_ 節で成り行きを説明することができる。
-
-* I was __so__ tired __that__ I went straight to bed yesterday.
-* I was __such__ a good book __that__ I finished reading it in a day.
-
 ## still / yet
 
 _still_ は「まだ ...」の副詞になる。疑問/否定文の時は _yet_ を用い、文末に置く。

@@ -31,9 +31,13 @@ _when_ は「... する時」として広く使える。
 * __When__ you get home, call be back. _状況が切り替わった時（連続して次に何かが起こる）_
 * __When__ I was young, I wanted to be rich. _ある状態であった時_
 
-同時進行で並列に起こることには、_as_ 「... しながら」が使える。ただし「何かをしながら」なので行動に限る。状態で用いてしまうと _because_ の意味になってしまう。
+同時進行で並列に起こることには、_as_ 「... しながら」が使える。二つのことが依存し合い、同時に始まり終わるイメージになる。
 
 * __As__ he spoke on the phone, he was interrupted by his son.
+* __As__ I was doing the dishes, a thought struck me.
+
+ただし「何かをしながら」なので行動に限る。状態で用いてしまうと _because_ の意味になってしまう。
+
 * __(As|Because)__ I was young, I wanted to be rich. _「若かったので、お金持ちになりたかった」_
 
 進行形のように「... している最中」の場合には、_while_ が用いられる事が多い。名詞節には _during_ が使える。
@@ -122,6 +126,8 @@ _unless ..._ に対応する反対の表現「... である限り」は _as long
 * I don't mind lending you the money __provided__ you pay it back within a month.
 * You have the right to cancel your order, __provided__ you give us written notice within 14 days.
 
+_as long as_ は、時間範囲の意味であるが、このように _only if ..._ の意味でも使われる。
+
 #### in case
 
 _in case ..._ は「万が一に備えて」という意味になる。条件が満たされて主節が実現する _if_ とは異なり、条件に備えるために、主節を行なう点が異なる。
@@ -134,11 +140,63 @@ _in case ..._ は「万が一に備えて」という意味になる。条件が
 
 * In Case of Emergency (ICE)
 
+### 範囲
+
+#### as far as
+
+_(as|so) far as ..._ で「... である範囲では」の意味になる。
+
+* __As far as__ I know, there is no way to downgrade it officially.
+* __As far as__ I can remember, he wasn't there.
+
+#### as long as
+
+時間範囲の場合には _(as|so) long as ..._ を使う。
+
+* Nobody will be offended __as long as__ you keep smiling.
+
+### 結果
+
+#### so ... that
+
+_so A that B_ で「_B_ であるほど _A_ である」と _that_ 節に結果（程度）を導くことができる。
+
+* I was __so__ tired __that__ I went straight to bed.
+* She spoke __so__ quickly __that__ I couldn't hear what she said.
+
+肯定文なら「_A:原因_ であるので _B:結果_ である」と訳すこともできるが、文章の区切りは「B であるほど A」であることを意識していないと、否定文 _not [so ... that ...]_ で意味を取り違えてしまう。
+
+* It's not __so__ easy __that__ you can do it without practice.
+  * <del>「簡単ではないので」練習なしでできる</del>
+  * 「練習なしでできるほど簡単」ではない
+* I __(was|wasn't)__ [so tired that I went straight to bed].
+  * 「すぐに寝るほど疲れて」いた or いなかった
+
+名詞句を置く場合には _such_ を使う。
+
+* He is __such__ a nice guy __that__ I'm sure he will be a great help.
+* I was __such__ a good book __that__ I finished reading it in a day.
+
+#### so that
+
+_A so that B_ は「_B:目的_ であるように _A_」や「_A_ ならば _B:結果_」のように訳すことができる。
+
+* Keep studying hard __so that__ you would get a good job.
+* Please call me back __so that__ we can schedule a time.
+* It's not clear what you're reporting. Can you take a screenshot __so that__ I can figure out your problem?
+
+「_B_ が成り立つほどに _A_」という依存関係があることは変わらない。
+
+_..., so (that) ..._ で、成り行きをつなげる事ができる。
+
+* It won't rain, __so (that)__ you don't need to take an umbrella.
+* He was sick yesterday, __so (that)__ he stayed in bed all day.
+
 ### 譲歩
 
 #### although / in spite of
 
-_Although ...,_ で「... だけれども」という意味になる。_Even though ...,_ はより強調した表現になる。
+_Although ...,_ で「... だけれども」という譲歩の意味になる。_Even though ...,_ はより強調した表現になる。
 
 * __Although__ it rained, we played tennis yesterday.
 * __Even though__ he's Japanese, he was born and raised in Hawaii.
@@ -161,4 +219,19 @@ _because / because of ..._ が対比の表現になる。
   * We didin't play tennis yesterday __because of__ the rain.
 * He doesn't speak English well __because__ he's Japanese.
   * He doesn't speak English well __because of__ being Japanese.
+
+### 対比
+
+#### while / whereas
+
+_while / whereas_ は「... である一方」という対比を表すことができる。
+
+* The number of marriages has decresed in recent decades, __while__ the number of divorces has increased.
+* Native English speakers use the word "complaint", __while__ the Japanse tend to use the word "claim".
+* __While__ the programmers usually blame managers, they will occasionally turn on their own and blame some other programmer.
+
+互いに対等関係であり、優先順位をつけがたい「... だけれども（それは認めるけれども）」というニュアンスもある。
+
+* __While__ that's true, it's not really necessary to point out mistakes now.
+   * <del>そうである一方で</del> それはそうなんだけど、今はミスを指摘してる状況でもないよ。
 
