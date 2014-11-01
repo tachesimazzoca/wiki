@@ -235,3 +235,35 @@ _while / whereas_ は「... である一方」という対比を表すことが�
 * __While__ that's true, it's not really necessary to point out mistakes now.
    * <del>そうである一方で</del> それはそうなんだけど、今はミスを指摘してる状況でもないよ。
 
+### 比喩
+
+#### as
+
+_as_ は「... と同じように」という同等性を表すことができる。_AmE_ のくだけだ表現では _like_ が使われることもある。
+
+* I left it __as__ it was.
+* You should have done it __(as|like)__ I showed you.
+
+_as usual / as always_ のような慣用句がある。
+
+* He's late __as usual__.
+* My schedule is the same __as always__.
+* __As always__, she is so beautiful.
+
+文頭に置いて補足する表現が多く用いられる。この場合は _Like ...,_ は使わない。
+
+* __As__ I have mentioned before, the conference starts at 14:00 tomorrow.
+* __As__ you can see, the following example lists directory contents.
+* __As__ you know, it's Alice's birthday today.
+
+名詞句とともに用いると「... として」の意味になる。
+
+* I work __as__ a manager for the company.
+* We use the garage __as__ a space to park.
+* This blog serves __as__ a place to discuss ideas about programming.
+
+名詞句で「... のように」の場合は _like_ を用いる。
+
+* I used to smoke __like__ you. But I've quit smoking.
+* I would rather use something __like__ the following.
+
