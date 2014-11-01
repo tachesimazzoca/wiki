@@ -262,8 +262,36 @@ _as usual / as always_ のような慣用句がある。
 * We use the garage __as__ a space to park.
 * This blog serves __as__ a place to discuss ideas about programming.
 
-名詞句で「... のように」の場合は _like_ を用いる。
+#### like
+
+_like_ は「... のように」という類似性を表すことができる。文中で「例えば ...」 _such as_ のようにも使われる。
 
 * I used to smoke __like__ you. But I've quit smoking.
 * I would rather use something __like__ the following.
+* Functional programming loanguages, __(like|such as)__ Scala, encourage immutable data structures.
+
+_(look|sound) like ..._ の表現が用いられる。主部が重複するので _It_ に置き換えることが多い。
+
+* You __sound like__ you are an expert.
+  * __It sounds like__ you are an expert.
+* She __looks like__ she has a headache.
+  * __It looks like__ she has a headache.
+
+_feel like ..._ の表現もあるが、主観的なので _It_ への置換えは見られない。
+
+* I __feel like__ you don't listen to me.
+  * <del>It feels like you don't listen to me.</del>
+
+_feel like ...ing_ は _want_ と同じ意味で使われる。
+
+* I __feel like drinking__ tonight.
+
+#### as if / as though
+
+_as if / as though_ は「まるで ... のように」の意味になる。推測であれば _like_ に置き換えることができるが、事実とは異なる場合には、仮定法とともに _as if_ を用いる。
+
+* He talks __as if__ he knew everything.
+* She looks __as if__ she were in her (early|late) 20's.
+* I struggled __as if__ I were just an infant.
+* The speaker kept on talking __as if__ nothing had happend.
 
