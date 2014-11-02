@@ -144,17 +144,3 @@ _It's important that ..._ のように評価を伝える場合に、仮定法現
 * __It's important__ that you _(should)_ __not be__ late for work.
 * __It's essential__ that everyone _(should)_ __get__ to work by 8:00 tomorrow.
 
-## as if
-
-_as if / as though_ により「あたかも ... であるように」という意味になる。
-
-_as if_ 前後の二つの時制が同じ場合は、仮定法過去を用いる。
-
-* He __looks__ as if he __were__ sick. _まるで病気であるように見える_
-* He __looked__ as if he __were__ sick. _まるで病気であるように見えた_
-
-_as if_ 以降の時制が異なる（過去になる）場合は、仮定法過去完了を用いる。
-
-* He __looks__ as if he __had been__ sick. _まるで（以前に）病気だったように見える_
-* He __looked__ as if he __had been__ sick. _まるで（以前に）病気だったように見えた_
-
