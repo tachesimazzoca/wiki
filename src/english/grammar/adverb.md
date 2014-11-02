@@ -55,36 +55,50 @@ _good_ に対応する副詞は _well_ になる。
 * I speak English __well__.
 * He is a __well__ known writer.
 
-### fast / late / hard
+### great
 
-_fast / late / hard_ は形容詞と副詞も同じ意味になる。
-
-* She's a very __fast__ runner.
-  * She can run very __fast__.
-* Sorry, I'm __late__.
-  * I got up __late__.
-* He works __hard__.
-  * He's a __hard__ worker.
+* He is a __great__ striker.
+* That sounds __great__.
+* We get along __great__.
+* If you knew it, It would be __greatly__ appriciated.
 
 ### enough
 
-_enough_ は形容詞と副詞も同じ意味になる。形容詞や副詞を修飾する場合はその後に置く。
+形容詞や副詞を修飾する場合はその後に置く。
 
 * I don't have __enough__ money for a vacation.
 * He's expericenced __enough__ to do the job.
 * Fair __enough__.
 * Suprisingly __enough__, the picture was drawn by an 8-year old girl.
 
-### lately
+### fast
+
+「速い」意味なら、形容詞と副詞も同じ綴りになる。
+
+* She's a very __fast__ runner.
+* She can run very __fast__.
+
+「しっかりとした（ぐらつかない）」意味なら、_fastly_ という副詞もある。
+
+* Fast Rope / Fast Gloves / Fast Grip
+* They are __fast__ friends.
+* Hold __fast__ to the rope!
+* We tied the rope __(fast|fastly)__.
+
+### late / lately
 
 _lately_ は「最近は ...」の意味になる。
 
+* Sorry, I'm __late__.
+* I got up __late__.
 * I haven't seen Alice __lately__.
 
-### hardly
+### hard / hardly
 
 _hardly_ は「めったに ... ない」の意味になる。
 
+* He's a __hard__ worker. _彼は働き者だ_
+* He works __hard__. _彼は一生懸命働く_
 * He was __hardly__ working. _彼はほとんど仕事していなかった_
 
 _hardly any(body|thing|where)_ で、ごくわずかの量を表す。
