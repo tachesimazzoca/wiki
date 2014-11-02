@@ -40,7 +40,7 @@ _when_ は「... する時」として広く使える。
 
 * __(As|Because)__ I was young, I wanted to be rich. _「若かったので、お金持ちになりたかった」_
 
-進行形のように「... している最中」の場合には、_while_ が用いられる事が多い。名詞節には _during_ が使える。
+進行形のように「... している最中」の場合には、_while_ が用いられる事が多い。名詞句には _during_ を使う。
 
 * I fell asleep __while__ _(I was)_ watching TV.
 * __While__ _(I was)_ waiting for a bus, I noticed a blind man.
@@ -59,12 +59,26 @@ _before / after_ は、主節と従属節が連続した動作になる。
 * He __(had cleaned|cleaned)__ his room _before_ he went out.
 * I went straight home _after_ I __(had done|did)__ the shopping.
 
-#### since / until
+#### since / until / by the time
 
 _since_ は「... から今まで」、 _until_ 「今から ... まで」の継続期間を表す。_since_ の場合、主節はもれなく完了形になる。
 
 * I've lived in Tokyo __since__ I entered college.
 * Please wait here __until__ I come back.
+
+_by the time_ は「... する時までに」という期限を表す。_until_ はその時まで動作を継続させるが、_by the time_ はその時までに動作を終えておく期限になる。
+
+* Would you finish this task __by the time__ you clock out?
+
+_by_ は前置詞のみで、文節をつなげる接続詞としては使えない。
+
+* Please finish those letters <del>by</del> __by the time__ I come back.
+* I'll fix this problem __by__ the end of tomorrow.
+
+_by then / by that time_ で、前文を受けて「その時までに」という表現が使える。
+
+* The party starts at 19:00. I'll finish work __by then__.
+* I arrived at the party around 21:00, but __by that time__, most of the people had left.
 
 #### as soon as
 
@@ -72,7 +86,7 @@ _since_ は「... から今まで」、 _until_ 「今から ... まで」の継
 
 ### 理由
 
-#### because / because of
+#### because
 
 理由が主題であるときには _because_ を用い、主節の後に続ける。理由を伝える事が目的になるので、補足情報として文頭に置くことはまれである。
 
@@ -80,9 +94,12 @@ _since_ は「... から今まで」、 _until_ 「今から ... まで」の継
 * The reservation had been cancelled __because__ we were late.
 * StringBuilder is faster than StringBuffer __because__ it's not synchronized (i.e. not thread-safe).
 
-名詞句には _because of_ が使える。
+名詞句には _because of_ を使う。
 
-* I didn't go out yesterday __because of__ the rain.
+* We didin't play tennis yesterday __because__ it rained.
+  * We didin't play tennis yesterday __because of__ the rain.
+* He doesn't speak English well __because__ he's Japanese.
+  * He doesn't speak English well __because of__ being Japanese.
 
 _It's because ... that ..._ の強調構文で用いることもできる。
 
@@ -136,7 +153,7 @@ _in case ..._ は「万が一に備えて」という意味になる。条件が
 * I'll stay here __in case__ she comes back.
 * Just __in case__, there is something that I want to confirm.  _念のため、確認したいことがあります。_
 
-名詞句には _in case of ..._ が使える。
+名詞句には _in case of ..._ を使う。
 
 * In Case of Emergency (ICE)
 
@@ -194,7 +211,7 @@ _..., so (that) ..._ で、成り行きをつなげる事ができる。
 
 ### 譲歩
 
-#### although / in spite of
+#### although
 
 _Although ...,_ で「... だけれども」という譲歩の意味になる。_Even though ...,_ はより強調した表現になる。
 
@@ -206,19 +223,12 @@ _Although ...,_ で「... だけれども」という譲歩の意味になる。
 * We played tennis yesterday __(though|although)__ it rained.
 * It rained yesterday. We played tennis, <del>although</del> __though__.
 
-_in spite of ... / despite ..._ も意味は同じだが、名詞句を置く点が異なる。
+名詞句には _in spite of ... / despite ..._ を使う。
 
 * We played tennis yesterday __(in spite of|despite)__ the rain.
 * __(In spite of|Despite)__ the rain, we played tennis yesterday.
 * He speaks English well __(in spite of|despite)__ being Japanese.
 * __(In spite of|Despite)__ the fact that he's Japanese, he speaks English well.
-
-_because / because of ..._ が対比の表現になる。
-
-* We didin't play tennis yesterday __because__ it rained.
-  * We didin't play tennis yesterday __because of__ the rain.
-* He doesn't speak English well __because__ he's Japanese.
-  * He doesn't speak English well __because of__ being Japanese.
 
 ### 対比
 
@@ -256,7 +266,7 @@ _as usual / as always_ のような慣用句がある。
 * __As__ you can see, the following example lists directory contents.
 * __As__ you know, it's Alice's birthday today.
 
-名詞句とともに用いると「... として」の意味になる。
+前置詞としての _as_ は「... として」の意味になる。
 
 * I work __as__ a manager for the company.
 * We use the garage __as__ a space to park.
@@ -264,13 +274,13 @@ _as usual / as always_ のような慣用句がある。
 
 #### like
 
-_like_ は「... のように」という類似性を表すことができる。文中で「例えば ...」 _such as_ のようにも使われる。
+前置詞としての _like_ は「... のように」という類似性を表すことができる。文中で「例えば ...」 _such as_ のようにも使われる。
 
 * I used to smoke __like__ you. But I've quit smoking.
 * I would rather use something __like__ the following.
 * Functional programming loanguages, __(like|such as)__ Scala, encourage immutable data structures.
 
-_(look|sound) like ..._ の表現が用いられる。主部が重複するので _It_ に置き換えることが多い。
+接続詞として _(look|sound) like ..._ の表現が多く用いられる。主部が重複するので _It_ に置き換えることが多い。
 
 * You __sound like__ you are an expert.
   * __It sounds like__ you are an expert.
