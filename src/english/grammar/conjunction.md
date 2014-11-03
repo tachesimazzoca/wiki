@@ -4,13 +4,88 @@ layout: page
 title: Conjunction
 ---
 
+## 等位接続詞
+
+等位接続詞は、対等関係にある二つの 語 / 句 / 節 をつなげる。文頭に置く事はできない。
+
+### and
+
+* __Alice__ and __Bob__ work at the same company.
+* It is easy to access both __by train and by bus__.
+
+３つ以上になる時は、カンマで区切り最後に _and_ を置く。
+
+* The RGB color model is an additive color model in which __red, green, and blue__ light.
+
+### but / yet
+
+_A but B_ は「_A_ であるが _B_」の意味になる。
+
+* He is __clever__ but __arrogant__.
+* __iPad is beautiful and useful__ but __it's too expensive__.
+* __I need an iPhone for work__, but __I don't have one__.
+
+_not A but B_ は「_A_ ではなく _B_」の意味になる。
+
+* She is__n't__ Alice __but__ Carol.
+* I did__n't__ go there __but__ he did.
+
+_yet_ は _but_ と同じ意味になるが、意外性がある場合に使う。
+
+* It was unbelievable __yet__ real.
+* I'm tired, __yet__ I can't sleep.
+
+_yet_ は _another_ 等を修飾して「さらに」の意味もあるので接続詞と混同しないこと。_Yet another_ はプログラマー間のスラングでは「非公式」を指す。
+
+### or / nor
+
+_or_ は選択肢をつなげる。
+
+* Would you like __tea__ or __coffee__?
+* You can go there __by train__ or __by bus__.
+
+_nor_ は否定文で選択肢をさらに否定する。節の場合は倒置（疑問形に）する。
+
+* We __never__ add __milk__ nor __sugar__ to Japanese green tea.
+* I cound__n't__ go there __by train__ nor __by bus__.
+* I have __never__ eaten sashimi, __nor__ do I want to eat.
+
+否定文は _nor_ でなければならないわけではない。_or_ も使える。
+
+* I do__n't__ smoke __or__ drink.
+
+### for
+
+_for_ は、「なぜならば ...」と前文を解説するようにつなげる。従位接続詞の _because_ のように明確な理由ではなく、対等に解説を添えるだけになる。等位接続詞のため文頭におくことはできず、カンマで区切って文中におく。口語では用いられない。
+
+_（...らしいのだが、今現在使われている例を見たことがない。利用例を見かけたら追記予定）_
+
+### so
+
+_A, so B_ は、原因と結果の因果関係をつなぐ。
+
+* It won't rain, __so__ you don't need to take an umbrella.
+* He was sick yesterday, __so__ he stayed in bed all day.
+
+正式文書では _therefore / hence / thus / consequently_ などの接続副詞を使う。接続副詞なので、_..., and therefore_ のように区切る。
+
+* Carl Hewitt introduced the Actor Model in 1973, __and therefore__ the concept has been around quite a long time.
+
+### 相関接続詞
+
+* _A_ __as well as__ _B_ （_B_ である上に _A_）
+* __both__ _A_ __and__ _B_ （_A_ と _B_ の両方）
+* __either__ _A_ __or__ _B_ （_A_ か _B_ のいずれか）
+* __neither__ _A_ __nor__ _B_ （_A_ と _B_ どちらも ... ない）
+* __not only__ _A_ __but (also)__ _B_ （_A_ だけでなく _B_ も）
+
 ## 従位接続詞
 
 ### 時間
 
 時間の従属節には未来形が使えない点に注意する。主節が未来であっても、現在形または現在完了形を使う。
 
-* I'll call you __when__ I <del>I'll get</del> __get__ home.
+* I'll call you __when__ I <del>will get</del> __get__ home.
 * Let me know __when__ you <del>will be</del> __are__ stuck.
 * You can recover with the following steps __when__ you <del>will forget</del> __have forgotten__ your password.
 
@@ -203,11 +278,6 @@ _A so that B_ は「_B:目的_ であるように _A_」や「_A_ ならば _B:�
 * It's not clear what you're reporting. Can you take a screenshot __so that__ I can figure out your problem?
 
 「_B_ が成り立つほどに _A_」という依存関係があることは変わらない。
-
-_..., so (that) ..._ で、成り行きをつなげる事ができる。
-
-* It won't rain, __so (that)__ you don't need to take an umbrella.
-* He was sick yesterday, __so (that)__ he stayed in bed all day.
 
 ### 譲歩
 
