@@ -3,6 +3,7 @@ layout: page
 
 title: TIPS
 ---
+
 ## 設定更新
 
 `main.cf` を変更した場合、設定をすぐに反映させるには `reload` を行います。
@@ -80,3 +81,32 @@ title: TIPS
 ハイフンで始まるメールアドレスは、コマンドオプションと認識される危険性があるため送信されません。危険性を了承した上で送信を行う場合は、`main.cf` で `allow_min_user` の値を設定することで送信されるようになります。
 
     allow_min_user = yes
+
+## 外部SMTPサーバへの中継
+
+### クライアント（中継元）側の設定
+
+`relayhost` に中継先のホストを指定します。ローカル外のメールは全て指定したホストに中継されます。
+
+    relayhost = [smtp.example.net]:25
+
+### サーバ（中継先）側の設定
+
+外部ホストからの配送を許可します。
+
+    # 外部ホストからの配送を許可
+    inet_interfaces = all
+
+    # 信頼するネットワークを指定
+    #mynetworks_style = subnet
+    mynetworks = 127.0.0.0/8, 192.168.56.0/24
+
+* `mynetworks` が指定された場合には、`mynetworks_style` は無視されます。
+* `mynetworks` は CIDR 形式でカンマ切りで複数指定します。
+* `mynetworks_style` のデフォルト値は `subnet` です。ローカルLAN内のみに制限する際には便利ですが、公衆 LAN 内等で有効にしてしまうと、同一 LAN 内にいる全てのMTAを許可してしまいます。
+* `mynetworks_style = class` は同一アドレスクラスを許可します。インターネット接続にプロバイダを介している場合、全ての同一プロバイダ上のMTAから中継を受け付けてしまうため、スパムメールの踏み台となってしまいます。通常 `class` とすることはありません。
+
+`myhostname` が重複していると中継時にエラーとなります。ローカルLAN内で中継する際に、インストール時デフォルトのホスト名 `localdomain.localhost` のままとなっている場合があります。マシン毎に適切なホスト名を設定するか、`myhostname` を設定します。
+
+    myhostname = smtp.localdomain
+
