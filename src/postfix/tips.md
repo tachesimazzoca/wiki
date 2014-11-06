@@ -110,3 +110,67 @@ title: TIPS
 
     myhostname = smtp.localdomain
 
+### SMTP認証の設定
+
+Postfix-2.x 以降であれば、[SASL](http://ja.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer) によるSMTP認証 _SMTP-AUTH_ に対応しています。
+
+あらかじめ `postmap` コマンドでパスワードデータベースを作成します。
+
+    # relayhost の値は main.cf と完全一致している必要があります。
+    % cat /etc/postfix/sasl_password
+    [smtp.example.net]:587   username:password
+
+    # sasl_password.db を作成します
+    % postmap hash:/etc/postfix/sasl_password
+    % ls /etc/postfix/sasl_password.*
+    sasl_password.db
+
+`main.cf` に、SMTP認証の設定を追記します。作成しておいたパスワードデータベース `sasl_password.db` を指定します。
+
+    relayhost = [smtp.example.net]:587
+
+    smtp_sasl_auth_enable = yes
+    # 拡張子 .db は不要
+    smtp_sasl_password_maps = hash:/etc/postfix/sasl_password
+    # デフォルト値は noanonymous, noplaintext のため、AUTH PLAIN を有効にする
+    smtp_sasl_security_options = noanonymous
+
+設定を読み込み、送信確認を行ないます。
+
+    % postfix reload
+    % echo "test sasl" | mail -s "Tesing SMTP-AUTH" foo@example.net
+
+`SASL authentication failure: No worthy mechs found` となる場合には、必要な認証方式に対応していません。
+
+    % less /var/log/maillog
+    ... SASL authentication failure: No worthy mechs found ...
+
+RHEL系の yum では `cyrus-sasl` パッケージを利用するようになっていますが、特に追加インストールしていない場合、必要なライブラリがインストールされていない場合があります。
+
+    % postconf -a
+    cyrus
+    ...
+
+    # ANONYMOUS（認証しないゲストアクセス）しかインストールされていない
+    % ls /usr/lib/sasl2
+    libanonymous.la  libanonymous.so  libanonymous.so.2  libanonymous.so.2.0.22
+
+`cyrus-sasl-*` パッケージで認証方式を追加できます。
+
+* cyrus-sasl-plain: `PLAIN|LOGIN`
+* cyrus-sasl-md5: `CRAM-MD5|DIGEST-MD5`
+
+利用可能な認証方法が不明な場合 `telnet` で `EHLO` コマンドを送信して調べる事ができます。
+
+    % telnet smtp.example.net 587
+    ...
+    EHLO localhost.localdomain
+    ...
+    250-AUTH PLAIN LOGIN
+    ...
+    QUIT
+
+上記の応答の場合 `AUTH PLAIN` または `AUTH LOGIN` です。`curus-sasl-plain` を追加インストールします。
+
+    % yum install cyrus-sasl-plain
+
