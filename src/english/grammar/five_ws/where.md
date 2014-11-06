@@ -4,7 +4,7 @@ layout: page
 title: Where
 ---
 
-## 副詞句
+## 前置詞の使い分け
 
 ### at + 地点
 
@@ -122,7 +122,7 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 * What time do you get __to work__? _何時から仕事を始めていますか？_
 * He didn't go __to school__ yesterday.
 
-### 相対位置
+## 相対位置
 
 * _near ..._ 「... の近くに」地理的に近い
 * _(by|next to|beside) ..._ 「... のそばに」寄り添っているくらい近い
@@ -148,10 +148,10 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 
 ### home
 
-_go / come / walk / get_ で行き先として _home_ を伝える場合、副詞としての _home_ 「家へ」を用い、副詞句 _to home_ は使われない。
+_go / come / walk / get_ で行き先として _home_ を伝える場合、副詞としての _home_ 「家へ」を用いる。
 
-* I'm going __home__.
-* I got __home__.
+* I'm going __home__ <del>to home</del>.
+* I got __home__ <del>to home</del>.
 
 _arrive_ も副詞としての _home_ を用いる。
 
@@ -171,5 +171,5 @@ _(watch TV|work)_ のように何かをする場合は、副詞句 _at home_ を
 * She works __at home__.
 * I was watching TV __at home__ last night.
 
-家から動かない _Static_ なら、副詞句 _at_ も使えるが、家へ向かっていく _Dynamic_ なら、副詞としての _home_ を使う。
+家から動かない _Static_ なら、_at home_ のように使えるが、家へ向かっていく _Dynamic_ なら、副詞としての _home_ を使う。
 
