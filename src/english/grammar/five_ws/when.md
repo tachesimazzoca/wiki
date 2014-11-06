@@ -4,7 +4,7 @@ layout: page
 title: When
 ---
 
-## 副詞句
+## 前置詞の使い分け
 
 ### at + 状態
 
@@ -16,8 +16,8 @@ title: When
 
 時刻以外にも、その時点でという意味で _at_ を使う。
 
-* at 70 miles an hour = 時速70マイルの時に
-* at 100 degrees  = 100度の時に
+* at 70 miles an hour _時速70マイルの時に_
+* at 100 degrees _100度の時に_
 
 ### on + 日付
 
@@ -25,6 +25,7 @@ title: When
 
 * (on) Sunday
 * (on) Sundays
+* (on) Friday evening(s)
 * (on) Jaunary 5th, 2014
 
 週末の表現で _on the weekend / on weekends_ が使える。この場合は _on_ は必要になる。
@@ -38,7 +39,12 @@ title: When
   * in April
   * in April 2014
 * 午前 / 午後 / 晩
-  * in the (morning|afternoon|evening) <del>at (morning|afternoon|evening)</del>
+  * in the (morning|afternoon|evening)(s) <del>at (morning|afternoon|evening)</del>
+* 範囲
+  * in a moment
+  * in a few minutes
+  * in a (day|week|month|year)
+  * in two (days|weeks|months)(' time)
 
 _at (dawn|noon|night|...)_ は状態なので _at_ が使えるが、午前/午後は範囲なので _in_ を使う。
 
@@ -68,20 +74,29 @@ _everyday_ は形容詞であることに注意する。副詞句は _every day_
 
 ### half (past|to) ...
 
-* at half past 2 = 2時半
-* at quarter to 3 = 3時15分前
-* at 10 past 4 = 4時10分
+* at half past 2 _2時半_
+* at quarter to 3 _3時15分前_
+* at 10 past 4 _4時10分_
 
-### at the end of
+### at first / in the end
+
+* at first _始めに_
+* in the end _最終的に = finally_
+
+### at the (beginning|end) of
 
 _at the end of ..._ で「... 末に」「... の後で」という表現が使える。
 
-* at the end of each day 日々の終わりに
-* at the end of October 10月末に
-* at the end of the month 月末に
-* at the end of the year 年末に
+* at the end of each day _日々の終わりに_
+* at the end of October _10月末に_
+* at the end of the month _月末に_
+* at the end of the year _年末に_
 * at the end of a meeting
 * at the end of night
+
+対して _at the beginning of ..._ は始まりの時点を表す。
+
+* at the beginning of the month 月初に
 
 _at the end of the day_ は「いろいろと考慮した結果」という意味もある。
 
@@ -92,11 +107,11 @@ _at the end of the day_ は「いろいろと考慮した結果」という意�
 
 _by_ と _by the end of_ との違いに注意する。
 
-* by today 今日中に
-* by tomorrow 明日（の朝）までに
-* by the end of tomorrow 明日中に
-* by next month 来月までに
-* by the end of next month 来月末までに
+* by today _今日中に_
+* by tomorrow _明日（の朝）までに_
+* by the end of tomorrow _明日中に_
+* by next month _来月までに_
+* by the end of next month _来月末までに_
 
 _by today_ は「今日中に」となるが、今日はすでに始まっているので、副詞の _today_ も当日が範囲になる。「今日は」の意味と混同しないようにする。
 
@@ -107,6 +122,22 @@ _by today_ は「今日中に」となるが、今日はすでに始まってい
 _at the time of ... ing_ で「ちょうど ... する時」という表現で、適用時間を狭めることができる。
 
 * We use "will" to say what we decide to do something at the time of speaking.
+
+### at this time / at the moment
+
+_at this time / at the moment_ は「今のところは」「現時点（の条件下）では」の意味になる。
+
+* He's busy __at this time__.
+
+_this time_ の場合は、「今回は」で条件のニュアンスはない。
+
+* Let me try one more time. I'll do it right __this time__.
+
+### as of ...
+
+_as of ..._ で「... 以降」という意味になる。日付やバージョン等の明確な区切りと合わせて用いられる。
+
+* This class is no longer supported __as of__ version 0.9.3.
 
 ## 時間表現の順番
 
