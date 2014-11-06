@@ -75,7 +75,6 @@ title: TIPS
     # エイリアスマップを指定
     virtual_alias_maps = hash:/etc/postfix/virtual, regexp:/etc/postfix/virtual_regexp
 
-
 ## ハイフンで始まるメールアドレス
 
 ハイフンで始まるメールアドレスは、コマンドオプションと認識される危険性があるため送信されません。危険性を了承した上で送信を行う場合は、`main.cf` で `allow_min_user` の値を設定することで送信されるようになります。
@@ -135,6 +134,11 @@ Postfix-2.x 以降であれば、[SASL](http://ja.wikipedia.org/wiki/Simple_Auth
     # デフォルト値は noanonymous, noplaintext のため、AUTH PLAIN を有効にする
     smtp_sasl_security_options = noanonymous
 
+    # サポートされていれば STARTTLS を使う
+    smtp_tls_CAfile = /etc/pki/tls/cert.pem
+    smtp_tls_security_level = may
+    smtp_tls_loglevel = 1
+
 設定を読み込み、送信確認を行ないます。
 
     % postfix reload
@@ -167,10 +171,11 @@ RHEL系の yum では `cyrus-sasl` パッケージを利用するようになっ
     EHLO localhost.localdomain
     ...
     250-AUTH PLAIN LOGIN
+    250 STARTTLS
     ...
     QUIT
 
-上記の応答の場合 `AUTH PLAIN` または `AUTH LOGIN` です。`curus-sasl-plain` を追加インストールします。
+上記の応答の場合 `AUTH PLAIN` または `AUTH LOGIN` です。`cyrus-sasl-plain` を追加インストールします。
 
     % yum install cyrus-sasl-plain
 
