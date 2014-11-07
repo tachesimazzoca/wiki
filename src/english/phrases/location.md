@@ -1,12 +1,12 @@
 ---
 layout: page
 
-title: Where
+title: Location
 ---
 
-## 前置詞の使い分け
+## Preposition
 
-### at + 地点
+### at
 
 _at_ は、ピンポイントで場所を指し示す時に使う。待ち合わせや探し物をしているときに、どこにいるか（あるか）を明確に伝える。
 
@@ -27,7 +27,7 @@ _work / school / college / ..._ の場合は _in_ との違いに注意する。
 * He's __at work__. = 仕事中である
   * He's __in work__. = 仕事している（i.e. 社会人である）
 
-### on + 面
+### on
 
 _on_ は、上に乗っている（面にくっついている）状態を伝える。
 
@@ -81,7 +81,7 @@ _on the way to ..._ で、「... への道すがら」という表現が使え�
 
 場所として捉えがちだが、必ずしも _where_ ではない点に注意する。
 
-### in + 空間
+### in
 
 _in_ は空間内にあることを伝える。立体的に存在する物質でなくても、その世界（仮想空間） _world_ の中という意味で使える。
 
@@ -107,7 +107,7 @@ _in bed / work / school ..._ は「寝ている」「社会人である」「学
 * I'm __in work__.
 * He's __in school__.
 
-### to + 行き先
+### to
 
 _to_ で行き先を示すことができる。
 
@@ -122,29 +122,67 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 * What time do you get __to work__? _何時から仕事を始めていますか？_
 * He didn't go __to school__ yesterday.
 
-## 相対位置
+## Adverb
 
-* _near ..._ 「... の近くに」地理的に近い
-* _(by|next to|beside) ..._ 「... のそばに」寄り添っているくらい近い
-* _(inside|outside) ..._ 「... の内側/外側に」
-* _in (front|back) of ..._ 「... の前/後ろに」
-* _infrond|behind ..._ 「... の前/後ろに」
-* _accross from ..._ 「... の対面に」
-* _opposite ..._ 「... の反対側に」_「競演」の意味もある: She appears opposite Johnny Depp in the movie._
-* _between ... and ..._ 「... と ... の間に」
-* _in the middle (of ...)_ 「（... の）真ん中に」
-* _(over|under) ..._ 「... の上/下に」机/木/空/衣服などの物体に対しての位置
-* _(above|below) ..._ 「... の上/下に」壁/文章/高度など境界線に対しての位置
-
-## 副詞
-
-副詞は「...へ」「...で」「...に」と修飾する。前置詞 _to / at / in + ..._ をともなう副詞句と混同しないように注意する。
+副詞は「...へ」「...で」「...に」と修飾する。前置詞をともなう _to / at / in + ..._ と混同しないように注意する。
 
 * I'm <del>at</del> __here__.
 * I went <del>to</del> __there__ yesterday.
 * I'm going <del>to</del> __home__.
 * I'm going <del>to</del> __abroad__ on vacation.
 * You're going <del>to</del> __the wrong way__.
+
+## Phrases
+
+### Relative Position
+
+#### near ...
+
+「... の近くに」地理的に近い
+
+#### (by|next to|beside) ...
+
+「... のそばに」寄り添っているくらい近い
+
+#### (inside|outside) ...
+
+「... の内側/外側に」
+
+#### in (front|back) of ...
+
+「... の前/後ろに」
+
+#### infrond|behind ...
+
+「... の前/後ろに」
+
+#### accross from ...
+
+「... の対面に」
+
+#### opposite ...
+
+「... の反対側に」
+
+「競演」の意味もある
+
+* She appears opposite Johnny Depp in the movie.
+
+#### between ... and ...
+
+「... と ... の間に」
+
+#### in the middle (of ...)
+
+「（... の）真ん中に」
+
+#### (over|under) ...
+
+「... の上/下に」机/木/空/衣服などの物体に対しての位置
+
+#### (above|below) ...
+
+「... の上/下に」壁/文章/高度など境界線に対しての位置
 
 ### home
 

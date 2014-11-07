@@ -1,12 +1,12 @@
 ---
 layout: page
 
-title: When
+title: Time
 ---
 
-## 前置詞の使い分け
+## Preposition
 
-### at + 状態
+### at
 
 時刻 / 期日 / 状態のように時間軸の一点を伝えるときは _at_ を使う。
 
@@ -19,7 +19,7 @@ title: When
 * at 70 miles an hour _時速70マイルの時に_
 * at 100 degrees _100度の時に_
 
-### on + 日付
+### on
 
 日付は _on_ を使う。カレンダー日付枠上に予定が書かれているイメージになる。_on_ はなくてもよい。
 
@@ -30,7 +30,7 @@ title: When
 
 週末の表現で _on the weekend / on weekends_ が使える。この場合は _on_ は必要になる。
 
-### in + 範囲
+### in
 
 時間範囲を表す時は _in_ を使う。
 
@@ -48,7 +48,79 @@ title: When
 
 _at (dawn|noon|night|...)_ は状態なので _at_ が使えるが、午前/午後は範囲なので _in_ を使う。
 
-## よく使う表現
+### for
+
+_for_ で継続期間を伝えることができる。
+
+* I've been waiting __for an hour__.
+
+肯定文なら _for_ は省略できるが、否定文では省略できない。
+
+* I've been in Japan __(for) 5 years__.
+* I haven't had a vacation __for a few years__.
+
+否定文では _for_ の代わりに _in_ も使える。
+
+* I haven't had a vacation __in a few years__.
+
+_all (day|my life)_ の場合は _for_ はつけない。
+
+* I've had a headache __all day__. <del>... for all day.</del>
+* I've lived here __all my life__. <del>... for all my file.</del>
+
+### since
+
+_since_ で開始時間を伝えることができる。
+
+* I've been waiting __since 13:00__.
+* I haven't met him __since last year__.
+* I've known him __since we were in high school__.
+
+## When vs. How long
+
+_How long have you (been)_ で「どのくらいの間、そうであるのか？」を尋ねることができる。
+
+* __How long__ have you been waiting the bus?
+* __How long__ has it been raining?
+* __How long__ have they known each other?
+
+_How long are you ... ing_ では「どのくらいの間 ... するつもりなのか？」の意味になるので注意する。
+
+* __How long__ are you staying in Japan? _日本にいつまで滞在予定ですか？_
+* __How long__ have you been in Japan? _日本にどれくらい住んでいますか？_
+
+いつ _When_ なのか、どのくらいの期間 _How long_ なのかを区別する。
+
+_When_ に対する答えは、 _at / ago / when_ で開始点を伝える。
+
+* __When__ did it start raining? I started raining __this morning__.
+* __When__ did you get married? I got married __5 years ago__.
+* __When__ did you and Bob first meet? We first met __when I was in college__.
+
+_How long_ に対する答えは、_for / since_ で期間を伝える。
+
+* __How long__ has it been raining? It has been raining __since this morning__.
+* __How long__ have you been married? I've been married __for 5 years__.
+* __How long__ have you and Bob known each other? We've known each other __since I was in college__.
+
+## Word Order
+
+通常は、... 場所 + 時間 の順番で置く。
+
+* I went the post office yesterday.
+
+強調する時は文頭に来るケースもあるので、その限りではない。
+
+* Today we're gonna talk about ...
+* These days I'm busy.
+* Nowadays most people prefer ...
+
+時刻と日付の順番についても、重要な方を先にもってくればよい。大抵、単位の小さい順に「時刻 + 日付」となるが、日付を伝える事が目的で、時刻が補足情報になる場合は、日付を先にする。
+
+* What time did you get up today? I got up at 9:00 today.
+* When does the final round start? It starts on May 12th at 13:00.
+
+## Phrases
 
 ### last / this / next / every
 
@@ -138,37 +210,4 @@ _this time_ の場合は、「今回は」で条件のニュアンスはない�
 _as of ..._ で「... 以降」という意味になる。日付やバージョン等の明確な区切りと合わせて用いられる。
 
 * This class is no longer supported __as of__ version 0.9.3.
-
-## 時間表現の順番
-
-通常は、... 場所 + 時間 の順番で置く。
-
-* I went the post office yesterday.
-
-強調する時は文頭に来るケースもあるので、その限りではない。
-
-* Today we're gonna talk about ...
-* These days I'm busy.
-* Nowadays most people prefer ...
-
-時刻と日付の順番についても、重要な方を先にもってくればよい。大抵、単位の小さい順に「時刻 + 日付」となるが、日付を伝える事が目的で、時刻が補足情報になる場合は、日付を先にする。
-
-* What time did you get up today? I got up at 9:00 today.
-* When does the final round start? It starts on May 12th at 13:00.
-
-## How long との使い分け
-
-いつ _When_ なのか、どのくらいの期間 _How long_ なのかを区別する。
-
-_When_ に対する答えは、 _at / ago / when_ で開始点を伝える。
-
-* __When__ did it start raining? I started raining __this morning__.
-* __When__ did you get married? I got married __5 years ago__.
-* __When__ did you and Bob first meet? We first met __when I was in college__.
-
-_How long_ に対する答えは、_for / since_ で期間を伝える。
-
-* __How long__ has it been raining? It has been raining __since this morning__.
-* __How long__ have you been married? I've been married __for 5 years__.
-* __How long__ have you and Bob known each other? We've known each other __since I was in college__.
 

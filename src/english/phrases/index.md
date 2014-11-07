@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Five Ws
+title: Phrases
 
 index: true
 ---
