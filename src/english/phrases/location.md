@@ -20,12 +20,10 @@ _at_ は、ピンポイントで場所を指し示す時に使う。待ち合わ
 * Touch __at the left of__ the screen.
 * You can see it __at the bottom of__ the page.
 
-_work / school / college / ..._ の場合は _in_ との違いに注意する。
+_school / college / ..._ の場合は _in_ との違いに注意する。
 
-* Are you home? No, I'm __at school__. = 学校にいる
-  * What does he do? He's __in school__. = 学生である
-* He's __at work__. = 仕事中である
-  * He's __in work__. = 仕事している（i.e. 社会人である）
+* Are you home? No, I'm __at school__. _学校にいる_
+  * What does he do? He's __in school__. _学生である_
 
 ### on
 
@@ -47,11 +45,6 @@ _on_ は、上に乗っている（面にくっついている）状態を伝え
   * There is nothing to eat __on the menu__.
   * Where do you put a stamp __on an envelope__?
 
-_on the way to ..._ で、「... への道すがら」という表現が使える。
-
-* I met him __on the way to__ school.
-* I met her __on the way__ home.
-
 乗物に乗っているという場合も _on_ だが、車やタクシーの場合は _in_ になる。
 
 * They are __on a bus__.
@@ -59,7 +52,7 @@ _on the way to ..._ で、「... への道すがら」という表現が使え�
 * Who is that man __on the bicycle__?
   * Who is that man __in the car__?
 
-移動手段の意味では _by_ を用い冠詞はつけない。乗り物を特定する場合は _in / on_ で限定詞を伴う。
+移動手段の意味では _by_ を用い冠詞はつけないが、乗り物を限定詞で特定する場合には _in / on_ を使う。
 
 * I go to work __by train__.
 * Did you come here __by taxi__?
@@ -68,7 +61,12 @@ _on the way to ..._ で、「... への道すがら」という表現が使え�
 * Did you come here __in your car__?
 * He went to the office __on my bicycle__.
 
-通信経路は _on_ になる。場所 _where_ ではなくて手段 _how_ を表す。
+_on the way to ..._ で、「... への道すがら」という表現が使える。
+
+* I met him __on the way to__ school.
+* I met her __on the way__ home.
+
+通信経路は _on_ になる。場所 _location_ ではなくて手段 _mean_ を表す。
 
 * Have you seen the news __on TV__?
 * We were talking to each other __on the phone__.
@@ -76,14 +74,13 @@ _on the way to ..._ で、「... への道すがら」という表現が使え�
 
 「...において」という役割/条件下にあるという意味でも使われる。
 
+* I'm going __on vacation__ next month.
 * __What__ kind of team are you on? I'm __on a basketball team__.
 * The application crashes __on clicking__ the "Reload" button. (... __when__ I'm clicking ...)
 
-場所として捉えがちだが、必ずしも _where_ ではない点に注意する。
-
 ### in
 
-_in_ は空間内にあることを伝える。立体的に存在する物質でなくても、その世界（仮想空間） _world_ の中という意味で使える。
+_in_ は空間内にあることを伝える。
 
 * 国 / 町 / 施設 / 部屋
   * I've been __in Japan__.
@@ -96,16 +93,29 @@ _in_ は空間内にあることを伝える。立体的に存在する物質で
 * 自然 / 空 / 川 / 水
   * There are a lot of stars __in the sky__.
   * When I was swimming __in the river__, ...
-* 本 / 新聞 / 写真 / 言語
+* 本 / 新聞 / 写真
   * I found a typo __in the book__.
   * Who is the girl __in this picture__?
-  * He's fluent __in Japanese__.
 
-_in bed / work / school ..._ は「寝ている」「社会人である」「学生である」という意味合いのため、冠詞はつけない。
+実際に存在する物でなくても、仮想空間 _world_ に制限する意味で使われる。これらは場所ではない。
+
+* 言語 / 学問 / 概念
+  * I'm interested __in Mathematics__.
+  * He's fluent __in Japanese__.
+  * __(IMO|In my opinion)__, you should study reading charts more.
+* 道具 / 文字種
+  * You're not allowed to write __in pencil__. It only allows you to write __in dark ink__.
+  * Write __in camel case__ with the first letter __in uppercase__.
+* 状態
+  * I'm __in trouble__.
+  * Have you ever been __in love__ with anybody?
+
+_in bed / school ..._ は「寝ている」「学生である」という意味で、場所を差しているのではない。このため冠詞はつけない。
 
 * She's __in bed__.
-* I'm __in work__.
+  * She's asleep (in the bed).
 * He's __in school__.
+  * He's a student.
 
 ### to
 
@@ -152,7 +162,7 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 
 「... の前/後ろに」
 
-#### infrond|behind ...
+#### (infront|behind) ...
 
 「... の前/後ろに」
 
