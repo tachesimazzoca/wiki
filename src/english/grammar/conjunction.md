@@ -10,8 +10,8 @@ title: Conjunction
 
 ### and
 
-* __Alice__ and __Bob__ work at the same company.
-* It is easy to access both __by train and by bus__.
+* _Alice_ __and__ _Bob_ work at the same company.
+* It is easy to access both _by train_ __and__ _by bus_.
 
 ３つ以上になる時は、カンマで区切り最後に _and_ を置く。
 
@@ -21,9 +21,9 @@ title: Conjunction
 
 _A but B_ は「_A_ であるが _B_」の意味になる。
 
-* He is __clever__ but __arrogant__.
-* __iPad is beautiful and useful__ but __it's too expensive__.
-* __I need an iPhone for work__, but __I don't have one__.
+* He is _clever_ __but__ _arrogant_.
+* _iPad is beautiful and useful_ __but__ _it's too expensive_.
+* _I need an iPhone for work_, __but__ _I don't have one_.
 
 _not A but B_ は「_A_ ではなく _B_」の意味になる。
 
@@ -32,8 +32,8 @@ _not A but B_ は「_A_ ではなく _B_」の意味になる。
 
 _yet_ は _but_ と同じ意味になるが、意外性がある場合に使う。
 
-* It was unbelievable __yet__ real.
-* I'm tired, __yet__ I can't sleep.
+* It was _unbelievable_ __yet__ _real_.
+* _I'm tired_, __yet__ _I can't sleep_.
 
 _yet_ は _another_ 等を修飾して「さらに」の意味もあるので接続詞と混同しないこと。_Yet another_ はプログラマー間のスラングでは「非公式」を指す。
 
@@ -41,13 +41,13 @@ _yet_ は _another_ 等を修飾して「さらに」の意味もあるので接
 
 _or_ は選択肢をつなげる。
 
-* Would you like __tea__ or __coffee__?
-* You can go there __by train__ or __by bus__.
+* Would you like _tea_ __or__ _coffee_?
+* You can go there _by train_ __or__ _by bus_.
 
 _nor_ は否定文で選択肢をさらに否定する。節の場合は倒置（疑問形に）する。
 
-* We __never__ add __milk__ nor __sugar__ to Japanese green tea.
-* I cound__n't__ go there __by train__ nor __by bus__.
+* We __never__ add _milk_ __nor__ _sugar_ to Japanese green tea.
+* I cound__n't__ go there _by train_ __nor__ _by bus_.
 * I have __never__ eaten sashimi, __nor__ do I want to eat.
 
 否定文は _nor_ でなければならないわけではない。_or_ も使える。
