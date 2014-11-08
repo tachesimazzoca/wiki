@@ -103,6 +103,23 @@ _How long_ に対する答えは、_for / since_ で期間を伝える。
 * __How long__ have you been married? I've been married __for 5 years__.
 * __How long__ have you and Bob known each other? We've known each other __since I was in college__.
 
+## When vs. What / Which
+
+時刻を尋ねる際、_When ..._ では漠然すぎるため _What time ..._ を用いる。
+
+* __When__ do you usually go to bed? When I'm sleepy.
+* __What time__ do you usually go to bed? Usunally at 23:00.
+
+曜日 / 月 / 季節は _(Which|What) (day|month|season) ..._ になる。選択肢で制限されるので _Which_ が使える。
+
+* __Which day__ do you play tennis? On Tuesdays and Saturdays.
+
+_When_ ではないので、副詞句として用いる場合、文法的には _At what time .../ On what day .../ In which month ..._ のように前置詞が必要だが、通常は省略されることがほとんどである。
+
+* <del>At what time</del> __What time__ is it? _副詞句ではない_
+* __What time__ do you get up? _副詞句だが At what time ... はめったに使われない_
+* __(In) which month__ are most babies born?
+
 ## Word Order
 
 通常は、... 場所 + 時間 の順番で置く。
