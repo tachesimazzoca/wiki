@@ -52,21 +52,12 @@ _on_ は、上に乗っている（面にくっついている）状態を伝え
 * Who is that man __on the bicycle__?
   * Who is that man __in the car__?
 
-移動手段の意味では _by_ を用い冠詞はつけないが、乗り物を限定詞で特定する場合には _in / on_ を使う。
-
-* I go to work __by train__.
-* Did you come here __by taxi__?
-* He goes to work __by bicycle__.
-* I went there __on the train__.
-* Did you come here __in your car__?
-* He went to the office __on my bicycle__.
-
 _on the way to ..._ で、「... への道すがら」という表現が使える。
 
 * I met him __on the way to__ school.
 * I met her __on the way__ home.
 
-通信経路は _on_ になる。場所 _location_ ではなくて手段 _mean_ を表す。
+通信経路は _on_ になる。
 
 * Have you seen the news __on TV__?
 * We were talking to each other __on the phone__.
