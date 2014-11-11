@@ -10,8 +10,10 @@ title: Conjunction
 
 ### and
 
+_and_ は項目を追加する。
+
 * _Alice_ __and__ _Bob_ work at the same company.
-* It is easy to access both _by train_ __and__ _by bus_.
+* It is easy to access both _by train_ __and__ _by bus_. <del>... by train and bus.</del>
 
 ３つ以上になる時は、カンマで区切り最後に _and_ を置く。
 
@@ -42,7 +44,8 @@ _yet_ は _another_ 等を修飾して「さらに」の意味もあるので接
 _or_ は選択肢をつなげる。
 
 * Would you like _tea_ __or__ _coffee_?
-* You can go there _by train_ __or__ _by bus_.
+* You can go there _by train_ __or__ _by bus_. <del>... by train or bus.</del>
+* Friends often go out _to dinner_ __or__ _to the parties_. <del>... to dinner or the parties</del>
 
 _nor_ は否定文で選択肢をさらに否定する。節の場合は倒置（疑問形に）する。
 
