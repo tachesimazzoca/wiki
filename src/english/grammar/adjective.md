@@ -139,6 +139,12 @@ _good / well_ の比較級は _better_ になる。最上級は _best_ になる
 * Your suggestion is __better__ than mine.
 * I feel __better__.
 
+副詞の _best_ では、_the_ を伴うことが多い。特定の候補内の一番と強調する時には _the best_ が使われる。
+
+* I like the song __(the) best__.
+* Which season do you like __the best__? I like summer __the best__ (of all the seasons).
+* Wish you all __the best__.
+
 _bad / badly_ の比較級は _worse_ になる。最上級は _worst_ になる。
 
 * The result was __worse__ than expected.
