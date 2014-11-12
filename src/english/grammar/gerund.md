@@ -81,7 +81,7 @@ _mind / consider / imagine_ など思考する動詞が間違いやすいが、�
 
 * I prefer __to__ <del>driving</del> __drive__.
 * I prefer driving __to__ <del>travel</del> __traveling__ by train.
-* I'm looking foward __to__ <del>see</del> __seeing__ you.
+* I'm looking forward __to__ <del>see</del> __seeing__ you.
 
 ## while + ...ing
 

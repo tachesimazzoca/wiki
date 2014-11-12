@@ -67,7 +67,7 @@ _good_ に対応する副詞は _well_ になる。
 形容詞や副詞を修飾する場合はその後に置く。
 
 * I don't have __enough__ money for a vacation.
-* He's expericenced __enough__ to do the job.
+* He's experienced __enough__ to do the job.
 * Fair __enough__.
 * Suprisingly __enough__, the picture was drawn by an 8-year old girl.
 
@@ -129,7 +129,7 @@ _still_ は「まだ ...」の副詞になる。疑問/否定文の時は _yet_ 
   * I haven't finished working __yet__.
 * I __still__ have the toys.
   * I haven't thrown them away __yet__.
-* Has she left the offce __yet__?
+* Has she left the office __yet__?
   * She is __still__ at the office.
   * She has __just__ left the office.
   * She has __already__ left the office.

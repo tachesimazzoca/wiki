@@ -66,7 +66,7 @@ _advise / allow_ は動名詞 _...ing_ 、または 目的語 + _to ..._ の両�
 * __To start__ this game, press the button "Enter".
 * This function is __to calculate__ MD5 checksum.
 * I can't find a place __to park__.
-* Whould you like something __to eat__?
+* Would you like something __to eat__?
 
 名詞の場合は、_for 名詞_ を用いる。目的を質問するときは _What ... for?_ を使う。
 
@@ -125,7 +125,7 @@ _hear / see / read / learn / know / find_ と共に用いられ、それに対�
 _afraid to ..._ と _afraid of ...ing_ では意味が異なる。_afraid of_ は、自分で故意にする事には使えない。
 
 * I'm __afraid to go__ near the dog. _怖くて...できない（あえてしなければならないが）_
-* I'm __afraid of being__ biten. _... するのが怖い_
+* I'm __afraid of being__ bitten. _... するのが怖い_
 * <del>I'm __afraid to__ mistake.</del> _怖くて誤解できない_
 * I'm __afraid of__ making a mistake. _誤解されるのが怖い_
 

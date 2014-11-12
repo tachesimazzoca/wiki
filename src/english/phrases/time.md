@@ -26,7 +26,7 @@ title: Time
 * (on) Sunday
 * (on) Sundays
 * (on) Friday evening(s)
-* (on) Jaunary 5th, 2014
+* (on) January 5th, 2014
 
 週末の表現で _on the weekend / on weekends_ が使える。この場合は _on_ は必要になる。
 
@@ -108,7 +108,7 @@ _How long_ に対する答えは、_for / since_ で期間を伝える。
 時刻を尋ねる際、_When ..._ では漠然すぎるため _What time ..._ を用いる。
 
 * __When__ do you usually go to bed? When I'm sleepy.
-* __What time__ do you usually go to bed? Usunally at 23:00.
+* __What time__ do you usually go to bed? Usually at 23:00.
 
 曜日 / 月 / 季節は _(Which|What) (day|month|season) ..._ になる。選択肢で制限されるので _Which_ が使える。
 

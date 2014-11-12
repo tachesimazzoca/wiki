@@ -128,7 +128,7 @@ _help to ..._ の場合 _to_ を省略してもよい。
 
 _can't help ...ing_ は「... せずにはいられない」という意味になる。
 
-* I __could't help laughing__. _笑わずにはいられなかった_
+* I __couldn't help laughing__. _笑わずにはいられなかった_
 * I __can't help feeling__ bad. _嫌な思いをせずにはいられなかった_
 * "Can't Help Falling In Love / Elvis Presley"
 

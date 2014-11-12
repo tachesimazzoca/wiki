@@ -14,7 +14,7 @@ title: Modals
 * She __could__ buy whatever she wanted on company credit card.
 * I've __been able to__ recover all the files.
 * He might __be able to__ come to the party.
-* You should __be able to__ send you a esitmate.
+* You should __be able to__ send you a estimate.
 
 _was able to_ は 「なんとかやり遂げた」_managed to_ の意味になる。
 
@@ -60,7 +60,7 @@ _must_ は「... である（する）に決まっている」という確信を
 
 _have to_ は「... すべきだ」という義務（を負っていること）を伝える。
 
-* When do you have time this or next week? I __have to__ work this weekend, so other than friday next week.
+* When do you have time this or next week? I __have to__ work this weekend, so other than Friday next week.
 * Your phone has broken. You'll __have to__ buy a new one.
 * I might __have to__ leave the office early.
 
@@ -80,7 +80,7 @@ _must not_ は「... してはならない」だが、_not have to_ は「... �
 _should_ は「... したほうがよい」という提案を伝える。_must / have to_ よりも弱い。
 
 * You __should__ take a break from work. _休憩したら？_
-* You __shouldn't__ beleive everything you read in Twtter. _何でも信じないほうがいいよ_
+* You __shouldn't__ believe everything you read in Twitter. _何でも信じないほうがいいよ_
 
 提案の意味になるので _I think_ とよく一緒に使われる。
 
@@ -180,7 +180,7 @@ _might_ のかわりに _may_ も使えるが、実際に起こらない例え�
 過去形は、_(might|may) have + 過去分詞_ を使う。
 
 * A: "I've lost my key." B: "You __might have__ left it in your car."
-* He didn't come to the meeting. He __might have__ forgoten the schedule.
+* He didn't come to the meeting. He __might have__ forgotten the schedule.
 
 _could_ を _might_ のように使う事もできる。
 

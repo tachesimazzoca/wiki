@@ -174,8 +174,8 @@ _by then / by that time_ で、前文を受けて「その時までに」とい�
 
 名詞句には _because of_ を使う。
 
-* We didin't play tennis yesterday __because__ it rained.
-  * We didin't play tennis yesterday __because of__ the rain.
+* We didn't play tennis yesterday __because__ it rained.
+  * We didn't play tennis yesterday __because of__ the rain.
 * He doesn't speak English well __because__ he's Japanese.
   * He doesn't speak English well __because of__ being Japanese.
 
@@ -189,7 +189,7 @@ _It's because ... that ..._ の強調構文で用いることもできる。
 
 * __Since__ I wasn't familiar with the area, I had no idea where the shop was.
 * __Since__ I didn't have much time, I had lunch at McDonald's.
-* __As__ I was on vacation, I didn't have a chanse to reply earlier.
+* __As__ I was on vacation, I didn't have a chance to reply earlier.
 
 理由を尋ねられた時や強調構文では使えない。代わりに _because_ を用いる。
 
@@ -309,8 +309,8 @@ _Although ...,_ で「... だけれども」という譲歩の意味になる。
 
 _while / whereas_ は「... である一方」という対比を表すことができる。
 
-* The number of marriages has decresed in recent decades, __while__ the number of divorces has increased.
-* Native English speakers use the word "complaint", __while__ the Japanse tend to use the word "claim".
+* The number of marriages has decreased in recent decades, __while__ the number of divorces has increased.
+* Native English speakers use the word "complaint", __while__ the Japanese tend to use the word "claim".
 * __While__ the programmers usually blame managers, they will occasionally turn on their own and blame some other programmer.
 
 互いに対等関係であり、優先順位をつけがたい「... だけれども（それは認めるけれども）」というニュアンスもある。
@@ -351,7 +351,7 @@ _as usual / as always_ のような慣用句がある。
 
 * I used to smoke __like__ you. But I've quit smoking.
 * I would rather use something __like__ the following.
-* Functional programming loanguages, __(like|such as)__ Scala, encourage immutable data structures.
+* Functional programming languages, __(like|such as)__ Scala, encourage immutable data structures.
 
 接続詞として _(look|sound) like ..._ の表現が多く用いられる。主部が重複するので _It_ に置き換えることが多い。
 

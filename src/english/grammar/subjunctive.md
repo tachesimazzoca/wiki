@@ -56,7 +56,7 @@ _be_ 動詞は主に _were_ を用いる。
 
 _would_ は _if_ 節では使えない。現在形（未来） / 過去形（現在） / 過去完了形（過去） の動詞のみ使える。
 
-* If you <del>wouldn't</del> __didn't aplogize__ her, she would get angry.
+* If you <del>wouldn't</del> __didn't apologize__ to her, she would get angry.
 * If I <del>would</del> __find__ your key, I'll tell you.
 
 ## wish
