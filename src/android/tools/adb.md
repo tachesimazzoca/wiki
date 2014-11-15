@@ -4,6 +4,10 @@ layout: page
 title: Android Debug Bridge
 ---
 
+## Overview 
+
+* <http://developer.android.com/tools/help/adb.html>
+
 ## Cheat Sheet
 
 ### Dumping system data
@@ -41,8 +45,4 @@ Look up the `Activitiy Resolver Table` section in the output of the command `she
           application/itunes:
             41adb878 com.android.music/.MediaPlaybackActivity filter 41adb9e0
             ...
-
-## Links 
-
-* [Android Debug Bridge](http://developer.android.com/tools/help/adb.html)
 

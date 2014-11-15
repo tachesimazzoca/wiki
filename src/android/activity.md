@@ -1,8 +1,12 @@
 ---
 layout: page
 
-title: Activity 
+title: Activity
 ---
+
+## Overview
+
+* <http://developer.android.com/guide/components/activities.html>
 
 ## Cheat Sheet
 
@@ -59,9 +63,9 @@ private void done() {
 }
 {% endhighlight %}
 
-### Adding an OnClickListener 
+### Adding an OnClickListener
 
-You can set the `android:onClick` attribute to the method name of the activity having the corresponding view. 
+You can set the `android:onClick` attribute to the method name of the activity having the corresponding view.
 
 {% highlight xml %}
 <Button
