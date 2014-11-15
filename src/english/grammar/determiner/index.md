@@ -1,9 +1,9 @@
 ---
-layout: page 
+layout: page
 
 title: Determiner
 
-index: true 
+index: true
 ---
 
 ## 使い方

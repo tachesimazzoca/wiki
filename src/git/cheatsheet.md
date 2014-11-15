@@ -249,7 +249,7 @@ To reset author, use `git-rebase` with `-i` option. The following is an example 
     % git rebase -i HEAD~2
     pick b234567  Do something
     pick a123456  Do something at last
-    
+
     # Rebase ....
     #
     # Commands:
@@ -264,13 +264,13 @@ Replace the command `pick` at each line with `edit` and then quit the editor.
     edit a123456  Do something at last
     ...
     :q
-    
+
     You can amend the commit now, with
-    
+
             git commit --amend
-    
+
     Once you are satisfied with your changes, run
-    
+
             git rebase --continue
 
 Repeat running `commit --amend --reset-author` and `rebase --continue`.

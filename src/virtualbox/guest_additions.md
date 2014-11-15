@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 
 title: Guest Additions
 ---
@@ -8,7 +8,7 @@ title: Guest Additions
 
 If you prefer to keep the 5.8 kernel, you might replace the CentOS base repository with `vault.centos.org/5.8`.
 
-    % vi /etc/yum.repos.d/CentOS-Base.repo 
+    % vi /etc/yum.repos.d/CentOS-Base.repo
     ...
     [base]
     name=CentOS-5.8 - Base

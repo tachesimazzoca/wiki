@@ -4,7 +4,7 @@ layout: page
 title: JAD Java Decompiler
 ---
 
-## Overview 
+## Overview
 
 * <http://www.varaneckas.com/jad/>
 
@@ -15,7 +15,7 @@ title: JAD Java Decompiler
     % ls A.*
     A.class A.jad
 
-    # To output STDOUT, use -p option 
+    # To output STDOUT, use -p option
     % jad -p B.class > B.java
     % ls B.*
     B.class B.java

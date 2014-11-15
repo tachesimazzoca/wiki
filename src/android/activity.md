@@ -8,7 +8,7 @@ title: Activity
 
 * <http://developer.android.com/guide/components/activities.html>
 
-## this vs. getApplicationContext 
+## this vs. getApplicationContext
 
 様々な API に Context インターフェイスを渡すことがある。
 

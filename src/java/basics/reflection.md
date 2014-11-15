@@ -1,15 +1,15 @@
 ---
 layout: page
 
-title: Reflection 
+title: Reflection
 ---
 
-## Contructor 
+## Contructor
 
 {% highlight java %}
 try {
     Class<?> clazz = Class.forName("net.example.reflection.Foo");
-    Foo foo = (Foo) clazz.newInstance(); 
+    Foo foo = (Foo) clazz.newInstance();
 } catch (ClassNotFoundException e) {
     throw e;
 } catch (InstantiationException e) {
@@ -27,7 +27,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Calc {
     public int sum(int a, int b) {
-        return a + b; 
+        return a + b;
     }
 
     public static void main(String[] args) throws Exception {
@@ -46,7 +46,7 @@ public class Calc {
 
 ## Tips
 
-### Getting the current class name statically 
+### Getting the current class name statically
 
 {% highlight java %}
 public class MyClass {

@@ -1,10 +1,10 @@
 ---
 layout: page
 
-title: Servlet 
+title: Servlet
 ---
 
-## ServletConfig 
+## ServletConfig
 
 `web.xml`:
 

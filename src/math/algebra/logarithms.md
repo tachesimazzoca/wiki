@@ -11,7 +11,7 @@ title: Logarithms
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
-## Definition 
+## Definition
 
 * <http://en.wikipedia.org/wiki/Logarithm>
 
@@ -30,7 +30,7 @@ If any base *b* is equal to the anti-logarithm, the logarithm is always *1*.
 If the anti-logarithm is *1*, the logarithm is always *0*.
 
 <script type="math/tex; mode=display" id="MathJax-Element-1-3">
-\log_{b}1 = 0 \quad \log_{2}1 = 0 \quad \log_{10}1 = 0 
+\log_{b}1 = 0 \quad \log_{2}1 = 0 \quad \log_{10}1 = 0
 </script>
 
 ## Formula
@@ -61,9 +61,9 @@ If the anti-logarithm is *1*, the logarithm is always *0*.
 
 <script type="math/tex; mode=display" id="MathJax-Element-2-4">
 \begin{align}
-\log_{b}\sqrt[p]{x} = \frac{\log_{b}x}{p} \quad \dots \quad 
+\log_{b}\sqrt[p]{x} = \frac{\log_{b}x}{p} \quad \dots \quad
   & \log_{10}\sqrt{10000} = \frac{\log_{10}10000}{2} = \frac{4}{2} = 2 \\
-  & \log_{10}\sqrt{1000} = \frac{\log_{10}1000}{2} = \frac{3}{2} = 1.5 \\ 
+  & \log_{10}\sqrt{1000} = \frac{\log_{10}1000}{2} = \frac{3}{2} = 1.5 \\
   & \log_{2}\sqrt[3]{64} = \frac{\log_{2}64}{3} = \frac{6}{3} = 2 \tag{4}
 \end{align}
 </script>
@@ -96,11 +96,11 @@ Given a number x and its logarithm logb(x) to an unknown base b, the base is giv
 \begin{align}
 & b = x^\frac{1}{\log_{b}(x)} \\
 & 10 = 100^\frac{1}{\log_{10}100} = 100^\frac{1}{2} = \sqrt{100} \\
-& 2 = 64^\frac{1}{\log_{2}64} = 64^\frac{1}{6} = \sqrt[6]{64} = \sqrt{4} 
+& 2 = 64^\frac{1}{\log_{2}64} = 64^\frac{1}{6} = \sqrt[6]{64} = \sqrt{4}
 \end{align}
 </script>
 
-## Exercises 
+## Exercises
 
 ### Q.1
 
@@ -108,11 +108,11 @@ Given a number x and its logarithm logb(x) to an unknown base b, the base is giv
 
 <script type="math/tex; mode=display" id="MathJax-Element-3-1-2">
 \begin{align}
-\log_{2}(2^x) & = \log_{2}(3^{x-1}) \\ 
-x\log_{2}2 & = (x-1)\log_{2}3 \\ 
-x & = x\log_{2}3-\log_{2}3 \\ 
-x\log_{2}3-x & = \log_{2}3 \\ 
-x(\log_{2}3-1) & = \log_{2}3 \\ 
+\log_{2}(2^x) & = \log_{2}(3^{x-1}) \\
+x\log_{2}2 & = (x-1)\log_{2}3 \\
+x & = x\log_{2}3-\log_{2}3 \\
+x\log_{2}3-x & = \log_{2}3 \\
+x(\log_{2}3-1) & = \log_{2}3 \\
 \\
 x & = \frac{a}{a-1} \quad \dots \quad a = \log_{2}3, \quad a \neq 1 \\
 \end{align}

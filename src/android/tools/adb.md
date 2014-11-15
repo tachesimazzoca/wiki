@@ -4,7 +4,7 @@ layout: page
 title: Android Debug Bridge
 ---
 
-## Overview 
+## Overview
 
 * <http://developer.android.com/tools/help/adb.html>
 
