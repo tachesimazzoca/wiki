@@ -8,6 +8,23 @@ title: Activity
 
 * <http://developer.android.com/guide/components/activities.html>
 
+## this vs. getApplicationContext 
+
+様々な API に Context インターフェイスを渡すことがある。
+
+* <http://developer.android.com/reference/android/content/Context.html>
+
+Activity は Context を継承しているため、アクティビティ自身の `this` を渡しても動作するが、`getApplicationContext` との使い分けを意識する必要がある。
+
+* `this` は、アクティビティのライフサイクルと連動する
+* `getApplicationContext` は、アプリケーションのライフサイクルと連動する
+
+単に Context として、アクティビティ自身 `this` を渡すと、受け側のAPIが Context の参照を保持していた場合、アクティビティのライフサイクルで破棄されず、メモリリークを起こしてしまう。かといって、メモリリークを避けるために、一律で `getApplicationContext` を使うべきかというとそうではない。
+
+* <http://developer.android.com/reference/android/content/Context.html#getApplicationContext()>
+
+`registerReceiver` で BroadcastReceiver を登録するシナリオを考えてみると、アクティビティから登録されたレシーバは、明示的に `unregisterReceiver` を行なわなかった場合でも、アクティビティのライフサイクルで破棄されるが、アプリケーションから登録された場合は、明示的に破棄しなければ、いつまでもレシーバは待機しつづけることになる。
+
 ## Cheat Sheet
 
 ### Starting another activity
@@ -71,6 +88,12 @@ You can set the `android:onClick` attribute to the method name of the activity h
 <Button
     ...
     android:onClick="doSomething" />
+{% endhighlight %}
+
+{% highlight java %}
+public void doSomething(View view) {
+    ....
+}
 {% endhighlight %}
 
 However, if the method name is missing, it causes a runtime error. For more type safety, you would rather use the `View#setOnClickListner` method manually.
