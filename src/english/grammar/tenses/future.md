@@ -6,7 +6,13 @@ title: Future
 
 ## 使い方
 
-未来形 _will_ で、会話時点で決めた事を伝えることができる。主に 提案 / 同意 / 約束 / 依頼 するケースで用いられる。
+英語には、動詞の未来形というものは存在しない。助動詞と組み合わせて未来を表現する。
+
+## 未来表現
+
+### will / shall
+
+_will_ で、会話時点で決めた事を伝えることができる。主に 提案 / 同意 / 約束 / 依頼 するケースで用いられる。
 
 * We don't have something to eat. I__'ll go and get__ some now.
 * Could you give me an estimate? Yes, I__'ll email__ you later.
@@ -20,57 +26,37 @@ title: Future
 * She __won't__ listen my advice.
 * My phone __won't__ work.
 
-## Shall
-
 自分（達）がしようと思っている事に同意を求める時は _Shall (I|we) ...?_ を使う。
 
 * Shall I turn off the radio? <del>Will I turn off the radio?</del>
 * Where shall we have dinner? <del>Where will we have dinner?</del>
 
-## 現在進行形との使い分け
+招待を断る際に _will_ 使うと「（それなら）自分は...する」という意味になってしまう。
 
-手配済みの（すでに決めている）予定を伝える場合は、現在進行形を用いる。
+* Shall we go shopping tomorrow?
+  * I__'ll play__ tennis tomorrow. _（そうするくらいなら）明日はテニスするよ。_
+  * I__'m playing__ tennis tomorrow. _明日はテニスする予定があるんだ。_
 
-* I__'m playing__ tennis tomorrow. <del>I'll play tennis tomorrow.</del>
-* He__'s getting__ married next month. <del>He'll get married next month.</del>
-* __Are__ you __going__ out tonight? <del>Will you go out tonight?</del>
+### be going to ...
 
-未来形 _will_ を使うと、会話時点で意思決定した意味になる。
-
-* Have you decided where to stay tomorrow?
-  * Yes, I__'m staying__ at a hotel.
-  * No, I__'ll stay__ at a hotel.
-* _Alice:_ I__'m taking__ a walk tomorrow morning. _Bob:_ That sounds nice. I think I__'ll join__ you.
-
-招待された時に使うと「（それなら）自分は...する」という意味になってしまう。
-
-* Shall we go shopping tomorrow? I__'ll play__ tennis tomorrow. _明日買い物に行かない？（そうするくらいなら）明日はテニスするよ。_
-
-公共機関や公演などの固定のスケジュールは、未来の日付であっても現在形を使う。「その時間にそうすることが決められている」という意味になる。
-
-* We__'re going__ to the movies tonight. It __starts__ at 20:30.
-* I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
-* Tomorrow __is__ Sunday.
-
-### is going to (do|happen)
-
-_is going to do_ は、過去に意思決定済みで、もうすぐそうする（そのプロセスに入りつつある）という時に使う。予定を伝える _is ...ing_ とほぼ同じだが、予定を組んだ（手配した）ニュアンスはない。
+_is going to do_ は、もうすぐそうする（そのプロセスに入りつつある）イメージになる。_is ...ing_ ほど、予定を組んだ（手配した）ニュアンスはなく、気持ちの上でそうしようという思っているという意味で、流動的である。
 
 * I__'m going to__ wash my car later.
 * I__'m going to__ buy some milk when I've finished with the cleaning.
 * We've decided to have a party. We__'re going to invite__ lots of people.
 
-理由が明らかで、これから必ず起こる出来事について話す時にも _is going to happen_ を使う。
+すでに実現のプロセスに入ってしまい、必ず起こる出来事について話す時に _is going to_ を使う。
 
 * It__'s going to__ rain.
 * He__'s going to__ be sick.
 * These problems __are going to__ get worse.
 * He has liver cancer. He __is going to__ die within the next 6 months. <del>He will die ..</del>
 
-そうでない出来事については _will_ を使う。
+対して「予測」の出来事については _will_ を使う。_if_ 節と組み合わせる時は、かならず予測なので _will_ を使う。
 
 * I'm caught in a traffic jam. I__'ll be__ late.
 * I think he __will like__ the present.
+* You <del>are going to find</del> __will find__ excuse if you're not trying.
 
 _was going to_ は、そうなりそうだったが、そうはならなかった昔話をする時に使う。
 
@@ -84,9 +70,30 @@ _was going to_ は、そうなりそうだったが、そうはならなかっ�
 * I__'m gonna__ be a singer.
 * I __was gonna__ be a singer.
 
-### is about to
+### be ...ing
 
-「もうすぐ ... するところです」という直近の未来には _is (just) about to_ を使う。
+手配済みの（すでに決めている）予定を伝える場合は、現在進行形を用いる。
+
+* I__'m playing__ tennis tomorrow. <del>I'll play tennis tomorrow.</del>
+* He__'s getting__ married next month. <del>He'll get married next month.</del>
+* __Are__ you __going__ out tonight? <del>Will you go out tonight?</del>
+
+_will_ を使うと、会話時点で意思決定した意味になる。
+
+* Have you decided where to stay tomorrow?
+  * Yes, I__'m staying__ at a hotel.
+  * No, I__'ll stay__ at a hotel.
+* _Alice:_ I__'m taking__ a walk tomorrow morning. _Bob:_ That sounds nice. I__'ll join__ you.
+
+公共機関や公演などの固定のスケジュールは、未来の日付であっても現在形を使う。「その時間にそうすることが決められている」という意味になる。
+
+* We__'re going__ to the movies tonight. It __starts__ at 20:30.
+* I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
+* Tomorrow __is__ Sunday.
+
+### be about to ...
+
+「もうすぐ ... するところです」という直近の未来には _be (just) about to_ を使う。
 
 * I__'m__ just __about to__ leave the offce.
 
