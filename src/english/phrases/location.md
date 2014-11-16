@@ -133,6 +133,17 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 * I'm going <del>to</del> __abroad__ on vacation.
 * You're going <del>to</del> __the wrong way__.
 
+### where
+
+場所を尋ねる時に、疑問副詞 _where_ 「どこで / どこへ」を用いるが、これには _at / on / in / to_ の意味が含まれている。
+
+* __Where__ do you live <del>in</del>? I live in Tokyo.
+
+_from / to_ に対しては、疑問代名詞として使う。_to_ は、疑問副詞に含まれているので省略する。まれに強調するときに使われる。
+
+* Where are you __from__? I'm from Japan.
+* Where did you go __(to)__?.
+
 ## Phrases
 
 ### Relative Position
