@@ -122,12 +122,12 @@ _hear / see / read / learn / know / find_ と共に用いられ、それに対�
 
 ### afraid to ... / afraid of ...ing
 
-_afraid to ..._ と _afraid of ...ing_ では意味が異なる。_afraid of_ は、自分で故意にする事には使えない。
+_afraid to ..._ と _afraid of ...ing_ では意味が異なる。_afraid to ..._ の場合は、不定詞として「やりたい（が怖くてできない）」事を置くが、_afraid of ...ing_ は「やりたくない」恐れの対象を動名詞で置く。
 
-* I'm __afraid to go__ near the dog. _怖くて...できない（あえてしなければならないが）_
-* I'm __afraid of being__ bitten. _... するのが怖い_
-* <del>I'm __afraid to__ mistake.</del> _怖くて誤解できない_
-* I'm __afraid of__ making a mistake. _誤解されるのが怖い_
+* I'm __afraid to go__ near the dog. _怖くてその犬に近づくことができない（近づきたい）_
+* I'm __afraid of being__ bitten by the dog. _噛まれるのが怖い（噛まれたくない）_
+* <del>I'm __afraid to__ lose my job.</del> _NG: 怖くて失職できない（失職したい？？）_
+* I'm __afraid of__ losing my job. _失職するのが怖い（失職したくない）_
 
 ### interested to ... / interested in ...
 

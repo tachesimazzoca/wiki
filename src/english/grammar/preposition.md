@@ -79,48 +79,95 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 
 ## 形容詞
 
-### 評価 + of + 人
+### It's + 評価 + of + 人
 
-人を評価する時には _It was 形容詞 of <somebody> (to do something)_ を使う。
+人を評価する時には _It's 形容詞 of <somebody> (to do something)_ を使う。
 
-* It was __nice of you__ to come.
-* It was __kind of you__ to help me.
-* It's __wise of you__ to ask his advice. _彼に尋ねるのが賢明だ_
-* It's __stupid of him__ to believe that. _そんなことを信じるなんてバカだ_
+* good / nice / kind
+  * It was __nice of you__ to come.
+  * It was __kind of you__ to help me.
+* intelligent / clever / sensible / wise / stupid / silly
+  * It's __wise of you__ to ask his advice. _彼に尋ねるのが賢明だ_
+  * It's __stupid of him__ to believe that. _そんなことを信じるなんてバカだ_
+* (im)polite / rude / unreasonable
 
 ### 態度 + to + 人
 
 人に対する態度は _形容詞 to <somebody>_ を使う。
 
-* He's __kind to me__.
-* Don't be __rude to your teacher__.
-* She's very __friendly to you__.
+* good / nice / kind
+  * He's __kind to me__.
+* (im)polite / rude / unreasonable
+  * Don't be __rude to your teacher__.
+* (un)friendly / (un)pleasant / generous / cruel
+  * She's very __friendly to you__.
 
 ### 感情 + about / with / at
 
 具体的な「状況や出来事」に対する感情には _about_ を使う。
 
-* He got __(angry|mad) about__ what I said.
-* I'm really __excited about__ the progress you're making.
-* We are __worried about__ the trouble.
-* She was __upset about__ not being offered the job.
-* I'm __sorry about__ the mess.
+* excited / worried / upset / nervous
+  * I'm really __excited about__ the progress you're making.
+  * We are __worried about__ the trouble.
+  * She was __upset about__ not being offered the job.
+* angry / furious / mad
+  * He got __(angry|furious|mad) about__ what I said.
 
-「喜び」「落胆」のように、自身が受け取った他人事ではない感情には _with_ を使う。
+「喜び」「落胆」のように、自身が受け取った「他人事ではない感情」には _with_ を使う。
 
-* I'm __(happy|disappointed) with__ the result.
-* I'm __pleased with__ your present.
-* Are you __satisfied with__ our service?
-* I'm __bored with__ it.
+* happy / pleased / satisfied / disappointed
+  * I'm __(happy|disappointed) with__ the result.
+  * I'm __pleased with__ your present.
+  * Are you __satisfied with__ our service?
+* bored / fed up
+  * I'm __(bored|fed up) with__ it.
 
-「驚き」のように、他人事に対する感情には _(at|by)_ を使う。
+「驚き」のように、「他人事に対する感情」には _(at|by)_ を使う。
 
-* I'm __surprised at__ the news.
-* We're __(amazed|astonished) at__ your performance.
+* surprised / shocked / amazed / astonished
+  * I'm __(surprised|shocked) at__ the news.
+  * We're __(amazed|astonished) at__ your performance.
 
 人の行動に対しては _形容詞 (at|with) <somebody> for ...ing_ が用いられる。
 
 * I'm __dissapointed with__ him __for__ saying that.
 * She's __angry with__ you __for__ being late.
 * My teacher got __mad at__ me __for__ making fun of him.
+
+### of を使うケース
+
+_of_ にはくっついているニュアンスがあり、一般的な事や継続して起こっている事にたいして、日常的にどうであるかという場合に使われているように思える。
+
+対象とふれあう時に、どういう傾向であるか？
+
+* afraid / scared / terrified / frightened
+  * I'm __afraid of__ dogs.
+* fond / proud / ashamed / jealous
+  * I'm __proud of__ you. _さすがですね_
+* suspicious / critical / tolerant
+
+対象の範疇で、どういう状態であるか？
+
+* aware / conscious / sure / certain
+  * I was __(aware|conscious) of__ it. _気づいてましたよ_
+* tired / sick
+  * I'm __tired of__ the argument.
+  * I'm __sick of__ this! _めんどくせえなぁ_
+
+対象の範疇で、どれくらいの位置づけか？
+
+* (in)capable / typical
+  * He's __capable of__ beating top-10 players.
+  * It's __typical of__ him to do such a thing. _いかにも彼らしい（彼の中では普通）_
+* full / short
+  * He's __(full|short) of__ confidence.
+
+### sorry
+
+_sorry_ は、元々は「心が痛む」という意味である。自分が原因で心が痛んで「申し訳ない」のか、相手を気遣って「気の毒に思う」のかで使いわける。
+
+* I'm __sorry about__ the mess. _状況_
+* I'm __sorry for__ being late. _してしまったこと_
+  * I'm sorry that I was late.
+* I __feel sorry for__ your father. _気の毒に思う_
 
