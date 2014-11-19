@@ -24,6 +24,10 @@ _of_ は「直属」の関係を意味する。名詞句では、子集合 / 階
 * I was in __the habit of waking up__ earlier.
 * It's __the__ most efficient __way of saving__ money.
 
+_of_ を使う場合は、「直属」の関係、すなわち同グループでなければならない。日本語の「の」から訳して、安易に _of_ でつなげると間違いやすい。
+
+* the reson <del>of</del> __for__ the delay _遅れの理由 = 遅れるはめになった出来事_
+
 ### for
 
 対策や交換には _for_ を使う。
@@ -31,7 +35,6 @@ _of_ は「直属」の関係を意味する。名詞句では、子集合 / 階
 * He gave me a __check__ for a million dollars.
 * There's no __need__ for it.
 * The __supply__ and __demand__ for gold
-* What was the __reason__ for the delay?
 
 これらの単語が、必ず _for_ を使うわけではない。抽象名詞を補足する直属の関係であれば、_of_ を使う。
 
@@ -81,15 +84,23 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 
 ### It's + 評価 + of + 人
 
-人を評価する時には _It's 形容詞 of <somebody> (to do something)_ を使う。
+人を評価する時には _It's 形容詞 of somebody (to do something)_ を使う。「なんて ... な人だ」という意味になる。
 
 * good / nice / kind
   * It was __nice of you__ to come.
-  * It was __kind of you__ to help me.
-* intelligent / clever / sensible / wise / stupid / silly
-  * It's __wise of you__ to ask his advice. _彼に尋ねるのが賢明だ_
+  * It was __kind of you__.
+* intelligent / clever / sensible / stupid / silly
+  * It was __clever of you__ to solve the problem. _その問題を解くなんて賢いんだ_
   * It's __stupid of him__ to believe that. _そんなことを信じるなんてバカだ_
 * (im)polite / rude / unreasonable
+  * It's __rude of you__ to say so.
+
+_It's ... for somebody to do something_ の場合は、「... にとって ... するのが ... である」の意味になる。そうすることへの評価であって、その人自身への評価ではない。
+
+* It's __good for you__ to read the book. _その本を読むと良い_
+  * <del>It's good of you to read the book.</del> _NG: その本を読むとはなんて良い人だ_
+* It's __good of you__ to invite me. _招待いただきありがとうございます_
+  * <del>It's good for you to invite me.</del> _NG: 私を招待すると良い_
 
 ### 態度 + to + 人
 
@@ -97,8 +108,9 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 
 * good / nice / kind
   * He's __kind to me__.
-* (im)polite / rude / unreasonable
+* (im)polite / rude
   * Don't be __rude to your teacher__.
+  * Why are you __rude to her__?
 * (un)friendly / (un)pleasant / generous / cruel
   * She's very __friendly to you__.
 
@@ -136,7 +148,7 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 
 ### of を使うケース
 
-_of_ にはくっついているニュアンスがあり、一般的な事や継続して起こっている事にたいして、日常的にどうであるかという場合に使われているように思える。
+_of_ にはくっついているニュアンスがあり、一般的な事や継続して起こっている事に対してどうであるか？という場合に使われるように思える。
 
 対象とふれあう時に、どういう傾向であるか？
 
@@ -161,6 +173,36 @@ _of_ にはくっついているニュアンスがあり、一般的な事や継
   * It's __typical of__ him to do such a thing. _いかにも彼らしい（彼の中では普通）_
 * full / short
   * He's __(full|short) of__ confidence.
+
+### 間違いやすい形容詞
+
+* (excellent / better / good / moderate / bad / poor / ...) at
+  * I'm good <del>in</del> __at__ English. _英語が得意です（成績は「良」です）_
+  * I'm fluent <del>at</del> __in__ English. _英語が流暢です_
+* similar to / different from
+  * My idea is similar __to__ yours. _比較対象に向かう_
+  * Your idea is different __from__ mine. _比較対象から離れる_
+* (married / engaged) to
+  * She's (married|engaged) <del>with</del> __to__ him. _相手先に嫁ぐ_
+  * She's married to him __with__ her children. _子連れで結婚_
+* interested in
+  * I'm interested <del>of</del> in English.
+* crowded with / full of
+  * The streets are full __of__ people.
+  * The streets are crowded <del>of</del> __with__ people.
+* dependent on / independent of
+  * He's dependent __on__ his parents.
+  * He's independent <del>on</del> __of__ his parents.
+* famous / responsible for
+  * Google is famous <del>of</del> __for__ "Easter Egg"s.
+  * I'm responsible <del>of</del> __for__ the sales department.
+
+### famous for vs. famous as
+
+_famous for ..._ は有名になる要因、_famous as ..._ は、有名である肩書きを表す。
+
+* New Orleans is famous __for__ Jazz music. _ジャズで有名 (ニューオリンズはジャズではない)_
+* He is famous __as__ a Jazz musican. _ジャズミュージシャンとして有名_
 
 ### sorry
 

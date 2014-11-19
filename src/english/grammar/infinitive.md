@@ -98,13 +98,6 @@ _形容詞 （+ 名詞） + to ..._ で「... することは ... である」�
 * It's __interesting to talk__ to you.
 * You are __interesting to talk__ to.
 
-_形容詞 of someone to ..._ で「... が ... することは ... である」の意味になる。 _for some one to ..._ の「... にとって」とは意味が異なる。
-
-* It's __nice of you__ to say so. _そう言ってくれてありがとう_
-* It's __kind of you__ to help me my homework. _宿題を手伝ってくれて、ご親切にありがとう_
-* It's __stupid of him__ to do that. _彼がそんなことするなんて馬鹿だな_
-* It's __good for you__ to know that. _それを知っておいたほうがよいよ_
-
 ### sorry to ...
 
 _I'm sorry to hear that ..._ で「... を聞いて気の毒に思う」の意味になる。
