@@ -202,7 +202,7 @@ _of_ にはくっついているニュアンスがあり、一般的な事や継
 _famous for ..._ は有名になる要因、_famous as ..._ は、有名である肩書きを表す。
 
 * New Orleans is famous __for__ Jazz music. _ジャズで有名 (ニューオリンズはジャズではない)_
-* He is famous __as__ a Jazz musican. _ジャズミュージシャンとして有名_
+* He is famous __as__ a Jazz musician. _ジャズミュージシャンとして有名_
 
 ### sorry
 
