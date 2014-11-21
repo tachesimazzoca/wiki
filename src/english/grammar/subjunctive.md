@@ -59,6 +59,14 @@ _would_ は _if_ 節では使えない。現在形（未来） / 過去形（現
 * If you <del>wouldn't</del> __didn't apologize__ to her, she would get angry.
 * If I <del>would</del> __find__ your key, I'll tell you.
 
+## unless / then
+
+_unless_ は実現不可能になる条件をおき、仮定法は使えない。後に続く _then_ 「そうでなければ ... するだろうけど」には仮定法が使える。
+
+* It's free __unless__ you use these photos for commercial purposes, __then__ you must pay some fee.
+* We doesn't send out invitations __unless__ <del>it were</del> it's a formal event. __Then__ we __would__ do it.
+  * __If__ it __were__ a formal event, we __would__ send out invitations.
+
 ## wish
 
 _wish_ は希望を伝える事が出来る。
