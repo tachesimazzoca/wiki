@@ -118,7 +118,7 @@ _not so much ...(, but ...)_ で「... というわけではありません。�
 * This class may be __the best__ (one) I've ever taken.
 * He's one of __the best__ friends of mine.
 * __The most important__ thing is to enjoy your life.
-* It happened at __the worst possible__ time.
+* It happened at __the worst possible__ time. _それは最悪のタイミングで起こった_
 
 場所や集団内の最上級には _in_ を用いる。
 
@@ -131,6 +131,12 @@ _not so much ...(, but ...)_ で「... というわけではありません。�
 * It was the most difficult decision __of my life__.
 * Yesterday was the hottest day __of the year__.
 * Who has been the best player __of the season__ so far?.
+
+いくつかある中の最上級には _of_ を用いる。
+
+* This is the best way __of all__.
+* This book is the best __of the tree__.
+* This book is the best __of them all__.
 
 ## better / worst
 
