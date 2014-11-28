@@ -152,12 +152,23 @@ _neither of_ の場合は、複数扱いでもよい。
 
 * __Neither of__ these restaurants __(is|are)__ expensive.
 
-_all / half / both_ の場合は _of_ を省略できる。ただし、後に続く名詞が _us / you / them / it_ の場合は省略できない。
+_all / half / both_ の場合は、形容詞として用いれば _of_ を省略できる。
 
 * __All__ (of) the Japanese people here can't speak English.
 * __Half__ (of) this money is yours.
 * __Both__ (of) these books are good.
-* __All of__ them must be done by tomorrow.
+
+ただし、目的格の代名詞 _us / you / them / it_ には、形容詞は使えない。代名詞として、_of_ を伴うか、副詞として用いる。
+
+* I like <del>both them</del>.
+  * I like __both of them__.
+  * I like them __both__.
+* This book is the best of <del>all them</del>.
+  * This book is the best of __all of them__.
+  * This book is the best of them __all__.
+* <del>All us</del> surprised at the news.
+  * We are __all__ surprised at the news.
+  * __All of us__ are surprised at the news.
 
 自明な場合は、_of ..._ を省略することもできる。
 

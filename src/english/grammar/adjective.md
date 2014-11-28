@@ -120,7 +120,7 @@ _not so much ...(, but ...)_ で「... というわけではありません。�
 * __The most important__ thing is to enjoy your life.
 * It happened at __the worst possible__ time. _それは最悪のタイミングで起こった_
 
-場所や集団内の最上級には _in_ を用いる。
+場所名や集団名の最上級には _in_ を用いる。
 
 * What's the longest river __in the world__?
 * I'm the eldest __in my family__.
@@ -132,11 +132,12 @@ _not so much ...(, but ...)_ で「... というわけではありません。�
 * Yesterday was the hottest day __of the year__.
 * Who has been the best player __of the season__ so far?.
 
-いくつかある中の最上級には _of_ を用いる。
+複数形の最上級には _of_ を用いる。
 
-* This is the best way __of all__.
-* This book is the best __of the tree__.
+* This is the best way __of all__. (all ways)
+* This book is the best __of the three__. (the three books)
 * This book is the best __of them all__.
+* He is the most intelligent __of those children__.
 
 ## better / worst
 
