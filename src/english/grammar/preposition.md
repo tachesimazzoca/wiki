@@ -213,3 +213,74 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
   * I'm sorry that I was late.
 * I __feel sorry for__ your father. _気の毒に思う_
 
+## 動詞
+
+動詞 + 前置詞 のように考えてはならない。前置詞を伴うのは、動詞の補足情報としての副詞句になる。
+
+### to + 到達先
+
+動作の到達先には _to_ を使う。
+
+* speak / talk
+  * I was talking __to him__.
+* listen
+  * I'm listening __to the radio__.
+* apologize
+  * She apologized __to me__.
+* explain / describe
+  * I explained the problem __to them__.
+  * Can you explain __to me__ what you mean?
+
+対象に到達する動作でなければ、_to_ は使われない。
+
+* I bought a bag <del>to her</del> __for her__.
+* Please call a taxi <del>to me</del> __for me__.
+
+### at + 狙い先
+
+ピンポイントな狙い先には _at_ を使う。
+
+* look / glance / stare
+  * Look __at me__.
+* laugh / shout
+  * They laughed __at me__.
+* aim / point / shoot / fire / throw
+  * Point your index finger __at the target__.
+
+_shout / throw_ 等は _to_ も使われるが、ニュアンスが異なる。
+
+* Somebody threw an egg __at them__. _狙いを定めて投げつける_
+* I threw my bag __to the bed__. _ベッドに放り投げる_
+
+### about + 状況
+
+状況には _about_ を使う。「...について」と訳されるため、_for_ を使ってしまいがちだが、_for_ は動作の対価を明示しているのに対して、_about_ はそういう状況下であることを補足する。
+
+* talk / read / know / tell
+  * We talked <del>for our future</del> __about our future__.
+
+_know_ の場合、自動詞と他動詞があるが、一般的な物事や状況に対して、_自動詞 + about_ を使う。人 / 物 / 具体的な事実 には他動詞を使う。
+
+* I don't know __about programming__.
+* I didn't know __about the meeting__.
+* I know that he's looking for a new job.
+* Do you know this book?
+* Do you know him? _彼の存在を知っているか？_
+* Do you know __about him__? _彼に関する事柄（出来事/性格）_
+
+### for + 対価
+
+対価には _for_ を使う。_to_ とは違い、動作の到達点ではない。その動作を行なう対価に _for_ を使う。
+
+* ask
+  * Please ask them __for more information__. _「情報」は尋ねる内容ではなく、得られる対価_
+  * Please ask them your questions. _「質問」は尋ねる内容なので目的語_
+  * Please ask them the way to do it. _「方法」は尋ねる内容なので目的語_
+* apply
+  * Why do you apply (to our company) __for this job__? _申込先に to / 申し込んで得られる仕事には for_
+* wait / search / look
+  * I'm waiting __for you__. _待つ動作に相手は不要。相手は待っている理由_
+  * I'm searching my bag __for my boading pass__. _探す対象がバッグで、得るものが切符_
+* leave
+  * She has left (home) __for the office__. _出かける（離れる）出発点に目的語を使う。「オフィス」は出かける理由_
+
