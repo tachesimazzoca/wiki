@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
 
 ## AsyncTask
 
-AsyncTask により、ワーカースレッドの処理を簡潔に記述することができる。
+AsyncTask により、別スレッドの処理を簡潔に記述することができる。
 
 `MeanTask.java`
 
@@ -159,4 +159,85 @@ protected void onPostExecute(Bitmap result) {
 ## Handler
 
 * <https://developer.android.com/training/multiple-threads/communicate-ui.html>
+
+Android では、スレッド毎に [MessageQueue](http://developer.android.com/reference/android/os/MessageQueue.html) を持ち、[Looper](http://developer.android.com/reference/android/os/Looper.html) が順番に送信されたメッセージをキューから取り出し、処理を行なっている。
+
+[Handler](http://developer.android.com/reference/android/os/Handler.html) により、このキューにメッセージを送信することができる。
+
+{% highlight java %}
+handler = new Handler() {
+    @Override
+    public void handleMessage(Message msg) {
+        switch (msg.what) {
+        case MESSAGE_PROGRESS:
+            mProgressBar.setProgress((Integer) msg.obj);
+            break;
+        default:
+            break;
+        }
+    }
+}
+
+new Thread(new Runnable() {
+    @Override
+    public void run() {
+        handler.post(new Runnable() {
+            @Override
+            public void run () {
+                mProgressBar.setVisibility(View.VISIBLE);
+            }
+        });
+
+        for (int n = 1; n <= 100; n++) {
+            Message msg = handler.obtainMessage(MESSAGE_PROGRESS, n);
+            handler.sendMessage(msg);
+        }
+    }
+}).start();
+{% endhighlight %}
+
+以下の２つのオブジェクトを送信することができる。
+
+* [Runnable](http://developer.android.com/reference/java/lang/Runnable.html)
+  * `Handler#post` により MessageQueue に、Runnable オブジェクトがプールされる。
+  * Looper は `Runnable#run` を実行する。
+* [Message](http://developer.android.com/reference/android/os/Message.html)
+  * `Handler#obtainMessage` で、Handler に関連づけられた Message オブジェクトを作成する。
+  * `Handler#sendMessage` により MessageQueue に、Message オブジェクトがプールされる。
+  * Looper は、Message に紐づけられている Handler を介して `Handler#handleMessage` を実行する。
+
+複数スレッドからのメッセージを、単一スレッド上の MessageQueue に集めて Looper で処理を行なうので、同一 Looper を使う限り、スレッドセーフである必要がなく、不要な同期処理を避けることができる。
+
+Handler は、必ず一つの Looper を持つ。コンストラクタで指定しない場合は、同一スレッドに存在する Looper が使われる。Looper が存在しない場合や、同一スレッドで複数 Looper を扱うとエラーになる。
+
+UI Thread 内では、すでに Looper は割り当てられており、UI Thread 内で Looper を指定せずに Handler を作成した場合、UI Thread 上の Looper で実行されることになる。`Runnable#run` や `Handler#handleMessage` の中で UI Thread をブロックするような長時間の処理は行なってはならない。また、MessageQueue を圧迫しないように、メッセージ送信数も最小限にすべきである。
+
+UI Thread の Looper は `Looper.getMainLooper` で得られる。以下は `Acitivity#runOnUiThread` と同じことである。
+
+{% highlight java %}
+final Handler hander = new Handler(Looper.getMainLooper());
+handler.post(new Runnable() { ... });
+{% endhighlight %}
+
+別スレッドの Handler を作成する場合は、以下のようになる。
+
+{% highlight java %}
+public class LooperThread extends Thread {
+    public Hander handler;
+    ...
+    @Override
+    public void run() {
+        Looper.prepare();
+        handler = new Handler() {
+            ...
+        }
+        Looper.loop();
+    }
+}
+
+final LooperThread looperThread = new LooperThread(...);
+looperThread.start();
+
+looperThread.handler.post(new Runnable() { ... });
+{% endhighlight %}
 
