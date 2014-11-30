@@ -280,7 +280,41 @@ _know_ の場合、自動詞と他動詞があるが、一般的な物事や状�
   * Why do you apply (to our company) __for this job__? _申込先に to / 申し込んで得られる仕事には for_
 * wait / search / look
   * I'm waiting __for you__. _待つ動作に相手は不要。相手は待っている理由_
-  * I'm searching my bag __for my boading pass__. _探す対象がバッグで、得るものが切符_
+  * I'm searching (my bag) __for my boading pass__. _探す対象がバッグで、得るものが切符_
+  * I'm looking __for a job__.
 * leave
   * She has left (home) __for the office__. _出かける（離れる）出発点に目的語を使う。「オフィス」は出かける理由_
+
+### talk about / discuss
+
+_discuss_ は他動詞で、議題が目的語になる。_talk about ..._ につられて、自動詞と勘違いしやすい。
+
+* We're gonna __talk about eduction__.
+* We're gonna <del>discuss about</del> __discuss__ education.
+* We're gonna have a discussion __about education__.
+
+### care for / care about
+
+_care for ..._ は、「世話をする」の意味になる。疑問文や否定文での「好き」の意味でも使われる。
+
+* That old man needs somebody to __care for him__. _世話する人が必要_
+* Would you __care for dessert__? _デザートはいかがですか？_
+* I don't __care for him__. _彼のことが嫌いだ（考えることすらしない）_
+* <del>I care for you.</del> _肯定文の「好き」として care for は使わない_
+
+_care about_ は、「気にする」の意味になる。_about_ の代わりに疑問詞も使える。
+
+* You should __care about your clothes__.
+* I __care about you__. _あなたのことを大切に思っています（恋愛対象以外につかえる）_
+* I don't __care (what we do|where we go|when it starts|how we get there)__.
+
+名詞の _care_ としての _take care of ..._ は「... を見守る / ... の責任を持つ」の意味になる。
+
+* Take __care (of yourself)__. _ごきげんよう / お元気で_
+* I'll take __care of the arrangements__. _手配しておきます_
+
+同義語として _look after ..._ がある。「こまめに手入れする / 丁寧に扱う」ニュアンスになる。
+
+* How do you __look after your skin__? _肌のお手入れ_
+* Please __look after it__. _大事に使ってください_
 
