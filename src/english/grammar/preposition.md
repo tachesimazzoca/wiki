@@ -204,6 +204,22 @@ _famous for ..._ は有名になる要因、_famous as ..._ は、有名であ�
 * New Orleans is famous __for__ Jazz music. _ジャズで有名 (ニューオリンズはジャズではない)_
 * He is famous __as__ a Jazz musician. _ジャズミュージシャンとして有名_
 
+### known to / for / as / by
+
+「誰かに知られている」場合は _by somebody_ ではなく _to somebody_ を使う。_by_ は知るための手段を指す。
+
+* He is known <del>by us</del> __to__ us. _私たちに知られている_
+* Lady Gaga is known __for__ her over-the-top looks. _奇抜な衣装で知られている（主格とは別：Lady Gaga != the looks）_
+* She is known __as__ Lady Gaga. _Lady Gaga の名で知られている（主格と同一：She == Lady Gaga）_
+* "Arthur Antunes Coimbra" is known __by__ his nickname, "Zico". _ニックネームを聞けばわかる（認知するための手段）_
+
+### made of / from / by / in
+
+* This shirt is made __of__ cotton. _原形が分かる材料_
+* Cheese is made __from__ milk. _変形して原形をとどめていない材料_
+* This desk is made __by__ IKEA. _製造元 / メーカー_
+* This racket is made __in__ China. _製造国_
+
 ### sorry
 
 _sorry_ は、元々は「心が痛む」という意味である。自分が原因で心が痛んで「申し訳ない」のか、相手を気遣って「気の毒に思う」のかで使いわける。
