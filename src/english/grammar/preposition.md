@@ -301,6 +301,42 @@ _know_ の場合、自動詞と他動詞があるが、一般的な物事や状�
 * leave
   * She has left (home) __for the office__. _出かける（離れる）出発点に目的語を使う。「オフィス」は出かける理由_
 
+### think of / think about
+
+_think about ..._ は、「検討する」議題や状況を指し、_think of ..._ は「頭に浮かんだ」具体的なアイデアを指す。
+
+* I thought __about__ what you suggested. _あなたに言われたことを考えた_
+* We'll think __about__ it. _検討しましょう_
+* I'm thinking __of__ how to solve this problem. _どうやって解くかアイデアを練っている_
+* Not that I can think __of__. _何も思いつかないです_
+
+_think of ..._ は、_like ..._ の意味で、意見を求めるときにも使う。_think about ..._ は意見は求めていない。
+
+* What do you think __of__ our products? _私たちの製品はいかがですか？_
+* I don't think much __of__ it. _それを評価しない / どうでもいい_
+* What do you think __about__ it? _それについて何を思うか？_
+
+使い方によっては、思っている対象になるのでどちらでもよいが、ニュアンスは異なる。
+
+* I'm thinking __of__ buying a new car. _買う気になっている（買いたい）_
+* I'm thinking __about__ buying a new car. _買う事を検討している（買うにあたって何かを考えている）_
+
+他の思考動作でも、_of_ は頭に浮かぶ物を指し、_about_ は状況を指すと考えると区別しやすい。
+
+* remind
+   * This song __remind__ me __of__ my childhood. _思い浮かぶ_
+   * I'll __remind__ you __about__ it. _忘そうな事を気付かせる_
+* hear
+   * I've never __heard of__ him. _知らない / 思い浮かばない_
+   * I've __heard__ a lot __about__ you. _お噂はかねがね聞いています（ほめる時に使う）_
+   * Did you __hear about__ him. _彼の事を聞いたか？（悪い噂で使う）_
+* complain
+   * I was __complaining of__ pain in my lower back. _腰痛に悩まされていた / つきまとっていた_
+   * He __complained__ (to me) __about__ his manager. _上司に対する不満を言った_
+* dream
+   * What do you __dream of__? _夢見ている（思い描いている）ものは何？_
+   * I __dreamed about__ you last night. _（あなたがいる状況の）夢を見た_
+
 ### talk about / discuss
 
 _discuss_ は他動詞で、議題が目的語になる。_talk about ..._ につられて、自動詞と勘違いしやすい。
