@@ -228,3 +228,22 @@ _as of ..._ で「... 以降」という意味になる。日付やバージョ�
 
 * This class is no longer supported __as of__ version 0.9.3.
 
+### on time / late vs. in time / too late
+
+_on time / late_ は、単に時間帯を指す。
+
+* on time _予定した時間通りに_
+  * The meeting starts __on time__.
+* late _遅い時間に_
+  * I got home __late__. _遅い時間に帰宅した_
+
+_in time / too late_ は、間に合ったか（その時間内か）どうかを表現し、時間帯を指していない。
+
+* in time _余裕を持って_
+  * Will we be __in time__ for the train?
+  * I want to be home __in time__ to cook dinner.
+* just in time _なんとか間に合って_
+  * I got to the station __just in time__ for the train.
+* too late _遅れて_
+  * I got home __too late__ to cook dinner. _...するには、遅れて帰宅した_
+
