@@ -190,11 +190,13 @@ _It's because ... that ..._ の強調構文で用いることもできる。
 * __Since__ I wasn't familiar with the area, I had no idea where the shop was.
 * __Since__ I didn't have much time, I had lunch at McDonald's.
 * __As__ I was on vacation, I didn't have a chance to reply earlier.
+* __As__ she was sick, she was absent. _知っての通り病気だったから、欠席したよ_
 
 理由を尋ねられた時や強調構文では使えない。代わりに _because_ を用いる。
 
 * _"Why didn't you attend the meeting?"_ I missed it <del>since</del> __because__ I was caught in a traffic jam.
 * __It's__ <del>since</del> __because__ we are late __that__ our reservation has been cancelled.
+* _"Why was she absent?"_  She was absent <del>as she was sick</del> __because__ (she was sick|of sickness).
 
 ### 条件
 
@@ -327,17 +329,18 @@ _as_ は「... と同じように」という同等性を表すことができ�
 * I left it __as__ it was.
 * You should have done it __(as|like)__ I showed you.
 
-_as usual / as always_ のような慣用句がある。
-
-* He's late __as usual__.
-* My schedule is the same __as always__.
-* __As always__, she is so beautiful.
-
-文頭に置いて補足する表現が多く用いられる。この場合は _Like ...,_ は使わない。
+文頭に置く表現では _Like ..._ は使わない。
 
 * __As__ I have mentioned before, the conference starts at 14:00 tomorrow.
 * __As__ you can see, the following example lists directory contents.
 * __As__ you know, it's Alice's birthday today.
+
+_as usual / as always_ のような慣用句がある。
+
+* He's late __as usual__. _相変わらず_
+* My schedule is the same __as always__. _相変わらず_
+* __As always__, she is so beautiful.
+* Just __as__ I (expected|thought). _やっぱりね / 思った通り_
 
 前置詞としての _as_ は「... として」の意味になる。
 
