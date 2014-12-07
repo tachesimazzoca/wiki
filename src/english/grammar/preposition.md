@@ -67,6 +67,20 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 * his attitude __toward__ me
 * affection __toward__ others
 
+### in
+
+変化を表す _increase / decrease / rise / drop_ には、_in_ が使われる。
+
+* increase in (the number of) crime
+* dencrease in (the number of) population
+* rise in price
+* drop in sales
+
+_of_ の場合は、変化自体を指しているのではなく、変化した対象を指している。
+
+* The increase in crime _犯罪の増加_
+* The increase of crime _増加する犯罪_
+
 ### with / between
 
 関係や相互の繋がりには _with_ を使う。
