@@ -108,7 +108,7 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 * He's __in school__.
   * He's a student.
 
-### to
+### to / into / out of
 
 _to_ で行き先を示すことができる。
 
@@ -122,6 +122,13 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 * I usually go __to work__ by bus.
 * What time do you get __to work__? _何時から仕事を始めていますか？_
 * He didn't go __to school__ yesterday.
+
+_to_ は到達先で、_into_ は侵入先になる。_out of_ は退出元を示す。
+
+* I went __to__ a shop.
+* I got __into__ a car.
+* I got __out__ of the car.
+* I went __into__ the shop.
 
 ## Adverb
 
