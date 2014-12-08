@@ -26,7 +26,7 @@ _of_ は「直属」の関係を意味する。名詞句では、子集合 / 階
 
 _of_ を使う場合は、「直属」の関係、すなわち同グループでなければならない。日本語の「の」から訳して、安易に _of_ でつなげると間違いやすい。
 
-* the reson <del>of</del> __for__ the delay _遅れの理由 = 遅れるはめになった出来事_
+* the reason <del>of</del> __for__ the delay _遅れの理由 = 遅れるはめになった出来事_
 
 ### for
 
@@ -72,7 +72,7 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 変化を表す _increase / decrease / rise / drop_ には、_in_ が使われる。
 
 * increase in (the number of) crime
-* dencrease in (the number of) population
+* decrease in (the number of) population
 * rise in price
 * drop in sales
 
@@ -314,8 +314,33 @@ _know_ の場合、自動詞と他動詞があるが、一般的な物事や状�
   * I'm looking __for a job__.
 * leave
   * She has left (home) __for the office__. _出かける（離れる）出発点に目的語を使う。「オフィス」は出かける理由_
+* pay
+  * I don't have enough money to pay __for it__.
 
-### think of / think about
+### for + 原因
+
+原因に _for_ を使う。動作の対象ではなく、それが原因で感情や動作が起こる。
+
+* I'm sorry __for being late__.
+* Thank you __for having us over__.
+* I apologize __for your inconvenience__.
+
+_blame_ を例にすると、原因となる罪に _for_ を用いる。
+
+* Who is to blame __for__ it? _誰のせいだ？_
+* He was to blame __for__ the robbery. _強盗犯は彼のせいだ_
+* Everybody blamed him __for__ the robbery. _彼が強盗犯だと責めた_
+* Everybody blamed the robbery __on__ him. _みんなが強盗を彼のせいにした_
+
+### for + 目的
+
+目的に _for_ を使うが、名詞のみに限る。目的はこれから行なうことなので動名詞は使えない。
+
+* Why don't we go out <del>for having lunch</del> __for lunch__?
+* She went out __for a walk__.
+* She went out to buy some milk.
+
+### 思考 + of / about
 
 _think about ..._ は、「検討する」議題や状況を指し、_think of ..._ は「頭に浮かんだ」具体的なアイデアを指す。
 
@@ -383,4 +408,22 @@ _care about_ は、「気にする」の意味になる。_about_ の代わり�
 
 * How do you __look after your skin__? _肌のお手入れ_
 * Please __look after it__. _大事に使ってください_
+
+### protect / prevent
+
+起点には _from_ を使うが、外敵を表現する場合に使われる。
+
+* The people got sick __from__ food poisoning.
+* I suffer __from__ bad headaches.
+
+_protect_ は守る対象が目的語になるが、_prevent_ は防ぐ対象、すなわち外敵が目的語になる。
+
+* protect 守る対象 (from|against) 外敵
+  * Sunglasses __protects__ your eyes __from__ the sun.
+  * Sunglasses __protects__ your eyes __against__ the sun.
+* prevent 防ぐ対象 from ...ing
+  * Sunglasses __prevents__ the sun __from__ damaging your eyes.
+  * We __prevented__ the damage __from__ spreading. _被害の拡大を防いだ_
+* prevent（外敵 against 外敵の対象）
+  * The law has prevented __violence against children__. _幼児への虐待を防いできた_
 
