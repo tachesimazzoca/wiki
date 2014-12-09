@@ -8,12 +8,9 @@ title: Quantifier
 
 数量詞 _Quantifier_ は、物の数量を表す。
 
-* all / half / both
-* twice
 * most / some / any / no
-* each / every
-* either / neither
-* much or many / little or few
+* few / little
+* much / many / lot of
 * several / enough
 * other / additional
 * first / second / next / last / ...
@@ -63,24 +60,6 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * __No one__ said "Yes".
   * <del>No one didn't say "No".</del> __Anyone__ didn't say "Yes".
 
-## each / every
-
-_each / every_ は集合の個々の要素を指し、単数扱いになる。_each_ は個々の状態にフォーカスが当たり、_every_ は _all_「全て」の意味に近い。
-
-* __Each__ side of a square is the same length.
-* He asked __each participant__ to fill out a survey.
-* I've read __every__ book.
-* __Every__ sheet was taken.
-
-2名以下の場合は、_every_ は使えない。
-
-* In Wimbledon men's singles, <del>every</del> __each__ player is allowed to take a bathroom break after a set.
-
-_each_ は単体で名詞として使える。_every_ は形容詞の意味しかもたないため、_every one_ とする。
-
-* There are 5 rooms. __Each (one)__ (of the rooms) has a different color.
-* I checked out __every one__ of their profiles.
-
 ## ...body / ...one
 
 人を表す _everyone / everybody / someone / somebody / anyone / anybody / no one / nobody_ は単数扱いになる。男女の区別はつかないので、所有形容詞には _they / them / their_ を用いる。
@@ -90,54 +69,9 @@ _each_ は単体で名詞として使える。_every_ は形容詞の意味し�
 * Nobody __knows__ where __they__ are.
 * Everybody __knows__ where __they__ go.
 
-## both / either / neither
-
-_both / neither / either_ は二つの事柄について指す。_neither / either_ は単数扱いになる。自明の名詞は省略できる。
-
-* There're 2 restaurants. Which restaurant shall we go?
-  * __Both (restaurants)__ are very good.
-  * __Neither (restaurant)__ is expensive.
-  * We can go to __either (restaurant)__.
-
-_and / nor / or_ で二つの事柄を明示できる。
-
-* I asked __both__ Alice __and__ Bob which was better.
-* __Neither__ Alice __nor__ Bob came to the party.
-* You can ask __either__ Alice __or__ Bob.
-
-これらは名詞以外の句でも使える。
-
-* She is both __beautiful__ and __intelligent__.
-* I neither __moved__ nor __touched__ it.
-* Either __you come here__ or __I go there__.
-
-## other / another
-
-_other_ は「他の」物を指す。単数の場合は _another (an other)_ を用いる。
-
-* Do you have any __other__ questions?
-* I want to learn __another__ language.
-
-_other_ は代名詞としても使える。
-
-* another (an other): 未知集合の他の一つ
-  * I dropped my fork. Could you bring me another?
-* others: 未知集合の他の二つ以上（未知なので、全ての残りはわからない）
-  * I don't know. Please ask others.
-* the other: 既知集合の他の一つ
-  * I have two iPhone. One is white. The other is black.
-* the others: 既知集合の他の全て（既知なので、全ての残りを知っている）
-  * There are 5 rooms. These 2 rooms are mine and the others are yours.
-
-_other than ..._ で「... 以外の」の意味になる。代名詞ではなく前置詞的な使い方なので、名詞の後に続く。
-
-* Do you have any ideas __other than__ that?
-* There is no one __other than__ him.
-* I'm available anytime __other than__ Friday.
-
 ## of を伴うケース
 
-指示または所有 _the / this / that / these / those / my / ..._ で限定されている場合は、_of_ をつける。そうでない場合はつけない。
+指示または所有 _the / this / that / these / those / my / ..._ で限定されている場合は、代名詞扱いで _of_ をつける。
 
 * __Most__ people speak English.
 * __Some__ people don't speak English.
@@ -148,30 +82,40 @@ _none of_ の場合は、単数扱いでもよい。
 
 * __None of__ the stores __(were|was)__ open.
 
-_neither of_ の場合は、複数扱いでもよい。
+## 不可算名詞の数量
 
-* __Neither of__ these restaurants __(is|are)__ expensive.
+「素材」の不可算名詞は _a piece of ..._ のように、切り分ければ数えることができる。
 
-_all / half / both_ の場合は、形容詞として用いれば _of_ を省略できる。
+* I would like __a cup of coffee__.
+* __Two glasses of wine__, please.
+* Do you have __a sheet of paper__?
+* I bought __a loaf of bread__.
+* Would you like __a piece of cake__?
 
-* __All__ (of) the Japanese people here can't speak English.
-* __Half__ (of) this money is yours.
-* __Both__ (of) these books are good.
+「ちょっと / たくさん」を表す場合、可算名詞には _few / many_ を使い、不可算名詞には _little / much_ を使う。
 
-ただし、目的格の代名詞 _us / you / them / it_ には、形容詞は使えない。代名詞として、_of_ を伴うか、副詞として用いる。
+* I have __few__ friends. _少ししかいない（後ろ向き）_
+* I have __a few__ friends. _数名いる（前向き）_
+* I have __many__ friends. _たくさんいる_
+* I have __little__ money. _少ししか持っていない（後ろ向き）_
+* I have __a little__ money. _少しなら持っている（前向き）_
+* I have __much__ money. _たくさん持っている_
 
-* I like <del>both them</del>.
-  * I like __both of them__.
-  * I like them __both__.
-* This book is the best of <del>all them</del>.
-  * This book is the best of __all of them__.
-  * This book is the best of them __all__.
-* <del>All us</del> surprised at the news.
-  * We are __all__ surprised at the news.
-  * __All of us__ are surprised at the news.
+_a lot of / lots of / plenty of_ は、可算名詞 / 不可算名詞のどちらでも使えるが、ややカジュアルな印象になる。_lot_ 「ロット」は生産単位で、_a lot of_ は、それなりに「たくさん」を表す。_lots of_ なら複数ロットなので「かなりたくさん」になる。
 
-自明な場合は、_of ..._ を省略することもできる。
+* I have __many__ books.
+* I have __a lot of__ books.
+* I have __lots of__ books.
+* I don't have __much__ money. _否定文ではあまり使われない_
+* He has __(much|lots of)__ confidence.
+* We have __plenty of__ time. _plenty は「十分な」量_
 
-* __Half of it__ is mine, and __half__ _(of it)_ is yours.
-* Do all American husbands help around the house? Not all of them. __Some__ do, __some__ don’t.
+_some / any_ はどちらでも使える。
+
+* Do you have __any__ questions?
+* Do you have __some__ friends?
+* I have __some__ problems.
+* Do you have __any__ time?
+* May I have __some__ coffee?
+* I have __some__ advice.
 

@@ -32,48 +32,31 @@ index: true
 
 限定詞は以下の３つのグループに分けられる。
 
-* 割合 / 強調
-  * Distributives: 配分
-    * all / half / both
-  * 強調
-    * what / such / quite
-* 限定
-  * Articles: 冠詞
-    * a / the
-  * Quantifiers: 不定数量
-    * most / some / any / no
-  * Demonstratives: 指示
-    * this / that / these / those
-  * Possesives: 所有
-    * my / your / his / her / our / their / its
-  * Interrogatives: 疑問
-    * which / whose
-  * Distributives: 配分
-    * either / neither / every / each
-* 形容
-  * Difference: 差分
-    * other
-  * Quantifiers: 不定数量
-    * a few / a litte / many / much / a lot of
-    * enough / several
-  * Orders: 順番
-    * first / second / next / last
-  * Numbers: 数量
-    * one / two / three / ...
+* Distributives: 配分
+  * all / half / both
+  * either / neither / every / each
+* Pre-Determiner
+  * what / such / quite
+* Articles: 冠詞
+  * a / the
+* Demonstratives: 指示
+  * this / that / these / those
+* Possessives: 所有
+  * my / your / his / her / our / their / its
+* Interrogatives: 疑問
+  * which / whose
+* Difference: 差分
+  * other / additional
+* Quantifiers: 不定数量
+  * most / some / any / no
+  * a few / a litte / many / much / a lot of
+  * enough / several
+* Numbers: 数量
+  * one / two / three / ...
 
-限定詞は、この３グループの順序でならべる。
-
-* all the people
-* such a thing
-* these many books
-* the other books
-
-当然ながら、限定が矛盾するものは同時にはつかえない。併用しても矛盾しない _each / every_ や、数詞は同時に使える。
+当然ながら、限定が矛盾するものは同時にはつかえない。
 
 * <del>all half books</del> _all books? half books?_
-* __my each__ book
-* __his every__ word
-* the __last two__ days
 
 間違いやすい例として「私の本の中のいくつか」という場合、 _some my books_ という言い方はできない。「いくつかの本」「私の本」という二つの集合が混在してしまう。_of_ で階層を明示して、部分集合を表す。
 
@@ -83,9 +66,9 @@ index: true
 * <del>most these books</del> most __of these books__
 * He asked me <del>which my book</del> __which book of mine__ is the most suitable for beginners.
 
-## 所有形容詞
+## 所有詞
 
-所有形容詞 _Possessive Adjective_ で「（誰）の ...」という所有を表す。
+所有詞で「（誰）の ...」という所有を表す。
 
 * my / your / his / her
 * our / your / their

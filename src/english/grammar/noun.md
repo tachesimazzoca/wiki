@@ -8,7 +8,7 @@ title: Noun
 
 名詞には、可算名詞 _Countable Noun_ と不可算名詞 _Uncountable Noun_ がある。
 
-具象化する事ができない抽象名や分類名は、不可算名詞になる。「素材」「概念」「性質」等が該当する。
+物質名 / 集合名 / 抽象名は、不可算名詞になる。 不可算名詞は複数形を持たない。
 
 * water / sugar / electricity / gas
 * money / paper / toothpaste
@@ -19,11 +19,9 @@ title: Noun
 * news / information / advice
 * happiness / ability / confidence
 
-不可算名詞は数える事ができないため、複数形を持たない。
+具象化することができる場合は可算名詞になる。
 
-具象化することができる場合は可算名詞になる。形や範囲があり、複数のインスタンスを作る事ができる。
-
-* apple / banana / sandwitch / cookie / battery
+* apple / banana / sandwich / cookie / battery
 * coin / book / toothbrush
 * table / bag / computer
 * pancake / burger / salad
@@ -35,47 +33,10 @@ title: Noun
 
 * I love __books__. _本という集合_
 
-必ずしも、どちらか一方に属するわけでない。特定できるものを差しているのか、一般的なことを差しているのかで使い分ける。
+必ずしも、どちらか一方に属するわけでない。具体的な物なのか、一般名なのかで使い分ける。
 
 * I have some __experiences__ on vacation. _談話として特定できる経験_
 * They offered him because he had a lot of __experience__. _熟練している（経験を詰んでいる）_
-
-## 不可算名詞の数量
-
-「素材」の不可算名詞は _a piece of ..._ のように、切り分ければ数えることができる。
-
-* I would like __a cup of coffee__.
-* __Two glasses of wine__, please.
-* Do you have __a sheet of paper__?
-* I bought __a loaf of bread__.
-* Would you like __a piece of cake__?
-
-「ちょっと / たくさん」を表す場合、可算名詞には _few / many_ を使い、不可算名詞には _little / much_ を使う。
-
-* I have __few__ friends. _少ししかいない（後ろ向き）_
-* I have __a few__ friends. _数名いる（前向き）_
-* I have __many__ friends. _たくさんいる_
-* I have __little__ money. _少ししか持っていない（後ろ向き）_
-* I have __a little__ money. _少しなら持っている（前向き）_
-* I have __much__ money. _たくさん持っている_
-
-_a lot of / lots of / plenty of_ は、可算名詞 / 不可算名詞のどちらでも使えるが、ややカジュアルな印象になる。_lot_ 「ロット」は生産単位で、_a lot of_ は、それなりに「たくさん」を表す。_lots of_ なら複数ロットなので「かなりたくさん」になる。
-
-* I have __many__ books.
-* I have __a lot of__ books.
-* I have __lots of__ books.
-* I don't have __much__ money. _否定文ではあまり使われない_
-* He has __(much|lots of)__ confidence.
-* We have __plenty of__ time. _plenty は「十分な」量_
-
-_some / any_ はどちらでも使える。
-
-* Do you have __any__ questions?
-* Do you have __some__ friends?
-* I have __some__ problems.
-* Do you have __any__ time?
-* May I have __some__ coffee?
-* I have __some__ advice.
 
 ## 可算名詞の複数形
 
