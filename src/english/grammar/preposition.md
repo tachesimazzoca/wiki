@@ -340,6 +340,25 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 * She went out __for a walk__.
 * She went out to buy some milk.
 
+### on + 依存
+
+* It depends __on__ yourself.
+* You can rely __on__ him.
+* He lives __on__ his salary of $25,000 a year.
+
+### of + 構成
+
+* A baseball team is made up __of__ 9 players. _口語的_
+* This lesson consists __of__ 8 video presentations. _文語的_
+* Water is composed __of__ 2 atoms of Hydrogen and 1 atom of oxygen. _学術的_
+
+### of + 起因
+
+* She accused me __of__ being rude.
+* He suspect me __of__ telling a lie.
+* We approved __of__ the plan.
+* He died __of__ a cancer.
+
 ### 思考 + of / about
 
 _think about ..._ は、「検討する」議題や状況を指し、_think of ..._ は「頭に浮かんだ」具体的なアイデアを指す。
@@ -363,7 +382,7 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 他の思考動作でも、_of_ は頭に浮かぶ物を指し、_about_ は状況を指すと考えると区別しやすい。
 
 * remind
-   * This song __remind__ me __of__ my childhood. _思い浮かぶ_
+   * This song __reminds__ me __of__ my childhood. _思い浮かぶ_
    * I'll __remind__ you __about__ it. _忘そうな事を気付かせる_
 * hear
    * I've never __heard of__ him. _知らない / 思い浮かばない_
@@ -411,7 +430,7 @@ _care about_ は、「気にする」の意味になる。_about_ の代わり�
 
 ### protect / prevent
 
-起点には _from_ を使うが、外敵を表現する場合に使われる。
+外敵を表現する場合に _from_ が使われる。
 
 * The people got sick __from__ food poisoning.
 * I suffer __from__ bad headaches.
