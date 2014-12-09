@@ -10,8 +10,8 @@ title: Material Design
 
 v7 Support Libraries r21 を使うことで、Android 5.0 以前の端末にも、Material Design を適用することができる。
 
-* `Theme.AppCompat(.NoActionBar)` : 黒地に白文字
-* `Theme.AppCompat.Light(.NoActionBar)` : 白地に黒文字
+* `Theme.AppCompat` : 黒地に白文字
+* `Theme.AppCompat.Light` : 白地に黒文字
 
 のいずれかをベースに、スタイルを定義していく。
 
@@ -29,7 +29,7 @@ v7 Support Libraries r21 を使うことで、Android 5.0 以前の端末にも�
 {% endhighlight %}
 
 * `colorPrimary`: Action Bar の背景色
-* `colorPrimaryDark`: Status Bar の背景色(Android 5.0 以降のみ)
+* `colorPrimaryDark`: Status Bar の背景色（Android 5.0 以降のみ）
 * `colorAccent`: チェックボックス等のアクセント色
 
 ### Use Toolbar as an Action Bar
@@ -91,7 +91,7 @@ Toolbar のテーマを継承して `android:background` を指定してしま�
 
 {% highlight xml %}
 <!-- NG: This overrides android:background of app:popupTheme. -->
-<style name="AppTheme.Toolbar" parent="Theme.AppCompat.Dark.ActionBar">
+<style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
     <item name="android:background">?attr/colorPrimary</item>
     ...
 </style>
@@ -104,7 +104,7 @@ Toolbar のテーマ内ではなく、View の `android:background` で指定す
 <android.support.v7.widget.Toolbar
         ...
         android:background="?attr/colorPrimary"
-        android:theme="Theme.AppCompat.Dark.ActionBar"
+        android:theme="ThemeOverlay.AppCompat.Dark.ActionBar"
         ... />
 {% endhighlight %}
 

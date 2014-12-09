@@ -29,7 +29,7 @@ NotificationCompat.Builder builder = new NotificationCompat.Builder(
 
 通知をタップした際のアクションは `NotificationCompat.Builder#setContentIntent(PendingIntent)` で設定する。
 
-単にアクティビティを起動すると、Launcher から起動して、順に履歴に積んでいく場合とは異なり、遷移が不自然になってしまう。親アクティビティからの遷移が必要な場合は、新規に [TaskStackBuilder](http://developer.android.com/reference/android/app/TaskStackBuilder.html) を使って履歴を組み直すようにする。
+Launcher から起動して、順に履歴に積んでいく場合とは異なり、Notification Bar から子アクティビティを起動すると、遷移が不自然になってしまう。親アクティビティからの遷移が必要な場合は、新規に [TaskStackBuilder](http://developer.android.com/reference/android/app/TaskStackBuilder.html) を使って履歴を組み直すようにする。
 
 {% highlight java %}
 Context context = getApplicadtionContext();
@@ -57,7 +57,7 @@ stackBuilder.setParentStack(SubActivity.class);
 stackBuilder.addNextIntent(new Intent(context, SubActivity.class)));
 {% endhighlight %}
 
-対象アクティビティが単独で成立するのであれば、Intent のフラグを指定するだけでもよい。履歴上にアクティビティが存在しない場合のみ、新規に起動させることが出来る。
+対象アクティビティが単独で成立するのであれば、Intent のフラグを指定するだけでもよい。
 
 {% highlight java %}
 Intent intent = new Intent(this, MainActivity.class);
