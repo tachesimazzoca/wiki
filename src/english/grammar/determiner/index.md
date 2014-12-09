@@ -8,18 +8,9 @@ index: true
 
 ## 使い方
 
-英語では、名詞が特定の物を指すのか、一般的な事柄を指すのかを区別する。限定詞 _Determiner_ を用いて、物を特定することができる。
+英語では、名詞が実在する物を指す具象名詞 _Concrete Noun_ なのか、一般的な事柄を指す抽象名詞 _Abstract Noun_ を区別する。限定詞 _Determiner_ を用いて、物を限定することができる。
 
-* 指示詞 _Demonstrative_
-  * 冠詞 _Article_: a / the
-  * 指示形容詞 _Demonstrative Adjective_: this / that / these / those
-  * 所有形容詞 _Possessive Adjective_: my / your / his / her / our / their
-  * 疑問形容詞 _Interrogative Adjective_: which / what
-* 数量詞 _Quantifier_
-  * 不定数量詞: all / most / some / no / every / each / many / both / either / ...
-  * 数詞: one / two / first / second
-
-特定の物には、限定詞をつける。一般的な物には、限定詞はつけない。
+具象名詞には、限定詞をつける。抽象名詞には、限定詞はつけない。
 
 * I bought __a book__. _「とある本」（本という集合の一つ）_
 * I love __books__. _本という集合（可算名詞の複数形で一般名を表す）_
@@ -41,23 +32,34 @@ index: true
 
 限定詞は以下の３つのグループに分けられる。
 
-* 前限定詞 _Pre Determiner_
-  * all / half / both
-  * twice
-  * what / such
-* 中央限定詞 _Central Determiner_
-  * a / the
-  * this / that / these / those
-  * most / some / any / no
-  * each / every
-  * either / neither
-  * which
-* 後限定詞 _Post Determiner_
-  * much or many / little or few
-  * several / enough
-  * other / additional
-  * first / second / next / last / ...
-  * one / two / three / ...
+* 割合 / 強調
+  * Distributives: 配分
+    * all / half / both
+  * 強調
+    * what / such / quite
+* 限定
+  * Articles: 冠詞
+    * a / the
+  * Quantifiers: 不定数量
+    * most / some / any / no
+  * Demonstratives: 指示
+    * this / that / these / those
+  * Possesives: 所有
+    * my / your / his / her / our / their / its
+  * Interrogatives: 疑問
+    * which / whose
+  * Distributives: 配分
+    * either / neither / every / each
+* 形容
+  * Difference: 差分
+    * other
+  * Quantifiers: 不定数量
+    * a few / a litte / many / much / a lot of
+    * enough / several
+  * Orders: 順番
+    * first / second / next / last
+  * Numbers: 数量
+    * one / two / three / ...
 
 限定詞は、この３グループの順序でならべる。
 
@@ -66,12 +68,9 @@ index: true
 * these many books
 * the other books
 
-原則として、各グループ内で重複すると限定が矛盾するため、同時にはつかえない。
+当然ながら、限定が矛盾するものは同時にはつかえない。併用しても矛盾しない _each / every_ や、数詞は同時に使える。
 
 * <del>all half books</del> _all books? half books?_
-
-例外もあり、_each / every_ や、数詞は同時に使える。
-
 * __my each__ book
 * __his every__ word
 * the __last two__ days
