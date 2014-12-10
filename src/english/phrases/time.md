@@ -247,9 +247,13 @@ _in time / too late_ は、間に合ったか（その時間内か）どうか�
 * too late _遅れて_
   * I got home __too late__ to cook dinner. _...するには、遅れて帰宅した_
 
-### at once
+### at once / at a time
 
 _once_ は「一度」だが、_at once_ は、「まとめて一気に」すなわち「直ちに」の意味になる。
 
 * Come __at once__. _すぐに来てくれ_
+
+_at a time_ は「一度に / 同時に」の意味になる。
+
+* Don't try to do two things __at a time__. _同時に二つの事をしようとするな_
 
