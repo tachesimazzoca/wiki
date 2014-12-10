@@ -340,11 +340,16 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 * She went out __for a walk__.
 * She went out to buy some milk.
 
-### on + 依存
+### on + 特定条件
 
 * It depends __on__ yourself.
 * You can rely __on__ him.
 * He lives __on__ his salary of $25,000 a year.
+* I spend a lot of money __on__ books.
+* You should concentrate __on__ one thing at a time.
+* He insisted __on__ his innocence.
+* We congratulated him __on__ passing the examinations.
+* My boss complimented me __on__ my work.
 
 ### of + 構成
 
