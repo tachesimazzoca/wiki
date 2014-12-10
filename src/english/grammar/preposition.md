@@ -400,6 +400,26 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
    * What do you __dream of__? _夢見ている（思い描いている）ものは何？_
    * I __dreamed about__ you last night. _（あなたがいる状況の）夢を見た_
 
+### with + 道具
+
+道具に _with_ を使う。
+
+* The window was broken __with__ a hammer.
+* My car collided __with__ a car.
+* We provided them __with__ some food and water.
+* Fill the bottle __with__ water.
+* Replace TAB __with__ 4 spaces.
+* Rename the class "FooService" __with__ "BarService".
+
+### into + 変形
+
+変形に _into_ を使う。
+
+* Would you translate this document __into__ English?
+* This video is divided __into__ 5 sections.
+* Somebody broke __into__ our house last night.
+* The car crashed __into__ a wall.
+
 ### talk about / discuss
 
 _discuss_ は他動詞で、議題が目的語になる。_talk about ..._ につられて、自動詞と勘違いしやすい。
