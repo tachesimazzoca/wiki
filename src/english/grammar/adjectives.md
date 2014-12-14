@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Adjective
+title: Adjectives
 ---
 
 ## 使い方

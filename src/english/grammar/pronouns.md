@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Pronoun
+title: Pronouns
 ---
 
 ## 再帰代名詞

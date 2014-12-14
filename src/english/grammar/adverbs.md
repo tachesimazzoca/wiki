@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Adverb
+title: Adverbs
 ---
 
 ## 副詞の位置
