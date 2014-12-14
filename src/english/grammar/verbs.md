@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Verb
+title: Verbs
 ---
 
 ## 動詞型
@@ -59,6 +59,29 @@ title: Verb
 * This video __made__ me _laugh_.
 * We __should keep__ our room _clean_.
 * _What_ do you __want__ it _to say_?
+
+## 行為動詞と連結動詞
+
+連結動詞 _Linking Verb_ は、第二文型 S + V + C あるいは、_be + 前置詞 + 場所_ で、主格を修飾する。
+
+* be / become
+  * He __is__ my son. _(He = my son)_
+  * Alice __became__ a teacher. _(Alice = a teacher)_
+  * I __am__ at the station. _(I = at the station)_
+* seem / appear / sound / feel / look / smell / taste
+  * This soup __tastes__ good. _(The soup = good)_
+  * That __sounds__ nice. _(That = good)_
+  * She __looks__ sad. _(She = sad)_
+
+それ以外は、主格が動作を行なう行為動詞 _Action Verb_ になる。目に見えない動作も行為動詞に含まれる。
+
+* I __went__ to the post office.
+* I always __think__ about my family.
+
+状態動詞 _Stative Verb_ の区分もあるが、表現上で区別する意味はあまりはない。連結動詞で主格を客観的に評価するのか、行為動詞で主格を能動的に動くのかを意識すればよい。
+
+* I __am__ good at project management. _評価のみを伝えるだけ_
+* I __have managed__ many projects over the last 10 years. _より能動的に行動してきた印象を与える_
 
 ## 自動詞と他動詞
 
