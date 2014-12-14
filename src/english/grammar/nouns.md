@@ -1,8 +1,38 @@
 ---
 layout: page
 
-title: Noun
+title: Nouns
 ---
+
+## 普通名詞と固有名詞
+
+普通名詞 _Common Noun_ は以下に分けられる。
+
+* 人物 _Person_
+  * mother / son / teacher / doctor / manager
+* 場所 _Place_
+  * house / station / hotel / park / stadium
+* 物 _Thing_
+  * apple / book / car / desk / eraser
+* 生物 _Living Creature_
+  * monkey / dog / cat / bird / fish
+* 思想 _Idea_
+  * belief / chance / emotion / love / truth
+
+固有名詞 _Proper Noun_ は、これら区別するために固有の名前が付けられた名詞になる。各単語の先頭文字は大文字としなければならない。
+
+* Albert Einstein
+* Central Park
+* Pringles
+* Siberian Huskey
+* English
+
+タイトル名は、先頭以外の 冠詞 / 等位接続詞 / 前置詞 を除き、大文字とする。
+
+* Alice in Wonderland
+* Beaty and the Beast
+* All of Me
+* In a Sentimental Mood
 
 ## 可算名詞と不可算名詞
 
@@ -38,20 +68,6 @@ title: Noun
 * I have some __experiences__ on vacation. _談話として特定できる経験_
 * They offered him because he had a lot of __experience__. _熟練している（経験を詰んでいる）_
 
-## 可算名詞の複数形
-
-無冠詞の可算名詞の複数形は、「... というもの」という集合名を表す。この場合は、数える（区別する）事はできない。
-
-* I love __chairs__. _椅子（というもの）が好き_
-* Those are __nice chairs__. _「素敵な椅子」に分類される_
-* <del>Those are some nice chairs.</del> _「素敵な椅子」という分類なので数えられない_
-* He has <del>the</del> __blue eyes__. _青い目（に分類される目）をしている_
-
-修飾された名詞が数えられないのではなく、区別された物を差しているのであれば数えられる。
-
-* There are __some__ nice __chairs__. _いくつかの素敵な椅子がある_
-* I bought __two__ good __books__. _二册の良い本を買った_
-
 ## 集合名詞
 
 _family / audience / company / team / staff / crew_ は集合名詞と呼ばれ、ひとつのチームを指す場合には単数扱いになり、個々の人員を指す時は複数形を用いる。
@@ -68,6 +84,20 @@ _people / police_ は複数扱いになる。複数形は持たず、単数形�
 * I'm __a police officer__. _個々は police officer / policeman / policewoman_
 
 _people_ は _person_ の複数形ではない。_person_ の複数形は _persons_ だが、人々を表す集合名詞 _people_ を用いるということになる。
+
+## 可算名詞の複数形
+
+無冠詞の可算名詞の複数形は、「... というもの」という集合名を表す。この場合は、数える（区別する）事はできない。
+
+* I love __chairs__. _椅子（というもの）が好き_
+* Those are __nice chairs__. _「素敵な椅子」に分類される_
+* <del>Those are some nice chairs.</del> _「素敵な椅子」という分類なので数えられない_
+* He has <del>the</del> __blue eyes__. _青い目（に分類される目）をしている_
+
+修飾された名詞が数えられないのではなく、区別された物を差しているのであれば数えられる。
+
+* There are __some__ nice __chairs__. _いくつかの素敵な椅子がある_
+* I bought __two__ good __books__. _二册の良い本を買った_
 
 ## 単位
 
