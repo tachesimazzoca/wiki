@@ -329,8 +329,8 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 
 * Who is to blame __for__ it? _誰のせいだ？_
 * He was to blame __for__ the robbery. _強盗犯は彼のせいだ_
-* Everybody blamed him __for__ the robbery. _彼が強盗犯だと責めた_
-* Everybody blamed the robbery __on__ him. _みんなが強盗を彼のせいにした_
+* Everybody blamed him __for__ the robbery. _みんなが彼を強盗犯とみなした_
+  * Everybody blamed the robbery __on__ him.
 
 ### for + 目的
 
@@ -353,9 +353,9 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 
 ### of + 構成
 
-* A baseball team is made up __of__ 9 players. _口語的_
-* This lesson consists __of__ 8 video presentations. _文語的_
-* Water is composed __of__ 2 atoms of Hydrogen and 1 atom of oxygen. _学術的_
+* A baseball team __is made up of__ 9 players. _チーム / 仲間 などの力が結集する構成_
+* This lesson __consists of__ 8 video presentations. _セクション / メニュー などの文書構成_
+* Water __is composed of__ 2 atoms of Hydrogen and 1 atom of oxygen. _化学物質などの物質構成_
 
 ### of + 起因
 
