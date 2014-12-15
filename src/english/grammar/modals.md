@@ -158,7 +158,7 @@ _would (like|love|hate|prefer) to have + 過去分詞_ は、実際には起き�
 * I __would like to have come__ to the party. _行きたかった_
 * I __would hate to have been__ in your position. _私があなたの立場だったら嫌だろう_
 
-## might / may
+## might
 
 _might_ は「たぶん ... する（である）」という可能性を伝える。
 
@@ -171,13 +171,7 @@ _might_ は「たぶん ... する（である）」という可能性を伝え�
 * It __might__ not be true.
 * He __might__ not want to come to the party.
 
-_might_ のかわりに _may_ も使えるが、実際に起こらない例えで使うときには _might_ しか使えない。
-
-* It __may__ be true.
-* You __may__ know about it.
-* If I were Scottish, I <del>may</del> __might__ vote "YES" to independence.
-
-過去形は、_(might|may) have + 過去分詞_ を使う。
+過去形は、_might have + 過去分詞_ を使う。
 
 * A: "I've lost my key." B: "You __might have__ left it in your car."
 * He didn't come to the meeting. He __might have__ forgotten the schedule.
@@ -200,13 +194,23 @@ _might as well ..._ で「... する他によい選択肢がない」という�
   * Alice: "I guess we __might as well__ do that."
 * A: "Can you repair my computer?" B: "There are no parts to fix it. You __might as well__ buy a new one."
 
-疑問形 _May I ...?_ で以下の表現が使える。
+## may
 
-* 提案する「... しましょうか？」
-  * __May I__ help you?
-* 許可を得る「... してよろしいですか？」
-  * __May I__ have your name?
-  * __May I__ come in?
+_may_ には許可「... してもよい」の意味がある。
 
-許可の _May I_ は、目上の人（お客 / 親 / 先生）に対し使う。そうでなければ _(Can|Could) I_ を使う。
+* You __may__ go now. _（検査等で）これで終わりです = 行ってよい_
+* __May I__ come in?
+* __May I__ have your name?
+* __May I__ have some coffee, please?
+
+_May I_ は、目上の人（お客 / 親 / 先生）に対し使う。そうでなければ _(Can|Could) I_ を使う。
+
+* "May I help you?" "Someone is already helping me." _なにかお探しですか？_
+* Can I give you a hand? _手伝おうか？_
+
+_might_ の「たぶん」としても使えるが、実際に起こらない例えで使うときには _might_ しか使えない。
+
+* It __may__ be true.
+* You __may__ know about it.
+* If I were Scottish, I <del>may</del> __might__ vote "YES" to independence.
 
