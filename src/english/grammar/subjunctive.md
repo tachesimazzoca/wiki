@@ -152,3 +152,42 @@ _It's important that ..._ のように評価を伝える場合に、仮定法現
 * __It's important__ that you _(should)_ __not be__ late for work.
 * __It's essential__ that everyone _(should)_ __get__ to work by 8:00 tomorrow.
 
+## prefer / would rather
+
+_prefer (to ...|...ing)_ で「（一般的に）... するほうを好む」の意味になる。
+
+* I __prefer to use__ IDE for Java programming.
+* I __prefer using__ IDE for Java programming.
+
+_prefer A to B_ の場合は「B よりも A を好む」になる。この場合の _to_ は前置詞であって不定詞ではない点に注意する。
+
+* I __prefer__ "IntelliJ IDEA" __to__ "Eclipse".
+* I __prefer__ driving __to__ traveling by train.
+
+不定詞を使う場合は、_prefer to ... rather than ..._ になる。
+
+* I __prefer__ to use "IntelliJ IDEA" __rather than__ "Eclipse".
+* I __prefer__ to write tests __rather than__ print debug message.
+
+_would prefer_ は「（一時的に / その状況では）... するほうを好む」の意味になる。「これからすること」なので動名詞は使えない。
+
+* __Would__ you __prefer__ tea or coffee?
+* Should we wait for the next bus? I__'d prefer__ <del>going</del> to go on foot.
+* It's too cold. I__'d prefer__ <del>staying</del> to stay home tonight __rather than__ go out.
+
+_would prefer to ... rather than ..._ は _would rather ... than ..._ に省略できる。
+
+* I__'d rather__ stay home tonight __than__ go out.
+* I__'d rather not__ go out.
+* Should we go on foot? I__'d rather not__.
+
+_would rather someone + 仮定法過去_ で「どちらかといえば ... に ... してほしい」という仮定法がつかえる。
+
+* We __would rather__ she <del>come</del> __came__ with us. _一緒に行けるとうれしい_
+* I __would rather__ you <del>don't</del> __didn't__ tell anyone what I said.
+
+「誰かにしてほしい」ときは仮定法を用いるが、「自分がしたい」場合は原形を用いる。
+
+* I'd rather __stay__ home. _私は家にいるほうがよい_
+* I'd rather you __stayed__ home. _あなたが家にいてもらうとうれしい_
+

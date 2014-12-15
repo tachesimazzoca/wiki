@@ -58,27 +58,28 @@ title: Verbs
 * You __can call__ me _Alice_.
 * This video __made__ me _laugh_.
 * We __should keep__ our room _clean_.
-* _What_ do you __want__ it _to say_?
+* I __want__ you _to come_ to the party.
 
-## 行為動詞と連結動詞
+## 連結動詞
 
 連結動詞 _Linking Verb_ は、第二文型 S + V + C あるいは、_be + 前置詞 + 場所_ で、主格を修飾する。
 
-* be / become
+連結動詞の見分け方は、主格と補語が同じであるかで判断すればよい。以下の４つのパターンのいずれかになる。
+
+* be / become + 名詞
   * He __is__ my son. _(He = my son)_
   * Alice __became__ a teacher. _(Alice = a teacher)_
-  * I __am__ at the station. _(I = at the station)_
-* seem / appear / sound / feel / look / smell / taste
+* be + 人称代名詞（主格）
+  * The women who taught me Japanese is <del>her</del> __she__. (The women = she)
+  * It is <del>her</del> __she__ who taught me Japanese.
+* be / become / seem / appear / sound / feel / look / smell / taste + 形容詞
   * This soup __tastes__ good. _(The soup = good)_
   * That __sounds__ nice. _(That = good)_
   * She __looks__ sad. _(She = sad)_
+* be + 場所
+  * I __am__ at the station. _(I = at the station)_
 
-それ以外は、主格が動作を行なう行為動詞 _Action Verb_ になる。目に見えない動作も行為動詞に含まれる。
-
-* I __went__ to the post office.
-* I always __think__ about my family.
-
-状態動詞 _Stative Verb_ の区分もあるが、表現上で区別する意味はあまりはない。連結動詞で主格を客観的に評価するのか、行為動詞で主格を能動的に動くのかを意識すればよい。
+連結動詞で主格の評価を伝えるのか、主格自体の動作を伝えるのかを意識すればよい。
 
 * I __am__ good at project management. _評価のみを伝えるだけ_
 * I __have managed__ many projects over the last 10 years. _より能動的に行動してきた印象を与える_
@@ -125,7 +126,7 @@ _I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立�
 
 ## let / make / have
 
-「... に ... させる」_let / make / have_ は、原形不定詞をとる。
+「... に ... させる」_let / make / have_ は使役動詞と呼ばれ、原形不定詞をとる。
 
 * __let__ _... することを許す_
   * __Let__ me __know__ when you find out. _分かったら教えてください_
@@ -171,43 +172,4 @@ _see_ の他に、知覚する動詞で同様にこの形式が使える。
 
 * I __heard__ him __talking__ to you. _あなたと話しているのが聞こえた_
 * I __heard that__ he __talked__ to you. _あなたと話したということを聞いた（自分は聞いていない）_
-
-## prefer / would rather
-
-_prefer (to ...|...ing)_ で「（一般的に）... するほうを好む」の意味になる。
-
-* I __prefer to use__ IDE for Java programming.
-* I __prefer using__ IDE for Java programming.
-
-_prefer A to B_ の場合は「B よりも A を好む」になる。この場合の _to_ は前置詞であって不定詞ではない点に注意する。
-
-* I __prefer__ "IntelliJ IDEA" __to__ "Eclipse".
-* I __prefer__ driving __to__ traveling by train.
-
-不定詞を使う場合は、_prefer to ... rather than ..._ になる。
-
-* I __prefer__ to use "IntelliJ IDEA" __rather than__ "Eclipse".
-* I __prefer__ to write tests __rather than__ print debug message.
-
-_would prefer_ は「（一時的に / その状況では）... するほうを好む」の意味になる。「これからすること」なので動名詞は使えない。
-
-* __Would__ you __prefer__ tea or coffee?
-* Should we wait for the next bus? I__'d prefer__ <del>going</del> to go on foot.
-* It's too cold. I__'d prefer__ <del>staying</del> to stay home tonight __rather than__ go out.
-
-_would prefer to ... rather than ..._ は _would rather ... than ..._ に省略できる。
-
-* I__'d rather__ stay home tonight __than__ go out.
-* I__'d rather not__ go out.
-* Should we go on foot? I__'d rather not__.
-
-_would rather someone + 仮定法過去_ で「どちらかといえば ... に ... してほしい」という仮定法がつかえる。
-
-* We __would rather__ she <del>come</del> __came__ with us. _一緒に行けるとうれしい_
-* I __would rather__ you <del>don't</del> __didn't__ tell anyone what I said.
-
-「誰かにしてほしい」ときは仮定法を用いるが、「自分がしたい」場合は原形を用いる。
-
-* I'd rather __stay__ home. _私は家にいるほうがよい_
-* I'd rather you __stayed__ home. _あなたが家にいてもらうとうれしい_
 
