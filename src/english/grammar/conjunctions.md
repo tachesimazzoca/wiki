@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Conjunction
+title: Conjunctions
 ---
 
 ## 等位接続詞
