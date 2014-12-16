@@ -6,7 +6,7 @@ title: Conjunction
 
 ## 等位接続詞
 
-等位接続詞 _Coordinating conjunction_ は、対等関係にある二つの 語 / 句 / 節 をつなげる。文頭に置く事はできない。
+等位接続詞 _Coordinating Conjunction_ は、対等関係にある二つの 語 / 句 / 節 をつなげる。文頭に置く事はできない。
 
 ### and
 
@@ -96,7 +96,7 @@ _A, so B_ は、原因と結果の因果関係をつなぐ。
 
 ## 従位接続詞
 
-従位接続詞 _Subordinating conjunction_ は、主従関係にある二つの 語 / 句 / 節 をつなげる。
+従位接続詞 _Subordinating Conjunction_ は、主従関係にある二つの 語 / 句 / 節 をつなげる。
 
 ### 時間
 
