@@ -6,7 +6,7 @@ title: Conjunction
 
 ## 等位接続詞
 
-等位接続詞は、対等関係にある二つの 語 / 句 / 節 をつなげる。文頭に置く事はできない。
+等位接続詞 _Coordinating conjunction_ は、対等関係にある二つの 語 / 句 / 節 をつなげる。文頭に置く事はできない。
 
 ### and
 
@@ -31,6 +31,18 @@ _not A but B_ は「_A_ ではなく _B_」の意味になる。
 
 * She is__n't__ Alice __but__ Carol.
 * I did__n't__ go there __but__ he did.
+
+_but_ は対比する対象が、相反していなければならない。
+
+* <del>I'm good at math but physics.</del>
+  * I'm __not__ good at physics __but__ math.
+  * I'm good at math __but not__ physics.
+
+_(nothing|anything) but ..._ の表現で例外を強調する使い方がある。
+
+* There is __nothing but__ music. _音楽しかない_
+* You are __nothing but__ a friend. _ただの友達_
+* I don't want __anything but__ to be with you.
 
 _yet_ は _but_ と同じ意味になるが、意外性がある場合に使う。
 
@@ -83,6 +95,8 @@ _A, so B_ は、原因と結果の因果関係をつなぐ。
 * __not only__ _A_ __but (also)__ _B_ （_A_ だけでなく _B_ も）
 
 ## 従位接続詞
+
+従位接続詞 _Subordinating conjunction_ は、主従関係にある二つの 語 / 句 / 節 をつなげる。
 
 ### 時間
 
