@@ -39,14 +39,12 @@ _Fortunately, ..._ のように、文全体を修飾する時は先頭に置く�
 
 ## 形容詞 + ly
 
-多くの形容詞は _...ly_ をつけると副詞になる。
+多くの形容詞は _...ly_ をつけると副詞にはなるが、そうでないものもあるので、そのルールで覚えてはならない。_hard / hardly_ のように形容詞と副詞で意味が異なる場合もある。
 
 * bad / badly
 * careful / carefully
 * incredible / incredibly
 * quiet / quietly
-
-いくつか例外があり、形容詞と副詞で意味が異なる場合もある。
 
 ### well
 
