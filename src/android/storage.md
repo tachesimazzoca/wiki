@@ -63,16 +63,6 @@ Internal Storage とは異なり、アプリケーション外から全てのフ
 
 このため、漏洩 / 改変されると問題のあるデータ（ポイント/認証トークン/パスワード等）を保存してはならない。セキュリティ的には問題がないデータであっても、改変されてはならないアプリケーション固有のデータは Internal Storage を使う。
 
-### External Storage State
-
-External Storage はリムーバブルである場合、マウントされていなければ利用可能できない。
-
-[Environment#getExternalStorageState](http://developer.android.com/reference/android/os/Environment.html#getExternalStorageState\(\)) でマウント状態を取得できる。利用端末により状態は異なるため、External Storage を利用する前には、必ずチェックする。
-
-`ACTION_MEDIA_(MOUNTED|REMOVED)` の Broadcast が送信されるので、レシーバを登録しておくこともできる。
-
-* <http://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()>
-
 ### Public Directory
 
 [Environment.getExternalStoragePublicDirectory](http://developer.android.com/reference/android/os/Environment.html#getExternalStoragePublicDirectory\(java.lang.String\)) により、ファイル種別毎の共有ディレクトリを取得できる。
@@ -97,4 +87,37 @@ Android 4.4 (API19) 以降では、自身のパッケージのディレクトリ
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
                      android:maxSdkVersion="18" />
 {% endhighlight %}
+
+API19 以降の端末のみで動作確認すると、パーミッションの追加を忘れてしまいがちなので注意する。
+
+### Error Handling
+
+External Storage がリムーバブルである場合、マウントされていなければ利用可能できない。
+
+* [Context#getExternalFilesDir](http://developer.android.com/reference/android/content/Context.html#getExternalFilesDir\(java.lang.String\)) は、アクセスできない場合には `null` が返る。
+* [Environment#getExternalStorageState](http://developer.android.com/reference/android/os/Environment.html#getExternalStorageState\(\)) でマウント状態を取得できる。
+
+`ACTION_MEDIA_(MOUNTED|REMOVED)` の Broadcast が送信されるので、レシーバを登録しておくこともできる。
+
+* <http://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()>
+
+## Multi User
+
+Android 4.2 よりマルチユーザに対応している。Internal Storage および、端末内部の External Storage には、ユーザID毎のディレクトリが作成され、利用ユーザごとのアプリケーションデータが作成されることになる。
+
+* Internal Storage: `/data/user/(ユーザID)`
+* External Storage: `/storage/emulated/(ユーザID)`
+
+External Storage がリムーバブルの場合には、マルチユーザとはならない。
+
+アプリケーション側では、シングル/マルチユーザの違いは意識せず API を介してディレクトリを取得すればよい。ディレクトリ名は端末により異なるので、直接ファイルパスを指定してはならない。
+
+エミュレータではシングルユーザに制限されている。Android 4.2(API17) 系のエミュレータであれば、`adb shell` を介して `fw.max_users` で最大ユーザ数を指定することで、マルチユーザを利用することができる。
+
+    $ adb shell
+    root@generic:/ # pm get-max-users
+    Maximum supported users: 1
+    root@generic:/ # setprop fw.max_users 8
+    root@generic:/ # pm get-max-users
+    Maximum supported users: 8
 
