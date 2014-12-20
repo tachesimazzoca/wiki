@@ -6,20 +6,31 @@ title: Conjunctions
 
 ## 等位接続詞
 
-等位接続詞 _Coordinating Conjunction_ は、対等関係にある二つの 語 / 句 / 節 をつなげる。文頭に置く事はできない。
+等位接続詞 _Coordinating Conjunction_ は、二つの 語 / 句 / 節 をつなげて、二つの関係がどのようなものかを伝える。
+
+_for / and / nor / but / or / yet / so_ が該当し、先頭文字をつなげて _FANBOYS_ と覚える方法がある。
+
+当然ながら、意味に合わせて二つの単位は揃えなければならない。前置詞句で間違いやすいので注意する。
+
+* Are you going __home__ or <del>the shop</del>__to the shop__?
+* with my __mother and father__ _「父母」という複合語_
+* by __train and bus__ _「電車とバス」を使う方法_
+* __by train__ and __by bus__ _「電車を使う方法」と「バスを使う方法」_
 
 ### and
 
-_and_ は項目を追加する。
+_and_ は追加 _Addition_ を表す。
 
 * _Alice_ __and__ _Bob_ work at the same company.
-* It is easy to access both _by train_ __and__ _by bus_. <del>... by train and bus.</del>
+* It is easy to access both _by train_ __and__ _by bus_. <del>both by train and bus.</del>
 
 ３つ以上になる時は、カンマで区切り最後に _and_ を置く。
 
 * The RGB color model is an additive color model in which __red, green, and blue__ light.
 
 ### but / yet
+
+_but_ は対比 _Contrast_ を表す。
 
 _A but B_ は「_A_ であるが _B_」の意味になる。
 
@@ -53,7 +64,9 @@ _yet_ は _another_ 等を修飾して「さらに」の意味もあるので接
 
 ### or / nor
 
-_or_ は選択肢をつなげる。
+_or_ は、選択肢 _Option_ を表す。
+
+_A or B_ は「A または B」の意味になり、いずれか一つを指す。
 
 * Would you like _tea_ __or__ _coffee_?
 * You can go there _by train_ __or__ _by bus_. <del>... by train or bus.</del>
@@ -62,7 +75,7 @@ _or_ は選択肢をつなげる。
 _nor_ は否定文で選択肢をさらに否定する。節の場合は倒置（疑問形に）する。
 
 * We __never__ add _milk_ __nor__ _sugar_ to Japanese green tea.
-* I cound__n't__ go there _by train_ __nor__ _by bus_.
+* I could__n't__ go there _by train_ __nor__ _by bus_.
 * I have __never__ eaten sashimi, __nor__ do I want to eat.
 
 否定文は _nor_ でなければならないわけではない。_or_ も使える。
@@ -86,13 +99,41 @@ _A, so B_ は、原因と結果の因果関係をつなぐ。
 
 * Carl Hewitt introduced the Actor Model in 1973, __and therefore__ the concept has been around quite a long time.
 
-### 相関接続詞
+## 相関接続詞
 
-* _A_ __as well as__ _B_ （_B_ である上に _A_）
-* __both__ _A_ __and__ _B_ （_A_ と _B_ の両方）
-* __either__ _A_ __or__ _B_ （_A_ か _B_ のいずれか）
-* __neither__ _A_ __nor__ _B_ （_A_ と _B_ どちらも ... ない）
-* __not only__ _A_ __but (also)__ _B_ （_A_ だけでなく _B_ も）
+相関接続詞 _Correlative Conjunction_ は、二つの相関関係を表す。等位接続詞は二つ以上になることがあるが、相関接続詞は必ず二つになる。
+
+### ... as well as ...  / not only ... but also ...
+
+_A as well as B_ は「B だけでなく A」の意味になる。B を起点にして A を強調する。
+
+* He speaks German as well as English.
+
+_not only A but also B_ は「A だけでなく B も」の意味になる。A を起点にして B を強調する。
+
+### both ... and ...
+
+_both A and B_ は「A と B の両方」の意味になる。
+
+### either ... or ... / whether ... or ...
+
+_either A or B_ は「A か B のいずれか」の意味になる。
+
+* __Either__ Alice __or__ Tom will attend the meeting.
+
+_whether A or B_ は「A であるか B であるか」の意味になる。_either_ は「どちらか一方」を指すが、_whether_ は「... かどうか」という接続詞で「どちらかわからない」疑問のニュアンスが含まれる。
+
+* I can't decide __whether__ to go to college __or__ to get a job.
+* You have to decide __either__ to go to college __or__ to get a job.
+
+_whether_ は接続詞として単体で用いられる。以下は相関接続詞ではない。
+
+* URIs are also classified according to __whether__ they are _[opaque or hierarchical]_.
+* I don't know __(whether|if)__ she attends the meeting.
+
+### neither ... nor ...
+
+_neither A nor B_ で「A か B どちらもない」の意味になる。
 
 ## 従位接続詞
 
@@ -404,4 +445,39 @@ _as if / as though_ は「まるで ... のように」の意味になる。推�
 
 * He __looks__ as if he __had been__ sick. _まるで（以前に）病気だったように見える_
 * He __looked__ as if he __had been__ sick. _まるで（以前に）病気だったように見えた_
+
+## whether / if
+
+_whether ...(or not) / whether or not ..._ は「... かどうか」の意味になる。名詞節になるので未来の時制が使えるが、形式主語で副詞節を導くような場合は使えない。
+
+* The method "String#matches" tells __whether or not__ the string matches the given regular expression.
+* I'm not sure __whether__ I'll be able to hand in my assignment by this week.
+* It doesn't matter __whether__ we <del>will</del> go shopping or not.
+
+_if_ にも同様の意味があり、以下のような疑念や関心事のニュアンスで好まれる。
+
+* 疑念
+  * I'm not sure __if__ that makes sense.
+  * I don't know __if__ I can drive.
+  * I doubt __if__ ...
+  * This function tests __if__ the connection is active.
+* 関心事
+  * He asked __if__ ...
+  * I don't care __if__ ...
+
+ただし _if_ は、以下の場合には使えない。
+
+* 前置詞の後に来る場合
+   * We talked _about_ <del>if</del> __whether__ TDD is dead.
+   * I'm not interested _in_ <del>if</del> __whether__ you like them.
+* 不定詞を続ける場合
+  * I don't know <del>if</del> __whether__ _to buy_ this one or that one.
+* 主語/形式主語や主格補語になる場合
+  * <del>If</del> __Whether__ _you'll find a way_ depends on your effort.
+
+_if_ には「もし ... なら」の条件の意味もあるので、「... かどうか」の意味では _whether_ を使う。
+
+* Let me know __if__ you have any trouble. _問題が起こったなら（問題があるかどうかではない）_
+* Let me know __whether__ you're coming. _来る予定かどうか_
+   * <del>Let me know __if__ you're coming.</del> _来る時に？来るかどうか？_
 
