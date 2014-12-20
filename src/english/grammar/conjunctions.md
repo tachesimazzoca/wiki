@@ -12,7 +12,7 @@ _for / and / nor / but / or / yet / so_ が該当し、先頭文字をつなげ�
 
 当然ながら、意味に合わせて二つの単位は揃えなければならない。前置詞句で間違いやすいので注意する。
 
-* Are you going __home__ or <del>the shop</del>__to the shop__?
+* Are you going __home__ or <del>the shop</del> __to the shop__?
 * with my __mother and father__ _「父母」という複合語_
 * by __train and bus__ _「電車とバス」を使う方法_
 * __by train__ and __by bus__ _「電車を使う方法」と「バスを使う方法」_
@@ -126,7 +126,7 @@ _whether A or B_ は「A であるか B であるか」の意味になる。_eit
 * I can't decide __whether__ to go to college __or__ to get a job.
 * You have to decide __either__ to go to college __or__ to get a job.
 
-_whether_ は接続詞として単体で用いられる。以下は相関接続詞ではない。
+_whether_ は名詞節を導く接続詞として単体で用いられる。以下は相関接続詞ではない。
 
 * URIs are also classified according to __whether__ they are _[opaque or hierarchical]_.
 * I don't know __(whether|if)__ she attends the meeting.
