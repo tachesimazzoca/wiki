@@ -4,7 +4,7 @@ layout: page
 title: Time
 ---
 
-## Preposition
+## Prepositions
 
 ### at
 
@@ -75,6 +75,35 @@ _since_ で開始時間を伝えることができる。
 * I've been waiting __since 13:00__.
 * I haven't met him __since last year__.
 * I've known him __since we were in high school__.
+
+### by / by the end of
+
+* Please complete your payment __by tomorrow__. _明日までに_
+* Please be sure to pay that __by the end of this month__. _今月末までに_
+
+_by_ と _by the end of_ との違いに注意する。
+
+* by today _今日中に_
+* by tomorrow _明日（の朝）までに_
+* by the end of tomorrow _明日中に_
+* by next month _来月までに_
+* by the end of next month _来月末までに_
+
+_by today_ は「今日中に」となるが、今日はすでに始まっているので、副詞の _today_ も当日が範囲になる。「今日は」の意味と混同しないようにする。
+
+* Shall we go shopping today?
+
+### during
+
+### until / til
+
+### up to
+
+* up to now / so far
+* keep up to date _最新に保つ_
+* up-to-date information _最新情報_
+
+### within
 
 ## When vs. How long
 
@@ -188,23 +217,6 @@ _at the end of ..._ で「... 末に」「... の後で」という表現が使�
 * at the beginning of the month 月初に
 
 _at the end of the day_ は「いろいろと考慮した結果」という意味もある。
-
-「... 末までに」という場合は _by_ を使う。
-
-* Please complete your payment __by the end of next month__.
-* Please be sure to pay that __by the end of this month__.
-
-_by_ と _by the end of_ との違いに注意する。
-
-* by today _今日中に_
-* by tomorrow _明日（の朝）までに_
-* by the end of tomorrow _明日中に_
-* by next month _来月までに_
-* by the end of next month _来月末までに_
-
-_by today_ は「今日中に」となるが、今日はすでに始まっているので、副詞の _today_ も当日が範囲になる。「今日は」の意味と混同しないようにする。
-
-* Shall we go shopping today?
 
 ### at the time of ... ing
 

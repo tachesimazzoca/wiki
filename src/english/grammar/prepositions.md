@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Preposition
+title: Prepositions
 ---
 
 ## 名詞句
@@ -43,7 +43,7 @@ _of_ を使う場合は、「直属」の関係、すなわち同グループで
 * There's __a need for__ food. _食料が必要 = 食料に対する要求_
 * I'm in __need of__ help. _助けが必要 = 助ける必要性_
 
-### to / toward
+### to
 
 答えや反応には _to_ を使う。対象と到着点で結びついているイメージになる。
 
@@ -61,11 +61,6 @@ _of_ を使う場合は、「直属」の関係、すなわち同グループで
 * an answer __for__ the fact _事実についての弁明_
 * a solution __to__ the disease _病気を治癒する方法_
 * a (remedy|treatment) __for__ the disease _病気への処方箋_
-
-_toward_ は、そちらに向いている _in a direction of_ だけで、結びつきはない。
-
-* his attitude __toward__ me
-* affection __toward__ others
 
 ### in
 

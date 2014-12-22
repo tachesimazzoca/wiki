@@ -4,7 +4,7 @@ layout: page
 title: Location
 ---
 
-## Preposition
+## Prepositions
 
 ### at
 
@@ -52,23 +52,6 @@ _on_ は、上に乗っている（面にくっついている）状態を伝え
 * Who is that man __on the bicycle__?
   * Who is that man __in the car__?
 
-_on the way to ..._ で、「... への道すがら」という表現が使える。
-
-* I met him __on the way to__ school.
-* I met her __on the way__ home.
-
-通信経路は _on_ になる。
-
-* Have you seen the news __on TV__?
-* We were talking to each other __on the phone__.
-* You can find more information __on the internet__.
-
-「...において」という役割/条件下にあるという意味でも使われる。
-
-* I'm going __on vacation__ next month.
-* __What__ kind of team are you on? I'm __on a basketball team__.
-* The application crashes __on clicking__ the "Reload" button. (... __when__ I'm clicking ...)
-
 ### in
 
 _in_ は空間内にあることを伝える。
@@ -108,29 +91,64 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 * He's __in school__.
   * He's a student.
 
-### to / into / out of
+### beyond
 
-_to_ で行き先を示すことができる。
+* beyond the sky _はるか空の向こうに_
+* beyond the time _時を超えて_
 
-* I'm driving __to the airport__.
-* I've been __to Japan__.
-* I'd like you to come __to my house__.
+### near
 
-_to bed / work / school ..._ は「寝る」「仕事先に向かう」「学びに行く」という意味合いのため、冠詞はつけない。
+「... の近くに」地理的に近い
 
-* What time do you go __to bed__?
-* I usually go __to work__ by bus.
-* What time do you get __to work__? _何時から仕事を始めていますか？_
-* He didn't go __to school__ yesterday.
+### by / close to / next to / beside
 
-_to_ は到達先で、_into_ は侵入先になる。_out of_ は退出元を示す。
+「... のそばに」寄り添っているくらい近い
 
-* I went __to__ a shop.
-* I got __into__ a car.
-* I got __out__ of the car.
-* I went __into__ the shop.
+### inside / outside
 
-## Adverb
+「... の内側/外側に」
+
+### in front of / behind
+
+「... の前/後ろに」
+
+### across from
+
+「... の対面に」
+
+### opposite
+
+「... の反対側に」
+
+「競演」の意味もある
+
+* She appears opposite Johnny Depp in the movie.
+
+### between
+
+* between A and B _A と B の間に_
+
+### in the middle of
+
+「... の真ん中に」
+
+### over / under
+
+「... の上/下に」机/木/空/衣服などの物体に対しての位置
+
+### above / below
+
+「... の上/下に」壁/文章/高度など境界線に対しての位置
+
+### ahead of
+
+### all over
+
+* all over the world
+
+### away from
+
+## Adverbs
 
 副詞は「...へ」「...で」「...に」と修飾する。前置詞をともなう _to / at / in + ..._ と混同しないように注意する。
 
@@ -150,58 +168,6 @@ _from / to_ に対しては、疑問代名詞として使う。_to_ は、疑問
 
 * Where are you __from__? I'm from Japan.
 * Where did you go __(to)__?.
-
-## Phrases
-
-### Relative Position
-
-#### near ...
-
-「... の近くに」地理的に近い
-
-#### (by|next to|beside) ...
-
-「... のそばに」寄り添っているくらい近い
-
-#### (inside|outside) ...
-
-「... の内側/外側に」
-
-#### in (front|back) of ...
-
-「... の前/後ろに」
-
-#### (infront|behind) ...
-
-「... の前/後ろに」
-
-#### accross from ...
-
-「... の対面に」
-
-#### opposite ...
-
-「... の反対側に」
-
-「競演」の意味もある
-
-* She appears opposite Johnny Depp in the movie.
-
-#### between ... and ...
-
-「... と ... の間に」
-
-#### in the middle (of ...)
-
-「（... の）真ん中に」
-
-#### (over|under) ...
-
-「... の上/下に」机/木/空/衣服などの物体に対しての位置
-
-#### (above|below) ...
-
-「... の上/下に」壁/文章/高度など境界線に対しての位置
 
 ### home
 
