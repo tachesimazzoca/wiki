@@ -253,6 +253,12 @@ _It's because ... that ..._ の強調構文で用いることもできる。
 * __It's__ <del>since</del> __because__ we are late __that__ our reservation has been cancelled.
 * _"Why was she absent?"_  She was absent <del>as she was sick</del> __because__ (she was sick|of sickness).
 
+#### now that
+
+_Now that A, B_ で「今となっては A であるので、B」の意味になる。
+
+* __Now that__ computers have become more powerful, some programmers are not likely to think about the running cost.
+
 ### 条件
 
 #### if
@@ -329,7 +335,7 @@ _so A that B_ で「_B_ であるほど _A_ である」と _that_ 節に結果�
 * He is __such__ a nice guy __that__ I'm sure he will be a great help.
 * I was __such__ a good book __that__ I finished reading it in a day.
 
-#### so that
+#### so that / in order that
 
 _A so that B_ は「_B:目的_ であるように _A_」や「_A_ ならば _B:結果_」のように訳すことができる。
 
@@ -338,6 +344,10 @@ _A so that B_ は「_B:目的_ であるように _A_」や「_A_ ならば _B:�
 * It's not clear what you're reporting. Can you take a screenshot __so that__ I can figure out your problem?
 
 「_B_ が成り立つほどに _A_」という依存関係があることは変わらない。
+
+よりフォーマルな表現であれば _in order that ..._ を使う。
+
+* __In order that__ we can identify your session, a cookie is stored on your computer.
 
 ### 譲歩
 
