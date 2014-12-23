@@ -103,13 +103,15 @@ _A, so B_ は、原因と結果の因果関係をつなぐ。
 
 相関接続詞 _Correlative Conjunction_ は、二つの相関関係を表す。等位接続詞は二つ以上になることがあるが、相関接続詞は必ず二つになる。
 
-### ... as well as ...  / not only ... but also ...
+### not only ... but also ... / ... as well as ...
+
+_not only A but also B_ は「A だけでなく B も」の意味になる。A を起点にして B を強調する。
+
+* He speaks not only English but also German.
 
 _A as well as B_ は「B だけでなく A」の意味になる。B を起点にして A を強調する。
 
 * He speaks German as well as English.
-
-_not only A but also B_ は「A だけでなく B も」の意味になる。A を起点にして B を強調する。
 
 ### both ... and ...
 
