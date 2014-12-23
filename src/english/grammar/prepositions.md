@@ -213,7 +213,7 @@ _famous for ..._ は有名になる要因、_famous as ..._ は、有名であ�
 * New Orleans is famous __for__ Jazz music. _ジャズで有名 (ニューオリンズはジャズではない)_
 * He is famous __as__ a Jazz musician. _ジャズミュージシャンとして有名_
 
-### known to / for / as / by
+### known + to / for / as / by
 
 「誰かに知られている」場合は _by somebody_ ではなく _to somebody_ を使う。_by_ は知るための手段を指す。
 
@@ -222,7 +222,7 @@ _famous for ..._ は有名になる要因、_famous as ..._ は、有名であ�
 * She is known __as__ Lady Gaga. _Lady Gaga の名で知られている（主格と同一：She == Lady Gaga）_
 * "Arthur Antunes Coimbra" is known __by__ his nickname, "Zico". _ニックネームを聞けばわかる（認知するための手段）_
 
-### made of / from / by / in
+### made + of / from / by / in
 
 * This shirt is made __of__ cotton. _原形が分かる材料_
 * Cheese is made __from__ milk. _変形して原形をとどめていない材料_
@@ -382,7 +382,7 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 他の思考動作でも、_of_ は頭に浮かぶ物を指し、_about_ は状況を指すと考えると区別しやすい。
 
 * remind
-   * This song __reminds__ me __of__ my childhood. _思い浮かぶ_
+   * This song __reminds__ me __of__ my childhood. _思い出させるシーン_
    * I'll __remind__ you __about__ it. _忘そうな事を気付かせる_
 * hear
    * I've never __heard of__ him. _知らない / 思い浮かばない_
@@ -447,6 +447,12 @@ _care about_ は、「気にする」の意味になる。_about_ の代わり�
 
 * How do you __look after your skin__? _肌のお手入れ_
 * Please __look after it__. _大事に使ってください_
+
+### hear + about / of / from
+
+* I heard about what happend at the party last night. _話を聞いた_
+* I've never heard of him. _彼の事を知らない_
+* I haven't heard from her since last week. _彼女から連絡がない_
 
 ### protect / prevent
 
