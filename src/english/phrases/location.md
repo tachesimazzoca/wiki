@@ -122,9 +122,19 @@ _by_ は _near_ よりも、寄り添っているくらい近い。
 
 ### above / below
 
-「... の上/下に」壁/文章/高度など基準や境界線に対しての位置
+「... の上/下に」壁/文章/高度など基準や境界線に対しての位置を表す。明確な基準線がない場合は、あまり使われない。
+
+* (Above|Below) the Line.
+* The cabinet is __above the sink__.
+* The sink is __below the cabinet__.
+* at __10 degrees below zero__ _零下10度_
+* I'd like to add some space <del>below</del> __after__ each paragraph.
+* __The area above the menu bar__ is too much. _画面のメニューバーという基準_
 
 単体で副詞の意味もある。
+
+* in the example (written) __above__
+* in the example (written) __below__
 
 ### inside / outside
 
