@@ -4,7 +4,7 @@ layout: page
 title: Location
 ---
 
-## Prepositions
+## Prepositional Phrases
 
 ### at
 
@@ -91,24 +91,46 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 * He's __in school__.
   * He's a student.
 
-### beyond
-
-* beyond the sky _はるか空の向こうに_
-* beyond the time _時を超えて_
-
 ### near
 
-「... の近くに」地理的に近い
+「... の近く」の _near_ は、元は副詞句の _near to ..._ で、_to_ が省略されて前置詞のように使われる。
 
-### by / close to / next to / beside
+* Is there a hotel __near the station__?
+* We're staying at __a hotel near the station__.
 
-「... のそばに」寄り添っているくらい近い
+副詞 / 形容詞の _near_ には、比較級の変化がある。副詞で比較級をつかう場合は _to_ は省略できない。
+
+* when I came nearest to the station _副詞_
+* the nearest station _形容詞_
+
+### by / beside
+
+_by_ は _near_ よりも、寄り添っているくらい近い。
+
+* Who is standing __by the window__?
+* I live in __a house by the ocean__.
+
+### over / under
+
+「... の上/下に」で机/木/空/衣服などの物体に対しての位置を表す。
+
+* The plane is flying __over the clouds__.
+* I need to jump __over the water__ without getting my feet wet.
+* Pull __the cover over the table__.
+* __Those books under the desk__ are mine.
+* Go straight __under the bridge__.
+
+### above / below
+
+「... の上/下に」壁/文章/高度など基準や境界線に対しての位置
+
+単体で副詞の意味もある。
 
 ### inside / outside
 
 「... の内側/外側に」
 
-### in front of / behind
+### in front of / in back of / behind
 
 「... の前/後ろに」
 
@@ -126,27 +148,43 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 
 ### between
 
-* between A and B _A と B の間に_
+* between A and B
 
 ### in the middle of
 
 「... の真ん中に」
 
-### over / under
-
-「... の上/下に」机/木/空/衣服などの物体に対しての位置
-
-### above / below
-
-「... の上/下に」壁/文章/高度など境界線に対しての位置
-
-### ahead of
-
 ### all over
 
 * all over the world
 
+### across
+
+* the building across the street _通りの向かいのビル_
+* A dog is swimming across the river. _川を渡って泳いでいる_
+
+### along
+
+* the shops along the street. _通り沿いの店_
+* Go along the street. _通り沿いに進んでください_
+
 ### away from
+
+### beyond
+
+「...のはるか向こう」で、超越して確認できない時につかう。
+
+* a country beyond the sea / an overseas country
+* Is there anything beyond the sky? _空の向こう_
+* This question is beyond me. _私の手に負えない_
+
+## Adverbial Phrases
+
+### ahead of / back of
+
+### next to / close to
+
+* Put it __next to the door__. _ドアの近く_
 
 ## Adverbs
 

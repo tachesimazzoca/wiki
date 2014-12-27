@@ -4,7 +4,7 @@ layout: page
 title: Direction
 ---
 
-## Prepositions
+## Prepositional Phrases
 
 ### from
 
@@ -40,14 +40,6 @@ _toward_ は、そちらに向いている _in a direction of_ だけで、結�
 
 ### up / down
 
-### across
-
-* across the river _川を渡って_
-
-### along
-
-* along the street _通りに沿って_
-
 ### around
 
 _around_ は、周辺を指し、線としての方向性を持つ。
@@ -80,7 +72,7 @@ _through_ は「...を通リ抜けて」、_via_ は「...を経由して」の�
   * <del>go via the door</del> _ドアを使って？_
 * read the book __via__ the English version _英語版で_
 
-## Adverbs
+## Adverbial Phrases
 
 ### aside
 
