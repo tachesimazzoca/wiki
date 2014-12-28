@@ -91,7 +91,7 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 * He's __in school__.
   * He's a student.
 
-### near
+### near / by / beside
 
 「... の近く」の _near_ は、元は副詞句の _near to ..._ で、_to_ が省略されて前置詞のように使われる。
 
@@ -103,12 +103,18 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 * when I came nearest to the station _副詞_
 * the nearest station _形容詞_
 
-### by / beside
-
 _by_ は _near_ よりも、寄り添っているくらい近い。
 
 * Who is standing __by the window__?
 * I live in __a house by the ocean__.
+
+_beside_ は、「近く」というよりも「隣り」の意味になる。_be_ 動詞の連結動詞で用いると「...を外れている」という慣用句があるので、_stand / sit_ などの動作動詞と組み合わせて使う。
+
+* __The lamp beside the bed__ has a beautiful blue shade.
+* Please sit __beside her__.
+* The bank stands __beside the post office__.
+* That is __beside the point__. _それは要点がズレている_
+* I __was beside myself__ with (joy|happiness|worry|anger). _我を忘れる / 気が気でない_
 
 ### over / under
 
@@ -127,9 +133,10 @@ _by_ は _near_ よりも、寄り添っているくらい近い。
 * (Above|Below) the Line.
 * The cabinet is __above the sink__.
 * The sink is __below the cabinet__.
+* Insert 5 rows __(abobe|below)__ row 10.
 * at __10 degrees below zero__ _零下10度_
-* I'd like to add some space <del>below</del> __after__ each paragraph.
-* __The area above the menu bar__ is too much. _画面のメニューバーという基準_
+* Add some space <del>below</del> __after__ each paragraph.
+* __The area above the menu bar__ is too much.
 
 単体で副詞の意味もある。
 
@@ -138,23 +145,67 @@ _by_ は _near_ よりも、寄り添っているくらい近い。
 
 ### inside / outside
 
-「... の内側/外側に」
+「... の内側/外側」を表す。内と外をわける境界線/壁がある。
 
-### in front of / in back of / behind
+* the area __(inside|outside)__ the line
+* A local variable can only be used __inside the function__.
+* A function can access global variables defined __outside the function__.
 
-「... の前/後ろに」
+_in_ と _inside_ は、は外から見えない壁があるかどうかで使い分ける。
 
-### across from
+* <del>inside</del>__in__ the park
+* __(in|inside)__ your bag
+* __inside__ yourself _囲まれて見えないことを強調_
+* <del>Come inside.</del> Come __in__.
 
-「... の対面に」
+副詞 / 形容詞 の意味もある。
 
-### opposite
+* go __(inside|outside)__
+* the __outside__ world
 
-「... の反対側に」
+### in front of / behind
 
-「競演」の意味もある
+_in front of_ は立体的な位置「... の前に」を表す。_before_ は時間や平面上の位置を表す。
 
-* She appears opposite Johnny Depp in the movie.
+* A guard is standing __in front of the gate__.
+* I plowed __the snow in front of my car__.
+
+対応する立体的な「...の後ろに」は、_behind_ になる。_the back of ..._ の表現はあるが「... の奥に / 裏手に」の空間内での位置を表す。
+
+* Someone is standing __behind the wall__. _壁の背後_
+  * <del>... standing at the back of the wall.</del> _壁内の奥に立つ？_
+* They are talking __behind the car__. _車外の後ろで_
+* Please sit __in the back of the car__. _後部座席に座ってください_
+* I'm waiting __at the back of the line__. _列の最後尾で_
+
+_in back of_ という表現も AmE では使われるようであるが、「背後」の意味では _behind_ を使う。
+
+### along
+
+* the shops along the street. _通り沿いの店_
+* Go along the street. _通り沿いに進んでください_
+
+### across
+
+* the building across the street _通りの向かいのビル_
+* A dog is swimming across the river. _川を渡って泳いでいる_
+
+### across from / opposite
+
+_across from_ で「... の対面に」を表す。
+
+* The bank is __across from the post office__. _郵便局の対面に（何かを挟んで）_
+* The bank is __across the street__. _道を挟んだ向かいに_
+
+_opposite_ は、_near_ と同じように、副詞句 _opposite to_ の _to_ が省略されて、前置詞のように使われる。
+
+* The man is sitting __opposite to me__. _副詞句_
+* The man is sitting __opposite me__. _前置詞句の副詞的用法_
+* __The man opposite me__ told an interesting story to me. _前置詞句の形容詞的用法_
+
+_opposite_ には「競演」の意味もある
+
+* She appears __opposite__ Johnny Depp in the movie.
 
 ### between
 
@@ -166,31 +217,24 @@ _by_ は _near_ よりも、寄り添っているくらい近い。
 
 ### all over
 
-* all over the world
+_all over_ で「... のあたり一面 / あちこち / 隅々」を表す。
 
-### across
-
-* the building across the street _通りの向かいのビル_
-* A dog is swimming across the river. _川を渡って泳いでいる_
-
-### along
-
-* the shops along the street. _通り沿いの店_
-* Go along the street. _通り沿いに進んでください_
-
-### away from
+* It's a great opportunity to share a message to __people all over the world__.
+* There are ants __all over the room__.
 
 ### beyond
 
 「...のはるか向こう」で、超越して確認できない時につかう。
 
 * a country beyond the sea / an overseas country
-* Is there anything beyond the sky? _空の向こう_
-* This question is beyond me. _私の手に負えない_
+* Is there anything __beyond the sky__? _空の向こう_
+* This question is __beyond me__. _私の手に負えない_
 
 ## Adverbial Phrases
 
 ### ahead of / back of
+
+### away from
 
 ### next to / close to
 
