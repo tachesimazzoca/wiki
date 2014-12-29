@@ -269,3 +269,7 @@ _at a time_ は「一度に / 同時に」の意味になる。
 
 * Don't try to do two things __at a time__. _同時に二つの事をしようとするな_
 
+### at any time / at all times
+
+_at any time_ は「いつでも」の任意の時間を表し、_at all times_ は「常時」で継続した期間を表す。
+
