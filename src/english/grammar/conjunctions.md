@@ -189,6 +189,10 @@ _before / after_ は、主節と従属節が連続した動作になる。
 * Clean your room __before__ you go out.
 * I'll go straight home __after__ I've done the shopping.
 
+時制には未来であっても現在時制を用いる。_can_ と組み合わせて「そうなったら」というニュアンスを出せる。
+
+* You must finish your chores __before__ you __can__ go to the party.
+
 過去の話を伝えるとき、通常はどちらが先に起こったかを伝えるために過去完了を用いるが、_before / after_ は自明であるので過去形でもよい。
 
 * He __(had cleaned|cleaned)__ his room _before_ he went out.
