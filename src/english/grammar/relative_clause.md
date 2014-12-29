@@ -21,12 +21,14 @@ _who_ により、人物に関する情報を追加できる。_who_ の代わ�
 
 物に対しては _which_ を使う。ルールは _who_ と同様である。
 
-* The book __which__ I bought yesterday is very interesting.
+* The book __that__ I bought yesterday is very interesting.
 * The hotel __that__ you recommended was very comfortable.
 * Have you finished reading the book _(which)_ I lent to you?
 * The Scala programming language, <del>that</del> __which__ is a JVM language, makes you a better programmer.
 * Yesterday I visited Bob's house, __which__ I've never been to.
 * I had a new job, __which__ I'm enjoying a lot.
+
+文書においては、特定するための情報に _that_ を使い、カンマで区切る補足情報には _who / which_ を使うように統一することで、より読みやすい文章になる。
 
 _what_ は _the thing that_ の意味になる。
 
