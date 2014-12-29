@@ -46,11 +46,6 @@ title: Verbs
 * He gave _a book_ __to me__.
 * She brought _the present_ __for me__.
 
-前置詞は、相手がその場にいて伝達する必要がある場合は「... に」の _to_ 、そうでない「... のために」 _for_ を用いる。
-
-* I'll send a message __to you__. _あなたにメッセージを送ります_
-* I'll send a message __for you__. _あなたのために（誰かに）メッセージを送ります_
-
 ### 第五文型 S + V + O + C
 
 主語 _Subject_ + 動詞 _Verb_ + 目的語 _Object_ + 補語 _Complement_ の文型。「補語 (C) = 目的語 (O) 」の関係が成り立つ。
@@ -92,7 +87,7 @@ title: Verbs
 * He's playing __tennis__ tomorrow.
 * You should send __him__ a message.
 
-目的語を取らない動詞を自動詞 _Intransitive Verb_ という。自動詞の後に、名詞を置く事はできない。「前置詞 + 名詞」で修飾する。
+目的語を取らない動詞を自動詞 _Intransitive Verb_ という。自動詞の後に、名詞句を置く事はできない。前置詞句の副詞的用法で修飾する。
 
 * think
    * I'm thinking.
@@ -109,9 +104,9 @@ title: Verbs
 
 相手がいるから他動詞と考えるのは誤り。「相手がいないと成立しない」動詞が他動詞になる。
 
-_I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立する自動詞で、_to him_ の「前置詞 + 名詞」で修飾していることになる。相手がいるので勘違いしやすいが、目的語ではない。
+_I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立する自動詞で、_to him_ の前置詞句で修飾していることになる。相手がいるので勘違いしやすいが、目的語ではない。
 
-* I talked (to him). _自動詞 + （前置詞 + 名詞）_
+* I talked (to him). _自動詞 + 前置詞句_
 * <del>I talked to (him).</del> 「前置詞をとる動詞（他動詞）」ではない。
 
 動詞は、自動詞か他動詞のどちらか一方に属するわけではない。_speak_ を例に上げると 自動詞 / 他動詞としてそれぞれの意味を持つ。
@@ -121,8 +116,51 @@ _I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立�
 
 ゆえに、動詞が自動詞か他動詞かを考えることに意味はない。
 
-* 自動詞の意味の場合は「前置詞 + 名詞」で修飾する。 _i.e._  「前置詞 + 名詞」が続く場合は自動詞
+* 自動詞の意味の場合は、前置詞句で修飾する。 _i.e._  前置詞句が続く場合は自動詞
 * 他動詞の意味の場合は、直後に目的語「... を/に」の名詞を置く。 _i.e._ 「名詞」が続く場合は他動詞
+
+## 主語と動詞の一致
+
+主語の性質に合わせて、動詞を変化させることを「一致」 _Agreement_ と呼ぶ。言語により人間関係や性別などがあるが、英語においては、数による一致 _Agreement in Number_ を行なう。
+
+主語の数に合わせて、動詞を一致させる。主体が可算かつ複数存在しているかどうかであって、_-s_ のついた複数形であれば複数と見なすのではない。
+
+* 主語が可算名詞の場合、動詞も主語の数に合わせる。
+  * _The book_ __is__ mine.
+  * _Those books_ __are__ mine.
+  * _The glasses_ __are__ nice.
+  * _The shoes_ __are__ put beside the door.
+* 主語が _and_ で接続されている場合は複数形になるが、固有タイトルや料理名等にみられる名称の場合は単数扱いになる。
+  * _Alice and Bob_ __are__ students.
+  * _The students and the teacher_ __are__ talking about the class.
+  * _Beauty and the Beast_ __is__ my favorite movie.
+  * _Bread and butter_ __is__ a classic breakfast combination.
+* 主語が _or / nor_ のみで接続されている場合、最後尾の選択肢の数に合わせる。
+  * Either _Alice or Bob_ __is__ attending the meeting tomorrow.
+  * Neither _the teacher nor the students_ __were__ in the classroom.
+  * Neither _the students nor the teacher_ __was__ in the classroom.
+* 科目/国名のように、複数形にみえても単数扱いの主語は単数形になる。
+  * _Mathematics_ __is__ my favorite subject.
+  * _The news (North-East-West-South)_ __was__ announced yesterday.
+  * _The United States of America_ __is__ a federal republic consisting of 50 states and a federal district.
+* 主語が集合名詞の場合は、単数形になる。
+  * _My family_ __is__ going on a picnic tomorrow.
+  * _Our team_ __is__ working hard to fix this problem.
+* 主語が不可算名詞の場合、常に単数形になる。数 _how many_ ではなく、量 _how much_ を示している場合にも単数になる。
+  * _Some money_ __was__ given to me.
+  * _Half of the milk_ __is__ in the fridge. _How much?_
+  * _All of the oranges_ __are__ in the fridge. _How many?_
+* 主語が単位で量を示している場合、単数形になる。
+  * _50 dollars_ __is__ paid for the 8 hours of work.
+  * _8 hours_ __is__ too long for me to work.
+
+表記上の複数形ではなく、単数扱いであるかどうかに注視する。_media_ は _medium_ 「媒体」の複数形であるが、マスメディアのように集合名のように使われることもある。
+
+* Most _media_ __are__ reporting the incident.
+* The _mass media_ __(is|are)__ dominated by five major companies.
+* The _social media_ __(is|are)__ dominated by Facebook.
+* The _USB media(drive)_ __is__ write-protected.
+* _USB media(drives)_ __are__ popular for storing data.
 
 ## let / make / have
 
