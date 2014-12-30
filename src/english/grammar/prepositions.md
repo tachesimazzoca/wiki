@@ -4,7 +4,18 @@ layout: page
 title: Prepositions
 ---
 
-## 名詞句
+## 前置詞句
+
+前置詞句 _Prepositional Phrase_ は、前置詞 _Preposition_ で始まり、名詞で終わる句を指す。
+
+副詞句と形容詞句のどちらにもなる。
+
+* 副詞句
+  * A red cup sits __on the table__.
+* 形容詞句
+  * __The cup on the table__ is red.
+
+## 名詞 + 前置詞句
 
 ### of
 
@@ -89,7 +100,7 @@ _of_ の場合は、変化自体を指しているのではなく、変化した
 * You should know the relationship __between__ salt and blood pressure.
 * There is a great difference __between__ there claims.
 
-## 形容詞
+## 形容詞 + 前置詞句
 
 ### It's + 評価 + of + 人
 
@@ -238,9 +249,9 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
   * I'm sorry that I was late.
 * I __feel sorry for__ your father. _気の毒に思う_
 
-## 動詞
+## 動詞 + 前置詞句
 
-動詞 + 前置詞 のように考えてはならない。前置詞を伴うのは、動詞の補足情報としての副詞句になる。
+（動詞 + 前置詞） + 名詞  のように考えてはならない。動詞の補足情報としての前置詞句（副詞句）に、前置詞が含まれる。
 
 ### to + 到達先
 
@@ -272,10 +283,11 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
 * aim / point / shoot / fire / throw
   * Point your index finger __at the target__.
 
-_shout / throw_ 等は _to_ も使われるが、ニュアンスが異なる。
+_shout / throw_ 等は _to / agaist_ も使われるが、ニュアンスが異なる。
 
-* Somebody threw an egg __at them__. _狙いを定めて投げつける_
-* I threw my bag __to the bed__. _ベッドに放り投げる_
+* Somebody threw an egg __at them__. _狙いを定めて投げつけた_
+* I threw my bag __to the bed__. _ベッドに放り投げた（大まかな到達点）_
+* She threw her apron __against the wall__. _壁に向かって投げつけた（対面）_
 
 ### about + 状況
 
