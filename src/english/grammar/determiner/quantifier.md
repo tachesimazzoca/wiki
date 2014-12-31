@@ -25,7 +25,6 @@ _some_ は、明らかに存在する場合に使う。
 * I have __some__ books.
 * May I have __some__ coffee?
 * Would you like __something__ to eat?
-* __Some__ do, __some__ don't. _する人もいれば、しない人もいる_
 
 _any_ は、存在するか定かでない時に使う。否定文では存在しないことが明らかなので、必ず _any_ になる。
 

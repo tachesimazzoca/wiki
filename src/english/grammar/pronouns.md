@@ -4,6 +4,35 @@ layout: page
 title: Pronouns
 ---
 
+## 不定代名詞
+
+不定代名詞 _Indefinite Pronoun_ は、不特定の人物や物を表す。
+
+以下の代名詞はすべて単数になる。不特定なのは「とある」人や物であって、「いくつかの」数ではない。
+
+* something / someone / somebody
+* anything / anyone / anybody
+* everything / everyone / everybody _全ての内の個々_
+* nothing / no one / nobody
+
+以下の形容詞は、代名詞の意味もある。
+
+* 単数
+  * each / either / neither
+* 複数
+  * both
+  * many / few / several
+* 複数（数） / 単数（量）
+  * all / half
+  * some / any
+  * more / most
+
+これらの代名詞は _of ..._ の前置詞句を伴う。自明の場合は、単体で表すこともある。
+
+* __most__ people _形容詞 としての most で、代名詞ではない_
+* __most__ of the people _代名詞 としての most_
+* __Some__ do, __some__ don't. _する人もいれば、しない人もいる_
+
 ## 再帰代名詞
 
 再帰代名詞 _Reflective Pronoun_ は、自身を指し示す場合に使う。
