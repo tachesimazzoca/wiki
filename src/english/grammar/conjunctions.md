@@ -226,7 +226,7 @@ _by_ は前置詞のみで、文節をつなげる接続詞としては使えな
 
 #### because
 
-原因 _Cause_ が主題であるときには _because_ を用い、主節の後に続ける。原因を伝える事が目的になるので、補足情報として文頭に置くことはまれである。
+原因 _Cause_ が主題であるときには _because_ を用いる。原因を知らない相手に、原因を伝える時に使う。
 
 * Your account has been locked __because__ there were too many login attempts in a day.
 * The reservation had been cancelled __because__ we were late.
