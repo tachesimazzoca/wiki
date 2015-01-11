@@ -144,6 +144,16 @@ _neither A nor B_ で「A か B どちらもない」の意味になる。節の
 
 従位接続詞 _Subordinating Conjunction_ は、主従関係にある二つの 語 / 句 / 節 をつなげる。
 
+句読点の位置は以下のルールに従う。
+
+* 従属節が先に来る場合は、カンマのあとに主節を続ける。
+* 主節が先に来る場合は、以下の例外を除き、カンマはつけない。
+  * 従属節が否定や対比の場合
+    * ..., even though ...
+    * ..., whereas ...
+  * 従属節が補足情報である場合
+    * I went to the restaurant that opened yesterday, after I clocked out.
+
 ### 時間
 
 時間の従属節には未来形が使えない点に注意する。主節が未来であっても、現在形または現在完了形を使う。
@@ -321,12 +331,12 @@ _as long as_ は時間範囲であるが、「その状態が続く限り」の�
 
 * You can stay here __as long as__ you want.
 * You'll pass the exam __as long as__ you study hard.
-* You should now be able to authenticate automatically, __as long as__ the cookie exists.
+* You should now be able to authenticate automatically __as long as__ the cookie exists.
 
 _provided_ は、約束事（契約書 / 注意書き）等で用いられる。「その条件を提示するなら」の意味になる。
 
 * I don't mind lending you the money __provided__ you pay it back within a month.
-* You have the right to cancel your order, __provided__ you give us written notice within 14 days.
+* You have the right to cancel your order __provided__ you give us written notice within 14 days.
 
 #### in case
 
