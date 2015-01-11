@@ -135,7 +135,10 @@ _whether_ は名詞節を導く接続詞として単体で用いられる。以�
 
 ### neither ... nor ...
 
-_neither A nor B_ で「A か B どちらもない」の意味になる。
+_neither A nor B_ で「A か B どちらもない」の意味になる。節の場合は倒置する。
+
+* I have __neither__ money __nor__ position.
+* __Neither__ have I seen him, __nor__ have I heard from him.
 
 ## 従位接続詞
 

@@ -30,16 +30,27 @@ title: Inversion
 * I've never seen him, __nor__ have I heard from him.
 * __Neither__ have I seen him, __nor__ have I heard from him.
 
-## Here
+## There / Here
 
+_There / Here_ も倒置が起こる。代名詞が主語の場合は倒置しない。
+
+* __There__ is a book.
+* __There__ are some books.
+* __There__ it is.
+  * <del>There is it.</del>
+* __Here__ is your key.
+* __Here__ comes the bus.
 * __Here__ it is.
   * <del>Here is it.</del>
-* __Here__ is your key.
-  * <del>Here your key is.</del>
-* __Here__ we are.
-* __Here__ comes the bus.
+* __Here__ you are. _（探しているものは）ここにあります_
+  * <del>Here are you.</del>
+* __Here__ we are. _目的地に着きました_
+  * <del>Here are we.</del>
+* __This__ is it. _この場合の it は目的語。「それですよ」「いよいよですね（来たるべき状況になった）」_
 
 ## What
+
+感嘆表現で _What_ を文頭に置く表現がある。主語と動詞は倒置しない。
 
 * __What a shot__ it is!
 * __What a match__ they played!
