@@ -162,9 +162,9 @@ _neither A nor B_ で「A か B どちらもない」の意味になる。節の
 * She'll really get mad <del>when</del> __if__ you don't apologize to her.
 * <del>When</del> __If__ you prefer, you can choose this option.
 
-#### when / while / as
+#### when / whenever / while / as
 
-_when_ は「... する時」として広く使える。
+_when / whenerver_ は「... する時 / する時はいつでも」として広く使える。
 
 * __When__ you get home, call be back. _状況が切り替わった時（連続して次に何かが起こる）_
 * __When__ I was young, I wanted to be rich. _ある状態であった時_
@@ -178,7 +178,7 @@ _when_ は「... する時」として広く使える。
 
 * __(As|Because)__ I was young, I wanted to be rich. _「若かったので、お金持ちになりたかった」_
 
-進行形のように「... している最中」の場合には、_while_ が用いられる事が多い。名詞句には _during_ を使う。
+進行形のように「... している最中」の場合には、_while_ を用いる。名詞句には _during_ を使う。
 
 * I fell asleep __while__ _(I was)_ watching TV.
 * __While__ _(I was)_ waiting for a bus, I noticed a blind man.
@@ -201,36 +201,32 @@ _before / after_ は、主節と従属節が連続した動作になる。
 * He __(had cleaned|cleaned)__ his room _before_ he went out.
 * I went straight home _after_ I __(had done|did)__ the shopping.
 
-#### since / until / by the time
+#### since / until
 
 _since_ は「... から今まで」、 _until_ 「今から ... まで」の継続期間を表す。_since_ の場合、主節はもれなく完了形になる。
 
 * I've lived in Tokyo __since__ I entered college.
 * Please wait here __until__ I come back.
 
-_by the time_ は「... する時までに」という期限を表す。_until_ はその時まで動作を継続させるが、_by the time_ はその時までに動作を終えておく期限になる。
+_by_ は前置詞のみで、文節をつなげる接続詞としては使えない。_until_ はその時まで動作を継続させるが、_by_ はその時までに動作を終えておく期限になる。
 
-* Would you finish this task __by the time__ you clock out?
-
-_by_ は前置詞のみで、文節をつなげる接続詞としては使えない。
-
-* Please finish those letters <del>by</del> __by the time__ I come back.
+* Please finish those letters <del>by I come back</del> __by the time__ I come back.
 * I'll fix this problem __by__ the end of tomorrow.
-
-_by then / by that time_ で、前文を受けて「その時までに」という表現が使える。
-
-* The party starts at 19:00. I'll finish work __by then__.
-* I arrived at the party around 21:00, but __by that time__, most of the people had left.
+* Would you finish this task __by the time__ you clock out?
 
 #### as soon as
 
 * I'll come to the party __as soon as__ I've finished work.
 
-### 理由
+### 場所
+
+#### where / whereever
+
+### 原因 / 結果
 
 #### because
 
-理由が主題であるときには _because_ を用い、主節の後に続ける。理由を伝える事が目的になるので、補足情報として文頭に置くことはまれである。
+原因 _Cause_ が主題であるときには _because_ を用い、主節の後に続ける。原因を伝える事が目的になるので、補足情報として文頭に置くことはまれである。
 
 * Your account has been locked __because__ there were too many login attempts in a day.
 * The reservation had been cancelled __because__ we were late.
@@ -249,14 +245,14 @@ _It's because ... that ..._ の強調構文で用いることもできる。
 
 #### since / as
 
-理由が既知で補足情報である場合には、_since / as_ が使える。文頭に置くこともできる。
+原因が既知で補足情報である場合には、_since / as_ が使える。文頭に置くこともできる。
 
 * __Since__ I wasn't familiar with the area, I had no idea where the shop was.
 * __Since__ I didn't have much time, I had lunch at McDonald's.
 * __As__ I was on vacation, I didn't have a chance to reply earlier.
 * __As__ she was sick, she was absent. _知っての通り病気だったから、欠席したよ_
 
-理由を尋ねられた時や強調構文では使えない。代わりに _because_ を用いる。
+原因を尋ねられた時や強調構文では使えない。代わりに _because_ を用いる。
 
 * _"Why didn't you attend the meeting?"_ I missed it <del>since</del> __because__ I was caught in a traffic jam.
 * __It's__ <del>since</del> __because__ we are late __that__ our reservation has been cancelled.
@@ -268,65 +264,9 @@ _Now that A, B_ で「今となっては A であるので、B」の意味にな
 
 * __Now that__ computers have become more powerful, some programmers are not likely to think about the running cost.
 
-### 条件
-
-#### if
-
-_if ..._ は条件を付け加える。主節が未来であっても、現在形または現在完了形を使う。
-
-* Let me know __if__ you need any help.
-* __If__ it's fine tomorrow, I'll go shopping.
-
-#### unless / as long as / provided
-
-_unless ..._ は例外条件を付け加える。主節の内容が本線で「... でない限り」実現不可能という場合に使う。「... でなかったら」という意味なら _if ... not ..._ を使う。_unless_ では仮定法は使えない。
-
-* The match will restart at 17:30 __unless__ there's any problem.
-* She will be disappointed <del>unless you come</del> __if you don't come__  to the party.
-* <del>unless I were</del> __If I weren't__ busy, I would come to the party.
-
-_unless ..._ に対応する反対の表現「... である限り」は _as long as_ になる。同じ意味で _provided_ もあり約束事（契約書 / 注意書き）等で用いられる。
-
-* You can stay here __as long as__ you want.
-* You'll pass the exam __as long as__ you study hard.
-* You should now be able to authenticate automatically, __as long as__ the cookie exists.
-* I don't mind lending you the money __provided__ you pay it back within a month.
-* You have the right to cancel your order, __provided__ you give us written notice within 14 days.
-
-_as long as_ は、時間範囲の意味であるが、このように _only if ..._ の意味でも使われる。
-
-#### in case
-
-_in case ..._ は「万が一に備えて」という意味になる。条件が満たされて主節が実現する _if_ とは異なり、条件に備えるために、主節を行なう点が異なる。
-
-* __In case__ it rains, take my umbrella with you.
-* I'll stay here __in case__ she comes back.
-* Just __in case__, there is something that I want to confirm.  _念のため、確認したいことがあります。_
-
-名詞句には _in case of ..._ を使う。
-
-* In Case of Emergency (ICE)
-
-### 範囲
-
-#### as far as
-
-_(as|so) far as ..._ で「... である範囲では」の意味になる。
-
-* __As far as__ I know, there is no way to downgrade it officially.
-* __As far as__ I can remember, he wasn't there.
-
-#### as long as
-
-時間範囲の場合には _(as|so) long as ..._ を使う。
-
-* Nobody will be offended __as long as__ you keep smiling.
-
-### 結果
-
 #### so ... that
 
-_so A that B_ で「_B_ であるほど _A_ である」と _that_ 節に結果（程度）を導くことができる。
+_so A that B_ で「_B_ であるほど _A_ である」のように、_that_ 節に結果 _Effect_ を導くことができる。
 
 * I was __so__ tired __that__ I went straight to bed.
 * She spoke __so__ quickly __that__ I couldn't hear what she said.
@@ -358,11 +298,88 @@ _A so that B_ は「_B:目的_ であるように _A_」や「_A_ ならば _B:�
 
 * __In order that__ we can identify your session, a cookie is stored on your computer.
 
+### 条件
+
+#### if / even if
+
+_if ..._ は条件を付け加える。主節が未来であっても、現在形または現在完了形を使う。
+
+* Let me know __if__ you need any help.
+* __If__ it's fine tomorrow, I'll go shopping.
+
+#### unless / only if / as long as / provided
+
+_unless ..._ は例外条件を付け加える。主節の内容が本線で「... でない限り」実現不可能という場合に使う。「... でなかったら」という意味なら _if ... not ..._ を使う。_unless_ では仮定法は使えない。
+
+* The match will restart at 17:30 __unless__ there's any problem.
+* She will be disappointed <del>unless you come</del> __if you don't come__  to the party.
+* <del>unless I were</del> __If I weren't__ busy, I would come to the party.
+
+_unless ..._ に対応する反対の表現「... である限り」は _only if / as long as / provided_ になる。
+
+_as long as_ は時間範囲であるが、「その状態が続く限り」の意味で _only if_ のように使われる。
+
+* You can stay here __as long as__ you want.
+* You'll pass the exam __as long as__ you study hard.
+* You should now be able to authenticate automatically, __as long as__ the cookie exists.
+
+_provided_ は、約束事（契約書 / 注意書き）等で用いられる。「その条件を提示するなら」の意味になる。
+
+* I don't mind lending you the money __provided__ you pay it back within a month.
+* You have the right to cancel your order, __provided__ you give us written notice within 14 days.
+
+#### in case
+
+_in case ..._ は「万が一に備えて」という意味になる。条件が満たされて主節が実現する _if_ とは異なり、条件に備えるために、主節を行なう点が異なる。
+
+* __In case__ it rains, take my umbrella with you.
+* I'll stay here __in case__ she comes back.
+* Just __in case__, there is something that I want to confirm.  _念のため、確認したいことがあります。_
+
+名詞句には _in case of ..._ を使う。
+
+* In Case of Emergency (ICE)
+
+#### whether or not
+
+_whether ...(or not) / whether or not ..._ は「... かどうか」の意味になる。名詞節になるので未来の時制が使えるが、形式主語で副詞節を導くような場合は使えない。
+
+* The method "String#matches" tells __whether or not__ the string matches the given regular expression.
+* I'm not sure __whether__ I'll be able to hand in my assignment by this week.
+* It doesn't matter __whether__ we <del>will</del> go shopping or not.
+
+_if_ にも同様の意味があり、以下のような疑念や関心事のニュアンスで好まれる。
+
+* 疑念
+  * I'm not sure __if__ that makes sense.
+  * I don't know __if__ I can drive.
+  * I doubt __if__ ...
+  * This function tests __if__ the connection is active.
+* 関心事
+  * He asked __if__ ...
+  * I don't care __if__ ...
+
+ただし _if_ は、以下の場合には使えない。
+
+* 前置詞の後に来る場合
+   * We talked _about_ <del>if</del> __whether__ TDD is dead.
+   * I'm not interested _in_ <del>if</del> __whether__ you like them.
+* 不定詞を続ける場合
+  * I don't know <del>if</del> __whether__ _to buy_ this one or that one.
+* 主語/形式主語や主格補語になる場合
+  * <del>If</del> __Whether__ _you'll find a way_ depends on your effort.
+
+_if_ には「もし ... なら」の条件の意味もあるので、「... かどうか」の意味では _whether_ を使う。
+
+* Let me know __if__ you have any trouble. _問題が起こったなら（問題があるかどうかではない）_
+* Let me know __whether__ you're coming. _来る予定かどうか_
+   * <del>Let me know __if__ you're coming.</del> _来る時に？来るかどうか？_
+
 ### 譲歩
 
-#### although
+#### although / even though / though
 
-_Although ...,_ で「... だけれども」という譲歩の意味になる。_Even though ...,_ はより強調した表現になる。
+_Although ...,_ で「... だけれども」という譲歩 _Concession_ の意味になる。_Even though ...,_ はより強調した表現になる。
 
 * __Although__ it rained, we played tennis yesterday.
 * __Even though__ he's Japanese, he was born and raised in Hawaii.
@@ -383,7 +400,7 @@ _Although ...,_ で「... だけれども」という譲歩の意味になる。
 
 #### while / whereas
 
-_while / whereas_ は「... である一方」という対比を表すことができる。
+_while / whereas_ は「... である一方」という対比 _Opposition_ を表すことができる。
 
 * The number of marriages has decreased in recent decades, __while__ the number of divorces has increased.
 * Native English speakers use the word "complaint", __while__ the Japanese tend to use the word "claim".
@@ -396,7 +413,7 @@ _while / whereas_ は「... である一方」という対比を表すことが�
 
 ### 比喩
 
-#### as
+#### as / like
 
 _as_ は「... と同じように」という同等性を表すことができる。_AmE_ のくだけだ表現では _like_ が使われることもある。
 
@@ -422,15 +439,13 @@ _as usual / as always_ のような慣用句がある。
 * We use the garage __as__ a space to park.
 * This blog serves __as__ a place to discuss ideas about programming.
 
-#### like
-
 前置詞としての _like_ は「... のように」という類似性を表すことができる。文中で「例えば ...」 _such as_ のようにも使われる。
 
 * I used to smoke __like__ you. But I've quit smoking.
 * I would rather use something __like__ the following.
 * Functional programming languages, __(like|such as)__ Scala, encourage immutable data structures.
 
-接続詞として _(look|sound) like ..._ の表現が多く用いられる。主部が重複するので _It_ に置き換えることが多い。
+_(look|sound) like ..._ の表現が多く用いられる。主部が重複するので _It_ に置き換えることが多い。
 
 * You __sound like__ you are an expert.
   * __It sounds like__ you are an expert.
@@ -465,38 +480,18 @@ _as if / as though_ は「まるで ... のように」の意味になる。推�
 * He __looks__ as if he __had been__ sick. _まるで（以前に）病気だったように見える_
 * He __looked__ as if he __had been__ sick. _まるで（以前に）病気だったように見えた_
 
-## whether / if
+### 範囲
 
-_whether ...(or not) / whether or not ..._ は「... かどうか」の意味になる。名詞節になるので未来の時制が使えるが、形式主語で副詞節を導くような場合は使えない。
+#### as far as
 
-* The method "String#matches" tells __whether or not__ the string matches the given regular expression.
-* I'm not sure __whether__ I'll be able to hand in my assignment by this week.
-* It doesn't matter __whether__ we <del>will</del> go shopping or not.
+_(as|so) far as ..._ で「... である範囲では」の意味になる。
 
-_if_ にも同様の意味があり、以下のような疑念や関心事のニュアンスで好まれる。
+* __As far as__ I know, there is no way to downgrade it officially.
+* __As far as__ I can remember, he wasn't there.
 
-* 疑念
-  * I'm not sure __if__ that makes sense.
-  * I don't know __if__ I can drive.
-  * I doubt __if__ ...
-  * This function tests __if__ the connection is active.
-* 関心事
-  * He asked __if__ ...
-  * I don't care __if__ ...
+#### as long as
 
-ただし _if_ は、以下の場合には使えない。
+時間範囲の場合には _(as|so) long as ..._ を使う。
 
-* 前置詞の後に来る場合
-   * We talked _about_ <del>if</del> __whether__ TDD is dead.
-   * I'm not interested _in_ <del>if</del> __whether__ you like them.
-* 不定詞を続ける場合
-  * I don't know <del>if</del> __whether__ _to buy_ this one or that one.
-* 主語/形式主語や主格補語になる場合
-  * <del>If</del> __Whether__ _you'll find a way_ depends on your effort.
-
-_if_ には「もし ... なら」の条件の意味もあるので、「... かどうか」の意味では _whether_ を使う。
-
-* Let me know __if__ you have any trouble. _問題が起こったなら（問題があるかどうかではない）_
-* Let me know __whether__ you're coming. _来る予定かどうか_
-   * <del>Let me know __if__ you're coming.</del> _来る時に？来るかどうか？_
+* Nobody will be offended __as long as__ you keep smiling.
 

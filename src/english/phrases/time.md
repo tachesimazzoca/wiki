@@ -76,7 +76,7 @@ _since_ で開始時間を伝えることができる。
 * I haven't met him __since last year__.
 * I've known him __since we were in high school__.
 
-### by / by the end of
+### by / by the end of / by the time
 
 * Please complete your payment __by tomorrow__. _明日までに_
 * Please be sure to pay that __by the end of this month__. _今月末までに_
@@ -92,6 +92,11 @@ _by_ と _by the end of_ との違いに注意する。
 _by today_ は「今日中に」となるが、今日はすでに始まっているので、副詞の _today_ も当日が範囲になる。「今日は」の意味と混同しないようにする。
 
 * Shall we go shopping today?
+
+_by then / by that time_ で、前文を受けて「その時までに」という表現が使える。
+
+* The party starts at 19:00. I'll finish work __by then__.
+* I arrived at the party around 21:00, but __by that time__, most of the people had left.
 
 ### during
 
