@@ -4,6 +4,13 @@ layout: page
 title: Machine Learning
 ---
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
 ## Definition
 
 Arthur Samuel (1959) - Machine Learning:
@@ -63,7 +70,15 @@ _Unupervised Learning_ は、正解（分類）自体が定義されていない
 * `y` を予測する関数を `h(x) = a + b * x` とする。
 * `x(i), y(i)` を各データとした時、`h(x(i)) - y(i)` すなわち `(a + b * x(i)) - y(i)` が予測誤差になる。
 * これらの誤差の二乗したものの平均値を、「平均二乗誤差」 _Mean Squared Error (MSE)_ と呼ぶ。
-* _MSE_ が最も最小となる `a, b` が予測関数の最適値になる。
+* _MSE_ が最小となる `a, b` が最適値になる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-hypothesis">
+h(x) = \theta_{0} + \theta_{1}{x} 
+</script>
+
+<script type="math/tex; mode=display" id="MathJax-Element-mse">
+\textrm{MSE} = \frac{1}{m} {\sum_{i=1}^{m} (h(x_i)-y_i)^2}
+</script>
 
 _MSE_ が最小となる予測関数を見つけることができたとしても、あらゆる入力から、誤差がない予測が可能なわけではない。あくまで保有データ内で、予測関数が見つけられたというだけである。言い替えると、保有データに関しては、誤差なく予測することができる。
 
@@ -84,11 +99,14 @@ println(mse(data, x => (1 + 1 * x))) // (0^2 + (-1)^2 + (-2)^2) / 3 = 1.666
 println(mse(data, x => (0 + 2 * x))) // (0^2 + 0^2 + 0^2) / 3 = 0
 {% endhighlight %}
 
-`[(1, 2), (2, 4), (3, 6)]` という訓練データを例にすると、`h(x) = a + b * x, a = 0, b = 2` すなわち `h(x) = 2 * x` が線形回帰モデルになる。このモデルは訓練データ内では誤差はないが、訓練データに含まれない `x = 4` が `y = h(x) = 2 * 4 = 8` という結果になるわけではない。
+`[(1, 2), (2, 4), (3, 6)]` という訓練データを例にすると、`a = 0, b = 2` すなわち `h(x) = 2 * x` が線形回帰モデルになる。このモデルは訓練データ内では誤差はないが、今後のあらゆるケースで、誤差なく予測できるわけではない。
+
+* 訓練データに含まれない `x = 4` が、必ず `y = h(x) = 2 * 4 = 8` という結果になるわけではない。
+* 訓練データに含まれる `x = 2` であっても、必ず `y = h(x) = 2 * 2 = 4` という結果になるわけではない。
 
 ### Gradient Decent Algorithm
 
-線形回帰モデルを見つけるには、勾配法 _Gradient decent algorithm_ を用いることができる。
+線形回帰モデルを見つけるには、勾配法 _Gradient decent_ を用いることができる。
 
 勾配法は、反復法を用いて解に近づけていく。反復法の一つ、ニュートン法 _Newton's method_ により平方根を見つける例をおさらいしてみる。
 
@@ -113,34 +131,38 @@ println(mse(data, x => (0 + 2 * x))) // (0^2 + 0^2 + 0^2) / 3 = 0
     x := (1.7500 + (3 / 1.7500)) / 2 = 1.7321
     x := (1.7321 + (3 / 1.7321)) / 2 = 1.7320
 
-線形回帰モデルの場合にも、同じような反復を繰り返して、誤差が少ない最適値を探索していく。方法として、最急降下法 _Steepest descent method_ がある。
+線形回帰モデルの場合にも、同じような反復を繰り返して、最適値に収束させていけばよい。方法として、最急降下法 _Steepest descent method_ がある。
 
-仮説 _Hypothesis_ を `h(x) = a + b * x` とし、誤差を求める関数を `J(a, b)` とした時、`(a, b, J(a, b))` の三次元グラフを書くと、`J(a, b)` 軸で凹凸をもったグラフとなる。すなわち、この凹みの最も深い位置が、最も誤差の少ない最適値になる。
+仮説を `h(x) = a + b * x` とし、誤差を求める関数を `J(a, b)` とした時、`(a, b, J(a, b))` の三次元グラフを書くと、`J(a, b)` 軸で凹凸をもったグラフとなる。すなわち、この凹みの最も深い位置が、最も誤差の少ない最適値になる。
 
 最急降下法では、以下の式で最適値を目指して勾配を下っていく。
 
-    X := X - α (grad f(X))
+<script type="math/tex; mode=display" id="MathJax-Element-gradient_descent">
+X_i := X_i - \alpha ({\partial \over \partial X_i}{f(X)})
+</script>
 
 * `X` は n 次元のベクトル
 * `α` は、どれだけ進むかの割合 _Learning rate_ で、正の数（主に定数）をとる。
-* `f(X)` を誤差を求める関数で、`grad f(X)` は、`f(X)` の最も変化の大きい方向に勾配ベクトルを向ける、偏微分の項 _Derivative term_ になる。
-* この式を反復して `X` を更新していく。勾配を下っていくため、`α` が大きすぎなければ `f(X)` は必ず小さくなる。
+* `f(X)` は誤差を求める関数で、その微分項 _Derivative term_ である `d * f(X) / d * X(i)` は、`f(X)` の最も変化の大きい方向に勾配ベクトルを向ける。
+* この式を反復して `X` を更新していく。勾配を下って凹みに向かって収束していくため、`α` が大きすぎなければ `f(X)` は必ず小さくなる。
 
-いかなる条件であっても、必ず最適解を見つけられるわけではない。
+いかなる条件であっても、必ず最適値を見つけられるわけではない。
 
 * 複数の凹みがある場合、降下を始めた地点からたどり着く「局所的な最小値」 _Local minimum_ になる。必ずしも「全域の最小値」 _Global minimum_ ではない。
 * `α` の値は、固定であっても、勾配を進む割合が一定というわけではない。
 * `α` の値は、小さすぎると収束 _Converge_ するまでに時間がかかりすぎてしまう。大きすぎると最小値を通り過ぎて、勾配を上ってしまうことになり、反復するほどに悪い解へと向かう発散 _Diverge_ を引き起こす場合もある。
 
-以下に、訓練データ `[(1, 2), (2, 4), (3, 6)]` の仮説 `h(x) = a + b * x` の `a, b` を求める例を示す。
+訓練データ `[(1, 2), (2, 4), (3, 6)]` の仮説 `h(x) = a + b * x` の `a, b` を、最急降下法で求める例を示す。
 
-`a` に対する `grad f(X)` を、`h(x) - y` の平均とする。
-
-    a := a - α * 1/m * Σ (h(x) - y)
-
-`b` に対する `grad f(X)` を、`(h(x) - y) * x` の平均とする。
-
-    b := b - α * 1/m * Σ (h(x) - y) * x
+<script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_hypothesis">
+h(x) = \theta_{0} + \theta_{1}{x} 
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_a">
+\theta_0 := \theta_0 - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(x_i) - y_i) \right)
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_b">
+\theta_1 := \theta_1 - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(x_i) - y_i) \cdot x_i \right)
+</script>
 
 `a = 1, b = 1, α = 0.1` として、この式を同時に更新していくと、`a = 0, b = 2` に収束することがわかる。
 
@@ -177,8 +199,8 @@ println(mse(data, x => (0 + 2 * x))) // (0^2 + 0^2 + 0^2) / 3 = 0
     a := 1.1366 - 0.1 * ... = 1.1452
     b := 1.1388 - 0.1 * ... = 1.4467
 
-    ... repeat after 400 times
+    ... repeated after 413 times
 
-    a := 0.0095 - 0.1 * ... = 0.0094
-    b := 1.9957 - 0.1 * ... = 1.9958
+    a := 0.0082 - 0.1 * ... = 0.0081
+    b := 1.9963 - 0.1 * ... = 1.9964
 
