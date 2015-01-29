@@ -64,47 +64,37 @@ _Unupervised Learning_ は、正解（分類）自体が定義されていない
 
 ## Linear Regression
 
-### Linear Regression Model
+### Cost Function
 
 * `x` から `y` を導く `m` 個の訓練データ _Training Set_ があるとする。例) x: 部屋の広さ, y: 家賃
 * `y` を予測する関数を `h(x) = a + b * x` とする。
-* `x(i), y(i)` を各データとした時、`h(x(i)) - y(i)` すなわち `(a + b * x(i)) - y(i)` が予測誤差になる。
-* これらの誤差の二乗したものの平均値を、「平均二乗誤差」 _Mean Squared Error (MSE)_ と呼ぶ。
-* _MSE_ が最小となる `a, b` が最適値になる。
+* `h(x) - y` すなわち `(a + b * x) - y` が予測との誤差になる。
+
+各データ毎の誤差の二乗したものの総和を、「二乗誤差」 _Squared Error_ と呼ぶ。この値が小さい程、予測との誤差が少ないことになる。この値を元に、費用関数 _Cost Function_ を定義して、最適値を見つけていく。
+
+例として、以下の費用関数 `J(a, b)` を定義し、訓練データ `x = [1; 2; 3], y = [2; 4; 6]` を適用してみる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-hypothesis">
-h(x) = \theta_{0} + \theta_{1}{x} 
+h(x) = a + bx
 </script>
-
 <script type="math/tex; mode=display" id="MathJax-Element-mse">
-\textrm{MSE} = \frac{1}{m} {\sum_{i=1}^{m} (h(x_i)-y_i)^2}
+J(a, b) = \frac{1}{2m} {\sum_{i=1}^{m} (h(x_i)-y_i)^2}
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-cost_function1">
+J(1, 1) = \frac{(2 - 2)^2 + (3 - 4)^2 + (4 - 6)^2}{2 \cdot 3} = 0.83333 \ldots
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-cost_function2">
+J(0, 2) = \frac{(2 - 2)^2 + (4 - 4)^2 + (6 - 6)^2}{2 \cdot 3} = 0
 </script>
 
-_MSE_ が最小となる予測関数を見つけることができたとしても、あらゆる入力から、誤差がない予測が可能なわけではない。あくまで保有データ内で、予測関数が見つけられたというだけである。言い替えると、保有データに関しては、誤差なく予測することができる。
+`a = 0, b = 2` すなわち `h(x) = 2 * x` が、最適な線形回帰モデル _Linear Regression Model_ になる。
 
-{% highlight scala %}
-def mse(data: Seq[(Int, Int)], h: Int => Int): Double = {
-  val se = data map { case (x, y) =>
-    math.pow(h(x) - y, 2)
-  }
-  se.sum / data.size
-}
-
-val data = Seq((1, 2), (2, 4), (3, 6))
-
-// h(x) = a + b * x, if a = 1, b = 1
-println(mse(data, x => (1 + 1 * x))) // (0^2 + (-1)^2 + (-2)^2) / 3 = 1.666
-
-// h(x) = a + b * x, if a = 0, b = 2
-println(mse(data, x => (0 + 2 * x))) // (0^2 + 0^2 + 0^2) / 3 = 0
-{% endhighlight %}
-
-`[(1, 2), (2, 4), (3, 6)]` という訓練データを例にすると、`a = 0, b = 2` すなわち `h(x) = 2 * x` が線形回帰モデルになる。このモデルは訓練データ内では誤差はないが、今後のあらゆるケースで、誤差なく予測できるわけではない。
+この訓練データ内では誤差はないが、今後のあらゆるケースで、誤差なく予測できるわけではない。あくまで訓練データ内で誤差がないというだけである。言い替えると、訓練データに関しては、誤差なく予測することができる。
 
 * 訓練データに含まれない `x = 4` が、必ず `y = h(x) = 2 * 4 = 8` という結果になるわけではない。
-* 訓練データに含まれる `x = 2` であっても、必ず `y = h(x) = 2 * 2 = 4` という結果になるわけではない。
+* 今後の入力データが、訓練データに含まれる `x = 2` であったとしても、必ず `y = h(x) = 2 * 2 = 4` という結果になるわけではない。
 
-### Gradient Decent Algorithm
+### Gradient Decent
 
 線形回帰モデルを見つけるには、勾配法 _Gradient decent_ を用いることができる。
 
@@ -112,38 +102,54 @@ println(mse(data, x => (0 + 2 * x))) // (0^2 + 0^2 + 0^2) / 3 = 0
 
 `x` を平方根、`a` をその二乗としたとき
 
-    x * x - a = 0
+<script type="math/tex; mode=display" id="MathJax-Element-newtons_method_f">
+f(x) = x^2 - a
+</script>
 
-が成り立つ。これを展開すると、`x = (x + a / x) / 2` が得られる。
+を定義する。この関数を `y` 軸においたグラフにおいて、`x` 軸との交点 `(x, f(x) = 0)` の `x` が平方根になる。
 
-    x * x - a = 0
-    x * x = a
-    x = a / x
-    2x - x = a / x
-    2x = x + (a / x)
-    x = (x + (a / x)) / 2
+この関数の任意の `(x(i), f(x(i))` を接点とする接線の傾き、すなわち導関数 `f'(x(i))` は
 
-近似値からこの式の代入を繰り返し、誤差が十分に小さくなるまで反復すれば、平方根が得られる。
+<script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd_formula">
+(x^n + C)' = nx^{n-1}
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd">
+f'(x) = (f(x))' = (x^2 - a)' = 2x
+</script>
 
-    # sqrt(3)
-    x := (x + (3 / x)) / 2
-    x := (1.5 + (3 / 1.5)) / 2 = 1.7500
-    x := (1.7500 + (3 / 1.7500)) / 2 = 1.7321
-    x := (1.7321 + (3 / 1.7321)) / 2 = 1.7320
+となる。直線の方程式は _「底辺 x = 高さ y / 傾き m」_ であるので、この傾き `f'(x(i))` をもつ接線の `x` 軸との交点 `x(i+1)` は
+
+<script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd_line">
+x_{i+1} = x_{i} - \frac{f(x_{i})}{f'(x_{i})} = x_{i} - \frac{x_{i}^2 - a}{2x_{i}}
+</script>
+
+で求められる。この式を繰り返すことで、`x(i)` と `x(i + 1)` が限りなく近づき、`x(i)` は `(x, f(x) = 0)` に収束する。
+
+{% highlight octave %}
+octave> x = 1;  % find out sqrt(3) by Newton's Method
+octave> x = x - (x^2 - 3) / (2*x)
+x =  2
+octave> x = x - (x^2 - 3) / (2*x)
+x =  1.7500
+octave> x = x - (x^2 - 3) / (2*x)
+x =  1.7321
+octave> x = x - (x^2 - 3) / (2*x)
+x =  1.7321
+{% endhighlight %}
 
 線形回帰モデルの場合にも、同じような反復を繰り返して、最適値に収束させていけばよい。方法として、最急降下法 _Steepest descent method_ がある。
 
-仮説を `h(x) = a + b * x` とし、誤差を求める関数を `J(a, b)` とした時、`(a, b, J(a, b))` の三次元グラフを書くと、`J(a, b)` 軸で凹凸をもったグラフとなる。すなわち、この凹みの最も深い位置が、最も誤差の少ない最適値になる。
+仮説を `h(x) = a + b * x` とし、費用関数を `J(a, b)` とした時、`(a, b, J(a, b))` の三次元グラフを書くと、`J(a, b)` 軸で凹凸をもったグラフとなる。すなわち、この凹みの最も深い位置が、最も誤差の少ない最適値になる。
 
 最急降下法では、以下の式で最適値を目指して勾配を下っていく。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent">
-X_i := X_i - \alpha ({\partial \over \partial X_i}{f(X)})
+X_i := X_i - \alpha \left( {\mathrm{d} f(X) \over \mathrm{d} X_i} \right)
 </script>
 
 * `X` は n 次元のベクトル
 * `α` は、どれだけ進むかの割合 _Learning rate_ で、正の数（主に定数）をとる。
-* `f(X)` は誤差を求める関数で、その微分項 _Derivative term_ である `d * f(X) / d * X(i)` は、`f(X)` の最も変化の大きい方向に勾配ベクトルを向ける。
+* 微分項 _Derivative term_ である `df(X) / dX(i)` は、費用関数 `f(X)` の最も変化の大きい方向に勾配ベクトルを向ける。
 * この式を反復して `X` を更新していく。勾配を下って凹みに向かって収束していくため、`α` が大きすぎなければ `f(X)` は必ず小さくなる。
 
 いかなる条件であっても、必ず最適値を見つけられるわけではない。
@@ -152,55 +158,95 @@ X_i := X_i - \alpha ({\partial \over \partial X_i}{f(X)})
 * `α` の値は、固定であっても、勾配を進む割合が一定というわけではない。
 * `α` の値は、小さすぎると収束 _Converge_ するまでに時間がかかりすぎてしまう。大きすぎると最小値を通り過ぎて、勾配を上ってしまうことになり、反復するほどに悪い解へと向かう発散 _Diverge_ を引き起こす場合もある。
 
-訓練データ `[(1, 2), (2, 4), (3, 6)]` の仮説 `h(x) = a + b * x` の `a, b` を、最急降下法で求める例を示す。
+訓練データ `x = [1; 2; 3]; y = [2; 4; 6]` の仮説 `h(x) = a + b * x` を、最急降下法で求めてみる。
+
+入力データ `x` より、先頭列に固定値 `1` を置いた行列 `X` を作成する。
+
+{% highlight octave %}
+octave> x = [1; 2; 3];
+octave> X = [ones(3, 1), x]
+X =
+
+   1   1
+   1   2
+   1   3
+
+{% endhighlight %}
+
+`h(x) = a + b * x` のパラメータ `a, b` 用に、ベクトル `theta` を作成する。`X(:,1) = 1` としておいたことで、行列の積 `X * theta` のみで、各入力データ行の `h(x)` が得られることが分かる。パラメータが増えた時は、`X` の各列と `theta` に追加するだけで良い。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_hypothesis">
-h(x) = \theta_{0} + \theta_{1}{x} 
+x_{0} = 1 \\
+h(x) = \theta^T x = \theta_{0}x_{0} + \theta_{1}x_{1} + \ldots + \theta_{n}x_n
 </script>
+
+{% highlight octave %}
+octave> theta = [2; 3];
+octave> X * theta
+ans =
+
+    5
+    8
+   11
+
+{% endhighlight %}
+
+微分項 _Derivative term_ を 「全データの誤差の総和 x 各パラメータ入力 / データ数」として、仮説の全パラメータに対して、同時に最急降下法を行なっていく。
+
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_a">
-\theta_0 := \theta_0 - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(x_i) - y_i) \right)
-</script>
-<script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_b">
-\theta_1 := \theta_1 - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(x_i) - y_i) \cdot x_i \right)
+\theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(X_{i}) - y_{i}) \cdot X_{i,j} \right)
 </script>
 
-`a = 1, b = 1, α = 0.1` として、この式を同時に更新していくと、`a = 0, b = 2` に収束することがわかる。
+`theta = [1; 1], alpha = 0.1` として反復していくと、`theta = [0; 2]` すなわち `h(x) = 2 * x` に収束していくことが分かる。　
 
-    a := 1 - 0.1 * (
-      (
-        ((1 + 1 * 1) - 2) +
-        ((1 + 1 * 2) - 4) +
-        ((1 + 1 * 3) - 6)
-      ) / 3
-    ) = 1.1000
-    b := 1 - 0.1 * (
-      (
-        ((1 + 1 * 1) - 2) * 1 +
-        ((1 + 1 * 2) - 4) * 2 +
-        ((1 + 1 * 3) - 6) * 3
-      ) / 3
-    ) = 1.2666
+{% highlight octave %}
+octave> x = [1; 2; 3];
+octave> y = [2; 4; 6];
 
-    a := 1.1000 - 0.1 * (
-      (
-        ((1.1 + 1.2666 * 1) - 2) +
-        ((1.1 + 1.2666 * 2) - 4) +
-        ((1.1 + 1.2666 * 3) - 6)
-      ) / 3
-    ) = 1.1366
-    b := 1.2666 - 0.1 * (
-      (
-        ((1.1 + 1.2666 * 1) - 2) * 1 +
-        ((1.1 + 1.2666 * 2) - 4) * 2 +
-        ((1.1 + 1.2666 * 3) - 6) * 3
-      ) / 3
-    ) = 1.3888
+octave> m = size(x, 1)          % number of rows
+m = 3
+octave> X = [ones(m, 1), x];    % input data with intercept term 1
+octave> alpha = 0.1;            % learniing rate
+octave> theta = [1; 1];         % parameters of hypothesis
 
-    a := 1.1366 - 0.1 * ... = 1.1452
-    b := 1.1388 - 0.1 * ... = 1.4467
+octave> X * theta - y           % difference of each output
+ans =
 
-    ... repeated after 413 times
+   0
+  -1
+  -2
 
-    a := 0.0082 - 0.1 * ... = 0.0081
-    b := 1.9963 - 0.1 * ... = 1.9964
+octave> (X * theta - y)' * X    % difference of each output * each input parameter
+ans =
+
+  -3  -8
+
+octave> theta = theta - (((X * theta - y)' * X) .* alpha / m)'
+theta =
+
+   1.1000
+   1.2667
+
+octave> theta = theta - (((X * theta - y)' * X) .* alpha / m)'
+theta =
+
+   1.1367
+   1.3889
+
+octave> for i = 1:410, theta = theta - (((X * theta - y)' * X) .* alpha / m)'; end
+octave> theta
+theta =
+
+   0.0082757
+   1.9963595
+
+octave> theta = theta - (((X * theta - y)' * X) .* alpha / m)'
+theta =
+
+   0.0081763
+   1.9964032
+
+{% endhighlight %}
+
+### Normal Equations
 
