@@ -191,7 +191,7 @@ ans =
 
 {% endhighlight %}
 
-偏微分の項を 「全データの誤差の総和 x 各パラメータ入力 / データ数」として、仮説の全パラメータに対して、同時に最急降下法を行なっていく。
+偏微分の項を 「全データの誤差の総和 x 各パラメータ入力 / データ数」として、全パラメータに対して、同時に最急降下法を行なっていく。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_a">
 \theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(X_{i}) - y_{i}) \cdot X_{i,j} \right)
@@ -248,9 +248,35 @@ theta =
 
 {% endhighlight %}
 
+#### Feature Normalization
+
+各パラメータの変動範囲を統一することで、収束時間を短くすることができる。「(値 - 平均値) / 標準偏差」に正規化すると、概ね _-2 < x < 2_ の範囲に収まる。
+
+{% highlight octave %}
+octave> X = [45 452000; 24 285000; 53 524000; 35 389000];
+octave> m = size(X, 1)
+m =  4
+octave> X = X - (ones(4, 1) * mean(X))
+X =
+
+   5.7500e+00   3.9500e+04
+  -1.5250e+01  -1.2750e+05
+   1.3750e+01   1.1150e+05
+  -4.2500e+00  -2.3500e+04
+
+octave> X = X ./ (ones(4, 1) * std(X))
+X =
+
+   0.45805   0.38983
+  -1.21483  -1.25831
+   1.09534   1.10041
+  -0.33856  -0.23192
+
+{% endhighlight %}
+
 ### Normal Equations
 
-勾配法を用いずに、連立方程式で解を得る方法もある。
+勾配法を用いずに、連立方程式で解を得る方法もある。連立方程式は以下のように行列で表すことができる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-normaleq">
 \left\{
@@ -273,9 +299,140 @@ y \\
 \begin{bmatrix}
 p \\
 q \\
+\end{bmatrix} \\
+
+\begin{bmatrix}
+x \\
+y \\
 \end{bmatrix}
+=
+\begin{bmatrix}
+a & b \\
+c & d \\
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+p \\
+q \\
+\end{bmatrix} \\
+
 \right.
 </script>
+
+おなじ要領で、訓練データの行列を用いて、連立方程式を解けばよい。
+
 <script type="math/tex; mode=display" id="MathJax-Element-normaleq_matrices">
+\theta =
+\begin{bmatrix}
+\theta_1 \\
+\theta_2 \\
+\vdots \\
+\theta_{m} \\
+\end{bmatrix}
+,
+
+X =
+\begin{bmatrix}
+x_{1,1} & x_{1,2} & \ldots & x_{1,n} \\
+x_{2,1} & x_{2,2} & \ldots & x_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+x_{m,1} & x_{m,2} & \ldots & x_{m,n} \\
+\end{bmatrix}
+,
+y =
+\begin{bmatrix}
+y_1 \\
+y_2 \\
+\vdots \\
+y_{m} \\
+\end{bmatrix}
 </script>
+
+公式は `X^-1 * y` になるが、逆行列 `X^-1` を求めるには `m = n` の正方行列 _Square matrix_ である必要がある。正方行列でない場合は、疑似逆行列 _Pseudo-inverse matrix_ `(X^T * X)^-1 * X^T` を用いる。疑似逆行列の計算には、_O(n^3)_ のコストがかかってしまうので、パラメータ数が多い場合は勾配法を使う。
+
+<script type="math/tex; mode=display" id="MathJax-Element-normaleq_matrices_formula">
+\begin{align}
+\theta & = X^{-1} y\\
+\theta & = (X^T X)^{-1} X^T y \\
+\end{align}
+</script>
+
+{% highlight octave %}
+octave> X = [1 1; 1 2; 1 3];
+octave> y = [2; 4; 6];
+
+octave> inv(X)
+error: inverse: argument must be a square matrix
+
+octave> inv(X' * X) * X'      % pseudo-inverse matrix: [1.3333 0.3333 -0.6666; -0.5 0 0.5]
+ans =
+
+   1.3333e+00   3.3333e-01  -6.6667e-01
+  -5.0000e-01  -2.2204e-16   5.0000e-01
+
+octave> pinv(X)               % using pinv(x)
+ans =
+
+   1.3333e+00   3.3333e-01  -6.6667e-01
+  -5.0000e-01  -4.8572e-16   5.0000e-01
+
+octave> inv(X' * X) * X' * X  % identity matrix: [1 0; 0 1]
+ans =
+
+   1.0000e+00  -5.3291e-15
+  -6.6613e-16   1.0000e+00
+
+octave> inv(X' * X) * X' * y  % solution: [0; 2]
+ans =
+
+  -1.0658e-14
+   2.0000e+00
+
+{% endhighlight %}
+
+#### Non-invertible Matrix
+
+行列が非可逆行列 _Non-invertible matrix (singular/degenerate)_ である場合、解が存在しない（平行グラフである）か、式が重複している（同グラフである）ため、式を満たすあらゆる解が存在する。
+
+<script type="math/tex; mode=display" id="MathJax-Element-normaleq_noninvertible">
+\left\{
+  \begin{array}{l l}
+6x + 2y & = 4 & \cdots y = 2 - 3x \\
+3x +  y & = 1 & \cdots y = 1 - 3x \\
+  \end{array}
+\right.
+
+\\
+
+\left\{
+  \begin{array}{l l}
+6x + 2y & = 2 & \cdots y = 1 - 3x \\
+3x +  y & = 1 & \cdots y = 1 - 3x \\
+  \end{array}
+\right. \\
+</script>
+
+このように非可逆行列になるケースは以下がある。これらは、重複するパラメータを減らすことで解決できる。
+
+* `X = [1 2 4; 2 4 8; 3 6 12]` のように、単に各パラメータが一定率で変化している場合
+* 訓練データ数 `m` が、パラメータ数 `n` より少ない場合
+
+{% highlight octave %}
+octave> X = [6 2; 3 1];
+octave> inv(X)
+warning: inverse: matrix singular to machine precision, rcond = 0
+ans =
+
+   Inf   Inf
+   Inf   Inf
+
+octave> X = [1 10 8; 1 23 -8];
+octave> inv(X' * X) * X'
+warning: inverse: matrix singular to machine precision, rcond = 5.26926e-19
+ans =
+
+   0.000000   0.000000
+   0.039062   0.039062
+   0.078125  -0.031250
+
+{% endhighlight %}
 
