@@ -108,22 +108,22 @@ f(x) = x^2 - a
 
 を定義する。この関数を `y` 軸においたグラフにおいて、`x` 軸との交点 `(x, f(x) = 0)` の `x` が平方根になる。
 
-この関数の任意の `(x(i), f(x(i))` を接点とする接線の傾き、すなわち導関数 `f'(x(i))` は
+この関数を微分した時の導関数 `f'(x)` は
 
-<script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd_formula">
-(x^n + C)' = nx^{n-1}
-</script>
 <script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd">
+(x^n + C)' = nx^{n-1} \\
 f'(x) = (f(x))' = (x^2 - a)' = 2x
 </script>
 
-となる。直線の方程式は _「底辺 x = 高さ y / 傾き m」_ であるので、この傾き `f'(x(i))` をもつ接線の `x` 軸との交点 `x(i+1)` は
+であるので、任意の `(x(i), f(x(i)))` を接点とする接線の傾きは、`f'(x(i)) = 2x(i)` であることがわかる。
+
+直線の方程式は _「底辺 x = 高さ y / 傾き m」_ であるので、この接線の `x` 軸との交点を `x(i+1)` とすると
 
 <script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd_line">
 x_{i+1} = x_{i} - \frac{f(x_{i})}{f'(x_{i})} = x_{i} - \frac{x_{i}^2 - a}{2x_{i}}
 </script>
 
-で求められる。この式を繰り返すことで、`x(i)` と `x(i + 1)` が限りなく近づき、`x(i)` は `(x, f(x) = 0)` に収束する。
+で求められる。この式を繰り返すことで、`x(i)` と `x(i+1)` が限りなく近づき、`x(i)` は `(x, f(x) = 0)` すなわち平方根に収束する。
 
 {% highlight octave %}
 octave> x = 1;  % find out sqrt(3) by Newton's Method
@@ -144,12 +144,12 @@ x =  1.7321
 最急降下法では、以下の式で最適値を目指して勾配を下っていく。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent">
-X_i := X_i - \alpha \left( {\mathrm{d} f(X) \over \mathrm{d} X_i} \right)
+X_i := X_i - \alpha \left( {\partial f(X) \over \partial X_i} \right)
 </script>
 
 * `X` は n 次元のベクトル
 * `α` は、どれだけ進むかの割合 _Learning rate_ で、正の数（主に定数）をとる。
-* 微分項 _Derivative term_ である `df(X) / dX(i)` は、費用関数 `f(X)` の最も変化の大きい方向に勾配ベクトルを向ける。
+* 偏微分の項 _Derivative term_ である `df(X) / dX(i)` は、費用関数 `f(X)` の最も変化の大きい方向に勾配ベクトルを向ける。
 * この式を反復して `X` を更新していく。勾配を下って凹みに向かって収束していくため、`α` が大きすぎなければ `f(X)` は必ず小さくなる。
 
 いかなる条件であっても、必ず最適値を見つけられるわけではない。
@@ -191,7 +191,7 @@ ans =
 
 {% endhighlight %}
 
-微分項 _Derivative term_ を 「全データの誤差の総和 x 各パラメータ入力 / データ数」として、仮説の全パラメータに対して、同時に最急降下法を行なっていく。
+偏微分の項を 「全データの誤差の総和 x 各パラメータ入力 / データ数」として、仮説の全パラメータに対して、同時に最急降下法を行なっていく。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_a">
 \theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h(X_{i}) - y_{i}) \cdot X_{i,j} \right)
@@ -249,4 +249,33 @@ theta =
 {% endhighlight %}
 
 ### Normal Equations
+
+勾配法を用いずに、連立方程式で解を得る方法もある。
+
+<script type="math/tex; mode=display" id="MathJax-Element-normaleq">
+\left\{
+  \begin{array}{l l}
+ax + by = p \\
+cx + dy = q \\
+  \end{array}
+
+\quad
+
+\begin{bmatrix}
+a & b \\
+c & d \\
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+p \\
+q \\
+\end{bmatrix}
+\right.
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-normaleq_matrices">
+</script>
 
