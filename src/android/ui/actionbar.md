@@ -74,7 +74,7 @@ Menu Resource において、いくつかの属性 `android:showAsAction` など
 </menu>
 {% endhighlight %}
 
-Activity は [ActionBarActivity](http://developer.android.com/reference/android/support/v7/app/ActionBarActivity.html) を継承する。`ActionBar` は `ActionBarActivity#getSupportActionBar` から取得する。
+Activity は `android.support.v7.app.ActionBarActivity` を継承する。`ActionBar` は `ActionBarActivity#getSupportActionBar` から取得する。
 
 {% highlight java %}
 ...
