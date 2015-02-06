@@ -207,7 +207,7 @@ public Cursor query(Uri uri, String[] projection, String selection,
 {% highlight xml %}
 <searchable ...
     android:searchSuggestAuthority="net.example.android.search.SuggestionsProvider"
-    android:searchSuggestSelection=" ?" />
+    android:searchSuggestSelection=" ? " />
 {% endhighlight %}
 
 {% highlight java %}
@@ -239,7 +239,7 @@ public Cursor query(Uri uri, String[] projection, String selection,
 * `SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID`
 * `SearchManager.SUGGEST_COLUMN_INTENT_EXTRA_DATA`
 
-全ての候補に共通であれば `SearchableInfo` に含めることもできる。
+全ての候補に共通な値は、`SearchableInfo` に含めることもできる。
 
 {% highlight xml %}
 <!--
@@ -252,4 +252,49 @@ searchSuggestIntentData  : SUGGEST_COLUMN_INTENT_DATA
 {% endhighlight %}
 
 ## SearchRecentSuggestionsProvider
+
+* <http://developer.android.com/guide/topics/search/adding-recent-query-suggestions.html>
+
+検索クエリの履歴を候補にするなら、`SearchRecentSuggestionsProvider` を継承した Content Provider を使えば良い。
+
+{% highlight java %}
+import android.content.SearchRecentSuggestionsProvider;
+
+public class SearchHistoryProvider extends SearchRecentSuggestionsProvider {
+    public final static String AUTHORITY = "net.example.android.search.SearchHistoryProvider";
+    public final static int MODE = DATABASE_MODE_QUERIES;
+
+    public SearchHistoryProvider() {
+        setupSuggestions(AUTHORITY, MODE);
+    }
+}
+{% endhighlight %}
+
+`SearchRecentSuggestionsProvider#query` の実装では、検索クエリを `selectionArgs` から取得するため、`android:searchSuggestSelection` には、ダミー文字列 ` ? ` を指定する。
+
+{% highlight xml %}
+<searchable ...
+    android:searchSuggestAuthority="net.example.android.search.SearchHistoryProvider"
+    android:searchSuggestSelection=" ? " />
+{% endhighlight %}
+
+履歴に追加する検索クエリは `SearchRecentSuggestions#saveRecentQuery` を介して登録する。
+
+{% highlight java %}
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    ...
+    Intent intent  = getIntent();
+
+    if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+        String query = intent.getStringExtra(SearchManager.QUERY);
+        SearchRecentSuggestions suggestions = new SearchRecentSuggestions(this,
+                SearchHistoryProvider.AUTHORITY, SearchHistoryProvider.MODE);
+        suggestions.saveRecentQuery(query, null);
+    }
+}
+{% endhighlight %}
+
+履歴の削除には `SearchRecentSuggestions#clearHistory` を用いる。ユーザのプライバシーのため、アプリケーションでは必ず提供しておくべきである。
 
