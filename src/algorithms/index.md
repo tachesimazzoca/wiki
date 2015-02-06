@@ -1,5 +1,5 @@
 ---
 layout: index
 
-title: Algorithms 
+title: Algorithms
 ---
