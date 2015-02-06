@@ -177,3 +177,79 @@ SearchView searchView = (SearchView) MenuItemCompat.getActionView(
     menu.findItem(R.id.action_search));
 {% endhighlight %}
 
+## Query Suggestions
+
+Content Provider により、検索クエリの候補表示を行なうことができる。
+
+`searchable[@android:searchSuggestAuthority]` に Content Provider の Authority を指定する。
+
+{% highlight xml %}
+<searchable ...
+    android:searchSuggestAuthority="net.example.android.search.SuggestionsProvider" />
+{% endhighlight %}
+
+検索クエリの入力毎に `ContentProvider#query` が呼ばれるので、適宜、候補文字列への `Cursor` を返せばよい。URI の最後尾パスに、検索クエリがURLエンコードされて渡される。
+
+{% highlight java %}
+@Override
+public Cursor query(Uri uri, String[] projection, String selection,
+                    String[] selectionArgs, String sortOrder) {
+    // content://net.example.android.search.SuggestionProvider/(encodedQueryString)?...
+    Log.i(TAG, uri.toString());
+
+    String q = uri.getLastPathSegment();
+    ...
+}
+{% endhighlight %}
+
+`searchable[@android:searchSuggestSelection]` に、`ContentProvider#query` の第２引数 `selection` に渡す文字列（WHERE 節等）を指定できる。この場合、検索クエリは、第３引数の `selectionArgs` に渡される。`selection` 文字列をどう使うかは、`ContentProvider#query` メゾッドの実装次第なので、単に `selectionArgs` から検索クエリを受け取るために、ダミーの `android:searchSuggestSelection` を指定する方法もある。
+
+{% highlight xml %}
+<searchable ...
+    android:searchSuggestAuthority="net.example.android.search.SuggestionsProvider"
+    android:searchSuggestSelection=" ?" />
+{% endhighlight %}
+
+{% highlight java %}
+@Override
+public Cursor query(Uri uri, String[] projection, String selection,
+                    String[] selectionArgs, String sortOrder) {
+    if (1 != selectionArgs.length)
+        throw new IllegalArgumentException("The length of selectionArgs must be 1.");
+    String q = selectionArgs[0];
+    ...
+}
+{% endhighlight %}
+
+`Cursor` には、主に以下のカラムが必要になる。
+
+* `BasicColumns._ID`: 候補一覧の Adapter から選択するために必要
+* `SearchManager.SUGGEST_COLUMN_TEXT_1`: 候補文字列
+* `SearchManager.SUGGEST_COLUMN_TEXT_2`: 候補説明文
+* `SearchManager.SUGGEST_COLUMN_QUERY`: `Intent.ACTION_SEARCH` の場合、検索クエリとして `SerchManager.QUERY` に渡す文字列
+
+候補選択時に `Intent.ACTION_SEARCH` ではなく、任意の Intent を発行することもできる。
+
+* <http://developer.android.com/guide/topics/search/adding-custom-suggestions.html#IntentForSuggestions>
+
+`Cursor` の各レコードに `SearchManager.SUGGEST_COLUMN_INTENT_*` のカラム値を含めればよい。
+
+* `SearchManager.SUGGEST_COLUMN_INTENT_ACTION`
+* `SearchManager.SUGGEST_COLUMN_INTENT_DATA`
+* `SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID`
+* `SearchManager.SUGGEST_COLUMN_INTENT_EXTRA_DATA`
+
+全ての候補に共通であれば `SearchableInfo` に含めることもできる。
+
+{% highlight xml %}
+<!--
+searchSuggestIntentAction: SUGGEST_COLUMN_INTENT_ACTION
+searchSuggestIntentData  : SUGGEST_COLUMN_INTENT_DATA
+-->
+<searchable ...
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestIntentData="content://net.example.android.data" />
+{% endhighlight %}
+
+## SearchRecentSuggestionsProvider
+
