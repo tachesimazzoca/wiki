@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Article
+title: Articles
 ---
 
 ## 使い方

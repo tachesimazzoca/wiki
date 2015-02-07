@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Determiner
+title: Determiners
 
 index: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Gerund
+title: Gerunds
 ---
 
 ## 使い方

@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Distributive
+title: Distributives
 ---
 
 ## 使い方

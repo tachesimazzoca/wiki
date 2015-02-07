@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Quantifier
+title: Quantifiers
 ---
 
 ## 使い方

@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Infinitive
+title: Infinitives
 ---
 
 ## 使い方
