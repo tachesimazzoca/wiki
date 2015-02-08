@@ -4,22 +4,30 @@ layout: page
 title: Clauses
 ---
 
-## that / who / which / what
+## Adjective Clauses
 
-_who_ により、人物に関する情報を追加できる。_who_ の代わりに _that_ を使う事ができる。
+形容詞節 _Adjective Clauses_ は、関係代名詞を用いて名詞を修飾する。
+
+### Restrictive vs. Nonrestrictive
+
+特定するための必須の情報 _Restrictive_ の場合、節をカンマで区切らない。
 
 * The man __who__ stands by that door is my father.
-* The woman __that__ is speaking is my mother.
 
-目的語になる場合は、_who / that_ を省略できる。
-
-* The people _(who|that)_ I work with are very friendly.
-
-特定するための情報でなければ、カンマで区切って _who_ を別名のように使い、補足情報として追加する。この場合は _that_ を使う事はできない。
+補足情報 _Nonrestrictive_ であれば、カンマで区切る。関係代名詞に _that_ を使うことはできない。
 
 * My sister Alice, <del>that</del> __who__ lives in Cupertino, works for Apple.
 
-物に対しては _which_ を使う。ルールは _who_ と同様である。
+文書においては、特定するための情報に _that_ を使い、カンマで区切る補足情報には _who / which_ を使うように統一することで、より読みやすい文章になる。
+
+### that / who / which / what
+
+_who_ により、人物に関する情報を追加できる。_who_ の代わりに _that_ を使う事ができる。目的語になる場合は、_who / that_ を省略できる。
+
+* The woman __(who|that)__ is speaking is my mother.
+* The people I work with are very friendly.
+
+物に対しては _which_ を使う。
 
 * The book __that__ I bought yesterday is very interesting.
 * The hotel __that__ you recommended was very comfortable.
@@ -28,22 +36,20 @@ _who_ により、人物に関する情報を追加できる。_who_ の代わ�
 * Yesterday I visited Bob's house, __which__ I've never been to.
 * I had a new job, __which__ I'm enjoying a lot.
 
-文書においては、特定するための情報に _that_ を使い、カンマで区切る補足情報には _who / which_ を使うように統一することで、より読みやすい文章になる。
-
 _what_ は _the thing that_ の意味になる。
 
 * I didn't hear __what__ you said.
 * I did <del>that</del> __what__ he asked me to do.
 * I did the thing <del>what</del> __that__ he asked me to do.
 
-## whose
+### whose
 
 _whose_ は _his / her / their_ の代わりとして、関係節を組み立てることができる。
 
 * I met a man __whose__ brother knows you.
 * in Quebec, many people __whose__ mother tongue is English speak French.
 
-## whom / which
+### whom / which
 
 目的語の場合 _whom / which_ で、ペアの前置詞を前に持ってくる事ができる。前置詞をともなう場合は、_that_ に置き換えることはできない。ただし、口語ではあまり使われない。
 
@@ -56,7 +62,7 @@ _of ..._ で部分集合に関連づけるときは、_whom / which_ を使う�
 * I have a lot of friends, __most of whom__ I met in college.
 * She said that she bought a book, __the name of which__ I can't remember.
 
-## ...ing / ...ed
+### ...ing / ...ed
 
 一時的に起こっていること _(who / which) + be + ...ing_ は _...ing_ に省略できる。
 
@@ -74,7 +80,7 @@ _(who / which) + be + ...ed_ は _...ed_ に省略できる。
 * The book _(which was)_ __written__ by him is very nice.
 * Somebody _(who is)_ __named__ Alice called you about an hour ago.
 
-## when / where / why / how
+### when / where / why / how
 
 _前置詞 + which_ は、_when / where / why / how_ あるいは _that_ に置き換える。文脈から自明の先行詞や関係詞は省略する。
 
