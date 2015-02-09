@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Broadcast
+title: Broadcast Receivers
 ---
 
 ## Overview

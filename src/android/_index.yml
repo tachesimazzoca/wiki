@@ -4,6 +4,7 @@
 - "broadcast"
 - "notifications"
 - "storage"
+- "providers"
 - "preferences"
 - "material"
 - "ui/"
