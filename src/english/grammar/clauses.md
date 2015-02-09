@@ -4,21 +4,30 @@ layout: page
 title: Clauses
 ---
 
-## Adjective Clauses
+## 使い方
 
-形容詞節 _Adjective Clauses_ は、関係代名詞を用いて名詞を修飾する。
+文章中に、主語と動詞が含まれる部分を、節 _Clause_ と呼ぶ。
 
-### Restrictive vs. Nonrestrictive
+それ自体で意味が成り立つ節を、主節 _Main Clause_ と呼ぶ。対して、それ自体では意味が成り立たない節を、従属節 _Subordinate Clause_ と呼ぶ。
 
-特定するための必須の情報 _Restrictive_ の場合、節をカンマで区切らない。
+* 主節 _Main Clause_
+* 従属節 _Subordinate Clause_
+  * 形容詞節 _Adjective Clause_: 関係代名詞 _Relative Pronoun_ を用いて、名詞を修飾
+  * 副詞節 _Adverb Clause_: 従位接続詞 _Subordinate Conjunction_ を用いて、主節を修飾
+
+## 形容詞節
+
+### 制限用法と非制限用法
+
+制限用法は、特定するための必須の情報 _Restrictive / Essential_ の場合、節をカンマで区切らない。
 
 * The man __who__ stands by that door is my father.
 
-補足情報 _Nonrestrictive_ であれば、カンマで区切る。関係代名詞に _that_ を使うことはできない。
+非制限用法は、補足情報 _Nonrestrictive / Nonessential_ であれば、カンマで区切る。関係代名詞に _that_ を使うことはできない。
 
 * My sister Alice, <del>that</del> __who__ lives in Cupertino, works for Apple.
 
-文書においては、特定するための情報に _that_ を使い、カンマで区切る補足情報には _who / which_ を使うように統一することで、より読みやすい文章になる。
+文書においては、制限用法には _that_ を使い、非制限用法には _who / which_ を使うように統一することで、より読みやすくなる。
 
 ### that / who / which / what
 
