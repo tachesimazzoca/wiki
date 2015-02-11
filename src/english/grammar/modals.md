@@ -37,7 +37,7 @@ _was able to_ は 「なんとかやり遂げた」_managed to_ の意味にな�
 
 * 「... できたんだけどしなかった」
   * Why did you walk? You __could have taken__ a taxi.
-  * You __could have bought__ a ticket for the final. There were many vacant seats in the stadium.
+  * You __could have bought__ a ticket for the final. There were so many vacant seats in the stadium.
 * 「... できたくらいの思いがあった」
   * I was so hungry. I __could have eaten__ a horse.
 

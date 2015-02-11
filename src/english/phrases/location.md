@@ -11,7 +11,7 @@ title: Location
 _at_ は、ピンポイントで場所を指し示す時に使う。待ち合わせや探し物をしているときに、どこにいるか（あるか）を明確に伝える。
 
 * I'm __at the station__.
-* There were many people __at the party__.
+* There were a lot of people __at the party__.
 * He's working __at his desk__.
 * The post office is __at the end of the street__.
 

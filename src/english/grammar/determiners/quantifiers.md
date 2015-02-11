@@ -91,23 +91,28 @@ _none of_ の場合は、単数扱いでもよい。
 * I bought __a loaf of bread__.
 * Would you like __a piece of cake__?
 
-「ちょっと / たくさん」を表す場合、可算名詞には _few / many_ を使い、不可算名詞には _little / much_ を使う。
+「ちょっと」を表す場合、可算名詞（数）には _few_ を使い、不可算名詞（量）には _little_ を使う。
 
 * I have __few__ friends. _少ししかいない（後ろ向き）_
 * I have __a few__ friends. _数名いる（前向き）_
-* I have __many__ friends. _たくさんいる_
 * I have __little__ money. _少ししか持っていない（後ろ向き）_
 * I have __a little__ money. _少しなら持っている（前向き）_
-* I have __much__ money. _たくさん持っている_
 
-_a lot of / lots of / plenty of_ は、可算名詞 / 不可算名詞のどちらでも使えるが、ややカジュアルな印象になる。_lot_ 「ロット」は生産単位で、_a lot of_ は、それなりに「たくさん」を表す。_lots of_ なら複数ロットなので「かなりたくさん」になる。
+「たくさん」を表す場合、たくさんあることを断定する肯定文では _a lot of / lots of / plenty of_ を使う。
 
-* I have __many__ books.
 * I have __a lot of__ books.
-* I have __lots of__ books.
-* I don't have __much__ money. _否定文ではあまり使われない_
-* He has __(much|lots of)__ confidence.
 * We have __plenty of__ time. _plenty は「十分な」量_
+
+疑問/否定/条件文で断定しない場合は、可算名詞には _many_ を使い、不可算名詞には _much_ を使う。ただし、主語であったり、_so / too_ で修飾されれば使える。
+
+* I have <del>many</del> __a lot of__ books.
+* I don't have __many__ books.
+* Do you have __many__ friends?
+* I have __so many__ books.
+* I have <del>much</del> __full of__ confidence.
+* I don't have __much__ money.
+* If you have __much__ money, ....
+* I have __too much__ money.
 
 _some / any_ はどちらでも使える。
 
