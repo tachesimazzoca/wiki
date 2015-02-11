@@ -10,6 +10,12 @@ title: Adjectives
 
 * It's a __nice__ book.
 
+不定代名詞の場合には、後ろに置く。
+
+* something __new__
+* something __good__
+* some place __fun__
+
 形容詞は複数置くことができる。意見のあとに、大きさや色などの事実を置く。
 
 * 意見 _Opinion_: _nice / interesting / beautiful / funny / curious / ..._
