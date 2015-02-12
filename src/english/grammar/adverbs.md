@@ -179,5 +179,15 @@ _even_ は「... さえも」という、想定していない驚きを加える
 3. quite _思ったより（褒め言葉にはならない）_
 4. fairly / pretty _それなりに / まあまあ_
 
-pretty は口語のみで用いられる。「とても」と「まあまあ」の両方の意味があるので、発声のニュアンスで使い分ける。
+_pretty_ は口語のみで用いられる。「とても」と「まあまあ」の両方の意味があるので、発声のニュアンスで使い分ける。
+
+_quite_ は、段階（評価）のない形容詞の場合には _absolutely / completely_ のように「全く」のようになる。
+
+* quite perfect
+* quite wrong
+
+_quite (few|little)_ 「きわめて少ない」意味だが、_quite a (few|little|bit)_ は「結構多い」意味になる。_quite (few|little)_ は紛らわしいので、あまり使われていない。使われていても、_a_ が抜けてしまった間違いであるケースが多い。Google 翻訳では「かなりの数の」と翻訳される。
+
+* quite [a bit different] = 結構多い「わずかな違い」 = very different
+* [quite few] days = 「きわめて少ない」日数 = very few / few / not many
 
