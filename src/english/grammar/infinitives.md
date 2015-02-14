@@ -21,52 +21,40 @@ title: Infinitives
 * fail / forget / threaten
 * seem / appear / tend / pretend
 
-## 動詞 + 目的語 + to ...
+## 名詞的用法
 
-動詞 + 目的語 + _to ..._ で「... に ... することを ... する」という意味になる。
+名詞的用法により「... すること」という名詞句を表すことができる。
 
-* He __invited me to come__ to the party.
-* I __told him to check__  the document.
-* She __warned me not to sit__ on the grass.
-* Can you __remind me to attend__  the meeting tomorrow?
+* I want __to go there__.
+* She decided __not to go there__.
+* This function is __to calculate MD5 checksum__.
 
-動詞によっては、目的語をとらない事もできるが、意味が異ってしまう場合もあるので注意する。
+不定詞は「これからすること」なので、一般的な「...すること」の意味で使うと不自然になる。代わりに動名詞を使う。
 
-* She __wants to know__ it. / She __wants me to know__ it.
-* He __asked to stay__ here. / He __asked me to stay__ here.
-* I __would like to go__ there. / I __would like you to go__ there.
-* I __expected to be__ late. / I __expected him to be__ late.
+* <del>To study English</del> is important.
+  * Studying English is important.
+  * It is important to study English.
 
-_want_ は _that_ 節や動名詞とともに用いることはできない。
+## 形容詞的用法
 
-* He __want me to__ go there.
-  * <del>They __want that I__ go there.</del>
-  * <del>They __want me__ going there.</del>
+「名詞 + 不定詞」で、形容詞的に名詞を修飾することができる。後付けになるので日本語から考えると思いつきにくい。
 
-動名詞しかとれない動詞は、不定詞 _to ..._ は使えない。_that_ 節、または動名詞を使う。
-
-* I __suggested that__ he __learn__ English.
-  * <del>I suggested him to learn English.</del>
-* I __recommended that__ he __check__ the API documents.
-  * <del>I recommended to him to check the API documents.</del>
-* I don't __mind you turning__ down the volume.
-  * <del>I don't mind you to turn down the volume.</del>
-* I can't __imagine them getting__ married.
-  * <del>I can't imagine them to get married.</del>
-
-_advise / allow_ は動名詞 _...ing_ 、または 目的語 + _to ..._ の両方をとることができる。
-
-* I wouldn't __advise (staying|anybody to stay)__ here.
-* You're not __allowed (reading|to read)__ the document.
-
-## to ... / for ... ing / so that
-
-不定詞には「... するために」の目的を表す意味もある。
-
-* __To start__ this game, press the button "Enter".
-* This function is __to calculate__ MD5 checksum.
-* I can't find a place __to park__.
 * Would you like something __to eat__?
+* I have nothing __to do__.
+* There are a lot of packages __to install__.
+* I can't find a place __to park__.
+* Do you have anything __to write with__?
+
+## 副詞的用法（目的）
+
+_in order to_ の「... するために」と同じ意味で、副詞的に用いることができる。
+
+* I went to the store __to buy some milk__.
+* Press the button "Enter" __to start this game__.
+
+文書や講義などでは、目的であることを明確にするために _in order to_ を多く見かける。
+
+### for ... ing
 
 名詞の場合は、_for 名詞_ を用いる。目的を質問するときは _What ... for?_ を使う。
 
@@ -78,6 +66,8 @@ _for someone to ..._ で「... が ... するために」という表現が使�
 
 * We created short examples __for you to get__ started.
 
+### so that + 仮定法
+
 「... しないように」という場合は、_so that ... (won't / wouldn't)_ を用いる。
 
 * We developed these __so that__ you __wouldn't__ miss awesome stuff around you.
@@ -88,15 +78,26 @@ _for someone to ..._ で「... が ... するために」という表現が使�
 * We developed these __so that__ you __could__ get awesome stuff around you.
 * Check our blog __so that__ you __can__ get any important information.
 
-## 形容詞 + to ...
+## 副詞的用法（理由）
 
-_形容詞 （+ 名詞） + to ..._ で「... することは ... である」の意味になる。
+「形容詞 + 不定詞」で、その理由を表すことができる。
 
-* It's __hard to answer__ the question.
-* The question is __hard to answer__.
-* This is a __difficult question to answer__.
-* It's __interesting to talk__ to you.
-* You are __interesting to talk__ to.
+* It's hard __to answer the question__.
+* The question is hard __to answer__.
+* It's interesting __to talk to you__.
+* You are interesting __to talk to__.
+
+### too ... to ...
+
+「... するには ... すぎる」
+
+* This question is __too__ difficult for me __to answer__.
+
+### enough to ...
+
+「... するのに十分 ... である」
+
+* You are old enough __to get married__.
 
 ### sorry to ...
 
@@ -133,4 +134,105 @@ _interested to ..._ と _interested in ..._ は、興味があるという点で
 * I would be __interested in__ what he thinks. _彼が考えている事に興味が湧くだろう_
 
 _interested to ..._ の場合は、実際にそうなったあとで興味を持ったことになる。_interested in ..._ の場合は、興味があるだけで、まだその内容は体験していない。
+
+## 補語としての不定詞
+
+第５文型 S + V + O + C の補語 (C) として「... するように」の意味で使う。
+
+* want / would like / wish
+  * I would like you __to go there__.
+* ask / request / require / beg
+  * He asked me __to stay here__.
+* tell / teach / train
+  * I told him __to check the document__.
+* invite / tempt
+  * He invited me __to come to the party__.
+* remind
+  * Can you remind me __to attend the meeting tomorrow__?
+* expect / suppose
+  * I expected him __to be late__.
+* help / encourage
+* advise / warn
+  * She warned me __not to sit on the grass__.
+* allow / permit
+* convince / urge / persuade
+* command / direct / lead / order / oblige
+* enable / intend / cause / force
+
+### help
+
+_help_ の場合 _to_ を省略してもよい。
+
+* He __helped__ me __solve__ the problem.
+* Can you __help__ me __move__ these chairs?
+
+_can't help ...ing_ は「... せずにはいられない」という意味になる。
+
+* I __couldn't help laughing__. _笑わずにはいられなかった_
+* I __can't help feeling__ bad. _嫌な思いをせずにはいられなかった_
+* "Can't Help Falling In Love / Elvis Presley"
+
+### want
+
+_want_ は _that_ 節や動名詞とともに用いることはできない。
+
+* He __want me to__ go there.
+  * <del>They __want that I__ go there.</del>
+  * <del>They __want me__ going there.</del>
+
+### 不定詞が使えないケース
+
+動名詞しかとれない動詞は、不定詞は使えない。_that_ 節、または動名詞を使う。
+
+* I __suggested that__ he __learn__ English.
+  * <del>I suggested him to learn English.</del>
+* I __recommended that__ he __check__ the API documents.
+  * <del>I recommended him to check the API documents.</del>
+* I don't __mind you turning__ down the volume.
+  * <del>I don't mind you to turn down the volume.</del>
+* I can't __imagine them getting__ married.
+  * <del>I can't imagine them to get married.</del>
+
+_advise / allow_ は、動名詞と不定詞の両方をとることができる。
+
+* I wouldn't __advise (staying|to stay)__ here.
+* You're not __allowed (reading|to read)__ the document.
+
+## 原型不定詞
+
+### 使役動詞
+
+「... に ... させる」_let / make / have_ は使役動詞と呼ばれ、原形不定詞をとる。
+
+* __let__ _... することを許す_
+  * __Let__ me __know__ when you find out. _分かったら教えてください_
+  * I'll __let__ you __know__ when I arrive.
+* __make__ _強制的に ... させる_
+  * This video __made__ me __laugh__.
+  * I __made__ him __promise__ that he wouldn't tell anyone.
+* __have__ _非強制的に ... させる。目上の人が目下の人に使う_
+  * I __had__ my son __do__ the dishes.
+  * She __had__ me __report__ to headquarters.
+
+ただし、受動態にする時は _to_ を伴う。
+
+* I __was made to__ laugh by this video.
+* I've __been let to__ know that there are such modules.
+
+### 知覚動詞
+
+_saw somobody (do|doing) something_ で「... が ... （した / している）のを見た」という意味になる。すでに完了したことには原形不定詞をとり、継続中のことには現在分詞を使う。
+
+* I __saw__ him __get__ into a car and __drive__ away. _車乗って走り去ったのを見た（完了している）_
+* I __saw__ you __crossing__ the street. _渡っているところを見た（渡りきっていない）_
+
+_see_ の他に、知覚する動詞で同様にこの形式が使える。
+
+* see / hear / listen to / smell
+* feel / find / notice
+
+知覚した意味で _that_ 節は取らない。意味が違ってくる。
+
+* I __heard__ him __talking__ to you. _あなたと話しているのが聞こえた_
+* I __heard that__ he __talked__ to you. _あなたと話したということを聞いた（自分は聞いていない）_
 
