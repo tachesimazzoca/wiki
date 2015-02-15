@@ -162,3 +162,46 @@ _I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立�
 * The _USB media(drive)_ __is__ write-protected.
 * _USB media(drives)_ __are__ popular for storing data.
 
+## 分詞句
+
+分詞句 _Participial Phrase_ は、現在分詞や過去分詞を用いて、形容詞的に名詞を修飾する。
+
+分詞のみで修飾するときは、名詞の前に置く。
+
+* There is a __running__ dog.
+* The __speficied__ value is out of range.
+
+他の語句を含む場合は、名詞の後に置く。
+
+* There is a dog __running in the park__.
+* The value __specified for the parameter X__ is out of range.
+
+関係節で _(who|which) be_ が省略されているのと同じ事なので、単なる補足情報であれば非制限用法としてカンマで区切る。文頭に置いて主体を修飾するケースもある。
+
+* Alice, __singing and humming__, washed her car.
+* __Bored and annoyed__, my brother was doing his homework.
+* __Holding a lot of books in her hands__, the woman was looking for a place.
+
+### while + ...ing
+
+_(while / when / upon) + ..ing_ で「... している時」と同時に起こっている事を伝える。_while_ は省略できる。
+
+* I hurt my knee __(while) taking__ a bath.
+
+_while_ を省略すると意味が違うケースがある。自明でない場合には省略しない。
+
+* I saw a dog walking along the street. _歩いているのは犬？私？_
+  * I saw __a dog (which is) walking along the street__.
+  * I saw a dog __while (I was) walking along the street__.
+
+_(After) Having 過去分詞, ..._ で「... した後に」という表現が使える。
+
+* __Having__ watched TV, I went out.
+
+直後なら、単に _...ing_ でもよい。「... であったので」のような意味にもなる。
+
+* __Finishing__ work, I went home.
+* __Feeling__ tired, I went to bed early. _Because I felt tired, ..._
+
+ただし、どちらかというと文語的な表現で、あまり会話では使われない。
+

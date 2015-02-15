@@ -83,21 +83,3 @@ _mind / consider / imagine_ など思考する動詞が間違いやすいが、�
 * I prefer driving __to__ <del>travel</del> __traveling__ by train.
 * I'm looking forward __to__ <del>see</del> __seeing__ you.
 
-## while + ...ing
-
-_(while / when / upon) + ..ing_ で「... している時」と同時に起こっている事を伝える。_while_ は省略できる。
-
-* I saw a dog __(while) walking__ along the street. _歩いている時、犬を見かけた_
-* I hurt my knee __(while) taking__ a bath.
-
-_(After) Having 過去分詞, ..._ で「... した後に」という表現が使える。
-
-* __Having__ watched TV, I went out.
-
-直後なら、単に _...ing_ でもよい。「... であったので」のような意味にもなる。
-
-* __Finishing__ work, I went home.
-* __Feeling__ tired, I went to bed early. _Because I felt tired, ..._
-
-ただし、どちらかというと文語的な表現で、あまり会話では使われない。
-
