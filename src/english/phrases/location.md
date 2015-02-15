@@ -4,7 +4,7 @@ layout: page
 title: Location
 ---
 
-## Prepositional Phrases
+## Prepositions
 
 ### at
 
@@ -229,8 +229,6 @@ _all over_ で「... のあたり一面 / あちこち / 隅々」を表す。
 * a country beyond the sea / an overseas country
 * Is there anything __beyond the sky__? _空の向こう_
 * This question is __beyond me__. _私の手に負えない_
-
-## Adverbial Phrases
 
 ### ahead of / back of
 
