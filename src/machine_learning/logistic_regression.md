@@ -15,7 +15,7 @@ title: Logistic Regression
 
 _Classification Problem_ において、`(0|1)` の二つの値 _Binomial_ に分類することを考えてみる。
 
-仮説 `h(x)` の範囲を `0 < h(x) < 1` に制限し、境界値 `0.5` を境に `(0|1)` に分類すればよい。シグモイド関数 _Sigmoid (Logistic) Function_ により、`(0, 0.5)` に変曲点をもち、`(-∞, ∞) -> (0, 1)` となる関数を実現できる。
+仮説 `h(x)` の範囲を `0 < h(x) < 1` に制限し、境界値 `0.5` を境に `(0|1)` に分類すればよい。シグモイド関数 _Sigmoid (Logistic) Function_ により、`(0, 0.5)` に変曲点をもち、`(-Inf, Inf) -> (0, 1)` となる関数を実現できる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-sigmoid">
 g(z) = \frac{1}{1 + e^{-z}} \\
@@ -81,5 +81,31 @@ y = 1 & x_{1}^2 + x_{2}^2 > 1 & (-2, 0), (0, -2), (2, 0), (0, 2), \ldots \\
 y = 0.5 & x_{1}^2 + x_{2}^2 = 1 & (-1, 0), (0, -1), (1, 0), (0, 1), \ldots \\
 y = 0 & x_{1}^2 + x_{2}^2 < 1 & (-0.5, 0), (0, -0.5), (0.5, 0), (0, 0.5), \ldots \\
 \end{array}
+</script>
+
+## Cost Function
+
+_Logistic Regression_ での誤差は
+
+* 仮説 `h(x)` が、期待値 `(0|1)` に近づくほどに `0`
+* 仮説 `h(x)` が、期待値 `(0|1)` から離れるほどに無限大
+
+となればよい。
+
+`(-log(1), -log(0)) = (0, Inf)` であることを利用して、誤差を以下のように定義できる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-logistic_function_error_def">
+\left\{
+  \begin{array}{l l}
+  -log(h_{\theta}(x))     & \text{if $y = 1$} \\
+  -log(1 - h_{\theta}(x)) & \text{if $y = 0$} \\
+  \end{array} \\
+\right.
+</script>
+
+`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均を費用関数とすると以下となる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-logistic_function_cost">
+J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(x_i))(y_i) - log(1 - h_{\theta}(x_i)) (1 - y_i) ] }\\
 </script>
 
