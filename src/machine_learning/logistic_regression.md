@@ -85,14 +85,16 @@ y = 0 & x_{1}^2 + x_{2}^2 < 1 & (-0.5, 0), (0, -0.5), (0.5, 0), (0, 0.5), \ldots
 
 ## Cost Function
 
-_Logistic Regression_ での誤差は
+シグモイド（ロジスティック）関数のパラメータ `θ` を求めることを、ロジスティック回帰 _Logistic Regression_ と呼ぶ。線形回帰 _Linear Regression_ と同様に、費用関数 _Cost Function_ を定義し、勾配法 _Gradient decent_ で、費用が最小となるパラメータを見つけ出せば良い。
+
+ロジスティック回帰での誤差は
 
 * 仮説 `h(x)` が、期待値 `(0|1)` に近づくほどに `0`
 * 仮説 `h(x)` が、期待値 `(0|1)` から離れるほどに無限大
 
 となればよい。
 
-`(-log(1), -log(0)) = (0, Inf)` であることを利用して、誤差を以下のように定義できる。
+`(-log(1), -log(0)) = (0, Inf)` であることを利用して、誤差の算出を以下のように定義できる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_error_def">
 \left\{
@@ -103,9 +105,11 @@ _Logistic Regression_ での誤差は
 \right.
 </script>
 
-`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均を費用関数とすると以下となる。
+`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均をもとにした費用関数と、勾配法 _Gradient decent_ で用いる偏微分の項は以下になる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_cost">
-J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(x_i))(y_i) - log(1 - h_{\theta}(x_i)) (1 - y_i) ] }\\
+J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(X_i))(y_i) - log(1 - h_{\theta}(X_i)) (1 - y_i) ] } \\
+{\partial J(\theta) \over \partial \theta_{j}} = \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(X_i) - y_i)X_{i,j} } \\
+\theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(X_{i}) - y_{i}) X_{i,j} \right) \\
 </script>
 
