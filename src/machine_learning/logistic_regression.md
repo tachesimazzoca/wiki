@@ -15,7 +15,7 @@ title: Logistic Regression
 
 _Classification Problem_ において、`(0|1)` の二つの値 _Binomial_ に分類することを考えてみる。
 
-仮説 `h(x)` の範囲を `0 < h(x) < 1` に制限し、境界値 `0.5` を境に `(0|1)` に分類すればよい。シグモイド関数 _Sigmoid (Logistic) Function_ により、`(0, 0.5)` に変曲点をもち、`(-Inf, Inf) -> (0, 1)` となる関数を実現できる。
+仮説 `h(x)` の範囲を `0 < h(x) < 1` に制限し、境界値 `0.5` を境に `(0|1)` に分類すればよい。シグモイド関数 _Sigmoid (Logistic) Function_ により、`(0, 0.5)` に変曲点をもち `(-Inf, Inf) -> (0, 1)` となる関数を実現できる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-sigmoid">
 g(z) = \frac{1}{1 + e^{-z}} \\
@@ -27,12 +27,14 @@ g(z) = \frac{1}{1 + e^{-z}} \\
 * `z >= 0` の場合、分母が指数的に減少し、`1` に限りなく近づく。
 * `z < 0` の場合、分母が指数的に増加し、`0` に限りなく近づく。
 
-訓練データ入力のベクトルを `x` とし、パラメータを `θ` とすると、シグモイド関数による `h(x)` は以下のようになる。
+訓練データ入力のベクトルを `x` とし、パラメータを `θ` とすると、`h(x)` は以下のようになる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-sigimoid_hypothesis">
 h_{\theta}(x) = g({\theta}_0 + {\theta}_1 x_1 + {\theta}_2 x_2 + ...) \\
 h_{\theta}(x) = g({\theta}^T x) = \frac{1}{1 + e^{- { {\theta}^T x } } } \\
 </script>
+
+この `h(x)` の最適式を見つけることを、ロジスティック回帰 _Logistic Regression_ と呼ぶ。
 
 結果値を `y` とした時、`h(x)` は `y = 1` になる確率であると解釈できる。`y = (1|0)` となる確率を `P(y = 1), P(y = 0)` とした時、`P(y = 1) + P(y = 0) = 1` が成り立つ。
 
@@ -42,50 +44,9 @@ h_{\theta}(x) = P(y = 1) = 0.5 \ldots P(y = 0) = 1 - 0.5 = 0.5 \\
 h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 </script>
 
-## Decision Boundary
-
-シグモイド関数を `g(z)` とした時、訓練データの入力をグラフにプロットすると、`z = 0` を境界線として、`y = (1|0)` の領域で区分される。
-
-入力が二つ `x1, x2` の訓練データで、`z = -2 + x1 + x2` の線形の仮説を例にすると、`x1 + x2 = 2` を満たす直線が境界線になることが分かる。
-
-<script type="math/tex; mode=display" id="MathJax-Element-decision_boundary_linear">
-\theta = \begin{bmatrix}
-  -2 \\
-  1 \\
-  1 \\
-\end{bmatrix} \\
-h_{\theta}(x) = g(-2 + {\theta}_1 x_1 + {\theta}_2 x_2) \\
-z = -2 + x_1 + x_2 = 0 \\
-\begin{array}{l l}
-y = 1 & x_1 + x_2 > 2 & (-1, 4), (0, 3), (1, 2), (2, 1), \ldots \\
-y = 0.5 & x_1 + x_2 = 2 & (-1, 3), (0, 2), (1, 1), (2, 0), \ldots \\
-y = 0 & x_1 + x_2 < 2 & (-1, 2), (0, 1), (1, 0), (2, -1), \ldots \\
-\end{array}
-</script>
-
-多項式 _Polynomial_ の場合も同様である。`z = -1 + x1^2 + x2^2` を例にすると、`x1^2 + x^2 = 1` を満たす曲線（この場合円形）が境界線になることがわかる。
-
-<script type="math/tex; mode=display" id="MathJax-Element-decision_boundary_nonlinear">
-\theta = \begin{bmatrix}
-  -1 \\
-  0 \\
-  0 \\
-  1 \\
-  0 \\
-  1 \\
-\end{bmatrix} \\
-h_{\theta}(x) = g(-1 + {\theta}_1 x_1 + {\theta}_2 x_2 + {\theta}_3 x_{1}^2 + {\theta}_4 x_{1} x_{2} + {\theta}_5 x_{2}^2) \\
-z = -1 + x_{1}^2 + x_{2}^2 = 0 \\
-\begin{array}{l l}
-y = 1 & x_{1}^2 + x_{2}^2 > 1 & (-2, 0), (0, -2), (2, 0), (0, 2), \ldots \\
-y = 0.5 & x_{1}^2 + x_{2}^2 = 1 & (-1, 0), (0, -1), (1, 0), (0, 1), \ldots \\
-y = 0 & x_{1}^2 + x_{2}^2 < 1 & (-0.5, 0), (0, -0.5), (0.5, 0), (0, 0.5), \ldots \\
-\end{array}
-</script>
-
 ## Cost Function
 
-シグモイド（ロジスティック）関数のパラメータ `θ` を求めることを、ロジスティック回帰 _Logistic Regression_ と呼ぶ。線形回帰 _Linear Regression_ と同様に、費用関数 _Cost Function_ を定義し、勾配法 _Gradient decent_ で、費用が最小となるパラメータを見つけ出せば良い。
+ロジスティック回帰モデル _Logistic Regression Model_ のパラメータを求めるには、線形回帰 _Linear Regression_ と同様に、費用関数 _Cost Function_ を定義し、勾配法 _Gradient Decent_ で、費用が最小となるパラメータを見つけ出せば良い。
 
 ロジスティック回帰での誤差は
 
@@ -105,11 +66,87 @@ y = 0 & x_{1}^2 + x_{2}^2 < 1 & (-0.5, 0), (0, -0.5), (0.5, 0), (0, 0.5), \ldots
 \right.
 </script>
 
-`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均をもとにした費用関数と、勾配法 _Gradient decent_ で用いる偏微分の項は以下になる。
+`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均をもとにした費用関数と、勾配法で用いる偏微分の項は以下になる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_cost">
 J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(X_i))(y_i) - log(1 - h_{\theta}(X_i)) (1 - y_i) ] } \\
 {\partial J(\theta) \over \partial \theta_{j}} = \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(X_i) - y_i)X_{i,j} } \\
 \theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(X_{i}) - y_{i}) X_{i,j} \right) \\
 </script>
+
+## Decision Boundary
+
+シグモイド関数を `g(z)` とした時、訓練データの入力 `(x1, x2)` を二次元グラフにプロットすると、`z = 0` を境界線として、`y = (1|0)` の領域で区分される。
+
+### Linear Decision Boundary
+
+`z = -2 + x1 + x2` の線形の仮説を例にすると、`z = 0` すなわち `x1 + x2 = 2` を満たす直線が境界線になることが分かる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-decision_boundary_linear">
+\theta = \begin{bmatrix}
+  -2 \\
+  1 \\
+  1 \\
+\end{bmatrix} \\
+h_{\theta}(x) = g(-2 + {\theta}_1 x_1 + {\theta}_2 x_2) \\
+z = -2 + x_1 + x_2 = 0 \\
+\begin{array}{l l}
+y = 1 & x_1 + x_2 > 2 & (0, 3), (1, 2), (2, 1), \ldots \\
+y = 0.5 & x_1 + x_2 = 2 & (0, 2), (1, 1), (2, 0), \ldots \\
+y = 0 & x_1 + x_2 < 2 & (0, 1), (1, 0) \ldots \\
+\end{array}
+</script>
+
+直線なので、プロットするには両端の `(x1, x2)` を求めるだけでよい。`x1` に対する `x2` は以下で求められる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-decision_boundary_linear_plotting">
+\begin{array}{r l}
+{\theta}_0 + {\theta}_1 x_1 + {\theta}_1 x_2 &= 0 \\
+x_2 &= -{ \frac{1}{ {\theta}_2 } } ( {\theta}_0 + {\theta}_1 x_1 ) \\
+\end{array}
+</script>
+
+{% highlight octave %}
+octave> theta = [-2; 1; 1];
+octave> x1 = [0 2];
+octave> x2 = (-1 ./ theta(3)) .* (theta(2) .* x1 + theta(1));
+octave> plot(x1, x2);
+{% endhighlight %}
+
+### Non-linear Decision Boundary
+
+多項式 _Polynomial_ の場合、`z = -1 + x1^2 + x2^2` を例にすると、`x1^2 + x^2 = 1` を満たす曲線（この場合円形）が境界線になることがわかる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-decision_boundary_nonlinear">
+\theta = \begin{bmatrix}
+  -1 \\
+  0 \\
+  0 \\
+  1 \\
+  0 \\
+  1 \\
+\end{bmatrix} \\
+h_{\theta}(x) = g(-1 + {\theta}_1 x_1 + {\theta}_2 x_2 + {\theta}_3 x_{1}^2 + {\theta}_4 x_{1} x_{2} + {\theta}_5 x_{2}^2) \\
+z = -1 + x_{1}^2 + x_{2}^2 = 0 \\
+\begin{array}{l l}
+y = 1 & x_{1}^2 + x_{2}^2 > 1 & (-2, 0), (0, -2), (2, 0), (0, 2), \ldots \\
+y = 0.5 & x_{1}^2 + x_{2}^2 = 1 & (-1, 0), (0, -1), (1, 0), (0, 1), \ldots \\
+y = 0 & x_{1}^2 + x_{2}^2 < 1 & (-0.5, 0), (0, -0.5), (0.5, 0), (0, 0.5), \ldots \\
+\end{array}
+</script>
+
+二次元グラフに境界線をプロットするには、`(x1, x2, z)` の `z` 軸を等高線でプロット _Contour Plot_ すればよい。
+
+{% highlight octave %}
+n = 50;
+x1 = linspace(-2, 2, n);
+x2 = linspace(-2, 2, n);
+z = zeros(n, n);
+for i = 1:n
+  for j = 1:n
+    z(i, j) = -1 + x1(i).^2 + x2(j).^2
+  end
+end
+contour(x1, x2, z', [0 0]);
+{% endhighlight %}
 
