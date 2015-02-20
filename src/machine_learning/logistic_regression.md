@@ -150,3 +150,75 @@ end
 contour(x1, x2, z', [0 0]);
 {% endhighlight %}
 
+## Multi-class Classification
+
+３つ以上の複数の値に分類するには、分類ごとにロジスティック回帰を行い、それぞれの分類の回帰パラメータを保持しておく。
+
+`1:4` の分類に振り分けるとして、訓練データの正解値のベクトルが `y = [1; 2; 3; 2; 4; 1; 3]` の場合
+
+* `y1 = [1; 0; 0; 0; 0; 1; 0]`
+* `y2 = [0; 1; 0; 1; 0; 0; 0]`
+* `y3 = [0; 0; 1; 0; 0; 0; 1]`
+* `y4 = [0; 0; 0; 0; 1; 0; 0]`
+
+のように各分類ごとに、`(0|1)` の正解に変換して、分類毎に回帰パラメータを抽出する。
+
+予測する際に、`y1, y2, y3, y4` それぞれの分類の回帰パラメータ毎に計算を行ない、最も値が大きい（i.e. 最もフィットする）分類が、予測分類となる。
+
+`costFunction.m`
+
+{% highlight octave %}
+function [J, grad] = costFunction(theta, X, y)
+  [m, n] = size(X);
+
+  % Apply sigmoid function
+  z = X * theta;
+  h = 1.0 ./ (1.0 + exp(-z));
+
+  % Create another theta for penalty term
+  t = theta;
+  t(1) = 0;
+
+  % The regularized cost
+  J = sum(-y .* log(h) - (1 .- y) .* log(1 - h)) / m;
+  J = J + (t' * t) / (2 * m);
+
+  % The regularized gradient of the cost
+  grad = ((h - y)' * X / m)';
+  grad = grad + (t ./ m);
+end
+{% endhighlight %}
+
+`main.m`
+
+{% highlight octave %}
+% Number of labels
+%   1: short & skinny
+%   2: short & fat
+%   3: tall & skinny
+%   4: tall & fat
+N = 4;
+
+% Training set
+X = [1 160 45; 1 160 75; 1 180 63; 1 180 105];
+y = [1; 2; 3; 4];
+
+[m, n] = size(X);
+
+% The parameters of each label: N x (n)
+Fvec = zeros(N, n);
+
+for c = 1:N
+  [fvec] = fminunc(
+      @(a)(costFunction(a, X, y == c)),
+      zeros(n, 1),
+      optimset('GradObj', 'on', 'MaxIter', 100));
+  Fvec(c, :) = fvec(:);
+end
+
+% Examine new data
+Data = [1 175 95; 1 176 62; 1 158 48; 1 163 78];
+[p, actual] = max(Data * Fvec', [], 2);
+actual % expected [4; 3; 1; 2];
+{% endhighlight %}
+
