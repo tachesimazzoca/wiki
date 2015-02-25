@@ -10,7 +10,7 @@ title: Form
 
 ## Mapping
 
-トレイト `play.api.data.Mapping[T]` により、フォーム入力 `Map[String, String]` とデータオブジェクトの変換ルールを定義し、相互変換を行なうことができる。
+`play.api.data.Mapping[T]` により、フォーム入力 `Map[String, String]` とデータオブジェクトの変換ルールを定義し、相互に変換を行なうことができる。
 
 {% highlight scala %}
 import play.api.data._
@@ -28,7 +28,9 @@ val m: Mapping[Item] = mapping(
 )(Item.apply)(Item.unapply)
 {% endhighlight %}
 
-`play.api.data.Forms.mapping` 関数を用いて、`ObjectMapping` を生成する。フィールド型を保つために、フィールド数に応じた `play.api.data.ObjectMapping(1..18)` が定義されている。
+### ObjectMapping
+
+`play.api.data.Forms.mapping` 関数を用いて、`play.api.data.ObjectMapping` を生成する。フィールド型を保つために、フィールド数（最大 18）に応じた `ObjectMapping(1..18)` が定義されている。
 
 * 引数 1..n は `(String, Mapping)` で、フィールド毎のキーと変換ルールのペアを指定する。
 * 引数 n+1 は `(A1, A2, ...) => R` で、タプルからデータオブジェクトを生成する関数を指定する。
@@ -48,18 +50,72 @@ val m: Mapping[(Long, String)] = tuple(
   "id" -> of[Long],
   "name" -> of[String]
 )
-val t: (Long, String) = m.bind(Map("id" -> "123", "name" -> "Foo")).right.get
-
-assert(t._1 == 123L)
-assert(t._2 == "Foo")
+m.bind(Map("id" -> "123", "name" -> "Foo")) match {
+  case Right(t) =>
+    assert(t._1 == 123L)
+    assert(t._2 == "Foo")
+  case Left(_) =>
+}
 {% endhighlight %}
 
 ただし `Tuple1` の `tuple` 関数は提供されていないので、`play.api.data.Forms.single` を使う。
 
 {% highlight scala %}
 val m: Mapping[String] = single("name" -> of[String])
-val v: String = m.bind(Map("name" -> "Foo")).right.get
-assert(v == "Foo")
+m.bind(Map("name" -> "Foo")) match {
+  case Right(v) => assert(v == "Foo")
+  case Left(_) =>
+}
+{% endhighlight %}
+
+#### Maximum Number of Fields
+
+`ObjectMapping` は最大 18 フィールドまでしか定義できないが、`Mapping` 型を持つので変換ルールとなりうるので、住所や確認入力などのグループで入れ子にすればよい。
+
+入れ子に対するフォーム入力のキーは、`address.street` のようにドットで区切る。
+
+{% highlight scala %}
+case class Address(street: String, city: String)
+case class User(name: String, address: Address)
+
+val m = mapping(
+  "name" -> text,
+  "address" -> mapping(
+    "street" -> text,
+    "city" -> text
+  )(Address.apply)(Address.unapply)
+)(User.apply)(User.unapply)
+
+m.bind(Map(
+  "name" -> "Nested Values",
+  "address.street" -> "1-2-3",
+  "address.city" -> "Fukuoka"
+)) match {
+  case Right(user) =>
+    assert(user.name == "Nested Values")
+    assert(user.address.street == "1-2-3")
+    assert(user.address.city == "Fukuoka")
+  case Left(_) =>
+}
+{% endhighlight %}
+
+入れ子になっているからといって、階層毎にデータ型が必要なわけではない。`(apply|unapply)` 関数を調整すれば、単一のデータオブジェクトに変換できる。
+
+{% highlight scala %}
+case class Item(id: Long, name: String, price: Int, description: String)
+
+val m = mapping(
+  "id" -> longNumber,
+  "name" -> text,
+  "meta" -> tuple(
+    "price" -> number,
+    "description" -> text
+  )
+) { (id, name, meta) =>
+  Item(id, name, meta._1, meta._2)
+} { (item) =>
+  Some((item.id, item.name, (item.price, item.description)))
+}
 {% endhighlight %}
 
 ### FieldMapping
@@ -79,7 +135,7 @@ val m: Mapping[(Long, String)] = tuple(
 )
 {% endhighlight %}
 
-`play.api.data.Forms._` に、ほとんどのフォーマットに対応したヘルパーメゾッドが定義されているので、基本的にはそれらを使えばよい。
+`play.api.data.Forms._` に、ほとんどのフォーム入力のフォーマットに対応したヘルパー関数が定義されているので、基本的にはそれらを使えばよい。
 
 ### RepeatedMapping
 
@@ -93,59 +149,33 @@ val m = tuple(
   "tags" -> seq(of[String])
 )
 
-val a = m.bind(Map(
+m.bind(Map(
   "numbers[0]" -> "123",
   "numbers[1]" -> "456",
   "tags[0]" -> "scala",
   "tags[1]" -> "play",
   "tags[2]" -> "framework"
-)).right.get
-
-assert(a._1 == List(123, 456))
-assert(a._2 == Seq("scala", "play", "framework"))
+)) match {
+  case Right(a) =>
+    assert(a._1 == List(123, 456))
+    assert(a._2 == Seq("scala", "play", "framework"))
+  case Left(_) =>
+}
 {% endhighlight %}
 
 ### OptionalMapping
 
-`play.api.data.OptionalMapping` は `Option` へのマッピングを行なう。`FieldMapping` を `play.api.data.Forms.option` 関数で括ればよい。
+`play.api.data.OptionalMapping` は `Option` へのマッピングを行なう。`Mapping` を `play.api.data.Forms.option` 関数で括ればよい。
+
+`play.api.data.Forms.default` 関数を使うとデフォルト値を指定できる。内部的には `Mapping#transform` で `Option#getOrElse` から変換しているので、`FieldMapping` ではない点に注意する。
 
 {% highlight scala %}
-case class User(id: Option[Long], name: String)
+case class User(id: Option[Long], name: String, activated: Boolean)
 
 val m = mapping(
   "id" -> optional(of[Long]),
-  "name" -> of[String]
+  "name" -> of[String],
+  "activated" -> default(of[Boolean], true)
 )(User.apply)(User.unapply)
-{% endhighlight %}
-
-### ObjectMapping
-
-`play.api.data.ObjectMapping` は、それ自身も `Mapping` 型を持つので、変換ルールの入れ子となりうる。必ずしもトップレベルのみにあるのではない。
-
-`ObjectMapping` は、最大 18 フィールド `ObjectMapping18` までのため、18 個までしかフィールド定義できないが、住所や確認入力などのグループで入れ子にすればよい。
-
-入れ子に対するフォーム入力のキーは `address.street` のように、ドットで区切る。
-
-{% highlight scala %}
-case class Address(street: String, city: String)
-case class User(name: String, address: Address)
-
-val m = mapping(
-  "name" -> text,
-  "address" -> mapping(
-    "street" -> text,
-    "city" -> text
-  )(Address.apply)(Address.unapply)
-)(User.apply)(User.unapply)
-
-val user = m.bind(Map(
-  "name" -> "Nested Values",
-  "address.street" -> "1-2-3",
-  "address.city" -> "Fukuoka"
-)).right.get
-
-assert(user.name == "Nested Values")
-assert(user.address.street == "1-2-3")
-assert(user.address.city == "Fukuoka")
 {% endhighlight %}
 
