@@ -29,13 +29,13 @@ and some performance measure P, if its performance on T, as measured by P, impro
 
 ### Classification Problem vs. Regression Problem
 
-_Classification Problem_ は、`(YES|NO)` や `(A|B|C)` のように区分された値 _Discrete-value_ に分類する問題を指す。
+_Classification problem_ は、`(YES|NO)` や `(A|B|C)` のように区分された値 _Discrete-value_ に分類する問題を指す。
 
 * 過去の対戦成績から、勝敗を予測する
 * オーディオデータから、ボーカル曲かどうかを判定する
 * 腫瘍の大きさから、良性か悪性かを予測する
 
-_Regression Problem_ は、連続値 _Continuous-value_ すなわち、量を求める問題を指す。数は整数値として考えれば、区切られているように感じてしまうが、単に取引上の単位であって、実際には境界のない連続値である。
+_Regression problem_ は、連続値 _Continuous-value_ すなわち、量を求める問題を指す。数は整数値として考えれば、区切られているように感じてしまうが、単に取引上の単位であって、実際には境界のない連続値である。
 
 * 部屋の大きさから、家賃を予測する
 * 過去の雨量データから、降水量を予測する
@@ -43,13 +43,13 @@ _Regression Problem_ は、連続値 _Continuous-value_ すなわち、量を求
 
 ### Supervised Learning vs. Unsupervised Learning
 
-_Supervised Learning_ は、予め正解（分類）が分かっていて、その分類に振り分ける手法になる。
+_Supervised learning_ は、予め正解（分類）が分かっていて、その分類に振り分ける手法になる。
 
 * 真偽 / 勝敗 / 可否
 * 性別
 * ラベル（重要|通常|スパム）
 
-_Unupervised Learning_ は、正解（分類）自体が定義されていない状態から、分類を抽出していく手法になる。
+_Unsupervised learning_ は、正解（分類）自体が定義されていない状態から、分類を抽出していく手法になる。
 
 * 記事内容から、同種の記事を見つける（記事のカテゴリは不定）
 * 行動パターンから、似ているユーザ同士を見つける（どのようなユーザかは不定）

@@ -13,9 +13,9 @@ title: Logistic Regression
 
 ## Sigmoid Function
 
-_Classification Problem_ において、`(0|1)` の二つの値 _Binomial_ に分類することを考えてみる。
+_Classification problem_ において、`(0|1)` の二つの値 _Binomial_ に分類することを考えてみる。
 
-仮説 `h(x)` の範囲を `0 < h(x) < 1` に制限し、境界値 `0.5` を境に `(0|1)` に分類すればよい。シグモイド関数 _Sigmoid (Logistic) Function_ により、`(0, 0.5)` に変曲点をもち `(-Inf, Inf) -> (0, 1)` となる関数を実現できる。
+仮説 `h(x)` の範囲を `0 < h(x) < 1` に制限し、境界値 `0.5` を境に `(0|1)` に分類すればよい。シグモイド関数 _Sigmoid (Logistic) function_ により、`(0, 0.5)` に変曲点をもち `(-Inf, Inf) -> (0, 1)` となる関数を実現できる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-sigmoid">
 g(z) = \frac{1}{1 + e^{-z}} \\
@@ -34,7 +34,7 @@ h_{\theta}(x) = g({\theta}_0 + {\theta}_1 x_1 + {\theta}_2 x_2 + ...) \\
 h_{\theta}(x) = g({\theta}^T x) = \frac{1}{1 + e^{- { {\theta}^T x } } } \\
 </script>
 
-この `h(x)` の最適式を見つけることを、ロジスティック回帰 _Logistic Regression_ と呼ぶ。
+この `h(x)` の最適式を見つけることを、ロジスティック回帰 _Logistic regression_ と呼ぶ。
 
 結果値を `y` とした時、`h(x)` は `y = 1` になる確率であると解釈できる。`y = (1|0)` となる確率を `P(y = 1), P(y = 0)` とした時、`P(y = 1) + P(y = 0) = 1` が成り立つ。
 
@@ -46,7 +46,7 @@ h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 
 ## Cost Function
 
-ロジスティック回帰モデル _Logistic Regression Model_ のパラメータを求めるには、線形回帰 _Linear Regression_ と同様に、費用関数 _Cost Function_ を定義し、勾配法 _Gradient Decent_ で、費用が最小となるパラメータを見つけ出せば良い。
+ロジスティック回帰モデル _Logistic regression model_ のパラメータを求めるには、線形回帰と同様に、費用関数を定義し、勾配法で、費用が最小となるパラメータを見つけ出せば良い。
 
 ロジスティック回帰での誤差は
 
@@ -55,7 +55,7 @@ h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 
 となればよい。
 
-`(-log(1), -log(0)) = (0, Inf)` であることを利用して、誤差の算出を以下のように定義できる。
+`(-log(1), -log(0)) = (0, Inf)` であることを利用して、誤差の算出方法を以下のように定義できる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_error_def">
 \left\{
@@ -66,7 +66,7 @@ h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 \right.
 </script>
 
-`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均をもとにした費用関数と、勾配法で用いる偏微分の項は以下になる。
+`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均を元にした費用関数と、勾配法で用いる偏微分の項は以下になる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_cost">
 J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(X_i))(y_i) - log(1 - h_{\theta}(X_i)) (1 - y_i) ] } \\
@@ -135,7 +135,7 @@ y = 0 & x_{1}^2 + x_{2}^2 < 1 & (-0.5, 0), (0, -0.5), (0.5, 0), (0, 0.5), \ldots
 \end{array}
 </script>
 
-二次元グラフに境界線をプロットするには、`(x1, x2, z)` の `z` 軸を等高線でプロット _Contour Plot_ すればよい。
+二次元グラフに境界線をプロットするには、`(x1, x2, z)` の `z` 軸を等高線でプロットすればよい。
 
 {% highlight octave %}
 n = 50;
