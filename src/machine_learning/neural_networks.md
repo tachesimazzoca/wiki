@@ -37,7 +37,7 @@ h2 = sigmoid(z2);                    % [0; 1; 1; 1]
 
 ## Forward Propagation
 
-_Activation function_ を複数レイヤーに定義し、各レイヤーの出力を次のレイヤーへの入力とすることで、より複雑な論理回路を実現できる。
+_Activation function_ を複数レイヤーに定義し、各レイヤーの出力を次のレイヤーへの入力とすることで、より複雑な論理回路を実現できる。このモデルは、神経回路のシミュレーションを元にしており、ニューラルネットワーク _Neural network_ と呼ばれる。
 
        L1    |    L2    |    L3    |    L4
     ------------------------------------------
@@ -114,7 +114,7 @@ z2 = a2 * Theta2';                   % [-10; 10; 10; -10]
 a3 = sigmoid(z2);                    % [0; 1; 1; 0]
 {% endhighlight %}
 
-このように、複数レイヤーの入出力を介して伝播させていく方法を _Forward propagation_ と呼ぶ。
+このように、複数レイヤーの入出力を介して、前方に伝播させていく方法を _Forward propagation_ と呼ぶ。
 
 ## Multi-class Classification
 
@@ -137,4 +137,21 @@ a3 = sigmoid(z2);                    % [0; 1; 1; 0]
 * `y = 1 if a3 = [1; 0; 0]`
 * `y = 2 if a3 = [0; 1; 0]`
 * `y = 3 if a3 = [0; 0; 1]`
+
+分類数を `K` とすると、費用関数は各出力の誤差平均を求めればよい。
+
+<script type="math/tex; mode=display" id="MathJax-Element-backprop_cost">
+a = h_{\Theta}(x) \in \mathbb{R}^{K}\\
+J(\Theta) = \frac{1}{m} {\sum_{i=1}^{m}} {\sum_{k=1}^{K}} [ -log(a_{i,k})(y_{i,k}) - log(1 - a_{i,k}) (1 - y_{i,k}) ] \\
+</script>
+
+## Backpropagation
+
+ニューラルネットワークの費用関数は、ロジスティック回帰と同じであるが、予測値を求めるには _Forward propagation_ で各レイヤーごとに算出する必要がある。
+
+_Regularization_ を行なう場合は、各レイヤーにパラメータがある点に注意する。
+
+<script type="math/tex; mode=display" id="MathJax-Element-backprop_cost_reg">
+J(\Theta) = J(\Theta) + \frac{\lambda}{2m} \sum_{l=1}^{L-1} \sum_{i=1}^{sl} \sum_{j=1}^{sl+1} ({\Theta}_{j,i}^{(l)})^2 \\
+</script>
 
