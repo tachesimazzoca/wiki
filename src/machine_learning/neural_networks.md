@@ -147,11 +147,38 @@ J(\Theta) = \frac{1}{m} {\sum_{i=1}^{m}} {\sum_{k=1}^{K}} [ -log(a_{i,k})(y_{i,k
 
 ## Backpropagation
 
-ニューラルネットワークの費用関数は、ロジスティック回帰と同じであるが、予測値を求めるには _Forward propagation_ で各レイヤーごとに算出する必要がある。
+ニューラルネットワークの費用関数は、ロジスティック回帰と同じであるが、予測値を求めるには _Forward propagation_ で各レイヤーを通して算出する必要がある。
 
-_Regularization_ を行なう場合は、各レイヤーにパラメータがある点に注意する。
+{% highlight octave %}
+Theta1 = [-30 10 10 10; -10 20 20 20; 20 -10 -10 -10; -20 10 10 10];
+Theta2 = [10 -20 -20 -10 -10; -10 10 10 0 10; 20 -20 -20 -10 -10];
+X = [0 0 0; 0 0 1; 0 1 0; 1 1 1];
+m = size(X, 1);
+
+a1 = X;                         % 4 x 3
+a1 = [ones(m, 1) a1];           % 4 x 4
+z2 = a1 * Theta1';              % 4 x 4
+a2 = sigmoid(z2);
+a2 = [ones(size(a2, 1), 1) a2]; % 4 x 5
+z3 = a2 * Theta2';              % 4 x 3
+h = sigmoid(z3);
+{% endhighlight %}
+
+_Regularization_ を行なう場合は、各レイヤーにパラメータがある点に注意する。バイアス項は除外する。
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_cost_reg">
+\text{$L = $ the number of the layers} \\
+\text{$sl = $ the number of parameters of the layer $l$} \\
 J(\Theta) = J(\Theta) + \frac{\lambda}{2m} \sum_{l=1}^{L-1} \sum_{i=1}^{sl} \sum_{j=1}^{sl+1} ({\Theta}_{j,i}^{(l)})^2 \\
 </script>
+
+{% highlight octave %}
+t1 = Theta1;
+t2 = Theta2;
+t1(:, 1) = 0;
+t2(:, 1) = 0;
+
+lambda = 0.1;
+J = J + (sum(sum(t1 .^ 2)) + sum(sum(t2 .^ 2))) * lambda / (2 * m);
+{% endhighlight %}
 
