@@ -194,6 +194,14 @@ _of_ にはくっついているニュアンスがあり、一般的な事や継
 * full / short
   * He's __(full|short) of__ confidence.
 
+### to を使うケース
+
+_to 名詞_ は対になる対象に使う。不定詞と勘違いしないようにする。
+
+* A is __similar to__ B.
+* The server is __vulnerable to__ DoS attacks.
+* Perseverance is __vital to__ success. _success は名詞_
+
 ### 間違いやすい形容詞
 
 * (excellent / better / good / moderate / bad / poor / ...) at
