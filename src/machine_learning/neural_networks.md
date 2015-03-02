@@ -51,8 +51,8 @@ _Activation function_ を複数レイヤーに定義し、各レイヤーの出�
 
 
 <script type="math/tex; mode=display" id="MathJax-Element-neural_network_layer2">
-\begin{array}{l l}
-\text{Input} & \left\{
+\begin{align}
+\text{Input} \quad & \left\{
   \begin{array}{l l}
     x_0 = 1 \\
     x_1 \in \mathbb{R} \\
@@ -60,7 +60,7 @@ _Activation function_ を複数レイヤーに定義し、各レイヤーの出�
   \end{array}
 \right. \\
 
-\text{Layer1} & \left\{
+\text{Layer1} \quad & \left\{
   \begin{array}{l l}
     {\Theta}^{(1)} \in \mathbb{R}^{3 \times 3} \\
     a^{(2)}_0 = 1 \\
@@ -70,7 +70,7 @@ _Activation function_ を複数レイヤーに定義し、各レイヤーの出�
   \end{array}
 \right. \\
 
-\text{Layer2} & \left\{
+\text{Layer2} \quad & \left\{
   \begin{array}{l l}
     {\Theta}^{(2)} \in \mathbb{R}^{2 \times 4} \\
     a^{(3)}_0 = 1 \\
@@ -79,7 +79,7 @@ _Activation function_ を複数レイヤーに定義し、各レイヤーの出�
   \end{array}
 \right. \\
 
-\text{Layer3} & \left\{
+\text{Layer3} \quad & \left\{
   \begin{array}{l l}
     {\Theta}^{(3)} \in \mathbb{R}^{1 \times 3} \\
     a^{(4)}_1 = g({\Theta}^{(3)}_{1,0} a^{(3)}_0 + {\Theta}^{(3)}_{1,1} a^{(3)}_1 + {\Theta}^{(3)}_{1,2} a^{(3)}_2) \\
@@ -87,8 +87,7 @@ _Activation function_ を複数レイヤーに定義し、各レイヤーの出�
   \end{array}
 \right. \\
 
-\end{array}
-
+\end{align}
 </script>
 
 * 入力 `x` のバイアス項として `x(0) = 1` とする。
@@ -181,4 +180,40 @@ t2(:, 1) = 0;
 lambda = 0.1;
 J = J + (sum(sum(t1 .^ 2)) + sum(sum(t2 .^ 2))) * lambda / (2 * m);
 {% endhighlight %}
+
+ニューラルネットワークの各ユニットのパラメータを求めるには、勾配法を用いる。各ユニットの偏微分の項を求めるためには、最終出力の誤差から各レイヤーを逆に伝播して算出する必要がある。この方法を、誤差逆伝播法 _Backpropagation_ と呼ぶ。
+
+ネイピア数 `e` を底とする指数の微分は `(e^x)' = e^x` であることを利用して、シグモイド関数 `g(z)` を微分すると `g'(z) = g(z) * (1 - g(z))` となる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-sigmoid_partial_simplify">
+g(z) = \frac{1}{1 + e^{-z}} \\
+
+\begin{align}
+
+& \left\{
+\begin{array}{l l}
+u = 1 + e^{-z} \\
+g'(u) = (u^{-1})' = -1 \cdot u^{-2} = -(1 + e^{-z})^{-2} \\
+\end{array}
+\right. \\
+
+& \left\{
+\begin{array}{l l}
+x = -z \\
+u' = (1 + e^{-z})' = (e^{-z})' = (e^{x})'(x)' = (e^{x})(-1) = -e^{-z} \\
+\end{array}
+\right. \\
+
+\end{align} \\
+
+</script>
+<script type="math/tex; mode=display" id="MathJax-Element-sigmoid_partial">
+\begin{align}
+g'(z) & = g'(u) \cdot u' = -(1 + e^{-z})^{-2} \cdot -e^{-z}\\
+      & = \frac{e^{-z}}{(1 + e^{-z})^2} \\
+      & = \frac{1}{1 + e^{-z}} \left( \frac{1 + e^{-z}}{1 + e^{-z}} - \frac{1}{1 + e^{-z}} \right) \\
+      & = \frac{1}{1 + e^{-z}} \left( 1 - \frac{1}{1 + e^{-z}} \right) \\
+      & = g(z)(1 - g(z)) \\
+\end{align} \\
+</script>
 
