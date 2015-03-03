@@ -166,9 +166,9 @@ h = sigmoid(z3);
 _Regularization_ を行なう場合は、各レイヤーにパラメータがある点に注意する。バイアス項は除外する。
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_cost_reg">
-\text{$L = $ the number of the layers} \\
-\text{$sl = $ the number of parameters of the layer $l$} \\
 J(\Theta) = J(\Theta) + \frac{\lambda}{2m} \sum_{l=1}^{L-1} \sum_{i=1}^{sl} \sum_{j=1}^{sl+1} ({\Theta}_{j,i}^{(l)})^2 \\
+{\scriptsize \text{$L = $ the number of layers}} \\
+{\scriptsize \text{$sl = $ the number of parameters of the layer $l$}} \\
 </script>
 
 {% highlight octave %}
@@ -215,7 +215,7 @@ g'(0) & = g(0)(1 - g(0)) = 0.5 \cdot 0.5 = 0.25 \\
 
 ## Backpropagation
 
-ニューラルネットワークの各ユニットのパラメータを求めるには、ロジスティック回帰と同様に勾配法を用いる。各ユニットの偏微分を求めるために、最終出力の誤差から各レイヤーを逆に伝播して算出する必要がある。この方法を、誤差逆伝播法 _Backpropagation_ と呼ぶ。
+ニューラルネットワークの各ユニットのパラメータを求めるには、ロジスティック回帰と同様に勾配法を用いる。各ユニットの偏微分を求めるためには、最終出力の誤差から各レイヤーを逆に伝播して算出する必要がある。この方法を、誤差逆伝播法 _Backpropagation_ と呼ぶ。
 
 出力レイヤーの誤差は、予測値ベクトルから正解値ベクトルを引いたものになる。
 
@@ -223,23 +223,31 @@ g'(0) & = g(0)(1 - g(0)) = 0.5 \cdot 0.5 = 0.25 \\
 \delta^{(L)}_{k} = a^{(L)}_{k} - y_{k}\\
 </script>
 
-各中間レイヤーの誤差は以下の式で求められる。各パラメータ自身が次のレイヤーに伝播させてしまった誤差を算出すると考えればよい。
+中間レイヤーの誤差は以下の式で求められる。各パラメータ自身が次のレイヤーに伝播させてしまった誤差を算出すると考えればよい。バイアス項は含めなくてよい。
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_error_hidden">
-\delta^{(l)} = ({\Theta}^{(l)})^{T} \delta^{(l+1)} .* g'(z^{(l)}) \\
+\delta^{(l)} = ({\Theta}^{(l)})^{T} \delta^{(l+1)} .* g'(z^{(l)}) \quad {\scriptsize \text{(Remove $\delta^{(l)}_0$)}} \\
 
 \left\{
   \begin{array}{l l}
-    \delta^{(l)}_1 = ({\Theta}^{(l)}_{1,1} \delta^{(l+1)}_{1} + {\Theta}^{(l)}_{2,1} \delta^{(l+1)}_{2} + {\Theta}^{(l)}_{3,1} \delta^{(l+1)}_{3} \ldots) g'(z^{(l)}_1) \\
-    \delta^{(l)}_2 = ({\Theta}^{(l)}_{1,2} \delta^{(l+1)}_{1} + {\Theta}^{(l)}_{2,2} \delta^{(l+1)}_{2} + {\Theta}^{(l)}_{3,2} \delta^{(l+1)}_{3} \ldots) g'(z^{(l)}_2) \\
-    \delta^{(l)}_3 = ({\Theta}^{(l)}_{1,3} \delta^{(l+1)}_{1} + {\Theta}^{(l)}_{2,3} \delta^{(l+1)}_{2} + {\Theta}^{(l)}_{3,3} \delta^{(l+1)}_{3} \ldots) g'(z^{(l)}_3) \\
+    \delta^{(l)}_1 = ({\Theta}^{(l)}_{1,1} \delta^{(l+1)}_{1} + {\Theta}^{(l)}_{2,1} \delta^{(l+1)}_{2} + {\Theta}^{(l)}_{3,1} \delta^{(l+1)}_{3} \ldots) \cdot g'(z^{(l)}_1) \\
+    \delta^{(l)}_2 = ({\Theta}^{(l)}_{1,2} \delta^{(l+1)}_{1} + {\Theta}^{(l)}_{2,2} \delta^{(l+1)}_{2} + {\Theta}^{(l)}_{3,2} \delta^{(l+1)}_{3} \ldots) \cdot g'(z^{(l)}_2) \\
+    \delta^{(l)}_3 = ({\Theta}^{(l)}_{1,3} \delta^{(l+1)}_{1} + {\Theta}^{(l)}_{2,3} \delta^{(l+1)}_{2} + {\Theta}^{(l)}_{3,3} \delta^{(l+1)}_{3} \ldots) \cdot g'(z^{(l)}_3) \\
   \end{array} \\
 \right. \\
 </script>
 
-各ユニットの出力に直後のレイヤーの誤差を掛け合わせたものが、各パラメータの偏微分となる。
+入力レイヤーの誤差は存在しないので算出する必要はない。
+
+ユニットの入力 `a(l)` に、直後のレイヤーの誤差を掛け合わせたものが、各パラメータの偏微分となる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_grad">
 \Delta^{(l)} = \Delta^{(l)} + \delta^{(l+1)}(a^{(l)})^{T} \\
-\frac{\partial J(\Theta)}{\partial \Theta^{(l)}_{i,j}} = a^{(l)}_{j} \delta^{(l+1)}_{i} = \frac{1}{m} \Delta^{(l)}_{i,j} \\
+\frac{\partial J(\Theta)}{\partial \Theta^{(l)}_{i,j}} = D^{(l)}_{i,j} = a^{(l)}_{j} \delta^{(l+1)}_{i} = \frac{1}{m} \Delta^{(l)}_{i,j} \\
+</script>
+
+_Regularization_ を行なう場合は、各パラメータ毎にペナルティを与えればよい。費用関数と同様に、バイアス項は除外する。
+
+<script type="math/tex; mode=display" id="MathJax-Element-backprop_grad_reg">
+D^{(l)}_{i,j} = D^{(l)}_{i,j} + \frac{\lambda}{m} \Theta^{(l)}_{i,j} \\
 </script>
