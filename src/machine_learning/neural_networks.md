@@ -192,15 +192,10 @@ g(z) = \frac{1}{1 + e^{-z}} \\
 
 & \left\{
 \begin{array}{l l}
-u = 1 + e^{-z} \\
-g'(u) = (u^{-1})' = -1 \cdot u^{-2} = -(1 + e^{-z})^{-2} \\
-\end{array}
-\right. \\
-
-& \left\{
-\begin{array}{l l}
 x = -z \\
-u' = (1 + e^{-z})' = (e^{-z})' = (e^{x})'(x)' = (e^{x})(-1) = -e^{-z} \\
+u = 1 + e^{x} \\
+g'(u) = (u^{-1})' = -1 \cdot u^{-2} = -(1 + e^{-z})^{-2} \\
+u' = (1 + e^{x})' = (e^{x})'(-z)' = (e^{x})(-1) = -e^{-z} \\
 \end{array}
 \right. \\
 
@@ -214,6 +209,7 @@ g'(z) & = g'(u) \cdot u' = -(1 + e^{-z})^{-2} \cdot -e^{-z}\\
       & = \frac{1}{1 + e^{-z}} \left( \frac{1 + e^{-z}}{1 + e^{-z}} - \frac{1}{1 + e^{-z}} \right) \\
       & = \frac{1}{1 + e^{-z}} \left( 1 - \frac{1}{1 + e^{-z}} \right) \\
       & = g(z)(1 - g(z)) \\
+g'(0) & = g(0)(1 - g(0)) = 0.5 \cdot 0.5 = 0.25 \\
 \end{align} \\
 </script>
 
