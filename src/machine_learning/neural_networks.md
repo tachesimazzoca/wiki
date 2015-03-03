@@ -215,7 +215,7 @@ g'(0) & = g(0)(1 - g(0)) = 0.5 \cdot 0.5 = 0.25 \\
 
 ## Backpropagation
 
-ニューラルネットワークの各ユニットのパラメータを求めるには、ロジスティック回帰と同様に勾配法を用いる。各ユニットの偏微分を求めるためには、最終出力の誤差から各レイヤーを逆に伝播して算出する必要がある。この方法を、誤差逆伝播法 _Backpropagation_ と呼ぶ。
+ニューラルネットワークの各ユニットのパラメータ（ニューロンの重み）を求めるには、ロジスティック回帰と同様に勾配法を用いる。各ユニットの偏微分を求めるためには、最終出力の誤差から各レイヤーを逆に伝播して算出する必要がある。この方法を、誤差逆伝播法 _Backpropagation_ と呼ぶ。
 
 出力レイヤーの誤差は、予測値ベクトルから正解値ベクトルを引いたものになる。
 
@@ -251,3 +251,46 @@ _Regularization_ を行なう場合は、各パラメータ毎にペナルティ
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_grad_reg">
 D^{(l)}_{i,j} = D^{(l)}_{i,j} + \frac{\lambda}{m} \Theta^{(l)}_{i,j} \\
 </script>
+
+### Numerical Gradient
+
+_Backpropagation_ を正しく行なえているかどうかは、一つのパラメータのみ極小値で増減させて、二つの費用関数を適用した差分が、_Backpropagation_ で得た偏微分とほぼ相違ないこと（1e-9 以下が目安）をチェックすればよい。
+
+<script type="math/tex; mode=display" id="MathJax-Element-grad_checking">
+\frac{\partial J(\theta)}{\partial \theta_1} \approx \frac{ J(\theta_1 + \epsilon, \theta_2, \theta_3, \ldots, \theta_n) - J(\theta_1 - \epsilon, \theta_2 , \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
+\frac{\partial J(\theta)}{\partial \theta_2} \approx \frac{ J(\theta_1, \theta_2 + \epsilon, \theta_3, \ldots, \theta_n) - J(\theta_1, \theta_2 - \epsilon, \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
+\ldots \\
+\frac{\partial J(\theta)}{\partial \theta_n} \approx \frac{ J(\theta_1, \theta_2, \theta_3, \ldots, \theta_n + \epsilon) - J(\theta_1, \theta_2, \theta_3, \ldots, \theta_n - \epsilon) }{2 \epsilon} \\
+</script>
+
+{% highlight octave %}
+function grad = numericalGradient(J, theta)
+  m = length(theta);
+  grad = zeros(m, 1);
+
+  E = 0.01; % epsilon;
+  for i = 1:m
+    theta1 = theta; theta1(i) = theta1(i) + E;
+    theta2 = theta; theta2(i) = theta2(i) - E;
+    grad(i) = (J(theta1) - J(theta2)) / (2 * E);
+  end
+end
+{% endhighlight %}
+
+すべてのパラメータに対して費用関数を適用するため、非常にコストがかかる。あくまで、_Backpropagation_ が正しくおこなえているかのチェックのみで、実際の学習処理に含めてはならない。
+
+### Symmetry Breaking
+
+ニューラルネットワークにおいては、レイヤーの出力として、次のレイヤーの各ユニットへ同じ入力が与えられる。このため入力に対するパラメータ（重み）が同じ値の場合、同一レイヤー内の全てのユニットの出力が同じ値になってしまう。
+
+* 初期パラメータを全て 0 にすると、バイアス項のみが伝播する。
+* 初期パラメータを全て 1 にすると、全てのユニットの出力が、前ユニット出力の総和のシグモイド値になる。
+
+このため _Backpropagation_ を開始する際の初期パラメータは、ランダムである必要がある。`-ε .. ε` の範囲でランダムに設定するとよい。
+
+{% highlight octave %}
+E = 0.01 % epsilon
+Theta1 = rand(3, 4) * (2 * E) - E; % initialize to 3 x 4 random matrix
+Theta2 = rand(3, 5) * (2 * E) - E; % initialize to 3 x 5 random matrix
+{% endhighlight %}
+
