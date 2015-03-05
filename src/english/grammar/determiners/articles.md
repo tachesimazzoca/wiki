@@ -135,9 +135,9 @@ _the_ が付いて特定の意味になるものもある。
 * __the__ Rockefeller__s__ / the Rockefeller family
 * __the__ Kenney__s__ / the Kennedy family
 
-## 種別
+## 品種
 
-そのものではなく、種別名を指す場合には、単数形に _the_ をつける。
+そのものではなく、品種名を指す場合には、単数形に _the_ をつける。
 
 * 動物種: _monkey / dog / giraffe / ..._
   * __The monkey__ is a clever animal.
@@ -210,6 +210,18 @@ _McDonald's_ のように人名から始まる場合は、_the_ はつかない�
 
 * I went to Japan during __the spring break__ when I was 18.
 * He's on __summer vacation__.
+
+## 無冠詞になるもの
+
+* 言語
+  * He speaks __English__ well.
+* スポーツ / ゲーム名
+  * We played __baseball__ yesterday.
+* 学問
+  * I'm learning __economics__.
+* 役職
+  * She was promoted to __manager__. _マネージャという役職（枠）_
+  * __The manager__ asked me to type a letter. _人物を指すときは、冠詞は必要_
 
 ## The + 形容詞
 
