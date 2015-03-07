@@ -8,6 +8,50 @@ title: Form
 
 * <https://www.playframework.com/documentation/2.3.x/ScalaForms>
 
+## Constraint
+
+`play.api.data.validation.Constraint[T]` により、バリデータを作成できる。
+
+{% highlight scala %}
+import play.api.data.validation._
+
+val yesOrNo = Constraint[String] { s: String =>
+  s match {
+    case "yes" | "no" => Valid
+    case _ => Invalid("The string must be (yes|no).")
+  }
+}
+assert(Valid == yesOrNo("yes"))
+
+def range(min: Int, max: Int) = Constraint[Int]("constraint.range", min, max) { v: Int =>
+  if (v >= min && v <= max) Valid
+  else Invalid("error.range", min, max)
+}
+val validator = range(1, 10)
+assert(Some("constraint.range") == validator.name)
+assert(Seq(1, 10) == validator.args)
+validator(0) match {
+  case Invalid(errors) =>
+    assert(1 == errors.size)
+    assert("error.range" == errors(0).message)
+    assert(Seq(1, 10) == errors(0).args)
+  case _ =>
+    assert(false)
+}
+{% endhighlight %}
+
+* `Constraint.apply` を使ってバリデータを作成する。値をチェックして `play.api.data.validation.(Valid|Invalid)` を返す関数を渡す。
+* インスタンス自身の `Constraint#apply` メゾッドが定義されており、それを経由して値をチェックして `ValidationResult` を受け取る。
+* バリデータのメタ情報を外部から参照できるように、`Constraint.apply` でバリデーション名と引数 `Any*` を定義することができる。入力のヒント文字列の組み立て等のために、外部用に提供する属性であって、バリデーションを行なう関数内から参照はできない。設定が冗長になるのを回避するには、`Constraint` オブジェクトを生成するヘルパー関数を定義するとよい。
+
+`play.api.data.validation.Constraints._` に、基本的なバリデータは定義されているので、不足する場合に独自に作成すればよい。
+
+{% highlight scala %}
+import play.api.data.validation.Constraints.pattern
+
+val alnum = pattern(regex = """^[A-Z0-9]+$""".r, error = "must be alphanumeric")
+{% endhighlight %}
+
 ## Mapping
 
 `play.api.data.Mapping[T]` により、フォーム入力 `Map[String, String]` とデータオブジェクトの変換ルールを定義し、相互に変換を行なうことができる。
