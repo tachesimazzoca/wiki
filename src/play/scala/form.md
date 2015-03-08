@@ -41,8 +41,20 @@ validator(0) match {
 {% endhighlight %}
 
 * `Constraint.apply` を使ってバリデータを作成する。値をチェックして `play.api.data.validation.(Valid|Invalid)` を返す関数を渡す。
-* インスタンス自身の `Constraint#apply` メゾッドが定義されており、それを経由して値をチェックして `ValidationResult` を受け取る。
-* バリデータのメタ情報を外部から参照できるように、`Constraint.apply` でバリデーション名と引数 `Any*` を定義することができる。入力のヒント文字列の組み立て等のために、外部用に提供する属性であって、バリデーションを行なう関数内から参照はできない。設定が冗長になるのを回避するには、`Constraint` オブジェクトを生成するヘルパー関数を定義するとよい。
+* `Constraint#apply` メゾッドで値をチェックして `ValidationResult` を受け取る。
+* バリデータのメタ情報を外部から参照できるように、`Constraint.apply` でバリデーション名と引数 `Any*` を定義することができる。入力のヒント文字列の組み立て等のために、外部用に提供する属性であって、バリデーションを行なう関数内から参照はできない。設定が冗長になるのを回避するには、`Constraint` インスタンスを生成するヘルパー関数を定義するとよい。
+
+`Invalid` は `apply` メゾッドに `play.api.data.validation.ValidationError` を渡して作成する。メッセージと引数だけの `apply` も提供されている。インスタンスは `Invalid#++` でマージできる。
+
+{% highlight scala %}
+val result1 = Invalid(ValidationError("error.foo", 1))
+val result2 = Invalid("error.bar", 2, 3)
+val result3 = result1 ++ result2
+assert(Seq(
+  ValidationError("error.foo", 1),
+  ValidationError("error.bar", 2, 3)
+) == result3.errors)
+{% endhighlight %}
 
 `play.api.data.validation.Constraints._` に、基本的なバリデータは定義されているので、不足する場合に独自に作成すればよい。
 
