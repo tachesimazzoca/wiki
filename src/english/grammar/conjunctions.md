@@ -17,6 +17,12 @@ _for / and / nor / but / or / yet / so_ が該当し、先頭文字をつなげ�
 * by __train and bus__ _「電車とバス」を使う方法_
 * __by train__ and __by bus__ _「電車を使う方法」と「バスを使う方法」_
 
+二つの文章に分かれる時には、カンマで区切る。
+
+* __My brother and sister__ are high school students. _主語の and_
+* My father is a teacher, and my mother is a nurse.
+* I need to get up earlier tomorrow, so I'm going straight to bed.
+
 ### and
 
 _and_ は追加 _Addition_ を表す。
@@ -35,7 +41,7 @@ _but_ は対比 _Contrast_ を表す。
 _A but B_ は「_A_ であるが _B_」の意味になる。
 
 * He is _clever_ __but__ _arrogant_.
-* _iPad is beautiful and useful_ __but__ _it's too expensive_.
+* _iPad is beautiful and useful_, __but__ _it's too expensive_.
 * _I need an iPhone for work_, __but__ _I don't have one_.
 
 _not A but B_ は「_A_ ではなく _B_」の意味になる。
