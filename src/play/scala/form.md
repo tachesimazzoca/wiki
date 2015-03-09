@@ -28,6 +28,8 @@ val m: Mapping[Item] = mapping(
 )(Item.apply)(Item.unapply)
 {% endhighlight %}
 
+`play.api.data.Forms._` に、ほとんどのフォーム入力のフォーマットに対応したヘルパー関数が定義されているので、基本的にはそれらを使えばよい。
+
 ### ObjectMapping
 
 `play.api.data.Forms.mapping` 関数を用いて、`play.api.data.ObjectMapping` を生成する。フィールド型を保つために、フィールド数（最大 18）に応じた `ObjectMapping(1..18)` が定義されている。
@@ -135,7 +137,17 @@ val m: Mapping[(Long, String)] = tuple(
 )
 {% endhighlight %}
 
-`play.api.data.Forms._` に、ほとんどのフォーム入力のフォーマットに対応したヘルパー関数が定義されているので、基本的にはそれらを使えばよい。
+固定値には `play.api.data.Forms.ignored` を使う。`bind` で上書きはされない。`unbind` 時には除外される。
+
+{% highlight scala %}
+val m: Mapping[(Long, String)] = tuple(
+  "id" -> ignored(123L),
+  "name" -> text
+)
+assert(Right((123L, "Foo")) == m.bind(Map("name" -> "Foo")))
+assert(Right((123L, "Foo")) == m.bind(Map("id" -> "999", "name" -> "Foo"))) // id:999 ignored
+assert(Map("name" -> "Foo") == m.unbind((123L, "Foo"))) // id:123 removed
+{% endhighlight %}
 
 ### RepeatedMapping
 
@@ -266,4 +278,54 @@ m.bind(Map(
 * `Constraint[T]` のインスタンスを可変長引数で渡す。
 * `Constraint[T]` の代わりに、`T => Boolean` の関数を渡すこともできる。値の制約は `Constraint[T]` を作るのがよいが、入力確認フィールドの状態など、マッピング全体の制約にはこの方法が良いだろう。
 * `Constraint#apply` で得られるエラーは `ValidationError` だが、`Mapping#bind` でのエラーは、エラーが起こったフィールドキーと共に、`play.api.data.FormError` に移し替えられる。
+
+## Form
+
+`play.api.data.Form` は、`Mapping` をラップした HTTP フォームのモデルを提供する。`Mapping` はマッピングのみで状態を持たないが、`Form` は入力値やエラーを保持する。
+
+{% highlight scala %}
+val userForm = Form(mapping(
+  "name" -> nonEmptyText,
+  "age" -> number.verifying(min(0), max(100))
+)(User.apply)(User.unapply))
+val boundForm = userForm.bind(Map("name" -> "Foo", "age" -> "26"))
+assert(Some(User("Foo", 26)) == boundForm.value)
+assert(false == boundForm.hasErrors)
+{% endhighlight %}
+
+状態は持つが `Form` はケースクラス、すなわちイミュータブルであり、副作用のメゾッドは持たない。言い換えると `Form#(bind|fill)` 等で状態を更新する度にコピーされるので、スレッドセーフについては考慮しなくてよい。
+
+`Controller` 内で利用する際、リクエスト毎に `Mapping` から `Form` を毎回組み立てるのはコストがかかるので、`Controller` のメンバー変数などに、初期値でインスタンス化したものを保持しておくとよい。
+
+{% highlight scala %}
+import models.Contact
+import play.api.data._
+import play.api.mvc._
+
+object ContactsController extends Controller {
+  val contactForm = Form(mapping(
+    ...
+  )(Contact.apply)(Contact.unapply))
+
+  def entry = Action {
+    Ok(views.html.contacts.entry(contactForm))
+  }
+
+  def submit = Action { implicit request =>
+    contactForm.bindFromRequest.fold(
+      formWithErrors => BadRequest(views.html.contacts.entry(formWithErrors)),
+      contact => {
+        // TODO: Do something with the value contact.
+        Redirect(routes.ContactController.done())
+      }
+    )
+  }
+
+  def done = Action {
+    Ok(views.html.contacts.done())
+  }
+}
+{% endhighlight %}
+
+送信されるフォームデータは、`Form#bindFromRequest` で暗黙パラメータの `Request` からバインドし、`Form#fold` で、エラー時と正常時の関数を定義しておくと簡潔に書ける。
 
