@@ -4,28 +4,34 @@ layout: page
 title: Nouns
 ---
 
-## 普通名詞と固有名詞
+## 名詞の区別
 
-普通名詞 _Common Noun_ は以下に分けられる。
+* 名称
+  * 固有名詞 _Proper noun_ 区別するために固有の名前が付けられた名詞
+  * 普通名詞 _Common noun_ 固有の名前を持たない名詞
+* 性質
+  * 具象名詞 _Concrete noun_ 一定の形がある物
+  * 物質名詞 _Material noun_ 一定の形がない物
+  * 抽象名詞 _Abstarct noun_ 形を持たない概念
+  * 集合名詞 _Collective noun_ 集合を表す名称
+* 数量
+  * 可算名詞 _Countable noun_ 数で数える
+  * 不可算名詞 _Uncountable noun_ 量で計る
+
+## 固有名詞
+
+区別するために固有名が付けられた名詞を、固有名詞 _Proper Noun_ と呼ぶ。各単語の先頭文字は大文字としなければならない。
 
 * 人物 _Person_
-  * mother / son / teacher / doctor / manager
+  * Albert Einstein / Roger Federer
 * 場所 _Place_
-  * house / station / hotel / park / stadium
+  * Central Park / Japan
 * 物 _Thing_
-  * apple / book / car / desk / eraser
+  * Pringles / MacBook Air
 * 生物 _Living Creature_
-  * monkey / dog / cat / bird / fish
+  * Snow Leopard / Siberian Huskey
 * 思想 _Idea_
-  * belief / chance / emotion / love / truth
-
-固有名詞 _Proper Noun_ は、これら区別するために固有の名前が付けられた名詞になる。各単語の先頭文字は大文字としなければならない。
-
-* Albert Einstein
-* Central Park
-* Pringles
-* Siberian Huskey
-* English
+  * English / Buddhism
 
 タイトル名は、先頭以外の 冠詞 / 等位接続詞 / 前置詞 を除き、大文字とする。
 
@@ -34,56 +40,133 @@ title: Nouns
 * All of Me
 * In a Sentimental Mood
 
-## 可算名詞と不可算名詞
+## 具象名詞 / 物質名詞 / 集合名詞 / 抽象名詞
 
-名詞には、可算名詞 _Countable Noun_ と不可算名詞 _Uncountable Noun_ がある。
+### 具象名詞
 
-物質名 / 集合名 / 抽象名は、不可算名詞になる。 不可算名詞は複数形を持たない。
+一定の形があるものを、具象名詞 _Concrete noun_ と呼ぶ。数で数えることができるので複数形を持つ。
 
-* water / sugar / electricity / gas
-* money / paper / toothpaste
-* furniture / luggage / equipment
-* breakfast / lunch / dinner / shopping
-* work / travel
-* music / art / history
-* news / information / advice
-* happiness / ability / confidence
+_money / information_ 等は、具象化された物を指さないので、具象名詞ではない。
 
-具象化することができる場合は可算名詞になる。
+* food
+  * apples / bananas / cookies
+* bread
+  * bans / baguets / burgers
+* money
+  * coins / bills
+* furniture
+  * tables / chairs
+* equipment
+  * lamps / stoves
+* software
+  * programs
+* information
+  * messages / letters
 
-* apple / banana / sandwich / cookie / battery
-* coin / book / toothbrush
-* table / bag / computer
-* pancake / burger / salad
-* job / trip
-* song / picture / story
-* accident / message / suggestion
+### 物質名詞
 
-可算名詞は、複数形を用いて、一般名としての集合を表すことができる。
+個体 / 液体 / 気体 / 材料 など、一定の形がないものを、物質名詞 _Material noun_ と呼ぶ。
 
-* I love __books__. _本という集合_
+* wood / ice / iron
+* water / coffee
+* air / gas / electricity
+* rain / snow / fog
+* sugar / salt / bread / chocolate
+* paper / soap / toothpaste
 
-必ずしも、どちらか一方に属するわけでない。具体的な物なのか、一般名なのかで使い分ける。
+数で数えることができないので、複数形は持たない。_of_ で切り分けるか、_little / some / (a lot of|much)_ で量を示すことしかできない。
 
-* I have some __experiences__ on vacation. _談話として特定できる経験_
-* They offered him because he had a lot of __experience__. _熟練している（経験を詰んでいる）_
+* a glass of water
+* some coffee
+* a lot of snow
+* a bar of chocolate
 
-## 集合名詞
+### 集合名詞
 
-_family / audience / company / team / staff / crew_ は集合名詞と呼ばれ、ひとつのチームを指す場合には単数扱いになり、個々の人員を指す時は複数形を用いる。
+人や物の集合を指す名詞を、集合名詞 _Collective noun_ と呼ぶ。
+
+* people / family / audience
+* team / staff / crew
+* police / army / committee / panel
+* money / furniture / luggage / equipment
+* hardware / software / storage
+
+一つの集合体を指す場合には単数扱いになり、集合内の要素を指す時は複数形を用いる。
 
 * Tell the <del>staffs</del> __staff__ that there'll be a meeting tomorrow. _スタッフ（全員）に伝える_
 * The staff __is__ very friendly. _スタッフ（全員）はとても親切です_
-* I'm a member of __the team__.
-* The company __was__ acquired.
-* The audience __were__ all excited.
+* __The teams__ were divided into four groups. _複数の異なるチーム_
+* I'm a member of __the team__. _一つのチーム_
+* The audience __were__ all excited. _聴衆内の人々_
 
-_people / police_ は複数扱いになる。複数形は持たず、単数形で複数扱いになる。
+#### people / police
+
+_people / police_ は、複数形は持たず、単数形で複数扱いになる。
 
 * The police __are__ coming up.
 * I'm __a police officer__. _個々は police officer / policeman / policewoman_
 
 _people_ は _person_ の複数形ではない。_person_ の複数形は _persons_ だが、人々を表す集合名詞 _people_ を用いるということになる。
+
+#### ware
+
+_software / hardware / cookware_ などの _-ware_ は、用品の総称であるので具象名詞ではない。_-age / -ure / -ry_ 等で終わる名詞も、集合を表す傾向にある。
+
+* software
+  * a piece of software / applications / programs / libraries / drivers
+* hardware
+  * computers / keyboards
+* cookware
+  * knives / saucepans
+* baggage / luggage
+  * bags / suitcases / backpacks
+* furniture
+  * tables / chairs
+* jewelry
+  * gems / rings
+
+### 抽象名詞
+
+形を持たない概念は、抽象名詞 _Abstract noun_ と呼ばれる。
+
+* 性質 / 状態 / 動作
+  * happiness / kindness
+  * inteligence / evidence / confidence / assistance
+  * ability / wisdom / progress
+  * work / travel / traffic / shopping
+  * breakfast / lunch / dinner
+  * news (North + East + West + South) / information / advice / guidance
+* 学問
+  * music / art / history
+* 競技名
+  * tennis / baseball / pool
+
+冠詞は付かないが、特定の状態や動作を指す場合には _the_ が付けられる。
+
+原則として一般的な概念を指すので不可算名詞だが、具象化されたものを指す場合に可算名詞になる。
+
+* work _仕事_
+  * works _作品_
+* damage _損害_
+  * claim damages _損害賠償金_
+
+## 可算名詞 / 不可算名詞
+
+* 可算名詞 _Countable noun_
+  * 数で数える _How many_
+  * 全ての具象名詞
+  * 全ての集合名詞
+  * 具体化した抽象名詞 _changes / improvements / experiences_
+* 不可算名詞 _Uncountable noun_
+  * 量で計る _How much_
+  * 全ての物質名詞
+  * 一般名としての抽象名詞
+
+必ずしも、どちらか一方に属するわけでない。_How (many|much)_ どちらかの意味かで使い分ける。
+
+* I have some __experiences__ on vacation. _談話として特定できる経験_
+* They offered him because he had a lot of __experience__. _熟練している（経験を詰んでいる）_
+* __How much coffee__ do you drink? I usually drink __two cups of coffee__. _量の質問にカップ数で回答_
 
 ## 可算名詞の複数形
 
