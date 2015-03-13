@@ -46,14 +46,14 @@ title: Nouns
 
 一定の形があるものを、具象名詞 _Concrete noun_ と呼ぶ。数で数えることができるので複数形を持つ。
 
-_money / information_ 等は、具象化された物を指さないので、具象名詞ではない。
-
 * food
   * apples / bananas / cookies
 * bread
   * bans / baguets / burgers
 * money
   * coins / bills
+* music
+  * songs / tunes / tracks
 * furniture
   * tables / chairs
 * equipment
@@ -62,6 +62,8 @@ _money / information_ 等は、具象化された物を指さないので、具�
   * programs
 * information
   * messages / letters
+* travel
+  * trips / tours / cruises
 
 ### 物質名詞
 
@@ -80,6 +82,7 @@ _money / information_ 等は、具象化された物を指さないので、具�
 * some coffee
 * a lot of snow
 * a bar of chocolate
+* __How much coffee__ do you drink? I usually drink __two cups of coffee__. _量の質問にカップ数で回答_
 
 ### 集合名詞
 
@@ -101,7 +104,7 @@ _money / information_ 等は、具象化された物を指さないので、具�
 
 #### people / police
 
-_people / police_ は、複数形は持たず、単数形で複数扱いになる。
+_people / police / personnel_ は、複数形は持たず、単数形で複数扱いになる。
 
 * The police __are__ coming up.
 * I'm __a police officer__. _個々は police officer / policeman / policewoman_
@@ -127,26 +130,35 @@ _software / hardware / cookware_ などの _-ware_ は、用品の総称であ�
 
 ### 抽象名詞
 
-形を持たない概念は、抽象名詞 _Abstract noun_ と呼ばれる。
+五感で認知できない概念は、抽象名詞 _Abstract noun_ と呼ばれる。
 
 * 性質 / 状態 / 動作
-  * happiness / kindness
-  * inteligence / evidence / confidence / assistance
-  * ability / wisdom / progress
-  * work / travel / traffic / shopping
-  * breakfast / lunch / dinner
-  * news (North + East + West + South) / information / advice / guidance
+  * -ness / happiness / kindness
+  * -ence / inteligence / evidence / confidence
+  * -ance / assistance / brilliance / reluctance
+  * -ity / ability / possibility / curiosity
+  * -ment / argument / improvement
+  * -tion / invention / intuition
+  * -age / damage / courage / coverage
+  * -ism / populism / fascism / raicism
+  * -ship / friendship / relationship
+  * -th / truth / growth / faith
+  * wisdom / knowledge
+  * proof / evidence
+  * fun / luck
 * 学問
   * music / art / history
 * 競技名
   * tennis / baseball / pool
 
-冠詞は付かないが、特定の状態や動作を指す場合には _the_ が付けられる。
+抽象名詞は、全て無冠詞で不可算名詞というわけではない。一般名を指す場合は、無冠詞の単数形で用いるが、区別する時には冠詞を付け、具体化したなら可算名詞として扱う。　
 
-原則として一般的な概念を指すので不可算名詞だが、具象化されたものを指す場合に可算名詞になる。
-
-* work _仕事_
+* at work _仕事中_
   * works _作品_
+* time for lunch _昼食の時間（一般的）_
+  * the lunch I ate this afternoon  _食べた昼食（具体的）_
+* He had __a lot of experience__. _量としての経験_
+  * I had __some experiences__ on vacation. _数としての経験_
 * damage _損害_
   * claim damages _損害賠償金_
 
@@ -156,17 +168,22 @@ _software / hardware / cookware_ などの _-ware_ は、用品の総称であ�
   * 数で数える _How many_
   * 全ての具象名詞
   * 全ての集合名詞
-  * 具体化した抽象名詞 _changes / improvements / experiences_
+  * 具体化した抽象名詞
 * 不可算名詞 _Uncountable noun_
   * 量で計る _How much_
   * 全ての物質名詞
   * 一般名としての抽象名詞
 
-必ずしも、どちらか一方に属するわけでない。_How (many|much)_ どちらかの意味かで使い分ける。
+名詞が、可算名詞か不可算名詞か、どちらか一方に属するわけでない。_How (many|much)_ どちらかの意味かで使い分ける。
 
-* I have some __experiences__ on vacation. _談話として特定できる経験_
-* They offered him because he had a lot of __experience__. _熟練している（経験を詰んでいる）_
-* __How much coffee__ do you drink? I usually drink __two cups of coffee__. _量の質問にカップ数で回答_
+_advice / information / money_ など、慣習的に量としてみなされ、不可算名詞しかとらない名詞がある。これらは規則性はないので覚えておくしかない。
+
+* advice / assistance / guidance
+  * instructions / guides
+* news (North + East + West + South)  / information
+  * articles / posts / messages / letters
+* work / homework / research
+  * jobs / tasks / assignments / reports / experiments
 
 ## 可算名詞の複数形
 
