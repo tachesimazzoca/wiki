@@ -16,6 +16,16 @@ title: Modals
 * He might __be able to__ come to the party.
 * You should __be able to__ send you a estimate.
 
+能力以外にも、可能性や許可のニュアンスがある。
+
+* It __can__ be difficult. _難しそう / 状況が難しくするかも_
+* We __can__ have some coffee. _コーヒーでも飲みましょうか_
+
+「できる」というとポジティブな意味に考えがちだが、実行が伴わないと口先だけの印象を与える。
+
+* I can do it. _できます（能力の自慢）_
+* I will do it. _やります（実行する意思）_
+
 _was able to_ は 「なんとかやり遂げた」_managed to_ の意味になる。
 
 * A prisoner __was able to__ escape from in a prison.

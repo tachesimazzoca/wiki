@@ -85,17 +85,20 @@ _will_ を使うと、会話時点で意思決定した意味になる。
   * No, I__'ll stay__ at a hotel.
 * _Alice:_ I__'m taking__ a walk tomorrow morning. _Bob:_ That sounds nice. I__'ll join__ you.
 
-公共機関や公演などの固定のスケジュールは、未来の日付であっても現在形を使う。「その時間にそうすることが決められている」という意味になる。
-
-* We__'re going__ to the movies tonight. It __starts__ at 20:30.
-* I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
-* Tomorrow __is__ Sunday.
-
 ### be about to ...
 
 「もうすぐ ... するところです」という直近の未来には _be (just) about to_ を使う。
 
 * I__'m__ just __about to__ leave the offce.
+
+### 現在形を使うケース
+
+公共機関 / 公演 / 期限日 などの固定のスケジュールは、未来の日付であっても現在形を使う。その時間にそうなると決められている日常的なニュアンスになる。
+
+* We__'re going__ to the movies tonight. It __starts__ at 20:30.
+* I__'m going__ abroad tomorrow. The flight __leaves__ at 10:00.
+* Tomorrow __is__ Sunday.
+* My driver's license __expires__ in 3 months.
 
 ## 未来進行形との使い分け
 
