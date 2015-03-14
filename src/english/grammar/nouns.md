@@ -102,16 +102,16 @@ title: Nouns
 * I'm a member of __the team__. _一つのチーム_
 * The audience __were__ all excited. _聴衆内の人々_
 
-#### people / police
+#### 常に複数扱いになる集合名詞
 
-_people / police / personnel_ は、複数形は持たず、単数形で複数扱いになる。
+_people / police / personnel_ 等は、複数形は持たず、単数形で常に複数扱いになる。
 
 * The police __are__ coming up.
 * I'm __a police officer__. _個々は police officer / policeman / policewoman_
 
 _people_ は _person_ の複数形ではない。_person_ の複数形は _persons_ だが、人々を表す集合名詞 _people_ を用いるということになる。
 
-#### ware
+#### 間違いやすい集合名詞
 
 _software / hardware / cookware_ などの _-ware_ は、用品の総称であるので具象名詞ではない。_-age / -ure / -ry_ 等で終わる名詞も、集合を表す傾向にある。
 
@@ -132,51 +132,54 @@ _software / hardware / cookware_ などの _-ware_ は、用品の総称であ�
 
 五感で認知できない概念は、抽象名詞 _Abstract noun_ と呼ばれる。
 
-* 性質 / 状態 / 動作
-  * -ness / happiness / kindness
+* 形容詞変化「...性 / ...さ / ...であること」
+  * -ness / happiness / kindness / sickness
   * -ence / inteligence / evidence / confidence
   * -ance / assistance / brilliance / reluctance
-  * -ity / ability / possibility / curiosity
-  * -ment / argument / improvement
-  * -tion / invention / intuition
-  * -age / damage / courage / coverage
-  * -ism / populism / fascism / raicism
-  * -ship / friendship / relationship
+  * -ity / ability / possibility / curiosity / difficulty
+  * -cy / accuracy / consistency
   * -th / truth / growth / faith
-  * wisdom / knowledge
-  * proof / evidence
-  * fun / luck
-* 学問
-  * music / art / history
-* 競技名
-  * tennis / baseball / pool
+  * -ism / populism / fascism / raicism
+* 動詞変化「...すること」
+  * -ment / argument / improvement / agreement / assignment
+  * -tion / information / education / invention / intuition
+  * -age / storage / coverage / courage / damage
+* 名詞変化
+  * -hood / childhood
+  * -ship / friendship / relationship
+* wisdom / knowledge / proof
+* fun / luck
+* work / research
+* traffic / travel
 
-抽象名詞は、全て無冠詞で不可算名詞というわけではない。一般名を指す場合は、無冠詞の単数形で用いるが、区別する時には冠詞を付け、具体化したなら可算名詞として扱う。　
+基本的に一般名を指すため、その場合は不可算扱いで用いるが、具体化された物を指す場合には、その限りではない。
 
-* at work _仕事中_
-  * works _作品_
-* time for lunch _昼食の時間（一般的）_
-  * the lunch I ate this afternoon  _食べた昼食（具体的）_
+* requirements / improvements / agreements / assignments
+* possibilities / vulnerabilities
 * He had __a lot of experience__. _量としての経験_
-  * I had __some experiences__ on vacation. _数としての経験_
+  * I had __some curious experiences__ on vacation. _数としての特定経験_
 * damage _損害_
   * claim damages _損害賠償金_
 
+「無冠詞で不可算扱いの名詞 = 抽象名詞」ではない。
+
+* 数なら可算 / 量なら不可算
+* 特定しないと伝わらない場合に限定詞を付ける
+
+ように考える。
+
 ## 可算名詞 / 不可算名詞
+
+名詞は、可算名詞か不可算名詞か、どちらか一方に属するわけでない。_How (many|much)_ どちらかの意味かで使い分ける。
 
 * 可算名詞 _Countable noun_
   * 数で数える _How many_
-  * 全ての具象名詞
-  * 全ての集合名詞
-  * 具体化した抽象名詞
+  * 単数名詞には、必ず限定詞が付く
 * 不可算名詞 _Uncountable noun_
   * 量で計る _How much_
-  * 全ての物質名詞
-  * 一般名としての抽象名詞
+  * 数を表す数詞や不定冠詞はつかない
 
-名詞が、可算名詞か不可算名詞か、どちらか一方に属するわけでない。_How (many|much)_ どちらかの意味かで使い分ける。
-
-_advice / information / money_ など、慣習的に量としてみなされ、不可算名詞しかとらない名詞がある。これらは規則性はないので覚えておくしかない。
+_advice / information / money_ など、英語では慣習的に概念や総称を指すため不可算名詞となる。規則性はないので覚えておくしかない。
 
 * advice / assistance / guidance
   * instructions / guides
