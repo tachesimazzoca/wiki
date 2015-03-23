@@ -18,7 +18,13 @@ title: Quantifiers
 
 ## some / any / no
 
-_some / any_ は「いくつかの ...」という意味で、集合の中から数個を取り出す。
+_some / any_ は「いくつかの...」という意味で、可算名詞（数）と不可算名詞（量）のどちらでも使える。
+
+* Do you have __any__ questions?
+* Do you have __some__ friends?
+* I have __some__ problems.
+* Do you have __any__ time?
+* May I have __some__ coffee?
 
 _some_ は、明らかに存在する場合に使う。
 
@@ -59,6 +65,38 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * __No one__ said "Yes".
   * <del>No one didn't say "No".</del> __Anyone__ didn't say "Yes".
 
+## few / little / many / much
+
+「ちょっと」を表す場合、可算名詞（数）には _few_ を使い、不可算名詞（量）には _little_ を使う。
+
+* I have __few__ friends. _少ししかいない（後ろ向き）_
+* I have __a few__ friends. _数名いる（前向き）_
+* I have __little__ money. _少ししか持っていない（後ろ向き）_
+* I have __a little__ money. _少しなら持っている（前向き）_
+
+「たくさん」を表す場合、語り手がどの程度の数量が分かっている肯定文の目的語には、_a lot of / lots of / plenty of_ 等で程度を表現する。
+
+* I have <del>many</del> __a lot of__ friends.
+* We have __plenty of__ time.
+* He has __full of__ confidence. _自信満々_
+
+疑問/否定/条件文の目的語のように、どの程度の数量か不明な場合は、可算名詞には _many_ を使い、不可算名詞には _much_ を使う。ただし、主語であったり、_so / too_ で修飾されれば使える。
+
+* I don't have __many__ books.
+* Do you have __many__ friends?
+* I have __so many__ books.
+* I don't have __much__ money.
+* If you have __much__ money, ....
+* I have __too much__ money.
+
+肯定文であっても、_many / much_ が使われるケースも見かけるが、よく耳にする _fun / money_ など、慣習的に肯定文で _much_ は使われていないことは、ネイティブでなくても実感できるはずである。
+
+* __Many__ people die of cancer. _主語の場合_
+* There are __many__ ways to skin a cat.
+* He has __much__ confidence.
+* It's <del>much fun</del> __a lot of fun__.
+* I have <del>much money</del> __plenty of money__.
+
 ## ...body / ...one
 
 人を表す _everyone / everybody / someone / somebody / anyone / anybody / no one / nobody_ は単数扱いになる。男女の区別はつかないので、所有形容詞には _they / them / their_ を用いる。
@@ -81,45 +119,13 @@ _none of_ の場合は、単数扱いでもよい。
 
 * __None of__ the stores __(were|was)__ open.
 
-## 不可算名詞の数量
+## 不可算名詞の数え方
 
-「素材」の不可算名詞は _a piece of ..._ のように、切り分ければ数えることができる。
+量で計る不可算名詞は _a piece of ..._ のように切り分ければ、数で数えることができる。
 
 * I would like __a cup of coffee__.
 * __Two glasses of wine__, please.
 * Do you have __a sheet of paper__?
 * I bought __a loaf of bread__.
 * Would you like __a piece of cake__?
-
-「ちょっと」を表す場合、可算名詞（数）には _few_ を使い、不可算名詞（量）には _little_ を使う。
-
-* I have __few__ friends. _少ししかいない（後ろ向き）_
-* I have __a few__ friends. _数名いる（前向き）_
-* I have __little__ money. _少ししか持っていない（後ろ向き）_
-* I have __a little__ money. _少しなら持っている（前向き）_
-
-「たくさん」を表す場合、たくさんあることを断定する肯定文では _a lot of / lots of / plenty of_ を使う。
-
-* I have __a lot of__ books.
-* We have __plenty of__ time. _plenty は「十分な」量_
-
-疑問/否定/条件文で断定しない場合は、可算名詞には _many_ を使い、不可算名詞には _much_ を使う。ただし、主語であったり、_so / too_ で修飾されれば使える。
-
-* I have <del>many</del> __a lot of__ books.
-* I don't have __many__ books.
-* Do you have __many__ friends?
-* I have __so many__ books.
-* I have <del>much</del> __full of__ confidence.
-* I don't have __much__ money.
-* If you have __much__ money, ....
-* I have __too much__ money.
-
-_some / any_ はどちらでも使える。
-
-* Do you have __any__ questions?
-* Do you have __some__ friends?
-* I have __some__ problems.
-* Do you have __any__ time?
-* May I have __some__ coffee?
-* I have __some__ advice.
 
