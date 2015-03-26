@@ -40,7 +40,7 @@ title: Time
   * in April 2014
 * 午前 / 午後 / 晩
   * in the (morning|afternoon|evening)(s) <del>at (morning|afternoon|evening)</del>
-* 範囲
+* 範囲（期間後）
   * in a moment
   * in a few minutes
   * in a (day|week|month|year)
@@ -100,7 +100,19 @@ _by then / by that time_ で、前文を受けて「その時までに」とい�
 
 ### during
 
+_during + 名詞_ で「...の間に」の意味になる。節の場合は、_while_ を使う。
+
+* during spring break
+* while I was reading a book
+
 ### until / til
+
+_until_ は「...までずっと」の継続状態を表す。_by_ は区切りの期限だが、_until_ は、指定条件になるまで継続する。
+
+_til_ は口語的で、節には _until_ は用いる。
+
+* Read this book __(til|until)__ the end.
+* This method waits __until__ the timeout has elapsed.
 
 ### up to
 
@@ -109,6 +121,12 @@ _by then / by that time_ で、前文を受けて「その時までに」とい�
 * up-to-date information _最新情報_
 
 ### within
+
+期間内を表す時は _within_ を使う。_in_ も範囲を表すが、指定期間後になる。
+
+* I'll be back in a week. _一週間後に戻ってきます_
+* __in__ a few minutes _数分後_
+* __within__ a few minutes _数分以内_
 
 ## When vs. How long
 
