@@ -4,7 +4,7 @@ layout: page
 title: Reported Speech
 ---
 
-## 使い方
+## said
 
 間接話法 _Reported Speech_ により、誰かが話していたことを伝えることができる。
 
@@ -25,7 +25,7 @@ title: Reported Speech
   * He said that he __woke__ up at 9:00.
   * He said that he __had woken__ up at 9:00.
 
-## tell
+## told
 
 誰に対して話していたかを伝えたいときは _told someone that ..._ を使う。
 
@@ -37,14 +37,14 @@ _told someone to ..._ も使える。
 * _"Don't work for a few days,"_ the doctor said to me.
   * The doctor __told me not to__ work for a few days.
 
-質問（疑問形）の場合は _ask_ を使う。
+質問（疑問形）の場合は _asked_ を使う。
 
 * _"Could you tell me the way to the station?,"_ she said to me.
   * She __asked me to__ tell her the way to the station.
 
-## ask
+## asked
 
-_ask_ で質問された内容を伝えることができる。
+_asked_ で質問された内容を伝えることができる。
 
 * He said, _"What are you willing to sacrifice?"_
   * He __asked what__ I was willing to sacrifice.
