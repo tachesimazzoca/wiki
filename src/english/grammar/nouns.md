@@ -188,6 +188,19 @@ _advice / information / money_ など、英語では慣習的に概念や総称�
 * work / homework / research
   * jobs / tasks / assignments / reports / experiments
 
+形のある物体として存在していなくても、範囲がある（他と区別できる）場合には可算扱いになる。_outlook / criteria_ のように、 慣習的に、単数形 / 複数形どちらかでのみ用いられる名詞もある。
+
+* 選択肢
+  * options / choices
+* 方法
+  * ways / methods / routines / procedures
+* 条件
+  * conditions / constraints / standards / criteria
+* 考え方
+  * outlook / perspectives / clues
+* 構成物
+  * overview / summary / conclusion
+
 ## 可算名詞の複数形
 
 無冠詞の可算名詞の複数形は、「... というもの」という集合名を表す。この場合は、数える（区別する）事はできない。
