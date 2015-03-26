@@ -72,7 +72,14 @@ _through_ は「...を通リ抜けて」、_via_ は「...を経由して」の�
   * <del>go via the door</del> _ドアを使って？_
 * read the book __via__ the English version _英語版で_
 
-## Adverbial Phrases
+## Adverbs
+
+### north / east / west / south
+
+方角の _north / east / west / south_  には 副詞の「...へ」の意味もあるので、前置詞句 _to + ..._ は用いない。
+
+* Go <del>to west</del> west.
+* The birds flew <del>to south</del> south.
 
 ### aside
 
