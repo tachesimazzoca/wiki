@@ -21,6 +21,11 @@ title: Modals
 * It __can__ be difficult. _難しそう / 状況が難しくするかも_
 * We __can__ have some coffee. _コーヒーでも飲みましょうか_
 
+否定形は _can't / cannot_ を使うようにする。_can not_ と分けてしまうと _not_ が動詞を否定して意味が変わってしまう。
+
+* You cannot go out. _外出してはならない_
+* You can not go out. _外出しなくてよい_
+
 「できる」というとポジティブな意味に考えがちだが、実行が伴わないと口先だけの印象を与える。
 
 * I can do it. _できます（能力の自慢）_
