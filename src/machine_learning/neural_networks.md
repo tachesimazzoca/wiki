@@ -137,7 +137,7 @@ a3 = sigmoid(z2);                    % [0; 1; 1; 0]
 * `y = 2 if a3 = [0; 1; 0]`
 * `y = 3 if a3 = [0; 0; 1]`
 
-分類数を `K` とすると、費用関数は各出力の誤差平均を求めればよい。
+分類数を `K` とすると、コスト関数は各出力の誤差平均を求めればよい。
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_cost">
 a = h_{\Theta}(x) \in \mathbb{R}^{K}\\
@@ -146,7 +146,7 @@ J(\Theta) = \frac{1}{m} {\sum_{i=1}^{m}} {\sum_{k=1}^{K}} [ -log(a_{i,k})(y_{i,k
 
 ## Cost Function
 
-ニューラルネットワークの費用関数は、ロジスティック回帰と同様であるが、予測値を求めるには _Forward propagation_ で各レイヤーを通して算出する必要がある。
+ニューラルネットワークのコスト関数は、ロジスティック回帰と同様であるが、予測値を求めるには _Forward propagation_ で各レイヤーを通して算出する必要がある。
 
 {% highlight octave %}
 Theta1 = [-30 10 10 10; -10 20 20 20; 20 -10 -10 -10; -20 10 10 10];
@@ -246,7 +246,7 @@ g'(0) & = g(0)(1 - g(0)) = 0.5 \cdot 0.5 = 0.25 \\
 \frac{\partial J(\Theta)}{\partial \Theta^{(l)}_{i,j}} = D^{(l)}_{i,j} = a^{(l)}_{j} \delta^{(l+1)}_{i} = \frac{1}{m} \Delta^{(l)}_{i,j} \\
 </script>
 
-_Regularization_ を行なう場合は、各パラメータ毎にペナルティを与えればよい。費用関数と同様に、バイアス項は除外する。
+_Regularization_ を行なう場合は、各パラメータ毎にペナルティを与えればよい。コスト関数と同様に、バイアス項は除外する。
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_grad_reg">
 D^{(l)}_{i,j} = D^{(l)}_{i,j} + \frac{\lambda}{m} \Theta^{(l)}_{i,j} \\
@@ -254,7 +254,7 @@ D^{(l)}_{i,j} = D^{(l)}_{i,j} + \frac{\lambda}{m} \Theta^{(l)}_{i,j} \\
 
 ### Numerical Gradient
 
-_Backpropagation_ を正しく行なえているかどうかは、一つのパラメータのみ極小値で増減させて、二つの費用関数を適用した差分が、_Backpropagation_ で得た偏微分とほぼ相違ないこと（1e-9 以下が目安）をチェックすればよい。
+_Backpropagation_ を正しく行なえているかどうかは、一つのパラメータのみ極小値で増減させて、二つのコスト関数を適用した差分が、_Backpropagation_ で得た偏微分とほぼ相違ないこと（1e-9 以下が目安）をチェックすればよい。
 
 <script type="math/tex; mode=display" id="MathJax-Element-grad_checking">
 \frac{\partial J(\theta)}{\partial \theta_1} \approx \frac{ J(\theta_1 + \epsilon, \theta_2, \theta_3, \ldots, \theta_n) - J(\theta_1 - \epsilon, \theta_2 , \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
@@ -277,7 +277,7 @@ function grad = numericalGradient(J, theta)
 end
 {% endhighlight %}
 
-すべてのパラメータに対して費用関数を適用するため、非常にコストがかかる。あくまで、_Backpropagation_ が正しくおこなえているかのチェックのみで、実際の学習処理に含めてはならない。
+すべてのパラメータに対してコスト関数を適用するため、非常に処理時間がかかる。あくまで、_Backpropagation_ が正しくおこなえているかのチェックのみで、実際の学習処理に含めてはならない。
 
 ### Symmetry Breaking
 
