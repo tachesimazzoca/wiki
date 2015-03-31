@@ -118,3 +118,44 @@ Xapprox = Z * Ureduce';
 Xdiff = (X - Xapprox) .^ 2;
 {% endhighlight %}
 
+## Choosing Number of Principal Components
+
+学習データと射影（圧縮後に復元した学習データ） との誤差が許容範囲を超えるまで、パラメータ数 `k` を削減できる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-pca_choosing_k">
+\frac{
+  \frac{1}{m} \sum_{i = 1}^{m} \begin{Vmatrix}
+  x^{(i)} -  x^{(i)}_{ \text{approx} }
+  \end{Vmatrix}^{2}
+}{
+  \frac{1}{m} \sum_{i = 1}^{m} \begin{Vmatrix} x^{(i)} \end{Vmatrix}^{2}
+} \leq 0.01
+</script>
+
+実際には、上記式を用いる必要はない。特異値分解を行なって得られる行列 `Σ` は特異値を対角に持つ。`svd` 関数で得られる `S` は後方にある要素ほど 0 に近づく。
+
+{% highlight octave %}
+octave> X = [1 2 3 1 1; 2 9 8 2 2; 3 6 2 3 3; 4 9 5 4 4];
+octave> [U, S, V] = svd(X' * X / 4);
+octave> S
+S =
+
+Diagonal Matrix
+
+   93.68813          0          0          0          0
+          0    4.49246          0          0          0
+          0          0    0.31941          0          0
+          0          0          0    0.00000          0
+          0          0          0          0    0.00000
+
+octave> sum(sum(S(1:3, 1:3)))
+ans =  98.500
+octave> sum(sum(S))
+ans =  98.500
+{% endhighlight %}
+
+上記の例では `S(i, i), i > 3` は出力に影響しない。すなわち `k = 3` が最適な主成分数となる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-pca_choosing_k_by_sigma">
+\frac{ \sum_{i = 1}^{k} S_{i,i} }{ \sum_{i = 1}^{n} S_{i,i} } \geq 0.99
+</script>
