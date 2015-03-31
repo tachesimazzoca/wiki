@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Principle Component Analysis
+title: Principal Component Analysis
 ---
 
 <script type="text/x-mathjax-config">
@@ -15,7 +15,7 @@ title: Principle Component Analysis
 
 計測対象のデータによっては、相関のない似た成分が含まれることがある。例えば画像識別を行なうとして、ある程度の形状が判断できればよいならば、わずかな色の違いは不要な情報である。これらの成分は、ひとまとめにして学習したほうが効率的である。
 
-主成分分析 _Principle Component Analysis (PCA)_ により、相関のない成分を見つけ出し、次元数を圧縮することができる。
+主成分分析 _Principal Component Analysis (PCA)_ により、相関のない成分を見つけ出し、次元数を圧縮することができる。
 
 * ２次元データ `(x1, x2)` から１次元データ `z1` に圧縮するとする。
 * 各 `(x1, x2)` からの射影 _Projection_ への距離が、最も小さくなるベクトル `u` を見つける。
@@ -106,7 +106,7 @@ Ureduce = U(:, 1:k);
 Z = X * Ureduce;
 {% endhighlight %}
 
-完全ではないが、圧縮前の学習データに復元するには、逆の行列演算を行なえば良い。
+圧縮前の学習データに復元するには、逆の行列演算を行なえば良い。ただし完全に元の値には戻らない。
 
 {% highlight octave %}
 Xapprox = Z * Ureduce';
