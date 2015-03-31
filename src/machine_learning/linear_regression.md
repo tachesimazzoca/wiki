@@ -203,7 +203,7 @@ theta =
 octave> X = [45 452000; 24 285000; 53 524000; 35 389000];
 octave> m = size(X, 1)
 m =  4
-octave> X = X - (ones(4, 1) * mean(X))
+octave> X = X - repmat(mean(X), m, 1)
 X =
 
    5.7500e+00   3.9500e+04
@@ -211,7 +211,7 @@ X =
    1.3750e+01   1.1150e+05
   -4.2500e+00  -2.3500e+04
 
-octave> X = X ./ (ones(4, 1) * std(X))
+octave> X = X ./ repmat(std(X), m, 1)
 X =
 
    0.45805   0.38983
