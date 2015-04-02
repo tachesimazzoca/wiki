@@ -67,9 +67,20 @@ _mind / consider / imagine_ など思考する動詞が間違いやすいが、�
   * I __stopped running__. _走るのをやめた_
   * I __stopped to run__. _走るためにやめた_
 
+## worth + ...ing
+
+_worth + ...ing_ で「...する価値がある」の意味になる。
+
+* This book is __worth reading__.
+
+形式主語であったり、主体を明示するなら、動名詞の前に置く。代名詞なら所有格を用いる。
+
+* It might not be worth __a significant amount of work__ improving.
+* Thank you for __your__ coming here.
+
 ## 前置詞 + ...ing
 
-前置詞の後には名詞がくるので、動名詞 _...ing_ を用いる。
+前置詞の後には名詞を置くので、動名詞 _...ing_ を用いる。
 
 * I'm interested __in reading__ the book. <del>... in to read ...</del>
 * Thank you __for inviting__ me.
