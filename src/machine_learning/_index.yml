@@ -3,5 +3,6 @@
 - "logistic_regression"
 - "regularization"
 - "neural_networks"
+- "svm"
 - "clustering"
 - "pca"
