@@ -148,6 +148,18 @@ The following is an one-liner to remove index entries to match deleted files.
 </tr>
 </table>
 
+## fetch
+
+To download objects and references from another repository, use the command `git fetch <remote>`.
+
+    % git fetch origin
+
+    # The remote "origin" will be used, when no remote is specified.
+    % git fetch
+
+By default, the command won't remove any references that no longer exist on the remote. To prune them, use the `-p --prune` option.
+
+    % git fetch -p
 
 ## branch
 
@@ -188,14 +200,14 @@ The following is an one-liner to remove index entries to match deleted files.
     % git branch -d current
 
 
-## Working with Remotes
+## Working with Remote Repositories
 
-    # リモートを確認
-    % git remove -v
+    # List remote-tracking repositories with the verbose option.
+    % git remote -v
     origin  git@github.com:foo/bar.git (fetch)
     origin  git@github.com:foo/bar.git (push)
 
-    # リモートブランチを含めた全てのブランチを確認
+    # List both remote-tracking branches and local branches.
     % git branch -a
     * master
       remotes/origin/master
@@ -244,7 +256,7 @@ The following is an one-liner to remove index entries to match deleted files.
 
 ## History
 
-To reset author, use `git-rebase` with `-i` option. The following is an example to modify last 2 commits.
+To reset the authorship information, use `git-rebase` with the option `-i`. The following is an example to modify last 2 commits.
 
     % git rebase -i HEAD~2
     pick b234567  Do something
@@ -273,7 +285,7 @@ Replace the command `pick` at each line with `edit` and then quit the editor.
 
             git rebase --continue
 
-Repeat running `commit --amend --reset-author` and `rebase --continue`.
+Repeat running the commands `commit --amend --reset-author` and `rebase --continue` alternately.
 
     % git commit --amend --reset-author
     % git rebase --continue
@@ -281,7 +293,7 @@ Repeat running `commit --amend --reset-author` and `rebase --continue`.
     % git rebase --continue
     Successfully rebased and updated refs/heads/...
 
-You can use `filter-branch` to reset all commits. The following is an example:
+You can also use `filter-branch` to reset all commits.
 
     % git filter-branch --commit-filter '
     GIT_AUTHOR_NAME="Foo Bar"
