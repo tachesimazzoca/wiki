@@ -40,7 +40,7 @@ The `-u` option removes as well as modifies index entries to match the working t
     A  b.txt
     ?? c.txt
 
-To Add, modifiy and remove them, use the `-A` option.
+To add, modifiy and remove them, use the `-A` option.
 
     % rm b.txt
     % git add -A .
@@ -52,7 +52,7 @@ To Add, modifiy and remove them, use the `-A` option.
     % git rm /path/to/file
     % git rm -r /path/to/dir/
 
-The following is an one-liner to remove index entries to match deleted files.
+The following is an one-liner to remove index entries that start with `^.D` as tracking status. (i.e. Each file tracked by the index entries has already been removed without using git-rm.)
 
     % git status -s | grep ^'.D' | awk '{print $2}' | xargs git rm
 
