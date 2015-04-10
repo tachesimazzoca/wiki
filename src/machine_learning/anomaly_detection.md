@@ -84,12 +84,6 @@ F_{1} = 2 \frac{PR}{P + R} \\
 
 不良 PC を見つけるとすると、一般的に CPU 利用率は処理数に比例するが、これらの値を個別にパラメータとして取っても、単に PC の貢献度を計るだけで、例外は検知できない。このような時は CPU 利用率とリクエスト処理数の比を取ることで、CPU が異常な使われ方をしていることをパラメータ化するとよい。
 
-## vs. Supervised Learning
-
-* 確率分布からどこからが例外であるかを見つける方法においては、学習データ数は精度には貢献しない。例外データのバリエーション数が、入力パラメータの選択に貢献するのみである。
-* 不正アクセス / 不良判定 / システム異常 など例外のバリエーションが多岐に渡っている場合、正常から外れるということを指標に判定するほうがよい。
-* スパム判定のように、正常時と例外時のどちらにも人間が判断できる一定の傾向があり、両方の学習データが潤沢にあるのであれば、正解値から一般式を見つける _Supervise learning_ のほうがよい。
-
 ## Multivariate Normal Distribution
 
 正規分布では、パラメータ間の相関は持たない。例を上げると
@@ -119,14 +113,93 @@ p(x; \mu, S) & = \frac{1}{ ( \sqrt{ 2 \pi } )^{m} \sqrt{ | S | } } \exp \left( -
 \end{align}
 </script>
 
-* `S` は、入力ベクトル `x` と平均ベクトル `μ` の共分散行列 _Covarance matrix_
+* `S` は、入力ベクトル `x` と平均ベクトル `μ` の共分散行列 _Covariance matrix_
 * `|S|` は、行列式 _Determinant_ `= det(S)`
+* `S` は逆行列をとっているため、可逆である必要がある。
+* `S` が正規分布の `σ^2` の対角行列（対角成分以外が 0 で相関がない）ならば、正規分布と同じ値となる。
 * 共分散から算出するため、パラメータ毎に分けた確率密度関数 `p(j)` を取る必要はない。
 
-共分散行列 `S` は逆行列をとっているため可逆である必要がある。特異行列 _Singular matrix_ の場合には、以下の傾向がある。
+`S` が非可逆の特異行列 _Singular matrix_ の場合には、以下の傾向がある。
 
 * サンプル数 `m` が、パラメータ数 `n` に対して少なすぎる。
 * 重複しているパラメータ `x1 = x2, x3 = x4 + x5, ...` がある。
 
-`S` は、対角成分以外が 0 の対角行列（他パラメータと相関がない）ならば、正規分布と同じ分布となる。
+共分散行列から算出するため、_O(N^2)_ のコストとなる点が欠点になる。各パラメータに相関がないか、相関をパラメータ化できているならば、あえて使う必要はない。
+
+### vs. Normal Distribution
+
+{% highlight octave %}
+function p = normalDist(x, u, s)
+    n = size(x, 1);
+    ps = zeros(n, 1);
+    for j = 1:n
+      ps(j) = (1 / (sqrt(2 * pi * s(j)))) * exp(-1 * ((x(j) - u(j))^2) / (2 * s(j)));
+    end
+    p = prod(ps);
+end
+{% endhighlight %}
+
+{% highlight octave %}
+function p = multiNormalDist(x, u, S)
+    n = size(x, 1);
+    p = (1 / (((sqrt(2 * pi))^n) * sqrt(det(S)))) * exp(-1 * ((x - u)' * pinv(S) * (x - u)) / 2);
+end
+{% endhighlight %}
+
+{% highlight octave %}
+% CPU load, number of requests
+X = [34 5; 56 10; 89 15; 90 20; 125 32; 68 18];
+
+[m, n] = size(X);
+
+% mean of X
+u = mean(X)';
+printf('mean: [%f, %f]\n', u);
+
+% variance of X
+s = (sum(((X - repmat(u', m, 1)) .^ 2)) ./ m)';
+printf('sigma: [%f, %f]\n', s);
+
+%
+% Normal distribution:
+%
+normalDist([77; 16.6], u, s) % 6.5101e-04
+normalDist([34; 5], u, s)    % 8.3081e-05
+normalDist([125; 32], u, s)  % 3.1740e-05
+
+% According to the results above, we assume that the probability
+% in normal cases should be greater than 3.1740e-05.
+%
+% In this case, the CPU load is too high, although the number
+% of requests is low. We expected that it would be labeled as
+% an anomaly, but the probability with normal distribution is
+% better than 3.1740e-05.
+normalDist([100; 8], u, s) % 2.8090e-04
+
+%
+% Multivariate normal distribution:
+%
+v = X - repmat(u', m, 1);
+S = (v' * v ./ m)';
+multiNormalDist([77; 16.6], u, S) % 0.0020253
+multiNormalDist([34; 5], u, S)    % 6.6206e-04
+multiNormalDist([125; 32], u, S)  % 3.9053e-04
+
+% The probability with multivariate normal distribution is
+% sufficiently lower than the limit 3.9053e-04, so we can
+% predict that this case must be an anomaly.
+multiNormalDist([100; 8], u, S)   % 3.3423e-10
+
+% If the covariance matrix "S" is a diagonal matrix of the
+% sigma "s" of normal distribution, the probability will
+% completely be the same as normal distribution.
+multiNormalDist([77; 16.6], u, diag(s)) % 6.5101e-04
+multiNormalDist([100; 8], u, diag(s))   % 2.8090e-04
+{% endhighlight %}
+
+## vs. Supervised Learning
+
+* 確率分布からどこからが例外であるかを見つける方法においては、学習データ数は精度には貢献しない。例外データのバリエーション数が、入力パラメータの選択に貢献するのみである。
+* 不正アクセス / 不良判定 / システム異常 など例外のバリエーションが多岐に渡っている場合、正常から外れるということを指標に判定するほうがよい。
+* スパム判定のように、正常時と例外時のどちらにも人間が判断できる一定の傾向があり、両方の学習データが潤沢にあるのであれば、正解値から一般式を見つける _Supervise learning_ のほうがよい。
 
