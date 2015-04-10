@@ -28,22 +28,22 @@ title: Principal Component Analysis
 _PCA_ では、学習データの共分散行列 _Covariance matrix_ を利用する。
 
 <script type="math/tex; mode=display" id="MathJax-Element-pca_sigma">
-\Sigma = \frac{1}{m} \sum_{i = 1}^{n} {(x^{(i)})(x^{(i)})^{T}} \\
-\Sigma \in \mathbb{R}^{n \times n}
+S = \frac{1}{m} \sum_{i = 1}^{n} {(x^{(i)})(x^{(i)})^{T}} \\
+S \in \mathbb{R}^{n \times n}
 </script>
 
-`Σ` は、学習データ `x` の各要素を交差させて平均をとった `n` の平方行列になる。各要素の相関度合いを調べるために、この共分散行列を用いると考えればよい。
+`S` は、学習データ `x` の各要素を交差させて平均をとった `n` の平方行列になる。各要素の相関度合いを調べるために、この共分散行列を用いると考えればよい。
 
 ## Singular Value Decomposition
 
 特異値分解 _Singular value decomposition_ では、行列を３つの行列に分解する。
 
 <script type="math/tex; mode=display" id="MathJax-Element-pca_svd">
-M = U \Sigma V^{T}
+M = U S V^{T}
 </script>
 
 * `U` は出力の基底となる正規直交ベクトル
-* `Σ` は特異値を対角に持つ行列
+* `S` は特異値を対角に持つ行列
 * `V` は入力の基底となる正規直交ベクトル
 
 MATLAB 互換であれば `svd` 関数が提供されている。分解した `[U, S, V]` を得ることができる。
@@ -124,15 +124,13 @@ Xdiff = (X - Xapprox) .^ 2;
 
 <script type="math/tex; mode=display" id="MathJax-Element-pca_choosing_k">
 \frac{
-  \frac{1}{m} \sum_{i = 1}^{m} \begin{Vmatrix}
-  x^{(i)} -  x^{(i)}_{ \text{approx} }
-  \end{Vmatrix}^{2}
+  \frac{1}{m} \sum_{i = 1}^{m} \| x^{(i)} -  x^{(i)}_{ \text{approx} } \|^{2}
 }{
-  \frac{1}{m} \sum_{i = 1}^{m} \begin{Vmatrix} x^{(i)} \end{Vmatrix}^{2}
+  \frac{1}{m} \sum_{i = 1}^{m} \| x^{(i)} \|^{2}
 } \leq 0.01
 </script>
 
-実際には、上記式を用いる必要はない。特異値分解を行なって得られる行列 `Σ` は特異値を対角に持つ。`svd` 関数で得られる `S` は、後方にある要素ほど 0 に近づく。
+実際には、上記式を用いる必要はない。特異値分解を行なって得られる対角行列 `S` は特異値を対角成分に持つ。`svd` 関数で得られる `S` は、後方にある要素ほど 0 に近づく。
 
 {% highlight octave %}
 octave> X = [1 2 3 1 1; 2 9 8 2 2; 3 6 2 3 3; 4 9 5 4 4];

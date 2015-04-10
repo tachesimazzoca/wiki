@@ -65,25 +65,25 @@ u = \begin{bmatrix}
 5 \\
 \end{bmatrix} \\
 
-\begin{Vmatrix} u \end{Vmatrix} = \sqrt{ u_1^{2} + u_2^{2} } = \sqrt{ 3^2 + 5^2 } = \sqrt{ 31 } = 5.5678
+\| u \| = \sqrt{ u_1^{2} + u_2^{2} } = \sqrt{ 3^2 + 5^2 } = \sqrt{ 31 } = 5.5678
 </script>
 
 ベクトルの内積 _Vector inner product_ は、以下の公式がなりたつ。
 
 <script type="math/tex; mode=display" id="MathJax-Element-vector_inner_product">
-\vec{u} \cdot \vec{v} = u^{T}v = \begin{Vmatrix}u\end{Vmatrix} \cdot \begin{Vmatrix}v\end{Vmatrix} \cos \theta \\
+\vec{u} \cdot \vec{v} = u^{T}v = \| u \| \cdot \| v \| \cos \theta \\
 </script>
 
 すなわち、ベクトル `v` から、ベクトル `u` への射影 _Projection_ を `p` とすると
 
 * ベクトル `v` の距離は、直角三角形の斜辺
-* 射影 `p` の距離は、直角三角形の底辺 `||v||cosθ`
+* 射影 `p` の距離は、直角三角形の底辺 `||v|| cosθ`
 
 である。
 
 <script type="math/tex; mode=display" id="MathJax-Element-vector_projection">
 \begin{align}
-u^{T}v & = p \cdot \begin{Vmatrix}u\end{Vmatrix} \\
+u^{T}v & = p \cdot \| u \| \\
 u_1 v_1 + u_2 v_2  & = p \cdot \sqrt{u_1^{2} + u_2^{2}} \\
 \end{align}
 </script>
@@ -97,11 +97,11 @@ _SVM_ が、どのように決定境界のマージンを確保するかは、�
 簡略化のために、二次元に制限して `(θ1, θ2), (x1, x2)` 、線形の決定境界 _Linear decision boundary_ を持つケースで考えてみる。`θ^T x` を、ベクトルの内積 `u^T v` に置き換えると、目的関数内の `cost` 関数の条件を以下のように言い換えることができる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-svm_linear_kernel_cost">
-\theta^{T} x = u^{T}v = p \cdot \begin{Vmatrix}u\end{Vmatrix} \\
+\theta^{T} x = u^{T}v = p \cdot \| u \| \\
 \left\{
   \begin{array}{l l}
-  \text{cost}_1 ( p \cdot \begin{Vmatrix} u \end{Vmatrix} ) & \ldots & p \cdot \begin{Vmatrix} u \end{Vmatrix} \geq 1 & \text{if $y = 1$} \\
-  \text{cost}_0 ( p \cdot \begin{Vmatrix} u \end{Vmatrix} ) & \ldots & p \cdot \begin{Vmatrix} u \end{Vmatrix} \leq -1 & \text{if $y = 0$} \\
+  \text{cost}_1 ( p \cdot \| u \| ) & \ldots & p \cdot \| u \| \geq 1 & \text{if $y = 1$} \\
+  \text{cost}_0 ( p \cdot \| u \| ) & \ldots & p \cdot \| u \| \leq -1 & \text{if $y = 0$} \\
   \end{array} \\
 \right.
 </script>
@@ -124,7 +124,7 @@ _SVM_ が、どのように決定境界のマージンを確保するかは、�
 \min_{\theta} C \cdot 0 + \frac{1}{2} \sum_{j = 1}^{n} \theta_{j}^{2} & = \frac{1}{2} \sum_{j = 1}^{n} \theta_{j}^{2} \\
 & = \frac{1}{2} (\theta_1^{2} + \theta_2^{2}) \\
 & = \frac{1}{2} \left( \sqrt{ \theta_1^{2} + \theta_2^{2} } \right) ^{2} \\
-& = \frac{1}{2} \begin{Vmatrix} \theta \end{Vmatrix} ^{2} \\
+& = \frac{1}{2} \| \theta \| ^{2} \\
 \end{align}
 </script>
 
@@ -135,7 +135,7 @@ _SVM_ が、どのように決定境界のマージンを確保するかは、�
 二値間の類似度を計る関数を _Kernel (Similarity) function_ と呼ぶ。一つに、ガウス関数 _Gaussian Function (Kernel)_ がある。
 
 <script type="math/tex; mode=display" id="MathJax-Element-svm_gaussian_function">
-\text{similarity} (a, b) = K_{gaussian} (a, b) = \exp \left( - \frac{ \begin{Vmatrix} a - b \end{Vmatrix}^{2} }{2 \sigma^{2}} \right) \\
+\text{similarity} (a, b) = K_{gaussian} (a, b) = \exp \left( - \frac{ \| a - b \|^{2} }{2 \sigma^{2}} \right) \\
 </script>
 
 * `| a - b |` が小さいほど（類似度が高いほど）1
@@ -166,7 +166,7 @@ h_{\theta}(f) = \theta^{T} f = \theta_0 + \theta_1 f_1 + \theta_2 f_2 + \ldots +
 _SVM_ においても、類似度データからコストを取れば、非線形の決定境界 _Non-linear decison boundary_ に対してもマージンを調整できる。_Kernel function_ にガウス関数を用いると以下のようになる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-svm_non_linear_boundary">
-f_{j}^{(i)} = \text{similarity} (x(i), x(j)) = \exp \left( - \frac{ \begin{Vmatrix} x^{(i)} - x^{(j)} \end{Vmatrix}^{2} }{2 \sigma^{2}} \right) = \exp \left( - \frac{ \sum_{k = 1}^{n} ( x_k^{(i)} - x_k^{(j)} )^{2} }{2 \sigma^{2}} \right) \\
+f_{j}^{(i)} = \text{similarity} (x(i), x(j)) = \exp \left( - \frac{ \| x^{(i)} - x^{(j)} \|^{2} }{2 \sigma^{2}} \right) = \exp \left( - \frac{ \sum_{k = 1}^{n} ( x_k^{(i)} - x_k^{(j)} )^{2} }{2 \sigma^{2}} \right) \\
 \min_{\theta} C \sum_{i = 1}^{m} \begin{bmatrix}
   y^{(i)} \text{cost}_{1}(\theta^{T} f^{(i)}) + (1 - y^{(i)}) \text{cost}_{0}(\theta^{T} f^{(i)})
 \end{bmatrix} + \frac{1}{2} \sum_{j = 1}^{n} \theta_{j}^{2}  \\

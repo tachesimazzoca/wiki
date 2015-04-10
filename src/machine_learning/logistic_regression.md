@@ -100,10 +100,10 @@ y = 0 & x_1 + x_2 < 2 & (0, 1), (1, 0) \ldots \\
 直線なので、プロットするには両端の `(x1, x2)` を求めるだけでよい。`x1` に対する `x2` は以下で求められる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-decision_boundary_linear_plotting">
-\begin{array}{r l}
-{\theta}_0 + {\theta}_1 x_1 + {\theta}_1 x_2 &= 0 \\
-x_2 &= -{ \frac{1}{ {\theta}_2 } } ( {\theta}_0 + {\theta}_1 x_1 ) \\
-\end{array}
+\begin{align}
+{\theta}_0 + {\theta}_1 x_1 + {\theta}_1 x_2 & = 0 \\
+x_2 & = -{ \frac{1}{ {\theta}_2 } } ( {\theta}_0 + {\theta}_1 x_1 ) \\
+\end{align}
 </script>
 
 {% highlight octave %}
