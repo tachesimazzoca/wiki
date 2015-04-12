@@ -243,10 +243,10 @@ _famous for ..._ は有名になる要因、_famous as ..._ は、有名であ�
 
 ### made + of / from / by / in
 
-* This shirt is made __of__ cotton. _原形が分かる材料_
+* This shirt was made __of__ cotton. _原形が分かる材料_
 * Cheese is made __from__ milk. _変形して原形をとどめていない材料_
-* This desk is made __by__ IKEA. _製造元 / メーカー_
-* This racket is made __in__ China. _製造国_
+* This desk was made __by__ IKEA. _製造元 / メーカー_
+* This racket was made __in__ China. _製造国_
 
 ### sorry
 

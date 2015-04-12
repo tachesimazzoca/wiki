@@ -95,7 +95,7 @@ _not supposed to_ の場合は「... することは想定されていない = �
 ただし、以下のフレーズにあるように、必ずしも _get + 過去分詞_ が受動態を表すわけではない。
 
 * get married _結婚する_
-* get divorced _結婚する_
+* get divorced _離婚する_
 * get dressed _着る_
 * get changed _着替える_
 * get lost _道に迷う_
