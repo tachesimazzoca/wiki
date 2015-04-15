@@ -25,7 +25,7 @@ title: Linear Regression
 h(x) = a + bx
 </script>
 <script type="math/tex; mode=display" id="MathJax-Element-mse">
-J(a, b) = \frac{1}{2m} {\sum_{i=1}^{m} (h(x_i)-y_i)^2}
+J(a, b) = \frac{1}{2m} {\sum_{i=1}^{m} (h(x^{(i)})-y^{(i)})^2}
 </script>
 <script type="math/tex; mode=display" id="MathJax-Element-cost_function1">
 J(1, 1) = \frac{(2 - 2)^2 + (3 - 4)^2 + (4 - 6)^2}{2 \cdot 3} = 0.83333 \ldots
@@ -112,7 +112,7 @@ x =  1.7321
 * `α` の値は、固定であっても、勾配を進む割合が一定というわけではない。
 * `α` の値は、小さすぎると収束 _Converge_ するまでに時間がかかりすぎてしまう。大きすぎると最小値を通り過ぎて、勾配を上ってしまうことになり、反復するほどに悪い解へと向かう発散 _Diverge_ を引き起こす場合もある。
 
-学習データ `x = [1; 2; 3]; y = [2; 4; 6]` の仮説 `h(x) = a + b * x` を、最急降下法で求めてみる。
+学習データ `x = [1; 2; 3]; y = [2; 4; 6]` の式 `hθ(x) = θ0 + θ1 * x` を、最急降下法で求めてみる。
 
 入力データ `x` より、先頭列に固定値 `1` を置いた行列 `X` を作成する。
 
@@ -127,7 +127,7 @@ X =
 
 {% endhighlight %}
 
-`h(x) = a + b * x` のパラメータ `a, b` 用に、ベクトル `theta` を作成する。`X(:,1) = 1` としておいたことで、行列の積 `X * theta` のみで、各入力データ行の `h(x)` が得られることが分かる。パラメータが増えた時は、`X` の各列と `theta` に追加するだけで良い。
+パラメータ `θ` 用に、ベクトル `theta` を作成する。`X(:,1) = 1` としておいたことで、行列の積 `X * theta` のみで、各入力の `hθ(x) = θ0 + θ1 * x` の解が得られることが分かる。パラメータが増えた時は、`X` の各列と `theta` に追加するだけで良い。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_hypothesis">
 x_{0} = 1 \\
@@ -152,7 +152,7 @@ ans =
 \frac{ \partial J(\theta)}{ \partial \theta_{j}} = \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} \\
 </script>
 
-`theta = [1; 1], alpha = 0.1` として反復していくと、`theta = [0; 2]` すなわち `h(x) = 2 * x` に収束していくことが分かる。　
+`theta = [1; 1], alpha = 0.1` を初期値として反復していくと、`theta = [0; 2]` すなわち `h(x) = 2 * x` に収束していくことが分かる。　
 
 {% highlight octave %}
 octave> x = [1; 2; 3];
@@ -231,7 +231,7 @@ X =
 
 ## Normal Equations
 
-勾配法を用いずに、連立方程式で解を得る方法もある。連立方程式は以下のように行列で表すことができる。
+最急降下法を用いずに、連立方程式で解を得る方法もある。連立方程式は以下のように行列で表すことができる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-normaleq">
 \left\{
@@ -302,7 +302,7 @@ y_{m} \\
 \end{bmatrix}
 </script>
 
-公式は `X^-1 * y` になるが、逆行列 `X^-1` を求めるには `m = n` の正方行列 _Square matrix_ である必要がある。正方行列でない場合は、疑似逆行列 _Pseudo-inverse matrix_ `(X^T * X)^-1 * X^T` を用いる。疑似逆行列の計算には、_O(n^3)_ のコストがかかってしまうので、パラメータ数が多い場合は勾配法を使う。
+公式は `X^-1 * y` になるが、逆行列 `X^-1` を求めるには `m = n` の正方行列 _Square matrix_ である必要がある。正方行列でない場合は、疑似逆行列 _Pseudo-inverse matrix_ `(X^T * X)^-1 * X^T` を用いる。疑似逆行列の計算には、_O(n^3)_ のコストがかかってしまうので、パラメータ数が多い場合は最急降下法を使う。
 
 <script type="math/tex; mode=display" id="MathJax-Element-normaleq_matrices_formula">
 \begin{align}
