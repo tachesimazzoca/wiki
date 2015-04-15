@@ -28,12 +28,10 @@ title: Collaborative Filtering
 
 * `x`: 商品特性（すでに得られていると仮定する）
 * `θ`: ユーザ特性
-* `r(i, j) = (0|1)`: ユーザ `j` が商品 `i` を評価したかどうか？ 評価なしと未評価は異なる。
+* `r(i, j) = (0|1)`: ユーザ `j` が商品 `i` を評価したかどうか？ 評価なしと未評価は異なる。すべての商品ではなく、ユーザが評価を行なった商品 `r(i, j) = 1` のみ誤差をとる。
 * `y`: 商品 `i` に対する、ユーザ `j` の評価
 
-すべての商品ではなく、ユーザが評価を行なった商品 `r(i, j) = 1` のみコストを取る点に注意する。
-
-すべてのユーザに対して適用するコスト関数は、以下のようになる。
+ユーザ毎に特性は異なるので、すべてのユーザに対して適用するコスト関数は、以下のようになる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-content_based_cost_grad">
 {\scriptsize \text{$n_{u} = $ number of users}} \\
@@ -89,7 +87,12 @@ x_{k}^{(i)} & := x_{k}^{(i)} - \alpha \frac{\partial J}{\partial x_{k}^{(i)}} & 
 2. 勾配法により、最小コストとなる商品特性 `x` とユーザ特性 `θ` を見つける。
 3. `θ(j)^T * x(i)` により、商品 `i` に対してユーザ `j` が下す評価（の予測）が得られる。
 
-予測した評価の高いものが、ユーザにとって有意義な商品であろうと言える。
+予測した評価の高いものが、ユーザにとって有意義な商品であろうと言える。加えて
+
+* 任意の二つの商品特性 `x` の間の距離 `||x(i) - x(j)||` が小さいほど似ている商品
+* 任意の二つのユーザ特性 `θ` の間の距離 `||θ(i) - θ(j)||` が小さいほど似ているユーザ
+
+と予測することもできる。
 
 ## Matrix Factorization
 
@@ -119,22 +122,15 @@ Y = X \Theta^{T} = \begin{bmatrix}
 \end{bmatrix} \\
 </script>
 
-このことをふまえると、商品に対するユーザの予測評価を得る他に
-
-* 任意の二つの商品特性 `x` の間の距離 `||x(i) - x(j)||` が小さいほど似ている商品
-* 任意の二つのユーザ特性 `θ` の間の距離 `||θ(i) - θ(j)||` が小さいほど似ているユーザ
-
-と予測することもできる。
-
 行列 `Y` に対して特異値分解 _SVD_ を行なうと、特異値の対角行列は、ユーザと商品を結びつけるために、どのような係数があるのかということを示している。実際にどのような特徴を表しているのかは判別できないが、何かしらの関連があることを表している。
 
-ユーザ評価においては、ユーザがすべての商品に対して評価を与えていることはなく、欠損値がほとんどになる。数学的に言い換えると、ユーザ評価の行列 `Y` の階数は低くなる（低ランク行列となる）傾向にある。この場合、特異値分解はうまく機能しない。
+特異値分解は、欠損値の意味（未評価と評価 0）を区別できないので、ユーザ評価を行列分解する目的には向いていない。ユーザがすべての商品に対して評価を与えていることはなく、欠損値がほとんどになる。数学的に言い換えると、ユーザ評価の行列 `Y` の階数は低くなる（低ランク行列となる）傾向にある。
 
-対して、低ランク行列についても機能する _(Low rank) Matrix Factorization = MF_ と呼ばれている手法は、本質的には勾配法による協調フィルタリングと同じことを行なっている。
+低ランク行列分解 _(Low rank) Matrix Factorization = MF_ と呼ばれている手法は、欠損値を考慮して行列分解を行なうが、本質的には勾配法による協調フィルタリングと同じことを行なっている。
 
 ## Mean Normalization
 
-協調フィルタリングは、全く評価を行なっていないユーザに対して工夫が必要になる。
+全く評価を行なっていないユーザに対しては、工夫が必要になる。
 
 * コスト関数では、評価を行なったもの `r(i, j) = 1` のみの二乗誤差を取る。
 * 全く評価を行なっていないとすると誤差の項は 0 になる。
@@ -143,16 +139,11 @@ Y = X \Theta^{T} = \begin{bmatrix}
 
 このため、協調フィルタリングでのコスト関数においては、正解評価値 `y` との誤差を取るのではなく、平均値との差との誤差を取る。
 
-予測評価値を求める時に、平均値を加えるようにする。`θ^T * x = 0` の場合には、平均値が予測評価となる。
-
-<script type="math/tex; mode=display" id="MathJax-Element-confi_mean_normalization">
+<script type="math/tex; mode=display" id="MathJax-Element-cofi_mean_normalization">
 {\scriptsize \text{$m^{(i)} = $ number of ratings given to item $i$}} \\
 \mu^{(i)} = \frac{1}{m^{(i)}} \sum_{j; r(i, j)=1} y^{(i, j)} \\
 y^{(i, j)} = y^{(i, j)} - \mu^{(i)} \\
-(\theta^{(j)})^{T} x^{(i)} + \mu^{(i)} = \text{rating given to item $i$ by user $j$}  \\
-</script>
-
-<script type="math/tex; mode=display" id="MathJax-Element-confi_mean_normalization_eg">
+~\\
 Y = \begin{bmatrix}
 3 & ? & 4 & 2 & 1 \\
 ? & ? & 5 & ? & ? \\
@@ -170,11 +161,21 @@ Y = \begin{bmatrix}
 2.5 \\
 \end{bmatrix} \\
 
-Y - \mu = \begin{bmatrix}
+Y = Y - \begin{bmatrix}
+\mu^{(1)} & \ldots & \mu^{(1)} \\
+\vdots & \ddots & \vdots \\
+\mu^{(m)} & \ldots & \mu^{(m)} \\
+\end{bmatrix} = \begin{bmatrix}
 0.5 & ? & 1.5 & -0.5 & -1.5 \\
 ? & ? & 0 & ? & ? \\
 ? & 0 & 0 & 0 & ? \\
 -0.5 & 0.5 & 0.5 & -0.5 & ? \\
 \end{bmatrix} \\
+</script>
+
+予測評価値を求める時に、平均値を加えるようにする。`θ^T * x = 0` の場合には、平均値が予測評価となる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-cofi_mean_normalization_rating">
+(\theta^{(j)})^{T} x^{(i)} + \mu^{(i)} = \text{rating given to item $i$ by user $j$}  \\
 </script>
 
