@@ -43,9 +43,7 @@ J(0, 2) = \frac{(2 - 2)^2 + (4 - 4)^2 + (6 - 6)^2}{2 \cdot 3} = 0
 
 ## Gradient Decent
 
-コスト関数が最小となる式 `h(x)` を見つけるには、勾配法 _Gradient decent_ を用いることができる。
-
-勾配法は、反復法を用いて解に近づけていく。反復法の一つ、ニュートン法 _Newton's method_ により平方根を見つける例をおさらいしてみる。
+ニュートン法 _Newton's method_ により平方根を見つける例をおさらいしてみる。
 
 `x` を平方根、`a` をその二乗としたとき
 
@@ -55,10 +53,15 @@ f(x) = x^2 - a
 
 を定義する。この関数を `y` 軸においたグラフにおいて、`x` 軸との交点 `(x, f(x) = 0)` の `x` が平方根になる。
 
-この関数を微分した時の導関数 `f'(x)` は
+この関数を微分した時の導関数 `f'(x)` は、微分の公式
+
+<script type="math/tex; mode=display" id="MathJax-Element-newtons_method_calcu_df_formula">
+(x^n)' = nx^{n-1} \\
+</script>
+
+より
 
 <script type="math/tex; mode=display" id="MathJax-Element-newtons_method_fd">
-(x^n + C)' = nx^{n-1} \\
 f'(x) = (f(x))' = (x^2 - a)' = 2x
 </script>
 
@@ -84,20 +87,24 @@ octave> x = x - (x^2 - 3) / (2*x)
 x =  1.7321
 {% endhighlight %}
 
-線形回帰の場合にも、同じような反復を繰り返して、最適値に収束させていけばよい。方法として、最急降下法 _Steepest descent method_ がある。
+コスト関数が最小となる式を見つける場合も、微分をとって少しづつ進めていく反復を繰り返し、最適値に収束させていけばよい。方法として、最急降下法 _Gradient descent (Steepest descent method)_ がある。
 
-仮説を `h(x) = a + b * x` とし、コスト関数を `J(a, b)` とした時、`(a, b, J(a, b))` の三次元グラフを書くと、`J(a, b)` 軸で凹凸をもったグラフとなる。すなわち、この凹みの最も深い位置が、最も誤差の少ない最適値になる。
+コスト関数を `J(θ)` とし、そのパラメータを `θ = [θ1; θ2]` とした時、`(θ1, θ2, J(θ))` の三次元グラフを書くと、`J(θ)` 軸で凹凸をもったグラフとなる。すなわち、この凹みの最も深い位置が、最も誤差の少ない最適値になる。
 
-最急降下法では、以下の式で最適値を目指して勾配を下っていく。
+最急降下法では、以下の式でコスト関数のパラメータの更新を繰り返し、最適値に収束させる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent">
-X_i := X_i - \alpha \left( {\partial f(X) \over \partial X_i} \right)
+\theta_0 := \theta_0 - \alpha \left( {\partial J(\theta) \over \partial \theta_0} \right) \\
+\theta_1 := \theta_1 - \alpha \left( {\partial J(\theta) \over \partial \theta_1} \right) \\
+\theta_2 := \theta_2 - \alpha \left( {\partial J(\theta) \over \partial \theta_2} \right) \\
+\vdots \\
+\theta_n := \theta_n - \alpha \left( {\partial J(\theta) \over \partial \theta_n} \right) \\
 </script>
 
-* `X` は n 次元のベクトル
+* `θ` は、コスト関数 `J(θ)` のパラメータのベクトル
+* パラメータ `θ1, θ2, ...` 毎に、コスト関数 `J(θ)` でのパラメータ自身の偏微分を減らすことで、勾配を下って行く。
 * `α` は、どれだけ進むかの割合 _Learning rate_ で、正の数（主に定数）をとる。
-* 偏微分の項 _Derivative term_ である `df(X) / dX(i)` は、`f(X)` の最も変化の大きい方向に勾配ベクトルを向ける。
-* この式を反復して `X` を更新していく。勾配を下って凹みに向かって収束していくため、`α` が大きすぎなければ `f(X)` は必ず小さくなる。
+* この式を反復して、パラメータ `θ` を更新していく。勾配を下って凹みに向かって収束していくため、`α` が大きすぎなければ `J(θ)` は必ず小さくなる。
 
 いかなる条件であっても、必ず最適値を見つけられるわけではない。
 
@@ -138,10 +145,11 @@ ans =
 
 {% endhighlight %}
 
-偏微分の項を 「全データの誤差の総和 x 各パラメータ入力 / データ数」として、全パラメータに対して、同時に最急降下法を行なっていく。
+最急降下法により、最適値に収束するまで `theta` を更新していく。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_a">
-\theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(X_{i}) - y_{i}) \cdot X_{i,j} \right)
+\theta_{j} := \theta_{j} - \alpha \left( \frac{ \partial J(\theta)}{ \partial \theta_{j}} \right) \\
+\frac{ \partial J(\theta)}{ \partial \theta_{j}} = \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} \\
 </script>
 
 `theta = [1; 1], alpha = 0.1` として反復していくと、`theta = [0; 2]` すなわち `h(x) = 2 * x` に収束していくことが分かる。　

@@ -141,7 +141,7 @@ a3 = sigmoid(z2);                    % [0; 1; 1; 0]
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_cost">
 a = h_{\Theta}(x) \in \mathbb{R}^{K}\\
-J(\Theta) = \frac{1}{m} {\sum_{i=1}^{m}} {\sum_{k=1}^{K}} [ -log(a_{i,k})(y_{i,k}) - log(1 - a_{i,k}) (1 - y_{i,k}) ] \\
+J(\Theta) = \frac{1}{m} {\sum_{i=1}^{m}} {\sum_{k=1}^{K}} [ -log(a_{k}^{(i)})(y_{k}^{(i)}) - log(1 - a_{k}^{(i)}) (1 - y_{k}^{(i)}) ] \\
 </script>
 
 ## Cost Function

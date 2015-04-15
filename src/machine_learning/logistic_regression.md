@@ -46,7 +46,7 @@ h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 
 ## Cost Function
 
-ロジスティック回帰の場合も、線形回帰と同様にコスト関数を定義し、勾配法でコストが最小となる式 `h(x)` を見つけ出せば良い。
+ロジスティック回帰の場合も、線形回帰と同様にコスト関数を定義し、最急降下法で最適値に収束させれば良い。
 
 ロジスティック回帰での誤差は
 
@@ -66,12 +66,12 @@ h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 \right.
 </script>
 
-`y = (0|1)` で式が異なるので、`y` の値によって打ち消す係数 `y, 1-y` をかければよい。誤差平均を元にしたコスト関数と、勾配法で用いる偏微分の項は以下になる。
+`y = (0|1)` で式が異なるので、コスト関数は `y` の値によって打ち消す係数 `y, 1-y` をかければよい。最急降下法での偏微分の項は線形回帰と違いはない。
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_cost">
-J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(X_i))(y_i) - log(1 - h_{\theta}(X_i)) (1 - y_i) ] } \\
-{\partial J(\theta) \over \partial \theta_{j}} = \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(X_i) - y_i)X_{i,j} } \\
-\theta_{j} := \theta_{j} - \alpha \left(\frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(X_{i}) - y_{i}) X_{i,j} \right) \\
+J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(x^{(i)}))(y^{(i)}) - log(1 - h_{\theta}(x^{(i)})) (1 - y^{(i)}) ] } \\
+\theta_{j} := \theta_{j} - \alpha \left( {\partial J(\theta) \over \partial \theta_{j}} \right) \\
+{\partial J(\theta) \over \partial \theta_{j}} = \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})x_{j}^{(i)} } \\
 </script>
 
 ## Decision Boundary

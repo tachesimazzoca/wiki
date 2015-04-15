@@ -69,7 +69,7 @@ C_{3} & = \left\{ x^{(4)}, x^{(5)} \right\} \\
 
 <script type="math/tex; mode=display" id="MathJax-Element-k_means_cost">
 J(c, \mu) = \frac{1}{m} \sum_{i = 1}^{m} \begin{Vmatrix}
-x^{(i)} - \mu_{c(i)}
+x^{(i)} - \mu_{c^{(i)}}
 \end{Vmatrix}^{2}
 </script>
 

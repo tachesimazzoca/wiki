@@ -19,11 +19,11 @@ title: Regularization
 
 ## Cost Function and Gradient
 
-コスト関数において、回帰パラメータへのペナルティ値を加えることで、過剰適合を中和することができる。勾配法で用いる偏微分の項にも、ペナルティを加える必要がある。
+コスト関数において、回帰パラメータへのペナルティ値を加えることで、過剰適合を中和することができる。最急降下法で用いる偏微分の項にも、ペナルティを加える必要がある。
 
 <script type="math/tex; mode=display" id="MathJax-Element-overfitting_cost">
 J(\theta) = J(\theta) + \frac{\lambda}{m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
-{\partial J(\theta) \over \partial \theta_{j}} = \left( \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(X_i) - y_i)X_{i,j} } \right) + \frac{\lambda}{m} {\theta}_{j} \\
+{\partial J(\theta) \over \partial \theta_{j}} = \left( \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})x_{j}^{(i)} } \right) + \frac{\lambda}{m} {\theta}_{j} \\
 </script>
 
 * この例では、回帰パラメータ `θ` の二乗平均を誤差の総和に加えている。つまりパラメータが適合に大きく作用する時に、ペナルティが増えて中和されることになる。
@@ -34,13 +34,13 @@ J(\theta) = J(\theta) + \frac{\lambda}{m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
 ### Linear Regression
 
 <script type="math/tex; mode=display" id="MathJax-Element-regularization_linear">
-J(\theta) = \frac{1}{2m} {\sum_{i=1}^{m} (h_{\theta}(X_i) - y_i)^2 } + \frac{\lambda}{2m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
+J(\theta) = \frac{1}{2m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})^2 } + \frac{\lambda}{2m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
 </script>
 
 ### Logistic Regression
 
 <script type="math/tex; mode=display" id="MathJax-Element-regularization_logistic">
-J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(X_i))(y_i) - log(1 - h_{\theta}(X_i)) (1 - y_i) ] } + \frac{\lambda}{2m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
+J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(x^{(i)}))(y^{(i)}) - log(1 - h_{\theta}(x^{(i)})) (1 - y^{(i)}) ] } + \frac{\lambda}{2m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
 </script>
 
 ## Cross Validation
