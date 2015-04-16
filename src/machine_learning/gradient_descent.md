@@ -13,7 +13,7 @@ title: Gradient Descent
 
 ## Batch Gradient Descent
 
-最急降下法において、パラメータの偏微分を求める際に、全ての学習データから算出する方法を、バッチ最急降下法 _Batch Gradient Descent_ と呼ぶ。
+最急降下法において、パラメータの偏微分を求める際に、全ての学習データから算出する方法を、バッチ最急降下法 _Batch gradient descent_ と呼ぶ。
 
 この方法は、概ね最短距離で収束するが、学習データ数 `m` でパラメータ数 `n` とした場合、一回の偏微分の算出に `m * n` の計算量が必要になる。この計算量を収束するまで反復するため、学習データ数 `m` が大きくなるにつれ、無視できないコストになる。
 
@@ -59,21 +59,24 @@ y = 1 + (X(:, 2) .* 2) + (X(:, 3) .* 3) + (X(:, 4) .* 4);
 % Batch gradient descent
 fprintf('Press enter to run batch gradient descent.\n');
 pause;
-alpha = 0.00005;
-theta = ones(n, 1);
+alpha = 0.0001;
+theta = ones(n, 1); 
 for i = 1:10000
   theta = theta - (((X * theta - y)' * X) .* alpha / m)';
 end
 theta
 
 % Stochastic gradient descent
-fprintf('Press enter to run stochastic gradient descent. It can be much faster.\n');
+fprintf('Press enter to run stochastic gradient descent.\n');
 pause;
-alpha = 0.00005;
-theta = ones(n, 1);
-for i = 1:m
+a1 = 0.001;
+a2 = 0.0001;
+a3 = 10;
+theta = ones(n, 1); 
+for i = 1:m 
+  a = a1 / (i * a2 + a3);
   df = (X(i, :) * theta) - y(i);
-  theta = theta - (X(i, :) .* df .* alpha)';
+  theta = theta - (X(i, :) .* df .* a)';
 end
 theta
 {% endhighlight %}
@@ -81,3 +84,9 @@ theta
 * 学習データは事前にシャッフルしておく。何かしらでソートされていると、片寄った動きになりうまく収束しない。
 * ある程度のデータ量であれば、学習データを一度走査するだけで、十分に良い結果が得られる。収束する余地があれば、もう一度繰り返せば良い。
 
+確率的最急降下法は、遠回りしながら収束するので、発散が起こりやすく `α` の値を小さめにする必要がある。固定値ではなく、回数を重ねる程 `α ` の値が小さくなるように調整することで、効率さを高めることができる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-stochasitc_grad_alpha">
+{\scriptsize \text{$n = $ number of iteration}} \\
+\alpha = \frac{\alpha_1}{n \cdot \alpha_2 + \alpha_3}
+</script>
