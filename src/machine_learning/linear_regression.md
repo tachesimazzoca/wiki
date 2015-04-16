@@ -94,6 +94,7 @@ x =  1.7321
 最急降下法では、以下の式でコスト関数のパラメータの更新を繰り返し、最適値に収束させる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent">
+J(\theta) = \frac{1}{2m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)})-y^{(i)})^2} \\
 \theta_0 := \theta_0 - \alpha \left( {\partial J(\theta) \over \partial \theta_0} \right) \\
 \theta_1 := \theta_1 - \alpha \left( {\partial J(\theta) \over \partial \theta_1} \right) \\
 \theta_2 := \theta_2 - \alpha \left( {\partial J(\theta) \over \partial \theta_2} \right) \\

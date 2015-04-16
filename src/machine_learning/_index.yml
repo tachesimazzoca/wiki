@@ -1,6 +1,7 @@
 - "overview"
 - "linear_regression"
 - "logistic_regression"
+- "gradient_descent"
 - "regularization"
 - "neural_networks"
 - "svm"
