@@ -23,7 +23,7 @@ title: Regularization
 
 <script type="math/tex; mode=display" id="MathJax-Element-overfitting_cost">
 J(\theta) = J(\theta) + \frac{\lambda}{m} { \sum_{j=1}^{n} {\theta}_{j}^2 } \\
-{\partial J(\theta) \over \partial \theta_{j}} = \left( \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})x_{j}^{(i)} } \right) + \frac{\lambda}{m} {\theta}_{j} \\
+\frac{\partial}{\partial \theta_{j}} J(\theta) = \left( \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})x_{j}^{(i)} } \right) + \frac{\lambda}{m} {\theta}_{j} \\
 </script>
 
 * この例では、回帰パラメータ `θ` の二乗平均を誤差の総和に加えている。つまりパラメータが適合に大きく作用する時に、ペナルティが増えて中和されることになる。

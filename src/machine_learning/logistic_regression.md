@@ -70,7 +70,7 @@ h_{\theta}(x) = P(y = 1) = 0.3 \ldots P(y = 0) = 1 - 0.3 = 0.7 \\
 
 <script type="math/tex; mode=display" id="MathJax-Element-logistic_function_cost">
 J(\theta) = \frac{1}{m} {\sum_{i=1}^{m} [ -log(h_{\theta}(x^{(i)}))(y^{(i)}) - log(1 - h_{\theta}(x^{(i)})) (1 - y^{(i)}) ] } \\
-\theta_{j} := \theta_{j} - \alpha \left( {\partial J(\theta) \over \partial \theta_{j}} \right) \\
+\theta_{j} := \theta_{j} - \alpha \left( \frac{\partial}{\partial \theta_{j}} J(\theta) \right) \\
 {\partial J(\theta) \over \partial \theta_{j}} = \frac{1}{m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})x_{j}^{(i)} } \\
 </script>
 

@@ -243,7 +243,7 @@ g'(0) & = g(0)(1 - g(0)) = 0.5 \cdot 0.5 = 0.25 \\
 
 <script type="math/tex; mode=display" id="MathJax-Element-backprop_grad">
 \Delta^{(l)} = \Delta^{(l)} + \delta^{(l+1)}(a^{(l)})^{T} \\
-\frac{\partial J(\Theta)}{\partial \Theta^{(l)}_{i,j}} = D^{(l)}_{i,j} = a^{(l)}_{j} \delta^{(l+1)}_{i} = \frac{1}{m} \Delta^{(l)}_{i,j} \\
+\frac{\partial}{\partial \Theta^{(l)}_{i,j}} J(\Theta) = D^{(l)}_{i,j} = a^{(l)}_{j} \delta^{(l+1)}_{i} = \frac{1}{m} \Delta^{(l)}_{i,j} \\
 </script>
 
 _Regularization_ を行なう場合は、各パラメータ毎にペナルティを与えればよい。コスト関数と同様に、バイアス項は除外する。
@@ -257,10 +257,10 @@ D^{(l)}_{i,j} = D^{(l)}_{i,j} + \frac{\lambda}{m} \Theta^{(l)}_{i,j} \\
 _Backpropagation_ を正しく行なえているかどうかは、一つのパラメータのみ極小値で増減させて、二つのコスト関数を適用した差分が、_Backpropagation_ で得た偏微分とほぼ相違ないこと（1e-9 以下が目安）をチェックすればよい。
 
 <script type="math/tex; mode=display" id="MathJax-Element-grad_checking">
-\frac{\partial J(\theta)}{\partial \theta_1} \approx \frac{ J(\theta_1 + \epsilon, \theta_2, \theta_3, \ldots, \theta_n) - J(\theta_1 - \epsilon, \theta_2 , \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
-\frac{\partial J(\theta)}{\partial \theta_2} \approx \frac{ J(\theta_1, \theta_2 + \epsilon, \theta_3, \ldots, \theta_n) - J(\theta_1, \theta_2 - \epsilon, \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
+\frac{\partial}{\partial \theta_1} J(\theta) \approx \frac{ J(\theta_1 + \epsilon, \theta_2, \theta_3, \ldots, \theta_n) - J(\theta_1 - \epsilon, \theta_2 , \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
+\frac{\partial}{\partial \theta_2} J(\theta) \approx \frac{ J(\theta_1, \theta_2 + \epsilon, \theta_3, \ldots, \theta_n) - J(\theta_1, \theta_2 - \epsilon, \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
 \ldots \\
-\frac{\partial J(\theta)}{\partial \theta_n} \approx \frac{ J(\theta_1, \theta_2, \theta_3, \ldots, \theta_n + \epsilon) - J(\theta_1, \theta_2, \theta_3, \ldots, \theta_n - \epsilon) }{2 \epsilon} \\
+\frac{\partial}{\partial \theta_n} J(\theta) \approx \frac{ J(\theta_1, \theta_2, \theta_3, \ldots, \theta_n + \epsilon) - J(\theta_1, \theta_2, \theta_3, \ldots, \theta_n - \epsilon) }{2 \epsilon} \\
 </script>
 
 {% highlight octave %}

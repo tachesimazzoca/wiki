@@ -95,11 +95,11 @@ x =  1.7321
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent">
 J(\theta) = \frac{1}{2m} {\sum_{i=1}^{m} (h_{\theta}(x^{(i)})-y^{(i)})^2} \\
-\theta_0 := \theta_0 - \alpha \left( {\partial J(\theta) \over \partial \theta_0} \right) \\
-\theta_1 := \theta_1 - \alpha \left( {\partial J(\theta) \over \partial \theta_1} \right) \\
-\theta_2 := \theta_2 - \alpha \left( {\partial J(\theta) \over \partial \theta_2} \right) \\
+\theta_0 := \theta_0 - \alpha \left( \frac{\partial}{\partial \theta_0} J(\theta) \right) \\
+\theta_1 := \theta_1 - \alpha \left( \frac{\partial}{\partial \theta_1} J(\theta) \right) \\
+\theta_2 := \theta_2 - \alpha \left( \frac{\partial}{\partial \theta_2} J(\theta) \right) \\
 \vdots \\
-\theta_n := \theta_n - \alpha \left( {\partial J(\theta) \over \partial \theta_n} \right) \\
+\theta_n := \theta_n - \alpha \left( \frac{\partial}{\partial \theta_n} J(\theta) \right) \\
 </script>
 
 * `θ` は、コスト関数 `J(θ)` のパラメータのベクトル
@@ -149,8 +149,8 @@ ans =
 最急降下法により、最適値に収束するまで `theta` を更新していく。
 
 <script type="math/tex; mode=display" id="MathJax-Element-gradient_descent_a">
-\theta_{j} := \theta_{j} - \alpha \left( \frac{ \partial J(\theta)}{ \partial \theta_{j}} \right) \\
-\frac{ \partial J(\theta)}{ \partial \theta_{j}} = \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} \\
+\theta_{j} := \theta_{j} - \alpha \left( \frac{\partial}{\partial \theta_{j}} J(\theta) \right) \\
+\frac{\partial}{\partial \theta_{j}} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} \\
 </script>
 
 `theta = [1; 1], alpha = 0.1` を初期値として反復していくと、`theta = [0; 2]` すなわち `h(x) = 2 * x` に収束していくことが分かる。　
