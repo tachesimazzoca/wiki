@@ -60,7 +60,7 @@ y = 1 + (X(:, 2) .* 2) + (X(:, 3) .* 3) + (X(:, 4) .* 4);
 fprintf('Press enter to run batch gradient descent.\n');
 pause;
 alpha = 0.0001;
-theta = ones(n, 1); 
+theta = ones(n, 1);
 for i = 1:10000
   theta = theta - (((X * theta - y)' * X) .* alpha / m)';
 end
@@ -72,8 +72,8 @@ pause;
 a1 = 0.001;
 a2 = 0.0001;
 a3 = 10;
-theta = ones(n, 1); 
-for i = 1:m 
+theta = ones(n, 1);
+for i = 1:m
   a = a1 / (i * a2 + a3);
   df = (X(i, :) * theta) - y(i);
   theta = theta - (X(i, :) .* df .* a)';
@@ -90,3 +90,40 @@ theta
 {\scriptsize \text{$n = $ number of iteration}} \\
 \alpha = \frac{\alpha_1}{n \cdot \alpha_2 + \alpha_3}
 </script>
+
+この方法を用いれば、永続的なオンライン学習が可能になる。サンプルを得られた時に、パラメータを更新すればよく、データを保存する必要もない。常にストリームで流れているケースで有効である。
+
+* Web サイトでの検索結果に対し「クリックする / しない」を予測して、よりクリックされやすい結果を上位に表示する。
+* ECサイトにおいての販売価格に対し「買う / 買わない」を予測して、適切な価格帯を調べる。
+
+## Mini-batch Gradient Descent
+
+確率的最急降下法では、一つの学習データから偏微分を求めていたが、10 サンプル程度の単位でまとめる方法もある。
+
+<script type="math/tex; mode=display" id="MathJax-Element-mini_batch_grad">
+\text{for $i = 1, 11, 21, 31, \ldots$} \\
+\theta_{j} := \theta_{j} - \alpha \frac{1}{10} \sum_{k=i}^{i+9} (h_{\theta}(x^{(k)}) - y^{(k)}) x_{j}^{(k)} \\
+</script>
+
+## Data Parallelism
+
+バッチ最急降下法での偏微分は、総和から平均を取っているので、総和の算出部分を分散できる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-data_parallelism_grad">
+\frac{\partial}{\partial \theta_{j}} J(\theta) = \frac{1}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} = \frac{1}{m} s_{j} \\
+s_{j} = \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} \\
+</script>
+
+_MapReduce_ であれば、_Mapper_ に学習データを振り分けて総和のみを算出したのち、_Reducer_ で各 _Mapper_ からの総和を合算して平均を求めることができる。
+
+<script type="math/tex; mode=display" id="MathJax-Element-data_parallelism_mapred">
+{\scriptsize \text{$m = 80,000$}} \\
+\begin{align}
+s_{j}^{(1)} & = \sum_{i=1}^{10,000} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} & \text{mapper1} \\
+s_{j}^{(2)} & = \sum_{i=10,001}^{20,000} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} & \text{mapper2} \\
+& \vdots & \\
+s_{j}^{(8)} & = \sum_{i=70,001}^{80,000} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} & \text{mapper8} \\
+\theta_{j} & := \theta_{j} - \alpha \frac{1}{m} \sum_{k=1}^{8} s_{j}^{(k)} & \text{reducer} \\
+\end{align} \\
+</script>
+
