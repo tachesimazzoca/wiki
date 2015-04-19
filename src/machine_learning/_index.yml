@@ -3,6 +3,7 @@
 - "logistic_regression"
 - "gradient_descent"
 - "regularization"
+- "testing"
 - "neural_networks"
 - "svm"
 - "clustering"
