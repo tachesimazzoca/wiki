@@ -175,6 +175,17 @@ m.bind(Map(
 }
 {% endhighlight %}
 
+ユーティリィティメゾッドの `RepeatedMapping.indexes` により、`Map[String, String]` から、指定キーのインデックス値のリスト `Seq[Int]` を得る事ができる。キーは昇順ソートされ、重複キーは削除される。
+
+{% highlight scala %}
+val data = Map(
+  "tags[0]" -> "foo",
+  "tags[1]" -> "bar",
+  "tags[2]" -> "baz"
+)
+assert(Seq(0, 1, 2) == RepeatedMapping.indexes("tags", data))
+{% endhighlight %}
+
 ### OptionalMapping
 
 `play.api.data.OptionalMapping` は `Option` へのマッピングを行なう。`Mapping` を `play.api.data.Forms.option` 関数で括ればよい。
@@ -328,4 +339,68 @@ object ContactsController extends Controller {
 {% endhighlight %}
 
 送信されるフォームデータは、`Form#bindFromRequest` で暗黙パラメータの `Request` からバインドし、`Form#fold` で、エラー時と正常時の関数を定義しておくと簡潔に書ける。
+
+### Field
+
+`Form#apply` メゾッドを介して、指定フィールドのモデル `play.api.data.Field` を得ることができる。フィールド値やエラーの状態の他、HTMLフォームの組み立てを想定した API が提供されている。
+
+{% highlight scala %}
+val itemForm = Form(mapping(
+  "name" -> nonEmptyText,
+  "tags" -> list(text)
+)(Item.apply)(Item.unapply)).bind(
+  Map(
+    "tags[0]" -> "foo",
+    "tags[1]" -> "bar"
+  )
+)
+
+assert("tags_0" == itemForm("tags[0]").id)
+assert("tags.0" == itemForm("tags[0]").label)
+{% endhighlight %}
+
+* `Field#id` により、id 属性文字列を得る。フィールド名と同じだが `foo.bar[0]` は `foo_bar_0`  に変換される。
+* `Field#label` により、フィールド名のラベルに対応する`play.api.i18n.Messages` のキーを得る。フィールド名と同じだが `foo[0]` は `foo.0`  に変換される。
+
+## FieldConstructor
+
+Twirl 向けのHTMLフォームフィールドのヘルパーとして `views.html.helper.input` が提供されている。
+
+{% highlight scala %}
+@helper.input(
+  userForm("name"),
+  'id -> "userNameInput",
+  'size -> 30,
+  '_id -> "userNameBlock",
+  '_showConstraints -> false
+) { (id, name, value, args) =>
+  <input type="text" name="@name" id="@id" @toHtmlArgs(args)>
+}
+{% endhighlight %}
+
+`views.html.helper.FieldConstructor` を暗黙パラメータに持ち、ラベルやエラーメッセージを含めたフィールドブロックの HTML を組み立てることができる。
+
+{% highlight scala %}
+@(field: play.api.data.Field, args: (Symbol, Any)*)
+(inputDef: (String, String, Option[String], Map[Symbol, Any]) => Html)
+(implicit handler: FieldConstructor, messages: play.api.i18n.Messages)
+{% endhighlight %}
+
+* `field: play.api.data.Field`: 出力対象の `field:Field` オブジェクト
+* `args: (Symbol, Any)*`
+  * `'_id`: フィールドブロック要素の id 属性。入力要素の id 属性ではない点に注意。
+  * `'_label`: label 属性。`messages` のキーとしては参照されない。
+  * `'_help`: 入力ガイド文字列。`messages` のキーとしても参照される。
+  * `'_showConstraints`: (true|false) 入力ガイドを表示するかどうか？
+  * `'_error`: エラーメッセージ文字列。`messages` のキーとしても参照される。
+  * `'_showErrors`: (true|false) エラーメッセージを表示するかどうか？
+  * `id`: 入力要素 (input/select/textarea) の id 属性
+  * それ以外は HTML 要素の追加属性
+* `inputDef`: 入力要素のみの `play.twirl.api.Html` を返す関数
+  * `id: String`: id 属性
+  * `name: String`: name 属性
+  * `value: Option[String]`: フィールド値
+  * `args: (Symbol, Any)`: `'id` および `'_*` のエントリを除く追加属性の `Map`
+
+`Field` と `inputDef` から得た `Html` を元に `views.html.helper.FieldElements` に変換し、`FieldConstructor#apply(FieldElements)` メゾッドを介して、`Html` を得ている。
 
