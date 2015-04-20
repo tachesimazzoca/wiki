@@ -364,7 +364,9 @@ assert("tags.0" == itemForm("tags[0]").label)
 
 ## FieldConstructor
 
-Twirl 向けのHTMLフォームフィールドのヘルパーとして `views.html.helper.input` が提供されている。
+### views.html.helper.input
+
+HTMLフォームフィールドのヘルパーとして `views.html.helper.input` が提供されている。
 
 {% highlight scala %}
 @(field: play.api.data.Field, args: (Symbol, Any)*)
@@ -402,4 +404,69 @@ Twirl 向けのHTMLフォームフィールドのヘルパーとして `views.ht
   * `name: String`: name 属性
   * `value: Option[String]`: フィールド値
   * `args: (Symbol, Any)`: `'id` および `'_*` のエントリを除く追加属性の `Map`
+
+暗黙パラメータの `handler: FieldConstructor` に対し、`views.html.helper.FieldElements` を渡してフィールドブロックの HTML 得る流れになる。
+
+### defaultFieldConstructor
+
+`FieldConstructor` はデフォルトで、`views.html.helper.defaultFieldConstructor` を暗黙値として持っている。
+
+独自の `FieldConstructor` を作成したい場合は、まず `FieldElements` から `Html` を返すヘルパーを作成する。
+
+`views/_helpers/customFieldConstructor.scala.html`:
+
+{% highlight scala %}
+@(elements: helper.FieldElements)
+
+<dl class="@elements.args.get('_class) @if(elements.hasErrors) {error}"
+    id="@elements.args.get('_id).getOrElse(elements.id + "_field")">
+    @if(elements.hasName) {
+    <dt>@elements.name(elements.lang)</dt>
+    } else {
+    <dt><label for="@elements.id">@elements.label(elements.lang)</label></dt>
+    }
+    <dd>@elements.input</dd>
+    @elements.errors(elements.lang).map { error =>
+        <dd class="error">@error</dd>
+    }
+    @elements.infos(elements.lang).map { info =>
+        <dd class="info">@info</dd>
+    }
+</dl>
+{% endhighlight %}
+
+任意のパッケージ内で `FieldConstructor` の暗黙値を定義し `@import` すれば良い。
+
+{% highlight scala %}
+@import views._helpers.fieldConstructor
+{% endhighlight %}
+
+`views/_helpers/package.scala`:
+
+{% highlight scala %}
+package views
+
+import views.html.helper.FieldConstructor
+
+package object _helpers {
+  implicit val fieldConstructor = FieldConstructor(views.html._helpers.customFieldConstructor.f)
+}
+{% endhighlight %}
+
+Twirl では `@implicit*` で始まる Reusable block を暗黙値として定義してくれるので、動的に組み込む方法もある。
+
+{% highlight scala %}
+@implicitField = @{ helper.FieldConstructor(_helpers.customFieldConstructor.f) }
+{% endhighlight %}
+
+明示的にフィールド単位で指定することもできる。この場合は `play.api.i18n.Lang` も必要になる。
+
+{% highlight scala %}
+@(userForm: Form[User])(implicit lang: play.api.i18n.Lang)
+...
+@helper.inputText(userForm("name"))(
+  helper.FieldConstructor(_helpers.customFieldConstructor.f),
+  lang
+)
+{% endhighlight %}
 
