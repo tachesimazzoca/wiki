@@ -1,12 +1,12 @@
 ---
 layout: page
 
-title: Form
+title: Forms
 ---
 
 ## Overview
 
-* <https://www.playframework.com/documentation/2.3.x/ScalaForms>
+* https://www.playframework.com/documentation/2.3.x/ScalaForms
 
 ## Mapping
 
