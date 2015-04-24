@@ -8,7 +8,7 @@ title: Iteratees
 
 * https://www.playframework.com/documentation/2.3.x/Iteratees
 
-`play.api.libs.iteratee.Iteratee[E, A]` は入力から出力を組み立てる _Consumer_ となる。単に入力 `E` に対して、どのように出力 `A` を組み立てるかのみを定義する。
+`play.api.libs.iteratee.Iteratee[E, +A]` は入力から出力を組み立てる _Consumer_ となる。単に入力 `E` に対して、どのように出力 `A` を組み立てるかのみを定義する。
 
 ヘルパーメゾッド `Iteratee.fold[E, A]` により、アキュームレータ `A` と入力 `E` から、出力 `A` を返す関数を指定するだけで `Iteratee[E, A]` を実装できる。
 
@@ -29,9 +29,13 @@ result.onComplete(println) // Success(6) ... 1 + 2 + 3
 
 _Iteratee_ は、一つのインスタンスで連続する入力を処理する（ループ等を繰り返す）のではない。ステップ毎に新たな _Iteratee_ を生成して引き継いでいく。
 
-`play.api.libs.iteratee.Input` は _Iteratee_ に送られる入力を表す。
+### Input
+
+`play.api.libs.iteratee.Input` は _Iteratee_ に送る入力を表す。
 
 {% highlight scala %}
+trait Input[+E]
+
 object Input {
   case class El[+E](e: E) extends Input[E]
   case object Empty extends Input[Nothing]
@@ -39,9 +43,9 @@ object Input {
 }
 {% endhighlight %}
 
-* `Input.El(e)` は入力があることを示す。_Iteratee_ は入力を出力に変換し、次の _Iteratee_ に引き継ぐ。
-* `Input.Empty` は入力がないことを示す。_Iteratee_ は何もせずに、次の _Iteratee_ に引き継ぐ。
-* `Input.EOF` は入力の終端を示す。_Iteratee_ は最終の出力結果を返す。
+* `Input.El(e)` は入力があることを示す: _Iteratee_ は入力を出力に変換し、次の _Iteratee_ に引き継ぐ。
+* `Input.Empty` は入力がないことを示す: _Iteratee_ は何もせずに、次の _Iteratee_ に引き継ぐ。
+* `Input.EOF` は入力の終端を示す: _Iteratee_ は処理結果を返す。
 
 ### DoneIteratee
 
@@ -105,5 +109,51 @@ def step(acc: Int)(in: Input[String]): Iteratee[String, Int] = in match {
   it3 <- it2.feed(Input.El("56"))
   a <- it3.run
 } yield a).onComplete(println) // Failure(java.lang.RuntimeException: empty string)
+{% endhighlight %}
+
+### Step
+
+独自の _Iteratee_ を作成するには、`Iteratee#fold` メゾッドを実装する。
+
+{% highlight scala %}
+def fold[B](folder: Step[E, A] => Future[B])
+           (implicit ec: ExecutionContext) : Future[B]
+{% endhighlight %}
+
+`fold` メゾッドにより、`folder` 関数を通じて、_Iteratee_ は、自身がどのステップ `play.api.libs.iteratee.Step` であるかを伝えて処理結果を得る。
+
+{% highlight scala %}
+trait Step[E, +A]
+
+object Step {
+  case class Done[+A, E](a: A, remaining: Input[E]) extends Step[E, A]
+  case class Cont[E, +A](k: Input[E] => Iteratee[A, E]) extends Step[E, A]
+  case class Error[E](msg: String, input: Input[E]) extends Step[E, Nothing]
+}
+{% endhighlight %}
+
+`folder` 関数はどのようなものかは、`Iteratee#run` の実装を参考にするとよい。_ContIteratee_ であれば、`Input.EOF` を送って処理結果を得ている。
+
+{% highlight scala %}
+def run: Future[A] = fold({
+  case Step.Done(a, _) => Future.successful(a)
+  case Step.Cont(k) => k(Input.EOF).fold({
+    case Step.Done(a1, _) => Future.successful(a1)
+    case Step.Cont(_) => sys.error("diverging iteratee after Input.EOF")
+    case Step.Error(msg, e) => sys.error(msg)
+  })(dec)
+  case Step.Error(msg, e) => sys.error(msg)
+})(dec)
+{% endhighlight %}
+
+_DoneIteratee_ の `fold` の実装は、以下と同等である。
+
+{% highlight scala %}
+// val doneIteratee = Done[String, Int](1, Input.Empty)
+val doneIteratee = new Iteratee[String, Int] {
+  def fold[B](folder: Step[String,Int] => Future[B])
+             (implicit ec: ExecutionContext) : Future[B] =
+    folder(Step.Done(1, Input.Empty))
+}
 {% endhighlight %}
 
