@@ -269,3 +269,43 @@ val futureIt: Iteratee[String, String] = Iteratee.flatten(newIt)
 val result: Future[String] = futureIt.run
 {% endhighlight %}
 
+### Helper Methods
+
+#### repeatM / generateM
+
+_Enumerator_ は、無限の入力ストリームを扱うことができる。`Enumerator.repeatM` に `Future[E]` を返す関数を渡すことで、無限に反復実行される。
+
+{% highlight scala %}
+import play.api.libs.concurrent.Promise
+...
+val dateEnumerator: Enumerator[Date] = Enumerator.repeatM {
+  Promise.timeout(new Date(), 1.seconds)
+}
+{% endhighlight %}
+
+`Enumerator.generateM` では、`Future[Option[E]]` を返す関数を渡すことで、`None` の場合に反復実行を停止する。
+
+{% highlight scala %}
+val endOfTime = System.currentTimeMillis() + 3000L
+val dateEnumerator: Enumerator[Date] = Enumerator.generateM {
+  Promise.timeout({
+    if (System.currentTimeMillis() < endOfTime) Some(new Date())
+    else None
+  }, 1.seconds)
+}
+{% endhighlight %}
+
+#### fromStream / fromFile
+
+`Enumerator.fromStream` では `java.io.InputStream` を入力ソースとすることができる。内部的には `Enumerator.generateM` を用いており、読み込み中に `Some[Array[Byte]]` を返し、読み込み完了後に `None` を返している。
+
+{% highlight scala %}
+val streamEnumerator: Enumerator[Array[Byte]] = {
+  Enumerator.fromStream(new FileInputStream(new File("/path/to/file")))
+}
+// or use Enumerator.fromFile
+val fileEnumerator: Enumerator[Array[Byte]] = {
+  Enumerator.fromFile(new File("/path/to/file"))
+}
+{% endhighlight %}
+
