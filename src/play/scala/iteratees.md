@@ -174,3 +174,98 @@ val errorIteratee = new Iteratee[String, Int] {
 }
 {% endhighlight %}
 
+### Helper Methods
+
+#### consume
+
+{% highlight scala %}
+val it: Iteratee[String, String] = Iteratee.consume[String]()
+val result: Future[String] = Enumerator("foo", "bar", "baz") |>>> it
+result.onComplete(println) // foobarbaz
+{% endhighlight %}
+
+#### foreach
+
+{% highlight scala %}
+val it: Iteratee[String, Unit] = Iteratee.foreach[String](prinln)
+Enumerator("foo", "bar", "baz") |>>> it
+// foo
+// bar
+// baz
+{% endhighlight %}
+
+#### flatten
+
+継続する _Iteratee_ は、遅延評価で非同期に得るため `Future[Iteratee[E, A]]` となる。`Iteratee#run` で `Input.EOF` を送るには、`flatMap` や _for-comprehension_ を介して行なう必要がある。
+
+{% highlight scala %}
+val it: Iteratee[String, String] = Iteratee.consume[String]()
+val newIt: Future[Iteratee[String, String]] = Enumerator("foo", "bar") |>> it
+val result: Future[String] = newIt.flatMap(_.run)
+{% endhighlight %}
+
+`Iteratee.flatten` は `Iteratee#fold` 内部で `flatMap` を行う `Iteratee` を生成する。あたかも初回の _Iteratee_ のように振る舞う。
+
+{% highlight scala %}
+val futureIt: Iteratee[String, String] = Iteratee.flatten(newIt)
+val result: Future[String] = futureIt.run
+{% endhighlight %}
+
+## Enumerator
+
+_Enumerator_ は、_Iteratee_ に送る入力ストリームを生成する。
+
+{% highlight scala %}
+val enumerator1: Enumerator[String] = Enumerator("foo", "bar")
+val enumerator2: Enumerator[String] = Enumerator("baz", "qux")
+val enumerator = enumerator1.andThen(enumerator2)
+
+val it: Iteratee[String, String] = Iteratee.consume[String]()
+val newIt: Future[Iteratee[String, String]] = enumerator(it)
+
+val result: Future[String] = newIt.flatMap(_.run)
+result.onComplete(println) // foobarbazqux
+{% endhighlight %}
+
+### >>> (andThen)
+
+`Enumerator#andThen` で _Enumerator_ を連結することができる。エイリアスとして `Enumerator#>>>` が提供されている。
+
+{% highlight scala %}
+val enumerator1: Enumerator[String] = Enumerator("foo", "bar")
+val enumerator2: Enumerator[String] = Enumerator("baz", "qux")
+//val enumerator = enumerator1.andThen(enumerator2)
+val enumerator = enumerator1 >>> enumerator2
+{% endhighlight %}
+
+### |>> (apply)
+
+`Enumerator#apply` に _Iteratee_ を渡す事で、`Future[Iteratee[E, A]]` が得られる。`Iteratee#feed` は内部的には同等のことを行なっている。エイリアスとして `Enumerator#|>>` が提供されている。
+
+{% highlight scala %}
+val it: Iteratee[String, String] = Iteratee.consume[String]()
+val enumerator: Enumerator[String] = Enumerator("Foo", "Bar", "Baz")
+//val newIt: Future[Iteratee[String, String]] = enumerator(it)
+val newIt: Future[Iteratee[String, String]] = enumerator |>> it
+{% endhighlight %}
+
+### |>>> (run)
+
+`Enumerator#|>>>` では `Input.EOF` を送信する `Interatee#run` も同時に行なう。
+
+{% highlight scala %}
+val it: Iteratee[String, String] = Iteratee.consume[String]()
+val enumerator: Enumerator[String] = Enumerator("Foo", "Bar", "Baz")
+
+//val result: Future[String] = enumerator(it).flatMap(_.run)
+val result: Future[String] = enumerator |>>> it
+{% endhighlight %}
+
+`Future[Iteratee[E, A]]` のまま `flatMap` で `Iteratee#run` を送って `Future[B]` を得る。`Iteratee` に置き換える `Iteratee.flatten` とは異なる。
+
+{% highlight scala %}
+val newIt: Future[Iteratee[String, String]] = enumerator |>> it
+val futureIt: Iteratee[String, String] = Iteratee.flatten(newIt)
+val result: Future[String] = futureIt.run
+{% endhighlight %}
+
