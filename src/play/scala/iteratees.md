@@ -53,7 +53,7 @@ object Input {
 
 {% highlight scala %}
 val doneIt = Done[String, Int](123, Input.Empty)
-// Whatever the type of input, it will print Success(123)
+// It will print Success(123) regardless of the type of input.
 Iteratee.flatten(doneIt.feed(Input.EOF)).run.onComplete(println)
 Iteratee.flatten(doneIt.feed(Input.Empty)).run.onComplete(println)
 Iteratee.flatten(doneIt.feed(Input.El("345"))).run.onComplete(println)
@@ -105,7 +105,7 @@ def step(acc: Int)(in: Input[String]): Iteratee[String, Int] = in match {
   it1 <- errorIt.feed(Input.El("12"))
   it2 <- it1.feed(Input.El(""))
   // The following feed will be ignored because it just
-  // returns Error(msg, e) whatever the type of Input.
+  // returns Error(msg, e) regardless of the type of input.
   it3 <- it2.feed(Input.El("56"))
   a <- it3.run
 } yield a).onComplete(println) // Failure(java.lang.RuntimeException: empty string)
@@ -146,14 +146,31 @@ def run: Future[A] = fold({
 })(dec)
 {% endhighlight %}
 
-_DoneIteratee_ の `fold` の実装は、以下と同等である。
+_Done / Cont / Error_ の各 _Iteratee_ の `fold` の実装は、以下と同等である。
 
 {% highlight scala %}
+val k(in: Step): Iteratee[String, Int] = in match {
+  ...
+}
+// val contIteratee = Cont[String, Int](k)
+val contIteratee = new Iteratee[String, Int] {
+  def fold[B](folder: Step[String,Int] => Future[B])
+             (implicit ec: ExecutionContext) : Future[B] =
+    folder(Step.Cont(k))
+}
+
 // val doneIteratee = Done[String, Int](1, Input.Empty)
 val doneIteratee = new Iteratee[String, Int] {
   def fold[B](folder: Step[String,Int] => Future[B])
              (implicit ec: ExecutionContext) : Future[B] =
     folder(Step.Done(1, Input.Empty))
+}
+
+// val errorIteratee = Error[String]("something wrong", Input.Empty)
+val errorIteratee = new Iteratee[String, Int] {
+  def fold[B](folder: Step[String,Int] => Future[B])
+             (implicit ec: ExecutionContext) : Future[B] =
+    folder(Step.Error("something wrong", Input.Empty)
 }
 {% endhighlight %}
 
