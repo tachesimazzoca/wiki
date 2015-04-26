@@ -49,7 +49,7 @@ object Input {
 
 ### DoneIteratee
 
-`play.api.libs.iteratee.Done[E, A]` により、どのような入力があっても固定の結果を返す _Iteratee_ を生成できる。`Input.EOF` が送られた時に、最終の出力結果を返すために用いられる。
+`play.api.libs.iteratee.Done[E, A]` により、どのような入力があっても固定の結果を返す _Iteratee_ を生成できる。`Input.EOF` が送られた時に、最終の出力結果を返すために用いる。
 
 {% highlight scala %}
 val doneIt = Done[String, Int](123, Input.Empty)
@@ -61,7 +61,7 @@ Iteratee.flatten(doneIt.feed(Input.El("345"))).run.onComplete(println)
 
 ### ContIteratee
 
-`play.api.libs.iteratee.Cont[E, A])` は、継続する _Iteratee_ を生成できる。入力に応じた次の _Iteratee_ を返す関数 `Input[E] => Iteratee[E, A]` を `apply` メゾッドに渡せばよい。
+`play.api.libs.iteratee.Cont[E, A])` により、継続する _Iteratee_ を生成できる。入力に応じた次の _Iteratee_ を返す関数 `Input[E] => Iteratee[E, A]` を `apply` メゾッドに渡せばよい。
 
 {% highlight scala %}
 def step(acc: Int)(in: Input[String]): Iteratee[String, Int] = in match {
@@ -223,7 +223,7 @@ val enumerator = enumerator1.andThen(enumerator2)
 val it: Iteratee[String, String] = Iteratee.consume[String]()
 val newIt: Future[Iteratee[String, String]] = enumerator(it)
 
-val result: Future[String] = newIt.flatMap(_.run)
+val result: Future[String] = Iteratee.flatten(newIt).run
 result.onComplete(println) // foobarbazqux
 {% endhighlight %}
 
@@ -251,7 +251,7 @@ val newIt: Future[Iteratee[String, String]] = enumerator |>> it
 
 ### |>>> (run)
 
-`Enumerator#|>>>` では `Input.EOF` を送信する `Interatee#run` も同時に行なう。
+`Enumerator#|>>>` により、入力ストリームの送信後に `Input.EOF` を送信して処理結果を得ることができる。
 
 {% highlight scala %}
 val it: Iteratee[String, String] = Iteratee.consume[String]()
@@ -261,7 +261,7 @@ val enumerator: Enumerator[String] = Enumerator("Foo", "Bar", "Baz")
 val result: Future[String] = enumerator |>>> it
 {% endhighlight %}
 
-`Future[Iteratee[E, A]]` のまま `flatMap` で `Iteratee#run` を送って `Future[B]` を得る。`Iteratee` に置き換える `Iteratee.flatten` とは異なる。
+`Future[Iteratee[E, A]]` のまま `flatMap` で `Iteratee#run` を送って `Future[B]` を得るので、`Iteratee` に置き換える `Iteratee.flatten` とは異なる。
 
 {% highlight scala %}
 val newIt: Future[Iteratee[String, String]] = enumerator |>> it
