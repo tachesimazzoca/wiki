@@ -256,7 +256,6 @@ val newIt: Future[Iteratee[String, String]] = enumerator |>> it
 {% highlight scala %}
 val it: Iteratee[String, String] = Iteratee.consume[String]()
 val enumerator: Enumerator[String] = Enumerator("Foo", "Bar", "Baz")
-
 //val result: Future[String] = enumerator(it).flatMap(_.run)
 val result: Future[String] = enumerator |>>> it
 {% endhighlight %}
@@ -309,3 +308,105 @@ val fileEnumerator: Enumerator[Array[Byte]] = {
 }
 {% endhighlight %}
 
+## Enumeratee
+
+`plap.api.libs.iteratee.Enumeratee[From, To]` により、ストリームデータを変換をすることができる。
+
+ヘルパーメゾッド `Enumeratee.map` に変換関数を渡せば、_Enumeratee_ を生成できる。
+
+{% highlight scala %}
+val byteToHexStr: Enumeratee[Byte, String] = Enumeratee.map[Byte] { b =>
+  "%02X".format(b)
+}
+{% endhighlight %}
+
+### &>> (transform)
+
+`Enumeratee#transform` により、前段に変換を加えた _Iteratee_ を生成できる。エイリアスとして `Enumeratee#&>>` が提供されている。
+
+{% highlight scala %}
+val consume: Iteratee[String, String] = Iteratee.consume[String]()
+//val it = byteToHexStr.transform(consume)
+val it: Iteratee[Byte, String] = byteToHexStr &>> consume
+{% endhighlight %}
+
+### &> (through)
+
+_Enumeratee_ は _Enumerator_ に対しても適用できる。`Enumerater#through` により、後段に変換を加えた _Enumerator_ を生成できる。エイリアスとして `Enumerator#&>` が提供されている。
+
+{% highlight scala %}
+// Make sure that either "&>" or "through" is defined
+// on Enumerator, not on Enumeratee.
+
+val enumerator = Enumerator("Hello".getBytes())
+//val hexStrEnumerator = enumerator.through(byteHexStr)
+val hexStrEnumerator: Enumerator[Byte] = enumerator &> byteToHexStr
+{% endhighlight %}
+
+### apply
+
+元の _Iteratee_ がすでに `EOF` を受けて完了していた場合、`Enumeratee#transform` で _Iteratee_ を変換したところで、その後の入力は破棄されてしまう。
+
+{% highlight scala %}
+val sum = Iteratee.fold[Int, Int](0) { (acc, x) =>
+  acc + x
+}
+val strToInt = Enumeratee.map[String](_.toInt)
+
+val doneIt = Iteratee.flatten(Enumerator(1, 2) >>> Enumerator.eof |>> sum)
+// The iteratee doneIt has been done,
+Iteratee.isDoneOrError(doneIt).onComplete(println) // Success(true)
+val transformedIt = strToInt &>> doneIt
+// so any inputs after that will be ignored.
+(Enumerator("3", "4", "5") |>>> transformedIt).onComplete(println) // Success(3)
+{% endhighlight %}
+
+`Enumeratee#apply` は、変換前の _Iteratee_ を出力とする _Iteratee_ を生成する。
+
+{% highlight scala %}
+// The method apply returns Iteratee[String, Iteratee[Int, Int]],
+val adaptedIt: Iteratee[String, Iteratee[Int, Int]] = strToInt(sum)
+// so we can get the original iteratee after the adaptedIt is done.
+val originalIt: Interatee[Int, Int] = Iteratee.flatten(
+    Enumerator("1", "2") |>>> adaptedIt)
+// The original iteratee has not been done yet because it's just
+// an output of the adaptedIt.
+Iteratee.isDoneOrError(originalIt).onComplete(println) // Success(false)
+(Enumerator(3, 4, 5) |>>> originalIt).onComplete(println) // Success(15)
+{% endhighlight %}
+
+変換した _Iteratee_ を `EOF` で完了させた後でも、出力は変換元の _Iteratee_ であるので、入力を継続できる。すなわち _Enumeratee_ を切り替えながら、異なる _Enumerator_ からの入力を _Iteratee_ にまとめることができる。
+
+### Traversable
+
+`Enumeratee.(take|drop|takeWhile|dropWhile|...)` 等のヘルパーメゾッドは、他のコレクション API のように、要素を切り出す _Enumeratee_ を生成できる。
+
+ただし切り出し位置は _Enumerator_ から送信されるチャンク単位になる。
+
+{% highlight scala %}
+val it = Iteratee.fold[Array[Byte], String]("") { (acc, x) =>
+  acc ++ x.map(_.toChar).mkString("")
+}
+
+val enumerator = Enumerator(
+  "123".getBytes(),
+  "456".getBytes(),
+  "789".getBytes()
+)
+
+def limitChunks(n: Int) = {
+  Enumeratee.take[Array[Byte]](n)
+}
+(enumerator |>>> limitChunks(2) &>> it)
+  .onComplete(println) // Success("123456")
+{% endhighlight %}
+
+入力が `scala.collection.TraversableLike` を含んでいれば、`play.api.iteratee.Traversable` を使うことで、`TraversableLike` の実装に応じて切り出し位置を決定する。つまり `Array[Byte]` なら、配列インデックスでカウントされる。
+
+{% highlight scala %}
+def limitBytes(n: Int) = {
+  Traversable.take[Array[Byte]](n)
+}
+(enumerator |>>> limitBytes(5) &>> it)
+  .onComplete(println) // Success("12345")
+{% endhighlight %}
