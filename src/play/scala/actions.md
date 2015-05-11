@@ -112,3 +112,67 @@ def block: Action[AnyContent] = Action.async {
 }
 {% endhighlight %}
 
+## BodyParser
+
+基本的な _BodyParser_ は、あらかじめ `play.api.mvc.BodyParsers.parse` に定義されている。
+
+デフォルトの _BodyParser_ は `parse.anyContent` が使われる。ボディ部は `play.api.mvc.AnyContent` になる。
+
+{% highlight scala %}
+def xmlFormat = Action { request =>
+  request.body.asXml map { xml =>
+    Ok(...)
+  }.getOrElse {
+    BadRequest(..)
+  }
+}
+{% endhighlight %}
+
+ヘルパーメゾッド `Action.apply[A](parser: BodyParser[A])(...)` を使うと、ボディ部を明示的に指定できる。 不正なリクエストの場合は、_Action_ ブロックには渡らず、_BadReqeust_ 400 エラーが直接応答される。
+
+{% highlight scala %}
+def xmlOnly = Action(parse.xml) { request => ... }
+{% endhighlight %}
+
+`tolerant` がついているものは、リクエストヘッダのチェックを行なわず、ボディ部がパースできればエラーとならない。
+
+{% highlight scala %}
+def xmlOnly = Action(parse.torelantXml) { request => ... }
+{% endhighlight %}
+
+### file / temporaryFile / multipartFormData
+
+`parse.file` を用いるとボディ部をファイルに保存できる。指定した `java.io.File` がボディ部になる。
+
+{% highlight scala %}
+val parser = parse.file(to = new java.io.File("/path/to/a.txt"))
+{% endhighlight %}
+
+`parse.temporaryFile` は一時ファイルで保存できる。`play.api.libs.Files.TemporaryFile` がボディ部になる。`TemporaryFIle` のメゾッドは、旧 Java File API によるもののため _Deprecated_ となっている。
+
+フォームからのファイルアップロード `multipart/form-data` 形式には、`parse.multipartFormData` を使う。
+
+{% highlight scala %}
+val upload = Action(parse.multipartFormData) { request =>
+  request.body.file("pic").map { part =>
+    val temp: TemporaryFile = part.ref
+    val file: java.io.File = temp.file
+    ...
+    Ok(...)
+  }.getOrElse {
+    BadRequest(...)
+  }
+}
+{% endhighlight %}
+
+ファイルサイズに制限をかけたい場合は、ヘルパーメゾッド `parse.maxLength` を使う。ボディ部は `Either[MaxSizeexceeded, A]` となる。
+
+{% highlight scala %}
+// up to 4096 bytes
+val upload = Action(parse.maxLength(4096, parse.multipartFormData)) { request =>
+  request.body match {
+    case Left(MaxSizeExceeded(len)) => ...
+    case Right(multipartFormdata) => ...
+  }
+}
+{% endhighlight %}
