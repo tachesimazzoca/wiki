@@ -176,3 +176,88 @@ val upload = Action(parse.maxLength(4096, parse.multipartFormData)) { request =>
   }
 }
 {% endhighlight %}
+
+## ActionBuilder
+
+ヘルパーオブジェクト `Action` の実体は、トレイト `play.api.mvc.ActionBuilder[Request]` である。
+
+{% highlight scala %}
+object Action extends ActionBuilder[Request] {
+  def invokeBlock[A](request: Request[A],
+                     block: (Request[A]) => Future[Result]) = block(request)
+}
+{% endhighlight %}
+
+同様に `ActionBuilder` を実装すれば、独自のヘルパーオブジェクトを作成できる。
+
+{% highlight scala %}
+object AppAction extends ActionBuilder[Request] {
+  override def invokeBlock[A](request: Request[A],
+                              block: (Request[A]) => Future[Result]): Future[Result] = {
+    if (request.remoteAddress.equals("127.0.0.1")) {
+      block(request).map { result =>
+        result.withHeaders("X-UA-Compatible" -> "Chrome=1")
+      }
+    } else Future.successful(Forbidden) // localhost only
+  }
+}
+
+val action = AppAction {
+  Ok("...")
+}
+{% endhighlight %}
+
+_ActionBuilder_ は `ActionBuilder#andThen` で連結できる。`Request` は外側から、`Future[Result]` は内側から伝播する。
+
+{% highlight scala %}
+val action = (LoggingAction andThen SecureAction) {
+  Ok("...")
+}
+{% endhighlight %}
+
+以下の様に _Action_ をラップしてもよい。
+
+{% highlight scala %}
+case class Logging[A](action: Action[A]) extends Action[A] {
+  override def apply(request: Request[A]): Future[Result] = {
+    Logger.info("...")
+    action(request)
+  }
+
+  lazy val parser = action.parser
+}
+
+def action = Logging {
+  Action {
+    Ok("...")
+  }
+}
+{% endhighlight %}
+
+`Action.async` ブロック内で、元の `Action#apply` を呼ぶ方法でもよい。元の _BodyParser_ もみ消さないように明示する必要がある。
+
+{% highlight scala %}
+def logging(action: Action[A]): Action[A] =
+  Action.async(action.parser) { request =>
+    Logger.info("...")
+    action(request)
+  }
+{% endhighlight %}
+
+`ActionBuilder#composeAction` に、_Action_ をラップする関数を指定できる。共通の前後処理をパーツ化しておいて、組み替えることで、コードを再利用できる。
+
+{% highlight scala %}
+def onlyHttps(action: Action[A]): Action[A] = ...
+def loggingErrors(action: Action[A]): Action[A] = ...
+
+object AppAction extends ActionBuilder[Request] {
+  override def invokeBlock[A](request: Request[A],
+                              block: (Request[A]) => Future[Result]) = {
+    block(request)
+  }
+
+  override protected def composeAction[A](action: Action[A]): Action[A] =
+    onlyHttps(loggingErrors(action))
+}
+{% endhighlight %}
+
