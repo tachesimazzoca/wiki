@@ -261,3 +261,67 @@ object AppAction extends ActionBuilder[Request] {
 }
 {% endhighlight %}
 
+## ActionRefiner
+
+`play.api.mvc.ActionRefiner[R, P]` により、_ActionBuilder_ の `Request` 型を変換できる。
+
+`Future[Either[Result, P[A]]]` を返す `ActionRefiner#refine[A](request: R[A])` を実装する。`UserRequest` のコンストラクタの第一引数 `Request[A]` は、継承元の `WrappedRequest` に引き渡す引数になるので、重複してインスタンス変数に持つ必要はない。
+
+
+{% highlight scala %}
+case class User(id: Long, name: String)
+
+object User {
+  def find(id: Long): Option[User] = ???
+}
+
+class UserRequest[A](request: Request[A], val user: User) extends WrappedRequest[A](request)
+
+val UserAction = new ActionRefiner[Request, UserRequest] {
+  override protected def refine[A](request: Request[A]): Future[Either[Result, UserRequest]] =
+    Future.successful {
+      (for {
+        userid <- request.sessions.get("userid")
+        id <- java.lang.Long.parseLong(userid, 10)
+        user <- User.find(id)
+      } yield new UserRequest(request, user)).toRight(Forbidden)
+    }
+}
+
+val action = (Action andThen UserAction) { userRequest =>
+  Ok("Hello " + userRequest.user.name)
+}
+{% endhighlight %}
+
+### ActionTransformer
+
+`Request` 型の変換に際して例外が起こらないなら、`play.api.mvc.ActionTransformer[R, P]` を使えばよい。
+
+{% highlight scala %}
+class UserRequest[A](request: Request[A],
+                     val lang: Lang,
+                     val robot: Boolean) extends WrappedRequest[A](request)
+object UserAction extends ActionTransformer[Request, UserRequest] {
+  override protected def transform[A](request: Request[A]): Future[UserRequest[A]] =
+    Future.successful {
+      val lang: Lang = ...
+      val robot: Booean = ...
+      new UserRequest(request, lang, robot)
+    }
+  }
+}
+{% endhighlight %}
+
+### ActionFilter
+
+例外チェックのみを行ないたいなら `play.api.mvc.ActionFilter[R]` を使えばよい。例外時に `Some[Result]` を返すことで、_Action_ ブロックを経由せずに直接応答する。正常時には `None` を返せばよい。
+
+{% highlight scala %}
+object RemoteAddressFilter extends ActionFilter[Request] {
+  override protected def filter[A](request: Request[A]) =
+    Future.successful {
+      if (request.remoteAddress.equals("127.0.0.1")) None
+      else Some(Forbidden)
+    }
+}
+{% endhighlight %}
