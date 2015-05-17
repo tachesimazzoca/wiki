@@ -40,14 +40,14 @@ _be_ 動詞は主に _were_ を用いる。
 
 * If I __knew__ your number, I __would__ call you. _番号がわかれば、電話するんだけどね_
   * _I don't know your number, so I can't call you._
-* If it __were__ more cheaper, I __would__ buy it. _もっと安ければ、買うけどね_
+* If it __were__ cheaper, I __would__ buy it. _もっと安ければ、買うけどね_
   * _It's too expensive, so I don't buy it._
 
 過去の話「... しただろうに（だったろうに）」をする場合は、仮定法過去完了 _If it had been true, somebody would have done something._ を用いる。
 
-* If I__'d known__ your number, I __would have__ called you. _番号がわかっていたら、電話したんだけどね_
+* If I __had known__ your number, I __would have__ called you. _番号がわかっていたら、電話したんだけどね_
   * _I didn't know your number, so I couldn't call you._
-* If it__'d been__ more cheaper, I __would have__ bought it. _もっと安かったら、買っていたけどね_
+* If it __had been__ cheaper, I __would have__ bought it. _もっと安かったら、買っていたけどね_
   * _It was too expensive, so I didn't buy it._
 
 未来の話「そうなったら ... するでしょう（でしょう）」をする場合は、_if_ 節は現在形になる。
