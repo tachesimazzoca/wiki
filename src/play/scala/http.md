@@ -141,38 +141,18 @@ object Request {
 }
 {% endhighlight %}
 
-テスト時にモックを作りたい場合は、`play.api.test.(FakeRequest|FakeHeaders)` を使う。テストがしやすいように `withHeaders` などのメゾッドが追加されている。
+テスト時にモックを作りたい場合は、`play.api.test.FakeRequest` を使う。テストがしやすいように `withHeaders` などのメゾッドが追加されている。
 
 {% highlight scala %}
-val body = <foo>bar</foo>
-val headers = Seq(
-  "Content-type" -> Seq("application/xml")
-)
-val rh: Request[NodeSeq] = FakeRequest("POST", "/create", FakeHeaders(headers), body)
-  .withHeaders("X-Foo-Bar" -> "yes")
+val rh: Request[NodeSeq] = FakeRequest("POST", "/create")
+    .withHeaders("X-Requested-With" -> "0123456789abcdef")
+    .withBody(<foo>bar</foo>)
 {% endhighlight %}
 
-_BodyParser_ のテスト等で、`RequestHeader` だけのモックを作りたい場合は、以下のようなケースクラスを作っておくとよい。
+`FakeRequest` ではボディ部も指定できるが、_BodyParser_ で変換されたと仮定される `Request#body` である。HTTP リクエストのボディ部のバイト列や文字列ではない。_BodyParser_ をテストするときは、_Enumerator_ でボディ部を送る。
 
 {% highlight scala %}
-case class DummyRequestHeader(headersMap: Map[String, Seq[String]] = Map())
-    extends RequestHeader {
-  def id = 1
-  def tags = Map()
-  def uri = ""
-  def path = ""
-  def method = ""
-  def version = ""
-  def queryString = Map()
-  def remoteAddress = ""
-  def secure = false
-  lazy val headers = new Headers { val data = headersMap.toSeq }
-}
-
-val rh = DummyRequestHeader(Map("Content-Type" -> Seq("application.xml")))
-val it = play.api.mvc.BodyParsers.parse.xml(rh)
-(Enumerator("<foo>bar</xml>".getBytes()) |>>> it).onComplete {
-  case Success(Right(a)) => ...
-  case _ => ...
-}
+val it = parse.xml(FakeRequest().withHeaders(CONTENT_TYPE -> "application/xml"))
+(Enumerator("<foo>bar</foo>".getBytes) |>>> it)
+    .onComplete(println) // Success(Right(<foo>bar</foo>))
 {% endhighlight %}
