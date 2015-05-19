@@ -45,7 +45,7 @@ object Global extends WithFilters(LoggingFilter, CSRFFilter()) {
 }
 {% endhighlight %}
 
-`play.api.mvc.ActionBuilder` でも同様のことができるが、ユースケースごとフィルタ処理にとどめ、この _Filter_ をログやアクセス制限などのアプリケーション全体のために用いるとよい。
+`play.api.mvc.ActionBuilder` でも同様のことができるが、ユースケースごとのフィルタ処理にとどめ、ログやアクセス制限などのアプリケーション全体のためは、この _Filter_ を用いるとよい。
 
 ## EssentialFilter
 
