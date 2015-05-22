@@ -19,13 +19,13 @@ libraryDependencies ++= Seq(
 
 ## WSClient
 
-ヘルパーメゾッド `WS.client` より、アプリケーション内に _WSPlugin_ 経由でロードされている HTTP クライアント `play.api.libs.ws.WSClient` が得られる。
+ヘルパーメゾッド `play.api.libs.ws.WS.client` より、アプリケーション内に _WSPlugin_ 経由でロードされている HTTP クライアント `play.api.libs.ws.WSClient` が得られる。
 
 {% highlight scala %}
 val client: WSClient = WS.client
 {% endhighlight %}
 
-この HTTP クライアントはリクエスト毎に作られるのではない。アプリケーションが持つインスタンスは一つで、`WSClient#url` によりリクエストを表す `play.api.libs.ws.WSRequestHolder` を得て、リクエスト送信とレスポンス取得を非同期に行なう。
+この HTTP クライアントはリクエスト毎に作られるのではない。アプリケーションが持つインスタンスは一つで、`WSClient#url` より `play.api.libs.ws.WSRequestHolder` をリクエスト毎に得る。一つの HTTP クライアントがアプリケーション上に常駐し、複数のリクエスト送信とレスポンス取得を非同期に行うと考えればよい。
 
 {% highlight scala %}
 val client: WSClient = WS.client
@@ -33,23 +33,34 @@ val holder1: WSRequestHolder = client.url("http://sv1.example.net/feed")
 val holder2: WSRequestHolder = client.url("http://sv2.example.net/feed")
 val response1: Future[WSResponse] = holder1.get()
 val response2: Future[WSResponse] = holder2.get()
-Future.firstCompleteOf(Seq(response1, response2)) { response =>
+Future.firstCompleteOf(Seq(response1, response2)).map { response =>
   ...
 }
 {% endhighlight %}
 
-リクエストポリシー（タイムアウト/リトライ数等）の違いなどにより、複数の HTTP クライアントが必要なら、アプリケーションが管理する `WS.client` とは別にインスタンスを作成する。
+複数の HTTP クライアントが必要なら、`WS.client` とは別にインスタンスを作成する。
 
 {% highlight scala %}
 val config: AsyncHttpClientConfig = ...
-val customClient = new NingWSClient(config)
+val customClient: WSClient = new NingWSClient(config)
 ...
 customeClient.close()
 {% endhighlight %}
 
-注意すべき点として、プラグインによりロードされた `WS.client` は、アプリケーションの終了時 `WSPlugin#onStop` で閉じられるが、独自に作成した _WSClient_ は各自で `WSClient#close` を行なう必要がある。
+注意すべき点として、プラグインによりロードされた `WS.client` は、アプリケーションの終了時に `WSPlugin#onStop` で自動的に閉じられるが、独自に作成した _WSClient_ は各自で `WSClient#close` を行なう必要がある。
 
-### NingWSClient
+### underlying
+
+`WSClient#underlying[T]` により、HTTP クライアントの実装元エンジンを取得できる。`WSRequestHolder` がカバーしていない機能を直接利用したい時に利用する。
+
+{% highlight scala %}
+import com.ning.http.client.AsyncHttpClient
+...
+val asyncHttpClient = WS.client.underlying[AsyncHttpClient]
+println(asyncHttpClient.getConfig.getMaxRequestRetry)
+{% endhighlight %}
+
+## NingWSClient
 
 デフォルトの `WSClient` は、_Java_ ライブラリの _AsyncHttpClient_ による実装の `play.api.libs.ws.ning.NingWSClient` になる。
 
@@ -75,7 +86,7 @@ client.close()
 
 ## WS
 
-HTTP リクエスト `WSRequestHolder` を作成する場合、 通常はヘルパーメゾッド `WS.url` を使えばよい。HTTP クライアントはプラグインによりロードされた `WS.client` が使われる。
+HTTP リクエスト `WSRequestHolder` を作成する場合、 通常はヘルパーメゾッド `WS.url` を使えばよい。HTTP クライアントは `WS.client` が使われる。
 
 {% highlight scala %}
 val holderWithDefaultClient: WSRequestHolder = WS.url("http://example.net")
@@ -90,11 +101,9 @@ implicit val implicitClient = new NingWSClient(config)
 val holderWithImplicitClient: WSRequestHolder = WS.clientUrl("http://example.net")
 {% endhighlight %}
 
-### WSRequestHolderMagnet
+## WSRequestHolderMagnet
 
-`WSRequestholder` の生成に Magnet パターンが使える。
-
-`WSRequestHolderManet` を引数に持つ `WS.url` が定義されている。
+`WSRequestholder` の生成に _Magnet_ パターンが使える。`WSRequestHolderManet` を引数とした `WS.url` がオーバーロードされている。
 
 {% highlight scala %}
 def url(magnet: WSRequestHolderMagnet): WSRequestHolder = magnet()
