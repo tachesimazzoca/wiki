@@ -20,7 +20,7 @@ Add `vagrant` user with the [insecure keypair](https://github.com/mitchellh/vagr
     $ mkdir .ssh
     $ chmod 700 .ssh
     $ cd .ssh
-    $ curl "https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub" > authorized_keys
+    $ curl "https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub" > authorized_keys
     $ chmod 600 authorized_keys
     $ export HISTSIZE=0
     $ exit
