@@ -82,3 +82,49 @@ Private Subnet の場合は、サブネット内からインターネットに�
 * Destination: `0.0.0.0/0`
 * Target: NAT インスタンスのID `i-*` を指定
 
+### NAT Instance
+
+* `http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html`
+
+Internet Gateway との経路を持たないサブネットは、インターネットに接続できない。パッケージのダウンロードなどでサブネット内からインターネットへのアクセスは必要になる。
+
+この場合は、Public サブネット内に、Private サブネットからの通信を外部ネットワークに中継する NAT インスタンスを立てる。
+
+Public AMI で `ami-vpc-nat` の名前で提供されているが、単に `rc.local` の起動スクリプトで IP マスカレードを設定しているのみなので、任意のインスタンスを NAT インスタンスとしたい場合は、同様のスクリプトを置けばよい。
+
+* <https://gist.github.com/tachesimazzoca/6392900b3941d6de4665>
+
+`eth0` の MAC アドレスを取得する。
+
+    ETH0_MAC=`/sbin/ifconfig  | /bin/grep eth0 | awk '{print tolower($5)}' | grep '^[0-9a-f]\{2\}\(:[0-9a-f]\{2\}\)\{5\}$'`
+
+MAC アドレスから Amazon 提供の Instance Metadata を使って、CIDR Block を得る。
+
+    VPC_CIDR_URI="http://169.254.169.254/latest/meta-data/network/interfaces/macs/${ETH0_MAC}/vpc-ipv4-cidr-block"
+    ...
+    VPC_CIDR_RANGE=`curl --retry 3 --retry-delay 0 --silent --fail ${VPC_CIDR_URI}`
+
+* Instance Metadata: `http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-instance-metadata.html`
+
+取得した CIDR を送信元にして、IP マスカレードを設定する。
+
+    echo 1 >  /proc/sys/net/ipv4/ip_forward && \
+       echo 0 >  /proc/sys/net/ipv4/conf/eth0/send_redirects && \
+       /sbin/iptables -t nat -A POSTROUTING -o eth0 -s ${VPC_CIDR_RANGE} -j MASQUERADE
+
+## Security Groups
+
+SecurityGroup は、EC2-Classic と VPC では異なる。
+
+* EC2-Classic
+  * EC2 インスタンスに対して Security Group を割り当てる。
+  * 異なる EC2 イスタンス間で、同一の Security Group を共有できる。
+  * 起動時に EC2 インスタンスに割り当てた Security Group は変更できない。
+* VPC
+  * VPC 内で Security Group を定義する。
+  * 異なる VPC 間で、Security Group を共有できない。
+  * VPC 内に定義された Security Group から EC2 インスタンスに割り当てる。
+  * EC2 インスタンス起動後も、割り当てる Security Group を変更できる。
+
+このため VPC では、サーバの役割に応じて、SSH / Web などのポート別で Security Group を作っておくとよい。
+
