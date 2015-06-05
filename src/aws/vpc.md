@@ -20,7 +20,7 @@ CIDR Block は、以下のように割り当てて「最大 256 個の Subnet �
 
 すなわち `256 * 256 = 65536` 個のプライベートIPアドレスを持てることになる。ただし、あくまで仕様上の個数であり、AWS 内で使える数には限りがある。
 
-* `http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html`
+* <http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Appendix_Limits.html>
 
 VPC 作成後はサイズ変更ができないため、最大の `10.0.0.0/16` を割り当てておくとよい。
 
@@ -34,16 +34,16 @@ VPC はそのままではインターネットとの通信経路が存在しな�
 * _Attach to VPC_ ボタンを押下
 * 対象の VPC を選択し Internet Gateway と紐付ける
 
-通信経路が確保されただけであり、Elastic IP でグローバル IP アドレスを割り当てるまでは、インターネットからはアクセスはできない。
+通信経路が確保されただけであり、Elastic IP でグローバル IP アドレスを割り当てるまでは、インターネットからは VPC にアクセスはできない。
 
 ## Subnets
 
-VPC 内に、EC2 インスタンスと紐付ける Subnet と呼ばれるプライベートアドレス空間を作成する。
+VPC 内に、Subnet と呼ばれるプライベートアドレス空間を作成する。EC2 インスタンスはこの Subnet 内に置かれる。
 
 * Public Subnet
-  * Internet Gateway とのルートを持つサブネット = インターネットにアクセス可
+  * Internet Gateway とのルートを持つ Subnet = インターネットからアクセス可
 * Private Subnet
-  * Internet Gateway とのルートを持たないサブネット = インターネットにアクセス不可
+  * Internet Gateway とのルートを持たない Subnet = インターネットからアクセス不可
 
 Subnet は以下の手順で作成する。
 
@@ -51,7 +51,7 @@ Subnet は以下の手順で作成する。
 * _Create Subnet_ ボタンを押下
 * 任意の CIDR Block を指定。範囲は `xxx.xxx.xxx.0/24` に制限されている。
 
-VPC の CIDR Block が `10.0.0.0/16` である場合を例にすると、以下のように Subnet の CIDR Block を割り当てる。
+VPC の CIDR Block が `10.0.0.0/16` である場合、以下のように Subnet の CIDR Block を割り当てる。
 
 * Subnet1: `10.0.0.0/24`
 * Subnet2: `10.0.1.0/24`
@@ -77,18 +77,18 @@ Public Subnet とする場合は、Internet Gateway への経路を追加する�
 * Destination: `0.0.0.0/0`
 * Target: Internet Gateway `igw-*` を指定
 
-Private Subnet の場合は、サブネット内からインターネットに接続できるように、後述の NAT インスタンスの ID を指定する。
+Private Subnet の場合は、Subnet 内からインターネットに接続できるように、後述の NAT インスタンスの ID を指定する。
 
 * Destination: `0.0.0.0/0`
 * Target: NAT インスタンスのID `i-*` を指定
 
 ### NAT Instance
 
-* `http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html`
+* <http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html>
 
-Internet Gateway との経路を持たないサブネットは、インターネットに接続できない。パッケージのダウンロードなどでサブネット内からインターネットへのアクセスは必要になる。
+Internet Gateway との経路を持たない Subnet は、インターネットに接続できない。パッケージのダウンロードなどで Subnet 内からインターネットへのアクセスは必要になる。
 
-この場合は、Public サブネット内に、Private サブネットからの通信を外部ネットワークに中継する NAT インスタンスを立てる。
+この場合は、Public Subnet 内に、Private Subnet からの通信を外部ネットワークに中継する NAT インスタンスを立てる。
 
 Public AMI で `ami-vpc-nat` の名前で提供されているが、単に `rc.local` の起動スクリプトで IP マスカレードを設定しているのみなので、任意のインスタンスを NAT インスタンスとしたい場合は、同様のスクリプトを置けばよい。
 
@@ -98,13 +98,12 @@ Public AMI で `ami-vpc-nat` の名前で提供されているが、単に `rc.l
 
     ETH0_MAC=`/sbin/ifconfig  | /bin/grep eth0 | awk '{print tolower($5)}' | grep '^[0-9a-f]\{2\}\(:[0-9a-f]\{2\}\)\{5\}$'`
 
-MAC アドレスから Amazon 提供の Instance Metadata を使って、CIDR Block を得る。
+MAC アドレスから Amazon 提供の [Instance Metadata](http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-instance-metadata.html) を使って、CIDR Block を得る。
 
     VPC_CIDR_URI="http://169.254.169.254/latest/meta-data/network/interfaces/macs/${ETH0_MAC}/vpc-ipv4-cidr-block"
     ...
     VPC_CIDR_RANGE=`curl --retry 3 --retry-delay 0 --silent --fail ${VPC_CIDR_URI}`
 
-* Instance Metadata: `http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-instance-metadata.html`
 
 取得した CIDR を送信元にして、IP マスカレードを設定する。
 
@@ -112,19 +111,20 @@ MAC アドレスから Amazon 提供の Instance Metadata を使って、CIDR Bl
        echo 0 >  /proc/sys/net/ipv4/conf/eth0/send_redirects && \
        /sbin/iptables -t nat -A POSTROUTING -o eth0 -s ${VPC_CIDR_RANGE} -j MASQUERADE
 
+
 ## Security Groups
 
 SecurityGroup は、EC2-Classic と VPC では異なる。
 
 * EC2-Classic
   * EC2 インスタンスに対して Security Group を割り当てる。
-  * 異なる EC2 イスタンス間で、同一の Security Group を共有できる。
+  * 異なる EC2 インスタンス間で、同一の Security Group を共有できる。
   * 起動時に EC2 インスタンスに割り当てた Security Group は変更できない。
 * VPC
   * VPC 内で Security Group を定義する。
-  * 異なる VPC 間で、Security Group を共有できない。
-  * VPC 内に定義された Security Group から EC2 インスタンスに割り当てる。
-  * EC2 インスタンス起動後も、割り当てる Security Group を変更できる。
+  * 異なる VPC 間で、Security Group を共有することはできない。
+  * VPC 内に定義した Security Group の中から、必要なものを EC2 インスタンスに割り当てる。
+  * EC2 インスタンス起動後も、割り当てた Security Group を変更できる。
 
 このため VPC では、サーバの役割に応じて、SSH / Web などのポート別で Security Group を作っておくとよい。
 
