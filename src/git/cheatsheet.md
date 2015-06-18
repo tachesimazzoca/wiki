@@ -16,6 +16,8 @@ title: Cheat Sheet
 
     % git config user.name "Foo Bar"
     % git config user.email "foo@example.net"
+    % git config -l
+    ...
 
 ## add
 
@@ -55,6 +57,17 @@ To add, modifiy and remove them, use the `-A` option.
 The following is an one-liner to remove index entries that start with `^.D` as tracking status. (i.e. Each file tracked by the index entries has already been removed without using git-rm.)
 
     % git status -s | grep ^'.D' | awk '{print $2}' | xargs git rm
+
+## remote
+
+    % git remote -v
+    origin  ssh://gitolite-server/foo.git (fetch)
+    origin  ssh://gitolite-server/foo.git (push)
+
+    % git remote set-url origin ssh://gitolite-server/bar.git
+    % git remote -v
+    origin  ssh://gitolite-server/bar.git (fetch)
+    origin  ssh://gitolite-server/bar.git (push)
 
 ## commit
 
