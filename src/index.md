@@ -12,6 +12,7 @@ title: Home
 * [Git](git/index.html)
 * [gitolite](gitolite/index.html)
 * [Hadoop](hadoop/index.html)
+* [HAProxy](haproxy/index.html)
 * [Haskell](haskell/index.html)
 * [httpd](httpd/index.html)
 * [Java](java/index.html)
