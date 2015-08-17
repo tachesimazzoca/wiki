@@ -121,3 +121,34 @@ C_1 \oplus C_2 = m_1 \oplus m_2
 
 * 802.11b WEP は 24bit のフレーム番号をキー生成に使うため安全ではない。16Mフレーム毎に同じ PRG キーが用いられる。
 
+### RC4
+
+* <https://en.wikipedia.org/wiki/RC4>
+
+256個の 0-255 の順列である 256bytes の状態配列 `S` を元に、キーを生成する。
+
+* _Key-scheduling Algorithm (KSA)_
+  * 5-16byte 程度のシードを与えて、初期の状態配列 `S` を生成する。
+* _Pseudo Random Generation Algorithm (PRGA)_
+   * 1byte 毎に、状態配列 `S` の要素を入れ替えながら、キー生成を行なう。
+
+SSL/TLS や 802.11b WEP で用いられているが、以下の欠点がある。
+
+* キーストリームの 2byte 目が 0 となる確率が 2/256 であり、識別攻撃が可能
+* WEP のように、何番目に生成されたキーであるかがわかれば、Two time pad 攻撃で平文を復元可能
+
+### LFSR
+
+_Linear Feedback Shift Register (LFSR)_ は、タップと呼ばれる任意の数ビットの XOR 出力を先頭ビットとし、ビットシフトを繰り返すレジスタを指す。DVD や Bluetooth のハードウェア用の PRG としても用いられている。
+
+レジスタの初期シードが同じであれば、必ず同じ状態になるため、初期シードが小さいと総当たりで復元可能である。
+
+DVD に用いられている _Content Scrambling System (CSS)_ のシードは、40bit(5byte) と非常に小さい。PRG アルゴリズムは以下のようになる。
+
+* LFSR17: `1 || 16bit(seed[0..1])` を初期シードとする 17bit LFSR 出力から 8bit を抽出
+* LFSR25: `1 || 24bit(seed[2..4])` を初期シードとする 25bit LFSR 出力から 8bit を抽出
+* 二つの LFSR を可算し下位 8bit をキーとする。 `(LFSR17 + LFSR25) mod 256`
+* 1byte 毎に繰り返す
+
+元データの先頭バイトが予測できれば、LFSR17 の初期状態を `2^17` 回の総当たりで試し、キーストリームの引き算で対応する LFSR25 を算出して、LFSR ペアの候補を取り出すことができる。候補を試し、二つの LFSR の初期状態がわかれば、以降のバイトは復元可能となる。
+
