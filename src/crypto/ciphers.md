@@ -86,14 +86,14 @@ OTP とは異なり、保有キーの利用が１度限りであっても、PRG 
 たとえランダムであっても、乱数生成に周期性があると同様に予測可能である。_Linear Congruential Generator (LCG)_ のアルゴリズムでは周期性がある。
 
 <script type="math/tex; mode=display" id="MathJax-Element-cipher_lcg">
-X_{n+1} := A \cdot (X_n + B) \bmod M \\
+X_{n+1} := (A \cdot X_n + B) \bmod M \\
 A = 3, B = 5, M = 13 \\
 \begin{align}
 X_0 & := 8 \\
-X_1 & := 3 \cdot (X_0 + 5) \bmod 13 = 3 \\
-X_2 & := 3 \cdot (X_1 + 5) \bmod 13 = 1 \\
-X_3 & := 3 \cdot (X_2 + 5) \bmod 13 = 8 \\
-X_4 & := 3 \cdot (X_3 + 5) \bmod 13 = 3 \\
+X_1 & := (3 \cdot X_0 + 5) \bmod 13 = 3 \\
+X_2 & := (3 \cdot X_1 + 5) \bmod 13 = 1 \\
+X_3 & := (3 \cdot X_2 + 5) \bmod 13 = 8 \\
+X_4 & := (3 \cdot X_3 + 5) \bmod 13 = 3 \\
 X_5 & := 1 \\
 \ldots
 \end{align}
