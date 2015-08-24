@@ -17,7 +17,7 @@ title: Block Ciphers
 
 ## DES
 
-_Data Encryption Standard (DES)_ は、IBM により開発され、1976 年に U.S. の連邦規格として採用されたブロック暗号方式である。
+_Data Encryption Standard (DES)_ は、IBM により開発され、1976 年に U.S. の連邦規格として採用された共通鍵暗号方式である。
 
 * <http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf>
 
@@ -29,6 +29,17 @@ _Data Encryption Standard (DES)_ は、IBM により開発され、1976 年に U
 * Final Permuation (IP^-1) に従い、ビットを入れ替え
   * <https://en.wikipedia.org/wiki/DES_supplementary_material#Final_permutation_.28IP.E2.88.921.29>
     * Initial Permuation の逆のマッピング
+
+### Key Schedule
+
+DES のキー長は 64bits で、実際には 56bits が使われる。48bits のラウンド鍵が生成される。
+
+* PC-1: 64bits を 56bits に変換する
+  * <https://en.wikipedia.org/wiki/DES_supplementary_material#Permuted_choice_1_.28PC-1.29>
+* PC-2: 56bits を 48bits に変換する
+  * <https://en.wikipedia.org/wiki/DES_supplementary_material#Permuted_choice_2_.28PC-2.29>
+  * 各ラウンドごとにビットシフトを行なう。ラウンド毎にシフトするビット数は異なる。
+    * <https://en.wikipedia.org/wiki/DES_supplementary_material#Rotations_in_the_key-schedule>
 
 ### Feistel Network
 
@@ -43,7 +54,7 @@ DES では、Lucifer 暗号の発明者の _Horst Feistel_ に由来する _Feis
 
 ### Feistel Function
 
-Feistel 構造内では、以下の Feistel 関数により撹拌される。
+Feistel network では、Feistel 関数により各ブロックが撹拌される。
 
 * E: 32bits を 48bits に拡張する
   * <https://en.wikipedia.org/wiki/DES_supplementary_material#Expansion_function_.28E.29>
@@ -53,14 +64,39 @@ Feistel 構造内では、以下の Feistel 関数により撹拌される。
 * P: 4 x 8 = 32bits のビットを入れ替える
   * <https://en.wikipedia.org/wiki/DES_supplementary_material#Permutation_.28P.29>
 
+## AES
+
+_Advanced Encryption Standard (AES)_ は、DES の後継として、新たに U.S. の暗号規格として採用された共通鍵暗号方式である。
+
+ブロックサイズは 128bits で、Feistel 構造ではなく、Substitution-permutation Network (SPN) 構造を用いる。入力を 4x4 = 16 bytes の行列として扱い、ビットの撹拌と 128bits のラウンド鍵との XOR を繰り返して暗号化する。
+
 ### Key Schedule
 
-DES のキー長は 64bits で、実際には 56bits が使われる。48bits のラウンド鍵が生成される。
+* <https://en.wikipedia.org/wiki/Rijndael_key_schedule>
 
-* PC-1: 64bits を 56bits に変換する
-  * <https://en.wikipedia.org/wiki/DES_supplementary_material#Permuted_choice_1_.28PC-1.29>
-* PC-2: 56bits を 48bits に変換する
-  * <https://en.wikipedia.org/wiki/DES_supplementary_material#Permuted_choice_2_.28PC-2.29>
-  * 各ラウンドごとにビットシフトを行なう。ラウンド毎にシフトするビット数は異なる。
-    * <https://en.wikipedia.org/wiki/DES_supplementary_material#Rotations_in_the_key-schedule>
+AES のキーサイズは、128/192/256 bits を選択できる。サイズに応じて SPN 構造での撹拌サイクル数が異なる。
+
+* AES-128: 128bits keys / 10 cycles
+* AES-192: 192bits keys / 12 cycles
+* AES-256: 256bits keys / 14 cycles
+
+撹拌サイクル数 + 1 回の 128bits(16bytes) のラウンド鍵が生成される。AES-128 の場合、合計で 16 x 11 = 176 bytes の鍵が生成される。
+
+### Substitution Permutation Network
+
+* Initial round
+  * ラウンド鍵 `k(0)` と XOR
+* Rounds
+  * SubBytes: Rijndael S-box に従い 4x4 の全バイトを入れ替える
+    * <https://en.wikipedia.org/wiki/Rijndael_S-box>
+  * ShiftRows: 各行を行番号分左へシフト
+    * <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#The_ShiftRows_step>
+  * MixColumns: Rijndael mix columns に従い、各列を変換する
+    * <https://en.wikipedia.org/wiki/Rijndael_mix_columns>
+    * <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#The_MixColumns_step>
+  * ラウンド鍵 `k(i)` と XOR
+* Final round
+  * SubBytes
+  * ShiftRows
+  * ラウンド鍵 `k(n)` と XOR
 
