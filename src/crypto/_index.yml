@@ -1,3 +1,4 @@
 - "overview"
 - "stream_ciphers"
 - "block_ciphers"
+- "macs"

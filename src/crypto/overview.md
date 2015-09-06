@@ -42,7 +42,7 @@ Pr[E(k, m_0) = c] = Pr[E(k, m_1) = c] \quad \text{for all $m_0, m_1 \in M, |m_0|
 k \gets^{random} K \\
 </script>
 
-## The One Time Pad
+## One Time Pad (OTP)
 
 一回限りの暗号キーを使って暗号化する方法を _One Time Pad (OTP)_ と呼ぶ。
 
@@ -64,4 +64,8 @@ D(k, E(k, m)) & = k \oplus (k \oplus m) = (k \oplus k) \oplus m = 0 \oplus m = m
 
 * メッセージよりも大きい暗号キーを持たなければならない欠点がある。
 * 同じ暗号文を生成できる暗号キーの数は 1 である。一回限りのキーであれば、同じ暗号文となる確率は `1/K` であり _Perfect secrecy_ を持つ。
+
+## Pseudo Random Function (PRF)
+
+## Pseudo Random Permutation (PRP)
 
