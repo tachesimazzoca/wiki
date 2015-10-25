@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: チュートリアル
+title: Tutorials
 ---
 
 ## リポジトリの作成

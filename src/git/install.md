@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: インストール
+title: Install
 ---
 
 ## yum

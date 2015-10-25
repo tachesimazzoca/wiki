@@ -69,6 +69,9 @@ The following is an one-liner to remove index entries that start with `^.D` as t
     origin  ssh://gitolite-server/bar.git (fetch)
     origin  ssh://gitolite-server/bar.git (push)
 
+    % git remote remove origin
+    % git remote add origin ssh://codecommit-user/v1/repos/sandbox
+
 ## commit
 
     # コミット候補を追加
@@ -269,7 +272,7 @@ By default, the command won't remove any references that no longer exist on the 
 
 ## History
 
-To reset the authorship information, use `git-rebase` with the option `-i`. The following is an example to modify last 2 commits.
+To reset authorship information, use `git-rebase` with the option `-i`. The following is an example to modify last 2 commits.
 
     % git rebase -i HEAD~2
     pick b234567  Do something
@@ -283,7 +286,7 @@ To reset the authorship information, use `git-rebase` with the option `-i`. The 
     #  e, edit = use commit, but stop for amending
     ...
 
-Replace the command `pick` at each line with `edit` and then quit the editor.
+Replace `pick` at each line with `edit` and then quit the editor.
 
     edit b234567  Do something
     edit a123456  Do something at last
@@ -313,4 +316,21 @@ You can also use `filter-branch` to reset all commits.
     GIT_AUTHOR_EMAIL="foo@example.net"
     git commit-tree "$@"
     ' HEAD
+
+## Merging a Pull Request Manually
+
+    # Fork the repository "sandbox" made by Alice
+    % git remote add upstream http://github.com/alice/sandbox.git
+    % git pull upstream master
+    % git checkout -b hotfix
+    % git commit
+    % git push origin hotfix
+
+    # Merge the pull request sent by Bob
+    % git remote add bob http://github.com/bob/sandbox.git
+    % git fetch bob
+    % git checkout -b bob-hotfix bob/hotfix
+    % git checkout master
+    % git merge --no-ff hotfix
+    % git push origin master
 
