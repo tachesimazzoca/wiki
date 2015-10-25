@@ -11,7 +11,7 @@ title: Stream Ciphers
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
-## Pseudo Random Generators
+## Pseudo Random Generator (PRG)
 
 _One Time Pad (OTP)_ では、メッセージよりも大きい暗号キーを持つ必要がある。保有キーから無限長の暗号キーを生成する _Pseudo Random Generator (PRG)_ を用いることで、保有キーのサイズを小さくできる。
 

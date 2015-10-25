@@ -65,7 +65,3 @@ D(k, E(k, m)) & = k \oplus (k \oplus m) = (k \oplus k) \oplus m = 0 \oplus m = m
 * メッセージよりも大きい暗号キーを持たなければならない欠点がある。
 * 同じ暗号文を生成できる暗号キーの数は 1 である。一回限りのキーであれば、同じ暗号文となる確率は `1/K` であり _Perfect secrecy_ を持つ。
 
-## Pseudo Random Function (PRF)
-
-## Pseudo Random Permutation (PRP)
-
