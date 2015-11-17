@@ -16,16 +16,12 @@ title: Cheat Sheet
 
     % sqlplus / as sysdba
 
-    SQL> CREATE ROLE <role>;
-    SQL> GRANT CREATE session, CREATE table, CREATE view,
-    CREATE procedure, CREATE synonym TO <role>;
-
     SQL> CREATE USER <username> IDENTIFIED BY <password>
     DEFAULT TABLESPACE users
     TEMPORARY TABLESPACE temp
     QUOTA UNLIMITED ON users;
 
-    SQL> GRANT <role> TO <username>;
+    SQL> GRANT CONNECT, RESOURCE TO <user>;
 
 ## Describing User Tables
 
@@ -33,13 +29,29 @@ title: Cheat Sheet
 
 or issue the following SQL
 
-    SELECT * FROM USER_TAB_COLUMNS
+    SELECT * FROM user_tab_columns
     WHERE
-        TABLE_NAME = <table> 
+        table_name = <table>
     ORDER BY
-        COLUMN_ID;
+        column_id;
 
-The columns of `USER_TAB_COLUMNS` (except for OWNER) are the same as those in `ALL_TAB_COLUMNS`.
+The columns of `user_tab_columns` (except for OWNER) are the same as those in `all_tab_columns`.
 
 * `http://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_2103.htm#REFRN20277`
+
+## Describing Roles
+
+    SQL> GRANT CONNECT, RESOURCE TO <role>;
+    SQL> GRANT <role> TO <user>;
+
+    -- Select all role names
+    SQL> SELECT * FROM dba_roles;
+
+    -- Select privileges of each role
+    SQL> SELECT * FROM role_sys_privs WHERE role = 'CONNECT';
+    SQL> SELECT * FROM role_sys_privs WHERE role = 'RESOURCE';
+
+    -- Select granted roles of each grantee
+    SQL> SELECT * FROM dba_sys_privs WHERE grantee = <role>;
+    SQL> SELECT * FROM dba_role_privs WHERE grantee = <user>;
 
