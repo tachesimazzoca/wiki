@@ -17,7 +17,7 @@ If you prefer to keep the 5.8 kernel, you might replace the CentOS base reposito
     gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
     ...
 
-Install `kernel-devel` and remove the old (mismatch) `kernel` package:
+Install `kernel-devel` and then restart the VM to load the updated kernel.
 
     % yum list installed | grep kernel
     kernel.x86_64             2.6.18-308.el5
@@ -27,9 +27,6 @@ Install `kernel-devel` and remove the old (mismatch) `kernel` package:
     kernel.x86_64             2.6.18-308.el5
     kernel.x86_64             2.6.18-308.24.1.el5
     kernel-devel.x86_64       2.6.18-308.24.1.el5
-    % yum remove kernel-2.6.18-308.el5
-
-and then restart the VM to load the updated kernel.
 
     % uname -r
     2.6.18-308.el5
@@ -37,6 +34,9 @@ and then restart the VM to load the updated kernel.
     ...
     % uname -r
     2.6.18-308.24.1.el5
+
+    # Remove the old (mismatch) `kernel` package.
+    % yum remove kernel-2.6.18-308.el5
 
 For versions prior to 6, add `divider=10` to the kernel boot options.
 
