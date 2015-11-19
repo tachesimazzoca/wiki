@@ -31,7 +31,7 @@ Allow passwordless sudo for the `vagrant` user and remove `requiretty` if it exi
     ...
     vagrant ALL=(ALL) NOPASSWD: ALL
     ...
-    #Default requiretty
+    #Defaults requiretty
 
 Set `UseDNS no` in the SSH server configuration.
 
