@@ -77,21 +77,21 @@ Vagrant uses the `.vmdk` format for virtual machine disks.
 
 In order to resize the `.vmdk` file, clone into the `.vdi` file and then resize and clone it into another `.vmdk` file.
 
-    % VBoxManage clonehdd <current>.vmdk <cloned>.vdi --format vdi
+    % VBoxManage clonehd <current>.vmdk <cloned>.vdi --format vdi
     0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
 
     % VBoxManage showhdinfo <cloned>.vdi
     ...
     Capacity:       8192 MBytes
 
-    % VBoxManage modifyhdd <cloned>.vdi --resize 16384
+    % VBoxManage modifyhd <cloned>.vdi --resize 16384
     0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
 
     % VBoxManage showhdinfo <cloned>.vdi
     ...
     Capacity:       16384 MBytes
 
-    % VBoxManage clonehdd <cloned>.vdi <resized>.vmdk --format vmdk
+    % VBoxManage clonehd <cloned>.vdi <resized>.vmdk --format vmdk
 
 Replace the current `.vmdk` with the resized `.vmdk`.
 
