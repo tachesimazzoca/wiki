@@ -49,7 +49,7 @@ println(ts.tokens)
 
 ### SqlQuery
 
-`SqlQuery` 自体は、単に `TokenizedStatement` を保持しておくだけの箱である。implicit conversion により`SqlQuery#asSimple` が呼ばれ `SimpleSql` のメゾッドが利用可能になる。
+`SqlQuery` 自体は、単に `TokenizedStatement` を保持しておくだけの箱である。Implicit conversion により`SqlQuery#asSimple` が呼ばれ `SimpleSql` のメゾッドが利用可能になる。
 
 都度、ヘルパーメゾッド `SQL` を呼ぶと変換コストがかかってしまうので、変換済みの `SqlQuery` インスタンスを保持しておくようにする。
 
@@ -69,15 +69,13 @@ for (n <- 1 to 10000) {
 }
 {% endhighlight %}
 
-## SimpleSql
+## WithResult
 
-### WithResult
+パッケージプライベート `private[anorm]` のトレイト `WithResult` は、SELECT 結果を得るメゾッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.(PreparedStatement|ResultSet)` がクローズされる。
 
-パッケージプライベート `private[anorm]` のトレイト `WithResult` は、SELECT 結果を得るメゾッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.ResultSet` がクローズされる。
+### withResult
 
-#### withResult
-
-`WithResult#withResult` では、Loan pattern を用いて `Option[anorm.Cursor]` を受け取り、組み立て結果を返す関数を渡す。`List[anorm.Row]` を組み立てる場合、アキュムレータを使った再帰関数の Partial function を渡せば良い。
+`withResult` メゾッドでは、Loan pattern を用いて `Option[anorm.Cursor]` を受け取り、組み立て結果を返す関数を渡す。`List[Row]` を組み立てる場合を例にすると、 アキュムレータを使った再帰の Partial function を渡せば良い。
 
 {% highlight scala %}
 @annotation.tailrec
@@ -92,13 +90,19 @@ val result: Either[List[Throwable], List[Row]] =
     .withResult(go(_, List.empty[Row]))
 {% endhighlight %}
 
-`(fold|foldWhile)` が用意されているので、通常はこれらを使うと良い。
+### fold
+
+通常は `fold` メゾッドを使うと良い。内部で `withResult` を呼んでいる。
 
 {% highlight scala %}
 val result: Either[List[Throwable], List[Row]] =
   SQL("SELECT * FROM users ORDER BY id")
     .fold(List.empty[Row]) { (acc, row) => acc :+ row }
 {% endhighlight %}
+
+### foldWhile
+
+`foldWhile` を使えば、カーソル走査を中断することができる。
 
 {% highlight scala %}
 val result: Either[List[Throwable], List[Row]] =
@@ -108,3 +112,4 @@ val result: Either[List[Throwable], List[Row]] =
       else (acc, false)
     }
 {% endhighlight %}
+
