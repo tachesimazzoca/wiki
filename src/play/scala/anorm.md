@@ -73,9 +73,23 @@ for (n <- 1 to 10000) {
 
 パッケージプライベート `private[anorm]` のトレイト `WithResult` は、SELECT 結果を得るメゾッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.(PreparedStatement|ResultSet)` がクローズされる。
 
+### as
+
+`as` メゾッドに `ResultSetParser` を渡すことで、結果セットを任意のモデルに変換できる。
+
+{% highlight scala %}
+val parser: RowParser[(Long, String)] =
+  SqlParser.long("id") ~ SqlParser.str("email") map {
+    case id ~ email => (id -> email)
+  }
+
+val usersList: List[(Long, String)] =
+  SQL("SELECT * FROM users WHERE status = 1 ORDER BY id").as(parser.*)
+{% endhighlight %}
+
 ### withResult
 
-`withResult` メゾッドでは、Loan pattern を用いて `Option[anorm.Cursor]` を受け取り、組み立て結果を返す関数を渡す。`List[Row]` を組み立てる場合を例にすると、 アキュムレータを使った再帰の Partial function を渡せば良い。
+`withResult` メゾッドを使えば、結果を一度にメモリに入れることなく一行づつ処理できる。Loan pattern でカーソルを受け取る関数 `Option[Cursor] => T` を渡す。`List[Row]` を組み立てる場合を例にすると、 アキュムレータを使った再帰関数を部分適用して渡せば良い。
 
 {% highlight scala %}
 @annotation.tailrec
