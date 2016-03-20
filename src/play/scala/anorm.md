@@ -54,9 +54,12 @@ println(ts.tokens)
 都度、ヘルパーメゾッド `SQL` を呼ぶと変換コストがかかってしまうので、変換済みの `SqlQuery` インスタンスを保持しておくようにする。
 
 {% highlight scala %}
+import anorm._
+import anorm.SqlParser._
+
 val stmt = "SELECT email FROM users WHERE id = {id}"
 val sql = SQL(stmt)
-val parser = SqlParser.str("email").*
+val parser = get[String]("email").*
 
 // NG
 for (n <- 1 to 10000) {
@@ -71,15 +74,18 @@ for (n <- 1 to 10000) {
 
 ## WithResult
 
-パッケージプライベート `private[anorm]` のトレイト `WithResult` は、SELECT 結果を得るメゾッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.(PreparedStatement|ResultSet)` がクローズされる。
+`WithResult` は、SELECT 結果を得るメゾッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.(PreparedStatement|ResultSet)` がクローズされる。
 
 ### as
 
 `as` メゾッドに `ResultSetParser` を渡すことで、結果セットを任意のモデルに変換できる。
 
 {% highlight scala %}
+import anorm._
+import anorm.SqlParser._
+
 val parser: RowParser[(Long, String)] =
-  SqlParser.long("id") ~ SqlParser.str("email") map {
+  get[Long]("id") ~ get[String]("email") map {
     case id ~ email => (id -> email)
   }
 
@@ -127,3 +133,99 @@ val result: Either[List[Throwable], List[Row]] =
     }
 {% endhighlight %}
 
+## RowParser
+
+`RowParser[+A]` の実体は、関数 `Row => SqlResult[A]` である。`~` で `RowParser` を連結することができる。
+
+{% highlight scala %}
+trait RowParser[+A] extends (Row => SqlResult[A]) { parent =>
+  ...
+  final case class ~[+A, +B](_1: A, _2: B)
+  ...
+  def ~[B](p: RowParser[B]): RowParser[A ~ B] =
+    RowParser(row => parent(row).flatMap(a => p(row).map(new ~(a, _))))
+  ...
+}
+
+val parser: RowParser[Long ~ String ~ Int ~ java.util.Date] =
+  long("id") ~ str("email") ~ int("status") ~ date("birthday")
+val userParser: RowParser[User] = parser map {
+  case id ~ email ~ status ~ birthday => User(id, email, status, birthday)
+}
+{% endhighlight %}
+
+正確には連結しているように見えるだけで、`case class ~[+A, +B](_1: A, _2: B)` がネストしているだけである。
+
+{% highlight scala %}
+val parser: RowParser[~[~[~[Long, String], Int], java.util.Date]] =
+  ~(~(~(long("id"), str("email")), int("status")), date("birthday"))
+val userParser: RowParser[User] = parser map {
+  case ~(~(~(id, email), status, birthday) => User(id, email, status, birthday)
+}
+{% endhighlight %}
+
+### Row
+
+`Row` は、`java.sql.ResultSet` を内部に持つ `Cursor` を介して得られる。
+
+{% highlight scala %}
+sealed trait Cursor {
+  def row: Row
+  def next: Option[Cursor]
+}
+
+object Cursor {
+  private[anorm] def apply(rs: ResultSet): Option[Cursor] =
+    if (!rs.next) None else Some(new Cursor {
+      ...
+    })
+  ...
+}
+{% endhighlight %}
+
+カラム情報 `MetaData` と SELECT 節の `List[Any]` を内部に持ち、`apply[T]` でカラム名か位置番号からカラム値を得ることができる。
+
+{% highlight scala %}
+trait Row {
+  private[anorm] def metaData: MetaData
+  private[anorm] val data: List[Any]
+  ...
+  def apply[B](name: String)(implicit c: Column[B]): B = ???
+  def apply[B](position: Int)(implicit c: Column[B]): B = ???
+  ...
+}
+{% endhighlight %}
+
+`Column[T]` が Any から指定した型への変換器で、`anorm.Column._` に implicit で変換可能なパターンが定義されている。
+
+{% highlight scala %}
+trait Column[A] extends ((Any, MetaDataItem) => MayErr[SqlRequestError, A])
+{% endhighlight %}
+
+### SqlResult
+
+`SqlResult` は `Row` の指定カラムの解析結果となる。
+
+{% highlight scala %}
+case class Success[A](a: A) extends SqlResult[A]
+case class Error(msg: SqlRequestError) extends SqlResult[Nothing]
+{% endhighlight %}
+
+モナド則を満たしており、連結した RowParser で複数カラムを変換する過程で、いずれかに失敗するとエラーになる。
+
+{% highlight scala %}
+object SqlParser {
+  ...
+  def get[T](name: String)(implicit extractor: Column[T]): RowParser[T] =
+    RowParser { row =>
+      (for {
+        // Does the column exist?
+        col <- row.get(name) // MayErr[SqlRequestError, (Any, MetaDataItem)]
+        // Can the extractor convert the column value?
+        res <- extractor.tupled(col) // (Any, MetaDataItem) => MayErr[SqlRequestError, A]
+      } yield res).fold(Error(_), Success(_))
+    }
+}
+{% endhighlight %}
+
+`MayErr` についてはAPI公開されているが、すでに非推奨であり使うことはない。_for-comprehension_ で記述するための内部クラスで `Either` の `RightProjection` のようなものと理解しておけばよい。
