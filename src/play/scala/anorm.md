@@ -135,7 +135,46 @@ val result: Either[List[Throwable], List[Row]] =
 
 ## RowParser
 
-`RowParser[+A]` の実体は、関数 `Row => SqlResult[A]` である。`~` で `RowParser` を連結することができる。
+`RowParser[+A]` の実体は、関数 `Row => SqlResult[A]` である。
+
+ヘルパーメゾッド `SqlParser.get[T]` で、指定のカラム名またはカラム番号の RowParser を得られる。
+
+{% highlight scala %}
+import anorm.SqlParser._
+
+val idColumnParser = get[Long]("id")
+val emailColumnParser = get[String]("email")
+val thirdColumnParser = get[Int](3)
+{% endhighlight %}
+
+一般的な型のヘルパーメゾッドが定義されているので、通常はこれらを使う。
+
+{% highlight scala %}
+import anorm.SqlParser._
+
+val idColumnParser = long("id")
+val emailColumnParser = str("email")
+val thirdColumnParser = int(3)
+{% endhighlight %}
+
+* `bool`: `get[Boolean]`
+* `(byte|short|int|long)`: `get[(Byte|Short|Int|Long)]`
+* `float`: `get[Float]`
+* `double`: `get[Double]`
+* `str`: `get[String]`
+  * `String`
+  * `java.sql.Clob`
+* `date`: `get[java.util.Date]`
+  * `java.sql.Date`
+  * `Long`
+  * `{ def getTimestamp: java.sql.Timestamp }`
+* `binaryStream`: `get[java.io.InputStream]`
+  * `Array[Byte]`
+  * `String`
+  * `java.io.InputStream`
+  * `java.sql.Blob`
+
+`~` で `RowParser` を連結することで、複数カラムの RowParser を作成できる。
 
 {% highlight scala %}
 trait RowParser[+A] extends (Row => SqlResult[A]) { parent =>
@@ -150,7 +189,8 @@ trait RowParser[+A] extends (Row => SqlResult[A]) { parent =>
 val parser: RowParser[Long ~ String ~ Int ~ java.util.Date] =
   long("id") ~ str("email") ~ int("status") ~ date("birthday")
 val userParser: RowParser[User] = parser map {
-  case id ~ email ~ status ~ birthday => User(id, email, status, birthday)
+  case id ~ email ~ status ~ birthday =>
+    User(id, email, status, new java.util.Date(birthday.getTime))
 }
 {% endhighlight %}
 
@@ -160,7 +200,8 @@ val userParser: RowParser[User] = parser map {
 val parser: RowParser[~[~[~[Long, String], Int], java.util.Date]] =
   ~(~(~(long("id"), str("email")), int("status")), date("birthday"))
 val userParser: RowParser[User] = parser map {
-  case ~(~(~(id, email), status, birthday) => User(id, email, status, birthday)
+  case ~(~(~(id, email), status, birthday) =>
+    User(id, email, status, new java.util.Date(birthday.getTime))
 }
 {% endhighlight %}
 
