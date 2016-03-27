@@ -248,7 +248,7 @@ trait Column[A] extends ((Any, MetaDataItem) => MayErr[SqlRequestError, A])
 {% highlight scala %}
 val parser = RowParser[(Long, Map)] {
   case Row(id: Long, email: Some(String)) => Success(id -> email)
-  case _ => Error(TypeDoesNotMatch("The email must be not null")) 
+  case _ => Error(TypeDoesNotMatch("The email must be not null"))
 }
 
 val userMap = SQL("SELECT id, email FROM users").as(parser.*).toMap
@@ -281,3 +281,24 @@ object SqlParser {
 {% endhighlight %}
 
 `MayErr` についてはAPI公開されているが、すでに非推奨であり使うことはない。_for-comprehension_ で記述するための内部クラスで `Either` の `RightProjection` のようなものと理解しておけばよい。
+
+## ResultSetParser
+
+`ResultSetParser[+A]` の実体は 関数 `Option[Cursor] => SqlResult[A]` である。`RowParser` のメゾッドから得られる。
+
+{% highlight scala %}
+val parser: RowParser[(Long, String)] = long("id") ~ str("email") map {
+  case id ~ email => (id -> email)
+}
+// Possibly empty list
+val userList: List[(Long, String)] = SQL("SELECT * FROM users").as(parser.*)
+// Raise error if there is no result
+val notEmptyList: List[(Long, String)] = SQL("SELECT * FROM users").as(parser.+)
+// Expecting exactly one row
+val user: (Long, String) = SQL("SELECT * FROM users WHERE id = {id}")
+  .on('id -> 1).as(parser.single)
+// Expecting none or one row
+val userOpt: Option[(Long, String)] = SQL("SELECT * FROM users WHERE id = {id}")
+  .on('id -> 2).as(parser.singleOpt)
+{% endhighlight %}
+
