@@ -243,6 +243,17 @@ trait Row {
 trait Column[A] extends ((Any, MetaDataItem) => MayErr[SqlRequestError, A])
 {% endhighlight %}
 
+`Row.unapplySeq` が定義されているので、パターンマッチで SELECT 節を得ることができる。`SqlResult` への変換を行う必要があるが、カラム値の条件（組み合わせ）によって処理を分けたり、エラーとすることができる。
+
+{% highlight scala %}
+val parser = RowParser[(Long, Map)] {
+  case Row(id: Long, email: Some(String)) => Success(id -> email)
+  case _ => Error(TypeDoesNotMatch("The email must be not null")) 
+}
+
+val userMap = SQL("SELECT id, email FROM users").as(parser.*).toMap
+{% endhighlight %}
+
 ### SqlResult
 
 `SqlResult` は `Row` の指定カラムの解析結果となる。
