@@ -55,3 +55,17 @@ The columns of `user_tab_columns` (except for OWNER) are the same as those in `a
     SQL> SELECT * FROM dba_sys_privs WHERE grantee = <role>;
     SQL> SELECT * FROM dba_role_privs WHERE grantee = <user>;
 
+## Selecting Slow Queries
+
+    SELECT * FROM (
+        SELECT
+            ROUND(cpu_time/executions/1000, 3) AS cpu_time_avg,
+            ROUND(elapsed_time/executions/1000, 3) AS elapsed_time_avg,
+            executions,
+            sql_text
+        FROM v$sqlstats
+        WHERE executions > 0
+        ORDER BY cpu_time_avg DESC
+    )
+    WHERE rownum <= 50;
+
