@@ -280,6 +280,18 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
 * I bought a bag <del>to her</del> __for her__.
 * Please call a taxi <del>to me</del> __for me__.
 
+### with + 議論相手
+
+* argue
+* discuss
+* debate
+* dispute
+
+### with/against + 競争相手 + for + 賞
+
+* compete
+* contend
+
 ### at + 狙い先
 
 ピンポイントな狙い先には _at_ を使う。
@@ -355,6 +367,14 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 * She went out __for a walk__.
 * She went out to buy some milk.
 
+### for + 賞賛
+
+人を褒める場合に、成し遂げた成果に for を使う。
+
+* admire
+* praise
+* commend
+
 ### on + 特定条件
 
 * It depends __on__ yourself.
@@ -415,6 +435,73 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
    * What do you __dream of__? _夢見ている（思い描いている）ものは何？_
    * I __dreamed about__ you last night. _（あなたがいる状況の）夢を見た_
 
+### about + 心配事 / with + 悩ませる事
+
+「心配する」場合には、ありもしない思い悩んでいる事に _about_ を使う。
+
+* worry
+  * Don't worry about that. _そんな事を心配するな_
+* bother
+  * Don't bother yourself about me. _私にかまうな_
+
+「人を悩ませる」場合には、確実に悩ませる不快な事に _with_ を使う。
+
+* be (bothered|annoyed|afflicted|burdened) with something bad
+
+### on + 課題
+
+* agree
+* compromise
+* decide
+* deliberate
+* cooperate
+* collaborate
+* plan
+* reflect
+* insist
+
+### on + 集中内容
+
+* concentrate
+* focus
+* operate
+* elaborate
+* eavesdrop
+
+### on + 教示するテーマ
+
+* advise
+* lecture
+* enlighten
+
+### 人 + on + 祝福内容
+
+* congratulate
+* compliment
+* flatter
+
+### on + 依存先
+
+* depend
+  * It depends on your decision. = It's up to you.
+* rely
+  * In making a decision, I often rely on intuition.
+* count
+  * I'm counting on you.
+
+### on + doing
+
+継続動作に _on doing_ を用いる。
+
+* keep
+* carry
+* go
+
+### in + 参加先
+
+* join
+* participate
+
 ### with + 道具
 
 道具に _with_ を使う。
@@ -425,6 +512,23 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 * Fill the bottle __with__ water.
 * Replace TAB __with__ 4 spaces.
 * Rename the class "FooService" __with__ "BarService".
+
+### 人 + with + 供給物
+
+供給物に _with_ を用いる。目的格は供給対象の人である点に注意する。
+
+* provide _サービス等を供給するために準備している_
+* supply _不足物を供給する_
+* feed _餌を与える_
+* provision _食料などを供給する_
+* equip _装備品を供給する_
+* furnish _家具などの必需品を供給する_
+
+_provide_ は _give_ のように目的格に供給物も使う。ただし「供給に備えている = 常日頃準備している」意味なので、to は用いられない。準備する目的に _for_ を用いるが、供給動作としての相手を指すのではない。
+
+* He gave a book to me. / He gave me a book.
+* The hotel provides good service.
+* I need to work hard to provide for my family.
 
 ### into + 変形
 
@@ -491,4 +595,22 @@ _protect_ は守る対象が目的語になるが、_prevent_ は防ぐ対象、
   * We __prevented__ the damage __from__ spreading. _被害の拡大を防いだ_
 * prevent（外敵 against 外敵の対象）
   * The law has prevented __violence against children__. _幼児への虐待を防いできた_
+
+### agree with + 意見 / agree to + 提案 / agree on + 議題
+
+_agree with_ は賛成意見に対して使う。一致 _agreement_ を表現するのであって、_argue with_ のように議論し合う相手というわけではない。
+
+* I agree with you.
+* I agree with your idea.
+
+提案に対する受け身の同意には _to_ を使う。
+
+* agree
+* consent
+* assent
+
+相手の提示条件に同意している意志を示す。議題やテーマの _on_ とはニュアンスが異なる。
+
+* We agreed on the terms. _両者で話し合いを通じて条項に合意_
+* We agreed to their proposal. _提案に同意する_
 
