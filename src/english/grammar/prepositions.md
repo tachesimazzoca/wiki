@@ -335,12 +335,14 @@ _know_ の場合、自動詞と他動詞があるが、一般的な物事や状�
   * Please ask them __for more information__. _「情報」は尋ねる内容ではなく、得られる対価_
   * Please ask them your questions. _「質問」は尋ねる内容なので目的語_
   * Please ask them the way to do it. _「方法」は尋ねる内容なので目的語_
-* apply
+* apply / register / run
   * Why do you apply (to our company) __for this job__? _申込先に to / 申し込んで得られる仕事には for_
-* wait / search / look
+* wait / look / long / starve / hope
   * I'm waiting __for you__. _待つ動作に相手は不要。相手は待っている理由_
-  * I'm searching (my bag) __for my boading pass__. _探す対象がバッグで、得るものが切符_
   * I'm looking __for a job__.
+  * They are starving __for affection__.
+* search
+  * I'm searching (my bag) __for my boading pass__. _探す対象がバッグで、得るものが切符_
 * leave
   * She has left (home) __for the office__. _出かける（離れる）出発点に目的語を使う。「オフィス」は出かける理由_
 * pay
@@ -352,7 +354,7 @@ _know_ の場合、自動詞と他動詞があるが、一般的な物事や状�
 
 * I'm sorry __for being late__.
 * Thank you __for having us over__.
-* I apologize __for your inconvenience__.
+* I apologize (to you) __for your inconvenience__.
 
 _blame_ を例にすると、原因となる罪に _for_ を用いる。
 
@@ -368,6 +370,22 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 * Why don't we go out <del>for having lunch</del> __for lunch__?
 * She went out __for a walk__.
 * She went out to buy some milk.
+
+### 人 + for + 罪
+
+罪に _for_ を使う。以下の他動詞の目的格は人になる。
+
+* forgive / excuse
+* compensate
+
+### 探索 + 場所 + for + 探し物
+
+探し物（存在の有無）に _for_ を使う。以下の他動詞の目的格は探索場所になる。
+
+* search
+* browse
+* check
+* inspect
 
 ### for + 賞賛
 
@@ -398,9 +416,8 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 
 非難される内容が確定している動詞には _for_ を用いる。
 
-* blame
-* condemn
-* criticize
+* blame / condemn / criticize
+* scold / lecture / reprimand
 
 ### 評価 + of + 対象
 
@@ -477,21 +494,16 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 
 ### on + 課題
 
-* agree
-* compromise
+* agree / compromise
+* deliberate / reflect / plan
+* cooperate / collaborate
 * decide
-* deliberate
-* cooperate
-* collaborate
-* plan
-* reflect
 * insist
 
 ### on + 集中内容
 
-* concentrate
+* concentrate / focus
   * You should concentrate __on__ one thing at a time.
-* focus
 * operate
 * elaborate
 * eavesdrop
@@ -571,6 +583,12 @@ _provide_ は _give_ のように目的格に供給物も使う。ただし「�
 * This video is divided __into__ 5 sections.
 * Somebody broke __into__ our house last night.
 * The car crashed __into__ a wall.
+
+### 退役 + from + 旧所属
+
+* graduate
+* retire
+* resign
 
 ### talk about / discuss
 
@@ -657,4 +675,18 @@ _made of / from_ の使い分けのように、直接原因には _of_ が使わ
 _die_ は病気で自然に亡くなる場合に使い、それ以外（災害/事故/戦争）の場合は _kill_ を使う。
 
 * He was __killed in__ a traffic accident.
+
+### replace / substitute / exchange
+
+_replace_ は置換動作なので、置き換える物に _with / by_ を使う。
+
+* replace A __with__ B
+
+_substitute_ は代用動作なので、代用される物に _for_ を使う。
+
+* substitute B __for__ A
+
+_exchange_ は二人の交流動作なので、交換する物に _for_ を使い、交換相手に _with_ を使う。
+
+* exchange A __for__ B __with__ someone
 
