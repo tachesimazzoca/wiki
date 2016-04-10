@@ -271,7 +271,7 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
   * I'm listening __to the radio__.
 * apologize
   * She apologized __to me__.
-* explain / describe
+* explain / describe / illustrate
   * I explained the problem __to them__.
   * Can you explain __to me__ what you mean?
 
@@ -280,12 +280,14 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
 * I bought a bag <del>to her</del> __for her__.
 * Please call a taxi <del>to me</del> __for me__.
 
+### to + 被害者
+
+* happen / occur
+
 ### with + 議論相手
 
-* argue
-* discuss
-* debate
-* dispute
+* argue / dispute
+* discuss / debate
 
 ### with/against + 競争相手 + for + 賞
 
@@ -377,14 +379,8 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 
 ### on + 特定条件
 
-* It depends __on__ yourself.
-* You can rely __on__ him.
 * He lives __on__ his salary of $25,000 a year.
 * I spend a lot of money __on__ books.
-* You should concentrate __on__ one thing at a time.
-* He insisted __on__ his innocence.
-* We congratulated him __on__ passing the examinations.
-* My boss complimented me __on__ my work.
 
 ### of + 構成
 
@@ -392,12 +388,46 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 * This lesson __consists of__ 8 video presentations. _セクション / メニュー などの文書構成_
 * Water __is composed of__ 2 atoms of Hydrogen and 1 atom of oxygen. _化学物質などの物質構成_
 
-### of + 起因
+### 疑念 + 人 + of + 疑惑 / 非難 + 人 + for + 内容
 
-* She accused me __of__ being rude.
-* He suspect me __of__ telling a lie.
+非難する内容が事実かどうか定かでない疑惑には _of_ を用いる。
+
+* He is suing a woman who accused him __of__ sexual assault. _告訴する_
+* She accused me __of__ being rude. _非難された側の目線で、無礼であったことは事実ではない_
+* He suspect me __of__ telling a lie. _疑う_
+
+非難される内容が確定している動詞には _for_ を用いる。
+
+* blame
+* condemn
+* criticize
+
+### 評価 + of + 対象
+
 * We approved __of__ the plan.
-* He died __of__ a cancer.
+* He boasts __of__ his wealth.
+* How to dispose __of__ garbage. _処分する = 不要物かを評価する_
+
+### 通知 + 人 + of + 内容
+
+* This song reminds me __of__ my childhood.
+* Can you notify me __of__ your arrival at the station?
+* I wish you would have warned me __of__ what was going to happen.
+
+### 説得 + 人 + of + 内容
+
+* We are assured __of__ success.
+* I tried to convince them __of__ the truth.
+* He persuaded me __of__ the benefits of the cloud computing model.
+
+説得内容が節となる場合は、_of_ の代わりに _that_ 節を使う。
+
+* She assured us __that__ everything would turn out alright.
+
+### 強奪 + 人 + of + 所有物
+
+* That man robbed me __of__ my wallet.
+* The people were deprived __of__ their citizenship.
 
 ### 思考 + of / about
 
@@ -421,9 +451,6 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 
 他の思考動作でも、_of_ は頭に浮かぶ物を指し、_about_ は状況を指すと考えると区別しやすい。
 
-* remind
-   * This song __reminds__ me __of__ my childhood. _思い出させるシーン_
-   * I'll __remind__ you __about__ it. _忘そうな事を気付かせる_
 * hear
    * I've never __heard of__ him. _知らない / 思い浮かばない_
    * I've __heard__ a lot __about__ you. _お噂はかねがね聞いています（ほめる時に使う）_
@@ -463,6 +490,7 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 ### on + 集中内容
 
 * concentrate
+  * You should concentrate __on__ one thing at a time.
 * focus
 * operate
 * elaborate
@@ -476,18 +504,15 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 
 ### 人 + on + 祝福内容
 
-* congratulate
-* compliment
+* We congratulated him __on__ passing the examinations.
+* My boss complimented me __on__ my work.
 * flatter
 
 ### on + 依存先
 
-* depend
-  * It depends on your decision. = It's up to you.
-* rely
-  * In making a decision, I often rely on intuition.
-* count
-  * I'm counting on you.
+* It depends __on__ your decision. = It's up to you.
+* In making a decision, I often rely __on__ intuition.
+* I'm counting __on__ you.
 
 ### on + doing
 
@@ -513,7 +538,7 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 * Replace TAB __with__ 4 spaces.
 * Rename the class "FooService" __with__ "BarService".
 
-### 人 + with + 供給物
+### 供給 + 人 + with + 物
 
 供給物に _with_ を用いる。目的格は供給対象の人である点に注意する。
 
@@ -527,8 +552,16 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 _provide_ は _give_ のように目的格に供給物も使う。ただし「供給に備えている = 常日頃準備している」意味なので、to は用いられない。準備する目的に _for_ を用いるが、供給動作としての相手を指すのではない。
 
 * He gave a book to me. / He gave me a book.
-* The hotel provides good service.
+* The hotel provides good service (for business or customers).
+
+つまり _provide_ は自動詞でもあり _provide for_ は「養う」の意味になる。
+
 * I need to work hard to provide for my family.
+
+### with + 恐れ
+
+* shake
+* tremble
 
 ### into + 変形
 
@@ -600,8 +633,8 @@ _protect_ は守る対象が目的語になるが、_prevent_ は防ぐ対象、
 
 _agree with_ は賛成意見に対して使う。一致 _agreement_ を表現するのであって、_argue with_ のように議論し合う相手というわけではない。
 
-* I agree with you.
-* I agree with your idea.
+* I __agree with__ you.
+* I __agree with__ your idea.
 
 提案に対する受け身の同意には _to_ を使う。
 
@@ -611,6 +644,17 @@ _agree with_ は賛成意見に対して使う。一致 _agreement_ を表現す
 
 相手の提示条件に同意している意志を示す。議題やテーマの _on_ とはニュアンスが異なる。
 
-* We agreed on the terms. _両者で話し合いを通じて条項に合意_
-* We agreed to their proposal. _提案に同意する_
+* We __agreed on__ the terms. _両者で話し合いを通じて条項に合意_
+* We __agreed to__ their proposal. _提案に同意する_
+
+### die of + 直接原因 / die from + 間接原因 / be killed in + 事故
+
+_made of / from_ の使い分けのように、直接原因には _of_ が使われる。病名であれば _of_ というわけでなく、直接的な結びつきを表現すると考えればよい。
+
+* He __died of__ cancer.
+* He __died from__ overwork.
+
+_die_ は病気で自然に亡くなる場合に使い、それ以外（災害/事故/戦争）の場合は _kill_ を使う。
+
+* He was __killed in__ a traffic accident.
 
