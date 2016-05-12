@@ -69,3 +69,16 @@ The columns of `user_tab_columns` (except for OWNER) are the same as those in `a
     )
     WHERE rownum <= 50;
 
+## Selecting Locked Sessions
+
+    SELECT
+      sid, serial#, sql_address, program, machine
+    FROM
+      v$session
+    WHERE sid IN (
+      SELECT sid FROM v$lock WHERE type IN ('TX', 'TM')
+    );
+
+    -- Display SQL from v$session.sql_address
+    SELECT sql_text FROM v$sqlarea WHERE address = ?;
+
