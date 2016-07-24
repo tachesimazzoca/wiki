@@ -5,7 +5,7 @@ layout: global
 <html>
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>{{ page.title | escape }}</title>
+<title>{{ site.title | escape }} | {{ page.title | escape }}</title>
 <link href="{% relative_path path:'/assets/bootstrap/css/bootstrap.min.css' %}" media="screen" rel="stylesheet" type="text/css">
 <link href="{% relative_path path:'/assets/stylesheets/style.css' %}" media="screen" rel="stylesheet" type="text/css">
 </head>
