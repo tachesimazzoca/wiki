@@ -51,3 +51,20 @@ CMD [ \
 ]
 {% endhighlight %}
 
+## php53
+
+{% highlight dockerfile %}
+FROM centos:5
+
+RUN yum update -y && \
+  yum install -y httpd && \
+  yum install -y php53 php53-devel php53-mbstring php53-mysql php53-xml php53-xmlrpc && \
+  yum install -y php-pear && \
+  yum clean all 
+
+COPY files/etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf
+
+EXPOSE 80
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+{% endhighlight %}
+
