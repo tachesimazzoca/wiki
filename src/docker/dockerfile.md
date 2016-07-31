@@ -28,9 +28,10 @@ $ curl "http://$(docker-machine ip default):8080"
 {% highlight dockerfile %}
 FROM centos:6
 
-RUN yum update -y
-RUN yum -y install http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm && \
-  yum install -y mysql-server
+RUN yum update -y && \
+  yum -y install http://dev.mysql.com/get/mysql-community-release-el6-5.noarch.rpm && \
+  yum install -y mysql-server && \
+  yum clean all
 
 # Simulate mysql_secure_installation
 RUN service mysqld start && echo "\
