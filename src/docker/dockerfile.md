@@ -68,3 +68,62 @@ EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 {% endhighlight %}
 
+## LAMP + sshd
+
+{% highlight dockerfile %}
+FROM centos:5
+
+# epel
+RUN rpm -ivh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm
+
+# yum
+RUN yum clean all && \
+  yum update -y && \
+  yum install -y supervisor openssh-server mysql-server httpd && \
+  yum install -y php53 php53-devel php53-mbstring php53-mysql php53-xml php53-xmlrpc php-pear && \
+  yum clean all
+
+# sshd
+RUN service sshd start
+
+# mysqld
+RUN service mysqld start && echo "\
+  DELETE FROM mysql.user WHERE User = 'root' AND Host NOT IN ('localhost', '127.0.0.1', '::1'); \
+  DELETE FROM mysql.user WHERE User = ''; \
+  DELETE FROM mysql.db WHERE Db LIKE 'test%'; \
+  GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION; \
+  FLUSH PRIVILEGES;" | mysql -u root && service mysqld stop
+
+# httpd
+COPY files/etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf
+
+# supervisor
+COPY files/usr/bin/pidproxy /usr/bin/pidproxy
+COPY files/etc/supervisord.conf /etc/supervisord.conf
+
+# /root/.ssh/authorized_keys
+RUN mkdir -p /root/.ssh && chmod 700 /root/.ssh
+COPY files/root/.ssh/authorized_keys /root/.ssh/authorized_keys
+RUN chmod 600 /root/.ssh/authorized_keys
+
+EXPOSE 22 80 3306
+CMD ["/usr/bin/supervisord"]
+{% endhighlight %}
+
+Docker containers can manage only one process. Using supervisor is one of the solutions to allow us manage one or more processes.
+ 
+`files/etc/supervisor.conf`:
+
+{% highlight ini %}
+[supervisord]
+nodaemon=true
+
+[program:sshd]
+command=/usr/sbin/sshd -D
+
+[program:httpd]
+command=/usr/sbin/httpd -DFOREGROUND
+
+[program:mysqld]
+command=/usr/libexec/mysqld
+{% endhighlight %}
