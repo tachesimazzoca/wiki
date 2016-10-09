@@ -177,15 +177,6 @@ val thirdColumnParser = int(3)
 `~` で `RowParser` を連結することで、複数カラムの RowParser を作成できる。
 
 {% highlight scala %}
-trait RowParser[+A] extends (Row => SqlResult[A]) { parent =>
-  ...
-  final case class ~[+A, +B](_1: A, _2: B)
-  ...
-  def ~[B](p: RowParser[B]): RowParser[A ~ B] =
-    RowParser(row => parent(row).flatMap(a => p(row).map(new ~(a, _))))
-  ...
-}
-
 val parser: RowParser[Long ~ String ~ Int ~ java.util.Date] =
   long("id") ~ str("email") ~ int("status") ~ date("birthday")
 val userParser: RowParser[User] = parser map {
@@ -197,10 +188,50 @@ val userParser: RowParser[User] = parser map {
 正確には連結しているように見えるだけで、`case class ~[+A, +B](_1: A, _2: B)` がネストしているだけである。
 
 {% highlight scala %}
+final case class ~[+A, +B](_1: A, _2: B)
+
+val tupleLike: ~[~[Long, String], Int] = new ~(new ~(123L, "foo@example.net"), 1)
+val tuple: (Long, String, Int) = tupleLike match {
+  case ~(~(id, email), status) => (id, email, status)
+}
+{% endhighlight %}
+
+ケースクラスとしての `anorm.~[+A, +B]` と、`RowParser` のメゾッド `~[B](p: RowParser[B]): RowParser[A ~ B]` を混同しがちである。
+
+{% highlight scala %}
+// NG: ~[RowParser[Long], RowParser[String]]
+val ng = new ~(SqlParser.long("id"), SqlParser.long("email"))
+// OK: RowParser[~[Long, String]]
+val ok = SqlParser.long("id") ~ SqlParser.long("email")
+{% endhighlight %}
+
+* 前者は、単に擬似タプルとしての `~[A, B]` であり、`RowParser` ではない。
+* 後者は、`RowParser[A]` のメゾッドにより、別の `RowParser[B]` を加えて生成された、新たな `RowParser[A ~ B]` である。
+
+`RowParser[+A]` の実体は、関数 `Row => SqlResult[A]` であるので
+
+* `Row => SqlResult[A]` が
+* 引数 `Row => SqlResult[B]` を得て
+* `Row => SqlResult[A ~ B]` を生成する
+
+と考えると理解しやすい。`SqlResult[+A]#map[B](f: A => B): SqlResult[B]` に対して、`case class ~[A, B](_1: A, _2: B)` を部分適用した関数 `new ~(a, _)` すなわち `B => [A ~ B]` を渡すことで、`Row => SqlResult[A ~ B]` に変換している。
+
+{% highlight scala %}
+trait RowParser[+A] extends (Row => SqlResult[A]) { parent =>
+  ...
+  def ~[B](p: RowParser[B]): RowParser[A ~ B] =
+    RowParser(row => parent(row).flatMap(a => p(row).map(new ~(a, _))))
+  ...
+}
+{% endhighlight %}
+
+ケースクラス `~` のパターンマッチによって得るのは、`RowParser` の match 式ではない。`map` に PartialFunction を渡して、パースされたカラム値を取り出し、新たな `RowParser` に変換するのである。
+
+{% highlight scala %}
 val parser: RowParser[~[~[~[Long, String], Int], java.util.Date]] =
-  ~(~(~(long("id"), str("email")), int("status")), date("birthday"))
+  long("id") ~ str("email") ~ int("status") ~ date("birthday")
 val userParser: RowParser[User] = parser map {
-  case ~(~(~(id, email), status, birthday) =>
+  case ~(~(~(id, email), status), birthday) =>
     User(id, email, status, new java.util.Date(birthday.getTime))
 }
 {% endhighlight %}
