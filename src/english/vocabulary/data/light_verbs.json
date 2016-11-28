@@ -1,0 +1,1228 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(get in touch|make contact) with <A>",
+      "translation": "<A> と連絡を取る",
+      "description": ""
+    },
+    {
+      "content": "(have|take) a seat",
+      "translation": "座る",
+      "description": ""
+    },
+    {
+      "content": "(have|take|use) a break",
+      "translation": "息抜きする",
+      "description": ""
+    },
+    {
+      "content": "(make|take) a detour",
+      "translation": "遠回りする",
+      "description": ""
+    },
+    {
+      "content": "buy into <A>",
+      "translation": "<A> を（不本意ながら）受け入れる",
+      "description": ""
+    },
+    {
+      "content": "catch <A>",
+      "translation": "<A> を聞き取る",
+      "description": ""
+    },
+    {
+      "content": "catch a (sight|glimpse) of <A>",
+      "translation": "<A> を見る",
+      "description": "sight = 見かける / glimpse = 意図せず見えてしまう"
+    },
+    {
+      "content": "catch fire",
+      "translation": "火事になる",
+      "description": ""
+    },
+    {
+      "content": "come (back) home",
+      "translation": "帰宅する",
+      "description": ""
+    },
+    {
+      "content": "come across <somebody>",
+      "translation": "<somebody> に出くわす / 見かける",
+      "description": ""
+    },
+    {
+      "content": "come across my mind",
+      "translation": "（考えが）ちらつく",
+      "description": ""
+    },
+    {
+      "content": "come at a (cost|price)",
+      "translation": "お金がかかる",
+      "description": ""
+    },
+    {
+      "content": "come close to <doing>",
+      "translation": "<doing> しそうになる",
+      "description": "almost <do>"
+    },
+    {
+      "content": "come equipped with <A>",
+      "translation": "<A> を装備している",
+      "description": ""
+    },
+    {
+      "content": "come from <A>",
+      "translation": "<A> から由来する / 導かれる / 生じる",
+      "description": ""
+    },
+    {
+      "content": "come in first place",
+      "translation": "（ゴールのある徒競走などで）一等賞を取る",
+      "description": "冠詞はつかない"
+    },
+    {
+      "content": "come in handy",
+      "translation": "便利である",
+      "description": ""
+    },
+    {
+      "content": "come into being",
+      "translation": "誕生する",
+      "description": ""
+    },
+    {
+      "content": "come to (naught|nothing)",
+      "translation": "無駄になる",
+      "description": ""
+    },
+    {
+      "content": "come to <A>",
+      "translation": "<A> に来る（行く）",
+      "description": ""
+    },
+    {
+      "content": "come to an end",
+      "translation": "終わりを迎える / 満了する",
+      "description": ""
+    },
+    {
+      "content": "come to light that <...>",
+      "translation": "<...> であることが明らかになる",
+      "description": ""
+    },
+    {
+      "content": "come to mind",
+      "translation": "頭に浮かぶ",
+      "description": "浮かぶアイデアが主体になる"
+    },
+    {
+      "content": "come to so much",
+      "translation": "（料金などが）結構な量になる",
+      "description": ""
+    },
+    {
+      "content": "come to terms with <A>",
+      "translation": "<A> と和解する / 受け入れる",
+      "description": ""
+    },
+    {
+      "content": "come with <A>",
+      "translation": "<A> がおまけで付く",
+      "description": ""
+    },
+    {
+      "content": "do <one's> best",
+      "translation": "やれることはやってみる",
+      "description": "ネガティブな言い回し"
+    },
+    {
+      "content": "do <one's> homework",
+      "translation": "宿題する",
+      "description": ""
+    },
+    {
+      "content": "do a favor for <somebody>",
+      "translation": "<somebody> の世話をする / 何かしてあげる",
+      "description": "do <A> a favor"
+    },
+    {
+      "content": "do away with <A>",
+      "translation": "<A> を排除する",
+      "description": ""
+    },
+    {
+      "content": "do damage to <A>",
+      "translation": "<A> に被害を与える",
+      "description": "damage は抽象名で冠詞は付けない"
+    },
+    {
+      "content": "do housework",
+      "translation": "家事をする",
+      "description": ""
+    },
+    {
+      "content": "do inventory",
+      "translation": "棚卸しする",
+      "description": ""
+    },
+    {
+      "content": "do the dishes",
+      "translation": "皿洗いする",
+      "description": ""
+    },
+    {
+      "content": "do the laundry",
+      "translation": "洗濯する",
+      "description": ""
+    },
+    {
+      "content": "do well in <A>",
+      "translation": "<A> をうまくやる",
+      "description": ""
+    },
+    {
+      "content": "do what's conventional",
+      "translation": "慣習（王道）に従う",
+      "description": ""
+    },
+    {
+      "content": "do without <one's> help",
+      "translation": "<one's> の助けなしでやる",
+      "description": ""
+    },
+    {
+      "content": "feel sorry (for|with) <somebody>",
+      "translation": "<somone> に同情する",
+      "description": "第三者に対して使う。you で使うと「かわいそうな奴だ」となって失礼。"
+    },
+    {
+      "content": "get <A> done",
+      "translation": "<A> を終わらせる",
+      "description": ""
+    },
+    {
+      "content": "get <A> out of <one's> (head|mind)",
+      "translation": "<A> のことを忘れる",
+      "description": "can't と組み合わせて「頭から離れない」"
+    },
+    {
+      "content": "get a flat tire",
+      "translation": "パンクする目に遭う",
+      "description": "主体はタイヤではない点に注意"
+    },
+    {
+      "content": "get a good look at <A>",
+      "translation": "<A> がよく見える",
+      "description": ""
+    },
+    {
+      "content": "get around",
+      "translation": "動き回る",
+      "description": ""
+    },
+    {
+      "content": "get even",
+      "translation": "仕返しする（チャラにする）",
+      "description": ""
+    },
+    {
+      "content": "get in the habit of <doing>",
+      "translation": "<doing> する癖をつける",
+      "description": ""
+    },
+    {
+      "content": "get into (good) shape",
+      "translation": "体調を整える / 体よくまとめる",
+      "description": ""
+    },
+    {
+      "content": "get into <doing>",
+      "translation": "<doing> にのめり込む",
+      "description": ""
+    },
+    {
+      "content": "get off work",
+      "translation": "仕事をあがる",
+      "description": ""
+    },
+    {
+      "content": "get on <A>",
+      "translation": "<A> に乗る",
+      "description": ""
+    },
+    {
+      "content": "get on <one's> nerves",
+      "translation": "気にさわる / イライラさせる",
+      "description": ""
+    },
+    {
+      "content": "get out of <A>",
+      "translation": "<A> の外に出る",
+      "description": ""
+    },
+    {
+      "content": "get over <A>",
+      "translation": "<A> （悲しみ）を乗り越える",
+      "description": ""
+    },
+    {
+      "content": "get rid of <A>",
+      "translation": "<A> を除去する",
+      "description": ""
+    },
+    {
+      "content": "get the (hang|knack) of <A>",
+      "translation": "<A> のコツをつかむ",
+      "description": ""
+    },
+    {
+      "content": "get through <A>",
+      "translation": "<A> （試練）を乗り越える",
+      "description": ""
+    },
+    {
+      "content": "get to <A>",
+      "translation": "<A> に到着する",
+      "description": ""
+    },
+    {
+      "content": "get to know <A>",
+      "translation": "<A> ついて知る / 知り合いになる",
+      "description": ""
+    },
+    {
+      "content": "get to work",
+      "translation": "仕事をはじめる",
+      "description": ""
+    },
+    {
+      "content": "get together",
+      "translation": "集まる",
+      "description": ""
+    },
+    {
+      "content": "give (enough|sufficient) time to <doing>",
+      "translation": "<doing> することに十分に時間を割く",
+      "description": ""
+    },
+    {
+      "content": "give <A> a try",
+      "translation": "<A> を試してみる",
+      "description": ""
+    },
+    {
+      "content": "give <somebody> <A> as a punishment",
+      "translation": "<somebody> に罰として <A> を課す",
+      "description": ""
+    },
+    {
+      "content": "give <somebody> a call",
+      "translation": "<A> に電話する",
+      "description": ""
+    },
+    {
+      "content": "give <somebody> a glare",
+      "translation": "<A> をにらみつける",
+      "description": "glare <A>"
+    },
+    {
+      "content": "give <somebody> a hand",
+      "translation": "手伝う / 手を貸す",
+      "description": ""
+    },
+    {
+      "content": "give <somebody> a hug",
+      "translation": "<somebody> と抱き合う",
+      "description": ""
+    },
+    {
+      "content": "give <somebody> a ride to <A>",
+      "translation": "<somebody> を <A> まで乗せていく / 車を出す",
+      "description": "take <A>"
+    },
+    {
+      "content": "give <somebody> insight into <A>",
+      "translation": "<A> への識見を <somebody> に与える",
+      "description": ""
+    },
+    {
+      "content": "give a presentation on <A>",
+      "translation": "<A> をテーマにプレゼンする",
+      "description": "about (話題） / プレゼンする行動に make は使われない。 / 資料を作る場合は prepare"
+    },
+    {
+      "content": "give more productivity",
+      "translation": "（主体のおかげで）生産性が増す",
+      "description": ""
+    },
+    {
+      "content": "give rise to <A>",
+      "translation": "<A> （望ましくない事）を引き起こす",
+      "description": ""
+    },
+    {
+      "content": "give way",
+      "translation": "（橋や天井が）崩れ落ちる",
+      "description": ""
+    },
+    {
+      "content": "go (out) with <A>",
+      "translation": "<A> と（恋愛関係で）付き合う",
+      "description": ""
+    },
+    {
+      "content": "go abroad",
+      "translation": "外国に行く",
+      "description": ""
+    },
+    {
+      "content": "go ahead",
+      "translation": "物事を進める / （時が来て）さあいよいよです",
+      "description": ""
+    },
+    {
+      "content": "go along with <one's> plan",
+      "translation": "<one's> の意見に賛同する",
+      "description": ""
+    },
+    {
+      "content": "go and <A>",
+      "translation": "わざわざ <A> （してほしくない事）をする",
+      "description": ""
+    },
+    {
+      "content": "go by train",
+      "translation": "電車で行く",
+      "description": "一般名の手段で by"
+    },
+    {
+      "content": "go easy on <A>",
+      "translation": "<A> に優しく接する",
+      "description": ""
+    },
+    {
+      "content": "go for <it>",
+      "translation": "<it> に突き進む（行動して物事を進める）",
+      "description": ""
+    },
+    {
+      "content": "go for <somebody>",
+      "translation": "<somebody> にぞっこんになる / 夢中になる / 好きになる",
+      "description": ""
+    },
+    {
+      "content": "go for a drink",
+      "translation": "飲みに行く",
+      "description": ""
+    },
+    {
+      "content": "go for lunch",
+      "translation": "昼食しに行く",
+      "description": ""
+    },
+    {
+      "content": "go get <A>",
+      "translation": "<A> を取りに行く",
+      "description": "一人称のみ"
+    },
+    {
+      "content": "go hiking",
+      "translation": "ハイキングに行く",
+      "description": ""
+    },
+    {
+      "content": "go home",
+      "translation": "帰宅する",
+      "description": ""
+    },
+    {
+      "content": "go in <A>",
+      "translation": "<A> の中にしまう / <A> 行きである",
+      "description": ""
+    },
+    {
+      "content": "go in <one's> car",
+      "translation": "自家用車で行く",
+      "description": "限定する時は in / on"
+    },
+    {
+      "content": "go into <doing>",
+      "translation": "<doing> することに使われる / するように変わる",
+      "description": ""
+    },
+    {
+      "content": "go on a diet",
+      "translation": "ダイエットする",
+      "description": ""
+    },
+    {
+      "content": "go on a trip",
+      "translation": "旅行に行く",
+      "description": ""
+    },
+    {
+      "content": "go on foot",
+      "translation": "徒歩で行く",
+      "description": ""
+    },
+    {
+      "content": "go out of control",
+      "translation": "制御不能になる",
+      "description": ""
+    },
+    {
+      "content": "go over <A>",
+      "translation": "<A> を調べる",
+      "description": ""
+    },
+    {
+      "content": "go past <A>",
+      "translation": "<A> を通り過ぎる",
+      "description": ""
+    },
+    {
+      "content": "go shopping",
+      "translation": "買い物に行く",
+      "description": ""
+    },
+    {
+      "content": "go through <A>",
+      "translation": "<A> （一連の流れ）を通して見てみる",
+      "description": ""
+    },
+    {
+      "content": "go through <A>",
+      "translation": "<A> （苦難）の最中である",
+      "description": ""
+    },
+    {
+      "content": "go to <A>",
+      "translation": "<A> に行く",
+      "description": ""
+    },
+    {
+      "content": "go together",
+      "translation": "（二つのことが）両立する",
+      "description": ""
+    },
+    {
+      "content": "go too far",
+      "translation": "やり過ぎる",
+      "description": ""
+    },
+    {
+      "content": "go trekking",
+      "translation": "山登りに行く",
+      "description": "climbing は「よじ上る」ニュアンスで、遠足の意味では誤り"
+    },
+    {
+      "content": "have (great) faith on <somebody>",
+      "translation": "<somebody> を信頼する",
+      "description": "count on <A>"
+    },
+    {
+      "content": "have (one's) hands full",
+      "translation": "手いっぱいである / 忙しい",
+      "description": ""
+    },
+    {
+      "content": "have <somebody> as <A>",
+      "translation": "<somebody> を <A> として迎え入れる",
+      "description": ""
+    },
+    {
+      "content": "have <somebody> in the team",
+      "translation": "<somebody> をチームに迎え入れる",
+      "description": ""
+    },
+    {
+      "content": "have a (talk|chat) with <somebody>",
+      "translation": "<somebody> と談笑する",
+      "description": ""
+    },
+    {
+      "content": "have a contest to see who can <do>",
+      "translation": "誰が <do> できるか競う",
+      "description": ""
+    },
+    {
+      "content": "have a crush on <A>",
+      "translation": "<A> にときめいている / 気がある",
+      "description": ""
+    },
+    {
+      "content": "have a hard time",
+      "translation": "苦しむ",
+      "description": ""
+    },
+    {
+      "content": "have a head for <A>",
+      "translation": "<A> に対して耐性（馴染み）がある",
+      "description": ""
+    },
+    {
+      "content": "have a headache",
+      "translation": "頭痛がする",
+      "description": ""
+    },
+    {
+      "content": "have a lot in common",
+      "translation": "共通点がある",
+      "description": ""
+    },
+    {
+      "content": "have a sip of coffee",
+      "translation": "コーヒーをすする",
+      "description": ""
+    },
+    {
+      "content": "have advantages over <A>",
+      "translation": "<A> に勝るものがある",
+      "description": ""
+    },
+    {
+      "content": "have an accident",
+      "translation": "事故にあう",
+      "description": ""
+    },
+    {
+      "content": "have confidence",
+      "translation": "自信がある",
+      "description": ""
+    },
+    {
+      "content": "have control over <A>",
+      "translation": "<A> を思い通りに扱う",
+      "description": ""
+    },
+    {
+      "content": "have mastery over <A>",
+      "translation": "<A> に熟練している",
+      "description": ""
+    },
+    {
+      "content": "have no choice but to <do>",
+      "translation": "<do> する以外にない",
+      "description": ""
+    },
+    {
+      "content": "have no consideration for <A>",
+      "translation": "<A> への配慮がない",
+      "description": ""
+    },
+    {
+      "content": "have nothing to do with <A>",
+      "translation": "<A> に対して何もしていない",
+      "description": ""
+    },
+    {
+      "content": "have seats available",
+      "translation": "空席がある",
+      "description": ""
+    },
+    {
+      "content": "have time to <do>",
+      "translation": "<do> する時間がある",
+      "description": ""
+    },
+    {
+      "content": "have trouble <doing>",
+      "translation": "<doing> することに問題を抱えている",
+      "description": ""
+    },
+    {
+      "content": "have trouble with <A>",
+      "translation": "<A> で問題を抱えている",
+      "description": ""
+    },
+    {
+      "content": "have yet to <do>",
+      "translation": "まだ <do> していない",
+      "description": ""
+    },
+    {
+      "content": "help <oneself> to <A>",
+      "translation": "<A> （食事）をつまむ",
+      "description": ""
+    },
+    {
+      "content": "keep <A> <doing>",
+      "translation": "<A> を <doing> させたままにする",
+      "description": ""
+    },
+    {
+      "content": "keep <A> in mind",
+      "translation": "<A> を覚えておく",
+      "description": "remember <A>"
+    },
+    {
+      "content": "keep <one's> word",
+      "translation": "約束を守る",
+      "description": ""
+    },
+    {
+      "content": "keep an eye on <A>",
+      "translation": "<A> を見張る",
+      "description": ""
+    },
+    {
+      "content": "keep in contact",
+      "translation": "連絡を取り合う",
+      "description": ""
+    },
+    {
+      "content": "keep to <oneself>",
+      "translation": "一人ぼっちでいる",
+      "description": ""
+    },
+    {
+      "content": "keep track of <A>",
+      "translation": "<A> を記録する / 追跡する",
+      "description": ""
+    },
+    {
+      "content": "leave <A> for <B>",
+      "translation": "<A> と別れて <B> と付き合う",
+      "description": ""
+    },
+    {
+      "content": "let go of <A>",
+      "translation": "<A> を手放す",
+      "description": ""
+    },
+    {
+      "content": "look <A> in the eye",
+      "translation": "<A> の目を見る（何もやましいことはない）",
+      "description": ""
+    },
+    {
+      "content": "look after <A>",
+      "translation": "<A> の面倒を見る",
+      "description": ""
+    },
+    {
+      "content": "look for <A>",
+      "translation": "<A> を探す",
+      "description": ""
+    },
+    {
+      "content": "look forward to <A>",
+      "translation": "<A> を楽しみにしている",
+      "description": ""
+    },
+    {
+      "content": "lose <one's> temper",
+      "translation": "カッとなる / キレる（理性を失う強い怒り）",
+      "description": ""
+    },
+    {
+      "content": "lose face",
+      "translation": "（主体の）評判が落ちる",
+      "description": ""
+    },
+    {
+      "content": "lose some weight",
+      "translation": "減量する",
+      "description": ""
+    },
+    {
+      "content": "make (both) ends meet",
+      "translation": "やりくりする（収支を合わせる）",
+      "description": ""
+    },
+    {
+      "content": "make <one's> way to <A>",
+      "translation": "<A> （場所や目標）を目指す",
+      "description": ""
+    },
+    {
+      "content": "make a comment",
+      "translation": "コメントする",
+      "description": ""
+    },
+    {
+      "content": "make a concession to <A>",
+      "translation": "<A> に対して譲歩する",
+      "description": ""
+    },
+    {
+      "content": "make a contract",
+      "translation": "契約を取りつける / 契約書を作る",
+      "description": "close the contract = 契約処理を完了する"
+    },
+    {
+      "content": "make a deal",
+      "translation": "取引する",
+      "description": ""
+    },
+    {
+      "content": "make a decision",
+      "translation": "決める",
+      "description": ""
+    },
+    {
+      "content": "make a fool of <A>",
+      "translation": "<A> を馬鹿にする",
+      "description": ""
+    },
+    {
+      "content": "make a fuss",
+      "translation": "騒ぎ立てる",
+      "description": "fuss = から騒ぎ"
+    },
+    {
+      "content": "make a good impression on <A>",
+      "translation": "<A> に好印象を与える",
+      "description": ""
+    },
+    {
+      "content": "make a living as <A>",
+      "translation": "<A> （職業）として生活する",
+      "description": ""
+    },
+    {
+      "content": "make a mess",
+      "translation": "散らかす",
+      "description": ""
+    },
+    {
+      "content": "make a mistake",
+      "translation": "間違う",
+      "description": ""
+    },
+    {
+      "content": "make a phone call",
+      "translation": "電話をかける",
+      "description": ""
+    },
+    {
+      "content": "make a purchase",
+      "translation": "買い物（仕入れ）をする",
+      "description": ""
+    },
+    {
+      "content": "make a selection",
+      "translation": "選定する / 採決する",
+      "description": ""
+    },
+    {
+      "content": "make a suggestion",
+      "translation": "提案する",
+      "description": ""
+    },
+    {
+      "content": "make adjustments to <A>",
+      "translation": "<A> を調整する",
+      "description": ""
+    },
+    {
+      "content": "make advances in <A>",
+      "translation": "<A> で進歩を遂げる",
+      "description": ""
+    },
+    {
+      "content": "make an amendment to <A>",
+      "translation": "<A> に訂正を加える",
+      "description": "契約書などの公文書 / git-commit --amend"
+    },
+    {
+      "content": "make an appointment",
+      "translation": "約束する",
+      "description": ""
+    },
+    {
+      "content": "make an effort",
+      "translation": "努力する",
+      "description": ""
+    },
+    {
+      "content": "make believe that <...>",
+      "translation": "<...> ごっこをする",
+      "description": ""
+    },
+    {
+      "content": "make clear what <...>",
+      "translation": "<...> であるのは何かを明確にする",
+      "description": ""
+    },
+    {
+      "content": "make every effort to <do>",
+      "translation": "<do> するためにあらゆる努力をする",
+      "description": ""
+    },
+    {
+      "content": "make fun of <somebody>",
+      "translation": "<somebody> を笑い者にする",
+      "description": ""
+    },
+    {
+      "content": "make inroads",
+      "translation": "食らいつく / 食い込む",
+      "description": ""
+    },
+    {
+      "content": "make inroads (upon|into) <A>",
+      "translation": "<A> （強豪）に食らいつく / 食い込む",
+      "description": ""
+    },
+    {
+      "content": "make it (even|much) harder to <do>",
+      "translation": "<do> をためらう / しづらい状況に追い込む",
+      "description": ""
+    },
+    {
+      "content": "make progress",
+      "translation": "進展を遂げる",
+      "description": ""
+    },
+    {
+      "content": "make room for <A>",
+      "translation": "<A> のために場所を空ける",
+      "description": ""
+    },
+    {
+      "content": "make sense",
+      "translation": "意味がある",
+      "description": "否定で使われる"
+    },
+    {
+      "content": "make sure of <A>",
+      "translation": "<A> を確かめる",
+      "description": ""
+    },
+    {
+      "content": "make sure that <...>",
+      "translation": "<...> であることを確かめる",
+      "description": ""
+    },
+    {
+      "content": "make the most of <A>",
+      "translation": "<A> を最大限活用する",
+      "description": ""
+    },
+    {
+      "content": "make the time to <do>",
+      "translation": "<do> する時間を作る",
+      "description": ""
+    },
+    {
+      "content": "make the wrong assumptions",
+      "translation": "思い違いをする",
+      "description": ""
+    },
+    {
+      "content": "make too much of <A>",
+      "translation": "<A> のことを大げさに扱う / 記事にする",
+      "description": ""
+    },
+    {
+      "content": "make up <one's> mind",
+      "translation": "決心する",
+      "description": ""
+    },
+    {
+      "content": "make upgrades to <A>",
+      "translation": "<A> を改良する",
+      "description": ""
+    },
+    {
+      "content": "make use of <A>",
+      "translation": "<A> を利用する / 実用化する",
+      "description": ""
+    },
+    {
+      "content": "place the responsibility on <somebody>",
+      "translation": "<somebody> に責任を押し付ける",
+      "description": ""
+    },
+    {
+      "content": "put <A> into practice",
+      "translation": "<A> を実行に移す",
+      "description": ""
+    },
+    {
+      "content": "put <A> on hold",
+      "translation": "<A> を保留する",
+      "description": ""
+    },
+    {
+      "content": "put an end to <A>",
+      "translation": "<A> に終止符を打つ",
+      "description": ""
+    },
+    {
+      "content": "put it all together",
+      "translation": "まとめる",
+      "description": "Putting It All Together = 「まとめ」前述した内容をまとめたセクションのタイトル"
+    },
+    {
+      "content": "put the matter out of <one's mind>",
+      "translation": "かたをつける / 用済みにする",
+      "description": ""
+    },
+    {
+      "content": "run <a shop>",
+      "translation": "<a shop> を経営する",
+      "description": ""
+    },
+    {
+      "content": "run an extra hour",
+      "translation": "長引く",
+      "description": ""
+    },
+    {
+      "content": "run low",
+      "translation": "残り少ない状態にある",
+      "description": ""
+    },
+    {
+      "content": "run to <A>",
+      "translation": "<A> のところに走る",
+      "description": ""
+    },
+    {
+      "content": "see a doctor",
+      "translation": "医者に診てもらう",
+      "description": ""
+    },
+    {
+      "content": "see through <A>",
+      "translation": "<A> の本性を見抜く",
+      "description": ""
+    },
+    {
+      "content": "see to <A>",
+      "translation": "<A> （任務）を引き受ける / を見ておく",
+      "description": ""
+    },
+    {
+      "content": "take (<JJ>) action against <A>",
+      "translation": "<A> に対して(<JJ> な)措置を取る",
+      "description": ""
+    },
+    {
+      "content": "take <a medicine>",
+      "translation": "<a medicine> を飲む",
+      "description": ""
+    },
+    {
+      "content": "take <A>",
+      "translation": "<A> （ルート）を通る",
+      "description": ""
+    },
+    {
+      "content": "take <A> by surprise",
+      "translation": "<A> に不意打ちを食わせる",
+      "description": ""
+    },
+    {
+      "content": "take <A> for granted",
+      "translation": "<A> を当たり前と思う",
+      "description": ""
+    },
+    {
+      "content": "take <A> into account",
+      "translation": "<A> を考慮する",
+      "description": ""
+    },
+    {
+      "content": "take <A> literally",
+      "translation": "<A> を真に受ける",
+      "description": ""
+    },
+    {
+      "content": "take <A> out of <B>",
+      "translation": "<B> から <A> を取り出す",
+      "description": ""
+    },
+    {
+      "content": "take <one's> call",
+      "translation": "電話にでる",
+      "description": ""
+    },
+    {
+      "content": "take <one's> car to <A>",
+      "translation": "車で <A> に行く",
+      "description": ""
+    },
+    {
+      "content": "take <one's> time",
+      "translation": "時間を取る（慌てない）",
+      "description": ""
+    },
+    {
+      "content": "take <somebody> by the hand",
+      "translation": "<somebody> の手をとる（案内するために）",
+      "description": ""
+    },
+    {
+      "content": "take 1 to 2 minutes",
+      "translation": "１、２分かかる",
+      "description": ""
+    },
+    {
+      "content": "take a (poop|crap)",
+      "translation": "大便する",
+      "description": ""
+    },
+    {
+      "content": "take a (rest|recess)",
+      "translation": "休む",
+      "description": ""
+    },
+    {
+      "content": "take a bath",
+      "translation": "風呂に入る",
+      "description": ""
+    },
+    {
+      "content": "take a call from <somebody>",
+      "translation": "<somebody> からの電話を受ける",
+      "description": ""
+    },
+    {
+      "content": "take a chance",
+      "translation": "チャンスを得る",
+      "description": ""
+    },
+    {
+      "content": "take a day off",
+      "translation": "１日欠勤する",
+      "description": ""
+    },
+    {
+      "content": "take a picture of <A>",
+      "translation": "<A> の写真を撮る",
+      "description": ""
+    },
+    {
+      "content": "take a piss",
+      "translation": "小便する",
+      "description": ""
+    },
+    {
+      "content": "take a taxi",
+      "translation": "タクシーを使う",
+      "description": ""
+    },
+    {
+      "content": "take a trip",
+      "translation": "旅行する",
+      "description": ""
+    },
+    {
+      "content": "take a vote",
+      "translation": "採決を取る",
+      "description": ""
+    },
+    {
+      "content": "take advantage of <A>",
+      "translation": "<A> （特典）を利用する",
+      "description": ""
+    },
+    {
+      "content": "take advantage of <somebody>",
+      "translation": "<somebody> を都合よく使う / つけ込む",
+      "description": ""
+    },
+    {
+      "content": "take after <A> in personality",
+      "translation": "<A> の性格を受け継いでいる",
+      "description": ""
+    },
+    {
+      "content": "take care of <A>",
+      "translation": "<A> の世話をする",
+      "description": ""
+    },
+    {
+      "content": "take hold of <A>",
+      "translation": "<A> をつかまえる",
+      "description": ""
+    },
+    {
+      "content": "take it outside",
+      "translation": "（表に出て）喧嘩する",
+      "description": ""
+    },
+    {
+      "content": "take measurements of <A>",
+      "translation": "<A> の寸法を計る",
+      "description": ""
+    },
+    {
+      "content": "take medication for <A>",
+      "translation": "<A> の処方を受ける",
+      "description": ""
+    },
+    {
+      "content": "take notice of <A>",
+      "translation": "<A> に注意する",
+      "description": ""
+    },
+    {
+      "content": "take part in <A>",
+      "translation": "<A> に参加する",
+      "description": ""
+    },
+    {
+      "content": "take place",
+      "translation": "開催される / 事象が起こる / 現れる",
+      "description": ""
+    },
+    {
+      "content": "take the place of <A>",
+      "translation": "<A> の代わりになる",
+      "description": ""
+    },
+    {
+      "content": "take to <somebody>",
+      "translation": "<somebody> になつく / 気に入る",
+      "description": ""
+    },
+    {
+      "content": "take turns <doing>",
+      "translation": "交代で <doing> する",
+      "description": ""
+    },
+    {
+      "content": "talk <somebody> into <A>",
+      "translation": "<somebody> に話して <A> に至らせる",
+      "description": ""
+    },
+    {
+      "content": "talk about <A> behind <one's> back",
+      "translation": "<A> の陰口を叩く",
+      "description": ""
+    },
+    {
+      "content": "talk about the good old times",
+      "translation": "昔話する",
+      "description": ""
+    },
+    {
+      "content": "think better of <A>",
+      "translation": "<A> を見直す / 思いとどまる",
+      "description": ""
+    },
+    {
+      "content": "think of <A>",
+      "translation": "<A> のことを評価する / 気に入る",
+      "description": ""
+    }
+  ]
+}

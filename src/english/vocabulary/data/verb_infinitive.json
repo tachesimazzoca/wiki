@@ -1,0 +1,283 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(allow|permit) <somebody> to <do>",
+      "translation": "<somebody> に <do> することを許す",
+      "description": "let"
+    },
+    {
+      "content": "(ask|beg) <somebody> to <do>",
+      "translation": "<somebody> に <do> してもらうように依頼する",
+      "description": "ask = 指示 / beg = 懇願"
+    },
+    {
+      "content": "(attempt|try) to <do>",
+      "translation": "<do> しようと試みる",
+      "description": ""
+    },
+    {
+      "content": "(convince|persuade) <somebody> to <do>",
+      "translation": "<somebody> に <do> するようにを説得する",
+      "description": "cause <somebody> to believe in the truth of something"
+    },
+    {
+      "content": "(encourage|stimulate|urge) <somebody> to <do>",
+      "translation": "<somebody> に <do> するように促進する",
+      "description": ""
+    },
+    {
+      "content": "(make|have|cause) <somebody> <do>",
+      "translation": "<somebody> が <do> するようにさせる",
+      "description": "make = 強制的にさせる / have = してもらう / cause = 引き起こす"
+    },
+    {
+      "content": "(reject|refuse|decline) to <do>",
+      "translation": "<do> することを断る",
+      "description": ""
+    },
+    {
+      "content": "(request|require) <somebody> to <do>",
+      "translation": "<somebody> に <do> してもらうように要求する",
+      "description": ""
+    },
+    {
+      "content": "advise <somebody> to <do>",
+      "translation": "<somebody> に <do> するように忠告する",
+      "description": ""
+    },
+    {
+      "content": "afford to <do>",
+      "translation": "<do> する（金銭的な）余裕がある",
+      "description": ""
+    },
+    {
+      "content": "aim to <do>",
+      "translation": "<do> することを目指す",
+      "description": ""
+    },
+    {
+      "content": "coerce <somebody> to <do>",
+      "translation": "<somebody> に <do> するように強制する",
+      "description": ""
+    },
+    {
+      "content": "command <somebody> to <do>",
+      "translation": "<somebody> に <do> するように命令する",
+      "description": ""
+    },
+    {
+      "content": "commission <somebody> to <do>",
+      "translation": "<somebody> に <do> するように委託する",
+      "description": ""
+    },
+    {
+      "content": "continue to <do>",
+      "translation": "<do> し続ける",
+      "description": ""
+    },
+    {
+      "content": "dare to <do>",
+      "translation": "勇気を持ってあえて <do> する",
+      "description": ""
+    },
+    {
+      "content": "decide to <do>",
+      "translation": "<do> することを決める",
+      "description": ""
+    },
+    {
+      "content": "deserve to <do>",
+      "translation": "<do> する価値がある",
+      "description": ""
+    },
+    {
+      "content": "direct <somebody> to <do>",
+      "translation": "<somebody> に <do> するように指示する",
+      "description": ""
+    },
+    {
+      "content": "enable <somebody> to <do>",
+      "translation": "<somebody> が <do> できるようにする",
+      "description": ""
+    },
+    {
+      "content": "expect <somebody> to <do>",
+      "translation": "<somebody> が <do> することを期待する",
+      "description": ""
+    },
+    {
+      "content": "fail to <do>",
+      "translation": "<do> することに失敗する",
+      "description": ""
+    },
+    {
+      "content": "force <somebody> to <do>",
+      "translation": "<somebody> に <do> するように強制する",
+      "description": ""
+    },
+    {
+      "content": "guarantee to <do>",
+      "translation": "<do> することを保証する",
+      "description": "promise to <do>"
+    },
+    {
+      "content": "happen to <do>",
+      "translation": "偶然に <do> する",
+      "description": ""
+    },
+    {
+      "content": "have <somebody> <do>",
+      "translation": "<somebody> に <do> してもらう（半強制）",
+      "description": ""
+    },
+    {
+      "content": "help <somebody> <do>",
+      "translation": "<somebody> が <do> することを助ける",
+      "description": ""
+    },
+    {
+      "content": "hesitate to <do>",
+      "translation": "<do> することを遠慮する / 躊躇する",
+      "description": ""
+    },
+    {
+      "content": "inspire <somebody> to <do>",
+      "translation": "<somebody> を <do> する気にさせる",
+      "description": ""
+    },
+    {
+      "content": "intend <somebody> to <do>",
+      "translation": "<somebody> に <do> してもらうように意図している",
+      "description": ""
+    },
+    {
+      "content": "intend to <do>",
+      "translation": "<do> するつもりである",
+      "description": ""
+    },
+    {
+      "content": "invite <somebody> to <do>",
+      "translation": "<somebody> に <do> するように誘う",
+      "description": ""
+    },
+    {
+      "content": "lead <somebody> to <do>",
+      "translation": "<somebody> に <do> するように導く",
+      "description": ""
+    },
+    {
+      "content": "let <somebody> <do>",
+      "translation": "<somebody> に <do> させる（許可）",
+      "description": ""
+    },
+    {
+      "content": "look to <do>",
+      "translation": "<do> することを視野に入れる",
+      "description": ""
+    },
+    {
+      "content": "manage to <do>",
+      "translation": "<do> できるようにする",
+      "description": ""
+    },
+    {
+      "content": "oblige <somebody> to <do>",
+      "translation": "<somebody> に <do> することを義務づける",
+      "description": ""
+    },
+    {
+      "content": "opt to <do>",
+      "translation": "<do> することを選択する",
+      "description": ""
+    },
+    {
+      "content": "prepare to <do>",
+      "translation": "<somebody> する準備をする",
+      "description": ""
+    },
+    {
+      "content": "pretend to <do>",
+      "translation": "<do> するふりをする",
+      "description": ""
+    },
+    {
+      "content": "promise to <do>",
+      "translation": "<do> することを約束する",
+      "description": ""
+    },
+    {
+      "content": "remind <somebody> to <do>",
+      "translation": "<somebody> に <do> することを思い出させる",
+      "description": ""
+    },
+    {
+      "content": "rush to <do>",
+      "translation": "<do> しようと躍起になる",
+      "description": ""
+    },
+    {
+      "content": "suppose <somebody> to <do>",
+      "translation": "<somebody> が <do> すると思う（予想）",
+      "description": ""
+    },
+    {
+      "content": "teach <somebody> to <do>",
+      "translation": "<somebody> に <do> することを教える",
+      "description": ""
+    },
+    {
+      "content": "tell <somebody> to <do>",
+      "translation": "<somebody> に <do> するように伝える",
+      "description": ""
+    },
+    {
+      "content": "tempt <somebody> to <do>",
+      "translation": "<somebody> に <do> するように誘惑する",
+      "description": ""
+    },
+    {
+      "content": "tend to <do>",
+      "translation": "<do> しがちである",
+      "description": ""
+    },
+    {
+      "content": "train <somebody> to <do>",
+      "translation": "<somebody> に <do> することを訓練する",
+      "description": ""
+    },
+    {
+      "content": "want <somebody> to <do>",
+      "translation": "<somebody> に <do> して欲しい",
+      "description": ""
+    },
+    {
+      "content": "warn <somebody> to <do>",
+      "translation": "<somebody> に <do> することを警告する",
+      "description": ""
+    },
+    {
+      "content": "wish <somebody> to <do>",
+      "translation": "<somebody> に <do> してもらうことを願っている",
+      "description": ""
+    },
+    {
+      "content": "would like <somebody> to <do>",
+      "translation": "<somebody> に <do> してもらえればと思う",
+      "description": ""
+    }
+  ]
+}

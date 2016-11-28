@@ -1,0 +1,93 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(avoid|deny|escape) <doing>",
+      "translation": "拒否",
+      "description": ""
+    },
+    {
+      "content": "(finish|stop|quit) <doing>",
+      "translation": "停止",
+      "description": ""
+    },
+    {
+      "content": "(keep|postpone) <doing>",
+      "translation": "継続",
+      "description": ""
+    },
+    {
+      "content": "(mind|consider|imagine|recall) <doing>",
+      "translation": "想像",
+      "description": ""
+    },
+    {
+      "content": "(prohibit|forbid) <doing>",
+      "translation": "禁止",
+      "description": ""
+    },
+    {
+      "content": "(recommend|suggest) <doing>",
+      "translation": "推薦",
+      "description": ""
+    },
+    {
+      "content": "admit <doing>",
+      "translation": "<doing> した（する）ことを認める",
+      "description": ""
+    },
+    {
+      "content": "anticipate <doing>",
+      "translation": "<doing> することを予期する",
+      "description": ""
+    },
+    {
+      "content": "consider <doing>",
+      "translation": "<doing> することを考慮する",
+      "description": ""
+    },
+    {
+      "content": "enjoy <doing>",
+      "translation": "<doing> を楽しむ",
+      "description": ""
+    },
+    {
+      "content": "miss <doing>",
+      "translation": "<doing> しそこなう",
+      "description": ""
+    },
+    {
+      "content": "miss <doing>",
+      "translation": "<doing> できなくなって悲しい",
+      "description": "やろうとしてできなかった場合は fail to <do>"
+    },
+    {
+      "content": "practice <doing>",
+      "translation": "<doing> を習慣にする",
+      "description": ""
+    },
+    {
+      "content": "regret having <done>",
+      "translation": "<done> したことを後悔する",
+      "description": ""
+    },
+    {
+      "content": "risk <doing>",
+      "translation": "あえて <doing> する",
+      "description": ""
+    }
+  ]
+}

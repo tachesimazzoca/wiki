@@ -1,0 +1,121 @@
+---
+layout: global
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{site.title | escape }} | {{ page.title | escape }} | {% tocroot link:false %}</title>
+<link href="{% relative_path path:'/assets/lib/bootstrap-3.2.0/css/bootstrap.min.css' %}" media="screen" rel="stylesheet" type="text/css">
+<link href="{% relative_path path:'/assets/stylesheets/style.css' %}" media="screen" rel="stylesheet" type="text/css">
+<link href="{% relative_path path:'/assets/stylesheets/github.css' %}" media="screen" rel="stylesheet" type="text/css">
+<link href="{% relative_path path:'/assets/stylesheets/jquery.dynatable.css' %}" media="screen" rel="stylesheet" type="text/css">
+<script src="{% relative_path path:'/assets/lib/jquery-1.11.1/jquery.min.js' %}"></script>
+<script src="{% relative_path path:'/assets/lib/bootstrap-3.2.0/js/bootstrap.min.js' %}"></script>
+<script src="{% relative_path path:'/assets/lib/dynatable-0.3.1/jquery.dynatable.js' %}"></script>
+
+<script>
+$(function() {
+  var escapeHTML = function(str) {
+    return str.replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;')
+              .replace(/'/g, '&#039;');
+  }
+
+  $.getJSON('{{ page.dynatable_url }}', function(data) {
+
+    var i, j, k;
+
+    var html = '';
+    html += '<table id="dynatable" class="table">';
+    html += "<thead>";
+    var fields = data['fields'] || [];
+    for (i = 0; i < fields.length; i++) {
+      html += '<th>' + escapeHTML(fields[i]['key']) + '</th>';
+    }
+    html += "</thead>";
+    html += "<tbody></tbody>";
+    html += "</table>";
+
+    $('#dynatablePlaceHolder').html(html);
+
+    var records = [];
+    var rows = data['rows'];
+    for (i = 0; i < rows.length; i++) {
+      records[i] = {};
+      for (j = 0; j < fields.length; j++) {
+        var key = fields[j]['key'];
+        records[i][key] = escapeHTML(rows[i][key]);
+      }
+    }
+    var dynatable = $('#dynatable').dynatable({
+      features: {
+        paginate: true,
+        recordCount: true,
+        sorting: true
+      },
+      dataset: {
+        perPageOptions: [10, 20, 50, 100, 200, 500],
+        records: records 
+      }
+    }).data('dynatable');
+    if (fields.length > 0) {
+      dynatable.sorts.add(fields[0]['key'], 1);
+    }
+    dynatable.paginationPerPage.set(100);
+    dynatable.process();
+  });
+});
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+  {% include header.html %}
+  <div id="main">
+    <div class="container-fluid">
+      <ul class="breadcrumb">
+        {% breadcrumb divider:'' active:'class="active"' %}
+      </ul>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 hidden-xs">
+          <div id="navigation">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title" style="text-align: center; font-size: 11px; text-transform: uppercase; color: #999">Table of Contents</h3>
+              </div>
+              <div class="panel-body">
+              {% directory_index ul:'class="nav nav-pills nav-stacked"' active:'class="active"' %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8">
+          {% capture src %}{{ page.url | replace:'.html','.md' }}{% endcapture %}
+          <div class="btn-group pull-right">
+            <a class="btn btn-default" href="https://raw.github.com/tachesimazzoca/wiki/master/src{{ src }}">Raw</a>
+            <a class="btn btn-default" href="https://github.com/tachesimazzoca/wiki/blame/master/src{{ src }}">Blame</a>
+            <a class="btn btn-default" href="https://github.com/tachesimazzoca/wiki/commits/master/src{{ src }}">History</a>
+          </div>
+          <div id="content">
+          <h1>{{ page.title | escape }}</h1>
+          {{ content }}
+          <div id="dynatablePlaceHolder"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/#main-->
+  {% include footer.html %}
+</div>
+<!--/#wrapper-->
+{% include ga.html %}
+</body>
+</html>

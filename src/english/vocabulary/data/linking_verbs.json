@@ -1,0 +1,1408 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(look|sound|seem|appear) <JJ> (to me)",
+      "translation": "<JJ> に感じる",
+      "description": "感覚の場合は to"
+    },
+    {
+      "content": "be (able|unable) to <do>",
+      "translation": "<do> (できる|できない)",
+      "description": ""
+    },
+    {
+      "content": "be (accountable|responsible|liable) for <A>",
+      "translation": "<A> への責任がある",
+      "description": "accountable = 説明責任 / liable = 法的責任"
+    },
+    {
+      "content": "be (afraid|scared) of <A>",
+      "translation": "<A> が恐ろしい",
+      "description": ""
+    },
+    {
+      "content": "be (afraid|scared) to <do>",
+      "translation": "<do> することを怖がっている",
+      "description": "しなければいけない状況で怖がっている"
+    },
+    {
+      "content": "be (all) settled (in|into) <A>",
+      "translation": "<A> に住み慣れる",
+      "description": ""
+    },
+    {
+      "content": "be (angry|enraged) with <A>",
+      "translation": "<A> に怒っている",
+      "description": "感情の with"
+    },
+    {
+      "content": "be (annoyed|bothered|afflicted|burdened) (with|about) <A>",
+      "translation": "<A> に悩ませられる",
+      "description": "annoyed = いらいらする / bothered = 迷惑を被る / afflicted = 精神・肉体的に苦しむ / burdened = 重荷を背負う"
+    },
+    {
+      "content": "be (aware|conscious) of <A>",
+      "translation": "<A> に気付いている",
+      "description": "conscious = 意識して気付いている。わざとらしさがあり、否定にすると「意識的に気付かない」"
+    },
+    {
+      "content": "be (close|next|adjacent) to <A>",
+      "translation": "<A> に隣接している",
+      "description": ""
+    },
+    {
+      "content": "be (committed|pledged|obligated) to <A>",
+      "translation": "<A> を約束する / 誓約させられる / 引くに引けない",
+      "description": "commit = 約束させる / pledge = 誓約させる / obligate = 義務を負わせる"
+    },
+    {
+      "content": "be (dedicated|devoted|committed) to <A>",
+      "translation": "<A> に専念する / 身をささげる",
+      "description": "devote <oneself> to <A>"
+    },
+    {
+      "content": "be (deserted|desolate)",
+      "translation": "寂れた / 人の気配がない",
+      "description": ""
+    },
+    {
+      "content": "be (dismissed|fired|laid off)",
+      "translation": "解雇される",
+      "description": ""
+    },
+    {
+      "content": "be (eager|anxious|keen) to <do>",
+      "translation": "<do> することを切望している",
+      "description": "eager = 熱望 / anxious = 実現するか不安 / keen = 実現させる強い意識 / can't wait"
+    },
+    {
+      "content": "be (excellent|better|good|moderate|bad|poor) at <A>",
+      "translation": "段階評価",
+      "description": ""
+    },
+    {
+      "content": "be (excited|thrilled) about <A>",
+      "translation": "<A> に興奮している",
+      "description": ""
+    },
+    {
+      "content": "be (faced|confronted) with <A>",
+      "translation": "<A> に直面する",
+      "description": ""
+    },
+    {
+      "content": "be (glad|delighted) to <do>",
+      "translation": "<do> できて嬉しい",
+      "description": ""
+    },
+    {
+      "content": "be (glad|sad) about <A>",
+      "translation": "<A> について (嬉しく|悲しく) 思う",
+      "description": "happy のように自身限定の感情 with では使わない。excited about のように置かれた状況に対する感情で使う。 "
+    },
+    {
+      "content": "be (happy|pleased|delighted) with <A>",
+      "translation": "<A> を喜んでいる",
+      "description": ""
+    },
+    {
+      "content": "be (harmful|detrimental) to <A>",
+      "translation": "<A> にとって有害である",
+      "description": ""
+    },
+    {
+      "content": "be (hungry|starving|starved)",
+      "translation": "お腹がすいている",
+      "description": ""
+    },
+    {
+      "content": "be (likely|apt) to <do>",
+      "translation": "<do> しそうである",
+      "description": ""
+    },
+    {
+      "content": "be (likely|apt|prone) to <do>",
+      "translation": "<do> する傾向にある",
+      "description": "tend to / prone = ネガティブな傾向"
+    },
+    {
+      "content": "be (nervous|uneasy) about <A>",
+      "translation": "<A> に神経質になっている",
+      "description": ""
+    },
+    {
+      "content": "be (overstaffed ! understaffed)",
+      "translation": "人手が(溢れている ! 足りない)",
+      "description": ""
+    },
+    {
+      "content": "be (related|relevant) to <A>",
+      "translation": "<A> に関連している",
+      "description": ""
+    },
+    {
+      "content": "be (shy|hesitant|timid)",
+      "translation": "恥ずかしがり屋である",
+      "description": ""
+    },
+    {
+      "content": "be (similar|analogous) to <A>",
+      "translation": "<A> に似ている",
+      "description": ""
+    },
+    {
+      "content": "be (superior ! inferior )to <A>",
+      "translation": "<A> よりも (優れている ! 劣っている)",
+      "description": ""
+    },
+    {
+      "content": "be (supposed|expected|due|meant) to <do>",
+      "translation": "<do> することになっている",
+      "description": "supposed = 予約 / expected = 期待 / due = 義務 / meant = 運命"
+    },
+    {
+      "content": "be (surprised|amazed|astonished|startled) at <A>",
+      "translation": "<A> に驚いている",
+      "description": "startled = ドキッと驚く"
+    },
+    {
+      "content": "be (tired|exhausted|fatigued) of <A>",
+      "translation": "<A> に疲れている",
+      "description": "exhausted = 使い古された spent / drained"
+    },
+    {
+      "content": "be (used|accustomed) to <A>",
+      "translation": "<A> に慣れている",
+      "description": ""
+    },
+    {
+      "content": "be (worried|concerned) about <A>",
+      "translation": "<A> のことが気になっている",
+      "description": ""
+    },
+    {
+      "content": "be <kind> of <somebody> to <do>",
+      "translation": "<do> するとは、なんと <somebody> は <kind> なのだろう ",
+      "description": "形式主語の It を用いる。"
+    },
+    {
+      "content": "be absent from <A>",
+      "translation": "<A> を欠席する",
+      "description": ""
+    },
+    {
+      "content": "be absorbed in <A>",
+      "translation": "<A> に夢中になる",
+      "description": ""
+    },
+    {
+      "content": "be abundant in <A>",
+      "translation": "（場所などが） <A> に富んでいる",
+      "description": "豊富な物が主体ではない点に注意"
+    },
+    {
+      "content": "be accompanied by <A>",
+      "translation": "<A> を同伴する / 同梱する",
+      "description": "accompany の主体は付属物"
+    },
+    {
+      "content": "be acquainted with <A>",
+      "translation": "<A> について知っている",
+      "description": ""
+    },
+    {
+      "content": "be addicted to <A>",
+      "translation": "<A> 中毒である",
+      "description": ""
+    },
+    {
+      "content": "be adept at <doing>",
+      "translation": "<doing> することに熟練している",
+      "description": ""
+    },
+    {
+      "content": "be adequate to <A>",
+      "translation": "<A> に適任である / 十分である",
+      "description": ""
+    },
+    {
+      "content": "be afraid that <...>",
+      "translation": "<...> （断り/不採用/不幸/不運）であることを残念に思う / 心配している",
+      "description": ""
+    },
+    {
+      "content": "be aging well",
+      "translation": "よい年の取り方をしている",
+      "description": ""
+    },
+    {
+      "content": "be all but <JJ>",
+      "translation": "<JJ> も同然である",
+      "description": "副詞句では almost の意味。前置詞としての all but 名詞句 の場合は「それ以外の全て」"
+    },
+    {
+      "content": "be alone",
+      "translation": "一人ぼっちである",
+      "description": ""
+    },
+    {
+      "content": "be alternative to <A>",
+      "translation": "<A> とは別である（二者択一）",
+      "description": ""
+    },
+    {
+      "content": "be anxious about <doing>",
+      "translation": "<doing> することを不安に思う",
+      "description": "不定詞の anxious to <do> はできるかどうかわからず不安 = したくてたまらない"
+    },
+    {
+      "content": "be applicable to <A>",
+      "translation": "<A> に適用できる",
+      "description": ""
+    },
+    {
+      "content": "be appropriate to <A>",
+      "translation": "<A> に適している",
+      "description": "動詞としての appropriate は「充当する / 着服する」の意味"
+    },
+    {
+      "content": "be around",
+      "translation": "近くにいる",
+      "description": ""
+    },
+    {
+      "content": "be as <JJ> as ever.",
+      "translation": "相変わらず <JJ> である",
+      "description": ""
+    },
+    {
+      "content": "be ashamed of <A>",
+      "translation": "<A> を恥じている",
+      "description": ""
+    },
+    {
+      "content": "be ashamed that <...>",
+      "translation": "<...> であることを恥じている",
+      "description": ""
+    },
+    {
+      "content": "be ashamed to <do>",
+      "translation": "<do> することを恥ずかしいと思う",
+      "description": ""
+    },
+    {
+      "content": "be attractive to <A>",
+      "translation": "<A> にとって魅力的である",
+      "description": ""
+    },
+    {
+      "content": "be available",
+      "translation": "販売されている",
+      "description": "be commercially available = 市販されている"
+    },
+    {
+      "content": "be available for <A>",
+      "translation": "<A> において可能である",
+      "description": "主語が可能である点に注意"
+    },
+    {
+      "content": "be available to <do>",
+      "translation": "<do> することができる",
+      "description": ""
+    },
+    {
+      "content": "be back",
+      "translation": "戻っている",
+      "description": ""
+    },
+    {
+      "content": "be based on <A>",
+      "translation": "<A> が元になっている",
+      "description": ""
+    },
+    {
+      "content": "be bedridden",
+      "translation": "寝たきりである",
+      "description": ""
+    },
+    {
+      "content": "be beside <oneself> with <A>",
+      "translation": "<A> で我を忘れる",
+      "description": ""
+    },
+    {
+      "content": "be beside the point",
+      "translation": "要点を外している",
+      "description": ""
+    },
+    {
+      "content": "be blessed with <A>",
+      "translation": "<A> に恵まれる",
+      "description": ""
+    },
+    {
+      "content": "be bound for <A>",
+      "translation": "<A> 方面行きである",
+      "description": "主に the bus bound for ... のように形容詞句として用いられる"
+    },
+    {
+      "content": "be bound to <do>",
+      "translation": "<do> することを逃れられない（拘束されている）",
+      "description": ""
+    },
+    {
+      "content": "be bound up with <A>",
+      "translation": "<A> と密接な関係がある",
+      "description": ""
+    },
+    {
+      "content": "be busy",
+      "translation": "（道が）混雑している",
+      "description": ""
+    },
+    {
+      "content": "be busy <doing>",
+      "translation": "<doing> することで忙しい",
+      "description": ""
+    },
+    {
+      "content": "be capable of <doing>",
+      "translation": "<doing> する能力がある",
+      "description": ""
+    },
+    {
+      "content": "be challenging",
+      "translation": "やりがいがある",
+      "description": ""
+    },
+    {
+      "content": "be cluttered with <A>",
+      "translation": "<A> （物）で散らかっている",
+      "description": ""
+    },
+    {
+      "content": "be comparable to <A>",
+      "translation": "<A> に匹敵する",
+      "description": ""
+    },
+    {
+      "content": "be competitive about <A>",
+      "translation": "<A> において負けず嫌いである",
+      "description": "in competition 張り合っている"
+    },
+    {
+      "content": "be complementary",
+      "translation": "補完的なものである",
+      "description": ""
+    },
+    {
+      "content": "be composed of <parts>",
+      "translation": "<parts> （物質）で構成される",
+      "description": ""
+    },
+    {
+      "content": "be confident in <oneself>",
+      "translation": "自分に自信 / 確信がある",
+      "description": ""
+    },
+    {
+      "content": "be consistent with <A>",
+      "translation": "<A> に対して一貫性がある / ブレない",
+      "description": ""
+    },
+    {
+      "content": "be contemporary with <A>",
+      "translation": "<A> と同世代である",
+      "description": ""
+    },
+    {
+      "content": "be content with <A>",
+      "translation": "<A> に甘んじている / 満足している",
+      "description": ""
+    },
+    {
+      "content": "be contingent on <A>",
+      "translation": "<A> に左右される",
+      "description": ""
+    },
+    {
+      "content": "be convinced that <...>",
+      "translation": "<...> であると確信 / 納得する",
+      "description": ""
+    },
+    {
+      "content": "be covered by <A>",
+      "translation": "<A> でしっかり網羅されている / 取り扱われている",
+      "description": ""
+    },
+    {
+      "content": "be covered in <A>",
+      "translation": "<A> に書いてある",
+      "description": ""
+    },
+    {
+      "content": "be covered with <A>",
+      "translation": "<A> で覆われている",
+      "description": ""
+    },
+    {
+      "content": "be credited with <doing>",
+      "translation": "<doing> の功労者である",
+      "description": ""
+    },
+    {
+      "content": "be crowded with <people>",
+      "translation": "（乗り物が） <A> で混雑している",
+      "description": ""
+    },
+    {
+      "content": "be crucial to <success>",
+      "translation": "<success> のために重要である",
+      "description": "<success> は期待結果の名詞節。結果を導く行動は主語であり、不定詞はとらない"
+    },
+    {
+      "content": "be deluged with <requests>",
+      "translation": "<requests> が殺到する",
+      "description": ""
+    },
+    {
+      "content": "be dependent on <A>",
+      "translation": "<A> に左右される",
+      "description": "depends on = 頼る"
+    },
+    {
+      "content": "be depressed about <A>",
+      "translation": "<A> に落胆する",
+      "description": ""
+    },
+    {
+      "content": "be designed to <do>",
+      "translation": "<do> する性質である",
+      "description": "生物を主体にした本能"
+    },
+    {
+      "content": "be different from <A>",
+      "translation": "<A> と違う",
+      "description": ""
+    },
+    {
+      "content": "be disappointed with <A>",
+      "translation": "<A> に落胆している",
+      "description": ""
+    },
+    {
+      "content": "be distracting",
+      "translation": "気が散る / 紛らわしい",
+      "description": ""
+    },
+    {
+      "content": "be doored by <A>",
+      "translation": "開いた <A> のドアに衝突する",
+      "description": "自転車事故の表現で見かける"
+    },
+    {
+      "content": "be due",
+      "translation": "期日である",
+      "description": "期日が過去日であっても現在形を使う。過去形だとすでに期日は異なっていることになる。"
+    },
+    {
+      "content": "be due out",
+      "translation": "出荷予定である",
+      "description": ""
+    },
+    {
+      "content": "be due to <somebody>",
+      "translation": "<somebody> に与えられるべきである",
+      "description": "<somebody> の存在があってこそ、主体が成り立つ"
+    },
+    {
+      "content": "be eager to <do>",
+      "translation": "<do> したがる",
+      "description": ""
+    },
+    {
+      "content": "be eligible to <do>",
+      "translation": "<do> する資格がある",
+      "description": "申請や献血などの法的な資格"
+    },
+    {
+      "content": "be embarrassed with <A>",
+      "translation": "<A> のことで恥ずかしい思いをさせられている",
+      "description": ""
+    },
+    {
+      "content": "be entitled to <do>",
+      "translation": "<do> する権利がある",
+      "description": ""
+    },
+    {
+      "content": "be equivalent to <A>",
+      "translation": "<A> と同等である",
+      "description": ""
+    },
+    {
+      "content": "be exempt from <A>",
+      "translation": "<A> の免除を受ける",
+      "description": ""
+    },
+    {
+      "content": "be faded",
+      "translation": "色あせている",
+      "description": ""
+    },
+    {
+      "content": "be fair to <A>",
+      "translation": "<A> に対して公平である",
+      "description": ""
+    },
+    {
+      "content": "be familiar to <somebody>",
+      "translation": "<somebody> によく知られている",
+      "description": ""
+    },
+    {
+      "content": "be familiar with <A>",
+      "translation": "<A> になれ親しんでいる",
+      "description": ""
+    },
+    {
+      "content": "be far from <JJ>",
+      "translation": "<JJ> には程遠い",
+      "description": ""
+    },
+    {
+      "content": "be fed up with <A>",
+      "translation": "<A> にうんざりしている",
+      "description": ""
+    },
+    {
+      "content": "be filled with <A>",
+      "translation": "<A> で満たされている",
+      "description": ""
+    },
+    {
+      "content": "be followed by <A>",
+      "translation": "<A> の後に続いている",
+      "description": ""
+    },
+    {
+      "content": "be free to <do>",
+      "translation": "自由に <do> してよい",
+      "description": ""
+    },
+    {
+      "content": "be full of <A>",
+      "translation": "<A> で一杯である",
+      "description": ""
+    },
+    {
+      "content": "be grateful to <somebody>",
+      "translation": "<somebody> に感謝している",
+      "description": ""
+    },
+    {
+      "content": "be haunted by <A>",
+      "translation": "<A> （幽霊や悪夢）に取り憑かれている",
+      "description": ""
+    },
+    {
+      "content": "be honored",
+      "translation": "光栄に思う",
+      "description": ""
+    },
+    {
+      "content": "be hostile to <A>",
+      "translation": "<A> に敵対する",
+      "description": ""
+    },
+    {
+      "content": "be impoverished",
+      "translation": "貧乏にさせられる",
+      "description": ""
+    },
+    {
+      "content": "be impressed (by|with) <A>",
+      "translation": "<A> に感銘を受ける",
+      "description": ""
+    },
+    {
+      "content": "be in a difficult situation",
+      "translation": "困難な立場にある",
+      "description": ""
+    },
+    {
+      "content": "be in danger of <extinction>",
+      "translation": "<extinction> の危機にある",
+      "description": ""
+    },
+    {
+      "content": "be in debt to <somebody>",
+      "translation": "<somebody> に借金している",
+      "description": "owe money to <somebody>"
+    },
+    {
+      "content": "be in trouble",
+      "translation": "苦境にある / 揉めている",
+      "description": "困っていることが具体的なら have trouble <doing> / have trouble with <A>"
+    },
+    {
+      "content": "be independent of <one's> parents",
+      "translation": "親離れしている",
+      "description": ""
+    },
+    {
+      "content": "be indifferent to <A>",
+      "translation": "<A> に無関心である",
+      "description": ""
+    },
+    {
+      "content": "be inebriated",
+      "translation": "酔っぱらっている",
+      "description": ""
+    },
+    {
+      "content": "be infused with <A>",
+      "translation": "<A> で満ちている",
+      "description": ""
+    },
+    {
+      "content": "be instrumental in <A>",
+      "translation": "<A> において重要な役目を果たす",
+      "description": ""
+    },
+    {
+      "content": "be integral to <A>",
+      "translation": "<A> にとって不可欠である",
+      "description": ""
+    },
+    {
+      "content": "be interested in <A>",
+      "translation": "<A> に興味がある",
+      "description": ""
+    },
+    {
+      "content": "be interested to <do>",
+      "translation": "<do> することになったら興味がわく",
+      "description": ""
+    },
+    {
+      "content": "be into <A>",
+      "translation": "<A> にハマっている",
+      "description": ""
+    },
+    {
+      "content": "be involved (with|in) <A>",
+      "translation": "<A> に関わっている / 恋仲である",
+      "description": ""
+    },
+    {
+      "content": "be irritated (with|at) <A>",
+      "translation": "<A> に怒っている",
+      "description": ""
+    },
+    {
+      "content": "be jealous of <A>",
+      "translation": "<A> に嫉妬する",
+      "description": ""
+    },
+    {
+      "content": "be killed in <A>",
+      "translation": "<A> （事件や事故）で亡くなる",
+      "description": "killed in action = 戦死する"
+    },
+    {
+      "content": "be kind to <somebody>",
+      "translation": "<somebody> に対して親切である",
+      "description": ""
+    },
+    {
+      "content": "be knowledgeable about <A>",
+      "translation": "<A> について知識が豊富である",
+      "description": ""
+    },
+    {
+      "content": "be left behind",
+      "translation": "取り残されている",
+      "description": ""
+    },
+    {
+      "content": "be left stranded <A>",
+      "translation": "<A> で立ち往生する（足止めを食らう）",
+      "description": ""
+    },
+    {
+      "content": "be left to <somebody>",
+      "translation": "<somebody> に任せられている",
+      "description": ""
+    },
+    {
+      "content": "be littered with <A>",
+      "translation": "<A> （ゴミくず）で散らかっている",
+      "description": ""
+    },
+    {
+      "content": "be located on <A>",
+      "translation": "<A> に置かれている / 見つけられる",
+      "description": ""
+    },
+    {
+      "content": "be lost",
+      "translation": "道に迷っている",
+      "description": ""
+    },
+    {
+      "content": "be made in <A>",
+      "translation": "<A> （国）製である",
+      "description": "すでに存在する場合は、必ず過去形になる"
+    },
+    {
+      "content": "be made up of <players>",
+      "translation": "<players> で構成される",
+      "description": ""
+    },
+    {
+      "content": "be married to <somebody>",
+      "translation": "<somebody> と結婚している",
+      "description": ""
+    },
+    {
+      "content": "be misleading",
+      "translation": "誤解を招く恐れがある",
+      "description": ""
+    },
+    {
+      "content": "be moved by <A>",
+      "translation": "<A> に感動する",
+      "description": ""
+    },
+    {
+      "content": "be named after <A>",
+      "translation": "<A> にちなんだ名前がつけられている",
+      "description": ""
+    },
+    {
+      "content": "be necessary to <A>",
+      "translation": "<A> にとって必要である",
+      "description": ""
+    },
+    {
+      "content": "be no use <doing>",
+      "translation": "<doing> する意味がない",
+      "description": ""
+    },
+    {
+      "content": "be nothing but <A>",
+      "translation": "単なる <A> にすぎない",
+      "description": ""
+    },
+    {
+      "content": "be obliged to <do>",
+      "translation": "<do> することを余儀なくされる",
+      "description": ""
+    },
+    {
+      "content": "be of consequence",
+      "translation": "重要である",
+      "description": "matter"
+    },
+    {
+      "content": "be of help",
+      "translation": "役に立つ",
+      "description": "お役にたてて嬉しいです。のように of で役を担っている様を表す。"
+    },
+    {
+      "content": "be of interest to <somebody>",
+      "translation": "<somebody> の興味をそそる",
+      "description": ""
+    },
+    {
+      "content": "be of some consolation",
+      "translation": "せめてもの慰めである",
+      "description": ""
+    },
+    {
+      "content": "be off to <A>",
+      "translation": "<A> に出かけている",
+      "description": ""
+    },
+    {
+      "content": "be offended by <A>",
+      "translation": "<A> で気分を害している",
+      "description": ""
+    },
+    {
+      "content": "be on",
+      "translation": "（火や電気が）ついている",
+      "description": ""
+    },
+    {
+      "content": "be on <one's> side",
+      "translation": "<one's> を支持する",
+      "description": ""
+    },
+    {
+      "content": "be on display",
+      "translation": "展示されている",
+      "description": ""
+    },
+    {
+      "content": "be on good terms with <somebody>",
+      "translation": "<somebody> と良い関係にある",
+      "description": ""
+    },
+    {
+      "content": "be on the (increase|decrease)",
+      "translation": "(増加|減少) している",
+      "description": ""
+    },
+    {
+      "content": "be only required to <do>",
+      "translation": "<do> するだけでよい",
+      "description": ""
+    },
+    {
+      "content": "be open to argument",
+      "translation": "議論の余地がある",
+      "description": ""
+    },
+    {
+      "content": "be open to misunderstanding",
+      "translation": "誤解を招きやすい",
+      "description": ""
+    },
+    {
+      "content": "be open to the public",
+      "translation": "公開されている",
+      "description": ""
+    },
+    {
+      "content": "be opposed to <A>",
+      "translation": "<A> に反対する",
+      "description": ""
+    },
+    {
+      "content": "be out of order",
+      "translation": "故障中である",
+      "description": ""
+    },
+    {
+      "content": "be out of service",
+      "translation": "停止中である",
+      "description": ""
+    },
+    {
+      "content": "be out of shape",
+      "translation": "体がなまっている",
+      "description": ""
+    },
+    {
+      "content": "be out of stock",
+      "translation": "在庫切れである",
+      "description": ""
+    },
+    {
+      "content": "be out of the question",
+      "translation": "無理な話である",
+      "description": ""
+    },
+    {
+      "content": "be out of work",
+      "translation": "失業中である",
+      "description": ""
+    },
+    {
+      "content": "be over at <A>",
+      "translation": "<A> に訪問中である",
+      "description": ""
+    },
+    {
+      "content": "be overwhelmed with <A>",
+      "translation": "<A> に参っている / 圧倒されている",
+      "description": ""
+    },
+    {
+      "content": "be paralyzed by <A>",
+      "translation": "<A> で麻痺する / 無力になる",
+      "description": " 半身不随"
+    },
+    {
+      "content": "be perceived as <A>",
+      "translation": "<A> だと認知されている",
+      "description": ""
+    },
+    {
+      "content": "be popular among <A>",
+      "translation": "<A> の間で人気がある",
+      "description": ""
+    },
+    {
+      "content": "be promoted to <A>",
+      "translation": "<A> に昇進する",
+      "description": ""
+    },
+    {
+      "content": "be prone to <A>",
+      "translation": "<A> に陥りやすい",
+      "description": ""
+    },
+    {
+      "content": "be proportional to <A>",
+      "translation": "<A> に比例する",
+      "description": ""
+    },
+    {
+      "content": "be proud of <A>",
+      "translation": "<A> に誇りを持つ",
+      "description": ""
+    },
+    {
+      "content": "be punctual in <A>",
+      "translation": "<A> に几帳面である",
+      "description": ""
+    },
+    {
+      "content": "be puzzling to <somebody>",
+      "translation": "<somebody> を困惑させる / 訳がわからない",
+      "description": ""
+    },
+    {
+      "content": "be referred to as <A>",
+      "translation": "<A> と称される",
+      "description": "refer <A> as <B>"
+    },
+    {
+      "content": "be relieved",
+      "translation": "安心している",
+      "description": ""
+    },
+    {
+      "content": "be reluctant to <do>",
+      "translation": "<do> したがらない / 乗り気でない",
+      "description": ""
+    },
+    {
+      "content": "be retired",
+      "translation": "引退している",
+      "description": ""
+    },
+    {
+      "content": "be right up <one's> street ",
+      "translation": "<one's> のお気に入りである",
+      "description": ""
+    },
+    {
+      "content": "be run down",
+      "translation": "衰弱 / 衰退している",
+      "description": ""
+    },
+    {
+      "content": "be satisfied with <A>",
+      "translation": "<A> に満足している",
+      "description": ""
+    },
+    {
+      "content": "be secured to <A>",
+      "translation": "<A> に括り付けられて（施錠されて）いる",
+      "description": ""
+    },
+    {
+      "content": "be sensitive to <A>",
+      "translation": "<A> に対して敏感である",
+      "description": ""
+    },
+    {
+      "content": "be serious about <A>",
+      "translation": "<A> について本気である",
+      "description": "humorous"
+    },
+    {
+      "content": "be short of cash",
+      "translation": "所持金がたりない",
+      "description": ""
+    },
+    {
+      "content": "be skillful with <A>",
+      "translation": "<A> の技能が優れている",
+      "description": ""
+    },
+    {
+      "content": "be soaked with sweat",
+      "translation": "汗だくである",
+      "description": ""
+    },
+    {
+      "content": "be sophisticated",
+      "translation": "洗練されている",
+      "description": ""
+    },
+    {
+      "content": "be sore",
+      "translation": "（患部が）痛む",
+      "description": ""
+    },
+    {
+      "content": "be sorry (for|about) <A>",
+      "translation": "<A> を申し訳なく思う / 気の毒に思う",
+      "description": ""
+    },
+    {
+      "content": "be splendid",
+      "translation": "りっぱである",
+      "description": ""
+    },
+    {
+      "content": "be stuck (in|with) <A>",
+      "translation": "<A> に嵌っている",
+      "description": ""
+    },
+    {
+      "content": "be subject to <A>",
+      "translation": "<A> の対象になる",
+      "description": ""
+    },
+    {
+      "content": "be subject to approval by <A>",
+      "translation": "<A> による承認待ちである",
+      "description": ""
+    },
+    {
+      "content": "be sure to <do>",
+      "translation": "間違いなく <do> する",
+      "description": ""
+    },
+    {
+      "content": "be suspended from school",
+      "translation": "停学処分になる",
+      "description": ""
+    },
+    {
+      "content": "be taken in by <A>",
+      "translation": "<A> に騙される",
+      "description": ""
+    },
+    {
+      "content": "be through",
+      "translation": "終わる / 用が済む / 恋人と別れる",
+      "description": ""
+    },
+    {
+      "content": "be tied up in <A>",
+      "translation": "<A> で忙しい",
+      "description": ""
+    },
+    {
+      "content": "be tipped over",
+      "translation": "ひっくり返させられている",
+      "description": ""
+    },
+    {
+      "content": "be to <do>",
+      "translation": "<do> することになっている",
+      "description": ""
+    },
+    {
+      "content": "be to blame for <A>",
+      "translation": "<A> について罪を負っている",
+      "description": ""
+    },
+    {
+      "content": "be to the point",
+      "translation": "要領を得ている",
+      "description": ""
+    },
+    {
+      "content": "be touched by <A>",
+      "translation": "<A> に心打たれる",
+      "description": ""
+    },
+    {
+      "content": "be transferred to <A>",
+      "translation": "<A> に転勤する",
+      "description": "進行形か完了形のみ be being transferred / have been transferred"
+    },
+    {
+      "content": "be unanimous for <A>",
+      "translation": "<A> について合意している",
+      "description": ""
+    },
+    {
+      "content": "be unanimous in <doing>",
+      "translation": "<doing> することに合意している",
+      "description": ""
+    },
+    {
+      "content": "be unanimous that <...>",
+      "translation": "<...> について合意している",
+      "description": ""
+    },
+    {
+      "content": "be uniform across <A>",
+      "translation": "<A> 間で統一である",
+      "description": ""
+    },
+    {
+      "content": "be upset",
+      "translation": "気が動転している",
+      "description": "in distress"
+    },
+    {
+      "content": "be upside down",
+      "translation": "上下逆である",
+      "description": ""
+    },
+    {
+      "content": "be used to <A>",
+      "translation": "<A> に慣れている",
+      "description": ""
+    },
+    {
+      "content": "be useful for <A>",
+      "translation": "<A> において便利である",
+      "description": "for somebody ではない"
+    },
+    {
+      "content": "be valuable to <A>",
+      "translation": "<A> にとって価値がある",
+      "description": ""
+    },
+    {
+      "content": "be vital for <A>",
+      "translation": "<A> にとって不可欠である",
+      "description": ""
+    },
+    {
+      "content": "be vulnerable to <A>",
+      "translation": "<A> に対して脆い",
+      "description": "capable of hurt"
+    },
+    {
+      "content": "be well off",
+      "translation": "裕福である",
+      "description": ""
+    },
+    {
+      "content": "be wilted",
+      "translation": "しおれている",
+      "description": ""
+    },
+    {
+      "content": "be with <A>",
+      "translation": "<A> と一緒にいる",
+      "description": ""
+    },
+    {
+      "content": "be worth",
+      "translation": "価値がある",
+      "description": ""
+    },
+    {
+      "content": "be worth <A> <doing>",
+      "translation": "<A> が <doing> する価値がある",
+      "description": "代名詞のときは所有格か目的格を使う"
+    },
+    {
+      "content": "be worth <doing>",
+      "translation": "<doing> する価値がある",
+      "description": ""
+    },
+    {
+      "content": "be worthy of <A>",
+      "translation": "<A> にふさわしい",
+      "description": ""
+    },
+    {
+      "content": "be written in <A>",
+      "translation": "<A> 色で書かれている",
+      "description": ""
+    },
+    {
+      "content": "be yet to be <done>",
+      "translation": "まだ <done> していない",
+      "description": ""
+    },
+    {
+      "content": "become <A>",
+      "translation": "<A> になる",
+      "description": ""
+    },
+    {
+      "content": "become aware of <A>",
+      "translation": "<A> に気付く",
+      "description": ""
+    },
+    {
+      "content": "become mellow",
+      "translation": "性格が丸くなる",
+      "description": ""
+    },
+    {
+      "content": "feel <JJ>",
+      "translation": "<JJ> に感じる",
+      "description": "hungry / thirsty / asleep / happy"
+    },
+    {
+      "content": "feel <JJ> <doing>",
+      "translation": "<doing> することを <JJ> だと感じる",
+      "description": ""
+    },
+    {
+      "content": "feel dejected",
+      "translation": "ションボリした気分である",
+      "description": ""
+    },
+    {
+      "content": "feel depressed",
+      "translation": "憂鬱である",
+      "description": ""
+    },
+    {
+      "content": "feel dizzy",
+      "translation": "頭がくらくらする",
+      "description": ""
+    },
+    {
+      "content": "feel hopeless",
+      "translation": "悲観する",
+      "description": ""
+    },
+    {
+      "content": "feel jealous",
+      "translation": "うらやましく思う",
+      "description": ""
+    },
+    {
+      "content": "feel mellow",
+      "translation": "ほろ酔い気分になる",
+      "description": ""
+    },
+    {
+      "content": "feel out of place",
+      "translation": "場違いな気がする",
+      "description": ""
+    },
+    {
+      "content": "feel responsible for <A>",
+      "translation": "<A> について責任を感じる",
+      "description": ""
+    },
+    {
+      "content": "feel rushed",
+      "translation": "焦る",
+      "description": ""
+    },
+    {
+      "content": "feel sick",
+      "translation": "体調が悪い",
+      "description": ""
+    },
+    {
+      "content": "feel sore",
+      "translation": "痛みを感じている",
+      "description": ""
+    },
+    {
+      "content": "feel sorry for <A>",
+      "translation": "<A> を気の毒に思う",
+      "description": ""
+    },
+    {
+      "content": "feel uneasy",
+      "translation": "不安で落ち着かない",
+      "description": ""
+    },
+    {
+      "content": "get (angry|mad|furious) about <A>",
+      "translation": "<A> （状況）に怒る",
+      "description": ""
+    },
+    {
+      "content": "get (angry|mad|furious) at <A>",
+      "translation": "<A> （人）に怒る",
+      "description": ""
+    },
+    {
+      "content": "get (engaged|married) to <somebody>",
+      "translation": "<somebody> と(婚約|結婚) する",
+      "description": ""
+    },
+    {
+      "content": "get along with <somebody>",
+      "translation": "<somebody> と仲良くやっている",
+      "description": ""
+    },
+    {
+      "content": "get backed up",
+      "translation": "渋滞する",
+      "description": ""
+    },
+    {
+      "content": "get broken",
+      "translation": "壊れる",
+      "description": ""
+    },
+    {
+      "content": "get drunk",
+      "translation": "酔っぱらう",
+      "description": ""
+    },
+    {
+      "content": "get frightened",
+      "translation": "びっくりする",
+      "description": ""
+    },
+    {
+      "content": "get used to <A>",
+      "translation": "<A> に慣れる",
+      "description": ""
+    },
+    {
+      "content": "go (bad|off)",
+      "translation": "腐る",
+      "description": ""
+    },
+    {
+      "content": "go hungry",
+      "translation": "空腹になって困る",
+      "description": ""
+    },
+    {
+      "content": "grow accustomed to <A>",
+      "translation": "<A> に適応する",
+      "description": "used よりも固い表現 / get accustomed to <A>"
+    },
+    {
+      "content": "look good on <A>",
+      "translation": "<A> に似合う",
+      "description": ""
+    },
+    {
+      "content": "smell <JJ>",
+      "translation": "<JJ> な匂いがする",
+      "description": ""
+    },
+    {
+      "content": "taste <JJ>",
+      "translation": "<JJ> な味がする",
+      "description": ""
+    },
+    {
+      "content": "taste of <A>",
+      "translation": "<A> の味がする",
+      "description": ""
+    }
+  ]
+}

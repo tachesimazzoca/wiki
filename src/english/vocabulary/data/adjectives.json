@@ -1,0 +1,2358 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "abrupt,unexpected",
+      "translation": "不意で突然の",
+      "description": ""
+    },
+    {
+      "content": "abundant",
+      "translation": "あり余る",
+      "description": ""
+    },
+    {
+      "content": "academic",
+      "translation": "学問的な",
+      "description": ""
+    },
+    {
+      "content": "accessible",
+      "translation": "アクセスできる",
+      "description": ""
+    },
+    {
+      "content": "accurate",
+      "translation": "正確な",
+      "description": "inaccurate"
+    },
+    {
+      "content": "active",
+      "translation": "動いている",
+      "description": "inactive"
+    },
+    {
+      "content": "actual",
+      "translation": "実際の",
+      "description": ""
+    },
+    {
+      "content": "additional,supplementary",
+      "translation": "追加の",
+      "description": ""
+    },
+    {
+      "content": "administrative",
+      "translation": "管理の",
+      "description": ""
+    },
+    {
+      "content": "adorable,pretty,cute,charming",
+      "translation": "愛らしい",
+      "description": ""
+    },
+    {
+      "content": "advanced,progressive,radical",
+      "translation": "革新的な",
+      "description": "radical = 急進的な"
+    },
+    {
+      "content": "adverse",
+      "translation": "不利な",
+      "description": "adverse circumstances = 逆境 / adverse weather conditions = 悪天候"
+    },
+    {
+      "content": "advisable",
+      "translation": "望ましい / 推奨する",
+      "description": ""
+    },
+    {
+      "content": "aforementioned",
+      "translation": "前述の",
+      "description": ""
+    },
+    {
+      "content": "aged",
+      "translation": "年期のある",
+      "description": ""
+    },
+    {
+      "content": "alarming",
+      "translation": "深刻な",
+      "description": ""
+    },
+    {
+      "content": "alike",
+      "translation": "同様の",
+      "description": ""
+    },
+    {
+      "content": "alive",
+      "translation": "生きている",
+      "description": "形容詞のみ。live と混同しないこと"
+    },
+    {
+      "content": "amazing,astonishing",
+      "translation": "驚くほどすごい",
+      "description": ""
+    },
+    {
+      "content": "ambiguous,vague,obscure,uncertain",
+      "translation": "曖昧な",
+      "description": ""
+    },
+    {
+      "content": "ancient",
+      "translation": "古代の",
+      "description": ""
+    },
+    {
+      "content": "annual",
+      "translation": "年次の",
+      "description": "once a year"
+    },
+    {
+      "content": "anomalous",
+      "translation": "例外の",
+      "description": "anomaly 例外"
+    },
+    {
+      "content": "anonymous",
+      "translation": "匿名の",
+      "description": ""
+    },
+    {
+      "content": "anxious",
+      "translation": "（不安や切望で）そわそわした",
+      "description": ""
+    },
+    {
+      "content": "applicable",
+      "translation": "適用できる",
+      "description": ""
+    },
+    {
+      "content": "appropriate,proper,suitable",
+      "translation": "適している",
+      "description": ""
+    },
+    {
+      "content": "approved,endorsed",
+      "translation": "良いと認定されている",
+      "description": "disapproved"
+    },
+    {
+      "content": "arbitrary",
+      "translation": "任意の",
+      "description": ""
+    },
+    {
+      "content": "authentic",
+      "translation": "伝統にしたがった本流の",
+      "description": ""
+    },
+    {
+      "content": "automated",
+      "translation": "自動化された",
+      "description": ""
+    },
+    {
+      "content": "awesome,superb,terrific,marvelous",
+      "translation": "すごい（ヤバい）",
+      "description": "口語的"
+    },
+    {
+      "content": "awful,terrible",
+      "translation": "ひどい",
+      "description": ""
+    },
+    {
+      "content": "awkward",
+      "translation": "ぎこちない",
+      "description": ""
+    },
+    {
+      "content": "bad,evil,wicked",
+      "translation": "悪い",
+      "description": ""
+    },
+    {
+      "content": "bare,mere",
+      "translation": "ぎりぎりわずかの",
+      "description": ""
+    },
+    {
+      "content": "beautiful",
+      "translation": "美しい",
+      "description": ""
+    },
+    {
+      "content": "big,large",
+      "translation": "大きい",
+      "description": ""
+    },
+    {
+      "content": "bitter",
+      "translation": "苦い",
+      "description": ""
+    },
+    {
+      "content": "bold,sassy",
+      "translation": "大胆な / 力強い / 目立つ",
+      "description": ""
+    },
+    {
+      "content": "brave",
+      "translation": "勇敢な",
+      "description": ""
+    },
+    {
+      "content": "brief",
+      "translation": "手短な / 持続性がない",
+      "description": ""
+    },
+    {
+      "content": "bright,luminous",
+      "translation": "明るい",
+      "description": ""
+    },
+    {
+      "content": "brisk",
+      "translation": "活発な",
+      "description": "動詞「活気づける」も brisk"
+    },
+    {
+      "content": "broad",
+      "translation": "広範囲な",
+      "description": ""
+    },
+    {
+      "content": "bulletproof",
+      "translation": "失敗の心配がいらない",
+      "description": "エラー耐性がある。防弾チョッキ"
+    },
+    {
+      "content": "busy,jammed,congested",
+      "translation": "渋滞している",
+      "description": "traffic (jam|congestion)"
+    },
+    {
+      "content": "calm,quiet,composed",
+      "translation": "落ち着いた",
+      "description": ""
+    },
+    {
+      "content": "candid",
+      "translation": "率直な",
+      "description": ""
+    },
+    {
+      "content": "capable",
+      "translation": "使える（受け入れられる）",
+      "description": "incapable"
+    },
+    {
+      "content": "careful,cautious",
+      "translation": "注意深い",
+      "description": "cautious = 用心深い"
+    },
+    {
+      "content": "certain",
+      "translation": "確かな",
+      "description": "uncertain"
+    },
+    {
+      "content": "cheap ! expensive",
+      "translation": "安価な ! 高価な",
+      "description": ""
+    },
+    {
+      "content": "clean",
+      "translation": "きれいな",
+      "description": ""
+    },
+    {
+      "content": "clerical",
+      "translation": "事務の",
+      "description": ""
+    },
+    {
+      "content": "clutch",
+      "translation": "ピンチに強い / 勝負を決める",
+      "description": ""
+    },
+    {
+      "content": "cluttered,messy",
+      "translation": "散らかった ",
+      "description": ""
+    },
+    {
+      "content": "comfortable",
+      "translation": "快適な",
+      "description": ""
+    },
+    {
+      "content": "common",
+      "translation": "共通の",
+      "description": ""
+    },
+    {
+      "content": "competent",
+      "translation": "有能な",
+      "description": ""
+    },
+    {
+      "content": "complex,complicated",
+      "translation": "複雑な",
+      "description": ""
+    },
+    {
+      "content": "comprehensive",
+      "translation": "総合的な",
+      "description": ""
+    },
+    {
+      "content": "compulsory,mandatory",
+      "translation": "強制的な / 義務の",
+      "description": ""
+    },
+    {
+      "content": "concise",
+      "translation": "簡潔な / 単純明快な",
+      "description": ""
+    },
+    {
+      "content": "concurrent,simultaneous",
+      "translation": "同時に起こる",
+      "description": ""
+    },
+    {
+      "content": "conditional",
+      "translation": "条件付きの",
+      "description": ""
+    },
+    {
+      "content": "confident",
+      "translation": "自信がある",
+      "description": ""
+    },
+    {
+      "content": "congruent",
+      "translation": "調和な",
+      "description": ""
+    },
+    {
+      "content": "conscientious",
+      "translation": "誠実な",
+      "description": ""
+    },
+    {
+      "content": "conscious",
+      "translation": "意識的な / 自覚している",
+      "description": ""
+    },
+    {
+      "content": "consistent,coherent",
+      "translation": "一貫性のある / ブレない",
+      "description": "inconsistent"
+    },
+    {
+      "content": "contagious,spreading",
+      "translation": "伝染性の",
+      "description": "contagious disease"
+    },
+    {
+      "content": "contemporary",
+      "translation": "同時代の",
+      "description": "contemporary literatures = 現代文学 /「現代の」の意味では modern を使う。"
+    },
+    {
+      "content": "continuing,ongoing",
+      "translation": "進行中の",
+      "description": "in progress"
+    },
+    {
+      "content": "continuous,consecutive",
+      "translation": "連続した",
+      "description": ""
+    },
+    {
+      "content": "conventional",
+      "translation": "従来の",
+      "description": ""
+    },
+    {
+      "content": "cool,aloof,distant",
+      "translation": "よそよそしい",
+      "description": ""
+    },
+    {
+      "content": "cooperative",
+      "translation": "協力的な",
+      "description": "uncooperative"
+    },
+    {
+      "content": "corporal",
+      "translation": "肉体的な",
+      "description": "corporal punishment = 体罰"
+    },
+    {
+      "content": "correct",
+      "translation": "正しい（誤りがない）",
+      "description": "incorrect"
+    },
+    {
+      "content": "corresponding",
+      "translation": "対になる",
+      "description": "対になる結合対象を修飾"
+    },
+    {
+      "content": "corrupt",
+      "translation": "腐敗した / 壊れた",
+      "description": "The file is corrupt."
+    },
+    {
+      "content": "cousory",
+      "translation": "雑に / ざくっと",
+      "description": ""
+    },
+    {
+      "content": "cramped",
+      "translation": "窮屈な",
+      "description": "spacious"
+    },
+    {
+      "content": "crazy,mad",
+      "translation": "気が狂った",
+      "description": ""
+    },
+    {
+      "content": "crispy",
+      "translation": "カリっと香ばしい",
+      "description": ""
+    },
+    {
+      "content": "critical",
+      "translation": "成否を左右するほど重要な",
+      "description": ""
+    },
+    {
+      "content": "crucial",
+      "translation": "極めて重要な（無視できない）",
+      "description": ""
+    },
+    {
+      "content": "cruel,brutal",
+      "translation": "残酷な",
+      "description": ""
+    },
+    {
+      "content": "curious,inquisitive",
+      "translation": "好奇心旺盛な",
+      "description": ""
+    },
+    {
+      "content": "cynical",
+      "translation": "皮肉な / 冷笑的な",
+      "description": ""
+    },
+    {
+      "content": "damaged",
+      "translation": "ボロボロの",
+      "description": ""
+    },
+    {
+      "content": "dangerous",
+      "translation": "危険な",
+      "description": ""
+    },
+    {
+      "content": "dark,gloomy",
+      "translation": "暗い",
+      "description": ""
+    },
+    {
+      "content": "daunting",
+      "translation": "怖じ気づくほど困難である",
+      "description": ""
+    },
+    {
+      "content": "dazzling",
+      "translation": "眩しい（まばゆい）",
+      "description": ""
+    },
+    {
+      "content": "dead",
+      "translation": "死んでいる",
+      "description": ""
+    },
+    {
+      "content": "decent",
+      "translation": "まともな",
+      "description": ""
+    },
+    {
+      "content": "dedicated",
+      "translation": "専用の",
+      "description": ""
+    },
+    {
+      "content": "deep ! shallow",
+      "translation": "深い ! 浅い",
+      "description": ""
+    },
+    {
+      "content": "defective",
+      "translation": "欠陥のある",
+      "description": ""
+    },
+    {
+      "content": "delicious",
+      "translation": "とても美味しい",
+      "description": "「とても」が含まれているので very は伴わない"
+    },
+    {
+      "content": "demanding",
+      "translation": "要求の多い",
+      "description": ""
+    },
+    {
+      "content": "depressing,dismal",
+      "translation": "気が滅入る",
+      "description": ""
+    },
+    {
+      "content": "derivative",
+      "translation": "派生した",
+      "description": ""
+    },
+    {
+      "content": "desirable,preferable",
+      "translation": "好ましい / そうであると尚良い",
+      "description": ""
+    },
+    {
+      "content": "desperate",
+      "translation": "自暴自棄な / 無鉄砲な / 絶望的に悲惨な",
+      "description": ""
+    },
+    {
+      "content": "despicable,scummy",
+      "translation": "卑劣な",
+      "description": ""
+    },
+    {
+      "content": "detrimental",
+      "translation": "害しやすい",
+      "description": ""
+    },
+    {
+      "content": "devastating",
+      "translation": "壊滅的な",
+      "description": ""
+    },
+    {
+      "content": "diligent,studious",
+      "translation": "勤勉な",
+      "description": "lazy"
+    },
+    {
+      "content": "dim",
+      "translation": "かすんだ / ぼやけた / 薄暗い",
+      "description": ""
+    },
+    {
+      "content": "diplomatic",
+      "translation": "外交上の",
+      "description": ""
+    },
+    {
+      "content": "dirty,nasty",
+      "translation": "汚い",
+      "description": ""
+    },
+    {
+      "content": "disappointed",
+      "translation": "がっかりする",
+      "description": ""
+    },
+    {
+      "content": "discrete",
+      "translation": "区分けされた",
+      "description": ""
+    },
+    {
+      "content": "disgusting",
+      "translation": "胸くそ悪い",
+      "description": ""
+    },
+    {
+      "content": "dispensable",
+      "translation": "不必要な",
+      "description": "indispensable"
+    },
+    {
+      "content": "distinct",
+      "translation": "他とは異なる / 区別できる",
+      "description": "唯一の unique ではない"
+    },
+    {
+      "content": "diverse",
+      "translation": "多様な",
+      "description": "diversity"
+    },
+    {
+      "content": "domestic",
+      "translation": "家庭内の / 国内の",
+      "description": ""
+    },
+    {
+      "content": "dominant",
+      "translation": "支配的な / 圧倒的な",
+      "description": ""
+    },
+    {
+      "content": "doubtful,suspicious",
+      "translation": "疑わしい",
+      "description": ""
+    },
+    {
+      "content": "downtown",
+      "translation": "商業地区の",
+      "description": "downtown New York = ニューヨーク市街"
+    },
+    {
+      "content": "drastic",
+      "translation": "抜本的な",
+      "description": ""
+    },
+    {
+      "content": "dry ! wet",
+      "translation": "乾燥した ! 濡れた",
+      "description": ""
+    },
+    {
+      "content": "dubious",
+      "translation": "半信半疑な",
+      "description": ""
+    },
+    {
+      "content": "duplicate",
+      "translation": "複製の",
+      "description": ""
+    },
+    {
+      "content": "durable,robust",
+      "translation": "耐性のある",
+      "description": ""
+    },
+    {
+      "content": "dying,wilting,wilted",
+      "translation": "枯れた",
+      "description": ""
+    },
+    {
+      "content": "eager,anxious",
+      "translation": "切望している",
+      "description": "anxious = 不安がある"
+    },
+    {
+      "content": "easy ! difficult",
+      "translation": "簡単な ! 難しい",
+      "description": ""
+    },
+    {
+      "content": "easy ! uneasy",
+      "translation": "気楽な ! 気が休まらない",
+      "description": ""
+    },
+    {
+      "content": "edible",
+      "translation": "食べられる",
+      "description": "inedible"
+    },
+    {
+      "content": "efficient,effective",
+      "translation": "効果的な",
+      "description": "inefficient,ineffective"
+    },
+    {
+      "content": "elaborate,exquisite",
+      "translation": "精巧な",
+      "description": "exquisite = 優美さを持つ"
+    },
+    {
+      "content": "elderly",
+      "translation": "年寄りの",
+      "description": "old"
+    },
+    {
+      "content": "elegant,decent",
+      "translation": "上品な",
+      "description": "inelegant,indecent"
+    },
+    {
+      "content": "eloquent",
+      "translation": "雄弁な",
+      "description": ""
+    },
+    {
+      "content": "embarrassed,ashamed,shameful",
+      "translation": "恥ずかしい",
+      "description": ""
+    },
+    {
+      "content": "endangered",
+      "translation": "絶滅寸前の",
+      "description": ""
+    },
+    {
+      "content": "enough,sufficient,adequate",
+      "translation": "十分な",
+      "description": "adequate = 必要最低限の"
+    },
+    {
+      "content": "enthusiastic,avid,fanatical",
+      "translation": "熱狂的な オタクな",
+      "description": ""
+    },
+    {
+      "content": "entire",
+      "translation": "全ての",
+      "description": ""
+    },
+    {
+      "content": "equal",
+      "translation": "等しい",
+      "description": ""
+    },
+    {
+      "content": "equivalent",
+      "translation": "同等の（同じ価値の）",
+      "description": ""
+    },
+    {
+      "content": "eternal",
+      "translation": "永遠な",
+      "description": ""
+    },
+    {
+      "content": "ethical",
+      "translation": "倫理的な",
+      "description": ""
+    },
+    {
+      "content": "evil",
+      "translation": "凶悪な",
+      "description": ""
+    },
+    {
+      "content": "exclusive",
+      "translation": "限定の / 排他の",
+      "description": ""
+    },
+    {
+      "content": "expected,anticipated",
+      "translation": "期待される",
+      "description": "anticipated = 悪いことも取り越し苦労する"
+    },
+    {
+      "content": "experienced",
+      "translation": "経験豊富な",
+      "description": "inexperienced"
+    },
+    {
+      "content": "expert,skillfull,accomplished,proficient",
+      "translation": "熟達した",
+      "description": ""
+    },
+    {
+      "content": "exponential",
+      "translation": "指数的な",
+      "description": ""
+    },
+    {
+      "content": "extensive",
+      "translation": "広範囲な",
+      "description": "intensive"
+    },
+    {
+      "content": "extraordinary,exceptional",
+      "translation": "異常な / 並外れた",
+      "description": ""
+    },
+    {
+      "content": "extreme,excessive,intense",
+      "translation": "極端な",
+      "description": "intense = 強烈な"
+    },
+    {
+      "content": "fake,bogus",
+      "translation": "偽物の",
+      "description": ""
+    },
+    {
+      "content": "famous,noted",
+      "translation": "名高い",
+      "description": "infamous = 悪名高い"
+    },
+    {
+      "content": "fascinating,attractive",
+      "translation": "わくわくする",
+      "description": ""
+    },
+    {
+      "content": "favorable,agreeable",
+      "translation": "好ましい",
+      "description": "unfavorable"
+    },
+    {
+      "content": "feasible,doable",
+      "translation": "実現可能な",
+      "description": "infeasible"
+    },
+    {
+      "content": "federal",
+      "translation": "連邦制の",
+      "description": ""
+    },
+    {
+      "content": "ferocious",
+      "translation": "獰猛な",
+      "description": ""
+    },
+    {
+      "content": "fertile",
+      "translation": "肥えた / 豊作をもたらす",
+      "description": "(fertile|poor) soil"
+    },
+    {
+      "content": "fierce",
+      "translation": "熾烈な",
+      "description": ""
+    },
+    {
+      "content": "firsthand",
+      "translation": "実地の / 現場の",
+      "description": "firsthand experience = 現場経験"
+    },
+    {
+      "content": "fixed,repaired",
+      "translation": "修繕された",
+      "description": ""
+    },
+    {
+      "content": "flaky,breakable,fragile",
+      "translation": "壊れやすい",
+      "description": ""
+    },
+    {
+      "content": "flammable",
+      "translation": "可燃性の",
+      "description": ""
+    },
+    {
+      "content": "flash,loud",
+      "translation": "派手な",
+      "description": ""
+    },
+    {
+      "content": "flawed",
+      "translation": "欠陥のある",
+      "description": ""
+    },
+    {
+      "content": "flexible",
+      "translation": "柔軟な",
+      "description": ""
+    },
+    {
+      "content": "foolish,stupid,silly,absurd,preposterous",
+      "translation": "間抜けな",
+      "description": ""
+    },
+    {
+      "content": "foolproof",
+      "translation": "誰でも使える",
+      "description": ""
+    },
+    {
+      "content": "formal,prim,starchy",
+      "translation": "堅苦しい",
+      "description": "informal"
+    },
+    {
+      "content": "fragrant,aromatic",
+      "translation": "香り高い",
+      "description": ""
+    },
+    {
+      "content": "fraudulent",
+      "translation": "詐欺（ズル）の",
+      "description": "fraud = 詐欺"
+    },
+    {
+      "content": "free,complimentary",
+      "translation": "無料の",
+      "description": ""
+    },
+    {
+      "content": "fresh",
+      "translation": "新鮮な",
+      "description": ""
+    },
+    {
+      "content": "friendly,amiable,affable",
+      "translation": "人なつこい",
+      "description": ""
+    },
+    {
+      "content": "fruitful",
+      "translation": "実りのある / 有益な",
+      "description": ""
+    },
+    {
+      "content": "frustrated,stressful",
+      "translation": "欲求不満の",
+      "description": ""
+    },
+    {
+      "content": "functional",
+      "translation": "機能的な",
+      "description": "fully functional = 万能の"
+    },
+    {
+      "content": "funny,hilarious,humorous",
+      "translation": "面白い",
+      "description": "funny は「楽しい」に近い"
+    },
+    {
+      "content": "furious",
+      "translation": "怒り狂った",
+      "description": "furiously"
+    },
+    {
+      "content": "furnished",
+      "translation": "家具付きの",
+      "description": ""
+    },
+    {
+      "content": "general",
+      "translation": "一般的な",
+      "description": ""
+    },
+    {
+      "content": "generous",
+      "translation": "寛大な / 気前のよい",
+      "description": ""
+    },
+    {
+      "content": "genuine",
+      "translation": "本物の / 正真正銘の",
+      "description": ""
+    },
+    {
+      "content": "gibberish",
+      "translation": "無意味な",
+      "description": ""
+    },
+    {
+      "content": "giddy",
+      "translation": "目まいがする",
+      "description": ""
+    },
+    {
+      "content": "gigantic",
+      "translation": "膨大な",
+      "description": ""
+    },
+    {
+      "content": "glad",
+      "translation": "嬉しがっている",
+      "description": ""
+    },
+    {
+      "content": "gorgeous,splended",
+      "translation": "華麗な",
+      "description": ""
+    },
+    {
+      "content": "graceful",
+      "translation": "優雅な",
+      "description": ""
+    },
+    {
+      "content": "gracious",
+      "translation": "寛大な",
+      "description": ""
+    },
+    {
+      "content": "gradual",
+      "translation": "なだらかな",
+      "description": ""
+    },
+    {
+      "content": "great,excellent,fabulous",
+      "translation": "大変良い",
+      "description": ""
+    },
+    {
+      "content": "greedy,eager",
+      "translation": "貪欲な",
+      "description": "「一目もくれず」のようなネガティブな意味"
+    },
+    {
+      "content": "groggy",
+      "translation": "ふらふらした / よろめいた",
+      "description": ""
+    },
+    {
+      "content": "gross",
+      "translation": "下劣な / ひどく不味い",
+      "description": ""
+    },
+    {
+      "content": "grubby",
+      "translation": "ウジ虫のわいた汚い",
+      "description": ""
+    },
+    {
+      "content": "grumpy",
+      "translation": "意地悪な / 性悪な",
+      "description": ""
+    },
+    {
+      "content": "happy",
+      "translation": "幸せに思う",
+      "description": ""
+    },
+    {
+      "content": "harmful",
+      "translation": "有害な",
+      "description": "harmless"
+    },
+    {
+      "content": "hateful",
+      "translation": "いまいましい",
+      "description": ""
+    },
+    {
+      "content": "haughty",
+      "translation": "高慢な",
+      "description": ""
+    },
+    {
+      "content": "healing,remedial,sanative",
+      "translation": "癒しの",
+      "description": ""
+    },
+    {
+      "content": "healthy,nutritious",
+      "translation": "健康的な / 栄養のある",
+      "description": ""
+    },
+    {
+      "content": "helpful",
+      "translation": "助けになる",
+      "description": "helpless"
+    },
+    {
+      "content": "hereditary",
+      "translation": "遺伝性の / 親譲りの / 代々受け継がれた",
+      "description": ""
+    },
+    {
+      "content": "historic",
+      "translation": "歴史的な",
+      "description": "historic discovery = 歴史的発見"
+    },
+    {
+      "content": "hollow",
+      "translation": "空洞の",
+      "description": ""
+    },
+    {
+      "content": "holy,sacred",
+      "translation": "神聖な",
+      "description": ""
+    },
+    {
+      "content": "homogeneous ! heterogeneous",
+      "translation": "同質の ! 異質の",
+      "description": ""
+    },
+    {
+      "content": "hopeful",
+      "translation": "希望に満ちている",
+      "description": ""
+    },
+    {
+      "content": "horrible,horrific",
+      "translation": "恐ろしい",
+      "description": ""
+    },
+    {
+      "content": "hostile",
+      "translation": "敵意のある",
+      "description": ""
+    },
+    {
+      "content": "hot,spicy",
+      "translation": "辛い",
+      "description": ""
+    },
+    {
+      "content": "huge,immense,enormous,tremendous",
+      "translation": "莫大な",
+      "description": "immense = 規格外 / enormous = 範囲外 / tremendous = 予想外（すばらしい）"
+    },
+    {
+      "content": "hysteric",
+      "translation": "ヒステリックな",
+      "description": ""
+    },
+    {
+      "content": "iconic",
+      "translation": "象徴的な",
+      "description": ""
+    },
+    {
+      "content": "ideal",
+      "translation": "理想的な",
+      "description": ""
+    },
+    {
+      "content": "identical",
+      "translation": "全く同じ",
+      "description": ""
+    },
+    {
+      "content": "ignorant,untrained",
+      "translation": "無知な",
+      "description": ""
+    },
+    {
+      "content": "immediate,urgent",
+      "translation": "急ぎの",
+      "description": ""
+    },
+    {
+      "content": "imperative",
+      "translation": "緊急命令的な",
+      "description": ""
+    },
+    {
+      "content": "important",
+      "translation": "重要な",
+      "description": ""
+    },
+    {
+      "content": "inaugural",
+      "translation": "初の",
+      "description": "the inaugral issue = 創刊号"
+    },
+    {
+      "content": "indecisive",
+      "translation": "優柔不断な",
+      "description": ""
+    },
+    {
+      "content": "inevitable,fateful",
+      "translation": "避けられない",
+      "description": ""
+    },
+    {
+      "content": "inferior",
+      "translation": "粗悪な",
+      "description": ""
+    },
+    {
+      "content": "informed",
+      "translation": "識見のある / 知的な",
+      "description": ""
+    },
+    {
+      "content": "ingenious",
+      "translation": "独創的な",
+      "description": ""
+    },
+    {
+      "content": "ingrained",
+      "translation": "根深い",
+      "description": ""
+    },
+    {
+      "content": "inherent",
+      "translation": "本来備わっている",
+      "description": ""
+    },
+    {
+      "content": "inner ! outer",
+      "translation": "内の ! 外の",
+      "description": ""
+    },
+    {
+      "content": "inquisitive",
+      "translation": "根掘り葉掘り知りたがる",
+      "description": ""
+    },
+    {
+      "content": "insidious",
+      "translation": "油断ならない / 危険が潜んだ",
+      "description": ""
+    },
+    {
+      "content": "insightful",
+      "translation": "洞察力のある",
+      "description": ""
+    },
+    {
+      "content": "insurgent",
+      "translation": "反乱で暴徒化した",
+      "description": ""
+    },
+    {
+      "content": "intact",
+      "translation": "無傷である",
+      "description": "叙述的用法のみ。be intact / keep it intact / remain intact"
+    },
+    {
+      "content": "integral",
+      "translation": "不可欠な",
+      "description": ""
+    },
+    {
+      "content": "intellectual",
+      "translation": "知的な",
+      "description": ""
+    },
+    {
+      "content": "intensive ! extensive",
+      "translation": "徹底的な ! 広範囲な",
+      "description": ""
+    },
+    {
+      "content": "intentional,deliberate",
+      "translation": "意図的な",
+      "description": ""
+    },
+    {
+      "content": "interesting",
+      "translation": "興味深い",
+      "description": ""
+    },
+    {
+      "content": "interim",
+      "translation": "臨時の",
+      "description": ""
+    },
+    {
+      "content": "interpersonal",
+      "translation": "対人の",
+      "description": "interpersonal skill"
+    },
+    {
+      "content": "intimate",
+      "translation": "（肉体関係があるほど）親密な",
+      "description": "親友程度の親密さは close を使う"
+    },
+    {
+      "content": "invaluable,precious",
+      "translation": "貴重な",
+      "description": "invaluable は、価値を計れないほど「貴重」"
+    },
+    {
+      "content": "kind,thoughtful,considerate",
+      "translation": "親切な / 思いやりのある",
+      "description": ""
+    },
+    {
+      "content": "knowledgeable",
+      "translation": "もの知りな",
+      "description": "unknowledgeable"
+    },
+    {
+      "content": "lackluster,dreary",
+      "translation": "どんよりとした / 活気のない",
+      "description": "without vitality / dull"
+    },
+    {
+      "content": "last,final,ultimate",
+      "translation": "最後の",
+      "description": ""
+    },
+    {
+      "content": "leading ! trailing",
+      "translation": "先頭の ! 末尾の",
+      "description": ""
+    },
+    {
+      "content": "legal",
+      "translation": "合法の",
+      "description": "illegal"
+    },
+    {
+      "content": "lengthy",
+      "translation": "長期的な / 長たらしい",
+      "description": ""
+    },
+    {
+      "content": "likely",
+      "translation": "ありそうな",
+      "description": ""
+    },
+    {
+      "content": "logical",
+      "translation": "論理的な",
+      "description": "illogical"
+    },
+    {
+      "content": "lonely",
+      "translation": "孤独な",
+      "description": "alone は叙述用法 SVC のみ"
+    },
+    {
+      "content": "loose",
+      "translation": "ゆるい",
+      "description": ""
+    },
+    {
+      "content": "loyal",
+      "translation": "常連の",
+      "description": ""
+    },
+    {
+      "content": "lush,verdant",
+      "translation": "青々とした",
+      "description": ""
+    },
+    {
+      "content": "luxurious",
+      "translation": "贅沢な",
+      "description": ""
+    },
+    {
+      "content": "magnificent,majestic",
+      "translation": "壮大な",
+      "description": "far superior to everyday stuff"
+    },
+    {
+      "content": "major ! minor",
+      "translation": "主要な ! 少数の",
+      "description": ""
+    },
+    {
+      "content": "malleable",
+      "translation": "捏造しやすい",
+      "description": ""
+    },
+    {
+      "content": "manageable",
+      "translation": "管理可能な",
+      "description": ""
+    },
+    {
+      "content": "managerial",
+      "translation": "経営管理上の",
+      "description": ""
+    },
+    {
+      "content": "martial",
+      "translation": "好戦的な",
+      "description": ""
+    },
+    {
+      "content": "massive",
+      "translation": "大規模な",
+      "description": "濃くどっしりとした力強さ"
+    },
+    {
+      "content": "mature,ripe",
+      "translation": "成熟した",
+      "description": ""
+    },
+    {
+      "content": "mean",
+      "translation": "意地が悪い",
+      "description": "女性言葉"
+    },
+    {
+      "content": "mediocre",
+      "translation": "平凡な",
+      "description": ""
+    },
+    {
+      "content": "merry,joyful",
+      "translation": "陽気な",
+      "description": ""
+    },
+    {
+      "content": "mild",
+      "translation": "穏やかな",
+      "description": ""
+    },
+    {
+      "content": "minute",
+      "translation": "微細の",
+      "description": "分の minute とスペルは同じだが、発音は mAi\"nu:t"
+    },
+    {
+      "content": "miserable",
+      "translation": "惨めな",
+      "description": ""
+    },
+    {
+      "content": "moderate",
+      "translation": "中くらいの",
+      "description": ""
+    },
+    {
+      "content": "modern",
+      "translation": "現代の",
+      "description": ""
+    },
+    {
+      "content": "modest,humble",
+      "translation": "謙虚な",
+      "description": "humble = 意識を高めて目立つ事を嫌う中流 / humble background = 庶民的な生活環境"
+    },
+    {
+      "content": "moral,ethical,virtuous",
+      "translation": "道徳的な",
+      "description": "ethical = 正義の / virtuous = 高潔な"
+    },
+    {
+      "content": "multiple",
+      "translation": "複数の",
+      "description": ""
+    },
+    {
+      "content": "municipal",
+      "translation": "市営の",
+      "description": ""
+    },
+    {
+      "content": "mutual",
+      "translation": "相互の",
+      "description": "mutual interest"
+    },
+    {
+      "content": "mythological",
+      "translation": "神秘的な",
+      "description": "myth = 神話"
+    },
+    {
+      "content": "natural",
+      "translation": "自然の",
+      "description": "unnatural"
+    },
+    {
+      "content": "nearby",
+      "translation": "近くの",
+      "description": ""
+    },
+    {
+      "content": "necessary,essential,vital,pivotal,integral",
+      "translation": "必要な / 不可欠な",
+      "description": "vital = 命に関わる / pivotal = 中枢の"
+    },
+    {
+      "content": "negligible",
+      "translation": "取るに足らない",
+      "description": ""
+    },
+    {
+      "content": "nervous",
+      "translation": "神経質な",
+      "description": ""
+    },
+    {
+      "content": "next,following,subsequent",
+      "translation": "次の",
+      "description": "the following day = 翌日"
+    },
+    {
+      "content": "noisy",
+      "translation": "うるさい",
+      "description": ""
+    },
+    {
+      "content": "normal",
+      "translation": "通常の",
+      "description": "abnormal,anomalous"
+    },
+    {
+      "content": "nosy",
+      "translation": "おせっかいな",
+      "description": ""
+    },
+    {
+      "content": "notorious",
+      "translation": "忌々しい / 悪名高い",
+      "description": ""
+    },
+    {
+      "content": "numerous,innumerable",
+      "translation": "無数の",
+      "description": ""
+    },
+    {
+      "content": "obvious,apparent",
+      "translation": "明らかな",
+      "description": ""
+    },
+    {
+      "content": "occasional",
+      "translation": "時たまの",
+      "description": "occasionnaly"
+    },
+    {
+      "content": "old,obsolete,outdated",
+      "translation": "古い / 古風な / 時代遅れの",
+      "description": ""
+    },
+    {
+      "content": "optimistic ! pessimistic",
+      "translation": "楽観的な ! 悲観的な",
+      "description": ""
+    },
+    {
+      "content": "optional",
+      "translation": "任意の",
+      "description": ""
+    },
+    {
+      "content": "other,alternative",
+      "translation": "別の",
+      "description": ""
+    },
+    {
+      "content": "overseas",
+      "translation": "海外の",
+      "description": ""
+    },
+    {
+      "content": "painful",
+      "translation": "（客観的に）痛々しい",
+      "description": ""
+    },
+    {
+      "content": "pale",
+      "translation": "顔が青ざめた / 色が薄い / 弱々しい",
+      "description": ""
+    },
+    {
+      "content": "passionate",
+      "translation": "熱烈な",
+      "description": ""
+    },
+    {
+      "content": "patient",
+      "translation": "我慢強い",
+      "description": "impatient"
+    },
+    {
+      "content": "periodical,regular",
+      "translation": "定期の",
+      "description": ""
+    },
+    {
+      "content": "permanent",
+      "translation": "常設の",
+      "description": "permanent address = 本籍地"
+    },
+    {
+      "content": "persistent",
+      "translation": "持続性のある / ねばり強い",
+      "description": ""
+    },
+    {
+      "content": "persuasive,influential",
+      "translation": "説得力がある",
+      "description": ""
+    },
+    {
+      "content": "physical ! spiritual",
+      "translation": "肉体的な ! 精神的な",
+      "description": ""
+    },
+    {
+      "content": "plain",
+      "translation": "そのままの",
+      "description": ""
+    },
+    {
+      "content": "pleasant",
+      "translation": "気持ちのよい",
+      "description": ""
+    },
+    {
+      "content": "pointless",
+      "translation": "無意味な",
+      "description": ""
+    },
+    {
+      "content": "polite,courteous",
+      "translation": "礼儀正しい",
+      "description": "impolite"
+    },
+    {
+      "content": "poor",
+      "translation": "貧しい",
+      "description": ""
+    },
+    {
+      "content": "populous,crowded",
+      "translation": "人口が多い",
+      "description": ""
+    },
+    {
+      "content": "possible",
+      "translation": "可能な",
+      "description": "impossible"
+    },
+    {
+      "content": "practical,pragmatic",
+      "translation": "実用的な",
+      "description": "impractical"
+    },
+    {
+      "content": "precise",
+      "translation": "精密な",
+      "description": "imprecise"
+    },
+    {
+      "content": "preliminary",
+      "translation": "予備の / 暫定の / 本番前の",
+      "description": "preliminary round = 予選"
+    },
+    {
+      "content": "prestigious",
+      "translation": "権威ある",
+      "description": ""
+    },
+    {
+      "content": "previous",
+      "translation": "前の",
+      "description": ""
+    },
+    {
+      "content": "priceless",
+      "translation": "値段がつけられないほど高価な",
+      "description": ""
+    },
+    {
+      "content": "primary,principal",
+      "translation": "主候補の",
+      "description": "secondary"
+    },
+    {
+      "content": "prime",
+      "translation": "主要な",
+      "description": ""
+    },
+    {
+      "content": "primitive",
+      "translation": "原始的な",
+      "description": ""
+    },
+    {
+      "content": "principal",
+      "translation": "主要な",
+      "description": ""
+    },
+    {
+      "content": "probationary",
+      "translation": "見習いの",
+      "description": "probationary period = 試用期間"
+    },
+    {
+      "content": "profitable,lucrative",
+      "translation": "儲かる",
+      "description": ""
+    },
+    {
+      "content": "profound",
+      "translation": "（考えなどの）深みがある",
+      "description": ""
+    },
+    {
+      "content": "prominent",
+      "translation": "突出した / 傑出した / 卓越した",
+      "description": ""
+    },
+    {
+      "content": "promising",
+      "translation": "有望な",
+      "description": ""
+    },
+    {
+      "content": "prompt",
+      "translation": "迅速な",
+      "description": ""
+    },
+    {
+      "content": "prospective",
+      "translation": "将来（有望）の",
+      "description": "a prospective client = 有望な顧客"
+    },
+    {
+      "content": "prosperous",
+      "translation": "栄えている",
+      "description": ""
+    },
+    {
+      "content": "prurient",
+      "translation": "好色の",
+      "description": ""
+    },
+    {
+      "content": "pseudo",
+      "translation": "疑似の",
+      "description": ""
+    },
+    {
+      "content": "pure,absolute,utter",
+      "translation": "純粋な",
+      "description": "impure"
+    },
+    {
+      "content": "racial",
+      "translation": "人種上の",
+      "description": ""
+    },
+    {
+      "content": "rare",
+      "translation": "珍しい",
+      "description": ""
+    },
+    {
+      "content": "rational",
+      "translation": "合理的な",
+      "description": "irrational = でたらめな"
+    },
+    {
+      "content": "real",
+      "translation": "現実の",
+      "description": "unreal"
+    },
+    {
+      "content": "reasonable",
+      "translation": "正当な / 妥当な / 道理をわきまえた",
+      "description": "unreasonable / 合理的 rational は正しいとは限らない"
+    },
+    {
+      "content": "reckless",
+      "translation": "無鉄砲な",
+      "description": ""
+    },
+    {
+      "content": "regular",
+      "translation": "規則的な",
+      "description": ""
+    },
+    {
+      "content": "relevant",
+      "translation": "関係性のある",
+      "description": "irrelevant = 的外れな"
+    },
+    {
+      "content": "reliable,dependable",
+      "translation": "信頼性のある",
+      "description": "unreliable"
+    },
+    {
+      "content": "religious",
+      "translation": "信心深い",
+      "description": ""
+    },
+    {
+      "content": "remarkable,notable,considerable",
+      "translation": "注目すべき / 無視できない",
+      "description": "unremarkable"
+    },
+    {
+      "content": "repetitious,repetitive",
+      "translation": "繰り返しでくどい",
+      "description": ""
+    },
+    {
+      "content": "repulsive",
+      "translation": "おぞましい / 反発をうむ",
+      "description": ""
+    },
+    {
+      "content": "resourceful",
+      "translation": "やりくり上手な",
+      "description": ""
+    },
+    {
+      "content": "respective",
+      "translation": "めいめいの",
+      "description": "each は単数だが、respective はそれぞれが対を持っている複数を表現する。"
+    },
+    {
+      "content": "rich,affluent",
+      "translation": "豊かな / 裕福な",
+      "description": ""
+    },
+    {
+      "content": "ridiculous,absurd",
+      "translation": "ばかばかしくて話にならない",
+      "description": ""
+    },
+    {
+      "content": "right ! wrong",
+      "translation": "正しい ! 誤った",
+      "description": ""
+    },
+    {
+      "content": "romantic",
+      "translation": "恋愛に適した",
+      "description": "romantic interest = 恋愛感情"
+    },
+    {
+      "content": "rotten",
+      "translation": "腐っている",
+      "description": ""
+    },
+    {
+      "content": "rude,crude,offensive",
+      "translation": "無礼な",
+      "description": "crude = 下品な / offensive = 侮辱的な"
+    },
+    {
+      "content": "rusty",
+      "translation": "錆び付いた",
+      "description": ""
+    },
+    {
+      "content": "sad",
+      "translation": "悲しがっている",
+      "description": ""
+    },
+    {
+      "content": "safe,secure",
+      "translation": "安全な",
+      "description": "unsafe,insecure"
+    },
+    {
+      "content": "salty",
+      "translation": "塩辛い",
+      "description": ""
+    },
+    {
+      "content": "same ! different",
+      "translation": "同じ ! 違う",
+      "description": "indifferent とくに変わりない"
+    },
+    {
+      "content": "sane",
+      "translation": "正気の",
+      "description": "insane"
+    },
+    {
+      "content": "sarcastic",
+      "translation": "皮肉な / いやみな",
+      "description": ""
+    },
+    {
+      "content": "satisfied,fulfilled",
+      "translation": "満たされた",
+      "description": ""
+    },
+    {
+      "content": "scarce",
+      "translation": "不足した / 貴重な",
+      "description": "scarcely"
+    },
+    {
+      "content": "scenic",
+      "translation": "景色が良い",
+      "description": ""
+    },
+    {
+      "content": "selfish,arrogant,egoistic,blatant",
+      "translation": "傲慢な",
+      "description": ""
+    },
+    {
+      "content": "semantic",
+      "translation": "意味論の",
+      "description": "semantically secure = 意味論で（証明できないが実質）安全な"
+    },
+    {
+      "content": "senior ! junior",
+      "translation": "年上の ! 年下の",
+      "description": ""
+    },
+    {
+      "content": "sensible",
+      "translation": "賢明な",
+      "description": ""
+    },
+    {
+      "content": "sensitive,delicate",
+      "translation": "慎重に取り扱うべき",
+      "description": ""
+    },
+    {
+      "content": "serious,solemn",
+      "translation": "真剣な",
+      "description": "solemn = 厳粛な"
+    },
+    {
+      "content": "severe,harsh,bitter",
+      "translation": "深刻な / 過酷な / 痛烈な",
+      "description": "シビア"
+    },
+    {
+      "content": "shabby",
+      "translation": "（衣服等が）よれよれの",
+      "description": ""
+    },
+    {
+      "content": "sheer",
+      "translation": "まったくの / 他の形容ができない",
+      "description": ""
+    },
+    {
+      "content": "short ! long",
+      "translation": "短い ! 長い",
+      "description": ""
+    },
+    {
+      "content": "shy,timid",
+      "translation": "恥ずかしがり屋な",
+      "description": ""
+    },
+    {
+      "content": "significant,substantial,decent",
+      "translation": "かなりの",
+      "description": ""
+    },
+    {
+      "content": "simple,straightforward",
+      "translation": "簡素な",
+      "description": ""
+    },
+    {
+      "content": "sincere,hearty,heartfelt",
+      "translation": "嘘偽りのない正直な",
+      "description": "sincerely"
+    },
+    {
+      "content": "skeptical",
+      "translation": "疑い深い / 信用しない",
+      "description": "疑いを持つ側を修飾する"
+    },
+    {
+      "content": "slight",
+      "translation": "わずかの",
+      "description": ""
+    },
+    {
+      "content": "slimy",
+      "translation": "ネバネバした",
+      "description": "スライム"
+    },
+    {
+      "content": "small,tiny",
+      "translation": "小さい",
+      "description": ""
+    },
+    {
+      "content": "smart,sensible",
+      "translation": "賢明な",
+      "description": ""
+    },
+    {
+      "content": "smelly,stinking",
+      "translation": "臭い",
+      "description": "stink は自動詞「（主体が）臭いを放っている」"
+    },
+    {
+      "content": "snappy",
+      "translation": "粋な",
+      "description": "無駄がないスマートさ"
+    },
+    {
+      "content": "sociable",
+      "translation": "社交的な",
+      "description": ""
+    },
+    {
+      "content": "soggy",
+      "translation": "ふやけた",
+      "description": ""
+    },
+    {
+      "content": "sole,one and only",
+      "translation": "唯一の",
+      "description": ""
+    },
+    {
+      "content": "sour",
+      "translation": "酸っぱい",
+      "description": ""
+    },
+    {
+      "content": "spacious",
+      "translation": "広々とした",
+      "description": "cramped"
+    },
+    {
+      "content": "specific,particular,certain",
+      "translation": "特定の",
+      "description": ""
+    },
+    {
+      "content": "spectacular",
+      "translation": "壮観な",
+      "description": ""
+    },
+    {
+      "content": "spirited",
+      "translation": "元気のよい",
+      "description": ""
+    },
+    {
+      "content": "spontaneous",
+      "translation": "沸き起こる",
+      "description": ""
+    },
+    {
+      "content": "stable",
+      "translation": "安定した",
+      "description": "unstable"
+    },
+    {
+      "content": "steady",
+      "translation": "着実な",
+      "description": "steadily = 着実に"
+    },
+    {
+      "content": "steep",
+      "translation": "傾斜が急な",
+      "description": ""
+    },
+    {
+      "content": "stochastic",
+      "translation": "確率的な",
+      "description": "数学用語 stochastic technique"
+    },
+    {
+      "content": "strange,weird,odd,bizarre,peculiar",
+      "translation": "風変わりな / 妙な",
+      "description": ""
+    },
+    {
+      "content": "strenuous",
+      "translation": "精力的な",
+      "description": ""
+    },
+    {
+      "content": "strict,rigorous,stringent,rigid",
+      "translation": "厳格な",
+      "description": "rigid discipine = 厳格な規律"
+    },
+    {
+      "content": "strong ! weak",
+      "translation": "強い ! 弱い",
+      "description": ""
+    },
+    {
+      "content": "stubborn,obstinate",
+      "translation": "頑固な",
+      "description": ""
+    },
+    {
+      "content": "sturdy",
+      "translation": "丈夫な",
+      "description": ""
+    },
+    {
+      "content": "subjective ! objective",
+      "translation": "主観的な ! 客観的な",
+      "description": ""
+    },
+    {
+      "content": "subtle",
+      "translation": "微妙な / 巧妙な",
+      "description": ""
+    },
+    {
+      "content": "sustainable",
+      "translation": "持続可能な",
+      "description": "Sustainable Development  =（環境を破壊しない）持続可能な発展"
+    },
+    {
+      "content": "sweeping",
+      "translation": "思い切った",
+      "description": ""
+    },
+    {
+      "content": "sweet,mild",
+      "translation": "甘い",
+      "description": ""
+    },
+    {
+      "content": "swift",
+      "translation": "素早い",
+      "description": ""
+    },
+    {
+      "content": "synthetic,artificial",
+      "translation": "人工の",
+      "description": ""
+    },
+    {
+      "content": "tangy",
+      "translation": "つんとくる刺激（酸味）",
+      "description": ""
+    },
+    {
+      "content": "tasty,savory",
+      "translation": "美味しい",
+      "description": "savory = 美味しい香りがする"
+    },
+    {
+      "content": "taut ! slack",
+      "translation": "張った ! 緩んだ",
+      "description": ""
+    },
+    {
+      "content": "tedious,boring,monotonous",
+      "translation": "退屈な",
+      "description": "monotonus = 単調な"
+    },
+    {
+      "content": "temporary,provisional,tentative",
+      "translation": "仮の",
+      "description": ""
+    },
+    {
+      "content": "tempting",
+      "translation": "魅力的である",
+      "description": ""
+    },
+    {
+      "content": "tender",
+      "translation": "柔和な / 優しい / 華奢な",
+      "description": ""
+    },
+    {
+      "content": "thick ! thin",
+      "translation": "厚い ! 薄い",
+      "description": "thick には「濃厚な / とろみがある」の意味もある"
+    },
+    {
+      "content": "thorough",
+      "translation": "徹底的な",
+      "description": ""
+    },
+    {
+      "content": "tidy",
+      "translation": "整頓された",
+      "description": "untidy"
+    },
+    {
+      "content": "tight,fast",
+      "translation": "しっかりとした",
+      "description": ""
+    },
+    {
+      "content": "tolerant",
+      "translation": "寛容な",
+      "description": ""
+    },
+    {
+      "content": "tough ! tender",
+      "translation": "固い ! 柔らかい",
+      "description": "肉などの食べ物に用いる。soft をつかうと不味いニュアンスになる。"
+    },
+    {
+      "content": "traditional",
+      "translation": "伝統的な",
+      "description": ""
+    },
+    {
+      "content": "trivial",
+      "translation": "取るに足らない",
+      "description": ""
+    },
+    {
+      "content": "typical,ordinary",
+      "translation": "良くある / ありふれた",
+      "description": ""
+    },
+    {
+      "content": "ugly",
+      "translation": "醜い",
+      "description": ""
+    },
+    {
+      "content": "ultimate",
+      "translation": "究極の",
+      "description": "それ以上はない最大の"
+    },
+    {
+      "content": "unbelievable,incredible",
+      "translation": "信じられない",
+      "description": "believable,credible"
+    },
+    {
+      "content": "unblemished",
+      "translation": "傷や汚れのない",
+      "description": ""
+    },
+    {
+      "content": "underlying",
+      "translation": "基礎となる",
+      "description": "underlie"
+    },
+    {
+      "content": "unknown",
+      "translation": "無名の",
+      "description": ""
+    },
+    {
+      "content": "unprecedented",
+      "translation": "かつてない",
+      "description": "unprecedent という動詞はない"
+    },
+    {
+      "content": "upcoming",
+      "translation": "来たるべき / 直近の",
+      "description": ""
+    },
+    {
+      "content": "urban ! rural",
+      "translation": "都会の ! 田舎の",
+      "description": ""
+    },
+    {
+      "content": "useful,informative,benefical",
+      "translation": "役立つ",
+      "description": ""
+    },
+    {
+      "content": "utmost",
+      "translation": "この上ない",
+      "description": ""
+    },
+    {
+      "content": "valid",
+      "translation": "有効な",
+      "description": "invalid"
+    },
+    {
+      "content": "valuable,precious",
+      "translation": "貴重な",
+      "description": "precious = かけがえのない"
+    },
+    {
+      "content": "vast",
+      "translation": "広大な",
+      "description": ""
+    },
+    {
+      "content": "verbal",
+      "translation": "口語の",
+      "description": "written"
+    },
+    {
+      "content": "verbose",
+      "translation": "言葉数が多くてくどい",
+      "description": ""
+    },
+    {
+      "content": "versatile",
+      "translation": "多才な",
+      "description": ""
+    },
+    {
+      "content": "virtual",
+      "translation": "事実上の",
+      "description": "表向きはそう見えない"
+    },
+    {
+      "content": "virtue ! vice",
+      "translation": "善 ! 悪",
+      "description": "(美徳|悪徳)"
+    },
+    {
+      "content": "vital",
+      "translation": "不可欠な",
+      "description": ""
+    },
+    {
+      "content": "vivid",
+      "translation": "はっきりとした / 生々しい",
+      "description": ""
+    },
+    {
+      "content": "volatile,inconstant,changeable",
+      "translation": "不安定な",
+      "description": "揮発性で変わりやすい"
+    },
+    {
+      "content": "voluntary",
+      "translation": "自主的な",
+      "description": ""
+    },
+    {
+      "content": "vulnerable",
+      "translation": "脆弱な",
+      "description": ""
+    },
+    {
+      "content": "wasteful",
+      "translation": "無駄な",
+      "description": ""
+    },
+    {
+      "content": "wide ! narrow",
+      "translation": "広い ! 狭い",
+      "description": ""
+    },
+    {
+      "content": "wild ! gentle",
+      "translation": "荒々しい ! 優しい",
+      "description": ""
+    },
+    {
+      "content": "wild ! tame",
+      "translation": "野性の ! 飼いならされた",
+      "description": "動物"
+    },
+    {
+      "content": "worthwhile",
+      "translation": "値打ちのある",
+      "description": ""
+    },
+    {
+      "content": "young",
+      "translation": "若い",
+      "description": ""
+    },
+    {
+      "content": "youthful",
+      "translation": "若々しい",
+      "description": ""
+    }
+  ]
+}

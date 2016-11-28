@@ -1,0 +1,68 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "call <A> <Bob>",
+      "translation": "<A> を <Bob> と通称する",
+      "description": ""
+    },
+    {
+      "content": "find <A> <easy>",
+      "translation": "<A> を <easy> だと感じる",
+      "description": ""
+    },
+    {
+      "content": "keep <A> <clean>",
+      "translation": "<A> を <clean> に保つ",
+      "description": ""
+    },
+    {
+      "content": "label <A> <stupid>",
+      "translation": "<A> を <stupid> だとレッテルを貼る",
+      "description": ""
+    },
+    {
+      "content": "leave <A> <open>",
+      "translation": "<A> を <open> にしておく",
+      "description": ""
+    },
+    {
+      "content": "make <A> <happy>",
+      "translation": "<A> を <happy> にする",
+      "description": ""
+    },
+    {
+      "content": "paint <A> <white>",
+      "translation": "<A> を <white> に塗る",
+      "description": ""
+    },
+    {
+      "content": "set <A> free",
+      "translation": "<A> を解放する",
+      "description": ""
+    },
+    {
+      "content": "consider <A> <rude>",
+      "translation": "<A> を <rude> とみなす",
+      "description": ""
+    },
+    {
+      "content": "prove <A> <right>",
+      "translation": "<A> を <right> だと証明する",
+      "description": ""
+    }
+  ]
+}

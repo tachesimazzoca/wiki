@@ -1,0 +1,583 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    },
+    {
+      "key": "description",
+      "name": "Description"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(appeal to reason|resort to violence)",
+      "translation": "(理性に訴える|暴力に頼る)",
+      "description": ""
+    },
+    {
+      "content": "(breathe|heave|utter) a sigh",
+      "translation": "ため息をつく",
+      "description": ""
+    },
+    {
+      "content": "(change|take a turn) for the (better|worth)",
+      "translation": "（病状などが）(改善|悪化)する",
+      "description": ""
+    },
+    {
+      "content": "(start|get) off on the wrong foot",
+      "translation": "出だしでつまづく",
+      "description": ""
+    },
+    {
+      "content": "add to <one's> burdens",
+      "translation": "負担を増やす",
+      "description": ""
+    },
+    {
+      "content": "agree to differ",
+      "translation": "人それぞれだと受け入れて争わない",
+      "description": ""
+    },
+    {
+      "content": "argue back and forth",
+      "translation": "言い争う",
+      "description": ""
+    },
+    {
+      "content": "bar <A> from <B>",
+      "translation": "<A> から <A> を閉め出す",
+      "description": ""
+    },
+    {
+      "content": "be at loss for words",
+      "translation": "あきれて物が言えない",
+      "description": ""
+    },
+    {
+      "content": "be away on business",
+      "translation": "出張中である",
+      "description": ""
+    },
+    {
+      "content": "be cut out for <A>",
+      "translation": "<A> に性格が向いている",
+      "description": ""
+    },
+    {
+      "content": "be forced to lead a hard life",
+      "translation": "苦しい生活を強いられる",
+      "description": ""
+    },
+    {
+      "content": "be handed a pink slip",
+      "translation": "解雇される",
+      "description": "pink slip = 解雇通知"
+    },
+    {
+      "content": "be hard up",
+      "translation": "金欠である",
+      "description": ""
+    },
+    {
+      "content": "be in great demand",
+      "translation": "引っ張りだこである",
+      "description": ""
+    },
+    {
+      "content": "be of two minds whether to <do> or not.",
+      "translation": "<do> するかどうか悩んでいる",
+      "description": ""
+    },
+    {
+      "content": "be second only to <A>",
+      "translation": "<A> の二の次である",
+      "description": ""
+    },
+    {
+      "content": "be second to none when <...>",
+      "translation": "<...> することにおいて長けている",
+      "description": "右に出る者はいない"
+    },
+    {
+      "content": "bear fruit",
+      "translation": "実を結ぶ",
+      "description": ""
+    },
+    {
+      "content": "bet <...>",
+      "translation": "<...> であると確信する",
+      "description": "I'm sure <...>"
+    },
+    {
+      "content": "blow <one's> nose with a tissue paper",
+      "translation": "ティッシュで鼻をかむ",
+      "description": ""
+    },
+    {
+      "content": "break <one's> promise",
+      "translation": "約束を破る",
+      "description": ""
+    },
+    {
+      "content": "break a sweat",
+      "translation": "汗ばむ",
+      "description": ""
+    },
+    {
+      "content": "burst into laughter",
+      "translation": "突然笑い出す",
+      "description": ""
+    },
+    {
+      "content": "buy <A> on impulse",
+      "translation": "<A> を衝動買いする",
+      "description": ""
+    },
+    {
+      "content": "call the shots",
+      "translation": "支配する（銃撃命令するように）",
+      "description": ""
+    },
+    {
+      "content": "cast a spell on <A>",
+      "translation": "<A> に呪いをかける",
+      "description": ""
+    },
+    {
+      "content": "cleanse <oneself> of <one's> sins",
+      "translation": "過去を洗い流す",
+      "description": ""
+    },
+    {
+      "content": "consider every aspect of <A>",
+      "translation": "<A> をあらゆる視点で検討する",
+      "description": ""
+    },
+    {
+      "content": "crack open <an egg>",
+      "translation": "<an egg> をパカっと割る",
+      "description": ""
+    },
+    {
+      "content": "deal a blow to <somebody>",
+      "translation": "<somebody> に一撃を食わせる",
+      "description": ""
+    },
+    {
+      "content": "defend <oneself>",
+      "translation": "弁護する",
+      "description": ""
+    },
+    {
+      "content": "die at the scene",
+      "translation": "即死する",
+      "description": ""
+    },
+    {
+      "content": "draw attention",
+      "translation": "話題を呼ぶ",
+      "description": ""
+    },
+    {
+      "content": "dress in costume",
+      "translation": "変装する",
+      "description": ""
+    },
+    {
+      "content": "drop <somebody> a line",
+      "translation": "<somebody> との連絡を保つ",
+      "description": ""
+    },
+    {
+      "content": "drop <somebody> a line",
+      "translation": "<somebody> との連絡を保つ",
+      "description": ""
+    },
+    {
+      "content": "enter a crucial phase",
+      "translation": "正念場になる",
+      "description": ""
+    },
+    {
+      "content": "establish conference that <...>",
+      "translation": "<...> であると自信を持つ",
+      "description": ""
+    },
+    {
+      "content": "exercise the right to <A>",
+      "translation": "<A> の権利を行使する",
+      "description": ""
+    },
+    {
+      "content": "feel a pang of conscience",
+      "translation": "良心の呵責を覚える",
+      "description": ""
+    },
+    {
+      "content": "fit in with <somebody>",
+      "translation": "<somebody> と調子を合わせる",
+      "description": ""
+    },
+    {
+      "content": "fit into a mold",
+      "translation": "（自分自身を）型にはまる",
+      "description": ""
+    },
+    {
+      "content": "freeze to death",
+      "translation": "凍死する",
+      "description": ""
+    },
+    {
+      "content": "gain an intuition of <A>",
+      "translation": "<A> の感覚（コツ）を掴む",
+      "description": ""
+    },
+    {
+      "content": "gain momentum",
+      "translation": "勢いを増す / はずみがつく",
+      "description": ""
+    },
+    {
+      "content": "get a word in edgewise",
+      "translation": "口を挟む",
+      "description": "口を挟めない否定で用いる"
+    },
+    {
+      "content": "get into nuts and bolts of <A>",
+      "translation": "<A> の仕組みをつかむ",
+      "description": ""
+    },
+    {
+      "content": "get lay of land",
+      "translation": "概要をつかむ",
+      "description": ""
+    },
+    {
+      "content": "get off on the right foot",
+      "translation": "うまくいくように始める",
+      "description": ""
+    },
+    {
+      "content": "go dutch",
+      "translation": "割り勘にする",
+      "description": ""
+    },
+    {
+      "content": "go hand in hand",
+      "translation": "両立する",
+      "description": "go together"
+    },
+    {
+      "content": "go so far as to <do>",
+      "translation": "<do> しさえする",
+      "description": ""
+    },
+    {
+      "content": "grow out of <A>",
+      "translation": "<A> （子供っぽい振る舞い）を卒業する",
+      "description": ""
+    },
+    {
+      "content": "grow out of <A>",
+      "translation": "<A> から生じる",
+      "description": ""
+    },
+    {
+      "content": "hear <A> straight from the horse's teeth",
+      "translation": "（噂ではなく）当事者から直接 <A> を聞く",
+      "description": "got a information directly from a person involved"
+    },
+    {
+      "content": "heat <A> (up) in the microwave",
+      "translation": "<A> をレンジで温める",
+      "description": ""
+    },
+    {
+      "content": "know better than to <do>",
+      "translation": "<do> しない分別がある",
+      "description": ""
+    },
+    {
+      "content": "lay it on thick",
+      "translation": "大げさに話を広げる / 話を盛る / 大風呂敷を敷く",
+      "description": ""
+    },
+    {
+      "content": "learn <A> by heart",
+      "translation": "<A> を暗記する",
+      "description": "memorize"
+    },
+    {
+      "content": "learn <one's> lesson",
+      "translation": "懲りる / 痛い思いをする",
+      "description": ""
+    },
+    {
+      "content": "leave nothing to be desired",
+      "translation": "文句のつけようがない",
+      "description": ""
+    },
+    {
+      "content": "let go of <A>",
+      "translation": "<A> （良くない事）を手放す",
+      "description": ""
+    },
+    {
+      "content": "live from hand to mouth",
+      "translation": "その日暮らし（食うや食わずの生活）をする",
+      "description": ""
+    },
+    {
+      "content": "live in a state of ease",
+      "translation": "気楽に生きる",
+      "description": ""
+    },
+    {
+      "content": "live up to <one's> expectation(s)",
+      "translation": "期待に応える",
+      "description": ""
+    },
+    {
+      "content": "lose <one's> footing",
+      "translation": "足元をとられる",
+      "description": ""
+    },
+    {
+      "content": "maintain a positive attitude",
+      "translation": "前向きでいる",
+      "description": ""
+    },
+    {
+      "content": "make heads or tails of <A>",
+      "translation": "<A> の基本を理解する（否定文で、さっぱり分からない）",
+      "description": ""
+    },
+    {
+      "content": "meet the deadline",
+      "translation": "締め切りに間に合わせる",
+      "description": ""
+    },
+    {
+      "content": "notch first win",
+      "translation": "初優勝（勝利）する",
+      "description": ""
+    },
+    {
+      "content": "observe a minute of silence",
+      "translation": "一分間の黙祷をする",
+      "description": ""
+    },
+    {
+      "content": "pass each other",
+      "translation": "すれ違う",
+      "description": ""
+    },
+    {
+      "content": "pay the price",
+      "translation": "ツケ（代償）を払う",
+      "description": ""
+    },
+    {
+      "content": "pull an all-nighter",
+      "translation": "徹夜する",
+      "description": ""
+    },
+    {
+      "content": "pull strings",
+      "translation": "黒幕である（裏で操っている）",
+      "description": ""
+    },
+    {
+      "content": "raise (some|a few) eyebrows",
+      "translation": "まばたきして驚く",
+      "description": ""
+    },
+    {
+      "content": "remain neutral",
+      "translation": "中立の立場をとる",
+      "description": ""
+    },
+    {
+      "content": "run counter to <A>",
+      "translation": "<A> に相反する",
+      "description": ""
+    },
+    {
+      "content": "run into <somebody>",
+      "translation": "<somebody> と鉢合わせる",
+      "description": ""
+    },
+    {
+      "content": "sack <somebody>",
+      "translation": "<somebody> を解雇する",
+      "description": "dimiss <somebody> from a job"
+    },
+    {
+      "content": "shed (new) light on <A>",
+      "translation": "<A> を新たに見つめ直す/仕切り直す",
+      "description": ""
+    },
+    {
+      "content": "shoot the breeze",
+      "translation": "無駄話する",
+      "description": "talk about things that are not important"
+    },
+    {
+      "content": "sit on knees",
+      "translation": "正座する",
+      "description": ""
+    },
+    {
+      "content": "sleep like a (rock|log)",
+      "translation": "死んだように眠る",
+      "description": "sleep very well"
+    },
+    {
+      "content": "slip from <one's> mind",
+      "translation": "記憶から抜け落ちる",
+      "description": "slip by me"
+    },
+    {
+      "content": "sow the seeds of <A>",
+      "translation": "<A> の種をまく / 礎を築く / 開花させる",
+      "description": ""
+    },
+    {
+      "content": "speak highly of <A>",
+      "translation": "<A> を褒める",
+      "description": ""
+    },
+    {
+      "content": "speed up efforts to <do>",
+      "translation": "",
+      "description": ""
+    },
+    {
+      "content": "split the check",
+      "translation": "割り勘にする",
+      "description": ""
+    },
+    {
+      "content": "stand on <one's> own (two) feet",
+      "translation": "自立する",
+      "description": ""
+    },
+    {
+      "content": "stand still",
+      "translation": "じっと立つ",
+      "description": ""
+    },
+    {
+      "content": "stare blankly",
+      "translation": "ぼーっとする",
+      "description": ""
+    },
+    {
+      "content": "stay calm",
+      "translation": "ゆっくりする",
+      "description": ""
+    },
+    {
+      "content": "stay in business",
+      "translation": "事業を継続する",
+      "description": ""
+    },
+    {
+      "content": "stay put",
+      "translation": "留まる",
+      "description": ""
+    },
+    {
+      "content": "stay the same",
+      "translation": "変わらずにいる / 昔のままでいる",
+      "description": ""
+    },
+    {
+      "content": "sweep into <a room>",
+      "translation": "<a room> に堂々と入る",
+      "description": ""
+    },
+    {
+      "content": "tell fact from fiction",
+      "translation": "虚構と現実を区別する",
+      "description": ""
+    },
+    {
+      "content": "throw a glance at <A>",
+      "translation": "<A> をじろりと見る",
+      "description": ""
+    },
+    {
+      "content": "trip on <A>",
+      "translation": "<A> につまづく",
+      "description": ""
+    },
+    {
+      "content": "turn <one's> back on <A>",
+      "translation": "<A> を見捨てる",
+      "description": ""
+    },
+    {
+      "content": "turn a blind eye",
+      "translation": "見て見ぬ振りをする",
+      "description": ""
+    },
+    {
+      "content": "turn to conversation to other matters",
+      "translation": "別の話題に話を変える",
+      "description": ""
+    },
+    {
+      "content": "up and <quit>",
+      "translation": "突然 <quit> する",
+      "description": ""
+    },
+    {
+      "content": "use caution",
+      "translation": "注意を払う",
+      "description": ""
+    },
+    {
+      "content": "volunteer in <one's> defense",
+      "translation": "（疑われて）自らの言い分を述べる",
+      "description": ""
+    },
+    {
+      "content": "wait on a customer",
+      "translation": "接客する",
+      "description": ""
+    },
+    {
+      "content": "wear <one's> hair in braids",
+      "translation": "髪を編んでお下げにする",
+      "description": ""
+    },
+    {
+      "content": "wear perfume",
+      "translation": "香水をつけている",
+      "description": ""
+    },
+    {
+      "content": "work around the clock",
+      "translation": "昼夜働く",
+      "description": ""
+    },
+    {
+      "content": "work overtime",
+      "translation": "残業する",
+      "description": ""
+    },
+    {
+      "content": "work side by side",
+      "translation": "互いに協力する",
+      "description": ""
+    }
+  ]
+}
