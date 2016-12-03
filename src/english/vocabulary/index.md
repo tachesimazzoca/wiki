@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Vocabulalry
+title: Vocabulary
 
 index: true
 ---
