@@ -135,10 +135,6 @@
       "translation": "[A] に従う"
     },
     {
-      "content": "advance to [A]",
-      "translation": "[A] に進む"
-    },
-    {
       "content": "agree on [A]",
       "translation": "話し合いを通じて [A] （条項）に同意する"
     },
@@ -735,8 +731,8 @@
       "translation": "熟す / 落ち着く"
     },
     {
-      "content": "mingle with A",
-      "translation": ""
+      "content": "mingle with [A]",
+      "translation": "[A] と交流する"
     },
     {
       "content": "minister to [A]",
@@ -819,8 +815,8 @@
       "translation": "急落する"
     },
     {
-      "content": "plunge",
-      "translation": "突っ込む"
+      "content": "plunge into [A]",
+      "translation": "[A] に突っ込む"
     },
     {
       "content": "point (at|against) [a target]",
@@ -831,8 +827,8 @@
       "translation": "[A] に祈りを捧げる"
     },
     {
-      "content": "preach",
-      "translation": "訓示を垂れる"
+      "content": "preach to [somebody] (on|about) [A]",
+      "translation": "[somebody] へ [A] について訓示を垂れる"
     },
     {
       "content": "prepare for [A]",
@@ -1035,8 +1031,8 @@
       "translation": "高く舞い上がる（空を舞う）"
     },
     {
-      "content": "splash into [A]",
-      "translation": "[A] （水たまり）に落ちる"
+      "content": "splash",
+      "translation": "飛び散る"
     },
     {
       "content": "stand by [A]",

@@ -1,10 +1,10 @@
 ---
 layout: page
 
-title: Action Verbs
+title: Irregualr Verbs
 ---
 
-<table data-url="data/action_verbs.json" class="table">
+<table data-url="data/irregular_verbs.json" class="table">
 </table>
 
 <script src="{% relative_path path:'/assets/javascripts/jquery.ajaxtable.js' %}"></script>
