@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: page 
 
-title: Adjectives
+title: Intransive Verbs
 ---
 
-<table data-url="data/adjectives.json" class="table">
+<table data-url="data/intransive_verbs.json" class="table">
 </table>
 
 <script src="{% relative_path path:'/assets/javascripts/jquery.ajaxtable.js' %}"></script>

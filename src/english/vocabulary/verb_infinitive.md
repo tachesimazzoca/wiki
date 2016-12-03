@@ -1,7 +1,18 @@
 ---
-layout: dynatable
+layout: page
 
-title: Verb + Infinitives
+title: Verb + Infinitive
 
-dynatable_url: 'data/verb_infinitive.json'
 ---
+
+<table data-url="data/verb_infinitive.json" class="table">
+</table>
+
+<script src="{% relative_path path:'/assets/javascripts/jquery.ajaxtable.js' %}"></script>
+<script type="text/javascript">
+(function($) {
+  $(function() {
+    $('[data-url]').ajaxtable();
+  });
+})(window.jQuery);
+</script>
