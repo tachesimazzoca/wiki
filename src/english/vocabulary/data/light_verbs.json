@@ -11,8 +11,8 @@
   ],
   "rows": [
     {
-      "content": "(get in touch|make contact) with <A>",
-      "translation": "<A> と連絡を取る"
+      "content": "(get in touch|make contact) with [A]",
+      "translation": "[A] と連絡を取る"
     },
     {
       "content": "(have|take) a seat",
@@ -27,16 +27,16 @@
       "translation": "遠回りする"
     },
     {
-      "content": "buy into <A>",
-      "translation": "<A> を（不本意ながら）受け入れる"
+      "content": "buy into [A]",
+      "translation": "[A] を（不本意ながら）受け入れる"
     },
     {
-      "content": "catch <A>",
-      "translation": "<A> を聞き取る"
+      "content": "catch [A]",
+      "translation": "[A] を聞き取る"
     },
     {
-      "content": "catch a (sight|glimpse) of <A>",
-      "translation": "<A> を見る"
+      "content": "catch a (sight|glimpse) of [A]",
+      "translation": "[A] を見る"
     },
     {
       "content": "catch fire",
@@ -47,8 +47,8 @@
       "translation": "帰宅する"
     },
     {
-      "content": "come across <somebody>",
-      "translation": "<somebody> に出くわす / 見かける"
+      "content": "come across [somebody]",
+      "translation": "[somebody] に出くわす / 見かける"
     },
     {
       "content": "come across my mind",
@@ -59,16 +59,16 @@
       "translation": "お金がかかる"
     },
     {
-      "content": "come close to <doing>",
-      "translation": "<doing> しそうになる"
+      "content": "come close to [doing]",
+      "translation": "[doing] しそうになる"
     },
     {
-      "content": "come equipped with <A>",
-      "translation": "<A> を装備している"
+      "content": "come equipped with [A]",
+      "translation": "[A] を装備している"
     },
     {
-      "content": "come from <A>",
-      "translation": "<A> から由来する / 導かれる / 生じる"
+      "content": "come from [A]",
+      "translation": "[A] から由来する / 導かれる / 生じる"
     },
     {
       "content": "come in first place",
@@ -87,16 +87,16 @@
       "translation": "無駄になる"
     },
     {
-      "content": "come to <A>",
-      "translation": "<A> に来る（行く）"
+      "content": "come to [A]",
+      "translation": "[A] に来る（行く）"
     },
     {
       "content": "come to an end",
       "translation": "終わりを迎える / 満了する"
     },
     {
-      "content": "come to light that <...>",
-      "translation": "<...> であることが明らかになる"
+      "content": "come to light that [...]",
+      "translation": "[...] であることが明らかになる"
     },
     {
       "content": "come to mind",
@@ -107,32 +107,32 @@
       "translation": "（料金などが）結構な量になる"
     },
     {
-      "content": "come to terms with <A>",
-      "translation": "<A> と和解する / 受け入れる"
+      "content": "come to terms with [A]",
+      "translation": "[A] と和解する / 受け入れる"
     },
     {
-      "content": "come with <A>",
-      "translation": "<A> がおまけで付く"
+      "content": "come with [A]",
+      "translation": "[A] がおまけで付く"
     },
     {
-      "content": "do <one's> best",
+      "content": "do [one's] best",
       "translation": "やれることはやってみる"
     },
     {
-      "content": "do <one's> homework",
+      "content": "do [one's] homework",
       "translation": "宿題する"
     },
     {
-      "content": "do a favor for <somebody>",
-      "translation": "<somebody> の世話をする / 何かしてあげる"
+      "content": "do a favor for [somebody]",
+      "translation": "[somebody] の世話をする / 何かしてあげる"
     },
     {
-      "content": "do away with <A>",
-      "translation": "<A> を排除する"
+      "content": "do away with [A]",
+      "translation": "[A] を排除する"
     },
     {
-      "content": "do damage to <A>",
-      "translation": "<A> に被害を与える"
+      "content": "do damage to [A]",
+      "translation": "[A] に被害を与える"
     },
     {
       "content": "do housework",
@@ -151,36 +151,36 @@
       "translation": "洗濯する"
     },
     {
-      "content": "do well in <A>",
-      "translation": "<A> をうまくやる"
+      "content": "do well in [A]",
+      "translation": "[A] をうまくやる"
     },
     {
       "content": "do what's conventional",
       "translation": "慣習（王道）に従う"
     },
     {
-      "content": "do without <one's> help",
-      "translation": "<one's> の助けなしでやる"
+      "content": "do without [one's] help",
+      "translation": "[one's] の助けなしでやる"
     },
     {
-      "content": "feel sorry (for|with) <somebody>",
-      "translation": "<somone> に同情する"
+      "content": "feel sorry (for|with) [somebody]",
+      "translation": "[somebody] に同情する"
     },
     {
-      "content": "get <A> done",
-      "translation": "<A> を終わらせる"
+      "content": "get [A] done",
+      "translation": "[A] を終わらせる"
     },
     {
-      "content": "get <A> out of <one's> (head|mind)",
-      "translation": "<A> のことを忘れる"
+      "content": "get [A] out of [one's] (head|mind)",
+      "translation": "[A] のことを忘れる"
     },
     {
       "content": "get a flat tire",
       "translation": "パンクする目に遭う"
     },
     {
-      "content": "get a good look at <A>",
-      "translation": "<A> がよく見える"
+      "content": "get a good look at [A]",
+      "translation": "[A] がよく見える"
     },
     {
       "content": "get around",
@@ -191,56 +191,56 @@
       "translation": "仕返しする（チャラにする）"
     },
     {
-      "content": "get in the habit of <doing>",
-      "translation": "<doing> する癖をつける"
+      "content": "get in the habit of [doing]",
+      "translation": "[doing] する癖をつける"
     },
     {
       "content": "get into (good) shape",
       "translation": "体調を整える / 体よくまとめる"
     },
     {
-      "content": "get into <doing>",
-      "translation": "<doing> にのめり込む"
+      "content": "get into [doing]",
+      "translation": "[doing] にのめり込む"
     },
     {
       "content": "get off work",
       "translation": "仕事をあがる"
     },
     {
-      "content": "get on <A>",
-      "translation": "<A> に乗る"
+      "content": "get on [A]",
+      "translation": "[A] に乗る"
     },
     {
-      "content": "get on <one's> nerves",
+      "content": "get on [one's] nerves",
       "translation": "気にさわる / イライラさせる"
     },
     {
-      "content": "get out of <A>",
-      "translation": "<A> の外に出る"
+      "content": "get out of [A]",
+      "translation": "[A] の外に出る"
     },
     {
-      "content": "get over <A>",
-      "translation": "<A> （悲しみ）を乗り越える"
+      "content": "get over [A]",
+      "translation": "[A] （悲しみ）を乗り越える"
     },
     {
-      "content": "get rid of <A>",
-      "translation": "<A> を除去する"
+      "content": "get rid of [A]",
+      "translation": "[A] を除去する"
     },
     {
-      "content": "get the (hang|knack) of <A>",
-      "translation": "<A> のコツをつかむ"
+      "content": "get the (hang|knack) of [A]",
+      "translation": "[A] のコツをつかむ"
     },
     {
-      "content": "get through <A>",
-      "translation": "<A> （試練）を乗り越える"
+      "content": "get through [A]",
+      "translation": "[A] （試練）を乗り越える"
     },
     {
-      "content": "get to <A>",
-      "translation": "<A> に到着する"
+      "content": "get to [A]",
+      "translation": "[A] に到着する"
     },
     {
-      "content": "get to know <A>",
-      "translation": "<A> ついて知る / 知り合いになる"
+      "content": "get to know [A]",
+      "translation": "[A] ついて知る / 知り合いになる"
     },
     {
       "content": "get to work",
@@ -251,60 +251,60 @@
       "translation": "集まる"
     },
     {
-      "content": "give (enough|sufficient) time to <doing>",
-      "translation": "<doing> することに十分に時間を割く"
+      "content": "give (enough|sufficient) time to [doing]",
+      "translation": "[doing] することに十分に時間を割く"
     },
     {
-      "content": "give <A> a try",
-      "translation": "<A> を試してみる"
+      "content": "give [A] a try",
+      "translation": "[A] を試してみる"
     },
     {
-      "content": "give <somebody> <A> as a punishment",
-      "translation": "<somebody> に罰として <A> を課す"
+      "content": "give [somebody] [A] as a punishment",
+      "translation": "[somebody] に罰として [A] を課す"
     },
     {
-      "content": "give <somebody> a call",
-      "translation": "<A> に電話する"
+      "content": "give [somebody] a call",
+      "translation": "[A] に電話する"
     },
     {
-      "content": "give <somebody> a glare",
-      "translation": "<A> をにらみつける"
+      "content": "give [somebody] a glare",
+      "translation": "[A] をにらみつける"
     },
     {
-      "content": "give <somebody> a hand",
+      "content": "give [somebody] a hand",
       "translation": "手伝う / 手を貸す"
     },
     {
-      "content": "give <somebody> a hug",
-      "translation": "<somebody> と抱き合う"
+      "content": "give [somebody] a hug",
+      "translation": "[somebody] と抱き合う"
     },
     {
-      "content": "give <somebody> a ride to <A>",
-      "translation": "<somebody> を <A> まで乗せていく / 車を出す"
+      "content": "give [somebody] a ride to [A]",
+      "translation": "[somebody] を [A] まで乗せていく / 車を出す"
     },
     {
-      "content": "give <somebody> insight into <A>",
-      "translation": "<A> への識見を <somebody> に与える"
+      "content": "give [somebody] insight into [A]",
+      "translation": "[A] への識見を [somebody] に与える"
     },
     {
-      "content": "give a presentation on <A>",
-      "translation": "<A> をテーマにプレゼンする"
+      "content": "give a presentation on [A]",
+      "translation": "[A] をテーマにプレゼンする"
     },
     {
       "content": "give more productivity",
       "translation": "（主体のおかげで）生産性が増す"
     },
     {
-      "content": "give rise to <A>",
-      "translation": "<A> （望ましくない事）を引き起こす"
+      "content": "give rise to [A]",
+      "translation": "[A] （望ましくない事）を引き起こす"
     },
     {
       "content": "give way",
       "translation": "（橋や天井が）崩れ落ちる"
     },
     {
-      "content": "go (out) with <A>",
-      "translation": "<A> と（恋愛関係で）付き合う"
+      "content": "go (out) with [A]",
+      "translation": "[A] と（恋愛関係で）付き合う"
     },
     {
       "content": "go abroad",
@@ -315,28 +315,28 @@
       "translation": "物事を進める / （時が来て）さあいよいよです"
     },
     {
-      "content": "go along with <one's> plan",
-      "translation": "<one's> の意見に賛同する"
+      "content": "go along with [one's] plan",
+      "translation": "[one's] の意見に賛同する"
     },
     {
-      "content": "go and <A>",
-      "translation": "わざわざ <A> （してほしくない事）をする"
+      "content": "go and [A]",
+      "translation": "わざわざ [A] （してほしくない事）をする"
     },
     {
       "content": "go by train",
       "translation": "電車で行く"
     },
     {
-      "content": "go easy on <A>",
-      "translation": "<A> に優しく接する"
+      "content": "go easy on [A]",
+      "translation": "[A] に優しく接する"
     },
     {
-      "content": "go for <it>",
-      "translation": "<it> に突き進む（行動して物事を進める）"
+      "content": "go for [A]",
+      "translation": "[A] に突き進む（行動して物事を進める）"
     },
     {
-      "content": "go for <somebody>",
-      "translation": "<somebody> にぞっこんになる / 夢中になる / 好きになる"
+      "content": "go for [somebody]",
+      "translation": "[somebody] にぞっこんになる / 夢中になる / 好きになる"
     },
     {
       "content": "go for a drink",
@@ -347,8 +347,8 @@
       "translation": "昼食しに行く"
     },
     {
-      "content": "go get <A>",
-      "translation": "<A> を取りに行く"
+      "content": "go get [A]",
+      "translation": "[A] を取りに行く"
     },
     {
       "content": "go hiking",
@@ -359,16 +359,16 @@
       "translation": "帰宅する"
     },
     {
-      "content": "go in <A>",
-      "translation": "<A> の中にしまう / <A> 行きである"
+      "content": "go in [A]",
+      "translation": "[A] の中にしまう / [A] 行きである"
     },
     {
-      "content": "go in <one's> car",
+      "content": "go in [one's] car",
       "translation": "自家用車で行く"
     },
     {
-      "content": "go into <doing>",
-      "translation": "<doing> することに使われる / するように変わる"
+      "content": "go into [doing]",
+      "translation": "[doing] することに使われる / するように変わる"
     },
     {
       "content": "go on a diet",
@@ -387,28 +387,28 @@
       "translation": "制御不能になる"
     },
     {
-      "content": "go over <A>",
-      "translation": "<A> を調べる"
+      "content": "go over [A]",
+      "translation": "[A] を調べる"
     },
     {
-      "content": "go past <A>",
-      "translation": "<A> を通り過ぎる"
+      "content": "go past [A]",
+      "translation": "[A] を通り過ぎる"
     },
     {
       "content": "go shopping",
       "translation": "買い物に行く"
     },
     {
-      "content": "go through <A>",
-      "translation": "<A> （一連の流れ）を通して見てみる"
+      "content": "go through [A]",
+      "translation": "[A] （一連の流れ）を通して見てみる"
     },
     {
-      "content": "go through <A>",
-      "translation": "<A> （苦難）の最中である"
+      "content": "go through [A]",
+      "translation": "[A] （苦難）の最中である"
     },
     {
-      "content": "go to <A>",
-      "translation": "<A> に行く"
+      "content": "go to [A]",
+      "translation": "[A] に行く"
     },
     {
       "content": "go together",
@@ -423,40 +423,40 @@
       "translation": "山登りに行く"
     },
     {
-      "content": "have (great) faith on <somebody>",
-      "translation": "<somebody> を信頼する"
+      "content": "have (great) faith on [somebody]",
+      "translation": "[somebody] を信頼する"
     },
     {
       "content": "have (one's) hands full",
       "translation": "手いっぱいである / 忙しい"
     },
     {
-      "content": "have <somebody> as <A>",
-      "translation": "<somebody> を <A> として迎え入れる"
+      "content": "have [somebody] as [A]",
+      "translation": "[somebody] を [A] として迎え入れる"
     },
     {
-      "content": "have <somebody> in the team",
-      "translation": "<somebody> をチームに迎え入れる"
+      "content": "have [somebody] in the team",
+      "translation": "[somebody] をチームに迎え入れる"
     },
     {
-      "content": "have a (talk|chat) with <somebody>",
-      "translation": "<somebody> と談笑する"
+      "content": "have a (talk|chat) with [somebody]",
+      "translation": "[somebody] と談笑する"
     },
     {
-      "content": "have a contest to see who can <do>",
-      "translation": "誰が <do> できるか競う"
+      "content": "have a contest to see who can [do]",
+      "translation": "誰が [do] できるか競う"
     },
     {
-      "content": "have a crush on <A>",
-      "translation": "<A> にときめいている / 気がある"
+      "content": "have a crush on [A]",
+      "translation": "[A] にときめいている / 気がある"
     },
     {
       "content": "have a hard time",
       "translation": "苦しむ"
     },
     {
-      "content": "have a head for <A>",
-      "translation": "<A> に対して耐性（馴染み）がある"
+      "content": "have a head for [A]",
+      "translation": "[A] に対して耐性（馴染み）がある"
     },
     {
       "content": "have a headache",
@@ -471,8 +471,8 @@
       "translation": "コーヒーをすする"
     },
     {
-      "content": "have advantages over <A>",
-      "translation": "<A> に勝るものがある"
+      "content": "have advantages over [A]",
+      "translation": "[A] に勝るものがある"
     },
     {
       "content": "have an accident",
@@ -483,103 +483,103 @@
       "translation": "自信がある"
     },
     {
-      "content": "have control over <A>",
-      "translation": "<A> を思い通りに扱う"
+      "content": "have control over [A]",
+      "translation": "[A] を思い通りに扱う"
     },
     {
-      "content": "have mastery over <A>",
-      "translation": "<A> に熟練している"
+      "content": "have mastery over [A]",
+      "translation": "[A] に熟練している"
     },
     {
-      "content": "have no choice but to <do>",
-      "translation": "<do> する以外にない"
+      "content": "have no choice but to [do]",
+      "translation": "[do] する以外にない"
     },
     {
-      "content": "have no consideration for <A>",
-      "translation": "<A> への配慮がない"
+      "content": "have no consideration for [A]",
+      "translation": "[A] への配慮がない"
     },
     {
-      "content": "have nothing to do with <A>",
-      "translation": "<A> に対して何もしていない"
+      "content": "have nothing to do with [A]",
+      "translation": "[A] に対して何もしていない"
     },
     {
       "content": "have seats available",
       "translation": "空席がある"
     },
     {
-      "content": "have time to <do>",
-      "translation": "<do> する時間がある"
+      "content": "have time to [do]",
+      "translation": "[do] する時間がある"
     },
     {
-      "content": "have trouble <doing>",
-      "translation": "<doing> することに問題を抱えている"
+      "content": "have trouble [doing]",
+      "translation": "[doing] することに問題を抱えている"
     },
     {
-      "content": "have trouble with <A>",
-      "translation": "<A> で問題を抱えている"
+      "content": "have trouble with [A]",
+      "translation": "[A] で問題を抱えている"
     },
     {
-      "content": "have yet to <do>",
-      "translation": "まだ <do> していない"
+      "content": "have yet to [do]",
+      "translation": "まだ [do] していない"
     },
     {
-      "content": "help <oneself> to <A>",
-      "translation": "<A> （食事）をつまむ"
+      "content": "help [oneself] to [A]",
+      "translation": "[A] （食事）をつまむ"
     },
     {
-      "content": "keep <A> <doing>",
-      "translation": "<A> を <doing> させたままにする"
+      "content": "keep [A] [doing]",
+      "translation": "[A] を [doing] させたままにする"
     },
     {
-      "content": "keep <A> in mind",
-      "translation": "<A> を覚えておく"
+      "content": "keep [A] in mind",
+      "translation": "[A] を覚えておく"
     },
     {
-      "content": "keep <one's> word",
+      "content": "keep [one's] word",
       "translation": "約束を守る"
     },
     {
-      "content": "keep an eye on <A>",
-      "translation": "<A> を見張る"
+      "content": "keep an eye on [A]",
+      "translation": "[A] を見張る"
     },
     {
       "content": "keep in contact",
       "translation": "連絡を取り合う"
     },
     {
-      "content": "keep to <oneself>",
+      "content": "keep to [oneself]",
       "translation": "一人ぼっちでいる"
     },
     {
-      "content": "keep track of <A>",
-      "translation": "<A> を記録する / 追跡する"
+      "content": "keep track of [A]",
+      "translation": "[A] を記録する / 追跡する"
     },
     {
-      "content": "leave <A> for <B>",
-      "translation": "<A> と別れて <B> と付き合う"
+      "content": "leave [A] for [B]",
+      "translation": "[A] と別れて [B] と付き合う"
     },
     {
-      "content": "let go of <A>",
-      "translation": "<A> を手放す"
+      "content": "let go of [A]",
+      "translation": "[A] を手放す"
     },
     {
-      "content": "look <A> in the eye",
-      "translation": "<A> の目を見る（何もやましいことはない）"
+      "content": "look [A] in the eye",
+      "translation": "[A] の目を見る（何もやましいことはない）"
     },
     {
-      "content": "look after <A>",
-      "translation": "<A> の面倒を見る"
+      "content": "look after [A]",
+      "translation": "[A] の面倒を見る"
     },
     {
-      "content": "look for <A>",
-      "translation": "<A> を探す"
+      "content": "look for [A]",
+      "translation": "[A] を探す"
     },
     {
-      "content": "look forward to <A>",
-      "translation": "<A> を楽しみにしている"
+      "content": "look forward to [A]",
+      "translation": "[A] を楽しみにしている"
     },
     {
-      "content": "lose <one's> temper",
+      "content": "lose [one's] temper",
       "translation": "カッとなる / キレる（理性を失う強い怒り）"
     },
     {
@@ -595,16 +595,16 @@
       "translation": "やりくりする（収支を合わせる）"
     },
     {
-      "content": "make <one's> way to <A>",
-      "translation": "<A> （場所や目標）を目指す"
+      "content": "make [one's] way to [A]",
+      "translation": "[A] （場所や目標）を目指す"
     },
     {
       "content": "make a comment",
       "translation": "コメントする"
     },
     {
-      "content": "make a concession to <A>",
-      "translation": "<A> に対して譲歩する"
+      "content": "make a concession to [A]",
+      "translation": "[A] に対して譲歩する"
     },
     {
       "content": "make a contract",
@@ -619,20 +619,20 @@
       "translation": "決める"
     },
     {
-      "content": "make a fool of <A>",
-      "translation": "<A> を馬鹿にする"
+      "content": "make a fool of [A]",
+      "translation": "[A] を馬鹿にする"
     },
     {
       "content": "make a fuss",
       "translation": "騒ぎ立てる"
     },
     {
-      "content": "make a good impression on <A>",
-      "translation": "<A> に好印象を与える"
+      "content": "make a good impression on [A]",
+      "translation": "[A] に好印象を与える"
     },
     {
-      "content": "make a living as <A>",
-      "translation": "<A> （職業）として生活する"
+      "content": "make a living as [A]",
+      "translation": "[A] （職業）として生活する"
     },
     {
       "content": "make a mess",
@@ -659,16 +659,16 @@
       "translation": "提案する"
     },
     {
-      "content": "make adjustments to <A>",
-      "translation": "<A> を調整する"
+      "content": "make adjustments to [A]",
+      "translation": "[A] を調整する"
     },
     {
-      "content": "make advances in <A>",
-      "translation": "<A> で進歩を遂げる"
+      "content": "make advances in [A]",
+      "translation": "[A] で進歩を遂げる"
     },
     {
-      "content": "make an amendment to <A>",
-      "translation": "<A> に訂正を加える"
+      "content": "make an amendment to [A]",
+      "translation": "[A] に訂正を加える"
     },
     {
       "content": "make an appointment",
@@ -679,108 +679,108 @@
       "translation": "努力する"
     },
     {
-      "content": "make believe that <...>",
-      "translation": "<...> ごっこをする"
+      "content": "make believe that [...]",
+      "translation": "[...] ごっこをする"
     },
     {
-      "content": "make clear what <...>",
-      "translation": "<...> であるのは何かを明確にする"
+      "content": "make clear what [...]",
+      "translation": "[...] であるのは何かを明確にする"
     },
     {
-      "content": "make every effort to <do>",
-      "translation": "<do> するためにあらゆる努力をする"
+      "content": "make every effort to [do]",
+      "translation": "[do] するためにあらゆる努力をする"
     },
     {
-      "content": "make fun of <somebody>",
-      "translation": "<somebody> を笑い者にする"
+      "content": "make fun of [somebody]",
+      "translation": "[somebody] を笑い者にする"
     },
     {
       "content": "make inroads",
       "translation": "食らいつく / 食い込む"
     },
     {
-      "content": "make inroads (upon|into) <A>",
-      "translation": "<A> （強豪）に食らいつく / 食い込む"
+      "content": "make inroads (upon|into) [A]",
+      "translation": "[A] （強豪）に食らいつく / 食い込む"
     },
     {
-      "content": "make it (even|much) harder to <do>",
-      "translation": "<do> をためらう / しづらい状況に追い込む"
+      "content": "make it (even|much) harder to [do]",
+      "translation": "[do] をためらう / しづらい状況に追い込む"
     },
     {
       "content": "make progress",
       "translation": "進展を遂げる"
     },
     {
-      "content": "make room for <A>",
-      "translation": "<A> のために場所を空ける"
+      "content": "make room for [A]",
+      "translation": "[A] のために場所を空ける"
     },
     {
       "content": "make sense",
       "translation": "意味がある"
     },
     {
-      "content": "make sure of <A>",
-      "translation": "<A> を確かめる"
+      "content": "make sure of [A]",
+      "translation": "[A] を確かめる"
     },
     {
-      "content": "make sure that <...>",
-      "translation": "<...> であることを確かめる"
+      "content": "make sure that [...]",
+      "translation": "[...] であることを確かめる"
     },
     {
-      "content": "make the most of <A>",
-      "translation": "<A> を最大限活用する"
+      "content": "make the most of [A]",
+      "translation": "[A] を最大限活用する"
     },
     {
-      "content": "make the time to <do>",
-      "translation": "<do> する時間を作る"
+      "content": "make the time to [do]",
+      "translation": "[do] する時間を作る"
     },
     {
       "content": "make the wrong assumptions",
       "translation": "思い違いをする"
     },
     {
-      "content": "make too much of <A>",
-      "translation": "<A> のことを大げさに扱う / 記事にする"
+      "content": "make too much of [A]",
+      "translation": "[A] のことを大げさに扱う / 記事にする"
     },
     {
-      "content": "make up <one's> mind",
+      "content": "make up [one's] mind",
       "translation": "決心する"
     },
     {
-      "content": "make upgrades to <A>",
-      "translation": "<A> を改良する"
+      "content": "make upgrades to [A]",
+      "translation": "[A] を改良する"
     },
     {
-      "content": "make use of <A>",
-      "translation": "<A> を利用する / 実用化する"
+      "content": "make use of [A]",
+      "translation": "[A] を利用する / 実用化する"
     },
     {
-      "content": "place the responsibility on <somebody>",
-      "translation": "<somebody> に責任を押し付ける"
+      "content": "place the responsibility on [somebody]",
+      "translation": "[somebody] に責任を押し付ける"
     },
     {
-      "content": "put <A> into practice",
-      "translation": "<A> を実行に移す"
+      "content": "put [A] into practice",
+      "translation": "[A] を実行に移す"
     },
     {
-      "content": "put <A> on hold",
-      "translation": "<A> を保留する"
+      "content": "put [A] on hold",
+      "translation": "[A] を保留する"
     },
     {
-      "content": "put an end to <A>",
-      "translation": "<A> に終止符を打つ"
+      "content": "put an end to [A]",
+      "translation": "[A] に終止符を打つ"
     },
     {
       "content": "put it all together",
       "translation": "まとめる"
     },
     {
-      "content": "put the matter out of <one's mind>",
+      "content": "put the matter out of [one's] mind",
       "translation": "かたをつける / 用済みにする"
     },
     {
-      "content": "run <a shop>",
-      "translation": "<a shop> を経営する"
+      "content": "run [a shop]",
+      "translation": "[a shop] を経営する"
     },
     {
       "content": "run an extra hour",
@@ -791,68 +791,68 @@
       "translation": "残り少ない状態にある"
     },
     {
-      "content": "run to <A>",
-      "translation": "<A> のところに走る"
+      "content": "run to [A]",
+      "translation": "[A] のところに走る"
     },
     {
       "content": "see a doctor",
       "translation": "医者に診てもらう"
     },
     {
-      "content": "see through <A>",
-      "translation": "<A> の本性を見抜く"
+      "content": "see through [A]",
+      "translation": "[A] の本性を見抜く"
     },
     {
-      "content": "see to <A>",
-      "translation": "<A> （任務）を引き受ける / を見ておく"
+      "content": "see to [A]",
+      "translation": "[A] （任務）を引き受ける / を見ておく"
     },
     {
-      "content": "take (<JJ>) action against <A>",
-      "translation": "<A> に対して(<JJ> な)措置を取る"
+      "content": "take ([JJ]) action against [A]",
+      "translation": "[A] に対して([JJ] な)措置を取る"
     },
     {
-      "content": "take <a medicine>",
-      "translation": "<a medicine> を飲む"
+      "content": "take [a medicine]",
+      "translation": "[a medicine] を飲む"
     },
     {
-      "content": "take <A>",
-      "translation": "<A> （ルート）を通る"
+      "content": "take [A]",
+      "translation": "[A] （ルート）を通る"
     },
     {
-      "content": "take <A> by surprise",
-      "translation": "<A> に不意打ちを食わせる"
+      "content": "take [A] by surprise",
+      "translation": "[A] に不意打ちを食わせる"
     },
     {
-      "content": "take <A> for granted",
-      "translation": "<A> を当たり前と思う"
+      "content": "take [A] for granted",
+      "translation": "[A] を当たり前と思う"
     },
     {
-      "content": "take <A> into account",
-      "translation": "<A> を考慮する"
+      "content": "take [A] into account",
+      "translation": "[A] を考慮する"
     },
     {
-      "content": "take <A> literally",
-      "translation": "<A> を真に受ける"
+      "content": "take [A] literally",
+      "translation": "[A] を真に受ける"
     },
     {
-      "content": "take <A> out of <B>",
-      "translation": "<B> から <A> を取り出す"
+      "content": "take [A] out of [B]",
+      "translation": "[B] から [A] を取り出す"
     },
     {
-      "content": "take <one's> call",
+      "content": "take [one's] call",
       "translation": "電話にでる"
     },
     {
-      "content": "take <one's> car to <A>",
-      "translation": "車で <A> に行く"
+      "content": "take [one's] car to [A]",
+      "translation": "車で [A] に行く"
     },
     {
-      "content": "take <one's> time",
+      "content": "take [one's] time",
       "translation": "時間を取る（慌てない）"
     },
     {
-      "content": "take <somebody> by the hand",
-      "translation": "<somebody> の手をとる（案内するために）"
+      "content": "take [somebody] by the hand",
+      "translation": "[somebody] の手をとる（案内するために）"
     },
     {
       "content": "take 1 to 2 minutes",
@@ -871,8 +871,8 @@
       "translation": "風呂に入る"
     },
     {
-      "content": "take a call from <somebody>",
-      "translation": "<somebody> からの電話を受ける"
+      "content": "take a call from [somebody]",
+      "translation": "[somebody] からの電話を受ける"
     },
     {
       "content": "take a chance",
@@ -883,8 +883,8 @@
       "translation": "１日欠勤する"
     },
     {
-      "content": "take a picture of <A>",
-      "translation": "<A> の写真を撮る"
+      "content": "take a picture of [A]",
+      "translation": "[A] の写真を撮る"
     },
     {
       "content": "take a piss",
@@ -903,80 +903,80 @@
       "translation": "採決を取る"
     },
     {
-      "content": "take advantage of <A>",
-      "translation": "<A> （特典）を利用する"
+      "content": "take advantage of [A]",
+      "translation": "[A] （特典）を利用する"
     },
     {
-      "content": "take advantage of <somebody>",
-      "translation": "<somebody> を都合よく使う / つけ込む"
+      "content": "take advantage of [somebody]",
+      "translation": "[somebody] を都合よく使う / つけ込む"
     },
     {
-      "content": "take after <A> in personality",
-      "translation": "<A> の性格を受け継いでいる"
+      "content": "take after [A] in personality",
+      "translation": "[A] の性格を受け継いでいる"
     },
     {
-      "content": "take care of <A>",
-      "translation": "<A> の世話をする"
+      "content": "take care of [A]",
+      "translation": "[A] の世話をする"
     },
     {
-      "content": "take hold of <A>",
-      "translation": "<A> をつかまえる"
+      "content": "take hold of [A]",
+      "translation": "[A] をつかまえる"
     },
     {
       "content": "take it outside",
       "translation": "（表に出て）喧嘩する"
     },
     {
-      "content": "take measurements of <A>",
-      "translation": "<A> の寸法を計る"
+      "content": "take measurements of [A]",
+      "translation": "[A] の寸法を計る"
     },
     {
-      "content": "take medication for <A>",
-      "translation": "<A> の処方を受ける"
+      "content": "take medication for [A]",
+      "translation": "[A] の処方を受ける"
     },
     {
-      "content": "take notice of <A>",
-      "translation": "<A> に注意する"
+      "content": "take notice of [A]",
+      "translation": "[A] に注意する"
     },
     {
-      "content": "take part in <A>",
-      "translation": "<A> に参加する"
+      "content": "take part in [A]",
+      "translation": "[A] に参加する"
     },
     {
       "content": "take place",
       "translation": "開催される / 事象が起こる / 現れる"
     },
     {
-      "content": "take the place of <A>",
-      "translation": "<A> の代わりになる"
+      "content": "take the place of [A]",
+      "translation": "[A] の代わりになる"
     },
     {
-      "content": "take to <somebody>",
-      "translation": "<somebody> になつく / 気に入る"
+      "content": "take to [somebody]",
+      "translation": "[somebody] になつく / 気に入る"
     },
     {
-      "content": "take turns <doing>",
-      "translation": "交代で <doing> する"
+      "content": "take turns [doing]",
+      "translation": "交代で [doing] する"
     },
     {
-      "content": "talk <somebody> into <A>",
-      "translation": "<somebody> に話して <A> に至らせる"
+      "content": "talk [somebody] into [A]",
+      "translation": "[somebody] に話して [A] に至らせる"
     },
     {
-      "content": "talk about <A> behind <one's> back",
-      "translation": "<A> の陰口を叩く"
+      "content": "talk about [A] behind [one's] back",
+      "translation": "[A] の陰口を叩く"
     },
     {
       "content": "talk about the good old times",
       "translation": "昔話する"
     },
     {
-      "content": "think better of <A>",
-      "translation": "<A> を見直す / 思いとどまる"
+      "content": "think better of [A]",
+      "translation": "[A] を見直す / 思いとどまる"
     },
     {
-      "content": "think of <A>",
-      "translation": "<A> のことを評価する / 気に入る"
+      "content": "think of [A]",
+      "translation": "[A] のことを評価する / 気に入る"
     }
   ]
 }

@@ -11,32 +11,32 @@
   ],
   "rows": [
     {
-      "content": "act <A> out",
-      "translation": "<A> を身ぶりで表す"
+      "content": "act [A] out",
+      "translation": "[A] を身ぶりで表す"
     },
     {
-      "content": "ask <A> out",
-      "translation": "<A> をデートに誘う"
+      "content": "ask [A] out",
+      "translation": "[A] をデートに誘う"
     },
     {
-      "content": "back <A> up",
-      "translation": "<A> をバック（後進）させる"
+      "content": "back [A] up",
+      "translation": "[A] をバック（後進）させる"
     },
     {
-      "content": "back <A> up",
-      "translation": "<A> を支援する"
+      "content": "back [A] up",
+      "translation": "[A] を支援する"
     },
     {
-      "content": "back <A> up",
-      "translation": "<A> を複製する"
+      "content": "back [A] up",
+      "translation": "[A] を複製する"
     },
     {
       "content": "back up",
       "translation": "立ち往生する"
     },
     {
-      "content": "beat <A> up",
-      "translation": "<A> を殴る"
+      "content": "beat [A] up",
+      "translation": "[A] を殴る"
     },
     {
       "content": "bend down",
@@ -47,20 +47,20 @@
       "translation": "おめでたいことが始まる"
     },
     {
-      "content": "block <A> out",
-      "translation": "<A> を遮断する"
+      "content": "block [A] out",
+      "translation": "[A] を遮断する"
     },
     {
-      "content": "blow <A> off",
-      "translation": "<A> （埃を）を吹き払う"
+      "content": "blow [A] off",
+      "translation": "[A] （埃を）を吹き払う"
     },
     {
-      "content": "blow <A> out",
-      "translation": "<A> を吹き消す / パンクやショートさせてダメにする"
+      "content": "blow [A] out",
+      "translation": "[A] を吹き消す / パンクやショートさせてダメにする"
     },
     {
-      "content": "blow <A> up",
-      "translation": "<A> を爆撃する / 息を吹く（強く風力を与える）"
+      "content": "blow [A] up",
+      "translation": "[A] を爆撃する / 息を吹く（強く風力を与える）"
     },
     {
       "content": "blow out",
@@ -71,8 +71,8 @@
       "translation": "吹き上がる / 爆発する（強い風力が起こる）"
     },
     {
-      "content": "break <A> off",
-      "translation": "<A> （婚約）を破談にする"
+      "content": "break [A] off",
+      "translation": "[A] （婚約）を破談にする"
     },
     {
       "content": "break down",
@@ -91,60 +91,60 @@
       "translation": "勃発する"
     },
     {
-      "content": "break up with <A>",
-      "translation": "<A> と別れる / 関係を解消する"
+      "content": "break up with [A]",
+      "translation": "[A] と別れる / 関係を解消する"
     },
     {
-      "content": "bring <A> up",
-      "translation": "<A> （話題）を持ち出す"
+      "content": "bring [A] up",
+      "translation": "[A] （話題）を持ち出す"
     },
     {
-      "content": "bring <A> up",
-      "translation": "<A> を育てる"
+      "content": "bring [A] up",
+      "translation": "[A] を育てる"
     },
     {
       "content": "build up",
       "translation": "確立する / 増強する"
     },
     {
-      "content": "burn <A> down",
-      "translation": "<A> を焼き尽くす"
+      "content": "burn [A] down",
+      "translation": "[A] を焼き尽くす"
     },
     {
       "content": "burn down",
       "translation": "全焼する"
     },
     {
-      "content": "call <A> in",
-      "translation": "<A> を呼び入れる"
+      "content": "call [A] in",
+      "translation": "[A] を呼び入れる"
     },
     {
-      "content": "call <A> off",
-      "translation": "<A> を取り消す / 中止する"
+      "content": "call [A] off",
+      "translation": "[A] を取り消す / 中止する"
     },
     {
-      "content": "calm <A> down",
-      "translation": "<A> を落ち着かせる"
+      "content": "calm [A] down",
+      "translation": "[A] を落ち着かせる"
     },
     {
-      "content": "carry out <A> ",
-      "translation": "<A> を成し遂げる"
+      "content": "carry out [A] ",
+      "translation": "[A] を成し遂げる"
     },
     {
-      "content": "carry over <A> into <B>",
-      "translation": "<A> を <B> に持ち越す"
+      "content": "carry over [A] into [B]",
+      "translation": "[A] を [B] に持ち越す"
     },
     {
       "content": "catch on",
       "translation": "流行する"
     },
     {
-      "content": "catch on to <A>",
-      "translation": "<A> を瞬時に理解できる"
+      "content": "catch on to [A]",
+      "translation": "[A] を瞬時に理解できる"
     },
     {
-      "content": "catch up with <A>",
-      "translation": "<A> に追いつく"
+      "content": "catch up with [A]",
+      "translation": "[A] に追いつく"
     },
     {
       "content": "check in",
@@ -155,16 +155,16 @@
       "translation": "チェックアウトする"
     },
     {
-      "content": "cheer <A> up",
-      "translation": "<A> を元気づける"
+      "content": "cheer [A] up",
+      "translation": "[A] を元気づける"
     },
     {
       "content": "cheer up",
       "translation": "元気よく振る舞う / 明るく振る舞う"
     },
     {
-      "content": "clean <A> up",
-      "translation": "<A> を片づける"
+      "content": "clean [A] up",
+      "translation": "[A] を片づける"
     },
     {
       "content": "clear up",
@@ -187,8 +187,8 @@
       "translation": "戻ってくる / 再訪する"
     },
     {
-      "content": "come down with <A>",
-      "translation": "<A> が原因で体調が悪い"
+      "content": "come down with [A]",
+      "translation": "[A] が原因で体調が悪い"
     },
     {
       "content": "come in",
@@ -203,56 +203,56 @@
       "translation": "出てくる / 公開される / 発売される"
     },
     {
-      "content": "come over to <A>",
-      "translation": "<A> へ訪問しにやってくる"
+      "content": "come over to [A]",
+      "translation": "[A] へ訪問しにやってくる"
     },
     {
       "content": "come up",
       "translation": "話題になる"
     },
     {
-      "content": "come up to <A>",
-      "translation": "<A> に近寄る"
+      "content": "come up to [A]",
+      "translation": "[A] に近寄る"
     },
     {
-      "content": "come up with <A>",
-      "translation": "<A> （考え）が浮かぶ"
+      "content": "come up with [A]",
+      "translation": "[A] （考え）が浮かぶ"
     },
     {
-      "content": "comment <A> out",
-      "translation": "<A> をコメントブロックで無効化する"
+      "content": "comment [A] out",
+      "translation": "[A] をコメントブロックで無効化する"
     },
     {
       "content": "cool off",
       "translation": "涼しくなる"
     },
     {
-      "content": "cover <A> up",
-      "translation": "<A> を隠蔽する"
+      "content": "cover [A] up",
+      "translation": "[A] を隠蔽する"
     },
     {
-      "content": "creep up (to|toward) <A>",
-      "translation": "<A> に忍び寄る"
+      "content": "creep up (to|toward) [A]",
+      "translation": "[A] に忍び寄る"
     },
     {
       "content": "cross out",
       "translation": "字消し線で消す"
     },
     {
-      "content": "cut <A> down",
-      "translation": "<A> を切り倒す"
+      "content": "cut [A] down",
+      "translation": "[A] を切り倒す"
     },
     {
-      "content": "cut <A> down",
-      "translation": "<A> を切り詰める"
+      "content": "cut [A] down",
+      "translation": "[A] を切り詰める"
     },
     {
-      "content": "cut <A> out ",
-      "translation": "<A> を切り出す"
+      "content": "cut [A] out ",
+      "translation": "[A] を切り出す"
     },
     {
-      "content": "cut down on <doing>",
-      "translation": "<doing> することを控える"
+      "content": "cut down on [doing]",
+      "translation": "[doing] することを控える"
     },
     {
       "content": "dig in",
@@ -271,8 +271,8 @@
       "translation": "着飾る"
     },
     {
-      "content": "drive <A> away",
-      "translation": "<A> を追い払う"
+      "content": "drive [A] away",
+      "translation": "[A] を追い払う"
     },
     {
       "content": "drive away",
@@ -291,24 +291,24 @@
       "translation": "外食する"
     },
     {
-      "content": "end up <A>",
-      "translation": "<A> に行き着く"
+      "content": "end up [A]",
+      "translation": "[A] に行き着く"
     },
     {
-      "content": "end up <doing>",
-      "translation": "<doing> するはめになる"
+      "content": "end up [doing]",
+      "translation": "[doing] するはめになる"
     },
     {
-      "content": "end up with <A>",
-      "translation": "<A> に終わる"
+      "content": "end up with [A]",
+      "translation": "[A] に終わる"
     },
     {
       "content": "fade away",
       "translation": "消える"
     },
     {
-      "content": "fall back on <A>",
-      "translation": "<A> を拠り所とする"
+      "content": "fall back on [A]",
+      "translation": "[A] を拠り所とする"
     },
     {
       "content": "fall behind",
@@ -331,36 +331,36 @@
       "translation": "（計画 / 交渉などが）おじゃんになる"
     },
     {
-      "content": "figure <A> out",
-      "translation": "<A> を把握する"
+      "content": "figure [A] out",
+      "translation": "[A] を把握する"
     },
     {
-      "content": "fill <A> in",
-      "translation": "<A> に記入する"
+      "content": "fill [A] in",
+      "translation": "[A] に記入する"
     },
     {
-      "content": "fill <A> out",
-      "translation": "<A> の空欄を埋める"
+      "content": "fill [A] out",
+      "translation": "[A] の空欄を埋める"
     },
     {
-      "content": "find <A> out",
-      "translation": "<A> の情報を（調べて）得る"
+      "content": "find [A] out",
+      "translation": "[A] の情報を（調べて）得る"
     },
     {
       "content": "fit in",
       "translation": "馴染む"
     },
     {
-      "content": "fix <A> up",
-      "translation": "<A> を修理する"
+      "content": "fix [A] up",
+      "translation": "[A] を修理する"
     },
     {
       "content": "get around",
       "translation": "徘徊する / 迂回する"
     },
     {
-      "content": "get away with <A>",
-      "translation": "<A> から逃れる"
+      "content": "get away with [A]",
+      "translation": "[A] から逃れる"
     },
     {
       "content": "get back",
@@ -371,7 +371,7 @@
       "translation": "なんとかやっていく"
     },
     {
-      "content": "get down on <one's> knees",
+      "content": "get down on [one's] knees",
       "translation": "膝まずく"
     },
     {
@@ -387,16 +387,16 @@
       "translation": "目覚める"
     },
     {
-      "content": "give <A> away",
-      "translation": "<A> を寄付する"
+      "content": "give [A] away",
+      "translation": "[A] を寄付する"
     },
     {
-      "content": "give <A> off",
-      "translation": "<A> （臭い）を放つ"
+      "content": "give [A] off",
+      "translation": "[A] （臭い）を放つ"
     },
     {
-      "content": "give <A> up",
-      "translation": "<A> を諦める"
+      "content": "give [A] up",
+      "translation": "[A] を諦める"
     },
     {
       "content": "give in",
@@ -407,12 +407,12 @@
       "translation": "尽きる / 疲れ果てる"
     },
     {
-      "content": "give up <doing>",
-      "translation": "<doing> することを諦める"
+      "content": "give up [doing]",
+      "translation": "[doing] することを諦める"
     },
     {
-      "content": "go <A> over",
-      "translation": "<A> を復習する / 読み返す"
+      "content": "go [A] over",
+      "translation": "[A] を復習する / 読み返す"
     },
     {
       "content": "go away / off",
@@ -427,8 +427,8 @@
       "translation": "時間を巻き戻す"
     },
     {
-      "content": "go down to <A>",
-      "translation": "<A> に話題 / 関心事を移す"
+      "content": "go down to [A]",
+      "translation": "[A] に話題 / 関心事を移す"
     },
     {
       "content": "go off",
@@ -447,8 +447,8 @@
       "translation": "起こる"
     },
     {
-      "content": "go on with <A>",
-      "translation": "<A> を続ける"
+      "content": "go on with [A]",
+      "translation": "[A] を続ける"
     },
     {
       "content": "go out ",
@@ -463,24 +463,24 @@
       "translation": "改善する / 上向きになる"
     },
     {
-      "content": "go up to <A>",
-      "translation": "<A> に近寄る"
+      "content": "go up to [A]",
+      "translation": "[A] に近寄る"
     },
     {
       "content": "grow up",
       "translation": "成長する (= become an adult)"
     },
     {
-      "content": "hand <A> down",
-      "translation": "<A> を後世に受け継ぐ"
+      "content": "hand [A] down",
+      "translation": "[A] を後世に受け継ぐ"
     },
     {
-      "content": "hand <A> in",
-      "translation": "<A> を提出する"
+      "content": "hand [A] in",
+      "translation": "[A] を提出する"
     },
     {
-      "content": "hand <A> out",
-      "translation": "<A> を配布する"
+      "content": "hand [A] out",
+      "translation": "[A] を配布する"
     },
     {
       "content": "hang down",
@@ -499,8 +499,8 @@
       "translation": "電話を切る"
     },
     {
-      "content": "have <somebody> over",
-      "translation": "<somebody> を自宅に招く / もてなす"
+      "content": "have [somebody] over",
+      "translation": "[somebody] を自宅に招く / もてなす"
     },
     {
       "content": "head up",
@@ -511,64 +511,64 @@
       "translation": "（お互いが）意気投合する / 仲良くやる"
     },
     {
-      "content": "hold <A> back",
-      "translation": "<A> を隠す"
+      "content": "hold [A] back",
+      "translation": "[A] を隠す"
     },
     {
-      "content": "hold <A> up",
-      "translation": "<A> を待たせる"
+      "content": "hold [A] up",
+      "translation": "[A] を待たせる"
     },
     {
       "content": "hold on",
       "translation": "身動きせずに待つ"
     },
     {
-      "content": "hold out against <A>",
-      "translation": "<A> に抵抗して持ちこたえる"
+      "content": "hold out against [A]",
+      "translation": "[A] に抵抗して持ちこたえる"
     },
     {
-      "content": "keep up with <A>",
-      "translation": "<A> について行く"
+      "content": "keep up with [A]",
+      "translation": "[A] について行く"
     },
     {
-      "content": "knock <A> over",
-      "translation": "<A> （コップや花瓶など）をひっくり返す / 割る"
+      "content": "knock [A] over",
+      "translation": "[A] （コップや花瓶など）をひっくり返す / 割る"
     },
     {
-      "content": "lay <A> down",
-      "translation": "<A> をねかせて置く"
+      "content": "lay [A] down",
+      "translation": "[A] をねかせて置く"
     },
     {
-      "content": "lay <A> out",
-      "translation": "<A> を広げる / レイアウトする"
+      "content": "lay [A] out",
+      "translation": "[A] を広げる / レイアウトする"
     },
     {
-      "content": "lay out <A> on <B>",
-      "translation": "<A> （お金や貯金）を <B> に投資する"
+      "content": "lay out [A] on [B]",
+      "translation": "[A] （お金や貯金）を [B] に投資する"
     },
     {
-      "content": "leap <A> over",
-      "translation": "<A> を飛び越える"
+      "content": "leap [A] over",
+      "translation": "[A] を飛び越える"
     },
     {
-      "content": "leave <A> on",
-      "translation": "<A> （電気機器）をつけたままにする"
+      "content": "leave [A] on",
+      "translation": "[A] （電気機器）をつけたままにする"
     },
     {
-      "content": "leave <A> out",
-      "translation": "<A> を除外する"
+      "content": "leave [A] out",
+      "translation": "[A] を除外する"
     },
     {
-      "content": "let <A> down",
-      "translation": "<A> をがっかりさせる"
+      "content": "let [A] down",
+      "translation": "[A] をがっかりさせる"
     },
     {
-      "content": "let <A> in",
-      "translation": "<A> を（部屋等の）中に入れる"
+      "content": "let [A] in",
+      "translation": "[A] を（部屋等の）中に入れる"
     },
     {
-      "content": "let <A> in on <B>",
-      "translation": "<A> に <B> についてこっそり教える"
+      "content": "let [A] in on [B]",
+      "translation": "[A] に [B] についてこっそり教える"
     },
     {
       "content": "lie down",
@@ -579,24 +579,24 @@
       "translation": "長居する"
     },
     {
-      "content": "lock <A> out",
-      "translation": "<A> を閉め出す"
+      "content": "lock [A] out",
+      "translation": "[A] を閉め出す"
     },
     {
-      "content": "look <A> over",
-      "translation": "<A> に目を通す / チェックする"
+      "content": "look [A] over",
+      "translation": "[A] に目を通す / チェックする"
     },
     {
-      "content": "look <A> up",
-      "translation": "<A> を参照する（手順は分かっていて調べる）"
+      "content": "look [A] up",
+      "translation": "[A] を参照する（手順は分かっていて調べる）"
     },
     {
-      "content": "look back on <A>",
-      "translation": "<A> を振り返る / 思い起こす"
+      "content": "look back on [A]",
+      "translation": "[A] を振り返る / 思い起こす"
     },
     {
-      "content": "look down on <A>",
-      "translation": "<A> を見下す"
+      "content": "look down on [A]",
+      "translation": "[A] を見下す"
     },
     {
       "content": "look out",
@@ -607,44 +607,44 @@
       "translation": "見上げる / 上向きである / 好調にある"
     },
     {
-      "content": "look up to <A>",
-      "translation": "<A> を尊敬する"
+      "content": "look up to [A]",
+      "translation": "[A] を尊敬する"
     },
     {
       "content": "mail back",
       "translation": "返信する"
     },
     {
-      "content": "make <A> up as <somebody> goes along",
-      "translation": "<A> を（決め事に頼ることなく）やってのける"
+      "content": "make [A] up",
+      "translation": "[A] をでっち上げる"
     },
     {
-      "content": "make <A> up",
-      "translation": "<A> をでっち上げる"
+      "content": "make [A] up as [somebody] goes along",
+      "translation": "[A] を（決め事に頼ることなく）やってのける"
     },
     {
-      "content": "make it up for <A>",
-      "translation": "<A> へ（損害の）埋め合わせする"
+      "content": "make it up for [A]",
+      "translation": "[A] へ（損害の）埋め合わせする"
     },
     {
-      "content": "make up <N> % of <A>",
-      "translation": "（人員が） <A> の <N> パーセントを成す"
+      "content": "make up [N] % of [A]",
+      "translation": "（人員が） [A] の [N] パーセントを成す"
     },
     {
       "content": "make up an excuse",
       "translation": "言い訳する"
     },
     {
-      "content": "make up for <A>",
-      "translation": "<A> を補う"
+      "content": "make up for [A]",
+      "translation": "[A] を補う"
     },
     {
-      "content": "make up with <A>",
+      "content": "make up with [A]",
       "translation": "仲直りする"
     },
     {
-      "content": "mix <A> up",
-      "translation": "<A> を混同する"
+      "content": "mix [A] up",
+      "translation": "[A] を混同する"
     },
     {
       "content": "move in",
@@ -671,32 +671,32 @@
       "translation": "気絶する / 酔いつぶれる"
     },
     {
-      "content": "pay <somebody> back",
-      "translation": "<somebody> にお金を返す"
+      "content": "pay [somebody] back",
+      "translation": "[somebody] にお金を返す"
     },
     {
-      "content": "pick <A> out",
-      "translation": "<A> を選択する"
+      "content": "pick [A] out",
+      "translation": "[A] を選択する"
     },
     {
-      "content": "pick <A> up",
-      "translation": "<A> を拾う"
+      "content": "pick [A] up",
+      "translation": "[A] を拾う"
     },
     {
       "content": "play on",
       "translation": "プレイし続ける"
     },
     {
-      "content": "plug <A> in",
-      "translation": "<A> をコンセントに差し込む"
+      "content": "plug [A] in",
+      "translation": "[A] をコンセントに差し込む"
     },
     {
-      "content": "point <A> out",
-      "translation": "<A> を指摘する"
+      "content": "point [A] out",
+      "translation": "[A] を指摘する"
     },
     {
-      "content": "pop <A> out",
-      "translation": "<A> をひょいと出す"
+      "content": "pop [A] out",
+      "translation": "[A] をひょいと出す"
     },
     {
       "content": "pull in",
@@ -715,55 +715,55 @@
       "translation": "車を路肩に寄せて停車する"
     },
     {
-      "content": "pump <oneself> up",
+      "content": "pump [oneself] up",
       "translation": "自らを奮い立たせる"
     },
     {
-      "content": "put <A> aside",
-      "translation": "<A> を確保する"
+      "content": "put [A] aside",
+      "translation": "[A] を確保する"
     },
     {
-      "content": "put <A> away",
-      "translation": "<A> を片づける"
+      "content": "put [A] away",
+      "translation": "[A] を片づける"
     },
     {
-      "content": "put <A> down",
-      "translation": "<A> を置く"
+      "content": "put [A] down",
+      "translation": "[A] を置く"
     },
     {
-      "content": "put <A> down",
-      "translation": "<A> を鎮圧する"
+      "content": "put [A] down",
+      "translation": "[A] を鎮圧する"
     },
     {
-      "content": "put <A> off",
-      "translation": "<A> が遅れる"
+      "content": "put [A] off",
+      "translation": "[A] が遅れる"
     },
     {
-      "content": "put <A> on",
-      "translation": "<A> を着る"
+      "content": "put [A] on",
+      "translation": "[A] を着る"
     },
     {
-      "content": "put <A> on",
-      "translation": "<A> （電気機器）をつける"
+      "content": "put [A] on",
+      "translation": "[A] （電気機器）をつける"
     },
     {
-      "content": "put <A> on",
-      "translation": "<A> （CDや音楽）をかける"
+      "content": "put [A] on",
+      "translation": "[A] （CDや音楽）をかける"
     },
     {
-      "content": "put <A> on",
-      "translation": "<A> をピンで止める"
+      "content": "put [A] on",
+      "translation": "[A] をピンで止める"
     },
     {
-      "content": "put <A> out",
-      "translation": "<A> （明かりや火）を消す"
+      "content": "put [A] out",
+      "translation": "[A] （明かりや火）を消す"
     },
     {
-      "content": "put <A> up",
-      "translation": "<A> を泊める"
+      "content": "put [A] up",
+      "translation": "[A] を泊める"
     },
     {
-      "content": "put <oneself> out there",
+      "content": "put [oneself] out there",
       "translation": "自己アピールする"
     },
     {
@@ -771,72 +771,72 @@
       "translation": "圧力をかける"
     },
     {
-      "content": "put up with <A>",
-      "translation": "<A> を我慢する"
+      "content": "put up with [A]",
+      "translation": "[A] を我慢する"
     },
     {
-      "content": "reach out <one's> hand",
+      "content": "reach out [one's] hand",
       "translation": "手を差し伸べる"
     },
     {
-      "content": "reach out to <A>",
-      "translation": "<A> （通信を目的とした相手）に接触する"
+      "content": "reach out to [A]",
+      "translation": "[A] （通信を目的とした相手）に接触する"
     },
     {
       "content": "ride (off|away)",
       "translation": "乗り物にのって去る"
     },
     {
-      "content": "rinse out <one's> mouth",
+      "content": "rinse out [one's] mouth",
       "translation": "口をすすぐ"
     },
     {
-      "content": "rule <A> out",
-      "translation": "<A> を候補から外す"
+      "content": "rule [A] out",
+      "translation": "[A] を候補から外す"
     },
     {
       "content": "run (away|off)",
       "translation": "走り去る"
     },
     {
-      "content": "run <A> out / run out of <A>",
-      "translation": "<A> を使い果たす"
+      "content": "run [A] out / run out of [A]",
+      "translation": "[A] を使い果たす"
     },
     {
-      "content": "save up for <A>",
-      "translation": "<A> のために節約する"
+      "content": "save up for [A]",
+      "translation": "[A] のために節約する"
     },
     {
-      "content": "see <A> off",
-      "translation": "<A> を見送る"
+      "content": "see [A] off",
+      "translation": "[A] を見送る"
     },
     {
-      "content": "sell <A> out",
-      "translation": "<A> を売りつくす"
+      "content": "sell [A] out",
+      "translation": "[A] を売りつくす"
     },
     {
       "content": "sell out",
       "translation": "売り切れになる"
     },
     {
-      "content": "send <A> off",
-      "translation": "<A> を退場させる"
+      "content": "send [A] off",
+      "translation": "[A] を退場させる"
     },
     {
-      "content": "send <A> out ",
-      "translation": "<A> を送る"
+      "content": "send [A] out ",
+      "translation": "[A] を送る"
     },
     {
-      "content": "set <A> down",
-      "translation": "<A> を下に置く"
+      "content": "set [A] down",
+      "translation": "[A] を下に置く"
     },
     {
-      "content": "set <A> out",
-      "translation": "<A> を用意する"
+      "content": "set [A] out",
+      "translation": "[A] を用意する"
     },
     {
-      "content": "set <A> up",
-      "translation": "<A> を始める準備をする"
+      "content": "set [A] up",
+      "translation": "[A] を始める準備をする"
     },
     {
       "content": "set in",
@@ -847,12 +847,12 @@
       "translation": "旅立つ"
     },
     {
-      "content": "set out for <A>",
-      "translation": "<A> へ出向く"
+      "content": "set out for [A]",
+      "translation": "[A] へ出向く"
     },
     {
-      "content": "set out to <do>",
-      "translation": "<do> することに着手する"
+      "content": "set out to [do]",
+      "translation": "[do] することに着手する"
     },
     {
       "content": "settle down",
@@ -863,12 +863,12 @@
       "translation": "（グラフ等）急上昇（成長）する"
     },
     {
-      "content": "show <A> around",
-      "translation": "<A> を案内する（見せて回る）"
+      "content": "show [A] around",
+      "translation": "[A] を案内する（見せて回る）"
     },
     {
-      "content": "show <A> off",
-      "translation": "<A> を目立たせる / 見せびらかす"
+      "content": "show [A] off",
+      "translation": "[A] を目立たせる / 見せびらかす"
     },
     {
       "content": "show off",
@@ -879,12 +879,12 @@
       "translation": "現れる"
     },
     {
-      "content": "shut <A> off",
-      "translation": "<A> を消す"
+      "content": "shut [A] off",
+      "translation": "[A] を消す"
     },
     {
-      "content": "sign up for <A>",
-      "translation": "<A> にサインアップする"
+      "content": "sign up for [A]",
+      "translation": "[A] にサインアップする"
     },
     {
       "content": "sit back",
@@ -895,8 +895,8 @@
       "translation": "座る"
     },
     {
-      "content": "sit out <A>",
-      "translation": "<A> （試合やパーティー）のメンバーに入らずにいる"
+      "content": "sit out [A]",
+      "translation": "[A] （試合やパーティー）のメンバーに入らずにいる"
     },
     {
       "content": "sneak out",
@@ -907,8 +907,8 @@
       "translation": "大きな声で話す"
     },
     {
-      "content": "spit <A> out",
-      "translation": "<A> を吐き出す"
+      "content": "spit [A] out",
+      "translation": "[A] を吐き出す"
     },
     {
       "content": "spit out",
@@ -939,44 +939,44 @@
       "translation": "一から出直す"
     },
     {
-      "content": "stay away from <A>",
-      "translation": "<A> を避ける / 関わらない"
+      "content": "stay away from [A]",
+      "translation": "[A] を避ける / 関わらない"
     },
     {
       "content": "stay up late",
       "translation": "夜更かしする"
     },
     {
-      "content": "take <A> apart",
-      "translation": "<A> を（部品や構成要素に）分ける"
+      "content": "take [A] apart",
+      "translation": "[A] を（部品や構成要素に）分ける"
     },
     {
-      "content": "take <A> away",
-      "translation": "<A> を連れ去る"
+      "content": "take [A] away",
+      "translation": "[A] を連れ去る"
     },
     {
-      "content": "take <A> back",
-      "translation": "<A> （発言）を撤回する"
+      "content": "take [A] back",
+      "translation": "[A] （発言）を撤回する"
     },
     {
-      "content": "take <A> down",
-      "translation": "<A> を書き留める"
+      "content": "take [A] down",
+      "translation": "[A] を書き留める"
     },
     {
-      "content": "take <A> off",
-      "translation": "<A> を脱ぐ"
+      "content": "take [A] off",
+      "translation": "[A] を脱ぐ"
     },
     {
-      "content": "take <A> out",
-      "translation": "<A> とデートする"
+      "content": "take [A] out",
+      "translation": "[A] とデートする"
     },
     {
-      "content": "take <A> out to (lunch|dinner)",
-      "translation": "<A> を (昼食|夕食) に連れ出す"
+      "content": "take [A] out to (lunch|dinner)",
+      "translation": "[A] を (昼食|夕食) に連れ出す"
     },
     {
-      "content": "take <A> over",
-      "translation": "<A> を引き継ぐ"
+      "content": "take [A] over",
+      "translation": "[A] を引き継ぐ"
     },
     {
       "content": "take off",
@@ -987,19 +987,19 @@
       "translation": "仕事を引き受ける"
     },
     {
-      "content": "take over a job from <A>",
-      "translation": "<A> から仕事を引き継ぐ"
+      "content": "take over a job from [A]",
+      "translation": "[A] から仕事を引き継ぐ"
     },
     {
       "content": "take up (space|room)",
       "translation": "場所を占有する"
     },
     {
-      "content": "take up <A>",
-      "translation": "<A> （趣味や仕事等）を始める"
+      "content": "take up [A]",
+      "translation": "[A] （趣味や仕事等）を始める"
     },
     {
-      "content": "take up <one's> time",
+      "content": "take up [one's] time",
       "translation": "（仕事等が）時間を食う"
     },
     {
@@ -1007,31 +1007,31 @@
       "translation": "口答えする"
     },
     {
-      "content": "tear <A> down",
-      "translation": "<A> を壊す"
+      "content": "tear [A] down",
+      "translation": "[A] を壊す"
     },
     {
-      "content": "tear <A> up",
-      "translation": "<A> を切り刻む"
+      "content": "tear [A] up",
+      "translation": "[A] を切り刻む"
     },
     {
-      "content": "tell <A> off for <B>",
-      "translation": "<B> のことで <A> に小言を言う"
+      "content": "tell [A] off for [B]",
+      "translation": "[B] のことで [A] に小言を言う"
     },
     {
-      "content": "think <A> over",
-      "translation": "<A> についてよく考える"
+      "content": "think [A] over",
+      "translation": "[A] についてよく考える"
     },
     {
-      "content": "throw <A> away",
-      "translation": "<A> を捨てる"
+      "content": "throw [A] away",
+      "translation": "[A] を捨てる"
     },
     {
-      "content": "throw <A> up",
-      "translation": "<A> を急いで組み立てる"
+      "content": "throw [A] up",
+      "translation": "[A] を急いで組み立てる"
     },
     {
-      "content": "throw <one's> back out",
+      "content": "throw [one's] back out",
       "translation": "ぎっくり腰になる"
     },
     {
@@ -1043,48 +1043,48 @@
       "translation": "あくせく働く"
     },
     {
-      "content": "try <A> on ",
-      "translation": "<A> を試着する"
+      "content": "try [A] on ",
+      "translation": "[A] を試着する"
     },
     {
-      "content": "try <A> out",
-      "translation": "<A> を試す"
+      "content": "try [A] out",
+      "translation": "[A] を試す"
     },
     {
-      "content": "turn <A> down",
-      "translation": "<A> の音量を下げる"
+      "content": "turn [A] down",
+      "translation": "[A] の音量を下げる"
     },
     {
-      "content": "turn <A> in",
-      "translation": "<A>  を提出する"
+      "content": "turn [A] in",
+      "translation": "[A]  を提出する"
     },
     {
-      "content": "turn <A> off",
-      "translation": "<A> をオフにする"
+      "content": "turn [A] off",
+      "translation": "[A] をオフにする"
     },
     {
-      "content": "turn <A> on",
-      "translation": "<A> をオンにする"
+      "content": "turn [A] on",
+      "translation": "[A] をオンにする"
     },
     {
-      "content": "turn <A> out",
-      "translation": "<A> （電気機器等）を消す"
+      "content": "turn [A] out",
+      "translation": "[A] （電気機器等）を消す"
     },
     {
-      "content": "turn <A> up",
-      "translation": "<A> の音量を上げる"
+      "content": "turn [A] up",
+      "translation": "[A] の音量を上げる"
     },
     {
-      "content": "turn <somebody> down",
-      "translation": "<somebody> を断る / 却下する"
+      "content": "turn [somebody] down",
+      "translation": "[somebody] を断る / 却下する"
     },
     {
       "content": "turn around",
       "translation": "振り返る"
     },
     {
-      "content": "turn around <A>",
-      "translation": "<A> を立て直す"
+      "content": "turn around [A]",
+      "translation": "[A] を立て直す"
     },
     {
       "content": "turn away",
@@ -1099,8 +1099,8 @@
       "translation": "よくなる / うまくいく"
     },
     {
-      "content": "turn out to be <JJ>",
-      "translation": "（主体が） <JJ> であるとわかる"
+      "content": "turn out to be [JJ]",
+      "translation": "（主体が） [JJ] であるとわかる"
     },
     {
       "content": "turn over",
@@ -1111,16 +1111,16 @@
       "translation": "現れる"
     },
     {
-      "content": "use <A> up",
-      "translation": "<A> を使い切る"
+      "content": "use [A] up",
+      "translation": "[A] を使い切る"
     },
     {
-      "content": "wake <somebody> up",
-      "translation": "<somebody> を目覚めさせる"
+      "content": "wake [A] up to [B]",
+      "translation": "[B] について [A] に気付かせる"
     },
     {
-      "content": "wake <A> up to <B>",
-      "translation": "<B> について <A> に気付かせる"
+      "content": "wake [somebody] up",
+      "translation": "[somebody] を目覚めさせる"
     },
     {
       "content": "wake up",
@@ -1139,8 +1139,8 @@
       "translation": "歩いて出て行く"
     },
     {
-      "content": "walk up to <A>",
-      "translation": "<A> に近寄る"
+      "content": "walk up to [A]",
+      "translation": "[A] に近寄る"
     },
     {
       "content": "wander off",
@@ -1151,8 +1151,8 @@
       "translation": "ウォームアップする"
     },
     {
-      "content": "wash <A> out / wash out of <A>",
-      "translation": "<A> を洗い落とす"
+      "content": "wash [A] out / wash out of [A]",
+      "translation": "[A] を洗い落とす"
     },
     {
       "content": "watch out",
@@ -1163,20 +1163,20 @@
       "translation": "神経をすり減らす / （衣類等が）摩耗している"
     },
     {
-      "content": "wind <A> up",
+      "content": "wind [A] up",
       "translation": "巻き上げる / 終わらせる"
     },
     {
-      "content": "wind up <doing>",
-      "translation": "<doing> するはめになる"
+      "content": "wind up [doing]",
+      "translation": "[doing] するはめになる"
     },
     {
-      "content": "work <A> off",
-      "translation": "<A> （の仕事）を片付ける"
+      "content": "work [A] off",
+      "translation": "[A] （の仕事）を片付ける"
     },
     {
-      "content": "work <A> out",
-      "translation": "<A> をうまくやる / 解決する"
+      "content": "work [A] out",
+      "translation": "[A] をうまくやる / 解決する"
     },
     {
       "content": "work out",
@@ -1187,12 +1187,12 @@
       "translation": "鍛える"
     },
     {
-      "content": "write <A> down",
-      "translation": "<A>  を書き留める"
+      "content": "write [A] down",
+      "translation": "[A]  を書き留める"
     },
     {
-      "content": "write <A> up",
-      "translation": "<A> を公開する（説明/記事/レポート等）"
+      "content": "write [A] up",
+      "translation": "[A] を公開する（説明/記事/レポート等）"
     }
   ]
 }
