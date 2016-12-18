@@ -1,0 +1,118 @@
+---
+layout: global
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{site.title | escape }} | {{ page.title | escape }} | {% tocroot link:false %}</title>
+<link href="{% relative_path path:'/assets/lib/bootstrap-3.2.0/css/bootstrap.min.css' %}" media="screen" rel="stylesheet" type="text/css">
+<link href="{% relative_path path:'/assets/stylesheets/style.css' %}" media="screen" rel="stylesheet" type="text/css">
+<link href="{% relative_path path:'/assets/stylesheets/github.css' %}" media="screen" rel="stylesheet" type="text/css">
+<script src="{% relative_path path:'/assets/lib/jquery-1.11.1/jquery.min.js' %}"></script>
+<script src="{% relative_path path:'/assets/lib/bootstrap-3.2.0/js/bootstrap.min.js' %}"></script>
+<script src="{% relative_path path:'/assets/javascripts/jquery.ajaxtable.js' %}"></script>
+<script src="{% relative_path path:'/assets/javascripts/jquery.flashcard.js' %}"></script>
+<script type="text/javascript">
+(function($) {
+  $(function() {
+    $('#jsFlashcardTable').ajaxtable({
+      dataUrl: '{{ page.data_url }}'
+    });
+    $('#jsJpEnFlashcardCarousel').flashcard({
+      title: '{{ page.title }}',
+      dataUrl: '{{ page.data_url }}',
+      converter: function(data) {
+        var i;
+        var rows = data['rows'];
+        rows.sort(function(a, b) {
+          return Math.random() - 0.5;
+        });
+        var items = [];
+        for (i = 0; i < rows.length; i++) {
+          items.push(rows[i]['translation']);
+          items.push(rows[i]['content']);
+        }
+        return items;
+      }
+    });
+  });
+})(window.jQuery);
+</script>
+<style type="text/css">
+<!--
+.flashcard .carousel-inner .item {
+  padding: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.flashcard a.carousel-control {
+  background-image: none;
+}
+-->
+</style>
+</head>
+<body>
+<div id="wrapper">
+  {% include header.html %}
+  <div id="main">
+    <div class="container-fluid">
+      <ul class="breadcrumb">
+        {% breadcrumb divider:'' active:'class="active"' %}
+      </ul>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 hidden-xs">
+          <div id="navigation">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title" style="text-align: center; font-size: 11px; text-transform: uppercase; color: #999">Table of Contents</h3>
+              </div>
+              <div class="panel-body">
+              {% directory_index ul:'class="nav nav-pills nav-stacked"' active:'class="active"' %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8">
+          {% capture src %}{{ page.url | replace:'.html','.md' }}{% endcapture %}
+          <div class="btn-group pull-right">
+            <a class="btn btn-default" href="https://raw.github.com/tachesimazzoca/wiki/master/src{{ src }}">Raw</a>
+            <a class="btn btn-default" href="https://github.com/tachesimazzoca/wiki/blame/master/src{{ src }}">Blame</a>
+            <a class="btn btn-default" href="https://github.com/tachesimazzoca/wiki/commits/master/src{{ src }}">History</a>
+          </div>
+          <div id="content">
+            <h1>{{ page.title | escape }}</h1>
+
+            {{ content }}
+
+            <button type="button" class="btn btn-default"
+                data-toggle="modal" data-target="#jsJpEnFlashcard">Flashcard</button>
+            <div id="jsJpEnFlashcard" class="modal fade" tabindex="-1" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div id="jsJpEnFlashcardCarousel" class="flashcard slide"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <table id="jsFlashcardTable" class="table">
+            </table>
+          </div><!--/#content-->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/#main-->
+  {% include footer.html %}
+</div>
+<!--/#wrapper-->
+{% include ga.html %}
+</body>
+</html>

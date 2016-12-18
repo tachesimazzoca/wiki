@@ -1,17 +1,7 @@
 ---
-layout: page
+layout: flashcard
 
 title: Adjectives
+
+data_url: data/adjectives.json
 ---
-
-<table data-url="data/adjectives.json" class="table">
-</table>
-
-<script src="{% relative_path path:'/assets/javascripts/jquery.ajaxtable.js' %}"></script>
-<script type="text/javascript">
-(function($) {
-  $(function() {
-    $('[data-url]').ajaxtable();
-  });
-})(window.jQuery);
-</script>

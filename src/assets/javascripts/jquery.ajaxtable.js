@@ -56,7 +56,7 @@
     }
 
     return this.each(function() {
-      var url = this.getAttribute('data-url');
+      var url = option['dataUrl'] || this.getAttribute('data-url');
       var renderer;
       if (this.tagName.toLowerCase() == 'table') {
         renderer = _tableRenderer;

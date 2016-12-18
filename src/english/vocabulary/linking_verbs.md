@@ -1,18 +1,7 @@
 ---
-layout: page
+layout: flashcard
 
 title: Linking Verbs
----
 
-<table data-url="data/linking_verbs.json" class="table">
-</table>
-
-<script src="{% relative_path path:'/assets/javascripts/jquery.ajaxtable.js' %}"></script>
-<script type="text/javascript">
-(function($) {
-  $(function() {
-    $('[data-url]').ajaxtable();
-  });
-})(window.jQuery);
-</script>
+data_url: data/linking_verbs.json
 ---
