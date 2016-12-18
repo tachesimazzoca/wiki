@@ -1,0 +1,730 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(at first|in the end)",
+      "translation": "(最初の|最後の)"
+    },
+    {
+      "content": "about [N] (high|long|tall)",
+      "translation": "[N] ほどの (高さ|長さ|背) の"
+    },
+    {
+      "content": "along [A]",
+      "translation": "[A] に沿った"
+    },
+    {
+      "content": "along with [A]",
+      "translation": "[A] を同伴した / と同時の"
+    },
+    {
+      "content": "as a last resort",
+      "translation": "最後の手段として / 手立てが尽きたら"
+    },
+    {
+      "content": "as a result",
+      "translation": "結果として"
+    },
+    {
+      "content": "as compared to [A]",
+      "translation": "[A] と比較して"
+    },
+    {
+      "content": "at (a speed of) [N] miles",
+      "translation": "[N] マイル時に"
+    },
+    {
+      "content": "at (the)? (most|least)",
+      "translation": "(最大|最小)でも"
+    },
+    {
+      "content": "at [one's] disposal",
+      "translation": "思い通りに"
+    },
+    {
+      "content": "at a glance",
+      "translation": "一目で"
+    },
+    {
+      "content": "at all",
+      "translation": "全く"
+    },
+    {
+      "content": "at all costs",
+      "translation": "どんな犠牲を払っても"
+    },
+    {
+      "content": "at best",
+      "translation": "せいぜい"
+    },
+    {
+      "content": "at first glance",
+      "translation": "ぱっと見たところ"
+    },
+    {
+      "content": "at first sight",
+      "translation": "一目で"
+    },
+    {
+      "content": "at hand",
+      "translation": "手元に"
+    },
+    {
+      "content": "at heart",
+      "translation": "根から / 性格的に / 生理学的に"
+    },
+    {
+      "content": "at random",
+      "translation": "無作為に"
+    },
+    {
+      "content": "at risk of [A]",
+      "translation": "[A] による危機的状況にある"
+    },
+    {
+      "content": "at stake",
+      "translation": "懸かっている / 危うい状況にある / 問題提起されている"
+    },
+    {
+      "content": "at the discretion of [A]",
+      "translation": "[A] （協議者）の裁定により"
+    },
+    {
+      "content": "at the expense of [A]",
+      "translation": "[A] に負担を強いて / 踏み台にして"
+    },
+    {
+      "content": "at the thought of [A]",
+      "translation": "[A] のことを考えると"
+    },
+    {
+      "content": "at will",
+      "translation": "意のままに"
+    },
+    {
+      "content": "behind the scenes",
+      "translation": "裏で / 目に見えないところで"
+    },
+    {
+      "content": "beyond description",
+      "translation": "言い表せないほどに"
+    },
+    {
+      "content": "beyond the reach of [one's] imagination",
+      "translation": "想像の範囲を越えて"
+    },
+    {
+      "content": "by [N] percent",
+      "translation": "[N] パーセントの割合で"
+    },
+    {
+      "content": "by chance",
+      "translation": "偶然に"
+    },
+    {
+      "content": "by coincidence",
+      "translation": "たまたま"
+    },
+    {
+      "content": "by hand",
+      "translation": "手動で"
+    },
+    {
+      "content": "by intuition",
+      "translation": "勘で"
+    },
+    {
+      "content": "by luck",
+      "translation": "運で"
+    },
+    {
+      "content": "by mistake",
+      "translation": "間違えて"
+    },
+    {
+      "content": "by nature",
+      "translation": "生まれつき"
+    },
+    {
+      "content": "by some other reasons",
+      "translation": "なにか他の理由で"
+    },
+    {
+      "content": "by the following instructions",
+      "translation": "これから説明する手順に従って"
+    },
+    {
+      "content": "by the hundreds",
+      "translation": "無数に"
+    },
+    {
+      "content": "due to [A]",
+      "translation": "[A] のために / 起因して"
+    },
+    {
+      "content": "except for [A]",
+      "translation": "[A] 以外は"
+    },
+    {
+      "content": "for a change",
+      "translation": "気分転換に"
+    },
+    {
+      "content": "for free",
+      "translation": "無料で"
+    },
+    {
+      "content": "for good this time",
+      "translation": "今回を機に"
+    },
+    {
+      "content": "for more information",
+      "translation": "詳しくは"
+    },
+    {
+      "content": "for several (days|weeks) ahead",
+      "translation": "何 (日|週間) も先のために事前に"
+    },
+    {
+      "content": "for the sake of [A]",
+      "translation": "[A] の利益のために"
+    },
+    {
+      "content": "for your reference",
+      "translation": "ご参考のために"
+    },
+    {
+      "content": "from coast to coast",
+      "translation": "全米中で"
+    },
+    {
+      "content": "from generation to generation",
+      "translation": "代々"
+    },
+    {
+      "content": "from now on",
+      "translation": "今後は"
+    },
+    {
+      "content": "in (connection|conjunction) with [A]",
+      "translation": "[A] を通じて"
+    },
+    {
+      "content": "in (practice|generalprinciple|theory)",
+      "translation": "(実際には|一般的には|原則的には|理論上では)"
+    },
+    {
+      "content": "in (units of) bytes",
+      "translation": "バイト単位で"
+    },
+    {
+      "content": "in [doing]",
+      "translation": "[doing] することにおいて"
+    },
+    {
+      "content": "in [one's] hand",
+      "translation": "手にいれて"
+    },
+    {
+      "content": "in [one's] presence",
+      "translation": "人前で"
+    },
+    {
+      "content": "in a [JJ] condition",
+      "translation": "[JJ] な状態で"
+    },
+    {
+      "content": "in a [JJ] situation",
+      "translation": "[JJ] な状況で"
+    },
+    {
+      "content": "in a better mood",
+      "translation": "機嫌が直って"
+    },
+    {
+      "content": "in a bid to [do]",
+      "translation": "[do] しようと目論んで"
+    },
+    {
+      "content": "in a different way",
+      "translation": "違うやり方で"
+    },
+    {
+      "content": "in a hurry",
+      "translation": "急いで"
+    },
+    {
+      "content": "in a line",
+      "translation": "列をなして"
+    },
+    {
+      "content": "in a loud voice",
+      "translation": "大きな声で"
+    },
+    {
+      "content": "in a nutshell",
+      "translation": "手短に"
+    },
+    {
+      "content": "in a rage",
+      "translation": "かんかんに怒って"
+    },
+    {
+      "content": "in a row",
+      "translation": "連続して"
+    },
+    {
+      "content": "in a sense",
+      "translation": "ある意味"
+    },
+    {
+      "content": "in a vacuum",
+      "translation": "聞く耳もたず / 外部と関わることなく"
+    },
+    {
+      "content": "in accordance with [A]",
+      "translation": "[A] に従って"
+    },
+    {
+      "content": "in addition to [A]",
+      "translation": "[A] に加えて"
+    },
+    {
+      "content": "in advance",
+      "translation": "前もって"
+    },
+    {
+      "content": "in change",
+      "translation": "小銭で"
+    },
+    {
+      "content": "in charge of [A]",
+      "translation": "[A] を担当をしている"
+    },
+    {
+      "content": "in class",
+      "translation": "授業中に"
+    },
+    {
+      "content": "in collaboration with [A]",
+      "translation": "[A] と共同して"
+    },
+    {
+      "content": "in compliance with [A]",
+      "translation": "[A] に従って"
+    },
+    {
+      "content": "in detail",
+      "translation": "詳細に"
+    },
+    {
+      "content": "in disguise",
+      "translation": "変装して"
+    },
+    {
+      "content": "in earnest",
+      "translation": "真剣に"
+    },
+    {
+      "content": "in every (way|respect)",
+      "translation": "あらゆる面で"
+    },
+    {
+      "content": "in haste",
+      "translation": "急いで"
+    },
+    {
+      "content": "in honer of [A]",
+      "translation": "[A] に敬意を表して"
+    },
+    {
+      "content": "in justification of [A]",
+      "translation": "[A] の根拠として"
+    },
+    {
+      "content": "in keeping with [A]",
+      "translation": "[A] に合わせて"
+    },
+    {
+      "content": "in luxury",
+      "translation": "贅沢して"
+    },
+    {
+      "content": "in my judgement",
+      "translation": "私の判断では"
+    },
+    {
+      "content": "in need",
+      "translation": "困って（助けが必要で）"
+    },
+    {
+      "content": "in new",
+      "translation": "流行中で"
+    },
+    {
+      "content": "in next door",
+      "translation": "隣近所に"
+    },
+    {
+      "content": "in no time",
+      "translation": "直ちに"
+    },
+    {
+      "content": "in one hand",
+      "translation": "手に取って"
+    },
+    {
+      "content": "in operation",
+      "translation": "操業中で"
+    },
+    {
+      "content": "in person",
+      "translation": "直接会って"
+    },
+    {
+      "content": "in perspective",
+      "translation": "広い視野を持って"
+    },
+    {
+      "content": "in preparation for [A]",
+      "translation": "[A] に備えて"
+    },
+    {
+      "content": "in prison",
+      "translation": "服役中で"
+    },
+    {
+      "content": "in progress",
+      "translation": "進行中で"
+    },
+    {
+      "content": "in public",
+      "translation": "人前で / 公の場で"
+    },
+    {
+      "content": "in reality",
+      "translation": "現実に"
+    },
+    {
+      "content": "in recognition of [A]",
+      "translation": "[A] の褒美（お礼）として"
+    },
+    {
+      "content": "in relation to [A]",
+      "translation": "[A] に関連して"
+    },
+    {
+      "content": "in return",
+      "translation": "見返りとして"
+    },
+    {
+      "content": "in room number 123",
+      "translation": "123号室に"
+    },
+    {
+      "content": "in search of [A]",
+      "translation": "[A] を求めて"
+    },
+    {
+      "content": "in shape",
+      "translation": "体が鍛えられて"
+    },
+    {
+      "content": "in sight",
+      "translation": "見えて / 視界にあって"
+    },
+    {
+      "content": "in succession",
+      "translation": "連続して / 次々に"
+    },
+    {
+      "content": "in tears",
+      "translation": "泣きながら"
+    },
+    {
+      "content": "in terms of [A]",
+      "translation": "[A] の観点で / をふまえて"
+    },
+    {
+      "content": "in the (singular|plural)",
+      "translation": "(単数形|複数形) で"
+    },
+    {
+      "content": "in the aspect of [A]",
+      "translation": "[A] の面で"
+    },
+    {
+      "content": "in the course of [A]",
+      "translation": "[A] の過程で"
+    },
+    {
+      "content": "in the event of [A]",
+      "translation": "[A] が起こった場合に"
+    },
+    {
+      "content": "in the face of [adversity]",
+      "translation": "[adversity] に直面している"
+    },
+    {
+      "content": "in the implementation of [A]",
+      "translation": "[A] の実装において"
+    },
+    {
+      "content": "in the long run",
+      "translation": "長期的には"
+    },
+    {
+      "content": "in the way",
+      "translation": "邪魔になる位置に"
+    },
+    {
+      "content": "in the wrong direction",
+      "translation": "間違った方向に"
+    },
+    {
+      "content": "in turn",
+      "translation": "交代で"
+    },
+    {
+      "content": "in use",
+      "translation": "使用中の"
+    },
+    {
+      "content": "in vain",
+      "translation": "無駄に"
+    },
+    {
+      "content": "in various ways",
+      "translation": "あらゆる方法で"
+    },
+    {
+      "content": "in writing",
+      "translation": "書面で"
+    },
+    {
+      "content": "just around the corner",
+      "translation": "すぐそこに"
+    },
+    {
+      "content": "on [one's] own",
+      "translation": "自身の力で"
+    },
+    {
+      "content": "on a daily basis",
+      "translation": "１日単位で"
+    },
+    {
+      "content": "on a global scale",
+      "translation": "地球規模で"
+    },
+    {
+      "content": "on account of [A]",
+      "translation": "[A] を原因として"
+    },
+    {
+      "content": "on average",
+      "translation": "平均で"
+    },
+    {
+      "content": "on behalf of [A] / on [one's] behalf",
+      "translation": "[A] を代理（代表）して"
+    },
+    {
+      "content": "on board",
+      "translation": "乗り組んでいる"
+    },
+    {
+      "content": "on display",
+      "translation": "展示されて"
+    },
+    {
+      "content": "on duty",
+      "translation": "勤務中に"
+    },
+    {
+      "content": "on hand",
+      "translation": "その場にいて / 用意されて"
+    },
+    {
+      "content": "on how to [do]",
+      "translation": "どのように [do] するかについて"
+    },
+    {
+      "content": "on impulse",
+      "translation": "衝動的に"
+    },
+    {
+      "content": "on my way home from [A]",
+      "translation": "[A] からの帰り道で"
+    },
+    {
+      "content": "on practice",
+      "translation": "実際に / 現場レベルで"
+    },
+    {
+      "content": "on purpose",
+      "translation": "わざと"
+    },
+    {
+      "content": "on stage",
+      "translation": "舞台で"
+    },
+    {
+      "content": "on the subject of [A]",
+      "translation": "[A] という命題において"
+    },
+    {
+      "content": "on the verge of [A]",
+      "translation": "今にも [A] の状況で"
+    },
+    {
+      "content": "on Wi-Fi",
+      "translation": "Wi-Fi 接続して"
+    },
+    {
+      "content": "opposite [A]",
+      "translation": "[A] と向かい合わせで"
+    },
+    {
+      "content": "out of a fairy tale",
+      "translation": "おとぎ話から出てきたような"
+    },
+    {
+      "content": "over the course of [time",
+      "translation": "[time にわたってずっと"
+    },
+    {
+      "content": "owing to [A]",
+      "translation": "[A] を原因として"
+    },
+    {
+      "content": "past [A]",
+      "translation": "[A] を通り過ぎて"
+    },
+    {
+      "content": "regarding [A]",
+      "translation": "[A] に関して"
+    },
+    {
+      "content": "through [A]",
+      "translation": "[A] を（初めから終わりまで）経て"
+    },
+    {
+      "content": "to [one's] heart's content",
+      "translation": "思うがままに"
+    },
+    {
+      "content": "to a certain extent",
+      "translation": "ある程度は"
+    },
+    {
+      "content": "together with [A]",
+      "translation": "[A] と一緒に"
+    },
+    {
+      "content": "toward [A]",
+      "translation": "[A] を向いて"
+    },
+    {
+      "content": "under [A]",
+      "translation": "[A] の条件下で"
+    },
+    {
+      "content": "under any circumstances",
+      "translation": "いかなる状況でも"
+    },
+    {
+      "content": "under investigation",
+      "translation": "調査中で"
+    },
+    {
+      "content": "under the Constitution",
+      "translation": "憲法では"
+    },
+    {
+      "content": "under way",
+      "translation": "進行中で"
+    },
+    {
+      "content": "with a [N]-[M]ths majority",
+      "translation": "N/M の多数決で"
+    },
+    {
+      "content": "with a little effort",
+      "translation": "ちょっとした努力で"
+    },
+    {
+      "content": "with a view to [doing]",
+      "translation": "[doing] することを目指して"
+    },
+    {
+      "content": "with accuracy",
+      "translation": "正確に"
+    },
+    {
+      "content": "with all the [A]",
+      "translation": "[A] があるおかげで / あれだけあるのだから"
+    },
+    {
+      "content": "with expertise in [A]",
+      "translation": "[A] に熟練した"
+    },
+    {
+      "content": "with high expectations",
+      "translation": "高い期待を持って"
+    },
+    {
+      "content": "with horror",
+      "translation": "怖くて"
+    },
+    {
+      "content": "with reluctance",
+      "translation": "不本意ながら / いやいや"
+    },
+    {
+      "content": "with the exception of [A]",
+      "translation": "[A] を例外として"
+    },
+    {
+      "content": "with the lever sliding down",
+      "translation": "レバーを下げた状態で"
+    },
+    {
+      "content": "within the (range|bounds|confines) of [A]",
+      "translation": "[A] の範囲で"
+    },
+    {
+      "content": "without [doing]",
+      "translation": "[doing] することなしに"
+    },
+    {
+      "content": "without a murmur",
+      "translation": "ぶつくさ不平を言わずに"
+    },
+    {
+      "content": "without a trace",
+      "translation": "痕跡を残さず"
+    },
+    {
+      "content": "without an explanation",
+      "translation": "なんの説明もなく"
+    },
+    {
+      "content": "without notice",
+      "translation": "予告なく"
+    },
+    {
+      "content": "without permission",
+      "translation": "許可なく"
+    }
+  ]
+}

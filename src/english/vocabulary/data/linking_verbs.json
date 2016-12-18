@@ -131,7 +131,7 @@
       "translation": "[A] に似ている"
     },
     {
-      "content": "be (superior ! inferior )to [A]",
+      "content": "be (superior ! inferior) to [A]",
       "translation": "[A] よりも (優れている ! 劣っている)"
     },
     {
@@ -309,10 +309,6 @@
     {
       "content": "be capable of [doing]",
       "translation": "[doing] する能力がある"
-    },
-    {
-      "content": "be challenging",
-      "translation": "やりがいがある"
     },
     {
       "content": "be cluttered with [A]",
@@ -625,10 +621,6 @@
     {
       "content": "be married to [somebody]",
       "translation": "[somebody] と結婚している"
-    },
-    {
-      "content": "be misleading",
-      "translation": "誤解を招く恐れがある"
     },
     {
       "content": "be moved by [A]",

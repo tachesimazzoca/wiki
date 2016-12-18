@@ -1,0 +1,186 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(just) as long as it’s good",
+      "translation": "良い物なら"
+    },
+    {
+      "content": "(just) as long as that's OK with you",
+      "translation": "あなたがよければ"
+    },
+    {
+      "content": "after making sure [...]",
+      "translation": "[...] であることを確認してから"
+    },
+    {
+      "content": "after you eat dinner",
+      "translation": "夕食後に"
+    },
+    {
+      "content": "apart from that",
+      "translation": "それとは別に"
+    },
+    {
+      "content": "as (if|though) [...]",
+      "translation": "あたかも [...] であるように"
+    },
+    {
+      "content": "as [graciously] as I could muster",
+      "translation": "気力をふりしぼって [graciously] に"
+    },
+    {
+      "content": "as before [...]",
+      "translation": "以前に [...] であることと同じように"
+    },
+    {
+      "content": "as compared to [A]",
+      "translation": "[A] と比較して"
+    },
+    {
+      "content": "as far as I know",
+      "translation": "自分の知る限りで"
+    },
+    {
+      "content": "as follows",
+      "translation": "以下の通り"
+    },
+    {
+      "content": "as I mentioned before",
+      "translation": "先にお伝えした通り"
+    },
+    {
+      "content": "as much as possible",
+      "translation": "なるべく"
+    },
+    {
+      "content": "as soon as possible",
+      "translation": "できるだけ早く"
+    },
+    {
+      "content": "as time has progressed",
+      "translation": "時が過ぎ"
+    },
+    {
+      "content": "as we anticipated",
+      "translation": "予期していた通り"
+    },
+    {
+      "content": "as we had hoped",
+      "translation": "希望していた通りに"
+    },
+    {
+      "content": "before I even ask",
+      "translation": "頼む前に"
+    },
+    {
+      "content": "before you begin",
+      "translation": "始めに"
+    },
+    {
+      "content": "each time [...]",
+      "translation": "[...] する度に"
+    },
+    {
+      "content": "even as [...]",
+      "translation": "[...] である状況にあっても"
+    },
+    {
+      "content": "even if [...]",
+      "translation": "たとえ [...] であっても"
+    },
+    {
+      "content": "every time [...]",
+      "translation": "[...] する時はいつも"
+    },
+    {
+      "content": "if I could leave early",
+      "translation": "早退できるかどうか"
+    },
+    {
+      "content": "if I'm not wrong",
+      "translation": "自分が間違ってないとして"
+    },
+    {
+      "content": "if needed",
+      "translation": "必要ならば"
+    },
+    {
+      "content": "if not used properly",
+      "translation": "正しく使わないと"
+    },
+    {
+      "content": "in which [...]",
+      "translation": "[...] の条件で"
+    },
+    {
+      "content": "more than I'd ever have guessed",
+      "translation": "今までのどんなことよりも"
+    },
+    {
+      "content": "no matter how much it costs",
+      "translation": "いくら値が張ろうとも"
+    },
+    {
+      "content": "no matter whether or not [...]",
+      "translation": "[...] であろうとなかろうと"
+    },
+    {
+      "content": "once you've completed [A]",
+      "translation": "いったん [A] を終わらせたら"
+    },
+    {
+      "content": "sometime when [...]",
+      "translation": "いつか [...] となったら"
+    },
+    {
+      "content": "than before",
+      "translation": "以前より"
+    },
+    {
+      "content": "than expected",
+      "translation": "思ったより"
+    },
+    {
+      "content": "than usual",
+      "translation": "いつもより"
+    },
+    {
+      "content": "whatever that means",
+      "translation": "どういう意味であれ"
+    },
+    {
+      "content": "when [doing]",
+      "translation": "[doing] する時に"
+    },
+    {
+      "content": "when it comes to [A]",
+      "translation": "[A] のことになると"
+    },
+    {
+      "content": "when it matters",
+      "translation": "肝心な時に"
+    },
+    {
+      "content": "when it's appropriate",
+      "translation": "いつなら良いのか"
+    },
+    {
+      "content": "whether [A] is valid or not",
+      "translation": "[A] が正しいかどうか"
+    },
+    {
+      "content": "why on earth [...]",
+      "translation": "一体どうして [...] であるのか"
+    }
+  ]
+}

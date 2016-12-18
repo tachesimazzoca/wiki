@@ -1,0 +1,474 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(in)? that way",
+      "translation": "そうすれば / そう考えると"
+    },
+    {
+      "content": "(in)? this way",
+      "translation": "このようにして"
+    },
+    {
+      "content": "(on the whole|by and large)",
+      "translation": "概して"
+    },
+    {
+      "content": "above all",
+      "translation": "とりわけ / 何にもまして"
+    },
+    {
+      "content": "accordingly",
+      "translation": "従って"
+    },
+    {
+      "content": "actually",
+      "translation": "実は"
+    },
+    {
+      "content": "after all",
+      "translation": "結局"
+    },
+    {
+      "content": "afterwards",
+      "translation": "後々になって"
+    },
+    {
+      "content": "alternatively",
+      "translation": "あるいは"
+    },
+    {
+      "content": "and for that",
+      "translation": "そしてそのためには"
+    },
+    {
+      "content": "and yet",
+      "translation": "にもかかわらず"
+    },
+    {
+      "content": "apparently",
+      "translation": "どうやら"
+    },
+    {
+      "content": "as [A] put it",
+      "translation": "[A] が言う（示す）ように"
+    },
+    {
+      "content": "as a matter of fact",
+      "translation": "実際のところ"
+    },
+    {
+      "content": "as a result (of [A])",
+      "translation": "([A] の)結果として"
+    },
+    {
+      "content": "as a side comment",
+      "translation": "もう一つおまけでお話すると"
+    },
+    {
+      "content": "as an aside",
+      "translation": "余談ですが"
+    },
+    {
+      "content": "as discussed",
+      "translation": "話した通り"
+    },
+    {
+      "content": "as explained",
+      "translation": "説明した通り"
+    },
+    {
+      "content": "as far as [A] is concerned",
+      "translation": "[A] に関しては"
+    },
+    {
+      "content": "as far as I know",
+      "translation": "私の知る限りで"
+    },
+    {
+      "content": "as I mentioned before",
+      "translation": "前述の通り"
+    },
+    {
+      "content": "as it is",
+      "translation": "実際は"
+    },
+    {
+      "content": "as planned",
+      "translation": "予定通り"
+    },
+    {
+      "content": "as promised",
+      "translation": "約束通り"
+    },
+    {
+      "content": "as shown",
+      "translation": "掲載されている通り"
+    },
+    {
+      "content": "as usual",
+      "translation": "たいていは"
+    },
+    {
+      "content": "as written",
+      "translation": "書いてある通り"
+    },
+    {
+      "content": "as you can see",
+      "translation": "ご覧のように"
+    },
+    {
+      "content": "as you likely noticed",
+      "translation": "お気づきだと思いますが"
+    },
+    {
+      "content": "back home",
+      "translation": "自国では"
+    },
+    {
+      "content": "back in Japan",
+      "translation": "自国の日本では"
+    },
+    {
+      "content": "believe it or not",
+      "translation": "信じてくれないだろうけど"
+    },
+    {
+      "content": "besides [A]",
+      "translation": "[A] だけでなく"
+    },
+    {
+      "content": "between you and me",
+      "translation": "ここだけの話ですが"
+    },
+    {
+      "content": "but now",
+      "translation": "今となっては"
+    },
+    {
+      "content": "but wait",
+      "translation": "とはいえ（ちょっと待った）"
+    },
+    {
+      "content": "by contrast",
+      "translation": "対照的に"
+    },
+    {
+      "content": "by default",
+      "translation": "デフォルトでは"
+    },
+    {
+      "content": "by the way",
+      "translation": "ところで"
+    },
+    {
+      "content": "compared to [A]",
+      "translation": "[something] と比べると"
+    },
+    {
+      "content": "concretely",
+      "translation": "具体的には"
+    },
+    {
+      "content": "contrary to [A]",
+      "translation": "[A] に反して"
+    },
+    {
+      "content": "conversely",
+      "translation": "逆に / それとはひきかえに"
+    },
+    {
+      "content": "due to [a reason]",
+      "translation": "[a reason] を理由として"
+    },
+    {
+      "content": "eventually",
+      "translation": "最終的に / 結果的に"
+    },
+    {
+      "content": "finally",
+      "translation": "最後に / 結びとして"
+    },
+    {
+      "content": "for instance",
+      "translation": "例えば"
+    },
+    {
+      "content": "frankly speaking",
+      "translation": "無礼を承知ではっきりいうと"
+    },
+    {
+      "content": "generally",
+      "translation": "一般的に"
+    },
+    {
+      "content": "given that",
+      "translation": "そうであるならば"
+    },
+    {
+      "content": "hence",
+      "translation": "ゆえに"
+    },
+    {
+      "content": "however",
+      "translation": "しかしながら"
+    },
+    {
+      "content": "if anything",
+      "translation": "どちらかというと"
+    },
+    {
+      "content": "in a sense",
+      "translation": "ある程度は"
+    },
+    {
+      "content": "in addition",
+      "translation": "加えて"
+    },
+    {
+      "content": "in an ideal world",
+      "translation": "理想では"
+    },
+    {
+      "content": "in any case",
+      "translation": "ともかく / いずれにしても"
+    },
+    {
+      "content": "in contrast",
+      "translation": "対して"
+    },
+    {
+      "content": "in fact",
+      "translation": "事実として（疑念を晴らす事実）"
+    },
+    {
+      "content": "in most cases",
+      "translation": "ほとんどの場合"
+    },
+    {
+      "content": "in order to [do]",
+      "translation": "[do] するために"
+    },
+    {
+      "content": "in other words",
+      "translation": "言いかえると"
+    },
+    {
+      "content": "in part",
+      "translation": "ひとつには"
+    },
+    {
+      "content": "in particular",
+      "translation": "特に"
+    },
+    {
+      "content": "in practice",
+      "translation": "実際は / 実用上は"
+    },
+    {
+      "content": "in that respect",
+      "translation": "その点で"
+    },
+    {
+      "content": "in that sense",
+      "translation": "そういう意味では"
+    },
+    {
+      "content": "in the first place",
+      "translation": "そもそも"
+    },
+    {
+      "content": "in the meantime",
+      "translation": "当面の間は"
+    },
+    {
+      "content": "in the same vein",
+      "translation": "同じ意味で"
+    },
+    {
+      "content": "indeed",
+      "translation": "確かに"
+    },
+    {
+      "content": "ironically",
+      "translation": "皮肉にも"
+    },
+    {
+      "content": "just as [...]",
+      "translation": "[...] である通り"
+    },
+    {
+      "content": "just out of interest",
+      "translation": "単に好奇心からですが"
+    },
+    {
+      "content": "knowing that [...]",
+      "translation": "[...] は既知であるので"
+    },
+    {
+      "content": "likewise",
+      "translation": "同じように"
+    },
+    {
+      "content": "more often than not",
+      "translation": "たいていは"
+    },
+    {
+      "content": "more precisely",
+      "translation": "もっと細かいことをいうと"
+    },
+    {
+      "content": "namely",
+      "translation": "すなわち"
+    },
+    {
+      "content": "needless to say",
+      "translation": "言うまでもなく"
+    },
+    {
+      "content": "nevertheless",
+      "translation": "それにもかかわらず"
+    },
+    {
+      "content": "no offence to [A]",
+      "translation": "[A] を悪く言うわけでないが"
+    },
+    {
+      "content": "now that I think about it",
+      "translation": "そういえば"
+    },
+    {
+      "content": "nowadays",
+      "translation": "今となっては"
+    },
+    {
+      "content": "on the other hand",
+      "translation": "一方（他方）では"
+    },
+    {
+      "content": "one way out of [A]",
+      "translation": "[A] から抜け出す方法の一つとして"
+    },
+    {
+      "content": "other than that",
+      "translation": "それ以外は"
+    },
+    {
+      "content": "otherwise",
+      "translation": "そうでないと"
+    },
+    {
+      "content": "plus",
+      "translation": "加えて"
+    },
+    {
+      "content": "rather than [A]",
+      "translation": "[A] ではなくて"
+    },
+    {
+      "content": "roughly speaking",
+      "translation": "ざっくりいうと"
+    },
+    {
+      "content": "similar to [A]",
+      "translation": "[A] と同じように"
+    },
+    {
+      "content": "simply put",
+      "translation": "簡単にいうと"
+    },
+    {
+      "content": "so far ",
+      "translation": "というわけで （プレゼン/講義などでの合いの手）"
+    },
+    {
+      "content": "so to say",
+      "translation": "言うならば"
+    },
+    {
+      "content": "soon or later",
+      "translation": "遅かれ早かれ"
+    },
+    {
+      "content": "speak of the devil",
+      "translation": "うわさをすれば"
+    },
+    {
+      "content": "strange to say",
+      "translation": "奇妙な話だが"
+    },
+    {
+      "content": "thanks to [A]",
+      "translation": "[A] のおかげで"
+    },
+    {
+      "content": "therefore",
+      "translation": "ゆえに"
+    },
+    {
+      "content": "these days",
+      "translation": "近頃は"
+    },
+    {
+      "content": "those days",
+      "translation": "かつては（あの頃は）"
+    },
+    {
+      "content": "to a degree",
+      "translation": "ある程度は"
+    },
+    {
+      "content": "to be concrete",
+      "translation": "具体的には"
+    },
+    {
+      "content": "to be honest",
+      "translation": "正直言うと"
+    },
+    {
+      "content": "to begin with",
+      "translation": "大体からして / 第一 / そもそも"
+    },
+    {
+      "content": "to make matters worth",
+      "translation": "厄介なことに"
+    },
+    {
+      "content": "to my knowledge",
+      "translation": "私の知る限り"
+    },
+    {
+      "content": "to tell the truth",
+      "translation": "正直言うと"
+    },
+    {
+      "content": "traditionally",
+      "translation": "伝統的に"
+    },
+    {
+      "content": "typically",
+      "translation": "慣習的（一般的）に"
+    },
+    {
+      "content": "ultimately",
+      "translation": "結局は"
+    },
+    {
+      "content": "up until now",
+      "translation": "今のところは"
+    },
+    {
+      "content": "what's more",
+      "translation": "それに加えて / おまけに"
+    }
+  ]
+}

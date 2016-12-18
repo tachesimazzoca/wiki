@@ -1,0 +1,454 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    }
+  ],
+  "rows": [
+    {
+      "content": "(east|west|south|north)",
+      "translation": "(東|西|南|北) へ"
+    },
+    {
+      "content": "(in favor of|against) [A]",
+      "translation": "[A] に(賛成|反対)して"
+    },
+    {
+      "content": "(inside out|on backwards)",
+      "translation": "(裏返し|後ろ前) に"
+    },
+    {
+      "content": "(one by one|one at a time)",
+      "translation": "一つ一つ"
+    },
+    {
+      "content": "(up|down) there",
+      "translation": "(上にある|下にある)そこで"
+    },
+    {
+      "content": "[later] than usual",
+      "translation": "いつもより [later]"
+    },
+    {
+      "content": "[N] [unit] (ahead|behind)",
+      "translation": "[N] [unit] (前方|後方) に"
+    },
+    {
+      "content": "above all",
+      "translation": "とりわけ"
+    },
+    {
+      "content": "absolutely,exactly,completely,roundly,utterly",
+      "translation": "全くもって / 当然"
+    },
+    {
+      "content": "according to [A]",
+      "translation": "[A] に従って"
+    },
+    {
+      "content": "accordingly",
+      "translation": "状況に応じて"
+    },
+    {
+      "content": "after all",
+      "translation": "結局のところ / 結果として"
+    },
+    {
+      "content": "afterwards",
+      "translation": "後で"
+    },
+    {
+      "content": "against  [one's] will",
+      "translation": "意に反して"
+    },
+    {
+      "content": "alike",
+      "translation": "同様に"
+    },
+    {
+      "content": "all of a sudden",
+      "translation": "不意に"
+    },
+    {
+      "content": "all over again",
+      "translation": "改めて始めから / 再び ... となるはめになる（二の舞）"
+    },
+    {
+      "content": "all the more",
+      "translation": "なおいっそう"
+    },
+    {
+      "content": "all the way",
+      "translation": "わざわざ / はるばる / 幅広く"
+    },
+    {
+      "content": "all the way to [A]",
+      "translation": "[A] への道中ずっと"
+    },
+    {
+      "content": "along the way",
+      "translation": "道中で / 事を進めながら"
+    },
+    {
+      "content": "alternately",
+      "translation": "交互に"
+    },
+    {
+      "content": "apart from [A]",
+      "translation": "[A] 以外は"
+    },
+    {
+      "content": "approximately,roughly",
+      "translation": "おおよそ"
+    },
+    {
+      "content": "as a whole",
+      "translation": "全体として"
+    },
+    {
+      "content": "as diverse as [A]",
+      "translation": "[A] にいたるまで様々に"
+    },
+    {
+      "content": "badly,terribly,horribly,awfully",
+      "translation": "ひどく"
+    },
+    {
+      "content": "barely",
+      "translation": "なんとか"
+    },
+    {
+      "content": "beforehand",
+      "translation": "前もって"
+    },
+    {
+      "content": "by accident",
+      "translation": "過失で"
+    },
+    {
+      "content": "by and large",
+      "translation": "全般的に"
+    },
+    {
+      "content": "by far",
+      "translation": "断然（最上級を修飾）"
+    },
+    {
+      "content": "by no means",
+      "translation": "決して ... ない"
+    },
+    {
+      "content": "coincidentally",
+      "translation": "偶然に"
+    },
+    {
+      "content": "day by day",
+      "translation": "日に日に"
+    },
+    {
+      "content": "deceptively",
+      "translation": "一見して"
+    },
+    {
+      "content": "deeply",
+      "translation": "深く"
+    },
+    {
+      "content": "deliberately",
+      "translation": "あえて / 故意に"
+    },
+    {
+      "content": "depending on [A]",
+      "translation": "[A] 次第で"
+    },
+    {
+      "content": "easly,readily",
+      "translation": "簡単に / すぐに"
+    },
+    {
+      "content": "emphatically",
+      "translation": "きっぱりと"
+    },
+    {
+      "content": "except for [A]",
+      "translation": "[A] を除いて"
+    },
+    {
+      "content": "extremely > very > moderately > slightly > not at all",
+      "translation": "全くそう思う > そう思う > 普通 > あまりそう思わない > 全くそう思わない"
+    },
+    {
+      "content": "finally,eventually,ultimately",
+      "translation": "最終的に / 結果的に"
+    },
+    {
+      "content": "flatly",
+      "translation": "うやむやにせずにはっきりと"
+    },
+    {
+      "content": "for anything",
+      "translation": "何としても"
+    },
+    {
+      "content": "for sure",
+      "translation": "明確に"
+    },
+    {
+      "content": "for the reason previously mentioned",
+      "translation": "前に言及した理由で"
+    },
+    {
+      "content": "free of charge",
+      "translation": "無料で"
+    },
+    {
+      "content": "greatly,extremely,terrifically",
+      "translation": "（量が）とても"
+    },
+    {
+      "content": "hardly,scarcely",
+      "translation": "滅多に ... ない"
+    },
+    {
+      "content": "here and there",
+      "translation": "そこかしこに"
+    },
+    {
+      "content": "here in [A]",
+      "translation": "この場所 [A] で"
+    },
+    {
+      "content": "highly",
+      "translation": "（程度が）とても"
+    },
+    {
+      "content": "in all likelihood",
+      "translation": "ほぼ間違いなく / 十中八九"
+    },
+    {
+      "content": "in any way",
+      "translation": "とにかく"
+    },
+    {
+      "content": "in case of [A]",
+      "translation": "[A] に備えて"
+    },
+    {
+      "content": "in the case of [A]",
+      "translation": "[A] の場合に"
+    },
+    {
+      "content": "inadvertently",
+      "translation": "うっかり"
+    },
+    {
+      "content": "indiscriminately",
+      "translation": "無差別に"
+    },
+    {
+      "content": "indoors ! outdoors",
+      "translation": "屋内で ! 屋外で"
+    },
+    {
+      "content": "inevitably",
+      "translation": "必然的に"
+    },
+    {
+      "content": "intently",
+      "translation": "熱心に（知覚動詞と合わせて良く使われる）"
+    },
+    {
+      "content": "just in case",
+      "translation": "念のため"
+    },
+    {
+      "content": "lightly",
+      "translation": "軽く"
+    },
+    {
+      "content": "literally",
+      "translation": "文字通りに / そのままに"
+    },
+    {
+      "content": "little by little",
+      "translation": "だんだんと"
+    },
+    {
+      "content": "madly",
+      "translation": "狂ったように"
+    },
+    {
+      "content": "merely",
+      "translation": "単に"
+    },
+    {
+      "content": "more or less",
+      "translation": "大体に"
+    },
+    {
+      "content": "more than I expected",
+      "translation": "期待してたよりずっと"
+    },
+    {
+      "content": "more than I realize",
+      "translation": "実際（感じている）よりもずっと"
+    },
+    {
+      "content": "most likely",
+      "translation": "どうやら"
+    },
+    {
+      "content": "narrowly",
+      "translation": "かろうじて"
+    },
+    {
+      "content": "nearly",
+      "translation": "ほとんど"
+    },
+    {
+      "content": "necessarily",
+      "translation": "必ずしも（否定形のみ）"
+    },
+    {
+      "content": "no doubt",
+      "translation": "間違いなく"
+    },
+    {
+      "content": "obviously,definitely,clearly,certainly",
+      "translation": "明らかに"
+    },
+    {
+      "content": "on and off",
+      "translation": "そうであったりそうでなかったり"
+    },
+    {
+      "content": "once (and) for all",
+      "translation": "これっきりで"
+    },
+    {
+      "content": "one after another",
+      "translation": "次々と"
+    },
+    {
+      "content": "one station away from the closest station",
+      "translation": "最寄り駅の隣の駅に"
+    },
+    {
+      "content": "one way or another",
+      "translation": "なんやかんやで / なんとかして / 何においても"
+    },
+    {
+      "content": "out of fear that [...]",
+      "translation": "[...] であることを恐れて"
+    },
+    {
+      "content": "out of the blue",
+      "translation": "突然 / 前触れもなく"
+    },
+    {
+      "content": "over and over again",
+      "translation": "何度も"
+    },
+    {
+      "content": "paradoxically",
+      "translation": "逆説的には"
+    },
+    {
+      "content": "partly,partialy",
+      "translation": "一部分では"
+    },
+    {
+      "content": "rapidly,quickly,swiftly",
+      "translation": "迅速に"
+    },
+    {
+      "content": "rarely",
+      "translation": "珍しく"
+    },
+    {
+      "content": "readily",
+      "translation": "二つ返事で快く / 直ぐに"
+    },
+    {
+      "content": "really",
+      "translation": "本当に / まさしく"
+    },
+    {
+      "content": "regardless of [A]",
+      "translation": "[A] とは無関係に"
+    },
+    {
+      "content": "repeatedly",
+      "translation": "何度も"
+    },
+    {
+      "content": "reportedly,allegedly",
+      "translation": "伝えられるところでは"
+    },
+    {
+      "content": "saving for a rainy day",
+      "translation": "まさかの時に備えて"
+    },
+    {
+      "content": "side by side",
+      "translation": "（横に）並んで / お互いに"
+    },
+    {
+      "content": "slightly",
+      "translation": "わずかに"
+    },
+    {
+      "content": "somehow",
+      "translation": "なんとなく"
+    },
+    {
+      "content": "somewhat",
+      "translation": "いくぶん"
+    },
+    {
+      "content": "the other way around",
+      "translation": "（コネクタ等の向きが）逆向きで"
+    },
+    {
+      "content": "the time being",
+      "translation": "当分の間"
+    },
+    {
+      "content": "through rose-tinted spectacles",
+      "translation": "現実を美化して / 楽観視して"
+    },
+    {
+      "content": "time and again",
+      "translation": "繰り返し"
+    },
+    {
+      "content": "totaly",
+      "translation": "全体的に"
+    },
+    {
+      "content": "until [one's] safety has been confirmed",
+      "translation": "安全が確認されるまで"
+    },
+    {
+      "content": "upstairs ! downstairs",
+      "translation": "階上に ! 階下に"
+    },
+    {
+      "content": "usually,ordinarily,customerily",
+      "translation": "たいてい / 通例では"
+    },
+    {
+      "content": "very,pretty > rather > quite > fairly,pretty",
+      "translation": "とても > 思ったより > まあまあ > それなりに"
+    },
+    {
+      "content": "word for word",
+      "translation": "一字一句"
+    }
+  ]
+}
