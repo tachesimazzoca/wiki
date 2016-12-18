@@ -69,6 +69,10 @@
     {
       "content": "risk [doing]",
       "translation": "あえて [doing] する"
+    },
+    {
+      "content": "discuss [doing]",
+      "translation": "[doing] することを話し合う"
     }
   ]
 }

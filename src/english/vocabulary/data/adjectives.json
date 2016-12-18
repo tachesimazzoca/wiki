@@ -236,7 +236,7 @@
     },
     {
       "content": "cluttered,messy",
-      "translation": "散らかった "
+      "translation": "散らかった"
     },
     {
       "content": "comfortable",
@@ -1343,6 +1343,10 @@
       "translation": "見習いの"
     },
     {
+      "content": "profane",
+      "translation": "不敬な / 神を冒涜するような"
+    },
+    {
       "content": "profitable,lucrative",
       "translation": "儲かる"
     },
@@ -1527,7 +1531,7 @@
       "translation": "慎重に取り扱うべき"
     },
     {
-      "content": "serious,solemn",
+      "content": "serious,earnest,solemn",
       "translation": "真剣な"
     },
     {
@@ -1624,7 +1628,7 @@
     },
     {
       "content": "spontaneous",
-      "translation": "沸き起こる"
+      "translation": "自発的な / 沸き起こる"
     },
     {
       "content": "stable",

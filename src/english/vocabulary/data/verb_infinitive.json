@@ -99,7 +99,7 @@
       "translation": "[do] することに失敗する"
     },
     {
-      "content": "force [somebody] to [do]",
+      "content": "(force|compel|oblige) [somebody] to [do]",
       "translation": "[somebody] に [do] するように強制する"
     },
     {
@@ -153,10 +153,6 @@
     {
       "content": "manage to [do]",
       "translation": "[do] できるようにする"
-    },
-    {
-      "content": "oblige [somebody] to [do]",
-      "translation": "[somebody] に [do] することを義務づける"
     },
     {
       "content": "opt to [do]",

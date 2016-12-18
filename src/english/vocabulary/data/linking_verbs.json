@@ -156,7 +156,7 @@
     },
     {
       "content": "be [kind] of [somebody] to [do]",
-      "translation": "[do] するとは、なんと [somebody] は [kind] なのだろう "
+      "translation": "[do] するとは、なんと [somebody] は [kind] なのだろう"
     },
     {
       "content": "be absent from [A]",
@@ -269,6 +269,10 @@
     {
       "content": "be bedridden",
       "translation": "寝たきりである"
+    },
+    {
+      "content": "be bent on [A]",
+      "translation": "[A] に熱中している / 決めつけている"
     },
     {
       "content": "be beside [oneself] with [A]",

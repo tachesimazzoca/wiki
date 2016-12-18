@@ -15,10 +15,6 @@
       "translation": "[A] に同意する"
     },
     {
-      "content": "(argue|dispute) with [somebody]",
-      "translation": "[somebody] と言い争う"
-    },
-    {
       "content": "(arise|stem) from [A]",
       "translation": "[A] から発生する / 生じる"
     },
@@ -164,7 +160,7 @@
     },
     {
       "content": "appear in [A]",
-      "translation": "[A] に掲載される    "
+      "translation": "[A] に掲載される"
     },
     {
       "content": "apply for [a job]",
@@ -173,6 +169,10 @@
     {
       "content": "approve of [A]",
       "translation": "[A] を（良い物であると）認定する"
+    },
+    {
+      "content": "argue about [A] with [somebody]",
+      "translation": "[somebody] と [A] について言い争う"
     },
     {
       "content": "arrive at [A]",
@@ -840,7 +840,7 @@
     },
     {
       "content": "prevail over [A]",
-      "translation": "[A] に打ち勝つ"
+      "translation": "[A] に勝る / 優先する"
     },
     {
       "content": "proceed to [A]",
@@ -1220,7 +1220,7 @@
     },
     {
       "content": "work at [an office]",
-      "translation": "[an office] で働く "
+      "translation": "[an office] で働く"
     },
     {
       "content": "work for [a company]",

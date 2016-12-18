@@ -32,7 +32,7 @@
     },
     {
       "content": "(assume|take) [responsibility]",
-      "translation": "[responsibility] を負う/引き受ける"
+      "translation": "[responsibility] を負う / 引き受ける"
     },
     {
       "content": "(assure|convince|persuade) [somebody] of [A]",
@@ -71,6 +71,14 @@
       "translation": "[A] を壊す"
     },
     {
+      "content": "(build|construct) [A]",
+      "translation": "[A] を組み立てる"
+    },
+    {
+      "content": "(carry|deliver|convey) [A] to [B]",
+      "translation": "[A] を [B] に運ぶ"
+    },
+    {
       "content": "(catch|contract) [A]",
       "translation": "[A] の病気にかかる"
     },
@@ -87,6 +95,10 @@
       "translation": "[A] を大事にする"
     },
     {
+      "content": "(choose|select) [A]",
+      "translation": "[A] を選択する"
+    },
+    {
       "content": "(collect|gather|accumulate|assemble) [A]",
       "translation": "[A] を集める"
     },
@@ -95,8 +107,12 @@
       "translation": "[A] をまとめる"
     },
     {
-      "content": "(create|produce|generate|yield) [A]",
-      "translation": "[A] を生成する / 生み出す"
+      "content": "(copy|duplicate) [A]",
+      "translation": "[A] を複製する"
+    },
+    {
+      "content": "(create|produce) [A]",
+      "translation": "[A] を作る"
     },
     {
       "content": "(decorate|adorn|ornament) [A] with [B]",
@@ -115,8 +131,8 @@
       "translation": "[A] を捨てる"
     },
     {
-      "content": "(discuss|debate) [an issue]",
-      "translation": "[an issue] を議論する"
+      "content": "(discuss|debate|dispute) [an issue]",
+      "translation": "[an issue] を話し合う"
     },
     {
       "content": "(distinguish|discriminate) [A]",
@@ -147,6 +163,10 @@
       "translation": "[something bad] を耐える"
     },
     {
+      "content": "(excerpt|quote|cite) [A] from [B]",
+      "translation": "[B] から [A] を引用する"
+    },
+    {
       "content": "(explain|describe|illustrate) [A]",
       "translation": "[A] を説明する"
     },
@@ -161,6 +181,10 @@
     {
       "content": "(frighten|terrify|scare) [somebody]",
       "translation": "[somebody] を怖がらせる"
+    },
+    {
+      "content": "(generate|yield) [A]",
+      "translation": "[A] を生み出す"
     },
     {
       "content": "(get|gain|obtain|acquire) [A]",
@@ -219,6 +243,10 @@
       "translation": "[A] を調査する"
     },
     {
+      "content": "(label|name) [A] as [B]",
+      "translation": "[A] を [B] として分類する"
+    },
+    {
       "content": "(lend|rent|let) [A] to [somebody]",
       "translation": "[A] を [somebody] に貸す"
     },
@@ -239,7 +267,11 @@
       "translation": "[A] に気付く"
     },
     {
-      "content": "(oppose|resist|withstand) [A]",
+      "content": "(obstruct|impede) [A]",
+      "translation": "[A] を妨害する"
+    },
+    {
+      "content": "(oppose|resist|withstan|defy) [A]",
       "translation": "[A] に対抗する"
     },
     {
@@ -619,12 +651,12 @@
       "translation": "[A] に目を通す"
     },
     {
-      "content": "check [A]? for [B]",
-      "translation": "[B] を求めて [A] を調査する"
-    },
-    {
       "content": "check [A] into [B]",
       "translation": "[A] を [B] に記録する"
+    },
+    {
+      "content": "check [A]? for [B]",
+      "translation": "[B] を求めて [A] を調査する"
     },
     {
       "content": "claim [a right]",
@@ -731,10 +763,6 @@
       "translation": "[somebody] の [A] への配属を検討する"
     },
     {
-      "content": "construct [A]",
-      "translation": "[A] を組み立てる"
-    },
-    {
       "content": "consult [A]",
       "translation": "[A] に相談する"
     },
@@ -749,14 +777,6 @@
     {
       "content": "control [oneself]",
       "translation": "自制する / 我慢する"
-    },
-    {
-      "content": "convey [A]",
-      "translation": "[A] を運搬する / 伝える"
-    },
-    {
-      "content": "convey apologies to [A]",
-      "translation": "[A] にお詫びする"
     },
     {
       "content": "cook [A]",
@@ -815,16 +835,20 @@
       "translation": "[A] を決定する"
     },
     {
-      "content": "dedicate [oneself]? to [A]",
-      "translation": "[A] に専念する"
-    },
-    {
       "content": "dedicate [A] to [somebody]",
       "translation": "[A] を [somebody] に捧げる"
     },
     {
+      "content": "dedicate [oneself]? to [A]",
+      "translation": "[A] に専念する"
+    },
+    {
       "content": "defer [A]",
       "translation": "[A] を延期する"
+    },
+    {
+      "content": "define [A] as [B]",
+      "translation": "[A] を [B] として定義する"
     },
     {
       "content": "deflate [A]",
@@ -849,10 +873,6 @@
     {
       "content": "delight [somebody]",
       "translation": "[somebody] を喜ばせる"
-    },
-    {
-      "content": "deliver [A] to [B]",
-      "translation": "[A] を [B] に届ける"
     },
     {
       "content": "deluge [A] with [requests]",
@@ -1067,10 +1087,6 @@
       "translation": "[A] を超える"
     },
     {
-      "content": "excerpt [A] from [B]",
-      "translation": "[B] から [A] を抜粋する"
-    },
-    {
       "content": "exchange [A] for [B]",
       "translation": "[A] を [B] と交換する"
     },
@@ -1171,12 +1187,12 @@
       "translation": "[A] を強要する"
     },
     {
-      "content": "forge [A]",
-      "translation": "[A] を偽造する / コツコツ作る"
-    },
-    {
       "content": "forge [a relationship]",
       "translation": "[a relationship] を築く"
+    },
+    {
+      "content": "forge [A]",
+      "translation": "[A] を偽造する / コツコツ作る"
     },
     {
       "content": "forgive [somebody] for [A]",
@@ -1279,8 +1295,12 @@
       "translation": "[A] を理想化する"
     },
     {
+      "content": "identify [A] as [B]",
+      "translation": "[A] を [B] であると特定する"
+    },
+    {
       "content": "identify [A] with [B]",
-      "translation": "[A] を [B] と同一視する / 特定する"
+      "translation": "[A] を [B] と同一視する"
     },
     {
       "content": "imitate [A]",
@@ -1447,16 +1467,16 @@
       "translation": "[somebody] を [success] に導く"
     },
     {
+      "content": "leave [a message]",
+      "translation": "[a message] を残す"
+    },
+    {
       "content": "leave [A]",
       "translation": "[A] を出発する / 離れる"
     },
     {
       "content": "leave [A] to [somebody]",
       "translation": "[A] を [somebody] に任せる"
-    },
-    {
-      "content": "leave [a message]",
-      "translation": "[a message] を残す"
     },
     {
       "content": "lecture [somebody] for [A]",
@@ -1551,8 +1571,8 @@
       "translation": "[A] に従う"
     },
     {
-      "content": "obstruct [A]",
-      "translation": "[A] を塞ぐ"
+      "content": "observe [A]",
+      "translation": "[A] を観察する"
     },
     {
       "content": "occupy [A]",
@@ -1569,6 +1589,10 @@
     {
       "content": "offer flowers",
       "translation": "献花する"
+    },
+    {
+      "content": "omit [A] from [B]",
+      "translation": "[A] を [B] から省く"
     },
     {
       "content": "organize [A]",
@@ -1720,7 +1744,7 @@
     },
     {
       "content": "prune [A]",
-      "translation": "[A] （余分なもの）を取り除く "
+      "translation": "[A] （余分なもの）を取り除く"
     },
     {
       "content": "publicize [A]",
@@ -2237,6 +2261,10 @@
     {
       "content": "toss [A]",
       "translation": "[A] を放り投げる"
+    },
+    {
+      "content": "trace [A]",
+      "translation": "[A] を追跡して突きとめる"
     },
     {
       "content": "track [A]",
