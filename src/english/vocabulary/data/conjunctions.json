@@ -91,16 +91,12 @@
       "translation": "[A] に関しては"
     },
     {
-      "content": "as far as I know",
+      "content": "(as far as I know|to my knowledge)",
       "translation": "私の知る限りで"
     },
     {
       "content": "as I mentioned before",
       "translation": "前述の通り"
-    },
-    {
-      "content": "as it is",
-      "translation": "実際は"
     },
     {
       "content": "as planned",
@@ -215,7 +211,7 @@
       "translation": "そうであるならば"
     },
     {
-      "content": "hence",
+      "content": "(hence|therefore)",
       "translation": "ゆえに"
     },
     {
@@ -231,7 +227,7 @@
       "translation": "ある程度は"
     },
     {
-      "content": "in addition",
+      "content": "(in addition|plus)",
       "translation": "加えて"
     },
     {
@@ -272,7 +268,11 @@
     },
     {
       "content": "in practice",
-      "translation": "実際は / 実用上は"
+      "translation": "実際のところは / 実用上は"
+    },
+    {
+      "content": "in spite of [A]",
+      "translation": "[A] にもかかわらず"
     },
     {
       "content": "in that respect",
@@ -335,7 +335,7 @@
       "translation": "言うまでもなく"
     },
     {
-      "content": "nevertheless",
+      "content": "(nevertheless|in spite of that)",
       "translation": "それにもかかわらず"
     },
     {
@@ -367,10 +367,6 @@
       "translation": "そうでないと"
     },
     {
-      "content": "plus",
-      "translation": "加えて"
-    },
-    {
       "content": "rather than [A]",
       "translation": "[A] ではなくて"
     },
@@ -388,7 +384,7 @@
     },
     {
       "content": "so far ",
-      "translation": "というわけで （プレゼン/講義などでの合いの手）"
+      "translation": "これまでのところ"
     },
     {
       "content": "so to say",
@@ -409,10 +405,6 @@
     {
       "content": "thanks to [A]",
       "translation": "[A] のおかげで"
-    },
-    {
-      "content": "therefore",
-      "translation": "ゆえに"
     },
     {
       "content": "these days",
@@ -443,10 +435,6 @@
       "translation": "厄介なことに"
     },
     {
-      "content": "to my knowledge",
-      "translation": "私の知る限り"
-    },
-    {
       "content": "to tell the truth",
       "translation": "正直言うと"
     },
@@ -461,10 +449,6 @@
     {
       "content": "ultimately",
       "translation": "結局は"
-    },
-    {
-      "content": "up until now",
-      "translation": "今のところは"
     },
     {
       "content": "what's more",

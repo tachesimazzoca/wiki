@@ -51,8 +51,8 @@
       "translation": "（出来事が） [A] に起こる"
     },
     {
-      "content": "(increase!decrease) in [value]",
-      "translation": "[value] （価値などの指標）が(上がる!下がる)"
+      "content": "(increase ! decrease) in [value]",
+      "translation": "[value] が (上がる ! 下がる)"
     },
     {
       "content": "(keep|carry|go) on [doing]",
@@ -95,8 +95,8 @@
       "translation": "懸命に努力する"
     },
     {
-      "content": "(succeed|fail)",
-      "translation": "(成功する|失敗する)"
+      "content": "(succeed ! fail)",
+      "translation": "(成功する ! 失敗する)"
     },
     {
       "content": "(surrender|yield) to [A]",
@@ -195,7 +195,7 @@
       "translation": "ひなたぼっこする"
     },
     {
-      "content": "begin with [A]",
+      "content": "(begin|start) with [A]",
       "translation": "[A] で始まる"
     },
     {
@@ -919,10 +919,6 @@
       "translation": "ゆっくりする"
     },
     {
-      "content": "rely on [A]",
-      "translation": "[A] に頼る"
-    },
-    {
       "content": "rest against [A]",
       "translation": "[A] に寄りかかっている"
     },
@@ -1037,10 +1033,6 @@
     {
       "content": "stand by [A]",
       "translation": "[A] のそばにいる"
-    },
-    {
-      "content": "start with [A]",
-      "translation": "[A] で始まる"
     },
     {
       "content": "starve for [A]",
