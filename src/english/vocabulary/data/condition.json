@@ -19,10 +19,6 @@
       "translation": "[N] ほどの (高さ|長さ|背) の"
     },
     {
-      "content": "along [A]",
-      "translation": "[A] に沿った"
-    },
-    {
       "content": "along with [A]",
       "translation": "[A] を同伴した / と同時の"
     },
@@ -72,7 +68,7 @@
     },
     {
       "content": "at first sight",
-      "translation": "一目で"
+      "translation": "一目惚れで / 見た目の第一印象で"
     },
     {
       "content": "at hand",
@@ -155,12 +151,12 @@
       "translation": "生まれつき"
     },
     {
-      "content": "by some other reasons",
-      "translation": "なにか他の理由で"
+      "content": "by [some other reasons]",
+      "translation": "[some other reasons] で"
     },
     {
-      "content": "by the following instructions",
-      "translation": "これから説明する手順に従って"
+      "content": "by [the following instructions]",
+      "translation": "[the following instructions] に従って"
     },
     {
       "content": "by the hundreds",
@@ -297,10 +293,6 @@
     {
       "content": "in addition to [A]",
       "translation": "[A] に加えて"
-    },
-    {
-      "content": "in advance",
-      "translation": "前もって"
     },
     {
       "content": "in change",
@@ -467,16 +459,8 @@
       "translation": "[A] の過程で"
     },
     {
-      "content": "in the event of [A]",
-      "translation": "[A] が起こった場合に"
-    },
-    {
       "content": "in the face of [adversity]",
       "translation": "[adversity] に直面している"
-    },
-    {
-      "content": "in the implementation of [A]",
-      "translation": "[A] の実装において"
     },
     {
       "content": "in the long run",
@@ -511,10 +495,6 @@
       "translation": "書面で"
     },
     {
-      "content": "just around the corner",
-      "translation": "すぐそこに"
-    },
-    {
       "content": "on [one's] own",
       "translation": "自身の力で"
     },
@@ -545,10 +525,6 @@
     {
       "content": "on display",
       "translation": "展示されて"
-    },
-    {
-      "content": "on duty",
-      "translation": "勤務中に"
     },
     {
       "content": "on hand",
@@ -591,16 +567,12 @@
       "translation": "Wi-Fi 接続して"
     },
     {
-      "content": "opposite [A]",
-      "translation": "[A] と向かい合わせで"
-    },
-    {
       "content": "out of a fairy tale",
       "translation": "おとぎ話から出てきたような"
     },
     {
-      "content": "over the course of [time",
-      "translation": "[time にわたってずっと"
+      "content": "over the course of [time]",
+      "translation": "[time] にわたってずっと"
     },
     {
       "content": "owing to [A]",
@@ -612,7 +584,7 @@
     },
     {
       "content": "regarding [A]",
-      "translation": "[A] に関して"
+      "translation": "[A] に関しては / おいては"
     },
     {
       "content": "through [A]",
@@ -623,7 +595,7 @@
       "translation": "思うがままに"
     },
     {
-      "content": "to a certain extent",
+      "content": "to a (certain)? (extent|degree)",
       "translation": "ある程度は"
     },
     {
@@ -725,6 +697,10 @@
     {
       "content": "without permission",
       "translation": "許可なく"
+    },
+    {
+      "content": "on duty",
+      "translation": "勤務中に"
     }
   ]
 }

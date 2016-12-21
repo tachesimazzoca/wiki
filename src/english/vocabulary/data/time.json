@@ -59,8 +59,8 @@
       "translation": "[A] の [N] 分前に"
     },
     {
-      "content": "ahead of time",
-      "translation": "事前に"
+      "content": "(in advance|ahead of time)",
+      "translation": "事前に / 前もって / 定刻より早く"
     },
     {
       "content": "all thorough the night",
@@ -147,8 +147,8 @@
       "translation": "今ごろは"
     },
     {
-      "content": "during [A]",
-      "translation": "[A] の間に"
+      "content": "during [spring break]",
+      "translation": "[spring break] の期間ずっと"
     },
     {
       "content": "every other (day|week|month)",
@@ -183,7 +183,7 @@
       "translation": "今後は"
     },
     {
-      "content": "in [one's] (early|late)  20s",
+      "content": "in [one's] (early|late) 20s",
       "translation": "20才代  (前半|後半)  に"
     },
     {
@@ -220,7 +220,7 @@
     },
     {
       "content": "just around the corner",
-      "translation": "すぐそこに"
+      "translation": "もうすぐ / 間近"
     },
     {
       "content": "just before [A]",
@@ -260,7 +260,7 @@
     },
     {
       "content": "one of these days",
-      "translation": "いつかは"
+      "translation": "近々 / 近日中に / いずれは"
     },
     {
       "content": "over the weekend",
@@ -291,12 +291,8 @@
       "translation": "[...] となる時になって初めて"
     },
     {
-      "content": "the other day",
-      "translation": "この前の日"
-    },
-    {
-      "content": "the other night",
-      "translation": "この前の晩"
+      "content": "the other (day|night)",
+      "translation": "この前の (日|晩)"
     },
     {
       "content": "the rest of time",
@@ -337,6 +333,10 @@
     {
       "content": "within [a few minutes] / in [a week]",
       "translation": "[a few minutes] 以内に / [a week] 後に"
+    },
+    {
+      "content": "in the event of [A]",
+      "translation": "[A] が起こった場合に"
     }
   ]
 }
