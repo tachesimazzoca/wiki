@@ -83,7 +83,7 @@
       "translation": "[A] の病気にかかる"
     },
     {
-      "content": "(change|alter|modify|transform) [A]",
+      "content": "(change|alter|modify) [A]",
       "translation": "[A] を変える"
     },
     {
@@ -111,12 +111,16 @@
       "translation": "[A] を複製する"
     },
     {
-      "content": "(create|produce) [A]",
+      "content": "(make|create) [A]",
       "translation": "[A] を作る"
     },
     {
       "content": "(decorate|adorn|ornament) [A] with [B]",
       "translation": "[A] を [B] で飾る"
+    },
+    {
+      "content": "(defer|delay|postpone) [A]",
+      "translation": "[A] を延期する"
     },
     {
       "content": "(denote ! connote) [A]",
@@ -183,7 +187,7 @@
       "translation": "[somebody] を怖がらせる"
     },
     {
-      "content": "(generate|yield) [A]",
+      "content": "(produce|generate|yield|spawn) [A]",
       "translation": "[A] を生み出す"
     },
     {
@@ -303,8 +307,8 @@
       "translation": "[a request] を拒絶する"
     },
     {
-      "content": "(repair|restore) [A]",
-      "translation": "[A] を修繕する"
+      "content": "(fix|repair|restore|patch|overhaul|mend) [A]",
+      "translation": "[A] を修理する"
     },
     {
       "content": "(request|demand) [A]",
@@ -325,6 +329,10 @@
     {
       "content": "(see|meet) [somebody]",
       "translation": "[somebody] に会う"
+    },
+    {
+      "content": "(strengthen|reinforce) [A]",
+      "translation": "[A] を強化する"
     },
     {
       "content": "(summarize|abridge) [A]",
@@ -843,10 +851,6 @@
       "translation": "[A] に専念する"
     },
     {
-      "content": "defer [A]",
-      "translation": "[A] を延期する"
-    },
-    {
       "content": "define [A] as [B]",
       "translation": "[A] を [B] として定義する"
     },
@@ -1015,8 +1019,8 @@
       "translation": "[a problem] に直面する"
     },
     {
-      "content": "endorse [A]",
-      "translation": "[A] にお墨付きを与える"
+      "content": "(support|endorse|uphold) [A]",
+      "translation": "[A] を支持する"
     },
     {
       "content": "enforce [A]",
@@ -1087,7 +1091,7 @@
       "translation": "[A] を超える"
     },
     {
-      "content": "exchange [A] for [B]",
+      "content": "(exchange|swap) [A] for [B]",
       "translation": "[A] を [B] と交換する"
     },
     {
@@ -1499,6 +1503,10 @@
       "translation": "[A] を見つける"
     },
     {
+      "content": "look into possibility that [...]",
+      "translation": ""
+    },
+    {
       "content": "lodge [a protest]",
       "translation": "[a protest] を提出する(政治的)"
     },
@@ -1667,6 +1675,10 @@
       "translation": "注文する"
     },
     {
+      "content": "place a limit",
+      "translation": "限界値を設定する"
+    },
+    {
       "content": "plead [A]",
       "translation": "[A] （事件）を弁護する"
     },
@@ -1775,6 +1787,10 @@
       "translation": "[A] を [N] ドルと見積もる"
     },
     {
+      "content": "raid [A]",
+      "translation": "A を襲撃する / 捜査で乗り込む"
+    },
+    {
       "content": "raise [A] by [N] percent",
       "translation": "[A] を [N] パーセント値上げする"
     },
@@ -1833,10 +1849,6 @@
     {
       "content": "reimburse [A]",
       "translation": "[A] を弁済する / （立替金）を払い戻す"
-    },
-    {
-      "content": "reject [A]",
-      "translation": "[A] を拒絶する"
     },
     {
       "content": "relegate [A] to [B]",
@@ -1989,10 +2001,6 @@
     {
       "content": "scatter [A]",
       "translation": "[A] を撒き散らす"
-    },
-    {
-      "content": "scent [A]",
-      "translation": "[A] の匂いをかぐ /  に感づく"
     },
     {
       "content": "scold [somebody] for [A]",
@@ -2149,10 +2157,6 @@
     {
       "content": "strain [one's] [A]",
       "translation": "[A] （背中など）の筋を痛める"
-    },
-    {
-      "content": "strengthen [A]",
-      "translation": "[A] を強化する"
     },
     {
       "content": "submit [A] to [B]",

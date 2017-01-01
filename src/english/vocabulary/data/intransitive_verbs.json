@@ -23,6 +23,10 @@
       "translation": "[A] （要求）を懇願する"
     },
     {
+      "content": "(begin|start) with [A]",
+      "translation": "[A] で始まる"
+    },
+    {
       "content": "(bother|worry) about [A]",
       "translation": "[A] について心配する"
     },
@@ -193,10 +197,6 @@
     {
       "content": "bask in the sunshine",
       "translation": "ひなたぼっこする"
-    },
-    {
-      "content": "(begin|start) with [A]",
-      "translation": "[A] で始まる"
     },
     {
       "content": "believe in [A]",
@@ -503,6 +503,10 @@
       "translation": "[A] から避難する"
     },
     {
+      "content": "evolve",
+      "translation": "発展する / 進展する / 展開する"
+    },
+    {
       "content": "excel in [subject]",
       "translation": "[subject] に優れている"
     },
@@ -549,6 +553,10 @@
     {
       "content": "flip",
       "translation": "飛び跳ねる / 宙返りする"
+    },
+    {
+      "content": "fluctuate",
+      "translation": "変動する"
     },
     {
       "content": "flutter",
@@ -911,6 +919,10 @@
       "translation": "[doing] することを控える（誘惑を我慢する）"
     },
     {
+      "content": "refuel at [A]",
+      "translation": "[A] で燃料補給する"
+    },
+    {
       "content": "register for [A]",
       "translation": "[A] に登録する"
     },
@@ -1220,7 +1232,7 @@
     },
     {
       "content": "work for [somebody]",
-      "translation": "[somebody] に合っている"
+      "translation": "[somebody] に{合っている|向いている}"
     },
     {
       "content": "write to [somebody]",
@@ -1229,6 +1241,10 @@
     {
       "content": "yawn",
       "translation": "あくびする"
+    },
+    {
+      "content": "suffice",
+      "translation": "事足りる"
     }
   ]
 }

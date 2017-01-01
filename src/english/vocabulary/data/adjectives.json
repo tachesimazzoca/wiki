@@ -935,6 +935,10 @@
       "translation": "初の"
     },
     {
+      "content": "inconsistent,contradictory",
+      "translation": "一貫性のない / 矛盾した"
+    },
+    {
       "content": "indecisive",
       "translation": "優柔不断な"
     },
@@ -1084,7 +1088,7 @@
     },
     {
       "content": "major ! minor",
-      "translation": "主要な ! 少数の"
+      "translation": "多数派の ! 少数派の"
     },
     {
       "content": "malleable",
@@ -1223,7 +1227,7 @@
       "translation": "時たまの"
     },
     {
-      "content": "old,obsolete,outdated",
+      "content": "old,obsolete,outdated,stale",
       "translation": "古い / 古風な / 時代遅れの"
     },
     {
@@ -1331,12 +1335,12 @@
       "translation": "値段がつけられないほど高価な"
     },
     {
-      "content": "primary,principal",
-      "translation": "主候補の"
+      "content": "primary",
+      "translation": "最初の / 初歩の / 主の"
     },
     {
       "content": "prime",
-      "translation": "主要な"
+      "translation": "最高の / 高級の"
     },
     {
       "content": "primitive",
@@ -1344,7 +1348,7 @@
     },
     {
       "content": "principal",
-      "translation": "主要な"
+      "translation": "主成分の / 元になる"
     },
     {
       "content": "probationary",

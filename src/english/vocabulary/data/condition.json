@@ -96,7 +96,7 @@
     },
     {
       "content": "at the expense of [A]",
-      "translation": "[A] に負担を強いて / 踏み台にして"
+      "translation": "[A] の出費で / に負担を強いて / を踏み台にして"
     },
     {
       "content": "at the thought of [A]",
@@ -287,7 +287,7 @@
       "translation": "聞く耳もたず / 外部と関わることなく"
     },
     {
-      "content": "in accordance with [A]",
+      "content": "in (accordance|compliance) with [A]",
       "translation": "[A] に従って"
     },
     {
@@ -309,10 +309,6 @@
     {
       "content": "in collaboration with [A]",
       "translation": "[A] と共同して"
-    },
-    {
-      "content": "in compliance with [A]",
-      "translation": "[A] に従って"
     },
     {
       "content": "in detail",
@@ -451,10 +447,6 @@
       "translation": "(単数形|複数形) で"
     },
     {
-      "content": "in the aspect of [A]",
-      "translation": "[A] の面で"
-    },
-    {
       "content": "in the course of [A]",
       "translation": "[A] の過程で"
     },
@@ -465,10 +457,6 @@
     {
       "content": "in the long run",
       "translation": "長期的には"
-    },
-    {
-      "content": "in the way",
-      "translation": "邪魔になる位置に"
     },
     {
       "content": "in the wrong direction",
