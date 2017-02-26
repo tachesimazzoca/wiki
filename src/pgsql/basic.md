@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: 基本操作
+title: Basic
 ---
 
 ## ユーザ作成

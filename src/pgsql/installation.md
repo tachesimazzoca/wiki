@@ -1,14 +1,50 @@
 ---
 layout: page
 
-title: インストール
+title: Installation
 ---
 
 ## yum
 
     % yum install postgresql-server postgresql-devel
-    % /etc/init.d/postgresql start
+    % service postgresql initdb
+    % service postgresql start
 
+If you need another version of PostgreSQL .rpm, please consult the following URL:
+
+* <https://wiki.postgresql.org/wiki/YUM_Installation>
+
+Let's say you install _PostgreSQL-9.6(-3) RHEL7 x86\_64_.
+
+Exclude `postgresql.*` package from CentOS-Base.repo.
+
+    # Add exclude option in each section
+    $ cat /etc/yum.repos.d/CentOS-Base.repo
+    [base]
+    ...
+    exclude=postgresql*
+
+    [updates]
+    ...
+    exclude=postgresql*
+
+And then add your specific PGDG RPM file into `/etc/yum.repos.d` with `yum` command. The list of PGDG RPM files can be found in [PostgreSQL yum repository](https://yum.postgresql.org/).
+
+    $ yum install https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-redhat96-9.6-3.noarch.rpm
+
+    $ cat /etc/yum.repos.d/pgdg-96-redhat.repo
+    [pgdg96]
+    name=PostgreSQL 9.6 $releasever - $basearch
+    ...
+
+    $ yum list postgresql*
+    $ yum install postgresql96-server
+
+    # The binaries will be installed at /usr/pgsal-x.y
+    $ ls /usr/pgsql-9.6
+    $ /usr/pgsql-9.6/bin/postgresql96-setup initdb
+    $ systemctl enable postgresql-9.6.service
+    $ systemctl start postgresql-9.6.service
 
 ## postgresql-8.x
 
