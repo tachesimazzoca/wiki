@@ -11,72 +11,56 @@
   ],
   "rows": [
     {
-      "content": "(noticed|felt|saw|heard|listened to) [A] [do].",
+      "content": "{ noticed | felt | saw | heard | listened to } [A] [do]",
       "translation": "知覚動詞"
     },
     {
-      "content": "(think|suppose|guess|expect|predict|bet) that [...].",
-      "translation": "[...] だと思う"
+      "content": "{ think | suppose | guess | expect | predict | bet } that [...].",
+      "translation": "思考"
     },
     {
-      "content": "allege that [...]",
+      "content": "{ say | claim | insist | allege | contend } that [...]",
       "translation": "[...] であると証拠なく訴える"
     },
     {
-      "content": "ask (if|whether) [...].",
-      "translation": "Yes / No の質問をした"
+      "content": "ask { if | whether } [...].",
+      "translation": "Yes / No の質問をする"
     },
     {
-      "content": "ask (what|when|where|who|why|which|how) [...].",
-      "translation": "5W1H の質問をした"
+      "content": "ask { what | when | where | who | why | which | how } [...].",
+      "translation": "5W1H の質問をする"
     },
     {
       "content": "assume that [...]",
-      "translation": "[...] であると仮定する"
+      "translation": "仮定"
     },
     {
-      "content": "certify that [...]",
-      "translation": "[...] であると（署名のもと）証明する"
-    },
-    {
-      "content": "claim that [...]",
-      "translation": "[...] であると言い張る"
+      "content": "{ prove | certify | demonstrate } that [...]",
+      "translation": "証明"
     },
     {
       "content": "consider that [...]",
-      "translation": "[...] であること考慮する"
+      "translation": "考慮"
     },
     {
-      "content": "contend that [...]",
-      "translation": "[...] であると反論に対抗する"
+      "content": "{ suspect | doubt } that [...].",
+      "translation": "疑念"
     },
     {
-      "content": "doubt that [...].",
-      "translation": "[...] （真実）であるか疑わしく思う"
-    },
-    {
-      "content": "inisist that [...]",
-      "translation": "[...] であると主張する"
-    },
-    {
-      "content": "It's (believed|alleged|reported) that [...].",
+      "content": "It's { believed | alleged | reported } that [...].",
       "translation": "[...] だと報告されている"
     },
     {
-      "content": "It's (important|essential|necessary|imperative) that [A] (should) [do] ",
+      "content": "It's { important | essential | necessary | imperative } that [A] (should)? [do] ",
       "translation": "[...] であることは重要である"
     },
     {
-      "content": "It's (said|supposed|known|believed|expected) that [...].",
+      "content": "It's { said | supposed | known | believed | expected } that [...].",
       "translation": "[...] だと思われている"
     },
     {
       "content": "recall that [...]",
-      "translation": "[...] であることを思い出す"
-    },
-    {
-      "content": "suspect that [...].",
-      "translation": "[...] （疑念）ではないかと思う"
+      "translation": "記憶"
     }
   ]
 }

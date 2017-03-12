@@ -11,24 +11,24 @@
   ],
   "rows": [
     {
-      "content": "(east|west|south|north)",
-      "translation": "(東|西|南|北) へ"
+      "content": "{ east | west | south | north }",
+      "translation": "{ 東 | 西 | 南 | 北 }へ"
     },
     {
-      "content": "(in favor of|against) [A]",
-      "translation": "[A] に(賛成|反対)して"
+      "content": "{ in favour of ! against } [A]",
+      "translation": "[A] に{ 賛成 ! 反対 }して"
     },
     {
-      "content": "(inside out|on backwards)",
-      "translation": "(裏返し|後ろ前) に"
+      "content": "{ inside out | on backwards }",
+      "translation": "{ 裏返し | 後ろ前 }に"
     },
     {
-      "content": "(one by one|one at a time)",
+      "content": "{ one by one | one at a time }",
       "translation": "一つ一つ"
     },
     {
-      "content": "(up|down) there",
-      "translation": "(上にある|下にある)そこで"
+      "content": "{ up ! down } there",
+      "translation": "{ 上にある ! 下にある }そこで"
     },
     {
       "content": "[later] than usual",
@@ -43,7 +43,7 @@
       "translation": "とりわけ"
     },
     {
-      "content": "absolutely,exactly,completely,roundly,utterly",
+      "content": "absolutely | exactly | completely | roundly | utterly",
       "translation": "全くもって / 当然"
     },
     {
@@ -99,6 +99,10 @@
       "translation": "交互に"
     },
     {
+      "content": "always > usually > regularly > normally > often > sometimes > occasionally > rarely > seldom > never ",
+      "translation": "頻度"
+    },
+    {
       "content": "apart from [A]",
       "translation": "[A] 以外は"
     },
@@ -115,7 +119,7 @@
       "translation": "[A] にいたるまで様々に"
     },
     {
-      "content": "badly,terribly,horribly,awfully",
+      "content": "badly | terribly | horribly | awfully",
       "translation": "ひどく"
     },
     {
@@ -155,10 +159,6 @@
       "translation": "一見して"
     },
     {
-      "content": "deeply",
-      "translation": "深く"
-    },
-    {
       "content": "deliberately",
       "translation": "あえて / 故意に"
     },
@@ -183,7 +183,7 @@
       "translation": "全くそう思う > そう思う > 普通 > あまりそう思わない > 全くそう思わない"
     },
     {
-      "content": "finally,eventually,ultimately",
+      "content": "finally | eventually | ultimately",
       "translation": "最終的に / 結果的に"
     },
     {
@@ -207,11 +207,11 @@
       "translation": "無料で"
     },
     {
-      "content": "greatly,extremely,terrifically",
+      "content": "greatly | extremely | terrifically",
       "translation": "（量が）とても"
     },
     {
-      "content": "hardly,scarcely",
+      "content": "hardly | scarcely",
       "translation": "滅多に ... ない"
     },
     {
@@ -319,7 +319,7 @@
       "translation": "間違いなく"
     },
     {
-      "content": "obviously,definitely,clearly,certainly",
+      "content": "obviously | definitely | clearly | certainly",
       "translation": "明らかに"
     },
     {
@@ -327,7 +327,7 @@
       "translation": "そうであったりそうでなかったり"
     },
     {
-      "content": "once (and) for all",
+      "content": "once (and)? for all",
       "translation": "これっきりで"
     },
     {
@@ -341,6 +341,10 @@
     {
       "content": "one way or another",
       "translation": "なんやかんやで / なんとかして / 何においても"
+    },
+    {
+      "content": "ordinarily | customarily",
+      "translation": "{ たいていは | 普通は | 通例では }"
     },
     {
       "content": "out of fear that [...]",
@@ -359,11 +363,11 @@
       "translation": "逆説的には"
     },
     {
-      "content": "partly,partialy",
+      "content": "partly | partially",
       "translation": "一部分では"
     },
     {
-      "content": "rapidly,quickly,swiftly",
+      "content": "rapidly | quickly | swiftly",
       "translation": "迅速に"
     },
     {
@@ -427,7 +431,7 @@
       "translation": "繰り返し"
     },
     {
-      "content": "totaly",
+      "content": "totally",
       "translation": "全体的に"
     },
     {
@@ -435,24 +439,20 @@
       "translation": "安全が確認されるまで"
     },
     {
+      "content": "up until now",
+      "translation": "今のところは"
+    },
+    {
       "content": "upstairs ! downstairs",
       "translation": "階上に ! 階下に"
     },
     {
-      "content": "usually,ordinarily,customerily",
-      "translation": "たいてい / 通例では"
-    },
-    {
-      "content": "very,pretty > rather > quite > fairly,pretty",
+      "content": "very > rather > quite > pretty",
       "translation": "とても > 思ったより > まあまあ > それなりに"
     },
     {
       "content": "word for word",
       "translation": "一字一句"
-    },
-    {
-      "content": "up until now",
-      "translation": "今のところは"
     }
   ]
 }

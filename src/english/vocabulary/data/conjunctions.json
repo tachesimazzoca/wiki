@@ -11,15 +11,19 @@
   ],
   "rows": [
     {
-      "content": "(in)? that way",
-      "translation": "そうすれば / そう考えると"
+      "content": "{ hence | therefore }",
+      "translation": "ゆえに"
     },
     {
-      "content": "(in)? this way",
-      "translation": "このようにして"
+      "content": "{ in addition | plus }",
+      "translation": "加えて"
     },
     {
-      "content": "(on the whole|by and large)",
+      "content": "{ nevertheless | in spite of that }",
+      "translation": "それにもかかわらず"
+    },
+    {
+      "content": "{ on the whole | by and large }",
       "translation": "概して"
     },
     {
@@ -53,6 +57,10 @@
     {
       "content": "and yet",
       "translation": "にもかかわらず"
+    },
+    {
+      "content": "apart from that",
+      "translation": "それとは別に"
     },
     {
       "content": "apparently",
@@ -89,10 +97,6 @@
     {
       "content": "as far as [A] is concerned",
       "translation": "[A] に関しては"
-    },
-    {
-      "content": "(as far as I know|to my knowledge)",
-      "translation": "私の知る限りで"
     },
     {
       "content": "as I mentioned before",
@@ -211,10 +215,6 @@
       "translation": "そうであるならば"
     },
     {
-      "content": "(hence|therefore)",
-      "translation": "ゆえに"
-    },
-    {
       "content": "however",
       "translation": "しかしながら"
     },
@@ -225,10 +225,6 @@
     {
       "content": "in a sense",
       "translation": "ある程度は"
-    },
-    {
-      "content": "(in addition|plus)",
-      "translation": "加えて"
     },
     {
       "content": "in an ideal world",
@@ -335,10 +331,6 @@
       "translation": "言うまでもなく"
     },
     {
-      "content": "(nevertheless|in spite of that)",
-      "translation": "それにもかかわらず"
-    },
-    {
       "content": "no offence to [A]",
       "translation": "[A] を悪く言うわけでないが"
     },
@@ -407,8 +399,16 @@
       "translation": "[A] のおかげで"
     },
     {
+      "content": "that way",
+      "translation": "そうすれば / そう考えると"
+    },
+    {
       "content": "these days",
       "translation": "近頃は"
+    },
+    {
+      "content": "this way",
+      "translation": "このようにして"
     },
     {
       "content": "those days",
@@ -429,6 +429,10 @@
     {
       "content": "to make matters worth",
       "translation": "厄介なことに"
+    },
+    {
+      "content": "to my knowledge",
+      "translation": "私の知る限りで"
     },
     {
       "content": "to tell the truth",

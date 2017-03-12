@@ -1,0 +1,154 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    }
+  ],
+  "rows": [
+    {
+      "content": "{ above ! below } [A]",
+      "translation": "[A] （境界線）の { 上 ! 下 } にある"
+    },
+    {
+      "content": "{ across from | opposite } [A]",
+      "translation": "[A] と対面の"
+    },
+    {
+      "content": "{ at | in } { this side ! the back } of [A]",
+      "translation": "[A] の { 手前 ! 奥 } の"
+    },
+    {
+      "content": "{ in front of ! behind } [A]",
+      "translation": "[A] の { 前 ! 後 } の"
+    },
+    {
+      "content": "{ inside ! outside } [A]",
+      "translation": "[A] の { 内側 ! 外側 } の"
+    },
+    {
+      "content": "{ near | by | beside } [A]",
+      "translation": "[A] のそばの"
+    },
+    {
+      "content": "{ next | close } to [A]",
+      "translation": "[A] の近くに"
+    },
+    {
+      "content": "{ over ! under } [A]",
+      "translation": "[A] （物体）の { 上 ! 下 } の"
+    },
+    {
+      "content": "accross [A]",
+      "translation": "[A] （通り）をはさんだ位置にある"
+    },
+    {
+      "content": "ahead of [A]",
+      "translation": "[A] の前方の"
+    },
+    {
+      "content": "all over [A]",
+      "translation": "[A] の一面の"
+    },
+    {
+      "content": "along [A]",
+      "translation": "[A] に沿った"
+    },
+    {
+      "content": "at line [N]",
+      "translation": "[N] 行目に"
+    },
+    {
+      "content": "at the { left ! right } { top ! bottom } corner of [A]",
+      "translation": "四隅の位置"
+    },
+    {
+      "content": "at the { top ! bottom } of [A]",
+      "translation": "上下の位置"
+    },
+    {
+      "content": "at the scene",
+      "translation": "現場で"
+    },
+    {
+      "content": "at the site",
+      "translation": "現地で"
+    },
+    {
+      "content": "away from [A]",
+      "translation": "[A] から遠くに"
+    },
+    {
+      "content": "beneath [A]",
+      "translation": "[A] の下に"
+    },
+    {
+      "content": "between [A] and [B]",
+      "translation": "[A] と [B] の間に"
+    },
+    {
+      "content": "in suburbs",
+      "translation": "郊外に"
+    },
+    {
+      "content": "in the [N] th drawer from the { top ! bottom }",
+      "translation": "{ 上 ! 下 }  から [N] 番目の引き出しの中に"
+    },
+    {
+      "content": "in the country",
+      "translation": "田舎に"
+    },
+    {
+      "content": "in the distance",
+      "translation": "遠方に"
+    },
+    {
+      "content": "in town",
+      "translation": "町に / 在京の"
+    },
+    {
+      "content": "next door",
+      "translation": "隣近所に"
+    },
+    {
+      "content": "next to each other",
+      "translation": "隣り合わせに"
+    },
+    {
+      "content": "on page [N]",
+      "translation": "[N] ページに"
+    },
+    {
+      "content": "on the [N] th floor",
+      "translation": "[N] 階に"
+    },
+    {
+      "content": "on the spot",
+      "translation": "即座に / その場で"
+    },
+    {
+      "content": "on the way to [A]",
+      "translation": "[A] の道中で"
+    },
+    {
+      "content": "out { here | there }",
+      "translation": "ここら中に"
+    },
+    {
+      "content": "out of town",
+      "translation": "町の外れに"
+    },
+    {
+      "content": "throughout the world",
+      "translation": "世界中に"
+    },
+    {
+      "content": "up the stairs",
+      "translation": "階上に"
+    }
+  ]
+}

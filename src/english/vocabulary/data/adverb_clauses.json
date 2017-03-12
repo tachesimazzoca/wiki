@@ -11,32 +11,16 @@
   ],
   "rows": [
     {
-      "content": "(just) as long as it’s good",
-      "translation": "良い物なら"
-    },
-    {
-      "content": "(just) as long as that's OK with you",
-      "translation": "あなたがよければ"
+      "content": "(just)? as long as [...]",
+      "translation": "[...] である限り"
     },
     {
       "content": "after making sure [...]",
       "translation": "[...] であることを確認してから"
     },
     {
-      "content": "after you eat dinner",
-      "translation": "夕食後に"
-    },
-    {
-      "content": "apart from that",
-      "translation": "それとは別に"
-    },
-    {
-      "content": "as (if|though) [...]",
-      "translation": "あたかも [...] であるように"
-    },
-    {
-      "content": "as [graciously] as I could muster",
-      "translation": "気力をふりしぼって [graciously] に"
+      "content": "as [RB] as I could [do]",
+      "translation": "なんとか [do] できるだけ [RB] に"
     },
     {
       "content": "as before [...]",
@@ -59,6 +43,10 @@
       "translation": "先にお伝えした通り"
     },
     {
+      "content": "as if [...]",
+      "translation": "あたかも [...] であるように"
+    },
+    {
       "content": "as much as possible",
       "translation": "なるべく"
     },
@@ -69,22 +57,6 @@
     {
       "content": "as time has progressed",
       "translation": "時が過ぎ"
-    },
-    {
-      "content": "as we anticipated",
-      "translation": "予期していた通り"
-    },
-    {
-      "content": "as we had hoped",
-      "translation": "希望していた通りに"
-    },
-    {
-      "content": "before I even ask",
-      "translation": "頼む前に"
-    },
-    {
-      "content": "before you begin",
-      "translation": "始めに"
     },
     {
       "content": "each time [...]",
@@ -103,20 +75,8 @@
       "translation": "[...] する時はいつも"
     },
     {
-      "content": "if I could leave early",
-      "translation": "早退できるかどうか"
-    },
-    {
-      "content": "if I'm not wrong",
-      "translation": "自分が間違ってないとして"
-    },
-    {
       "content": "if needed",
       "translation": "必要ならば"
-    },
-    {
-      "content": "if not used properly",
-      "translation": "正しく使わないと"
     },
     {
       "content": "in which [...]",
@@ -127,8 +87,8 @@
       "translation": "今までのどんなことよりも"
     },
     {
-      "content": "no matter how much it costs",
-      "translation": "いくら値が張ろうとも"
+      "content": "no matter how [...]",
+      "translation": "どんなに [...] であろうとも"
     },
     {
       "content": "no matter whether or not [...]",
@@ -171,16 +131,16 @@
       "translation": "肝心な時に"
     },
     {
-      "content": "when it's appropriate",
-      "translation": "いつなら良いのか"
-    },
-    {
-      "content": "whether [A] is valid or not",
-      "translation": "[A] が正しいかどうか"
+      "content": "whether or not [...] ",
+      "translation": "[...] であるかどうか"
     },
     {
       "content": "why on earth [...]",
       "translation": "一体どうして [...] であるのか"
+    },
+    {
+      "content": "more than I realized",
+      "translation": "実際よりずっと"
     }
   ]
 }

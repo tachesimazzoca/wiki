@@ -11,351 +11,355 @@
   ],
   "rows": [
     {
-      "content": "(abandon|renounce) [A]",
-      "translation": "[A] を放棄する"
+      "content": "{ abandon | renounce } [A]",
+      "translation": "[A] を{ 放棄する }"
     },
     {
-      "content": "(achieve|accomplish) [A]",
-      "translation": "[A] を成し遂げる"
+      "content": "{ achieve | accomplish | attain } [A]",
+      "translation": "[A] を{ 成し遂げる | 達成する | 遂行する }"
     },
     {
-      "content": "(add|put) [A] and [B] together",
-      "translation": "[A] と [B] を 足す"
+      "content": "{ add | put } [A] and [B] together",
+      "translation": "[A] と [B] を{ 足す }"
     },
     {
-      "content": "(admire|praise|commend) [somebody] for [A]",
-      "translation": "[somebody] を [A] のことで賞賛する"
+      "content": "{ admire | praise | commend } [someone] for [A]",
+      "translation": "[someone] を [A] のことで{ 賞賛する }"
     },
     {
-      "content": "(admit|acknowledge|confess) [A]",
-      "translation": "[A] を真実であると認める"
+      "content": "{ admit | acknowledge | confess } [A]",
+      "translation": "[A] を{ 認める }"
     },
     {
-      "content": "(assume|take) [responsibility]",
+      "content": "{ assume | take } [responsibility]",
       "translation": "[responsibility] を負う / 引き受ける"
     },
     {
-      "content": "(assure|convince|persuade) [somebody] of [A]",
-      "translation": "[somebody] に [A] を確信させる"
+      "content": "{ assure | convince | persuade } [someone] that [...]",
+      "translation": "[someone] に [...] であると{ 確信させる | 安心させる }"
     },
     {
-      "content": "(assure|convince|persuade) [somebody] that [...]",
-      "translation": "[somebody] に [...] であると確信させる / 安心させる"
+      "content": "{ attribute | ascribe | impute } [A] to [B]",
+      "translation": "[A] を [B] の{ おかげだとする | せいにする }"
     },
     {
-      "content": "(attribute|assign|impute) [A] to [B]",
-      "translation": "[A] （結果や性質）を [B] に帰属させる / おかげだとする / せいにする"
-    },
-    {
-      "content": "(avoid|escape|evade|elude) [A]",
+      "content": "{ avoid | escape | evade | elude } [A]",
       "translation": "[A] を避ける"
     },
     {
-      "content": "(beat|defeat) [somebody]",
-      "translation": "[somebody] を打ち負かす"
+      "content": "{ beat | defeat } [someone]",
+      "translation": "[someone] を{ 打ち負かす | やっつける }"
     },
     {
-      "content": "(beg|entreat) [somebody]",
-      "translation": "[somebody] に懇願する"
+      "content": "{ beg | entreat } [someone]",
+      "translation": "[someone] に懇願する"
     },
     {
-      "content": "(blame|condemn|criticize) [somebody] for [A]",
-      "translation": "[somebody] を [A] のことで非難する"
+      "content": "{ blame | condemn | criticize } [someone] for [A]",
+      "translation": "[someone] を [A] のことで{ 非難する | 批判する }"
     },
     {
-      "content": "(bother|worry|annoy|plague) [somebody]",
-      "translation": "[somebody] を悩ませる"
+      "content": "{ bother | worry | annoy | plague } [someone]",
+      "translation": "[someone] を悩ませる"
     },
     {
-      "content": "(break|destroy|tear|disrupt|ruin) [A]",
+      "content": "{ break | destroy | tear | disrupt | ruin } [A]",
       "translation": "[A] を壊す"
     },
     {
-      "content": "(build|construct) [A]",
-      "translation": "[A] を組み立てる"
+      "content": "{ build | construct } [A]",
+      "translation": "[A] を{ 組み立てる | 構築する | 建てる }"
     },
     {
-      "content": "(carry|deliver|convey) [A] to [B]",
+      "content": "{ carry | deliver | convey } [A] to [B]",
       "translation": "[A] を [B] に運ぶ"
     },
     {
-      "content": "(catch|contract) [A]",
+      "content": "{ catch | contract } [A]",
       "translation": "[A] の病気にかかる"
     },
     {
-      "content": "(change|alter|modify) [A]",
+      "content": "{ change | alter | modify } [A]",
       "translation": "[A] を変える"
     },
     {
-      "content": "(cheat|deceive|fool|kid) [somebody] into [doing]",
-      "translation": "[A] を欺いて [doing] させる"
+      "content": "{ cheat | deceive | fool | kid } [someone]",
+      "translation": "[A] を{ だます | 欺く }"
     },
     {
-      "content": "(cherish|treasure) [A]",
+      "content": "{ cherish | treasure } [A]",
       "translation": "[A] を大事にする"
     },
     {
-      "content": "(choose|select) [A]",
+      "content": "{ choose | select } [A]",
       "translation": "[A] を選択する"
     },
     {
-      "content": "(collect|gather|accumulate|assemble) [A]",
+      "content": "{ collect | gather | accumulate | assemble } [A]",
       "translation": "[A] を集める"
     },
     {
-      "content": "(combine|merge|consolidate) [A]",
+      "content": "{ combine | merge | consolidate } [A]",
       "translation": "[A] をまとめる"
     },
     {
-      "content": "(copy|duplicate) [A]",
+      "content": "{ copy | duplicate } [A]",
       "translation": "[A] を複製する"
     },
     {
-      "content": "(make|create) [A]",
-      "translation": "[A] を作る"
-    },
-    {
-      "content": "(decorate|adorn|ornament) [A] with [B]",
+      "content": "{ decorate | adorn | ornament } [A] with [B]",
       "translation": "[A] を [B] で飾る"
     },
     {
-      "content": "(defer|delay|postpone) [A]",
+      "content": "{ defer | delay | postpone } [A]",
       "translation": "[A] を延期する"
     },
     {
-      "content": "(denote ! connote) [A]",
-      "translation": "[A] を (明示する ! 暗示する)"
+      "content": "{ denote ! connote } [A]",
+      "translation": "[A] を{ 明示する ! 暗示する }"
     },
     {
-      "content": "(disappoint|depress) [somebody]",
-      "translation": "[somebody] をがっかりさせる"
+      "content": "{ disappoint | depress } [someone]",
+      "translation": "[someone] をがっかりさせる"
     },
     {
-      "content": "(discard|dismiss) [A]",
+      "content": "{ discard | dismiss } [A]",
       "translation": "[A] を捨てる"
     },
     {
-      "content": "(discuss|debate|dispute) [an issue]",
+      "content": "{ discuss | debate | dispute } [an issue]",
       "translation": "[an issue] を話し合う"
     },
     {
-      "content": "(distinguish|discriminate) [A]",
+      "content": "{ distinguish | discriminate } [A]",
       "translation": "[A] を区別する"
     },
     {
-      "content": "(dominate|control|dictate) [A]",
+      "content": "{ dominate | control | dictate } [A]",
       "translation": "[A] を支配する"
     },
     {
-      "content": "(draw|paint) [A]",
+      "content": "{ draw | paint } [A]",
       "translation": "[A] を描く"
     },
     {
-      "content": "(elicit|evoke) [A]",
-      "translation": "[A] （笑い/返事/事実/データ）を引き出す"
+      "content": "{ elicit | evoke } [A]",
+      "translation": "[A] を{ 引き出す | 誘い出す | 呼び起こす }"
     },
     {
-      "content": "(eliminate|expunge) [A]",
+      "content": "{ eliminate | expunge } [A]",
       "translation": "[A] を却下する / 消し去る"
     },
     {
-      "content": "(encourage|stimulate) [A]",
+      "content": "{ encourage | stimulate } [A]",
       "translation": "[A] を促進する"
     },
     {
-      "content": "(endure|suffer) [something bad]",
+      "content": "{ endure | suffer } [something bad]",
       "translation": "[something bad] を耐える"
     },
     {
-      "content": "(excerpt|quote|cite) [A] from [B]",
+      "content": "{ excerpt | quote | cite } [A] from [B]",
       "translation": "[B] から [A] を引用する"
     },
     {
-      "content": "(explain|describe|illustrate) [A]",
+      "content": "{ exchange | swap } [A] for [B]",
+      "translation": "[A] を [B] と交換する"
+    },
+    {
+      "content": "{ explain | describe | illustrate } [A]",
       "translation": "[A] を説明する"
     },
     {
-      "content": "(extend|expand|enlarge) [A]",
+      "content": "{ extend | expand | enlarge } [A]",
       "translation": "[A] を拡張する"
     },
     {
-      "content": "(flatter|compliment) [somebody] on [A]",
-      "translation": "[somebody] を [A] についてお世辞を言う"
-    },
-    {
-      "content": "(frighten|terrify|scare) [somebody]",
-      "translation": "[somebody] を怖がらせる"
-    },
-    {
-      "content": "(produce|generate|yield|spawn) [A]",
-      "translation": "[A] を生み出す"
-    },
-    {
-      "content": "(get|gain|obtain|acquire) [A]",
-      "translation": "[A] を得る"
-    },
-    {
-      "content": "(guess|infer|deduce|speculate) [A]",
-      "translation": "[A] を推測する"
-    },
-    {
-      "content": "(happen|occur) to [A]",
-      "translation": "（出来事が） [A] に起こる"
-    },
-    {
-      "content": "(hate|dislike|despise) [A]",
-      "translation": "[A] を嫌う"
-    },
-    {
-      "content": "(hold|grab) [A]",
-      "translation": "[A] を握る"
-    },
-    {
-      "content": "(hurt|injure|wound) [A]",
-      "translation": "[A] を怪我する"
-    },
-    {
-      "content": "(ignore|neglect|disregard) [A]",
-      "translation": "[A] を無視する"
-    },
-    {
-      "content": "(improve|enhance) [A]",
-      "translation": "[A] を改善する"
-    },
-    {
-      "content": "(incite|provoke|arouse) [somebody]",
-      "translation": "[somebody] を刺激する"
-    },
-    {
-      "content": "(incline|dispose) [somebody] to [do]",
-      "translation": "[somebody] を [do] する気にさせる"
-    },
-    {
-      "content": "(include ! exclude) [A]",
-      "translation": "[A] を(含める ! 除外する)"
-    },
-    {
-      "content": "(indicate|signify) [A]",
-      "translation": "（記号やジェスチャーが）[A] を表す"
-    },
-    {
-      "content": "(interpolate|extrapolate) [A]",
-      "translation": "[A] を(内挿|外挿)する"
-    },
-    {
-      "content": "(investigate|analyze|study) [A]",
-      "translation": "[A] を調査する"
-    },
-    {
-      "content": "(label|name) [A] as [B]",
-      "translation": "[A] を [B] として分類する"
-    },
-    {
-      "content": "(lend|rent|let) [A] to [somebody]",
-      "translation": "[A] を [somebody] に貸す"
-    },
-    {
-      "content": "(look|gaze|glance|glare|stare|peek) at [A]",
-      "translation": "[A] を見る"
-    },
-    {
-      "content": "(mix|blend|merge|concoct) [A]",
-      "translation": "[A] を混ぜる"
-    },
-    {
-      "content": "(need|require|necessitate) [A]",
-      "translation": "[A] を必要とする"
-    },
-    {
-      "content": "(notice|realize|recognize|perceive) [A]",
-      "translation": "[A] に気付く"
-    },
-    {
-      "content": "(obstruct|impede) [A]",
-      "translation": "[A] を妨害する"
-    },
-    {
-      "content": "(oppose|resist|withstan|defy) [A]",
-      "translation": "[A] に対抗する"
-    },
-    {
-      "content": "(predict|anticipate|forecast) [A]",
-      "translation": "[A] を予想する"
-    },
-    {
-      "content": "(prohibit|ban) [somebody] from [doing]",
-      "translation": "[somebody] が [doing] することを禁止する"
-    },
-    {
-      "content": "(prohibit|ban|forbid) [A]",
-      "translation": "[A] を禁止する"
-    },
-    {
-      "content": "(protect|guard|defend) [A]  (against|from) [B]",
-      "translation": "[A] を [B] から守る"
-    },
-    {
-      "content": "(provide|supply|feed|provision|equip|furnish) [somebody] with [A]",
-      "translation": "[somebody] に [A] を供給する"
-    },
-    {
-      "content": "(regard|consider) [A] as [B]",
-      "translation": "[A] を [B] だと見なす"
-    },
-    {
-      "content": "(reject|refuse|decline|spurn) [a request]",
-      "translation": "[a request] を拒絶する"
-    },
-    {
-      "content": "(fix|repair|restore|patch|overhaul|mend) [A]",
+      "content": "{ fix | repair | restore | patch | overhaul | mend } [A]",
       "translation": "[A] を修理する"
     },
     {
-      "content": "(request|demand) [A]",
-      "translation": "[A] を要求する"
+      "content": "{ flatter | compliment } [someone] on [A]",
+      "translation": "[someone] を [A] についてお世辞を言う"
     },
     {
-      "content": "(retire|resign) from [A]",
+      "content": "{ frighten | terrify | scare } [someone]",
+      "translation": "[someone] を怖がらせる"
+    },
+    {
+      "content": "{ get | gain | obtain | acquire } [A]",
+      "translation": "[A] を得る"
+    },
+    {
+      "content": "{ guess | infer | deduce | speculate } [A]",
+      "translation": "[A] を推測する"
+    },
+    {
+      "content": "{ happen | occur } to [A]",
+      "translation": "（出来事が） [A] に起こる"
+    },
+    {
+      "content": "{ hate | dislike | despise } [A]",
+      "translation": "[A] を嫌う"
+    },
+    {
+      "content": "{ hold | grab } [A]",
+      "translation": "[A] を握る"
+    },
+    {
+      "content": "{ hurt | injure | wound } [A]",
+      "translation": "[A] を怪我する"
+    },
+    {
+      "content": "{ ignore | neglect | disregard } [A]",
+      "translation": "[A] を無視する"
+    },
+    {
+      "content": "{ improve | enhance } [A]",
+      "translation": "[A] を改善する"
+    },
+    {
+      "content": "{ incite | provoke | arouse } [someone]",
+      "translation": "[someone] を刺激する"
+    },
+    {
+      "content": "{ incline | dispose } [someone] to [do]",
+      "translation": "[someone] を [do] する気にさせる"
+    },
+    {
+      "content": "{ include | contain } [A]",
+      "translation": "[A] を含む"
+    },
+    {
+      "content": "{ indicate | signify } [A]",
+      "translation": "（記号やジェスチャーが）[A] を表す"
+    },
+    {
+      "content": "{ interpolate ! extrapolate } [A]",
+      "translation": "[A] を( 内挿する ! 外挿する )"
+    },
+    {
+      "content": "{ investigate | analyze | study } [A]",
+      "translation": "[A] を調査する"
+    },
+    {
+      "content": "{ label | name } [A] as [B]",
+      "translation": "[A] を [B] として分類する"
+    },
+    {
+      "content": "{ lend | rent | let } [A] to [someone]",
+      "translation": "[A] を [someone] に貸す"
+    },
+    {
+      "content": "{ look | gaze | glance | glare | stare | peek } at [A]",
+      "translation": "[A] を見る"
+    },
+    {
+      "content": "{ make | create } [A]",
+      "translation": "[A] を作る"
+    },
+    {
+      "content": "{ mix | blend | merge | concoct } [A]",
+      "translation": "[A] を混ぜる"
+    },
+    {
+      "content": "{ need | require | necessitate } [A]",
+      "translation": "[A] を必要とする"
+    },
+    {
+      "content": "{ notice | realize | recognize | perceive } [A]",
+      "translation": "[A] に気付く"
+    },
+    {
+      "content": "{ obstruct | impede } [A]",
+      "translation": "[A] を妨害する"
+    },
+    {
+      "content": "{ oppose | resist | withstand | defy } [A]",
+      "translation": "[A] に対抗する"
+    },
+    {
+      "content": "{ predict | anticipate | forecast } [A]",
+      "translation": "[A] を予想する"
+    },
+    {
+      "content": "{ produce | generate | yield | spawn } [A]",
+      "translation": "[A] を生み出す"
+    },
+    {
+      "content": "{ prohibit | ban } [someone] from [doing]",
+      "translation": "[someone] が [doing] することを禁止する"
+    },
+    {
+      "content": "{ prohibit | ban | forbid } [A]",
+      "translation": "[A] を禁止する"
+    },
+    {
+      "content": "{ protect | guard | defend } [A]  { against | from } [B]",
+      "translation": "[A] を [B] から守る"
+    },
+    {
+      "content": "{ provide | supply | feed | provision | equip | furnish } [someone] with [A]",
+      "translation": "[someone] に [A] を供給する"
+    },
+    {
+      "content": "{ regard | consider } [A] as [B]",
+      "translation": "[A] を [B] だと見なす"
+    },
+    {
+      "content": "{ reject | refuse | decline | spurn } [a request]",
+      "translation": "[a request] を拒絶する"
+    },
+    {
+      "content": "{ request | demand } [something]",
+      "translation": "[something] を要求する"
+    },
+    {
+      "content": "{ retire | resign } from [A]",
       "translation": "[A] から退役する / 退職する"
     },
     {
-      "content": "(satisfy|fulfil|gratify) [needs]",
+      "content": "{ satisfy | fulfil | gratify } [needs]",
       "translation": "[needs] を満たす"
     },
     {
-      "content": "(save|store) [A]",
+      "content": "{ save | store } [A]",
       "translation": "[A] を蓄える"
     },
     {
-      "content": "(see|meet) [somebody]",
-      "translation": "[somebody] に会う"
+      "content": "{ see | meet } [someone]",
+      "translation": "[someone] に会う"
     },
     {
-      "content": "(strengthen|reinforce) [A]",
+      "content": "{ strengthen | reinforce } [A]",
       "translation": "[A] を強化する"
     },
     {
-      "content": "(summarize|abridge) [A]",
+      "content": "{ summarize | abridge } [A]",
       "translation": "[A] を要約する"
     },
     {
-      "content": "(surrender|yield) [A] to [somebody]",
-      "translation": "[A] を [somebody] に降参して明け渡す"
+      "content": "{ support | endorse | uphold } [A]",
+      "translation": "[A] を支持する"
     },
     {
-      "content": "(uncover|reveal|expose|disclose) [A]",
+      "content": "{ surrender | yield } [A] to [someone]",
+      "translation": "[A] を [someone] に降参して明け渡す"
+    },
+    {
+      "content": "{ uncover | reveal | expose | disclose } [A]",
       "translation": "[A] を暴露する"
     },
     {
-      "content": "(understand|grasp|comprehend) [A]",
+      "content": "{ understand | grasp | comprehend } [A]",
       "translation": "[A] を理解する"
     },
     {
-      "content": "(win|lose) [a game]",
+      "content": "{ win | lose } [a game]",
       "translation": "[a game] に(勝つ|負ける)"
     },
     {
-      "content": "(worship|adore|revere) [A]",
+      "content": "{ worship | adore | revere } [A]",
       "translation": "[A] を崇拝する"
     },
     {
@@ -387,8 +391,8 @@
       "translation": "[A] を収容する"
     },
     {
-      "content": "accuse [somebody] of [A]",
-      "translation": "[A] の事で [somebody] を告訴する / 非難する."
+      "content": "accuse [someone] of [A]",
+      "translation": "[A] の事で [someone] を告訴する / 非難する."
     },
     {
       "content": "ace [A]",
@@ -403,8 +407,8 @@
       "translation": "[A] を [B] に追加する"
     },
     {
-      "content": "address [a talk] to [somebody]",
-      "translation": "[somebody] に [a talk] を向ける"
+      "content": "address [a talk] to [someone]",
+      "translation": "[someone] に [a talk] を向ける"
     },
     {
       "content": "address [A]",
@@ -415,24 +419,24 @@
       "translation": "[A] に取りかかる（集中する）"
     },
     {
-      "content": "address [somebody]",
-      "translation": "[somebody] にむけて話しかける"
+      "content": "address [someone]",
+      "translation": "[someone] にむけて話しかける"
     },
     {
-      "content": "address [somebody] as [A]",
-      "translation": "[somebody] を [A] と敬称する"
+      "content": "address [someone] as [A]",
+      "translation": "[someone] を [A] と敬称する"
     },
     {
-      "content": "admit [somebody] to [A]",
-      "translation": "[A] に入ることを [somebody] に認める"
+      "content": "admit [someone] to [A]",
+      "translation": "[A] に入ることを [someone] に認める"
     },
     {
       "content": "adopt [A]",
       "translation": "[A] を取り入れる / 養子として迎え入れる"
     },
     {
-      "content": "advise [somebody] on [A]",
-      "translation": "[somebody] に [A] について忠告する / アドバイスする"
+      "content": "advise [someone] on [A]",
+      "translation": "[someone] に [A] について忠告する / アドバイスする"
     },
     {
       "content": "affect [A]",
@@ -467,8 +471,8 @@
       "translation": "[A] を [B] に適用する"
     },
     {
-      "content": "appoint [somebody] as [A]",
-      "translation": "[somebody] を [A] に任命する"
+      "content": "appoint [someone] as [A]",
+      "translation": "[someone] を [A] に任命する"
     },
     {
       "content": "appreciate [one's] help",
@@ -487,24 +491,24 @@
       "translation": "[a meeting] を手配する"
     },
     {
-      "content": "arrest [somebody]",
-      "translation": "[somebody] を逮捕する"
+      "content": "arrest [someone]",
+      "translation": "[someone] を逮捕する"
     },
     {
-      "content": "ask [a question] of [somebody]",
-      "translation": "[somebody] に [a question] について尋ねる"
+      "content": "ask [a question] of [someone]",
+      "translation": "[someone] に [a question] について尋ねる"
     },
     {
-      "content": "ask [somebody] about [a question]",
-      "translation": "[somebody] に [a question] について尋ねる"
+      "content": "ask [someone] about [a question]",
+      "translation": "[someone] に [a question] について尋ねる"
     },
     {
-      "content": "ask [somebody] for [a request]",
-      "translation": "[somebody] に [a request] を依頼する"
+      "content": "ask [someone] for [a request]",
+      "translation": "[someone] に [a request] を依頼する"
     },
     {
-      "content": "assault [somebody]",
-      "translation": "[somebody] に暴行を加える"
+      "content": "assault [someone]",
+      "translation": "[someone] に暴行を加える"
     },
     {
       "content": "assert [A]",
@@ -515,8 +519,8 @@
       "translation": "[A] を評価する"
     },
     {
-      "content": "assign [something] to [somebody]",
-      "translation": "[something] を [somebody] に割り当てる / 選定する"
+      "content": "assign [something] to [someone]",
+      "translation": "[something] を [someone] に割り当てる / 選定する"
     },
     {
       "content": "associate [key] with [value]",
@@ -531,11 +535,11 @@
       "translation": "[a meeting] に出席する"
     },
     {
-      "content": "attract [somebody]",
-      "translation": "[somebody] を惹き付ける"
+      "content": "attract [someone]",
+      "translation": "[someone] を惹き付ける"
     },
     {
-      "content": "attract interest from [somebody]",
+      "content": "attract interest from [someone]",
       "translation": "[someoe] の興味を引きつける"
     },
     {
@@ -543,24 +547,24 @@
       "translation": "[A] を認可する"
     },
     {
-      "content": "awake [somebody]",
-      "translation": "[somebody] を目覚めさせる"
+      "content": "awake [someone]",
+      "translation": "[someone] を目覚めさせる"
     },
     {
       "content": "bathe [a baby]",
       "translation": "[a baby] を入浴させる"
     },
     {
-      "content": "beat [somebody]",
-      "translation": "[somebody] を打ち負かす"
+      "content": "beat [someone]",
+      "translation": "[someone] を打ち負かす"
     },
     {
       "content": "believe [A] to be [B]",
       "translation": "[A] のことを [B] だと信じる"
     },
     {
-      "content": "betray [somebody]",
-      "translation": "[somebody] を裏切る"
+      "content": "betray [someone]",
+      "translation": "[someone] を裏切る"
     },
     {
       "content": "bind [A] with [B]",
@@ -571,8 +575,8 @@
       "translation": "[A] をかむ"
     },
     {
-      "content": "bless [somebody]",
-      "translation": "[somebody] に恵みを授ける"
+      "content": "bless [someone]",
+      "translation": "[someone] に恵みを授ける"
     },
     {
       "content": "board [A]",
@@ -587,12 +591,12 @@
       "translation": "自分自身を [A] だと自慢する"
     },
     {
-      "content": "borrow [A] from [somebody]",
-      "translation": "[A] を [somebody] から借りる"
+      "content": "borrow [A] from [someone]",
+      "translation": "[A] を [someone] から借りる"
     },
     {
-      "content": "bother [somebody] about [A]",
-      "translation": "[somebody] を [A] のことで悩ませる"
+      "content": "bother [someone] about [A]",
+      "translation": "[someone] を [A] のことで悩ませる"
     },
     {
       "content": "break the eggs into [A]",
@@ -603,8 +607,8 @@
       "translation": "[A] を [B] に運ぶ"
     },
     {
-      "content": "bring a charge of [A] against [somebody]",
-      "translation": "[A] の罪で [somebody] を起訴する"
+      "content": "bring a charge of [A] against [someone]",
+      "translation": "[A] の罪で [someone] を起訴する"
     },
     {
       "content": "broaden out [A] into [B]",
@@ -615,20 +619,20 @@
       "translation": "歯を磨く"
     },
     {
-      "content": "bully [somebody] into [doing]",
-      "translation": "[somebody] をいじめて [doing] させる"
+      "content": "bully [someone] into [doing]",
+      "translation": "[someone] をいじめて [doing] させる"
     },
     {
       "content": "bury [A]",
       "translation": "[A] を埋葬する"
     },
     {
-      "content": "buy [A] for [somebody]",
-      "translation": "[somebody] のために [A] を買う"
+      "content": "buy [A] for [someone]",
+      "translation": "[someone] のために [A] を買う"
     },
     {
-      "content": "call [somebody]",
-      "translation": "[somebody] に電話する"
+      "content": "call [someone]",
+      "translation": "[someone] に電話する"
     },
     {
       "content": "capture [A]",
@@ -695,8 +699,8 @@
       "translation": "募金活動する"
     },
     {
-      "content": "comfort [somebody]",
-      "translation": "[somebody] を慰める / 癒す"
+      "content": "comfort [someone]",
+      "translation": "[someone] を慰める / 癒す"
     },
     {
       "content": "commit suicide",
@@ -707,8 +711,8 @@
       "translation": "[A] を [B] と比較する"
     },
     {
-      "content": "compensate [somebody] for [a loss]",
-      "translation": "[somebody] に [a loss] のことで償う"
+      "content": "compensate [someone] for [a loss]",
+      "translation": "[someone] に [a loss] のことで償う"
     },
     {
       "content": "complement [A]",
@@ -739,8 +743,8 @@
       "translation": "[A] （調査や面接等）を行なう"
     },
     {
-      "content": "confine [somebody] to [A]",
-      "translation": "[somebody] を [A] に拘束する"
+      "content": "confine [someone] to [A]",
+      "translation": "[someone] を [A] に拘束する"
     },
     {
       "content": "confirm [A]",
@@ -751,8 +755,8 @@
       "translation": "[A] を [B] と勘違いする"
     },
     {
-      "content": "congratulate [somebody] on [A]",
-      "translation": "[somebody] を [A] について祝福する"
+      "content": "congratulate [someone] on [A]",
+      "translation": "[someone] を [A] について祝福する"
     },
     {
       "content": "connect [A] with [B]",
@@ -767,8 +771,12 @@
       "translation": "[A] を節約する"
     },
     {
-      "content": "consider [somebody] for [A]",
-      "translation": "[somebody] の [A] への配属を検討する"
+      "content": "consider [someone] for [A]",
+      "translation": "[someone] の [A] への配属を検討する"
+    },
+    {
+      "content": "conspire [A]",
+      "translation": "A を共謀する"
     },
     {
       "content": "consult [A]",
@@ -785,6 +793,10 @@
     {
       "content": "control [oneself]",
       "translation": "自制する / 我慢する"
+    },
+    {
+      "content": "convict [somebody] of [A]",
+      "translation": "[somebody] に [A] の罪で判決を言い渡す"
     },
     {
       "content": "cook [A]",
@@ -819,16 +831,16 @@
       "translation": "[A] を抑制する"
     },
     {
-      "content": "cure [somebody] of [A]",
-      "translation": "[A] の状態の [somebody] を治療する"
+      "content": "cure [someone] of [A]",
+      "translation": "[A] の状態の [someone] を治療する"
     },
     {
       "content": "curse [A]",
       "translation": "[A] を呪う / 災いをもたらす"
     },
     {
-      "content": "curse [somebody] for [A]",
-      "translation": "[somebody] を [A] のことでののしる"
+      "content": "curse [someone] for [A]",
+      "translation": "[someone] を [A] のことでののしる"
     },
     {
       "content": "cut [A] into [parts]",
@@ -843,8 +855,8 @@
       "translation": "[A] を決定する"
     },
     {
-      "content": "dedicate [A] to [somebody]",
-      "translation": "[A] を [somebody] に捧げる"
+      "content": "dedicate [A] to [someone]",
+      "translation": "[A] を [someone] に捧げる"
     },
     {
       "content": "dedicate [oneself]? to [A]",
@@ -875,8 +887,8 @@
       "translation": "[A] を審議する"
     },
     {
-      "content": "delight [somebody]",
-      "translation": "[somebody] を喜ばせる"
+      "content": "delight [someone]",
+      "translation": "[someone] を喜ばせる"
     },
     {
       "content": "deluge [A] with [requests]",
@@ -891,8 +903,8 @@
       "translation": "[money] を [a bank] に預ける"
     },
     {
-      "content": "deprive [somebody] of [A]",
-      "translation": "[somebody] から [A] を取り上げる"
+      "content": "deprive [someone] of [A]",
+      "translation": "[someone] から [A] を取り上げる"
     },
     {
       "content": "derive [A] from [B]",
@@ -923,8 +935,8 @@
       "translation": "[A] （症状や状態）を診断する"
     },
     {
-      "content": "dictate [A] to [somebody]",
-      "translation": "[A] を [somebody] に指図する/書き取らせる"
+      "content": "dictate [A] to [someone]",
+      "translation": "[A] を [someone] に指図する/書き取らせる"
     },
     {
       "content": "direct [A] to [B]",
@@ -959,8 +971,8 @@
       "translation": "[A] を引き出す / 分配する"
     },
     {
-      "content": "distract [somebody] from [A]",
-      "translation": "[somebody] を [A] から気をそらす"
+      "content": "distract [someone] from [A]",
+      "translation": "[someone] を [A] から気をそらす"
     },
     {
       "content": "disturb [A]",
@@ -971,8 +983,8 @@
       "translation": "[parts] に分ける"
     },
     {
-      "content": "divorce [somebody]",
-      "translation": "[somebody] と離婚する"
+      "content": "divorce [someone]",
+      "translation": "[someone] と離婚する"
     },
     {
       "content": "dry [one's] body with [A]",
@@ -987,8 +999,8 @@
       "translation": "[A] を染める"
     },
     {
-      "content": "embarrass [somebody]",
-      "translation": "[somebody] に恥ずかしい思いをさせる"
+      "content": "embarrass [someone]",
+      "translation": "[someone] に恥ずかしい思いをさせる"
     },
     {
       "content": "embed [A] in [B]",
@@ -1019,23 +1031,19 @@
       "translation": "[a problem] に直面する"
     },
     {
-      "content": "(support|endorse|uphold) [A]",
-      "translation": "[A] を支持する"
-    },
-    {
       "content": "enforce [A]",
       "translation": "[A] を強要する / （法律等を）施行する"
     },
     {
-      "content": "enlighten [somebody] on [A]",
-      "translation": "[somebody] に [A] について教示する"
+      "content": "enlighten [someone] on [A]",
+      "translation": "[someone] に [A] について教示する"
     },
     {
       "content": "ensure [A]",
       "translation": "[A] を保証する"
     },
     {
-      "content": "ensure [A] (against|from) [B]",
+      "content": "ensure [A] { against | from } [B]",
       "translation": "[A] を [B] から守る"
     },
     {
@@ -1047,8 +1055,8 @@
       "translation": "[A] に入る"
     },
     {
-      "content": "entitle [somebody] to [do]",
-      "translation": "[somebody] に [do] する権利を与える"
+      "content": "entitle [someone] to [do]",
+      "translation": "[someone] に [do] する権利を与える"
     },
     {
       "content": "envy [A]",
@@ -1059,8 +1067,8 @@
       "translation": "[A] を建てる / 直立させる"
     },
     {
-      "content": "escort [somebody] to [A]",
-      "translation": "[somebody] を [A] に連れて行く"
+      "content": "escort [someone] to [A]",
+      "translation": "[someone] を [A] に連れて行く"
     },
     {
       "content": "establish [A]",
@@ -1075,8 +1083,8 @@
       "translation": "[A] を評価する"
     },
     {
-      "content": "evict [somebody]",
-      "translation": "[somebody] を退去させる"
+      "content": "evict [someone]",
+      "translation": "[someone] を退去させる"
     },
     {
       "content": "exaggerate [A]",
@@ -1091,10 +1099,6 @@
       "translation": "[A] を超える"
     },
     {
-      "content": "(exchange|swap) [A] for [B]",
-      "translation": "[A] を [B] と交換する"
-    },
-    {
       "content": "excuse [A]",
       "translation": "[A] の言い訳をする"
     },
@@ -1103,12 +1107,12 @@
       "translation": "[doing] した言い訳をする"
     },
     {
-      "content": "excuse [somebody] for [A]",
-      "translation": "[A] について [somebody] を許す"
+      "content": "excuse [someone] for [A]",
+      "translation": "[A] について [someone] を許す"
     },
     {
-      "content": "exert [influence] on [somebody]",
-      "translation": "[somebody] に [influence] を与える / 権力行使する"
+      "content": "exert [influence] on [someone]",
+      "translation": "[someone] に [influence] を与える / 権力行使する"
     },
     {
       "content": "experience [A]",
@@ -1127,12 +1131,12 @@
       "translation": "自己表現する"
     },
     {
-      "content": "express apologies to [somebody]",
-      "translation": "[somebody] にお詫びする"
+      "content": "express apologies to [someone]",
+      "translation": "[someone] にお詫びする"
     },
     {
-      "content": "express remorse to [somebody]",
-      "translation": "[somebody] に対して自責の念を表する"
+      "content": "express remorse to [someone]",
+      "translation": "[someone] に対して自責の念を表する"
     },
     {
       "content": "exterminate [roaches]",
@@ -1159,8 +1163,8 @@
       "translation": "[A] に愛情を感じる"
     },
     {
-      "content": "feel contempt for [somebody]",
-      "translation": "[somebody] を軽蔑する"
+      "content": "feel contempt for [someone]",
+      "translation": "[someone] を軽蔑する"
     },
     {
       "content": "file [a suit]",
@@ -1183,8 +1187,8 @@
       "translation": "[A] に旗を立てる / 印をつける"
     },
     {
-      "content": "flunk [A]",
-      "translation": "[A] （試験や単位取得）に失敗する / 落第する"
+      "content": "flunk [a exam]",
+      "translation": "[a exam] に失敗する / 落第する"
     },
     {
       "content": "force [A]",
@@ -1199,8 +1203,8 @@
       "translation": "[A] を偽造する / コツコツ作る"
     },
     {
-      "content": "forgive [somebody] for [A]",
-      "translation": "[A] の事で [somebody] を許す"
+      "content": "forgive [someone] for [A]",
+      "translation": "[A] の事で [someone] を許す"
     },
     {
       "content": "form [A]",
@@ -1211,20 +1215,20 @@
       "translation": "[A] を定式化する"
     },
     {
-      "content": "give [A] to [somebody]",
-      "translation": "[A] を [somebody] に与える"
+      "content": "give [A] to [someone]",
+      "translation": "[A] を [someone] に与える"
     },
     {
       "content": "goad [A]",
       "translation": "[A] を棒で突いて刺激する"
     },
     {
-      "content": "grant [a permission] to [somebody]",
-      "translation": "[a permisson] を [somebody] に許可する"
+      "content": "grant [a permission] to [someone]",
+      "translation": "[a permisson] を [someone] に許可する"
     },
     {
-      "content": "greet [somebody] with [a smile]",
-      "translation": "[somebody] に [a smile] で挨拶する"
+      "content": "greet [someone] with [a smile]",
+      "translation": "[someone] に [a smile] で挨拶する"
     },
     {
       "content": "ground [A]",
@@ -1263,12 +1267,12 @@
       "translation": "[A] を [B] にかき集める / 追いやる"
     },
     {
-      "content": "hide ([oneself]) behind [A]",
-      "translation": "[A] の陰に隠れる"
-    },
-    {
       "content": "hide [A]",
       "translation": "[A] を隠す"
+    },
+    {
+      "content": "hide { [oneself] } behind [A]",
+      "translation": "[A] の陰に隠れる"
     },
     {
       "content": "hold [A]",
@@ -1287,8 +1291,8 @@
       "translation": "[meetings] （議論や検討）を重ねる"
     },
     {
-      "content": "honor [somebody]",
-      "translation": "[somebody] を称える / 名誉を与える"
+      "content": "honor [someone]",
+      "translation": "[someone] を称える / 名誉を与える"
     },
     {
       "content": "house [A]",
@@ -1311,20 +1315,20 @@
       "translation": "[A] を真似る"
     },
     {
-      "content": "implicate [somebody] in [a crime]",
-      "translation": "[somebody] を [a crime] に巻き込む"
+      "content": "implicate [someone] in [a crime]",
+      "translation": "[someone] を [a crime] に巻き込む"
     },
     {
       "content": "imply [A]",
       "translation": "[A] を暗示する / ほのめかす"
     },
     {
-      "content": "impose [an unwelcome decision] on [somebody]",
-      "translation": "[somebody] に  [an unwelcome decision] を課す"
+      "content": "impose [an unwelcome decision] on [someone]",
+      "translation": "[someone] に  [an unwelcome decision] を課す"
     },
     {
-      "content": "impress [somebody] with [A]",
-      "translation": "[A] のことで [somebody] に好印象を与える"
+      "content": "impress [someone] with [A]",
+      "translation": "[A] のことで [someone] に好印象を与える"
     },
     {
       "content": "inch [A]",
@@ -1343,24 +1347,24 @@
       "translation": "[A] を示す"
     },
     {
-      "content": "indict [somebody]",
-      "translation": "[somebody] を起訴する"
+      "content": "indict [someone]",
+      "translation": "[someone] を起訴する"
     },
     {
       "content": "inflate [A]",
       "translation": "[A] を膨らます"
     },
     {
-      "content": "inflict [a punishment] on [somebody]",
-      "translation": "[somebody] に [a punishment] を負わせる"
+      "content": "inflict [a punishment] on [someone]",
+      "translation": "[someone] に [a punishment] を負わせる"
     },
     {
       "content": "influence [A]",
       "translation": "[A] に影響を与える"
     },
     {
-      "content": "inform [somebody] (of|about) [A]",
-      "translation": "[A] について [somebody] に知らせる"
+      "content": "inform [someone] { of | about } [A]",
+      "translation": "[A] について [someone] に知らせる"
     },
     {
       "content": "infuse [A] into [B]",
@@ -1371,8 +1375,8 @@
       "translation": "[A] を住みかとする / 生息する"
     },
     {
-      "content": "inherit [a fortune] from [somebody]",
-      "translation": "[somebody] から [a fortune] を受け継ぐ"
+      "content": "inherit [a fortune] from [someone]",
+      "translation": "[someone] から [a fortune] を受け継ぐ"
     },
     {
       "content": "inhibit [A]",
@@ -1403,8 +1407,8 @@
       "translation": "[A] を創出する"
     },
     {
-      "content": "insult [somebody]",
-      "translation": "[somebody] を侮辱する"
+      "content": "insult [someone]",
+      "translation": "[someone] を侮辱する"
     },
     {
       "content": "integrate [A] with [B]",
@@ -1423,12 +1427,12 @@
       "translation": "[A] を導入する"
     },
     {
-      "content": "introduce [A] to [somebody]",
-      "translation": "[A] を [somebody] に紹介する"
+      "content": "introduce [A] to [someone]",
+      "translation": "[A] を [someone] に紹介する"
     },
     {
-      "content": "intrude [A] on [somebody]",
-      "translation": "[somebody] に [A] を強いる"
+      "content": "intrude [A] on [someone]",
+      "translation": "[someone] に [A] を強いる"
     },
     {
       "content": "invade [A]",
@@ -1439,12 +1443,12 @@
       "translation": "[A] を [B] に投資する"
     },
     {
-      "content": "invite [somebody] over",
-      "translation": "[somebody] を自宅に招く"
+      "content": "invite [someone] over",
+      "translation": "[someone] を自宅に招く"
     },
     {
-      "content": "invite [somebody] to [A]",
-      "translation": "[somebody] を [A] に招く"
+      "content": "invite [someone] to [A]",
+      "translation": "[someone] を [A] に招く"
     },
     {
       "content": "involve [A]",
@@ -1467,8 +1471,8 @@
       "translation": "[A] が欠けている"
     },
     {
-      "content": "lead [somebody] to [success]",
-      "translation": "[somebody] を [success] に導く"
+      "content": "lead [someone] to [success]",
+      "translation": "[someone] を [success] に導く"
     },
     {
       "content": "leave [a message]",
@@ -1479,12 +1483,12 @@
       "translation": "[A] を出発する / 離れる"
     },
     {
-      "content": "leave [A] to [somebody]",
-      "translation": "[A] を [somebody] に任せる"
+      "content": "leave [A] to [someone]",
+      "translation": "[A] を [someone] に任せる"
     },
     {
-      "content": "lecture [somebody] for [A]",
-      "translation": "[somebody] に [A] の事で説教する"
+      "content": "lecture [someone] for [A]",
+      "translation": "[someone] に [A] の事で説教する"
     },
     {
       "content": "lend [itself] to [A]",
@@ -1503,28 +1507,28 @@
       "translation": "[A] を見つける"
     },
     {
-      "content": "look into possibility that [...]",
-      "translation": ""
-    },
-    {
       "content": "lodge [a protest]",
       "translation": "[a protest] を提出する(政治的)"
     },
     {
-      "content": "make [A] for [somebody]",
-      "translation": "[somebody] のために [A] を作る"
+      "content": "look into possibility that [...]",
+      "translation": ""
+    },
+    {
+      "content": "make [A] for [someone]",
+      "translation": "[someone] のために [A] を作る"
     },
     {
       "content": "mastermind [a scheme]",
       "translation": "[a scheme] を（首謀者として）企てる"
     },
     {
-      "content": "meet [somebody] halfway",
-      "translation": "[somebody] と妥協する"
+      "content": "meet [someone] halfway",
+      "translation": "[someone] と妥協する"
     },
     {
-      "content": "meet [somebody] in person",
-      "translation": "[somebody] に実際に会う"
+      "content": "meet [someone] in person",
+      "translation": "[someone] に実際に会う"
     },
     {
       "content": "mine [A]",
@@ -1563,6 +1567,10 @@
       "translation": "[C] にちなんで [A] に [B] と名付ける"
     },
     {
+      "content": "name [A] in honor of [B]",
+      "translation": "[A] を [B] にちなんで名付ける"
+    },
+    {
       "content": "need help on [A]",
       "translation": "[A] の助けを必要とする"
     },
@@ -1571,8 +1579,8 @@
       "translation": "診てもらう必要がある / 処方箋を必要とする"
     },
     {
-      "content": "notify [somebody] of [A]",
-      "translation": "[somebody] に [A] を知らせる"
+      "content": "notify [someone] of [A]",
+      "translation": "[someone] に [A] を知らせる"
     },
     {
       "content": "obey [A]",
@@ -1587,8 +1595,8 @@
       "translation": "[A] を占有する"
     },
     {
-      "content": "offer [A] to [somebody]",
-      "translation": "[A] を [somebody] に提供する"
+      "content": "offer [A] to [someone]",
+      "translation": "[A] を [someone] に提供する"
     },
     {
       "content": "offer [an alibi]",
@@ -1623,8 +1631,8 @@
       "translation": "[A] を圧倒する / 閉口させる"
     },
     {
-      "content": "owe [A] to [somebody]",
-      "translation": "[A] を [somebody] に借りている"
+      "content": "owe [A] to [someone]",
+      "translation": "[A] を [someone] に借りている"
     },
     {
       "content": "parallelize [A]",
@@ -1643,8 +1651,8 @@
       "translation": "[B] のために [A] を払う"
     },
     {
-      "content": "pay [somebody]",
-      "translation": "[somebody] に報酬を支払う"
+      "content": "pay [someone]",
+      "translation": "[someone] に報酬を支払う"
     },
     {
       "content": "pay attention to [A]",
@@ -1671,12 +1679,12 @@
       "translation": "[A] を正確に示す"
     },
     {
-      "content": "place an order",
-      "translation": "注文する"
-    },
-    {
       "content": "place a limit",
       "translation": "限界値を設定する"
+    },
+    {
+      "content": "place an order",
+      "translation": "注文する"
     },
     {
       "content": "plead [A]",
@@ -1685,6 +1693,10 @@
     {
       "content": "polish [A]",
       "translation": "[A] を磨く"
+    },
+    {
+      "content": "ponder [A]",
+      "translation": "[A] を{ 検討する | 思案する }"
     },
     {
       "content": "pooh-pooh [A]",
@@ -1711,7 +1723,7 @@
       "translation": "[a report] を作成する"
     },
     {
-      "content": "present [A] to [somebody]",
+      "content": "present [A] to [someone]",
       "translation": "[A] を [someon] に贈る"
     },
     {
@@ -1859,16 +1871,16 @@
       "translation": "[A] を移転する"
     },
     {
-      "content": "remember [somebody] [doing]",
-      "translation": "[somebody] が [doing] したことを覚えている"
+      "content": "remember [someone] [doing]",
+      "translation": "[someone] が [doing] したことを覚えている"
     },
     {
-      "content": "remind [somebody] of [A]",
-      "translation": "[somebody] に [A] を思い起こさせる"
+      "content": "remind [someone] of [A]",
+      "translation": "[someone] に [A] を思い起こさせる"
     },
     {
-      "content": "remit [A] to [somebody]",
-      "translation": "[A] を [somebody] に送金する"
+      "content": "remit [A] to [someone]",
+      "translation": "[A] を [someone] に送金する"
     },
     {
       "content": "remodel [A]",
@@ -1899,8 +1911,8 @@
       "translation": "[A] を補充する"
     },
     {
-      "content": "report [A] to [somebody]",
-      "translation": "[A] を [somebody] に報告する"
+      "content": "report [A] to [someone]",
+      "translation": "[A] を [someone] に報告する"
     },
     {
       "content": "represent [A]",
@@ -1911,8 +1923,8 @@
       "translation": "[A] を代表する"
     },
     {
-      "content": "reprimand [somebody] for [A]",
-      "translation": "[somebody] に [A] について懲戒する"
+      "content": "reprimand [someone] for [A]",
+      "translation": "[someone] に [A] について懲戒する"
     },
     {
       "content": "research [A]",
@@ -1931,8 +1943,8 @@
       "translation": "[A] を [B] のために取っておく / 確保する"
     },
     {
-      "content": "restrict [somebody] to [A]",
-      "translation": "[somebody] を [A] に制限する"
+      "content": "restrict [someone] to [A]",
+      "translation": "[someone] を [A] に制限する"
     },
     {
       "content": "retain [A]",
@@ -1959,16 +1971,16 @@
       "translation": "[A] に革命を起こす"
     },
     {
-      "content": "reward [somebody] with [A]",
-      "translation": "[somebody] に [A] を褒美として与える"
+      "content": "reward [someone] with [A]",
+      "translation": "[someone] に [A] を褒美として与える"
     },
     {
       "content": "ride [one's] bicycle to [A]",
       "translation": "[A] へ自転車で行く"
     },
     {
-      "content": "rob [somebody] of [A]",
-      "translation": "[somebody] から [A] を強奪する"
+      "content": "rob [someone] of [A]",
+      "translation": "[someone] から [A] を強奪する"
     },
     {
       "content": "roll [A] in [B]",
@@ -1983,16 +1995,16 @@
       "translation": "[A] （距離）を [B] （時間）で走る"
     },
     {
-      "content": "sack [somebody]",
-      "translation": "[somebody] を解雇する"
+      "content": "sack [someone]",
+      "translation": "[someone] を解雇する"
     },
     {
       "content": "sacrifice [A]",
       "translation": "[A] を犠牲にする"
     },
     {
-      "content": "save [somebody] from [doing]",
-      "translation": "[somebody] が [doing] する手間を省く"
+      "content": "save [someone] from [doing]",
+      "translation": "[someone] が [doing] する手間を省く"
     },
     {
       "content": "savor [A]",
@@ -2003,8 +2015,8 @@
       "translation": "[A] を撒き散らす"
     },
     {
-      "content": "scold [somebody] for [A]",
-      "translation": "[A] の事で [somebody] を叱る"
+      "content": "scold [someone] for [A]",
+      "translation": "[A] の事で [someone] を叱る"
     },
     {
       "content": "scratch [one's] head",
@@ -2019,7 +2031,7 @@
       "translation": "[B] を求めて [A] を探す"
     },
     {
-      "content": "secure [A]  (against|from) [an attack]",
+      "content": "secure [A]  { against | from } [an attack]",
       "translation": "[an attack] から [A] を守る"
     },
     {
@@ -2039,8 +2051,8 @@
       "translation": "[A] を [B] に送る"
     },
     {
-      "content": "sentence [somebody] to [A]",
-      "translation": "[somebody] （被告）に [A] （刑）を宣告する"
+      "content": "sentence [someone] to [A]",
+      "translation": "[someone] （被告）に [A] （刑）を宣告する"
     },
     {
       "content": "separate [A] by [B]",
@@ -2095,8 +2107,8 @@
       "translation": "[A] を [B] に浸す / つかる"
     },
     {
-      "content": "solicit aid from [somebody]",
-      "translation": "[somebody] からの援助を懇願 / 陳情する"
+      "content": "solicit aid from [someone]",
+      "translation": "[someone] からの援助を懇願 / 陳情する"
     },
     {
       "content": "solidify [A]",
@@ -2111,7 +2123,7 @@
       "translation": "[money] を [A] に費やす"
     },
     {
-      "content": "spend [time] (in) [doing]",
+      "content": "spend [time] { in } [doing]",
       "translation": "[time] を [doing] して過ごす"
     },
     {
@@ -2207,7 +2219,7 @@
       "translation": "[A] を飲み込む"
     },
     {
-      "content": "swerve [N] degrees to the (left|right)",
+      "content": "swerve [N] degrees to the { left | right }",
       "translation": "N 度(左|右)にそれる"
     },
     {
@@ -2223,20 +2235,20 @@
       "translation": "[A] をポンと叩く"
     },
     {
-      "content": "teach [A] to [somebody]",
-      "translation": "[somebody] に [A] を教える"
+      "content": "teach [A] to [someone]",
+      "translation": "[someone] に [A] を教える"
     },
     {
-      "content": "tease [somebody]",
-      "translation": "[somebody] をからかう"
+      "content": "tease [someone]",
+      "translation": "[someone] をからかう"
     },
     {
-      "content": "tell [a story] to [somebody]",
-      "translation": "[somebody] に [a story] を話す"
+      "content": "tell [a story] to [someone]",
+      "translation": "[someone] に [a story] を話す"
     },
     {
-      "content": "thank [somebody] for [A]",
-      "translation": "[A] の事で [somebody] に感謝する"
+      "content": "thank [someone] for [A]",
+      "translation": "[A] の事で [someone] に感謝する"
     },
     {
       "content": "threaten [A]",
@@ -2287,12 +2299,12 @@
       "translation": "[A] を取り扱う"
     },
     {
-      "content": "treat [somebody] to [A]",
-      "translation": "[somebody] に [A] を奢る"
+      "content": "treat [someone] to [A]",
+      "translation": "[someone] に [A] を奢る"
     },
     {
-      "content": "trick [somebody] into [doing]",
-      "translation": "[somebody] を騙して [doing] させる"
+      "content": "trick [someone] into [doing]",
+      "translation": "[someone] を騙して [doing] させる"
     },
     {
       "content": "turn [A] into [B]",
@@ -2303,8 +2315,8 @@
       "translation": "[A] をひっくり返す"
     },
     {
-      "content": "tutor [somebody] in [A]",
-      "translation": "[somebody] に [A] に関して教える"
+      "content": "tutor [someone] in [A]",
+      "translation": "[someone] に [A] に関して教える"
     },
     {
       "content": "twist [one's] ankle",
@@ -2331,8 +2343,8 @@
       "translation": "[A] を高揚させる"
     },
     {
-      "content": "upset [somebody]",
-      "translation": "[somebody] の気を動転させる"
+      "content": "upset [someone]",
+      "translation": "[someone] の気を動転させる"
     },
     {
       "content": "value [A]",
@@ -2343,7 +2355,7 @@
       "translation": "[A] を訪れる"
     },
     {
-      "content": "vote (in favor of|against) [A]",
+      "content": "vote { in favor of | against } [A]",
       "translation": "[A] への (賛成票|反対票) を投票する"
     },
     {
@@ -2355,15 +2367,15 @@
       "translation": "[A] を放棄する"
     },
     {
-      "content": "warn [somebody] of [A]",
-      "translation": "[A] の事で [somebody] に警告する"
+      "content": "warn [someone] of [A]",
+      "translation": "[A] の事で [someone] に警告する"
     },
     {
       "content": "wash [A]",
       "translation": "[A] を洗う"
     },
     {
-      "content": "waste (hours|a lot of time) [doing]",
+      "content": "waste { hours | a lot of time } [doing]",
       "translation": "[doing] するのに時間を浪費する"
     },
     {
@@ -2379,8 +2391,8 @@
       "translation": "[A] を測る"
     },
     {
-      "content": "welcome [somebody]",
-      "translation": "[somebody] を歓迎する"
+      "content": "welcome [someone]",
+      "translation": "[someone] を歓迎する"
     },
     {
       "content": "withdraw [A]",

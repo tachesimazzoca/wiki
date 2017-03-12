@@ -1,0 +1,342 @@
+{
+  "fields": [
+    {
+      "key": "content",
+      "name": "Content"
+    },
+    {
+      "key": "translation",
+      "name": "Translation"
+    }
+  ],
+  "rows": [
+    {
+      "content": "[an hour] ago",
+      "translation": "[an hour] 前に"
+    },
+    {
+      "content": "[N] minutes prior to [A]",
+      "translation": "[A] の [N] 分前に"
+    },
+    {
+      "content": "{ all at once | at once | at a time }",
+      "translation": "{ 瞬時に | すぐに | 一度に }"
+    },
+    {
+      "content": "{ at any time | at all times }",
+      "translation": "{ いつでも | 常時 }"
+    },
+    {
+      "content": "{ half | past } way through",
+      "translation": "途中で"
+    },
+    {
+      "content": "{ in advance | ahead of time }",
+      "translation": "事前に / 前もって / 定刻より早く"
+    },
+    {
+      "content": "{ in time | just in time }",
+      "translation": "{ 間に合って | ギリギリに }"
+    },
+    {
+      "content": "{ last | this | next | every } { week | month | year }",
+      "translation": "{ 昨 | 今 | 翌 | 毎 }{ 年 | 月 | 日 }"
+    },
+    {
+      "content": "{ last night | tonight | tomorrow night | every night }",
+      "translation": "{ 昨晩 | 今晩 | 明晩 | 毎晩 }"
+    },
+    {
+      "content": "{ now and then | from time to time | once in a while }",
+      "translation": "時折 / ちょくちょく"
+    },
+    {
+      "content": "{ once in a while  |  every now and then  |  from time to time }",
+      "translation": "{ たまに  |  時々 }"
+    },
+    {
+      "content": "{ until | til } [the end]",
+      "translation": "[the end] まで"
+    },
+    {
+      "content": "{ yesterday | this | tomorrow | every } { morning | evening }",
+      "translation": "{ 昨 | 今 | 明 | 毎 }{ 朝 | 晩 }"
+    },
+    {
+      "content": "{ yesterday | today | tomorrow | every day }",
+      "translation": "{ 昨日 | 今日 | 明日 | 毎日 }"
+    },
+    {
+      "content": "all thorough the night",
+      "translation": "夜通し"
+    },
+    {
+      "content": "around [N] { o'clock }?",
+      "translation": "[N] 時頃に"
+    },
+    {
+      "content": "as of [date]",
+      "translation": "[date] 付で / 以降に"
+    },
+    {
+      "content": "at { a time | the same time }",
+      "translation": "同時に"
+    },
+    {
+      "content": "at { dawn | sunset | noon | night | daybreak }",
+      "translation": "{ 日の出 | 日没 | 正午 | 夜 | 未明 } に"
+    },
+    {
+      "content": "at { half | quarter | [M] } { past | to } [N]",
+      "translation": "[N] 時 { 半 | 15分 | [M]分 } { 過ぎ | 前 } に"
+    },
+    {
+      "content": "at { this time | the moment }",
+      "translation": "今回は"
+    },
+    {
+      "content": "at any moment",
+      "translation": "どんな瞬間でも"
+    },
+    {
+      "content": "at certain times",
+      "translation": "決められた時間に"
+    },
+    {
+      "content": "at present",
+      "translation": "現時点では"
+    },
+    {
+      "content": "at regular intervals",
+      "translation": "定期的に"
+    },
+    {
+      "content": "at some point",
+      "translation": "いつかの時点で"
+    },
+    {
+      "content": "at that age",
+      "translation": "あの（年代の）頃は"
+    },
+    {
+      "content": "at the { beginning | end } of [A]",
+      "translation": "[A] の { 初め | 末 } に"
+    },
+    {
+      "content": "at this time [tomorrow]",
+      "translation": "[tomorrow] の今ごろに"
+    },
+    {
+      "content": "at times",
+      "translation": "時々"
+    },
+    {
+      "content": "before [doing]",
+      "translation": "[doing] する前に"
+    },
+    {
+      "content": "before long",
+      "translation": "そろそろ"
+    },
+    {
+      "content": "by [tomorrow]",
+      "translation": "[tomorrow] までに"
+    },
+    {
+      "content": "by { then | that time }",
+      "translation": "その時までに"
+    },
+    {
+      "content": "by now",
+      "translation": "今ごろは"
+    },
+    {
+      "content": "during [spring break]",
+      "translation": "[spring break] の期間ずっと"
+    },
+    {
+      "content": "every other { day | week | month }",
+      "translation": "隔{ 日 | 週 | 月 }に"
+    },
+    {
+      "content": "for a { little } while",
+      "translation": "ちょっとの間"
+    },
+    {
+      "content": "for the duration of [A]",
+      "translation": "[A] の期間中"
+    },
+    {
+      "content": "for the first time in [N] years",
+      "translation": "[N] 年ぶりに"
+    },
+    {
+      "content": "for the first time in [one's] life",
+      "translation": "生まれてはじめて"
+    },
+    {
+      "content": "for the last several decades",
+      "translation": "過去何十年の間"
+    },
+    {
+      "content": "for years to come",
+      "translation": "この先数年"
+    },
+    {
+      "content": "from now on",
+      "translation": "今後は"
+    },
+    {
+      "content": "in [one's] { early | late } 20s",
+      "translation": "20才代  { 前半 | 後半 }  に"
+    },
+    {
+      "content": "in a { day | week | month | year } or so",
+      "translation": "1日以内かその頃に"
+    },
+    {
+      "content": "in as many { days | weeks | years }",
+      "translation": "毎度 / 同じ頻度で"
+    },
+    {
+      "content": "in no time",
+      "translation": "直ちに"
+    },
+    {
+      "content": "in the { early | late } 1990s",
+      "translation": "90年代  { 前半 | 後半 }  に"
+    },
+    {
+      "content": "in the { past | future }",
+      "translation": "{ 過去 | 未来 } に"
+    },
+    {
+      "content": "in the end",
+      "translation": "最後には"
+    },
+    {
+      "content": "in the event of [A]",
+      "translation": "[A] が起こった場合に"
+    },
+    {
+      "content": "in the middle of [A]",
+      "translation": "[A] の真ん中に の中旬に"
+    },
+    {
+      "content": "just around the corner",
+      "translation": "もうすぐ / 間近"
+    },
+    {
+      "content": "just before [A]",
+      "translation": "[A] の直前"
+    },
+    {
+      "content": "later on",
+      "translation": "後で"
+    },
+    {
+      "content": "long past the time { when } [...]",
+      "translation": "[...] である時が（とっくに）過ぎて"
+    },
+    {
+      "content": "of long ago",
+      "translation": "往年の"
+    },
+    {
+      "content": "on time",
+      "translation": "時間通りに"
+    },
+    {
+      "content": "on weekends",
+      "translation": "週末に"
+    },
+    {
+      "content": "once a year",
+      "translation": "年に一度"
+    },
+    {
+      "content": "once in a blue moon",
+      "translation": "ごくまれに"
+    },
+    {
+      "content": "one of these days",
+      "translation": "近々 / 近日中に / いずれは"
+    },
+    {
+      "content": "over the weekend",
+      "translation": "週末の間ずっと"
+    },
+    {
+      "content": "over the years",
+      "translation": "数年かけて"
+    },
+    {
+      "content": "prior to [A]",
+      "translation": "[A] の前に"
+    },
+    {
+      "content": "right away",
+      "translation": "後ですぐに"
+    },
+    {
+      "content": "right from start",
+      "translation": "始まってすぐに"
+    },
+    {
+      "content": "right now",
+      "translation": "今すぐに"
+    },
+    {
+      "content": "the first time [...]",
+      "translation": "[...] となる時になって初めて"
+    },
+    {
+      "content": "the other { day | night }",
+      "translation": "この前の { 日 | 晩 }"
+    },
+    {
+      "content": "the rest of time",
+      "translation": "残りの時間に"
+    },
+    {
+      "content": "this time",
+      "translation": "今度こそは"
+    },
+    {
+      "content": "throughout [A]",
+      "translation": "[A] の間ずっと"
+    },
+    {
+      "content": "throughout the decades",
+      "translation": "ずっと昔から"
+    },
+    {
+      "content": "until [...]",
+      "translation": "[...] となるまで"
+    },
+    {
+      "content": "until that time",
+      "translation": "その時まで"
+    },
+    {
+      "content": "until the first time [...]",
+      "translation": "最初に [...] となるまで"
+    },
+    {
+      "content": "up to [now]",
+      "translation": "今まで"
+    },
+    {
+      "content": "while [...]",
+      "translation": "[...] している間に"
+    },
+    {
+      "content": "within [a few minutes] / in [a week]",
+      "translation": "[a few minutes] 以内に / [a week] 後に"
+    },
+    {
+      "content": "down the line",
+      "translation": "後になって"
+    }
+  ]
+}

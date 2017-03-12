@@ -11,11 +11,11 @@
   ],
   "rows": [
     {
-      "content": "abrupt,unexpected",
+      "content": "abrupt | unexpected",
       "translation": "不意で突然の"
     },
     {
-      "content": "abundant",
+      "content": "abundant | profuse | lavish",
       "translation": "あり余る"
     },
     {
@@ -39,19 +39,23 @@
       "translation": "実際の"
     },
     {
-      "content": "additional,supplementary",
+      "content": "additional | supplementary",
       "translation": "追加の"
+    },
+    {
+      "content": "adjacent | contiguous",
+      "translation": "隣接した"
     },
     {
       "content": "administrative",
       "translation": "管理の"
     },
     {
-      "content": "adorable,pretty,cute,charming",
+      "content": "adorable | pretty | cute | charming",
       "translation": "愛らしい"
     },
     {
-      "content": "advanced,progressive,radical",
+      "content": "advanced | progressive | radical",
       "translation": "革新的な"
     },
     {
@@ -83,11 +87,11 @@
       "translation": "生きている"
     },
     {
-      "content": "amazing,astonishing",
+      "content": "amazing | astonishing",
       "translation": "驚くほどすごい"
     },
     {
-      "content": "ambiguous,vague,obscure,uncertain",
+      "content": "ambiguous | vague | obscure | uncertain",
       "translation": "曖昧な"
     },
     {
@@ -115,11 +119,11 @@
       "translation": "適用できる"
     },
     {
-      "content": "appropriate,proper,suitable",
+      "content": "appropriate | proper | suitable",
       "translation": "適している"
     },
     {
-      "content": "approved,endorsed",
+      "content": "approved | endorsed",
       "translation": "良いと認定されている"
     },
     {
@@ -135,11 +139,11 @@
       "translation": "自動化された"
     },
     {
-      "content": "awesome,superb,terrific,marvelous",
+      "content": "awesome | superb | terrific | marvelous",
       "translation": "すごい（ヤバい）"
     },
     {
-      "content": "awful,terrible",
+      "content": "awful | terrible",
       "translation": "ひどい"
     },
     {
@@ -147,11 +151,11 @@
       "translation": "ぎこちない"
     },
     {
-      "content": "bad,evil,wicked",
+      "content": "bad | evil | wicked",
       "translation": "悪い"
     },
     {
-      "content": "bare,mere",
+      "content": "bare | mere",
       "translation": "ぎりぎりわずかの"
     },
     {
@@ -159,7 +163,7 @@
       "translation": "美しい"
     },
     {
-      "content": "big,large",
+      "content": "big | large",
       "translation": "大きい"
     },
     {
@@ -167,7 +171,7 @@
       "translation": "苦い"
     },
     {
-      "content": "bold,sassy",
+      "content": "bold | sassy",
       "translation": "大胆な / 力強い / 目立つ"
     },
     {
@@ -179,7 +183,7 @@
       "translation": "手短な / 持続性がない"
     },
     {
-      "content": "bright,luminous",
+      "content": "bright | luminous",
       "translation": "明るい"
     },
     {
@@ -195,11 +199,11 @@
       "translation": "失敗の心配がいらない"
     },
     {
-      "content": "busy,jammed,congested",
+      "content": "busy | jammed | congested",
       "translation": "渋滞している"
     },
     {
-      "content": "calm,quiet,composed",
+      "content": "calm | quiet | composed",
       "translation": "落ち着いた"
     },
     {
@@ -211,7 +215,7 @@
       "translation": "使える（受け入れられる）"
     },
     {
-      "content": "careful,cautious",
+      "content": "careful | cautious",
       "translation": "注意深い"
     },
     {
@@ -239,7 +243,7 @@
       "translation": "ピンチに強い / 勝負を決める"
     },
     {
-      "content": "cluttered,messy",
+      "content": "cluttered | messy",
       "translation": "散らかった"
     },
     {
@@ -255,7 +259,7 @@
       "translation": "有能な"
     },
     {
-      "content": "complex,complicated",
+      "content": "complex | complicated",
       "translation": "複雑な"
     },
     {
@@ -263,7 +267,7 @@
       "translation": "総合的な"
     },
     {
-      "content": "compulsory,mandatory",
+      "content": "compulsory | mandatory",
       "translation": "強制的な / 義務の"
     },
     {
@@ -271,7 +275,7 @@
       "translation": "簡潔な / 単純明快な"
     },
     {
-      "content": "concurrent,simultaneous",
+      "content": "concurrent | simultaneous",
       "translation": "同時に起こる"
     },
     {
@@ -295,11 +299,11 @@
       "translation": "意識的な / 自覚している"
     },
     {
-      "content": "consistent,coherent",
+      "content": "consistent | coherent",
       "translation": "一貫性のある / ブレない"
     },
     {
-      "content": "contagious,spreading",
+      "content": "contagious | spreading",
       "translation": "伝染性の"
     },
     {
@@ -307,11 +311,11 @@
       "translation": "同時代の"
     },
     {
-      "content": "continuing,ongoing",
+      "content": "continuing | ongoing",
       "translation": "進行中の"
     },
     {
-      "content": "continuous,consecutive",
+      "content": "continuous | consecutive",
       "translation": "連続した"
     },
     {
@@ -319,7 +323,7 @@
       "translation": "従来の"
     },
     {
-      "content": "cool,aloof,distant",
+      "content": "cool | aloof | distant",
       "translation": "よそよそしい"
     },
     {
@@ -351,7 +355,7 @@
       "translation": "窮屈な"
     },
     {
-      "content": "crazy,mad",
+      "content": "crazy | mad",
       "translation": "気が狂った"
     },
     {
@@ -367,11 +371,11 @@
       "translation": "極めて重要な（無視できない）"
     },
     {
-      "content": "cruel,brutal",
+      "content": "cruel | brutal",
       "translation": "残酷な"
     },
     {
-      "content": "curious,inquisitive",
+      "content": "curious | inquisitive",
       "translation": "好奇心旺盛な"
     },
     {
@@ -387,7 +391,7 @@
       "translation": "危険な"
     },
     {
-      "content": "dark,gloomy",
+      "content": "dark | gloomy",
       "translation": "暗い"
     },
     {
@@ -427,7 +431,7 @@
       "translation": "要求の多い"
     },
     {
-      "content": "depressing,dismal",
+      "content": "depressing | dismal",
       "translation": "気が滅入る"
     },
     {
@@ -435,7 +439,7 @@
       "translation": "派生した"
     },
     {
-      "content": "desirable,preferable",
+      "content": "desirable | preferable",
       "translation": "好ましい / そうであると尚良い"
     },
     {
@@ -443,7 +447,7 @@
       "translation": "自暴自棄な / 無鉄砲な / 絶望的に悲惨な"
     },
     {
-      "content": "despicable,scummy",
+      "content": "despicable | scummy",
       "translation": "卑劣な"
     },
     {
@@ -455,7 +459,7 @@
       "translation": "壊滅的な"
     },
     {
-      "content": "diligent,studious",
+      "content": "diligent | studious",
       "translation": "勤勉な"
     },
     {
@@ -467,7 +471,7 @@
       "translation": "外交上の"
     },
     {
-      "content": "dirty,nasty",
+      "content": "dirty | nasty",
       "translation": "汚い"
     },
     {
@@ -503,7 +507,7 @@
       "translation": "支配的な / 圧倒的な"
     },
     {
-      "content": "doubtful,suspicious",
+      "content": "doubtful | suspicious",
       "translation": "疑わしい"
     },
     {
@@ -527,15 +531,15 @@
       "translation": "複製の"
     },
     {
-      "content": "durable,robust",
+      "content": "durable | robust",
       "translation": "耐性のある"
     },
     {
-      "content": "dying,wilting,wilted",
+      "content": "dying | wilting | wilted",
       "translation": "枯れた"
     },
     {
-      "content": "eager,anxious",
+      "content": "eager | anxious",
       "translation": "切望している"
     },
     {
@@ -551,11 +555,11 @@
       "translation": "食べられる"
     },
     {
-      "content": "efficient,effective",
+      "content": "efficient | effective",
       "translation": "効果的な"
     },
     {
-      "content": "elaborate,exquisite",
+      "content": "elaborate | exquisite",
       "translation": "精巧な"
     },
     {
@@ -563,7 +567,7 @@
       "translation": "年寄りの"
     },
     {
-      "content": "elegant,decent",
+      "content": "elegant | decent",
       "translation": "上品な"
     },
     {
@@ -571,7 +575,7 @@
       "translation": "雄弁な"
     },
     {
-      "content": "embarrassed,ashamed,shameful",
+      "content": "embarrassed | ashamed | shameful",
       "translation": "恥ずかしい"
     },
     {
@@ -579,11 +583,11 @@
       "translation": "絶滅寸前の"
     },
     {
-      "content": "enough,sufficient,adequate",
+      "content": "enough | sufficient | adequate",
       "translation": "十分な"
     },
     {
-      "content": "enthusiastic,avid,fanatical",
+      "content": "enthusiastic | avid | fanatical",
       "translation": "熱狂的な オタクな"
     },
     {
@@ -615,7 +619,7 @@
       "translation": "限定の / 排他の"
     },
     {
-      "content": "expected,anticipated",
+      "content": "expected | anticipated",
       "translation": "期待される"
     },
     {
@@ -623,7 +627,7 @@
       "translation": "経験豊富な"
     },
     {
-      "content": "expert,skillfull,accomplished,proficient",
+      "content": "expert | skillfull | accomplished | proficient",
       "translation": "熟達した"
     },
     {
@@ -635,31 +639,35 @@
       "translation": "広範囲な"
     },
     {
-      "content": "extraordinary,exceptional",
+      "content": "extraordinary | exceptional",
       "translation": "異常な / 並外れた"
     },
     {
-      "content": "extreme,excessive,intense",
+      "content": "extreme | excessive | intense",
       "translation": "極端な"
     },
     {
-      "content": "fake,bogus",
+      "content": "fake | bogus",
       "translation": "偽物の"
     },
     {
-      "content": "famous,noted",
+      "content": "famous | noted",
       "translation": "名高い"
     },
     {
-      "content": "fascinating,attractive",
+      "content": "fascinating | attractive",
       "translation": "わくわくする"
     },
     {
-      "content": "favorable,agreeable",
+      "content": "fast | quick | rapid | prompt | swift",
+      "translation": "{ 速い | 素早い }"
+    },
+    {
+      "content": "favorable | agreeable",
       "translation": "好ましい"
     },
     {
-      "content": "feasible,doable",
+      "content": "feasible | doable",
       "translation": "実現可能な"
     },
     {
@@ -683,11 +691,11 @@
       "translation": "実地の / 現場の"
     },
     {
-      "content": "fixed,repaired",
+      "content": "fixed | repaired",
       "translation": "修繕された"
     },
     {
-      "content": "flaky,breakable,fragile",
+      "content": "flaky | breakable | fragile",
       "translation": "壊れやすい"
     },
     {
@@ -695,7 +703,7 @@
       "translation": "可燃性の"
     },
     {
-      "content": "flash,loud",
+      "content": "flash | loud",
       "translation": "派手な"
     },
     {
@@ -707,7 +715,7 @@
       "translation": "柔軟な"
     },
     {
-      "content": "foolish,stupid,silly,absurd,preposterous",
+      "content": "foolish | stupid | silly | absurd | preposterous",
       "translation": "間抜けな"
     },
     {
@@ -715,11 +723,11 @@
       "translation": "誰でも使える"
     },
     {
-      "content": "formal,prim,starchy",
+      "content": "formal | prim | starchy",
       "translation": "堅苦しい"
     },
     {
-      "content": "fragrant,aromatic",
+      "content": "fragrant | aromatic",
       "translation": "香り高い"
     },
     {
@@ -727,7 +735,7 @@
       "translation": "詐欺（ズル）の"
     },
     {
-      "content": "free,complimentary",
+      "content": "free | complimentary",
       "translation": "無料の"
     },
     {
@@ -735,7 +743,7 @@
       "translation": "新鮮な"
     },
     {
-      "content": "friendly,amiable,affable",
+      "content": "friendly | amiable | affable",
       "translation": "人なつこい"
     },
     {
@@ -743,7 +751,7 @@
       "translation": "実りのある / 有益な"
     },
     {
-      "content": "frustrated,stressful",
+      "content": "frustrated | stressful",
       "translation": "欲求不満の"
     },
     {
@@ -751,7 +759,7 @@
       "translation": "機能的な"
     },
     {
-      "content": "funny,hilarious,humorous",
+      "content": "funny | hilarious | humorous",
       "translation": "面白い"
     },
     {
@@ -791,7 +799,7 @@
       "translation": "嬉しがっている"
     },
     {
-      "content": "gorgeous,splended",
+      "content": "gorgeous | splended",
       "translation": "華麗な"
     },
     {
@@ -807,11 +815,11 @@
       "translation": "なだらかな"
     },
     {
-      "content": "great,excellent,fabulous",
+      "content": "great | excellent | fabulous",
       "translation": "大変良い"
     },
     {
-      "content": "greedy,eager",
+      "content": "greedy | eager",
       "translation": "貪欲な"
     },
     {
@@ -847,11 +855,11 @@
       "translation": "高慢な"
     },
     {
-      "content": "healing,remedial,sanative",
+      "content": "healing | remedial | sanative",
       "translation": "癒しの"
     },
     {
-      "content": "healthy,nutritious",
+      "content": "healthy | nutritious",
       "translation": "健康的な / 栄養のある"
     },
     {
@@ -871,7 +879,7 @@
       "translation": "空洞の"
     },
     {
-      "content": "holy,sacred",
+      "content": "holy | sacred",
       "translation": "神聖な"
     },
     {
@@ -883,7 +891,7 @@
       "translation": "希望に満ちている"
     },
     {
-      "content": "horrible,horrific",
+      "content": "horrible | horrific",
       "translation": "恐ろしい"
     },
     {
@@ -891,11 +899,11 @@
       "translation": "敵意のある"
     },
     {
-      "content": "hot,spicy",
+      "content": "hot | spicy",
       "translation": "辛い"
     },
     {
-      "content": "huge,immense,enormous,tremendous",
+      "content": "huge | immense | enormous | tremendous",
       "translation": "莫大な"
     },
     {
@@ -915,11 +923,11 @@
       "translation": "全く同じ"
     },
     {
-      "content": "ignorant,untrained",
+      "content": "ignorant | untrained",
       "translation": "無知な"
     },
     {
-      "content": "immediate,urgent",
+      "content": "immediate | urgent",
       "translation": "急ぎの"
     },
     {
@@ -935,7 +943,7 @@
       "translation": "初の"
     },
     {
-      "content": "inconsistent,contradictory",
+      "content": "inconsistent | contradictory",
       "translation": "一貫性のない / 矛盾した"
     },
     {
@@ -943,7 +951,7 @@
       "translation": "優柔不断な"
     },
     {
-      "content": "inevitable,fateful",
+      "content": "inevitable | fateful",
       "translation": "避けられない"
     },
     {
@@ -1003,7 +1011,7 @@
       "translation": "徹底的な ! 広範囲な"
     },
     {
-      "content": "intentional,deliberate",
+      "content": "intentional | deliberate",
       "translation": "意図的な"
     },
     {
@@ -1023,11 +1031,11 @@
       "translation": "（肉体関係があるほど）親密な"
     },
     {
-      "content": "invaluable,precious",
+      "content": "invaluable | precious",
       "translation": "貴重な"
     },
     {
-      "content": "kind,thoughtful,considerate",
+      "content": "kind | thoughtful | considerate",
       "translation": "親切な / 思いやりのある"
     },
     {
@@ -1035,11 +1043,11 @@
       "translation": "もの知りな"
     },
     {
-      "content": "lackluster,dreary",
+      "content": "lackluster | dreary",
       "translation": "どんよりとした / 活気のない"
     },
     {
-      "content": "last,final,ultimate",
+      "content": "last | final | ultimate",
       "translation": "最後の"
     },
     {
@@ -1072,18 +1080,18 @@
     },
     {
       "content": "loyal",
-      "translation": "常連の"
+      "translation": "忠実な / 義理堅い"
     },
     {
-      "content": "lush,verdant",
+      "content": "lush | verdant",
       "translation": "青々とした"
     },
     {
-      "content": "luxurious",
+      "content": "luxurious | extravagant",
       "translation": "贅沢な"
     },
     {
-      "content": "magnificent,majestic",
+      "content": "magnificent | majestic",
       "translation": "壮大な"
     },
     {
@@ -1111,7 +1119,7 @@
       "translation": "大規模な"
     },
     {
-      "content": "mature,ripe",
+      "content": "mature | ripe",
       "translation": "成熟した"
     },
     {
@@ -1123,7 +1131,7 @@
       "translation": "平凡な"
     },
     {
-      "content": "merry,joyful",
+      "content": "merry | joyful",
       "translation": "陽気な"
     },
     {
@@ -1151,11 +1159,11 @@
       "translation": "現代の"
     },
     {
-      "content": "modest,humble",
+      "content": "modest | humble",
       "translation": "謙虚な"
     },
     {
-      "content": "moral,ethical,virtuous",
+      "content": "moral | ethical | virtuous",
       "translation": "道徳的な"
     },
     {
@@ -1183,7 +1191,7 @@
       "translation": "近くの"
     },
     {
-      "content": "necessary,essential,vital,pivotal,integral",
+      "content": "necessary | essential | vital | pivotal | integral",
       "translation": "必要な / 不可欠な"
     },
     {
@@ -1195,7 +1203,7 @@
       "translation": "神経質な"
     },
     {
-      "content": "next,following,subsequent",
+      "content": "next | following | subsequent",
       "translation": "次の"
     },
     {
@@ -1215,11 +1223,11 @@
       "translation": "忌々しい / 悪名高い"
     },
     {
-      "content": "numerous,innumerable",
+      "content": "numerous | innumerable",
       "translation": "無数の"
     },
     {
-      "content": "obvious,apparent",
+      "content": "obvious | apparent",
       "translation": "明らかな"
     },
     {
@@ -1227,7 +1235,7 @@
       "translation": "時たまの"
     },
     {
-      "content": "old,obsolete,outdated,stale",
+      "content": "old | obsolete | outdated | stale",
       "translation": "古い / 古風な / 時代遅れの"
     },
     {
@@ -1239,7 +1247,7 @@
       "translation": "任意の"
     },
     {
-      "content": "other,alternative",
+      "content": "other | alternative",
       "translation": "別の"
     },
     {
@@ -1263,7 +1271,7 @@
       "translation": "我慢強い"
     },
     {
-      "content": "periodical,regular",
+      "content": "periodical | regular",
       "translation": "定期の"
     },
     {
@@ -1275,7 +1283,7 @@
       "translation": "持続性のある / ねばり強い"
     },
     {
-      "content": "persuasive,influential",
+      "content": "persuasive | influential",
       "translation": "説得力がある"
     },
     {
@@ -1295,7 +1303,7 @@
       "translation": "無意味な"
     },
     {
-      "content": "polite,courteous",
+      "content": "polite | courteous",
       "translation": "礼儀正しい"
     },
     {
@@ -1303,7 +1311,7 @@
       "translation": "貧しい"
     },
     {
-      "content": "populous,crowded",
+      "content": "populous | crowded",
       "translation": "人口が多い"
     },
     {
@@ -1311,7 +1319,7 @@
       "translation": "可能な"
     },
     {
-      "content": "practical,pragmatic",
+      "content": "practical | pragmatic",
       "translation": "実用的な"
     },
     {
@@ -1359,7 +1367,7 @@
       "translation": "不敬な / 神を冒涜するような"
     },
     {
-      "content": "profitable,lucrative",
+      "content": "profitable | lucrative",
       "translation": "儲かる"
     },
     {
@@ -1395,7 +1403,11 @@
       "translation": "疑似の"
     },
     {
-      "content": "pure,absolute,utter",
+      "content": "punctual",
+      "translation": "{ きちんとしている | 約束を守る | 時間を守る }"
+    },
+    {
+      "content": "pure | absolute | utter",
       "translation": "純粋な"
     },
     {
@@ -1431,7 +1443,7 @@
       "translation": "関係性のある"
     },
     {
-      "content": "reliable,dependable",
+      "content": "reliable | dependable",
       "translation": "信頼性のある"
     },
     {
@@ -1439,11 +1451,11 @@
       "translation": "信心深い"
     },
     {
-      "content": "remarkable,notable,considerable",
+      "content": "remarkable | notable | considerable",
       "translation": "注目すべき / 無視できない"
     },
     {
-      "content": "repetitious,repetitive",
+      "content": "repetitious | repetitive",
       "translation": "繰り返しでくどい"
     },
     {
@@ -1459,11 +1471,11 @@
       "translation": "めいめいの"
     },
     {
-      "content": "rich,affluent",
+      "content": "rich | affluent",
       "translation": "豊かな / 裕福な"
     },
     {
-      "content": "ridiculous,absurd",
+      "content": "ridiculous | absurd",
       "translation": "ばかばかしくて話にならない"
     },
     {
@@ -1479,7 +1491,7 @@
       "translation": "腐っている"
     },
     {
-      "content": "rude,crude,offensive",
+      "content": "rude | crude | offensive",
       "translation": "無礼な"
     },
     {
@@ -1491,7 +1503,7 @@
       "translation": "悲しがっている"
     },
     {
-      "content": "safe,secure",
+      "content": "safe | secure",
       "translation": "安全な"
     },
     {
@@ -1511,7 +1523,7 @@
       "translation": "皮肉な / いやみな"
     },
     {
-      "content": "satisfied,fulfilled",
+      "content": "satisfied | fulfilled",
       "translation": "満たされた"
     },
     {
@@ -1523,7 +1535,7 @@
       "translation": "景色が良い"
     },
     {
-      "content": "selfish,arrogant,egoistic,blatant",
+      "content": "selfish | arrogant | egoistic | blatant",
       "translation": "傲慢な"
     },
     {
@@ -1539,15 +1551,15 @@
       "translation": "賢明な"
     },
     {
-      "content": "sensitive,delicate",
+      "content": "sensitive | delicate",
       "translation": "慎重に取り扱うべき"
     },
     {
-      "content": "serious,earnest,solemn",
+      "content": "serious | earnest | solemn",
       "translation": "真剣な"
     },
     {
-      "content": "severe,harsh,bitter",
+      "content": "severe | harsh | bitter",
       "translation": "深刻な / 過酷な / 痛烈な"
     },
     {
@@ -1563,19 +1575,19 @@
       "translation": "短い ! 長い"
     },
     {
-      "content": "shy,timid",
+      "content": "shy | timid",
       "translation": "恥ずかしがり屋な"
     },
     {
-      "content": "significant,substantial,decent",
+      "content": "significant | substantial | decent",
       "translation": "かなりの"
     },
     {
-      "content": "simple,straightforward",
+      "content": "simple | straightforward",
       "translation": "簡素な"
     },
     {
-      "content": "sincere,hearty,heartfelt",
+      "content": "sincere | hearty | heartfelt",
       "translation": "嘘偽りのない正直な"
     },
     {
@@ -1591,15 +1603,15 @@
       "translation": "ネバネバした"
     },
     {
-      "content": "small,tiny",
+      "content": "small | tiny",
       "translation": "小さい"
     },
     {
-      "content": "smart,sensible",
+      "content": "smart | sensible",
       "translation": "賢明な"
     },
     {
-      "content": "smelly,stinking",
+      "content": "smelly | stinking",
       "translation": "臭い"
     },
     {
@@ -1615,8 +1627,12 @@
       "translation": "ふやけた"
     },
     {
-      "content": "sole,one and only",
+      "content": "sole | one and only",
       "translation": "唯一の"
+    },
+    {
+      "content": "solvent",
+      "translation": "支払能力がない"
     },
     {
       "content": "sour",
@@ -1627,7 +1643,7 @@
       "translation": "広々とした"
     },
     {
-      "content": "specific,particular,certain",
+      "content": "specific | particular | certain",
       "translation": "特定の"
     },
     {
@@ -1659,7 +1675,7 @@
       "translation": "確率的な"
     },
     {
-      "content": "strange,weird,odd,bizarre,peculiar",
+      "content": "strange | weird | odd | bizarre | peculiar",
       "translation": "風変わりな / 妙な"
     },
     {
@@ -1667,7 +1683,7 @@
       "translation": "精力的な"
     },
     {
-      "content": "strict,rigorous,stringent,rigid",
+      "content": "strict | rigorous | stringent | rigid",
       "translation": "厳格な"
     },
     {
@@ -1675,7 +1691,7 @@
       "translation": "強い ! 弱い"
     },
     {
-      "content": "stubborn,obstinate",
+      "content": "stubborn | obstinate",
       "translation": "頑固な"
     },
     {
@@ -1699,15 +1715,11 @@
       "translation": "思い切った"
     },
     {
-      "content": "sweet,mild",
+      "content": "sweet | mild",
       "translation": "甘い"
     },
     {
-      "content": "swift",
-      "translation": "素早い"
-    },
-    {
-      "content": "synthetic,artificial",
+      "content": "synthetic | artificial",
       "translation": "人工の"
     },
     {
@@ -1715,7 +1727,7 @@
       "translation": "つんとくる刺激（酸味）"
     },
     {
-      "content": "tasty,savory",
+      "content": "tasty | savory",
       "translation": "美味しい"
     },
     {
@@ -1723,11 +1735,11 @@
       "translation": "張った ! 緩んだ"
     },
     {
-      "content": "tedious,boring,monotonous",
+      "content": "tedious | boring | monotonous",
       "translation": "退屈な"
     },
     {
-      "content": "temporary,provisional,tentative",
+      "content": "temporary | provisional | tentative",
       "translation": "仮の"
     },
     {
@@ -1751,7 +1763,7 @@
       "translation": "整頓された"
     },
     {
-      "content": "tight,fast",
+      "content": "tight | fast",
       "translation": "しっかりとした"
     },
     {
@@ -1771,7 +1783,7 @@
       "translation": "取るに足らない"
     },
     {
-      "content": "typical,ordinary",
+      "content": "typical | ordinary",
       "translation": "良くある / ありふれた"
     },
     {
@@ -1783,7 +1795,7 @@
       "translation": "究極の"
     },
     {
-      "content": "unbelievable,incredible",
+      "content": "unbelievable | incredible",
       "translation": "信じられない"
     },
     {
@@ -1811,7 +1823,7 @@
       "translation": "都会の ! 田舎の"
     },
     {
-      "content": "useful,informative,benefical",
+      "content": "useful | informative | benefical",
       "translation": "役立つ"
     },
     {
@@ -1823,7 +1835,7 @@
       "translation": "有効な"
     },
     {
-      "content": "valuable,precious",
+      "content": "valuable | precious",
       "translation": "貴重な"
     },
     {
@@ -1859,7 +1871,7 @@
       "translation": "はっきりとした / 生々しい"
     },
     {
-      "content": "volatile,inconstant,changeable",
+      "content": "volatile | inconstant | changeable",
       "translation": "不安定な"
     },
     {

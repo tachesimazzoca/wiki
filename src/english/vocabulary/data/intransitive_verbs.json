@@ -11,112 +11,120 @@
   ],
   "rows": [
     {
-      "content": "(agree|consent|assent) to [A]",
+      "content": "{ agree | consent | assent } to [A]",
       "translation": "[A] に同意する"
     },
     {
-      "content": "(arise|stem) from [A]",
+      "content": "{ arise | stem } from [A]",
       "translation": "[A] から発生する / 生じる"
     },
     {
-      "content": "(beg|plead) for [A]",
+      "content": "{ beg | plead } for [A]",
       "translation": "[A] （要求）を懇願する"
     },
     {
-      "content": "(begin|start) with [A]",
+      "content": "{ begin | start } with [A]",
       "translation": "[A] で始まる"
     },
     {
-      "content": "(bother|worry) about [A]",
+      "content": "{ bother | worry } about [A]",
       "translation": "[A] について心配する"
     },
     {
-      "content": "(converge ! diverge)",
+      "content": "{ converge ! diverge }",
       "translation": "(収束する ! 拡散する)"
     },
     {
-      "content": "(cry|sob|weep)",
+      "content": "{ cry | sob | weep }",
       "translation": "泣く"
     },
     {
-      "content": "(depend|rely|count) on [A]",
+      "content": "{ depend | rely | count } on [A]",
       "translation": "[A] を頼りにしている"
     },
     {
-      "content": "(differ|vary)",
+      "content": "{ differ | vary }",
       "translation": "異なる"
     },
     {
-      "content": "(disappear|fade)",
+      "content": "{ disappear | fade }",
       "translation": "消える"
     },
     {
-      "content": "(happen|occur) to [A]",
+      "content": "{ happen | occur } to [A]",
       "translation": "（出来事が） [A] に起こる"
     },
     {
-      "content": "(increase ! decrease) in [value]",
+      "content": "{ hesitate | waver | falter } in [A]",
+      "translation": "[A] に躊躇する"
+    },
+    {
+      "content": "{ increase ! decrease } in [value]",
       "translation": "[value] が (上がる ! 下がる)"
     },
     {
-      "content": "(keep|carry|go) on [doing]",
+      "content": "{ keep | carry | go } on [doing]",
       "translation": "[doing] し続ける"
     },
     {
-      "content": "(laugh|smile|chuckle|giggle|grin)",
+      "content": "{ laugh | smile | chuckle | giggle | grin }",
       "translation": "笑う"
     },
     {
-      "content": "(look|gaze|glance|glare|stare|peek) at [A]",
+      "content": "{ look | gaze | glance | glare | stare | peek } at [A]",
       "translation": "[A] を見る"
     },
     {
-      "content": "(put|slam) on [A]",
+      "content": "{ put | slam } on [A]",
       "translation": "[A] を踏む"
     },
     {
-      "content": "(rise ! drop)",
+      "content": "{ rise ! drop }",
       "translation": "上がる ! 落ちる"
     },
     {
-      "content": "(search|check) for [A]",
+      "content": "{ search | check } for [A]",
       "translation": "調査動作"
     },
     {
-      "content": "(shake|tremble) with [fear]",
+      "content": "{ shake | tremble } with [fear]",
       "translation": "[fear] で震える"
     },
     {
-      "content": "(shout|yell) (at|against) [somebody]",
+      "content": "{ shout | yell } { at | against } [somebody]",
       "translation": "[somebody] に対して叫ぶ"
     },
     {
-      "content": "(stop|pause|cease)",
+      "content": "{ stop | pause | cease }",
       "translation": "止まる"
     },
     {
-      "content": "(strive|endeavor)",
+      "content": "{ strive | endeavor }",
       "translation": "懸命に努力する"
     },
     {
-      "content": "(succeed ! fail)",
+      "content": "{ succeed ! fail }",
       "translation": "(成功する ! 失敗する)"
     },
     {
-      "content": "(surrender|yield) to [A]",
+      "content": "{ surrender | yield } to [A]",
       "translation": "[A] に対して降参する"
     },
     {
-      "content": "(swing|drop|stop|come) by [A]",
+      "content": "{ swing | drop | stop | come } by [A]",
       "translation": "[A] に立ち寄る"
     },
     {
-      "content": "(wait|watch) for [A]",
+      "content": "{ wait | watch } for [A]",
       "translation": "[A] を待つ / 監視する"
     },
     {
-      "content": "(win over|lose to) [somebody]",
+      "content": "{ win over | lose to } [somebody]",
       "translation": "[somebody] に(勝つ|負ける)"
+    },
+    {
+      "content": "abade",
+      "translation": "弱まる"
     },
     {
       "content": "abide by [a rule]",
@@ -143,7 +151,7 @@
       "translation": "[somebody] と意見が一致している"
     },
     {
-      "content": "aim (at|against) [a target]",
+      "content": "aim { at | against } [a target]",
       "translation": "[a target] を狙う"
     },
     {
@@ -311,7 +319,7 @@
       "translation": "[A] と衝突する"
     },
     {
-      "content": "compete (with|against) [somebody] for [A]",
+      "content": "compete { with | against } [somebody] for [A]",
       "translation": "[A] について [somebody] と競い合う"
     },
     {
@@ -357,6 +365,10 @@
     {
       "content": "continue to be [A]",
       "translation": "[A] であり続ける"
+    },
+    {
+      "content": "continue unabaded",
+      "translation": "{ 弱まる | 衰える }気配がない"
     },
     {
       "content": "contribute to [A]",
@@ -407,11 +419,11 @@
       "translation": "亡くなる"
     },
     {
-      "content": "decide (on|against|in favor of|between) [A]",
+      "content": "decide { on | against | in favor of | between } [A]",
       "translation": "[A] （議題）について決定する"
     },
     {
-      "content": "dedicate ([oneself]) to [A]",
+      "content": "dedicate { [oneself] } to [A]",
       "translation": "[A] に専念する"
     },
     {
@@ -459,7 +471,7 @@
       "translation": "[A] を夢に持つ"
     },
     {
-      "content": "drop out of (school|college)",
+      "content": "drop out of { school | college }",
       "translation": "中退する"
     },
     {
@@ -527,6 +539,10 @@
       "translation": "[A] を原因として気を失う"
     },
     {
+      "content": "fall behind in [bills]",
+      "translation": "[bills] を滞納している"
+    },
+    {
       "content": "fall in love with [somebody]",
       "translation": "[somebody] のことが好きになる"
     },
@@ -535,7 +551,7 @@
       "translation": "[a category] の範疇におさまる"
     },
     {
-      "content": "feast (on|with) [A]",
+      "content": "feast { on | with } [A]",
       "translation": "[A] を味わう（宴会で）"
     },
     {
@@ -547,7 +563,7 @@
       "translation": "[A] のあら探しをする"
     },
     {
-      "content": "fire (at|against) [a target]",
+      "content": "fire { at | against } [a target]",
       "translation": "[a target] を撃つ"
     },
     {
@@ -827,7 +843,7 @@
       "translation": "[A] に突っ込む"
     },
     {
-      "content": "point (at|against) [a target]",
+      "content": "point { at | against } [a target]",
       "translation": "[a target] を指す"
     },
     {
@@ -835,7 +851,7 @@
       "translation": "[A] に祈りを捧げる"
     },
     {
-      "content": "preach to [somebody] (on|about) [A]",
+      "content": "preach to [somebody] { on | about } [A]",
       "translation": "[somebody] へ [A] について訓示を垂れる"
     },
     {
@@ -855,7 +871,7 @@
       "translation": "[A] へ前進する"
     },
     {
-      "content": "protest (at|against) [somebody]",
+      "content": "protest { at | against } [somebody]",
       "translation": "[somebody] に対して抗議する"
     },
     {
@@ -875,6 +891,10 @@
       "translation": "[A] への出場権を得る"
     },
     {
+      "content": "quarrel with [somebody]",
+      "translation": "[someone] と口喧嘩する"
+    },
+    {
       "content": "quit",
       "translation": "辞職する"
     },
@@ -887,11 +907,11 @@
       "translation": "（雷や風等が）荒れ狂う"
     },
     {
-      "content": "rage (at|against) [somebody]",
+      "content": "rage { at | against } [somebody]",
       "translation": "[somebody] に対して激高する"
     },
     {
-      "content": "rage (for|about) [A]",
+      "content": "rage { for | about } [A]",
       "translation": "[A] について激怒する"
     },
     {
@@ -967,7 +987,7 @@
       "translation": "粉々になる"
     },
     {
-      "content": "shoot (at|against) [a target]",
+      "content": "shoot { at | against } [a target]",
       "translation": "[a target] を撃つ"
     },
     {
@@ -1131,7 +1151,7 @@
       "translation": "誓う"
     },
     {
-      "content": "swear (at|against) [somebody]",
+      "content": "swear { at | against } [somebody]",
       "translation": "[somebody] に対して悪態をつく"
     },
     {
@@ -1163,7 +1183,7 @@
       "translation": "[doing] しようと思っている"
     },
     {
-      "content": "throw (at|against) [a target]",
+      "content": "throw { at | against } [a target]",
       "translation": "[a target] へ投げる"
     },
     {
@@ -1199,7 +1219,7 @@
       "translation": "危険を冒して試みる"
     },
     {
-      "content": "vote (in favor of|against) [A]",
+      "content": "vote { in favor of | against } [A]",
       "translation": "[A] への (賛成票|反対票) を投票する"
     },
     {
@@ -1232,7 +1252,7 @@
     },
     {
       "content": "work for [somebody]",
-      "translation": "[somebody] に{合っている|向いている}"
+      "translation": "[somebody] に{ 合っている | 向いている }"
     },
     {
       "content": "write to [somebody]",
@@ -1245,6 +1265,10 @@
     {
       "content": "suffice",
       "translation": "事足りる"
+    },
+    {
+      "content": "leap over [A]",
+      "translation": "[A] を{ 飛び越える }"
     }
   ]
 }

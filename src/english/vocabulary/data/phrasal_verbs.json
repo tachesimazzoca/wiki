@@ -287,6 +287,10 @@
       "translation": "走り続ける"
     },
     {
+      "content": "drop in on [somebody]",
+      "translation": "[someone] を{ 不意に訪ねる | ふらりと立ち寄る }"
+    },
+    {
       "content": "eat out",
       "translation": "外食する"
     },
@@ -979,6 +983,10 @@
       "translation": "[A] を引き継ぐ"
     },
     {
+      "content": "take [one's] breath away",
+      "translation": "（素晴らしい物が）驚かせる / 言葉を失わせる"
+    },
+    {
       "content": "take off",
       "translation": "離陸する"
     },
@@ -1197,6 +1205,14 @@
     {
       "content": "write [A] up",
       "translation": "[A] を公開する（説明/記事/レポート等）"
+    },
+    {
+      "content": "violate [a rule]",
+      "translation": "a rule に{ 違反する | そむく}"
+    },
+    {
+      "content": "take [somebody] in",
+      "translation": "[somebody] を騙す"
     }
   ]
 }

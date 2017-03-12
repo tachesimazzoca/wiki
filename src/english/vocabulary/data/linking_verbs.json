@@ -11,152 +11,148 @@
   ],
   "rows": [
     {
-      "content": "(look|sound|seem|appear) [JJ] (to me)",
+      "content": "{ look | sound | seem | appear } [JJ] (to me)",
       "translation": "[JJ] に感じる"
-    },
-    {
-      "content": "be (able|unable) to [do]",
-      "translation": "[do] (できる|できない)"
-    },
-    {
-      "content": "be (accountable|responsible|liable) for [A]",
-      "translation": "[A] への責任がある"
-    },
-    {
-      "content": "be (afraid|scared) of [A]",
-      "translation": "[A] が恐ろしい"
-    },
-    {
-      "content": "be (afraid|scared) to [do]",
-      "translation": "[do] することを怖がっている"
-    },
-    {
-      "content": "be (all) settled (in|into) [A]",
-      "translation": "[A] に住み慣れる"
-    },
-    {
-      "content": "be (angry|enraged) with [A]",
-      "translation": "[A] に怒っている"
-    },
-    {
-      "content": "be (annoyed|bothered|afflicted|burdened) (with|about) [A]",
-      "translation": "[A] に悩ませられる"
-    },
-    {
-      "content": "be (aware|conscious) of [A]",
-      "translation": "[A] に気付いている"
-    },
-    {
-      "content": "be (close|next|adjacent) to [A]",
-      "translation": "[A] に隣接している"
-    },
-    {
-      "content": "be (committed|pledged|obligated) to [A]",
-      "translation": "[A] を約束する / 誓約させられる / 引くに引けない"
-    },
-    {
-      "content": "be (dedicated|devoted|committed) to [A]",
-      "translation": "[A] に専念する / 身をささげる"
-    },
-    {
-      "content": "be (deserted|desolate)",
-      "translation": "寂れた / 人の気配がない"
-    },
-    {
-      "content": "be (dismissed|fired|laid off)",
-      "translation": "解雇される"
-    },
-    {
-      "content": "be (eager|anxious|keen) to [do]",
-      "translation": "[do] することを切望している"
-    },
-    {
-      "content": "be (excellent|better|good|moderate|bad|poor) at [A]",
-      "translation": "段階評価"
-    },
-    {
-      "content": "be (excited|thrilled) about [A]",
-      "translation": "[A] に興奮している"
-    },
-    {
-      "content": "be (faced|confronted) with [A]",
-      "translation": "[A] に直面する"
-    },
-    {
-      "content": "be (glad|delighted) to [do]",
-      "translation": "[do] できて嬉しい"
-    },
-    {
-      "content": "be (glad|sad) about [A]",
-      "translation": "[A] について (嬉しく|悲しく) 思う"
-    },
-    {
-      "content": "be (happy|pleased|delighted) with [A]",
-      "translation": "[A] を喜んでいる"
-    },
-    {
-      "content": "be (harmful|detrimental) to [A]",
-      "translation": "[A] にとって有害である"
-    },
-    {
-      "content": "be (hungry|starving|starved)",
-      "translation": "お腹がすいている"
-    },
-    {
-      "content": "be (likely|apt) to [do]",
-      "translation": "[do] しそうである"
-    },
-    {
-      "content": "be (likely|apt|prone|liable) to [do]",
-      "translation": "[do] する傾向にある"
-    },
-    {
-      "content": "be (nervous|uneasy) about [A]",
-      "translation": "[A] に神経質になっている"
-    },
-    {
-      "content": "be (overstaffed ! understaffed)",
-      "translation": "人手が(溢れている ! 足りない)"
-    },
-    {
-      "content": "be (related|relevant) to [A]",
-      "translation": "[A] に関連している"
-    },
-    {
-      "content": "be (shy|hesitant|timid)",
-      "translation": "恥ずかしがり屋である"
-    },
-    {
-      "content": "be (similar|analogous) to [A]",
-      "translation": "[A] に似ている"
-    },
-    {
-      "content": "be (superior ! inferior) to [A]",
-      "translation": "[A] よりも (優れている ! 劣っている)"
-    },
-    {
-      "content": "be (supposed|expected|due|meant) to [do]",
-      "translation": "[do] することになっている"
-    },
-    {
-      "content": "be (surprised|amazed|astonished|startled) at [A]",
-      "translation": "[A] に驚いている"
-    },
-    {
-      "content": "be (tired|exhausted|fatigued) of [A]",
-      "translation": "[A] に疲れている"
-    },
-    {
-      "content": "be (used|accustomed) to [A]",
-      "translation": "[A] に慣れている"
-    },
-    {
-      "content": "be (worried|concerned) about [A]",
-      "translation": "[A] のことが気になっている"
     },
     {
       "content": "be [kind] of [somebody] to [do]",
       "translation": "[do] するとは、なんと [somebody] は [kind] なのだろう"
+    },
+    {
+      "content": "be { able | unable } to [do]",
+      "translation": "[do] (できる|できない)"
+    },
+    {
+      "content": "be { accountable | responsible | liable } for [A]",
+      "translation": "[A] への責任がある"
+    },
+    {
+      "content": "be { afraid | scared } of [A]",
+      "translation": "[A] が恐ろしい"
+    },
+    {
+      "content": "be { afraid | scared } to [do]",
+      "translation": "[do] することを怖がっている"
+    },
+    {
+      "content": "be { all } settled { in | into } [A]",
+      "translation": "[A] に住み慣れる"
+    },
+    {
+      "content": "be { angry | enraged } with [A]",
+      "translation": "[A] に怒っている"
+    },
+    {
+      "content": "be { annoyed | bothered | afflicted | burdened } { with | about } [A]",
+      "translation": "[A] に悩ませられる"
+    },
+    {
+      "content": "be { aware | conscious } of [A]",
+      "translation": "[A] に気付いている"
+    },
+    {
+      "content": "be { close | next | adjacent } to [A]",
+      "translation": "[A] に隣接している"
+    },
+    {
+      "content": "be { committed | pledged | obligated } to [A]",
+      "translation": "[A] を約束する / 誓約させられる / 引くに引けない"
+    },
+    {
+      "content": "be { dedicated | devoted | committed } to [A]",
+      "translation": "[A] に専念する / 身をささげる"
+    },
+    {
+      "content": "be { deserted | desolate }",
+      "translation": "寂れた / 人の気配がない"
+    },
+    {
+      "content": "be { dismissed | fired | laid off }",
+      "translation": "解雇される"
+    },
+    {
+      "content": "be { eager | anxious | keen } to [do]",
+      "translation": "[do] することを切望している"
+    },
+    {
+      "content": "be { excellent | better | good | moderate | bad | poor } at [A]",
+      "translation": "段階評価"
+    },
+    {
+      "content": "be { excited | thrilled } about [A]",
+      "translation": "[A] に興奮している"
+    },
+    {
+      "content": "be { faced | confronted } with [A]",
+      "translation": "[A] に直面する"
+    },
+    {
+      "content": "be { glad | delighted } to [do]",
+      "translation": "[do] できて嬉しい"
+    },
+    {
+      "content": "be { glad | sad } about [A]",
+      "translation": "[A] について (嬉しく|悲しく) 思う"
+    },
+    {
+      "content": "be { happy | pleased | delighted } with [A]",
+      "translation": "[A] を喜んでいる"
+    },
+    {
+      "content": "be { harmful | detrimental } to [A]",
+      "translation": "[A] にとって有害である"
+    },
+    {
+      "content": "be { hungry | starving | starved }",
+      "translation": "お腹がすいている"
+    },
+    {
+      "content": "be { likely | apt } to [do]",
+      "translation": "[do] しそうである"
+    },
+    {
+      "content": "be { likely | apt | prone | liable } to [do]",
+      "translation": "[do] する傾向にある"
+    },
+    {
+      "content": "be { nervous | uneasy } about [A]",
+      "translation": "[A] に神経質になっている"
+    },
+    {
+      "content": "be { overstaffed ! understaffed }",
+      "translation": "人手が(溢れている ! 足りない)"
+    },
+    {
+      "content": "be { related | relevant } to [A]",
+      "translation": "[A] に関連している"
+    },
+    {
+      "content": "be { similar | analogous } to [A]",
+      "translation": "[A] に似ている"
+    },
+    {
+      "content": "be { superior ! inferior } to [A]",
+      "translation": "[A] よりも (優れている ! 劣っている)"
+    },
+    {
+      "content": "be { supposed | expected | due | meant } to [do]",
+      "translation": "[do] することになっている"
+    },
+    {
+      "content": "be { surprised | amazed | astonished | startled } at [A]",
+      "translation": "[A] に驚いている"
+    },
+    {
+      "content": "be { tired | exhausted | fatigued } of [A]",
+      "translation": "[A] に疲れている"
+    },
+    {
+      "content": "be { used | accustomed } to [A]",
+      "translation": "[A] に慣れている"
+    },
+    {
+      "content": "be { worried | concerned } about [A]",
+      "translation": "[A] のことが気になっている"
     },
     {
       "content": "be absent from [A]",
@@ -305,6 +301,10 @@
     {
       "content": "be busy [doing]",
       "translation": "[doing] することで忙しい"
+    },
+    {
+      "content": "be candid about [somebody]",
+      "translation": "[A] に対して{ 率直で遠慮がない | ずけずけ物言いをする | 歯に衣を着せない }"
     },
     {
       "content": "be capable of [doing]",
@@ -495,6 +495,10 @@
       "translation": "[A] （幽霊や悪夢）に取り憑かれている"
     },
     {
+      "content": "be hesitant to [do]",
+      "translation": "[do] することを躊躇する"
+    },
+    {
       "content": "be honored",
       "translation": "光栄に思う"
     },
@@ -507,7 +511,7 @@
       "translation": "貧乏にさせられる"
     },
     {
-      "content": "be impressed (by|with) [A]",
+      "content": "be impressed { by | with } [A]",
       "translation": "[A] に感銘を受ける"
     },
     {
@@ -563,11 +567,11 @@
       "translation": "[A] にハマっている"
     },
     {
-      "content": "be involved (with|in) [A]",
+      "content": "be involved { with | in } [A]",
       "translation": "[A] に関わっている / 恋仲である"
     },
     {
-      "content": "be irritated (with|at) [A]",
+      "content": "be irritated { with | at } [A]",
       "translation": "[A] に怒っている"
     },
     {
@@ -687,7 +691,7 @@
       "translation": "[somebody] と良い関係にある"
     },
     {
-      "content": "be on the (increase|decrease)",
+      "content": "be on the { increase | decrease }",
       "translation": "(増加|減少) している"
     },
     {
@@ -795,6 +799,10 @@
       "translation": "引退している"
     },
     {
+      "content": "be riddled with [A]",
+      "translation": "[A] にまみれている"
+    },
+    {
       "content": "be right up [one's] street ",
       "translation": "[one's] のお気に入りである"
     },
@@ -839,7 +847,7 @@
       "translation": "（患部が）痛む"
     },
     {
-      "content": "be sorry (for|about) [A]",
+      "content": "be sorry { for | about } [A]",
       "translation": "[A] を申し訳なく思う / 気の毒に思う"
     },
     {
@@ -847,7 +855,7 @@
       "translation": "りっぱである"
     },
     {
-      "content": "be stuck (in|with) [A]",
+      "content": "be stuck { in | with } [A]",
       "translation": "[A] に嵌っている"
     },
     {
@@ -1059,15 +1067,15 @@
       "translation": "不安で落ち着かない"
     },
     {
-      "content": "get (angry|mad|furious) about [A]",
+      "content": "get { angry | mad | furious } about [A]",
       "translation": "[A] （状況）に怒る"
     },
     {
-      "content": "get (angry|mad|furious) at [A]",
+      "content": "get { angry | mad | furious } at [A]",
       "translation": "[A] （人）に怒る"
     },
     {
-      "content": "get (engaged|married) to [somebody]",
+      "content": "get { engaged | married } to [somebody]",
       "translation": "[somebody] と(婚約|結婚) する"
     },
     {
@@ -1095,7 +1103,11 @@
       "translation": "[A] に慣れる"
     },
     {
-      "content": "go (bad|off)",
+      "content": "get worked up over [A]",
+      "translation": "[A] に{ 夢中になる| やっきになる }"
+    },
+    {
+      "content": "go { bad | off }",
       "translation": "腐る"
     },
     {

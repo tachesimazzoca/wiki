@@ -11,27 +11,27 @@
   ],
   "rows": [
     {
-      "content": "(avoid|deny|escape) [doing]",
+      "content": "{ avoid | deny | escape } [doing]",
       "translation": "拒否"
     },
     {
-      "content": "(finish|stop|quit) [doing]",
+      "content": "{ finish | stop | quit } [doing]",
       "translation": "停止"
     },
     {
-      "content": "(keep|postpone) [doing]",
+      "content": "{ keep | postpone } [doing]",
       "translation": "継続"
     },
     {
-      "content": "(mind|consider|imagine|recall) [doing]",
+      "content": "{ mind | consider | imagine | recall } [doing]",
       "translation": "想像"
     },
     {
-      "content": "(prohibit|forbid) [doing]",
+      "content": "{ prohibit | forbid } [doing]",
       "translation": "禁止"
     },
     {
-      "content": "(recommend|suggest) [doing]",
+      "content": "{ recommend | suggest } [doing]",
       "translation": "推薦"
     },
     {
@@ -45,6 +45,10 @@
     {
       "content": "consider [doing]",
       "translation": "[doing] することを考慮する"
+    },
+    {
+      "content": "discuss [doing]",
+      "translation": "[doing] することを話し合う"
     },
     {
       "content": "enjoy [doing]",
@@ -69,10 +73,6 @@
     {
       "content": "risk [doing]",
       "translation": "あえて [doing] する"
-    },
-    {
-      "content": "discuss [doing]",
-      "translation": "[doing] することを話し合う"
     }
   ]
 }

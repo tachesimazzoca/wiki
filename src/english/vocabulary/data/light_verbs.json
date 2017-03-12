@@ -11,31 +11,31 @@
   ],
   "rows": [
     {
-      "content": "(get in touch|make contact) with [A]",
+      "content": "{ get in touch  |  make contact } with [A]",
       "translation": "[A] と連絡を取る"
     },
     {
-      "content": "(have|take) a seat",
+      "content": "{ have | take } a seat",
       "translation": "座る"
     },
     {
-      "content": "(have|take|use) a break",
+      "content": "{ have | take | use } a break",
       "translation": "息抜きする"
     },
     {
-      "content": "(make|take) a detour",
+      "content": "{ make | take } a detour",
       "translation": "遠回りする"
     },
     {
       "content": "buy into [A]",
-      "translation": "[A] を（不本意ながら）受け入れる"
+      "translation": "[A] を{ 真に受ける | 支持する | 信じる }"
     },
     {
       "content": "catch [A]",
       "translation": "[A] を聞き取る"
     },
     {
-      "content": "catch a (sight|glimpse) of [A]",
+      "content": "catch a { sight | glimpse } of [A]",
       "translation": "[A] を見る"
     },
     {
@@ -43,7 +43,7 @@
       "translation": "火事になる"
     },
     {
-      "content": "come (back) home",
+      "content": "come { back } home",
       "translation": "帰宅する"
     },
     {
@@ -55,7 +55,7 @@
       "translation": "（考えが）ちらつく"
     },
     {
-      "content": "come at a (cost|price)",
+      "content": "come at a { cost | price }",
       "translation": "お金がかかる"
     },
     {
@@ -83,7 +83,7 @@
       "translation": "誕生する"
     },
     {
-      "content": "come to (naught|nothing)",
+      "content": "come to { naught | nothing }",
       "translation": "無駄になる"
     },
     {
@@ -163,7 +163,7 @@
       "translation": "[one's] の助けなしでやる"
     },
     {
-      "content": "feel sorry (for|with) [somebody]",
+      "content": "feel sorry { for | with } [somebody]",
       "translation": "[somebody] に同情する"
     },
     {
@@ -171,7 +171,7 @@
       "translation": "[A] を終わらせる"
     },
     {
-      "content": "get [A] out of [one's] (head|mind)",
+      "content": "get [A] out of [one's] { head | mind }",
       "translation": "[A] のことを忘れる"
     },
     {
@@ -195,7 +195,7 @@
       "translation": "[doing] する癖をつける"
     },
     {
-      "content": "get into (good) shape",
+      "content": "get into { good } shape",
       "translation": "体調を整える / 体よくまとめる"
     },
     {
@@ -227,7 +227,7 @@
       "translation": "[A] を除去する"
     },
     {
-      "content": "get the (hang|knack) of [A]",
+      "content": "get the { hang | knack } of [A]",
       "translation": "[A] のコツをつかむ"
     },
     {
@@ -251,7 +251,7 @@
       "translation": "集まる"
     },
     {
-      "content": "give (enough|sufficient) time to [doing]",
+      "content": "give { enough | sufficient } time to [doing]",
       "translation": "[doing] することに十分に時間を割く"
     },
     {
@@ -303,7 +303,7 @@
       "translation": "（橋や天井が）崩れ落ちる"
     },
     {
-      "content": "go (out) with [A]",
+      "content": "go { out } with [A]",
       "translation": "[A] と（恋愛関係で）付き合う"
     },
     {
@@ -423,11 +423,11 @@
       "translation": "山登りに行く"
     },
     {
-      "content": "have (great) faith on [somebody]",
+      "content": "have { great } faith on [somebody]",
       "translation": "[somebody] を信頼する"
     },
     {
-      "content": "have (one's) hands full",
+      "content": "have { one's } hands full",
       "translation": "手いっぱいである / 忙しい"
     },
     {
@@ -439,7 +439,7 @@
       "translation": "[somebody] をチームに迎え入れる"
     },
     {
-      "content": "have a (talk|chat) with [somebody]",
+      "content": "have a { talk | chat } with [somebody]",
       "translation": "[somebody] と談笑する"
     },
     {
@@ -591,7 +591,7 @@
       "translation": "減量する"
     },
     {
-      "content": "make (both) ends meet",
+      "content": "make { both } ends meet",
       "translation": "やりくりする（収支を合わせる）"
     },
     {
@@ -699,11 +699,11 @@
       "translation": "食らいつく / 食い込む"
     },
     {
-      "content": "make inroads (upon|into) [A]",
+      "content": "make inroads { upon | into } [A]",
       "translation": "[A] （強豪）に食らいつく / 食い込む"
     },
     {
-      "content": "make it (even|much) harder to [do]",
+      "content": "make it { even | much } harder to [do]",
       "translation": "[do] をためらう / しづらい状況に追い込む"
     },
     {
@@ -791,6 +791,10 @@
       "translation": "長引く"
     },
     {
+      "content": "run counter to [A]",
+      "translation": "[A] と{ 食い違う | 反する }"
+    },
+    {
       "content": "run low",
       "translation": "残り少ない状態にある"
     },
@@ -803,6 +807,10 @@
       "translation": "医者に診てもらう"
     },
     {
+      "content": "{ have  |  see } no way out of [A]",
+      "translation": "[A] の{ 解決法が見えない | にっちもさっちもいかない }"
+    },
+    {
       "content": "see through [A]",
       "translation": "[A] の本性を見抜く"
     },
@@ -811,7 +819,7 @@
       "translation": "[A] （任務）を引き受ける / を見ておく"
     },
     {
-      "content": "take ([JJ]) action against [A]",
+      "content": "take { [JJ] } action against [A]",
       "translation": "[A] に対して([JJ] な)措置を取る"
     },
     {
@@ -863,11 +871,11 @@
       "translation": "１、２分かかる"
     },
     {
-      "content": "take a (poop|crap)",
+      "content": "take a { poop | crap }",
       "translation": "大便する"
     },
     {
-      "content": "take a (rest|recess)",
+      "content": "take a { rest | recess }",
       "translation": "休む"
     },
     {
@@ -929,6 +937,10 @@
     {
       "content": "take it outside",
       "translation": "（表に出て）喧嘩する"
+    },
+    {
+      "content": "take measures to [do]",
+      "translation": "[do] するために策を講じる"
     },
     {
       "content": "take measurements of [A]",

@@ -11,35 +11,39 @@
   ],
   "rows": [
     {
-      "content": "(allow|permit) [somebody] to [do]",
+      "content": "{ allow | permit } [somebody] to [do]",
       "translation": "[somebody] に [do] することを許す"
     },
     {
-      "content": "(ask|beg) [somebody] to [do]",
+      "content": "{ ask | beg } [somebody] to [do]",
       "translation": "[somebody] に [do] してもらうように依頼する"
     },
     {
-      "content": "(attempt|try) to [do]",
+      "content": "{ attempt | try } to [do]",
       "translation": "[do] しようと試みる"
     },
     {
-      "content": "(convince|persuade) [somebody] to [do]",
+      "content": "{ convince | persuade } [somebody] to [do]",
       "translation": "[somebody] に [do] するようにを説得する"
     },
     {
-      "content": "(encourage|stimulate|urge) [somebody] to [do]",
+      "content": "{ encourage | stimulate | urge } [somebody] to [do]",
       "translation": "[somebody] に [do] するように促進する"
     },
     {
-      "content": "(make|have|cause) [somebody] [do]",
+      "content": "{ force | compel | oblige } [somebody] to [do]",
+      "translation": "[somebody] に [do] するように強制する"
+    },
+    {
+      "content": "{ make | have | cause } [somebody] [do]",
       "translation": "[somebody] が [do] するようにさせる"
     },
     {
-      "content": "(reject|refuse|decline) to [do]",
+      "content": "{ reject | refuse | decline } to [do]",
       "translation": "[do] することを断る"
     },
     {
-      "content": "(request|require) [somebody] to [do]",
+      "content": "{ request | require } [somebody] to [do]",
       "translation": "[somebody] に [do] してもらうように要求する"
     },
     {
@@ -97,10 +101,6 @@
     {
       "content": "fail to [do]",
       "translation": "[do] することに失敗する"
-    },
-    {
-      "content": "(force|compel|oblige) [somebody] to [do]",
-      "translation": "[somebody] に [do] するように強制する"
     },
     {
       "content": "guarantee to [do]",
