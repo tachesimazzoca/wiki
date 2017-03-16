@@ -12,6 +12,7 @@ layout: global
 <link href="{% relative_path path:'/assets/stylesheets/style.css' %}" media="screen" rel="stylesheet" type="text/css">
 <script src="{% relative_path path:'/assets/lib/jquery-1.11.1/jquery.min.js' %}"></script>
 <script src="{% relative_path path:'/assets/lib/bootstrap-3.2.0/js/bootstrap.min.js' %}"></script>
+{% include ga.html %}
 </head>
 <body>
 <div id="wrapper">
@@ -30,6 +31,5 @@ layout: global
   {% include footer.html %}
 </div>
 <!--/#wrapper-->
-{% include ga.html %}
 </body>
 </html>
