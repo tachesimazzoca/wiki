@@ -74,3 +74,18 @@ $ docker run -d -P --name db training/postgres
 $ docker port db
 5432/tcp -> 0.0.0.0:32768
 {% endhighlight %}
+
+## Volume
+
+The `dangling` filter matches on all volumes not referenced by any containers. With the `quiet` option, you can list only the unused volume names.
+
+{% highlight bash %}
+$ docker volume ls -qf dangling=true
+{% endhighlight %}
+
+To clean up every unused volume, simply pass those names to the command `xargs docker volume rm`.
+
+{% highlight bash %}
+$ docker volume ls -qf dangling=true | xargs docker volume rm
+{% endhighlight %}
+
