@@ -303,6 +303,10 @@
       "definition": "神聖な"
     },
     {
+      "term": "{ honest | upright | conscientious }",
+      "definition": "誠実な"
+    },
+    {
       "term": "{ horrible | horrific }",
       "definition": "恐ろしい"
     },
@@ -463,7 +467,7 @@
       "definition": "満たされた"
     },
     {
-      "term": "{ selfish | arrogant | egoistic }",
+      "term": "{ selfish | arrogant | egoistic | haughty }",
       "definition": "傲慢な"
     },
     {
@@ -757,10 +761,6 @@
     {
       "term": "congruent",
       "definition": "調和な"
-    },
-    {
-      "term": "conscientious",
-      "definition": "誠実な"
     },
     {
       "term": "conscious",
@@ -1133,10 +1133,6 @@
     {
       "term": "hateful",
       "definition": "いまいましい"
-    },
-    {
-      "term": "haughty",
-      "definition": "高慢な"
     },
     {
       "term": "healthy",
@@ -1665,10 +1661,6 @@
     {
       "term": "senior ! junior",
       "definition": "年上の ! 年下の"
-    },
-    {
-      "term": "sensible",
-      "definition": "賢明な"
     },
     {
       "term": "shabby",

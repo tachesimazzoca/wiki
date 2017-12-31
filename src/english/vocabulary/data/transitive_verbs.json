@@ -359,6 +359,10 @@
       "definition": "[A] を理解する"
     },
     {
+      "term": "{ violate | infringe } [a rule]",
+      "definition": "[a rule] を{ 違反する | 侵害する }"
+    },
+    {
       "term": "{ win | lose } [a game]",
       "definition": "[a game] に(勝つ|負ける)"
     },
@@ -1659,8 +1663,8 @@
       "definition": "[A] に注意をはらう"
     },
     {
-      "term": "penalize [A]",
-      "definition": "[A] に罰を与える"
+      "term": "penalize [someone]",
+      "definition": "[someone] に罰を与える"
     },
     {
       "term": "penetrate [A]",
@@ -1796,7 +1800,7 @@
     },
     {
       "term": "raid [A]",
-      "definition": "A を襲撃する / 捜査で乗り込む"
+      "definition": "[A] を襲撃する / 捜査で乗り込む"
     },
     {
       "term": "raise [A] by [N] percent",
@@ -2357,10 +2361,6 @@
     {
       "term": "value [A]",
       "definition": "[A] に重きをおく"
-    },
-    {
-      "term": "{ violate | infringe } [a rule]",
-      "definition": "[a rule] を{ 違反する | 侵害する }"
     },
     {
       "term": "visit [A]",
