@@ -299,10 +299,6 @@
       "definition": "癒しの"
     },
     {
-      "term": "{ healthy | nutritious }",
-      "definition": "健康的な / 栄養のある"
-    },
-    {
       "term": "{ holy | sacred }",
       "definition": "神聖な"
     },
@@ -337,10 +333,6 @@
     {
       "term": "{ intentional | deliberate }",
       "definition": "意図的な"
-    },
-    {
-      "term": "{ invaluable | precious }",
-      "definition": "貴重な"
     },
     {
       "term": "{ kind | thoughtful | considerate }",
@@ -571,7 +563,7 @@
       "definition": "役立つ"
     },
     {
-      "term": "{ valuable | precious }",
+      "term": "{ valuable | invaluable | precious }",
       "definition": "貴重な"
     },
     {
@@ -1147,6 +1139,10 @@
       "definition": "高慢な"
     },
     {
+      "term": "healthy",
+      "definition": "健康的な"
+    },
+    {
       "term": "helpful",
       "definition": "助けになる"
     },
@@ -1421,6 +1417,10 @@
     {
       "term": "notorious",
       "definition": "忌々しい / 悪名高い"
+    },
+    {
+      "term": "nutritious",
+      "definition": "栄養のある"
     },
     {
       "term": "occasional",
