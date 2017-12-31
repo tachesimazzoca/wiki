@@ -1,78 +1,78 @@
 {
   "fields": [
     {
-      "key": "content",
-      "name": "Content"
+      "key": "term",
+      "name": "Term"
     },
     {
-      "key": "translation",
-      "name": "Translation"
+      "key": "definition",
+      "name": "Definition"
     }
   ],
   "rows": [
     {
-      "content": "{ avoid | deny | escape } [doing]",
-      "translation": "拒否"
+      "term": "{ avoid | deny } [doing]",
+      "definition": "回避"
     },
     {
-      "content": "{ finish | stop | quit } [doing]",
-      "translation": "停止"
+      "term": "{ finish | stop | quit } [doing]",
+      "definition": "停止"
     },
     {
-      "content": "{ keep | postpone } [doing]",
-      "translation": "継続"
+      "term": "{ keep | postpone } [doing]",
+      "definition": "継続"
     },
     {
-      "content": "{ mind | consider | imagine | recall } [doing]",
-      "translation": "想像"
+      "term": "{ mind | consider | imagine | recall } [doing]",
+      "definition": "想像"
     },
     {
-      "content": "{ prohibit | forbid } [doing]",
-      "translation": "禁止"
+      "term": "{ prohibit | forbid } [doing]",
+      "definition": "禁止"
     },
     {
-      "content": "{ recommend | suggest } [doing]",
-      "translation": "推薦"
+      "term": "{ recommend | suggest } [doing]",
+      "definition": "推薦"
     },
     {
-      "content": "admit [doing]",
-      "translation": "[doing] した（する）ことを認める"
+      "term": "admit [doing]",
+      "definition": "[doing] した（する）ことを認める"
     },
     {
-      "content": "anticipate [doing]",
-      "translation": "[doing] することを予期する"
+      "term": "anticipate [doing]",
+      "definition": "[doing] することを予期する"
     },
     {
-      "content": "consider [doing]",
-      "translation": "[doing] することを考慮する"
+      "term": "consider [doing]",
+      "definition": "[doing] することを考慮する"
     },
     {
-      "content": "discuss [doing]",
-      "translation": "[doing] することを話し合う"
+      "term": "discuss [doing]",
+      "definition": "[doing] することを話し合う"
     },
     {
-      "content": "enjoy [doing]",
-      "translation": "[doing] を楽しむ"
+      "term": "enjoy [doing]",
+      "definition": "[doing] を楽しむ"
     },
     {
-      "content": "miss [doing]",
-      "translation": "[doing] しそこなう"
+      "term": "miss [doing]",
+      "definition": "[doing] しそこなう"
     },
     {
-      "content": "miss [doing]",
-      "translation": "[doing] できなくなって悲しい"
+      "term": "miss [doing]",
+      "definition": "[doing] できなくなって悲しい"
     },
     {
-      "content": "practice [doing]",
-      "translation": "[doing] を習慣にする"
+      "term": "practice [doing]",
+      "definition": "[doing] を習慣にする"
     },
     {
-      "content": "regret having [done]",
-      "translation": "[done] したことを後悔する"
+      "term": "regret having [done]",
+      "definition": "[done] したことを後悔する"
     },
     {
-      "content": "risk [doing]",
-      "translation": "あえて [doing] する"
+      "term": "risk [doing]",
+      "definition": "あえて [doing] する"
     }
   ]
 }

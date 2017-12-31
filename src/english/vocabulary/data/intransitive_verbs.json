@@ -1,1274 +1,1278 @@
 {
   "fields": [
     {
-      "key": "content",
-      "name": "Content"
+      "key": "term",
+      "name": "Term"
     },
     {
-      "key": "translation",
-      "name": "Translation"
+      "key": "definition",
+      "name": "Definition"
     }
   ],
   "rows": [
     {
-      "content": "{ agree | consent | assent } to [A]",
-      "translation": "[A] に同意する"
+      "term": "{ agree | consent | assent } to [A]",
+      "definition": "[A] に同意する"
     },
     {
-      "content": "{ arise | stem } from [A]",
-      "translation": "[A] から発生する / 生じる"
+      "term": "{ arise | stem } from [A]",
+      "definition": "[A] から発生する / 生じる"
     },
     {
-      "content": "{ beg | plead } for [A]",
-      "translation": "[A] （要求）を懇願する"
+      "term": "{ beg | plead } for [A]",
+      "definition": "[A] （要求）を懇願する"
     },
     {
-      "content": "{ begin | start } with [A]",
-      "translation": "[A] で始まる"
+      "term": "{ begin | start } with [A]",
+      "definition": "[A] で始まる"
     },
     {
-      "content": "{ bother | worry } about [A]",
-      "translation": "[A] について心配する"
+      "term": "{ bother | worry } about [A]",
+      "definition": "[A] について心配する"
     },
     {
-      "content": "{ converge ! diverge }",
-      "translation": "(収束する ! 拡散する)"
+      "term": "{ converge ! diverge }",
+      "definition": "(収束する ! 拡散する)"
     },
     {
-      "content": "{ cry | sob | weep }",
-      "translation": "泣く"
+      "term": "{ cry | sob | weep }",
+      "definition": "泣く"
     },
     {
-      "content": "{ depend | rely | count } on [A]",
-      "translation": "[A] を頼りにしている"
+      "term": "{ depend | rely | count } on [A]",
+      "definition": "[A] を頼りにしている"
     },
     {
-      "content": "{ differ | vary }",
-      "translation": "異なる"
+      "term": "{ differ | vary }",
+      "definition": "異なる"
     },
     {
-      "content": "{ disappear | fade }",
-      "translation": "消える"
+      "term": "{ disappear | fade }",
+      "definition": "消える"
     },
     {
-      "content": "{ happen | occur } to [A]",
-      "translation": "（出来事が） [A] に起こる"
+      "term": "{ happen | occur } to [A]",
+      "definition": "（出来事が） [A] に起こる"
     },
     {
-      "content": "{ hesitate | waver | falter } in [A]",
-      "translation": "[A] に躊躇する"
+      "term": "{ hesitate | waver | falter } in [A]",
+      "definition": "[A] に躊躇する"
     },
     {
-      "content": "{ increase ! decrease } in [value]",
-      "translation": "[value] が (上がる ! 下がる)"
+      "term": "{ increase ! decrease } in [value]",
+      "definition": "[value] が (上がる ! 下がる)"
     },
     {
-      "content": "{ keep | carry | go } on [doing]",
-      "translation": "[doing] し続ける"
+      "term": "{ keep | carry | go } on [doing]",
+      "definition": "[doing] し続ける"
     },
     {
-      "content": "{ laugh | smile | chuckle | giggle | grin }",
-      "translation": "笑う"
+      "term": "{ laugh | smile | chuckle | giggle | grin }",
+      "definition": "笑う"
     },
     {
-      "content": "{ look | gaze | glance | glare | stare | peek } at [A]",
-      "translation": "[A] を見る"
+      "term": "{ look | gaze | glance | glare | stare | peek } at [A]",
+      "definition": "[A] を見る"
     },
     {
-      "content": "{ put | slam } on [A]",
-      "translation": "[A] を踏む"
+      "term": "{ put | slam } on [A]",
+      "definition": "[A] を踏む"
     },
     {
-      "content": "{ rise ! drop }",
-      "translation": "上がる ! 落ちる"
+      "term": "{ retire | resign } from [A]",
+      "definition": "[A] から退役する / 退職する"
     },
     {
-      "content": "{ search | check } for [A]",
-      "translation": "調査動作"
+      "term": "{ rise ! drop }",
+      "definition": "上がる ! 落ちる"
     },
     {
-      "content": "{ shake | tremble } with [fear]",
-      "translation": "[fear] で震える"
+      "term": "{ search | check } for [A]",
+      "definition": "調査動作"
     },
     {
-      "content": "{ shout | yell } { at | against } [somebody]",
-      "translation": "[somebody] に対して叫ぶ"
+      "term": "{ shake | tremble } with [fear]",
+      "definition": "[fear] で震える"
     },
     {
-      "content": "{ stop | pause | cease }",
-      "translation": "止まる"
+      "term": "{ shout | yell } { at | against } [somebody]",
+      "definition": "[somebody] に対して叫ぶ"
     },
     {
-      "content": "{ strive | endeavor }",
-      "translation": "懸命に努力する"
+      "term": "{ stop | pause | cease }",
+      "definition": "止まる"
     },
     {
-      "content": "{ succeed ! fail }",
-      "translation": "(成功する ! 失敗する)"
+      "term": "{ strive | endeavor }",
+      "definition": "懸命に努力する"
     },
     {
-      "content": "{ surrender | yield } to [A]",
-      "translation": "[A] に対して降参する"
+      "term": "{ succeed ! fail }",
+      "definition": "(成功する ! 失敗する)"
     },
     {
-      "content": "{ swing | drop | stop | come } by [A]",
-      "translation": "[A] に立ち寄る"
+      "term": "{ surrender | yield } to [A]",
+      "definition": "[A] に対して降参する"
     },
     {
-      "content": "{ wait | watch } for [A]",
-      "translation": "[A] を待つ / 監視する"
+      "term": "{ swing | drop | stop | come } by [A]",
+      "definition": "[A] に立ち寄る"
     },
     {
-      "content": "{ win over | lose to } [somebody]",
-      "translation": "[somebody] に(勝つ|負ける)"
+      "term": "{ wait | watch } for [A]",
+      "definition": "[A] を待つ / 監視する"
     },
     {
-      "content": "abate",
-      "translation": "弱まる"
+      "term": "{ win over | lose to } [somebody]",
+      "definition": "[somebody] に(勝つ|負ける)"
     },
     {
-      "content": "abide by [a rule]",
-      "translation": "[a rule] に従う"
+      "term": "abate",
+      "definition": "弱まる"
     },
     {
-      "content": "accelerate",
-      "translation": "加速する"
+      "term": "abide by [a rule]",
+      "definition": "[a rule] に従う"
     },
     {
-      "content": "account for [amount]",
-      "translation": "[amount] を占める"
+      "term": "accelerate",
+      "definition": "加速する"
     },
     {
-      "content": "adhere to [A]",
-      "translation": "[A] に従う"
+      "term": "account for [amount]",
+      "definition": "[amount] を占める"
     },
     {
-      "content": "agree on [A]",
-      "translation": "話し合いを通じて [A] （条項）に同意する"
+      "term": "adhere to [A]",
+      "definition": "[A] に従う"
     },
     {
-      "content": "agree with [somebody]",
-      "translation": "[somebody] と意見が一致している"
+      "term": "agree on [A]",
+      "definition": "話し合いを通じて [A] （条項）に同意する"
     },
     {
-      "content": "aim { at | against } [a target]",
-      "translation": "[a target] を狙う"
+      "term": "agree with [somebody]",
+      "definition": "[somebody] と意見が一致している"
     },
     {
-      "content": "amount to [A]",
-      "translation": "[A] に達する"
+      "term": "aim { at | against } [a target]",
+      "definition": "[a target] を狙う"
     },
     {
-      "content": "apologize for [A]",
-      "translation": "[A] について謝罪する"
+      "term": "amount to [A]",
+      "definition": "[A] に達する"
     },
     {
-      "content": "apologize to [somebody]",
-      "translation": "[somebody] に謝罪する"
+      "term": "apologize for [A]",
+      "definition": "[A] について謝罪する"
     },
     {
-      "content": "appeal to [somebody]",
-      "translation": "[somebody] に懇願する"
+      "term": "apologize to [somebody]",
+      "definition": "[somebody] に謝罪する"
     },
     {
-      "content": "appear in [A]",
-      "translation": "[A] に掲載される"
+      "term": "appeal to [somebody]",
+      "definition": "[somebody] に懇願する"
     },
     {
-      "content": "apply for [a job]",
-      "translation": "[a job] に応募する"
+      "term": "appear in [A]",
+      "definition": "[A] に掲載される"
     },
     {
-      "content": "approve of [A]",
-      "translation": "[A] を（良い物であると）認定する"
+      "term": "apply for [a job]",
+      "definition": "[a job] に応募する"
     },
     {
-      "content": "argue about [A] with [somebody]",
-      "translation": "[somebody] と [A] について言い争う"
+      "term": "approve of [A]",
+      "definition": "[A] を（良い物であると）認定する"
     },
     {
-      "content": "arrive at [A]",
-      "translation": "[A] に到着する"
+      "term": "argue about [A] with [somebody]",
+      "definition": "[somebody] と [A] について言い争う"
     },
     {
-      "content": "aspire",
-      "translation": "熱望する"
+      "term": "arrive at [A]",
+      "definition": "[A] に到着する"
     },
     {
-      "content": "associate with [somebody]",
-      "translation": "[somebody] と連携する"
+      "term": "aspire",
+      "definition": "熱望する"
     },
     {
-      "content": "bark",
-      "translation": "吠える"
+      "term": "associate with [somebody]",
+      "definition": "[somebody] と連携する"
     },
     {
-      "content": "bask in the sunshine",
-      "translation": "ひなたぼっこする"
+      "term": "attend to [A]",
+      "definition": "[A] に注意する"
     },
     {
-      "content": "believe in [A]",
-      "translation": "[A] を良いと思う"
+      "term": "bark",
+      "definition": "吠える"
     },
     {
-      "content": "believe in [oneself]",
-      "translation": "自分を信じる"
+      "term": "bask in the sunshine",
+      "definition": "ひなたぼっこする"
     },
     {
-      "content": "belong to [A]",
-      "translation": "[A] に属する"
+      "term": "believe in [A]",
+      "definition": "[A] を良いと思う"
     },
     {
-      "content": "blare",
-      "translation": "鳴り響く"
+      "term": "believe in [oneself]",
+      "definition": "自分を信じる"
     },
     {
-      "content": "bleed",
-      "translation": "血を流す"
+      "term": "belong to [A]",
+      "definition": "[A] に属する"
     },
     {
-      "content": "blush",
-      "translation": "赤面する"
+      "term": "blare",
+      "definition": "鳴り響く"
     },
     {
-      "content": "boast of [A]",
-      "translation": "[A] を誇りを持って自慢する"
+      "term": "bleed",
+      "definition": "血を流す"
     },
     {
-      "content": "brag",
-      "translation": "大げさに自慢する"
+      "term": "blush",
+      "definition": "赤面する"
     },
     {
-      "content": "brake",
-      "translation": "ブレーキをかける / 停止する"
+      "term": "boast of [A]",
+      "definition": "[A] を誇りを持って自慢する"
     },
     {
-      "content": "breathe",
-      "translation": "呼吸する"
+      "term": "brag",
+      "definition": "大げさに自慢する"
     },
     {
-      "content": "browse",
-      "translation": "立ち読みする"
+      "term": "brake",
+      "definition": "ブレーキをかける / 停止する"
     },
     {
-      "content": "bump into [A]",
-      "translation": "[A] に突き当たる"
+      "term": "breathe",
+      "definition": "呼吸する"
     },
     {
-      "content": "call for [help]",
-      "translation": "[help] を求めて叫ぶ / 要請する"
+      "term": "browse",
+      "definition": "立ち読みする"
     },
     {
-      "content": "call on [A]",
-      "translation": "[A] に訪問する/ 要請する"
+      "term": "bump into [A]",
+      "definition": "[A] に突き当たる"
     },
     {
-      "content": "care about [A]",
-      "translation": "[A] を気にする"
+      "term": "call for [help]",
+      "definition": "[help] を求めて叫ぶ / 要請する"
     },
     {
-      "content": "care for [A]",
-      "translation": "[A] を好む"
+      "term": "call on [A]",
+      "definition": "[A] に訪問する/ 要請する"
     },
     {
-      "content": "cater",
-      "translation": "仕出しサービスを提供する"
+      "term": "care about [A]",
+      "definition": "[A] を気にする"
     },
     {
-      "content": "chat with [somebody]",
-      "translation": "[somebody] とおしゃべりする"
+      "term": "care for [A]",
+      "definition": "[A] を好む"
     },
     {
-      "content": "cheat",
-      "translation": "不正をする / いかさまする"
+      "term": "cater",
+      "definition": "仕出しサービスを提供する"
     },
     {
-      "content": "chill",
-      "translation": "ダラダラとリラックスする"
+      "term": "chat with [somebody]",
+      "definition": "[somebody] とおしゃべりする"
     },
     {
-      "content": "choke",
-      "translation": "（スポーツで）緊張する"
+      "term": "cheat",
+      "definition": "不正をする / いかさまする"
     },
     {
-      "content": "cling to [A]",
-      "translation": "[A] にしがみつく"
+      "term": "chill",
+      "definition": "ダラダラとリラックスする"
     },
     {
-      "content": "coalesce into [A]",
-      "translation": "（主体が）合体して [A] になる"
+      "term": "choke",
+      "definition": "（スポーツで）緊張する"
     },
     {
-      "content": "coincide with [A]",
-      "translation": "[A] と同時に起こる / 一致する"
+      "term": "cling to [A]",
+      "definition": "[A] にしがみつく"
     },
     {
-      "content": "collaborate on [A]",
-      "translation": "[A] の件で共同作業する / 協業する"
+      "term": "coalesce into [A]",
+      "definition": "（主体が）合体して [A] になる"
     },
     {
-      "content": "collaborate with [somebody]",
-      "translation": "[somebody] と共同作業する / 協業する"
+      "term": "coincide with [A]",
+      "definition": "[A] と同時に起こる / 一致する"
     },
     {
-      "content": "collapse",
-      "translation": "崩壊する"
+      "term": "collaborate on [A]",
+      "definition": "[A] の件で共同作業する / 協業する"
     },
     {
-      "content": "collide with [A]",
-      "translation": "[A] と衝突する"
+      "term": "collaborate with [somebody]",
+      "definition": "[somebody] と共同作業する / 協業する"
     },
     {
-      "content": "compete { with | against } [somebody] for [A]",
-      "translation": "[A] について [somebody] と競い合う"
+      "term": "collapse",
+      "definition": "崩壊する"
     },
     {
-      "content": "complain about [A]",
-      "translation": "[A] について不満である"
+      "term": "collide with [A]",
+      "definition": "[A] と衝突する"
     },
     {
-      "content": "complain of [a symptom]",
-      "translation": "[a symptom] （症状）に悩まされる"
+      "term": "compete { with | against } [somebody] for [A]",
+      "definition": "[A] について [somebody] と競い合う"
     },
     {
-      "content": "complain to [somebody]",
-      "translation": "[somebody] （相談相手）に不満を訴える"
+      "term": "complain about [A]",
+      "definition": "[A] について不満である"
     },
     {
-      "content": "comply with [demands]",
-      "translation": "[demands] に承諾する"
+      "term": "complain of [a symptom]",
+      "definition": "[a symptom] （症状）に悩まされる"
     },
     {
-      "content": "compromise with [somebody] on [A]",
-      "translation": "[A] の件で [somebody] と妥協する"
+      "term": "complain to [somebody]",
+      "definition": "[somebody] （相談相手）に不満を訴える"
     },
     {
-      "content": "concentrate on [A]",
-      "translation": "[A] に集中する"
+      "term": "comply with [demands]",
+      "definition": "[demands] に承諾する"
     },
     {
-      "content": "conclude with [A]",
-      "translation": "[A] で締めくくる"
+      "term": "compromise with [somebody] on [A]",
+      "definition": "[A] の件で [somebody] と妥協する"
     },
     {
-      "content": "conflict with [A]",
-      "translation": "[A] と相容れない / 矛盾する"
+      "term": "concentrate on [A]",
+      "definition": "[A] に集中する"
     },
     {
-      "content": "conform to [A]",
-      "translation": "[A] に順応する"
+      "term": "conclude with [A]",
+      "definition": "[A] で締めくくる"
     },
     {
-      "content": "consist of [A]",
-      "translation": "[A] で構成される"
+      "term": "conflict with [A]",
+      "definition": "[A] と相容れない / 矛盾する"
     },
     {
-      "content": "continue to be [A]",
-      "translation": "[A] であり続ける"
+      "term": "conform to [A]",
+      "definition": "[A] に順応する"
     },
     {
-      "content": "continue unabated",
-      "translation": "{ 弱まる | 衰える }気配がない"
+      "term": "consist of [A]",
+      "definition": "[A] で構成される"
     },
     {
-      "content": "contribute to [A]",
-      "translation": "[A] に貢献する"
+      "term": "continue to be [A]",
+      "definition": "[A] であり続ける"
     },
     {
-      "content": "cooperate with [somebody] on [A]",
-      "translation": "[A] の件で [somebody] と協力する"
+      "term": "continue unabated",
+      "definition": "{ 弱まる | 衰える }気配がない"
     },
     {
-      "content": "cope with [difficult situations]",
-      "translation": "[difficult situations] に向き合う"
+      "term": "contribute to [A]",
+      "definition": "[A] に貢献する"
     },
     {
-      "content": "correspond to [A]",
-      "translation": "[A] に対応する / 示す"
+      "term": "cooperate with [somebody] on [A]",
+      "definition": "[A] の件で [somebody] と協力する"
     },
     {
-      "content": "correspond with [A]",
-      "translation": "[A] と一致する"
+      "term": "cope with [difficult situations]",
+      "definition": "[difficult situations] に向き合う"
     },
     {
-      "content": "cough",
-      "translation": "咳をする"
+      "term": "correspond to [A]",
+      "definition": "[A] に対応する / 示す"
     },
     {
-      "content": "crash into [A]",
-      "translation": "[A] に衝突する"
+      "term": "correspond with [A]",
+      "definition": "[A] と一致する"
     },
     {
-      "content": "creep around [A]",
-      "translation": "[A] にはびこる / 絡みつく"
+      "term": "cough",
+      "definition": "咳をする"
     },
     {
-      "content": "creep into [A]",
-      "translation": "[A] にゆっくりと（這いつくばって）入る"
+      "term": "crash into [A]",
+      "definition": "[A] に衝突する"
     },
     {
-      "content": "creep into [one's] mind",
-      "translation": "心理につけ込む"
+      "term": "creep around [A]",
+      "definition": "[A] にはびこる / 絡みつく"
     },
     {
-      "content": "date back to [A]",
-      "translation": "[A] にさかのぼる"
+      "term": "creep into [A]",
+      "definition": "[A] にゆっくりと（這いつくばって）入る"
     },
     {
-      "content": "decease",
-      "translation": "亡くなる"
+      "term": "creep into [one's] mind",
+      "definition": "心理につけ込む"
     },
     {
-      "content": "decide { on | against | in favor of | between } [A]",
-      "translation": "[A] （議題）について決定する"
+      "term": "date back to [A]",
+      "definition": "[A] にさかのぼる"
     },
     {
-      "content": "dedicate { [oneself] } to [A]",
-      "translation": "[A] に専念する"
+      "term": "decease",
+      "definition": "亡くなる"
     },
     {
-      "content": "deliberate on [A]",
-      "translation": "[A] について熟考する"
+      "term": "decide { on | against | in favor of | between } [A]",
+      "definition": "[A] （議題）について決定する"
     },
     {
-      "content": "delve into [A]",
-      "translation": "[A] を手探りで探求する"
+      "term": "dedicate { [oneself] } to [A]",
+      "definition": "[A] に専念する"
     },
     {
-      "content": "depart",
-      "translation": "出発する"
+      "term": "deliberate on [A]",
+      "definition": "[A] について熟考する"
     },
     {
-      "content": "derive from [A]",
-      "translation": "[A] に由来する / 派生する"
+      "term": "delve into [A]",
+      "definition": "[A] を手探りで探求する"
     },
     {
-      "content": "deviate from [A]",
-      "translation": "[A] に衝突しないように避ける"
+      "term": "depart",
+      "definition": "出発する"
     },
     {
-      "content": "die of [A]",
-      "translation": "[A] を病因として亡くなる"
+      "term": "derive from [A]",
+      "definition": "[A] に由来する / 派生する"
     },
     {
-      "content": "diminish",
-      "translation": "弱まる"
+      "term": "deviate from [A]",
+      "definition": "[A] に衝突しないように避ける"
     },
     {
-      "content": "dispose of [A]",
-      "translation": "[A] を処分する"
+      "term": "die of [A]",
+      "definition": "[A] を病因として亡くなる"
     },
     {
-      "content": "dive into [A]",
-      "translation": "[A] に潜り込む / 探索する"
+      "term": "diminish",
+      "definition": "弱まる"
     },
     {
-      "content": "dream about [A]",
-      "translation": "[A] についての夢を見る"
+      "term": "dispose of [A]",
+      "definition": "[A] を処分する"
     },
     {
-      "content": "dream of [A]",
-      "translation": "[A] を夢に持つ"
+      "term": "dive into [A]",
+      "definition": "[A] に潜り込む / 探索する"
     },
     {
-      "content": "drop out of { school | college }",
-      "translation": "中退する"
+      "term": "dream about [A]",
+      "definition": "[A] についての夢を見る"
     },
     {
-      "content": "drown",
-      "translation": "溺れる / 溺死する"
+      "term": "dream of [A]",
+      "definition": "[A] を夢に持つ"
     },
     {
-      "content": "dwell on [the past]",
-      "translation": "[the past] のことをくよくよ考える"
+      "term": "drop out of { school | college }",
+      "definition": "中退する"
     },
     {
-      "content": "eavesdrop on [A]",
-      "translation": "[A] を盗聴する"
+      "term": "drown",
+      "definition": "溺れる / 溺死する"
     },
     {
-      "content": "elaborate on [A]",
-      "translation": "[A] を精巧に作り上げる"
+      "term": "dwell on [the past]",
+      "definition": "[the past] のことをくよくよ考える"
     },
     {
-      "content": "email to [somebody]",
-      "translation": "[somebody] にメールする"
+      "term": "eavesdrop on [A]",
+      "definition": "[A] を盗聴する"
     },
     {
-      "content": "emerge from [A]",
-      "translation": "[A] から明らかになる / 浮かび上がる"
+      "term": "elaborate on [A]",
+      "definition": "[A] を精巧に作り上げる"
     },
     {
-      "content": "end with [A]",
-      "translation": "[A] で終わる"
+      "term": "email to [somebody]",
+      "definition": "[somebody] にメールする"
     },
     {
-      "content": "engage in [A]",
-      "translation": "[A] に従事している / 取り組んでいる"
+      "term": "emerge from [A]",
+      "definition": "[A] から明らかになる / 浮かび上がる"
     },
     {
-      "content": "erupt",
-      "translation": "噴火する"
+      "term": "end with [A]",
+      "definition": "[A] で終わる"
     },
     {
-      "content": "evacuate from [A]",
-      "translation": "[A] から避難する"
+      "term": "engage in [A]",
+      "definition": "[A] に従事している / 取り組んでいる"
     },
     {
-      "content": "evolve",
-      "translation": "発展する / 進展する / 展開する"
+      "term": "erupt",
+      "definition": "噴火する"
     },
     {
-      "content": "excel in [subject]",
-      "translation": "[subject] に優れている"
+      "term": "evacuate from [A]",
+      "definition": "[A] から避難する"
     },
     {
-      "content": "experiment with [A]",
-      "translation": "[A] を使って実験する"
+      "term": "evolve",
+      "definition": "発展する / 進展する / 展開する"
     },
     {
-      "content": "expire",
-      "translation": "期限が切れる"
+      "term": "excel in [subject]",
+      "definition": "[subject] に優れている"
     },
     {
-      "content": "face away from [A]",
-      "translation": "[A] から顔を背ける"
+      "term": "experiment with [A]",
+      "definition": "[A] を使って実験する"
     },
     {
-      "content": "faint with [A]",
-      "translation": "[A] を原因として気を失う"
+      "term": "expire",
+      "definition": "期限が切れる"
     },
     {
-      "content": "fall behind in [bills]",
-      "translation": "[bills] を滞納している"
+      "term": "face away from [A]",
+      "definition": "[A] から顔を背ける"
     },
     {
-      "content": "fall in love with [somebody]",
-      "translation": "[somebody] のことが好きになる"
+      "term": "faint with [A]",
+      "definition": "[A] を原因として気を失う"
     },
     {
-      "content": "fall into [a category]",
-      "translation": "[a category] の範疇におさまる"
+      "term": "fall behind in [bills]",
+      "definition": "[bills] を滞納している"
     },
     {
-      "content": "feast { on | with } [A]",
-      "translation": "[A] を味わう（宴会で）"
+      "term": "fall in love with [somebody]",
+      "definition": "[somebody] のことが好きになる"
     },
     {
-      "content": "fiddle with [a computer]",
-      "translation": "[a computer] をいじる"
+      "term": "fall into [a category]",
+      "definition": "[a category] の範疇におさまる"
     },
     {
-      "content": "find fault with [A]",
-      "translation": "[A] のあら探しをする"
+      "term": "feast { on | with } [A]",
+      "definition": "[A] を味わう（宴会で）"
     },
     {
-      "content": "fire { at | against } [a target]",
-      "translation": "[a target] を撃つ"
+      "term": "fiddle with [a computer]",
+      "definition": "[a computer] をいじる"
     },
     {
-      "content": "flip",
-      "translation": "飛び跳ねる / 宙返りする"
+      "term": "fire { at | against } [a target]",
+      "definition": "[a target] を撃つ"
     },
     {
-      "content": "fluctuate",
-      "translation": "変動する"
+      "term": "flip",
+      "definition": "飛び跳ねる / 宙返りする"
     },
     {
-      "content": "flutter",
-      "translation": "羽をばたつかせる"
+      "term": "fluctuate",
+      "definition": "変動する"
     },
     {
-      "content": "focus on [A]",
-      "translation": "[A] に焦点を合わせる / 集中を向ける"
+      "term": "flutter",
+      "definition": "羽をばたつかせる"
     },
     {
-      "content": "freeze",
-      "translation": "凍る"
+      "term": "focus on [A]",
+      "definition": "[A] に焦点を合わせる / 集中を向ける"
     },
     {
-      "content": "function as [A]",
-      "translation": "[A] としての役目を果たす"
+      "term": "freeze",
+      "definition": "凍る"
     },
     {
-      "content": "gallop",
-      "translation": "（馬など動物がギャロップで）走る"
+      "term": "function as [A]",
+      "definition": "[A] としての役目を果たす"
     },
     {
-      "content": "gargle with water",
-      "translation": "うがいする"
+      "term": "gallop",
+      "definition": "（馬など動物がギャロップで）走る"
     },
     {
-      "content": "generalize about [A]",
-      "translation": "[A] について一般論を語る"
+      "term": "gargle with water",
+      "definition": "うがいする"
     },
     {
-      "content": "graduate from [A]",
-      "translation": "[A] を卒業する"
+      "term": "generalize about [A]",
+      "definition": "[A] について一般論を語る"
     },
     {
-      "content": "happen to [do]",
-      "translation": "思いがけず [do] する"
+      "term": "graduate from [A]",
+      "definition": "[A] を卒業する"
     },
     {
-      "content": "head for [A]",
-      "translation": "[A] に向かう"
+      "term": "happen to [do]",
+      "definition": "思いがけず [do] する"
     },
     {
-      "content": "hear about [somebody]",
-      "translation": "[somebody] の悪い噂を聞く"
+      "term": "head for [A]",
+      "definition": "[A] に向かう"
     },
     {
-      "content": "hear from [A]",
-      "translation": "[A] から便りがある"
+      "term": "hear about [somebody]",
+      "definition": "[somebody] の悪い噂を聞く"
     },
     {
-      "content": "hear of [A]",
-      "translation": "[A] について聞いたことがある"
+      "term": "hear from [A]",
+      "definition": "[A] から便りがある"
     },
     {
-      "content": "hold onto [A]",
-      "translation": "[A] を手放さずにずっと持っておく / しがみつく"
+      "term": "hear of [A]",
+      "definition": "[A] について聞いたことがある"
     },
     {
-      "content": "hope for [A]",
-      "translation": "[A] を望む"
+      "term": "hold onto [A]",
+      "definition": "[A] を手放さずにずっと持っておく / しがみつく"
     },
     {
-      "content": "insist on [A]",
-      "translation": "[A] を主張する"
+      "term": "hope for [A]",
+      "definition": "[A] を望む"
     },
     {
-      "content": "intensify over [A]",
-      "translation": "[A] のことで白熱する"
+      "term": "insist on [A]",
+      "definition": "[A] を主張する"
     },
     {
-      "content": "interact with [A]",
-      "translation": "[A] と互いに作用する / 相互作用する"
+      "term": "intensify over [A]",
+      "definition": "[A] のことで白熱する"
     },
     {
-      "content": "interfere with [A]",
-      "translation": "[A] を妨げる"
+      "term": "interact with [A]",
+      "definition": "[A] と互いに作用する / 相互作用する"
     },
     {
-      "content": "intrude on [privacy]",
-      "translation": "[privacy] を侵害する"
+      "term": "interfere with [A]",
+      "definition": "[A] を妨げる"
     },
     {
-      "content": "invest in [A]",
-      "translation": "[A] に投資する"
+      "term": "intrude on [privacy]",
+      "definition": "[privacy] を侵害する"
     },
     {
-      "content": "jump into [A]",
-      "translation": "[A] に飛び込む"
+      "term": "invest in [A]",
+      "definition": "[A] に投資する"
     },
     {
-      "content": "know about [somebody]",
-      "translation": "[somebody] の噂を知る"
+      "term": "jump into [A]",
+      "definition": "[A] に飛び込む"
     },
     {
-      "content": "know for sure",
-      "translation": "定かと分かっている"
+      "term": "know about [somebody]",
+      "definition": "[somebody] の噂を知る"
     },
     {
-      "content": "know of [A]",
-      "translation": "[A] の存在を知っている"
+      "term": "know for sure",
+      "definition": "定かと分かっている"
     },
     {
-      "content": "last",
-      "translation": "続く"
+      "term": "know of [A]",
+      "definition": "[A] の存在を知っている"
     },
     {
-      "content": "laugh at [A]",
-      "translation": "[A] を見て笑う"
+      "term": "last",
+      "definition": "続く"
     },
     {
-      "content": "lead to [A]",
-      "translation": "[A] となる"
+      "term": "laugh at [A]",
+      "definition": "[A] を見て笑う"
     },
     {
-      "content": "leak",
-      "translation": "漏れる"
+      "term": "lead to [A]",
+      "definition": "[A] となる"
     },
     {
-      "content": "lean against [A]",
-      "translation": "[A] に寄りかかる"
+      "term": "leak",
+      "definition": "漏れる"
     },
     {
-      "content": "leave by [a exit]",
-      "translation": "[a exit] から出る"
+      "term": "lean against [A]",
+      "definition": "[A] に寄りかかる"
     },
     {
-      "content": "leave early",
-      "translation": "早退する"
+      "term": "leave by [a exit]",
+      "definition": "[a exit] から出る"
     },
     {
-      "content": "leave for [A]",
-      "translation": "[A] に向けて出発する"
+      "term": "leave early",
+      "definition": "早退する"
     },
     {
-      "content": "lecture about [A]",
-      "translation": "[A] について講義する"
+      "term": "leave for [A]",
+      "definition": "[A] に向けて出発する"
     },
     {
-      "content": "lecture on [A]",
-      "translation": "[A] をテーマとして講義する"
+      "term": "lecture about [A]",
+      "definition": "[A] について講義する"
     },
     {
-      "content": "lecture to [somebody]",
-      "translation": "[somebody] に講義する"
+      "term": "lecture on [A]",
+      "definition": "[A] をテーマとして講義する"
     },
     {
-      "content": "listen to [A]",
-      "translation": "[A] を聴く / 耳を向ける"
+      "term": "lecture to [somebody]",
+      "definition": "[somebody] に講義する"
     },
     {
-      "content": "live up to [A]",
-      "translation": "[A] に恥じない行動をする"
+      "term": "listen to [A]",
+      "definition": "[A] を聴く / 耳を向ける"
     },
     {
-      "content": "live with [A]",
-      "translation": "[A] を堪え忍ぶ / 我慢する"
+      "term": "live up to [A]",
+      "definition": "[A] に恥じない行動をする"
     },
     {
-      "content": "long for [A]",
-      "translation": "[A] を待ち焦がれる"
+      "term": "live with [A]",
+      "definition": "[A] を堪え忍ぶ / 我慢する"
     },
     {
-      "content": "look for [A]",
-      "translation": "[A] を探す"
+      "term": "long for [A]",
+      "definition": "[A] を待ち焦がれる"
     },
     {
-      "content": "lurk",
-      "translation": "待ち伏せする"
+      "term": "look for [A]",
+      "definition": "[A] を探す"
     },
     {
-      "content": "major in [A]",
-      "translation": "[A] を専攻している"
+      "term": "lurk",
+      "definition": "待ち伏せする"
     },
     {
-      "content": "marvel at [A]",
-      "translation": "[A] に驚愕する"
+      "term": "major in [A]",
+      "definition": "[A] を専攻している"
     },
     {
-      "content": "mellow",
-      "translation": "熟す / 落ち着く"
+      "term": "marvel at [A]",
+      "definition": "[A] に驚愕する"
     },
     {
-      "content": "mingle with [A]",
-      "translation": "[A] と交流する"
+      "term": "mellow",
+      "definition": "熟す / 落ち着く"
     },
     {
-      "content": "minister to [A]",
-      "translation": "[A] に仕える / 役に立つ"
+      "term": "mingle with [A]",
+      "definition": "[A] と交流する"
     },
     {
-      "content": "misbehave",
-      "translation": "ふざける / （システムが）誤動作する"
+      "term": "minister to [A]",
+      "definition": "[A] に仕える / 役に立つ"
     },
     {
-      "content": "move into [A]",
-      "translation": "[A] に引っ越す"
+      "term": "misbehave",
+      "definition": "ふざける / （システムが）誤動作する"
     },
     {
-      "content": "move to [A]",
-      "translation": "[A] に移動する"
+      "term": "move into [A]",
+      "definition": "[A] に引っ越す"
     },
     {
-      "content": "nod to [A]",
-      "translation": "[A] に向かってうなずく"
+      "term": "move to [A]",
+      "definition": "[A] に移動する"
     },
     {
-      "content": "operate on [somebody]",
-      "translation": "[somebody] に手術をする"
+      "term": "nod to [A]",
+      "definition": "[A] に向かってうなずく"
     },
     {
-      "content": "opt for [A]",
-      "translation": "[A] を選択する"
+      "term": "operate on [somebody]",
+      "definition": "[somebody] に手術をする"
     },
     {
-      "content": "opt out of [A]",
-      "translation": "[A] から手を引く / 諦める"
+      "term": "opt for [A]",
+      "definition": "[A] を選択する"
     },
     {
-      "content": "originate from [A]",
-      "translation": "[A] から始まる"
+      "term": "opt out of [A]",
+      "definition": "[A] から手を引く / 諦める"
     },
     {
-      "content": "overflow with [A]",
-      "translation": "[A] で溢れかえる"
+      "term": "originate from [A]",
+      "definition": "[A] から始まる"
     },
     {
-      "content": "pace",
-      "translation": "歩調を合わせて歩く"
+      "term": "overflow with [A]",
+      "definition": "[A] で溢れかえる"
     },
     {
-      "content": "pander to [prejudice]",
-      "translation": "[prejudice] につけこむ"
+      "term": "pace",
+      "definition": "歩調を合わせて歩く"
     },
     {
-      "content": "pass",
-      "translation": "通り過ぎる"
+      "term": "pander to [prejudice]",
+      "definition": "[prejudice] につけこむ"
     },
     {
-      "content": "pass for [N] years old",
-      "translation": "[N] 歳として通用する"
+      "term": "pass",
+      "definition": "通り過ぎる"
     },
     {
-      "content": "perform",
-      "translation": "動作する"
+      "term": "pass for [N] years old",
+      "definition": "[N] 歳として通用する"
     },
     {
-      "content": "persevere",
-      "translation": "辛抱強くやり通す"
+      "term": "perform",
+      "definition": "動作する"
     },
     {
-      "content": "persist",
-      "translation": "（状態が）持続する / 保存される"
+      "term": "persevere",
+      "definition": "辛抱強くやり通す"
     },
     {
-      "content": "persist in [doing]",
-      "translation": "[doing] することを持続する"
+      "term": "persist",
+      "definition": "（状態が）持続する / 保存される"
     },
     {
-      "content": "plan on [A]",
-      "translation": "[A] について計画する"
+      "term": "persist in [doing]",
+      "definition": "[doing] することを持続する"
     },
     {
-      "content": "plummet",
-      "translation": "急落する"
+      "term": "plan on [A]",
+      "definition": "[A] について計画する"
     },
     {
-      "content": "plunge into [A]",
-      "translation": "[A] に突っ込む"
+      "term": "plummet",
+      "definition": "急落する"
     },
     {
-      "content": "point { at | against } [a target]",
-      "translation": "[a target] を指す"
+      "term": "plunge into [A]",
+      "definition": "[A] に突っ込む"
     },
     {
-      "content": "pray for [A]",
-      "translation": "[A] に祈りを捧げる"
+      "term": "point { at | against } [a target]",
+      "definition": "[a target] を指す"
     },
     {
-      "content": "preach to [somebody] { on | about } [A]",
-      "translation": "[somebody] へ [A] について訓示を垂れる"
+      "term": "pray for [A]",
+      "definition": "[A] に祈りを捧げる"
     },
     {
-      "content": "prepare for [A]",
-      "translation": "[A] の準備をする"
+      "term": "preach to [somebody] { on | about } [A]",
+      "definition": "[somebody] へ [A] について訓示を垂れる"
     },
     {
-      "content": "prevail in [A]",
-      "translation": "[A] にはびこる / 根強く残る"
+      "term": "prepare for [A]",
+      "definition": "[A] の準備をする"
     },
     {
-      "content": "prevail over [A]",
-      "translation": "[A] に勝る / 優先する"
+      "term": "prevail in [A]",
+      "definition": "[A] にはびこる / 根強く残る"
     },
     {
-      "content": "proceed to [A]",
-      "translation": "[A] へ前進する"
+      "term": "prevail over [A]",
+      "definition": "[A] に勝る / 優先する"
     },
     {
-      "content": "protest { at | against } [somebody]",
-      "translation": "[somebody] に対して抗議する"
+      "term": "proceed to [A]",
+      "definition": "[A] へ前進する"
     },
     {
-      "content": "prove to be [JJ]",
-      "translation": "[JJ] であると判明する"
+      "term": "protest { at | against } [somebody]",
+      "definition": "[somebody] に対して抗議する"
     },
     {
-      "content": "provide for [A]",
-      "translation": "[A] （家族）を養う"
+      "term": "prove to be [JJ]",
+      "definition": "[JJ] であると判明する"
     },
     {
-      "content": "pry into [A]",
-      "translation": "[A] を覗いて探索する"
+      "term": "provide for [A]",
+      "definition": "[A] （家族）を養う"
     },
     {
-      "content": "qualify for [A]",
-      "translation": "[A] への出場権を得る"
+      "term": "pry into [A]",
+      "definition": "[A] を覗いて探索する"
     },
     {
-      "content": "quarrel with [somebody]",
-      "translation": "[someone] と口喧嘩する"
+      "term": "qualify for [A]",
+      "definition": "[A] への出場権を得る"
     },
     {
-      "content": "quit",
-      "translation": "辞職する"
+      "term": "quarrel with [somebody]",
+      "definition": "[someone] と口喧嘩する"
     },
     {
-      "content": "quit on [somebody]",
-      "translation": "[somebody] を見捨てる"
+      "term": "quit",
+      "definition": "辞職する"
     },
     {
-      "content": "rage",
-      "translation": "（雷や風等が）荒れ狂う"
+      "term": "quit on [somebody]",
+      "definition": "[somebody] を見捨てる"
     },
     {
-      "content": "rage { at | against } [somebody]",
-      "translation": "[somebody] に対して激高する"
+      "term": "rage",
+      "definition": "（雷や風等が）荒れ狂う"
     },
     {
-      "content": "rage { for | about } [A]",
-      "translation": "[A] について激怒する"
+      "term": "rage { at | against } [somebody]",
+      "definition": "[somebody] に対して激高する"
     },
     {
-      "content": "reach into [A]",
-      "translation": "[A] の中に手を伸ばす"
+      "term": "rage { for | about } [A]",
+      "definition": "[A] について激怒する"
     },
     {
-      "content": "read from [A] into [B]",
-      "translation": "[A] から [B] に読み込む"
+      "term": "reach into [A]",
+      "definition": "[A] の中に手を伸ばす"
     },
     {
-      "content": "recommend against [doing]",
-      "translation": "[doing] しないように勧める"
+      "term": "read from [A] into [B]",
+      "definition": "[A] から [B] に読み込む"
     },
     {
-      "content": "refer to [A]",
-      "translation": "[A] に関連する / 意味する"
+      "term": "recommend against [doing]",
+      "definition": "[doing] しないように勧める"
     },
     {
-      "content": "reflect on [A]",
-      "translation": "[A] を考慮する"
+      "term": "refer to [A]",
+      "definition": "[A] に関連する / 意味する"
     },
     {
-      "content": "refrain from [doing]",
-      "translation": "[doing] することを控える（誘惑を我慢する）"
+      "term": "reflect on [A]",
+      "definition": "[A] を考慮する"
     },
     {
-      "content": "refuel at [A]",
-      "translation": "[A] で燃料補給する"
+      "term": "refrain from [doing]",
+      "definition": "[doing] することを控える（誘惑を我慢する）"
     },
     {
-      "content": "register for [A]",
-      "translation": "[A] に登録する"
+      "term": "refuel at [A]",
+      "definition": "[A] で燃料補給する"
     },
     {
-      "content": "relax",
-      "translation": "ゆっくりする"
+      "term": "register for [A]",
+      "definition": "[A] に登録する"
     },
     {
-      "content": "rest against [A]",
-      "translation": "[A] に寄りかかっている"
+      "term": "relax",
+      "definition": "ゆっくりする"
     },
     {
-      "content": "result from [A]",
-      "translation": "[A] に起因して起こる"
+      "term": "rest against [A]",
+      "definition": "[A] に寄りかかっている"
     },
     {
-      "content": "result in success",
-      "translation": "成功に終わる"
+      "term": "result from [A]",
+      "definition": "[A] に起因して起こる"
     },
     {
-      "content": "roll",
-      "translation": "転がる（ように動く）"
+      "term": "result in success",
+      "definition": "成功に終わる"
     },
     {
-      "content": "rule over [A]",
-      "translation": "[A] を支配する"
+      "term": "roll",
+      "definition": "転がる（ように動く）"
     },
     {
-      "content": "run for [A]",
-      "translation": "[A] に立候補する"
+      "term": "rule over [A]",
+      "definition": "[A] を支配する"
     },
     {
-      "content": "scream",
-      "translation": "悲鳴を上げる"
+      "term": "run for [A]",
+      "definition": "[A] に立候補する"
     },
     {
-      "content": "screech",
-      "translation": "引っ掻いたスリップ音が鳴る"
+      "term": "scream",
+      "definition": "悲鳴を上げる"
     },
     {
-      "content": "shatter",
-      "translation": "粉々になる"
+      "term": "screech",
+      "definition": "引っ掻いたスリップ音が鳴る"
     },
     {
-      "content": "shoot { at | against } [a target]",
-      "translation": "[a target] を撃つ"
+      "term": "shatter",
+      "definition": "粉々になる"
     },
     {
-      "content": "shrink",
-      "translation": "縮まる"
+      "term": "shoot { at | against } [a target]",
+      "definition": "[a target] を撃つ"
     },
     {
-      "content": "sigh",
-      "translation": "ため息をつく"
+      "term": "shrink",
+      "definition": "縮まる"
     },
     {
-      "content": "sink in [A]",
-      "translation": "[A] に沈む"
+      "term": "sigh",
+      "definition": "ため息をつく"
     },
     {
-      "content": "sit in [A]",
-      "translation": "[A] に座る"
+      "term": "sink in [A]",
+      "definition": "[A] に沈む"
     },
     {
-      "content": "sit on [A]",
-      "translation": "[A] の上に乗っている"
+      "term": "sit in [A]",
+      "definition": "[A] に座る"
     },
     {
-      "content": "skew",
-      "translation": "歪む"
+      "term": "sit on [A]",
+      "definition": "[A] の上に乗っている"
     },
     {
-      "content": "skid",
-      "translation": "横滑りする"
+      "term": "skew",
+      "definition": "歪む"
     },
     {
-      "content": "sleep",
-      "translation": "寝る"
+      "term": "skid",
+      "definition": "横滑りする"
     },
     {
-      "content": "sleep late",
-      "translation": "朝寝坊する（意図的）"
+      "term": "sleep",
+      "definition": "寝る"
     },
     {
-      "content": "slide",
-      "translation": "平行移動する"
+      "term": "sleep late",
+      "definition": "朝寝坊する（意図的）"
     },
     {
-      "content": "smart from [A]",
-      "translation": "[A] に憤慨する"
+      "term": "slide",
+      "definition": "平行移動する"
     },
     {
-      "content": "snack on [A]",
-      "translation": "[A] を間食する"
+      "term": "smart from [A]",
+      "definition": "[A] に憤慨する"
     },
     {
-      "content": "sneak into [A]",
-      "translation": "[A] の中に忍び込む"
+      "term": "snack on [A]",
+      "definition": "[A] を間食する"
     },
     {
-      "content": "sneeze",
-      "translation": "くしゃみをする"
+      "term": "sneak into [A]",
+      "definition": "[A] の中に忍び込む"
     },
     {
-      "content": "snoop",
-      "translation": "うろうろ捜し回る"
+      "term": "sneeze",
+      "definition": "くしゃみをする"
     },
     {
-      "content": "snore",
-      "translation": "いびきをかく"
+      "term": "snoop",
+      "definition": "うろうろ捜し回る"
     },
     {
-      "content": "soar",
-      "translation": "高く舞い上がる（空を舞う）"
+      "term": "snore",
+      "definition": "いびきをかく"
     },
     {
-      "content": "splash",
-      "translation": "飛び散る"
+      "term": "soar",
+      "definition": "高く舞い上がる（空を舞う）"
     },
     {
-      "content": "stand by [A]",
-      "translation": "[A] のそばにいる"
+      "term": "splash",
+      "definition": "飛び散る"
     },
     {
-      "content": "starve for [A]",
-      "translation": "[A] を切望する"
+      "term": "stand by [A]",
+      "definition": "[A] のそばにいる"
     },
     {
-      "content": "stick to [A]",
-      "translation": "[A] に付着している /（信条）に固執する"
+      "term": "starve for [A]",
+      "definition": "[A] を切望する"
     },
     {
-      "content": "stiffen",
-      "translation": "ストレスで顔がこわばる"
+      "term": "stick to [A]",
+      "definition": "[A] に付着している /（信条）に固執する"
     },
     {
-      "content": "stink",
-      "translation": "悪臭を放つ"
+      "term": "stiffen",
+      "definition": "ストレスで顔がこわばる"
     },
     {
-      "content": "stomp",
-      "translation": "足を踏み鳴らす"
+      "term": "stink",
+      "definition": "悪臭を放つ"
     },
     {
-      "content": "storm into [A]",
-      "translation": "[A] に突き進む"
+      "term": "stomp",
+      "definition": "足を踏み鳴らす"
     },
     {
-      "content": "strengthen [A]",
-      "translation": "[A] を強化する"
+      "term": "storm into [A]",
+      "definition": "[A] に突き進む"
     },
     {
-      "content": "stride",
-      "translation": "大股で歩く"
+      "term": "stride",
+      "definition": "大股で歩く"
     },
     {
-      "content": "stroll",
-      "translation": "ぶらぶら歩く"
+      "term": "stroll",
+      "definition": "ぶらぶら歩く"
     },
     {
-      "content": "struggle with [A]",
-      "translation": "[A] に対してもがく"
+      "term": "struggle with [A]",
+      "definition": "[A] に対してもがく"
     },
     {
-      "content": "study abroad",
-      "translation": "留学する"
+      "term": "study abroad",
+      "definition": "留学する"
     },
     {
-      "content": "stumble",
-      "translation": "つまずく"
+      "term": "stumble",
+      "definition": "つまずく"
     },
     {
-      "content": "stumble upon [A]",
-      "translation": "[A] に偶然出会う"
+      "term": "stumble upon [A]",
+      "definition": "[A] に偶然出会う"
     },
     {
-      "content": "subscribe to [A]",
-      "translation": "[A] を購読する"
+      "term": "subscribe to [A]",
+      "definition": "[A] を購読する"
     },
     {
-      "content": "succeed at [A]",
-      "translation": "[A] において成功する"
+      "term": "succeed at [A]",
+      "definition": "[A] において成功する"
     },
     {
-      "content": "succeed in [doing]",
-      "translation": "[doing] することに成功する"
+      "term": "succeed in [doing]",
+      "definition": "[doing] することに成功する"
     },
     {
-      "content": "suffer from [A]",
-      "translation": "[A] に悩まされる"
+      "term": "suffer from [A]",
+      "definition": "[A] に悩まされる"
     },
     {
-      "content": "sunbathe",
-      "translation": "日光浴する"
+      "term": "sunbathe",
+      "definition": "日光浴する"
     },
     {
-      "content": "survive into [the age]",
-      "translation": "[the age] まで生き残る"
+      "term": "survive into [the age]",
+      "definition": "[the age] まで生き残る"
     },
     {
-      "content": "swarm",
-      "translation": "群がる"
+      "term": "swarm",
+      "definition": "群がる"
     },
     {
-      "content": "swear",
-      "translation": "誓う"
+      "term": "swear",
+      "definition": "誓う"
     },
     {
-      "content": "swear { at | against } [somebody]",
-      "translation": "[somebody] に対して悪態をつく"
+      "term": "swear { at | against } [somebody]",
+      "definition": "[somebody] に対して悪態をつく"
     },
     {
-      "content": "swell",
-      "translation": "（量的に）膨らむ / 増加する / 顔などが腫れる"
+      "term": "sweep on the floor",
+      "definition": "床を掃く"
     },
     {
-      "content": "talk about [A]",
-      "translation": "[A] について話す"
+      "term": "swell",
+      "definition": "（量的に）膨らむ / 増加する / 顔などが腫れる"
     },
     {
-      "content": "talk to [somebody]",
-      "translation": "[somebody] に話す"
+      "term": "talk about [A]",
+      "definition": "[A] について話す"
     },
     {
-      "content": "tamper with [A]",
-      "translation": "[A] を改ざんする"
+      "term": "talk to [somebody]",
+      "definition": "[somebody] に話す"
     },
     {
-      "content": "telecommute",
-      "translation": "リモート勤務する"
+      "term": "tamper with [A]",
+      "definition": "[A] を改ざんする"
     },
     {
-      "content": "think about [A]",
-      "translation": "[A] について考える"
+      "term": "telecommute",
+      "definition": "リモート勤務する"
     },
     {
-      "content": "think of [doing]",
-      "translation": "[doing] しようと思っている"
+      "term": "think about [A]",
+      "definition": "[A] について考える"
     },
     {
-      "content": "throw { at | against } [a target]",
-      "translation": "[a target] へ投げる"
+      "term": "think of [doing]",
+      "definition": "[doing] しようと思っている"
     },
     {
-      "content": "tinker with [A]",
-      "translation": "[A] を（修繕するつもりで下手に）弄る"
+      "term": "throw { at | against } [a target]",
+      "definition": "[a target] へ投げる"
     },
     {
-      "content": "tower",
-      "translation": "高くそびえる"
+      "term": "tinker with [A]",
+      "definition": "[A] を（修繕するつもりで下手に）弄る"
     },
     {
-      "content": "tumble",
-      "translation": "転ぶ / 躓く / 転落する"
+      "term": "tower",
+      "definition": "高くそびえる"
     },
     {
-      "content": "turn to [A]",
-      "translation": "[A] に方向を変える"
+      "term": "tumble",
+      "definition": "転ぶ / 躓く / 転落する"
     },
     {
-      "content": "type into [A]",
-      "translation": "[A] にキーボード入力する"
+      "term": "turn to [A]",
+      "definition": "[A] に方向を変える"
     },
     {
-      "content": "unwind",
-      "translation": "くつろぐ（羽をのばす）"
+      "term": "type into [A]",
+      "definition": "[A] にキーボード入力する"
     },
     {
-      "content": "vanish",
-      "translation": "（事件や事故などで）消息を断つ"
+      "term": "unwind",
+      "definition": "くつろぐ（羽をのばす）"
     },
     {
-      "content": "venture",
-      "translation": "危険を冒して試みる"
+      "term": "vanish",
+      "definition": "（事件や事故などで）消息を断つ"
     },
     {
-      "content": "vote { in favor of | against } [A]",
-      "translation": "[A] への (賛成票|反対票) を投票する"
+      "term": "venture",
+      "definition": "危険を冒して試みる"
     },
     {
-      "content": "waft",
-      "translation": "漂う"
+      "term": "vote { in favor of | against } [A]",
+      "definition": "[A] への (賛成票|反対票) を投票する"
     },
     {
-      "content": "wave to [somebody]",
-      "translation": "[somebody] に手を振る"
+      "term": "waft",
+      "definition": "漂う"
     },
     {
-      "content": "weigh",
-      "translation": "重さがある"
+      "term": "wave to [somebody]",
+      "definition": "[somebody] に手を振る"
     },
     {
-      "content": "weigh into [A]",
-      "translation": "[A] （議論や闘争など）に入れこむ（熱く参加する）"
+      "term": "weigh",
+      "definition": "重さがある"
     },
     {
-      "content": "work as [a position]",
-      "translation": "[a position] として働く"
+      "term": "weigh into [A]",
+      "definition": "[A] （議論や闘争など）に入れこむ（熱く参加する）"
     },
     {
-      "content": "work at [an office]",
-      "translation": "[an office] で働く"
+      "term": "work as [a position]",
+      "definition": "[a position] として働く"
     },
     {
-      "content": "work for [a company]",
-      "translation": "[a company] に勤務する"
+      "term": "work at [an office]",
+      "definition": "[an office] で働く"
     },
     {
-      "content": "work for [somebody]",
-      "translation": "[somebody] に{ 合っている | 向いている }"
+      "term": "work for [a company]",
+      "definition": "[a company] に勤務する"
     },
     {
-      "content": "write to [somebody]",
-      "translation": "[somebody] に手紙を書く"
+      "term": "work for [somebody]",
+      "definition": "[somebody] に{ 合っている | 向いている }"
     },
     {
-      "content": "yawn",
-      "translation": "あくびする"
+      "term": "write to [somebody]",
+      "definition": "[somebody] に手紙を書く"
     },
     {
-      "content": "suffice",
-      "translation": "事足りる"
+      "term": "yawn",
+      "definition": "あくびする"
     },
     {
-      "content": "leap over [A]",
-      "translation": "[A] を{ 飛び越える }"
+      "term": "suffice",
+      "definition": "事足りる"
+    },
+    {
+      "term": "leap over [A]",
+      "definition": "[A] を{ 飛び越える }"
     }
   ]
 }

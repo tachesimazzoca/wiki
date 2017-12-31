@@ -1,54 +1,54 @@
 {
   "fields": [
     {
-      "key": "content",
-      "name": "Content"
+      "key": "term",
+      "name": "Term"
     },
     {
-      "key": "translation",
-      "name": "Translation"
+      "key": "definition",
+      "name": "Definition"
     }
   ],
   "rows": [
     {
-      "content": "call [A] [Bob]",
-      "translation": "[A] を [Bob] と通称する"
+      "term": "call [A] [Bob]",
+      "definition": "[A] を [Bob] と通称する"
     },
     {
-      "content": "consider [A] [rude]",
-      "translation": "[A] を [rude] とみなす"
+      "term": "consider [A] [rude]",
+      "definition": "[A] を [rude] とみなす"
     },
     {
-      "content": "find [A] [easy]",
-      "translation": "[A] を [easy] だと感じる"
+      "term": "find [A] [easy]",
+      "definition": "[A] を [easy] だと感じる"
     },
     {
-      "content": "keep [A] [clean]",
-      "translation": "[A] を [clean] に保つ"
+      "term": "keep [A] [clean]",
+      "definition": "[A] を [clean] に保つ"
     },
     {
-      "content": "label [A] [stupid]",
-      "translation": "[A] を [stupid] だとレッテルを貼る"
+      "term": "label [A] [stupid]",
+      "definition": "[A] を [stupid] だとレッテルを貼る"
     },
     {
-      "content": "leave [A] [open]",
-      "translation": "[A] を [open] にしておく"
+      "term": "leave [A] [open]",
+      "definition": "[A] を [open] にしておく"
     },
     {
-      "content": "make [A] [happy]",
-      "translation": "[A] を [happy] にする"
+      "term": "make [A] [happy]",
+      "definition": "[A] を [happy] にする"
     },
     {
-      "content": "paint [A] [white]",
-      "translation": "[A] を [white] に塗る"
+      "term": "paint [A] [white]",
+      "definition": "[A] を [white] に塗る"
     },
     {
-      "content": "prove [A] [right]",
-      "translation": "[A] を [right] だと証明する"
+      "term": "prove [A] [right]",
+      "definition": "[A] を [right] だと証明する"
     },
     {
-      "content": "set [A] free",
-      "translation": "[A] を解放する"
+      "term": "set [A] free",
+      "definition": "[A] を解放する"
     }
   ]
 }

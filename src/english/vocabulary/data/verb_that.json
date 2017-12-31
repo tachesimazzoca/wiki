@@ -1,66 +1,66 @@
 {
   "fields": [
     {
-      "key": "content",
-      "name": "Content"
+      "key": "term",
+      "name": "Term"
     },
     {
-      "key": "translation",
-      "name": "Translation"
+      "key": "definition",
+      "name": "Definition"
     }
   ],
   "rows": [
     {
-      "content": "{ noticed | felt | saw | heard | listened to } [A] [do]",
-      "translation": "知覚動詞"
+      "term": "{ noticed | felt | saw | heard | listened to } [A] [do]",
+      "definition": "知覚動詞"
     },
     {
-      "content": "{ think | suppose | guess | expect | predict | bet } that [...].",
-      "translation": "思考"
+      "term": "{ think | suppose | guess | expect | predict | bet } that [...].",
+      "definition": "思考"
     },
     {
-      "content": "{ say | claim | insist | allege | contend } that [...]",
-      "translation": "[...] であると証拠なく訴える"
+      "term": "{ say | claim | insist | allege | contend } that [...]",
+      "definition": "[...] であると証拠なく訴える"
     },
     {
-      "content": "ask { if | whether } [...].",
-      "translation": "Yes / No の質問をする"
+      "term": "ask { if | whether } [...].",
+      "definition": "Yes / No の質問をする"
     },
     {
-      "content": "ask { what | when | where | who | why | which | how } [...].",
-      "translation": "5W1H の質問をする"
+      "term": "ask { what | when | where | who | why | which | how } [...].",
+      "definition": "5W1H の質問をする"
     },
     {
-      "content": "assume that [...]",
-      "translation": "仮定"
+      "term": "assume that [...]",
+      "definition": "仮定"
     },
     {
-      "content": "{ prove | certify | demonstrate } that [...]",
-      "translation": "証明"
+      "term": "{ prove | certify | demonstrate } that [...]",
+      "definition": "証明"
     },
     {
-      "content": "consider that [...]",
-      "translation": "考慮"
+      "term": "consider that [...]",
+      "definition": "考慮"
     },
     {
-      "content": "{ suspect | doubt } that [...].",
-      "translation": "疑念"
+      "term": "{ suspect | doubt } that [...].",
+      "definition": "疑念"
     },
     {
-      "content": "It's { believed | alleged | reported } that [...].",
-      "translation": "[...] だと報告されている"
+      "term": "It's { believed | alleged | reported } that [...].",
+      "definition": "[...] だと報告されている"
     },
     {
-      "content": "It's { important | essential | necessary | imperative } that [A] (should)? [do] ",
-      "translation": "[...] であることは重要である"
+      "term": "It's { important | essential | necessary | imperative } that [A] (should)? [do] ",
+      "definition": "[...] であることは重要である"
     },
     {
-      "content": "It's { said | supposed | known | believed | expected } that [...].",
-      "translation": "[...] だと思われている"
+      "term": "It's { said | supposed | known | believed | expected } that [...].",
+      "definition": "[...] だと思われている"
     },
     {
-      "content": "recall that [...]",
-      "translation": "記憶"
+      "term": "recall that [...]",
+      "definition": "記憶"
     }
   ]
 }

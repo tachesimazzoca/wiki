@@ -1,1914 +1,1934 @@
 {
   "fields": [
     {
-      "key": "content",
-      "name": "Content"
+      "key": "term",
+      "name": "Term"
     },
     {
-      "key": "translation",
-      "name": "Translation"
+      "key": "definition",
+      "name": "Definition"
     }
   ],
   "rows": [
     {
-      "content": "abrupt | unexpected",
-      "translation": "不意で突然の"
+      "term": "{ abrupt | unexpected }",
+      "definition": "不意で突然の"
     },
     {
-      "content": "abundant | profuse | lavish",
-      "translation": "あり余る"
+      "term": "{ abundant | profuse | lavish }",
+      "definition": "あり余る"
     },
     {
-      "content": "academic",
-      "translation": "学問的な"
+      "term": "{ additional | supplementary }",
+      "definition": "追加の"
     },
     {
-      "content": "accessible",
-      "translation": "アクセスできる"
+      "term": "{ adjacent | contiguous }",
+      "definition": "隣接した"
     },
     {
-      "content": "accurate",
-      "translation": "正確な"
+      "term": "{ adorable | pretty | cute | charming }",
+      "definition": "愛らしい"
     },
     {
-      "content": "active",
-      "translation": "動いている"
+      "term": "{ advanced | progressive | radical }",
+      "definition": "革新的な"
     },
     {
-      "content": "actual",
-      "translation": "実際の"
+      "term": "{ amazing | astonishing }",
+      "definition": "驚くほどすごい"
     },
     {
-      "content": "additional | supplementary",
-      "translation": "追加の"
+      "term": "{ ambiguous | vague | obscure | uncertain }",
+      "definition": "曖昧な"
     },
     {
-      "content": "adjacent | contiguous",
-      "translation": "隣接した"
+      "term": "{ appropriate | proper | suitable }",
+      "definition": "適している"
     },
     {
-      "content": "administrative",
-      "translation": "管理の"
+      "term": "{ approved | endorsed }",
+      "definition": "良いと認定されている"
     },
     {
-      "content": "adorable | pretty | cute | charming",
-      "translation": "愛らしい"
+      "term": "{ awesome | superb | terrific | marvelous }",
+      "definition": "すごい（ヤバい）"
     },
     {
-      "content": "advanced | progressive | radical",
-      "translation": "革新的な"
+      "term": "{ awful | terrible }",
+      "definition": "ひどい"
     },
     {
-      "content": "adverse",
-      "translation": "不利な"
+      "term": "{ bad | evil | wicked }",
+      "definition": "悪い"
     },
     {
-      "content": "advisable",
-      "translation": "望ましい / 推奨する"
+      "term": "{ big | large }",
+      "definition": "大きい"
     },
     {
-      "content": "aforementioned",
-      "translation": "前述の"
+      "term": "{ bold | sassy }",
+      "definition": "大胆な / 力強い / 目立つ"
     },
     {
-      "content": "aged",
-      "translation": "年期のある"
+      "term": "{ bright | luminous }",
+      "definition": "明るい"
     },
     {
-      "content": "alarming",
-      "translation": "深刻な"
+      "term": "{ busy | jammed | congested }",
+      "definition": "渋滞している"
     },
     {
-      "content": "alike",
-      "translation": "同様の"
+      "term": "{ calm | quiet | composed }",
+      "definition": "落ち着いた"
     },
     {
-      "content": "alive",
-      "translation": "生きている"
+      "term": "{ careful | cautious }",
+      "definition": "注意深い"
     },
     {
-      "content": "amazing | astonishing",
-      "translation": "驚くほどすごい"
+      "term": "{ cluttered | messy }",
+      "definition": "散らかった"
     },
     {
-      "content": "ambiguous | vague | obscure | uncertain",
-      "translation": "曖昧な"
+      "term": "{ complex | complicated }",
+      "definition": "複雑な"
     },
     {
-      "content": "ancient",
-      "translation": "古代の"
+      "term": "{ compulsory | mandatory }",
+      "definition": "強制的な / 義務の"
     },
     {
-      "content": "annual",
-      "translation": "年次の"
+      "term": "{ concurrent | simultaneous }",
+      "definition": "同時に起こる"
     },
     {
-      "content": "anomalous",
-      "translation": "例外の"
+      "term": "{ consistent | coherent }",
+      "definition": "一貫性のある / ブレない"
     },
     {
-      "content": "anonymous",
-      "translation": "匿名の"
+      "term": "{ contagious | spreading }",
+      "definition": "伝染性の"
     },
     {
-      "content": "anxious",
-      "translation": "（不安や切望で）そわそわした"
+      "term": "{ continuing | ongoing }",
+      "definition": "進行中の"
     },
     {
-      "content": "applicable",
-      "translation": "適用できる"
+      "term": "{ continuous | consecutive }",
+      "definition": "連続した"
     },
     {
-      "content": "appropriate | proper | suitable",
-      "translation": "適している"
+      "term": "{ cool | aloof | distant }",
+      "definition": "よそよそしい"
     },
     {
-      "content": "approved | endorsed",
-      "translation": "良いと認定されている"
+      "term": "{ crazy | mad }",
+      "definition": "気が狂った"
     },
     {
-      "content": "arbitrary",
-      "translation": "任意の"
+      "term": "{ cruel | brutal }",
+      "definition": "残酷な"
     },
     {
-      "content": "authentic",
-      "translation": "伝統にしたがった本流の"
+      "term": "{ curious | inquisitive }",
+      "definition": "好奇心旺盛な"
     },
     {
-      "content": "automated",
-      "translation": "自動化された"
+      "term": "{ dark | gloomy }",
+      "definition": "暗い"
     },
     {
-      "content": "awesome | superb | terrific | marvelous",
-      "translation": "すごい（ヤバい）"
+      "term": "{ depressing | dismal }",
+      "definition": "気が滅入る"
     },
     {
-      "content": "awful | terrible",
-      "translation": "ひどい"
+      "term": "{ desirable | preferable }",
+      "definition": "好ましい / そうであると尚良い"
     },
     {
-      "content": "awkward",
-      "translation": "ぎこちない"
+      "term": "{ despicable | scummy }",
+      "definition": "卑劣な"
     },
     {
-      "content": "bad | evil | wicked",
-      "translation": "悪い"
+      "term": "{ diligent | studious | industrious }",
+      "definition": "勤勉な"
     },
     {
-      "content": "bare | mere",
-      "translation": "ぎりぎりわずかの"
+      "term": "{ dirty | nasty }",
+      "definition": "汚い"
     },
     {
-      "content": "beautiful",
-      "translation": "美しい"
+      "term": "{ doubtful | suspicious }",
+      "definition": "疑わしい"
     },
     {
-      "content": "big | large",
-      "translation": "大きい"
+      "term": "{ durable | robust }",
+      "definition": "耐性のある"
     },
     {
-      "content": "bitter",
-      "translation": "苦い"
+      "term": "{ dying | wilting | wilted }",
+      "definition": "枯れた"
     },
     {
-      "content": "bold | sassy",
-      "translation": "大胆な / 力強い / 目立つ"
+      "term": "{ eager | anxious }",
+      "definition": "切望している"
     },
     {
-      "content": "brave",
-      "translation": "勇敢な"
+      "term": "{ elaborate | exquisite }",
+      "definition": "精巧な"
     },
     {
-      "content": "brief",
-      "translation": "手短な / 持続性がない"
+      "term": "{ elegant | decent }",
+      "definition": "上品な"
     },
     {
-      "content": "bright | luminous",
-      "translation": "明るい"
+      "term": "{ embarrassed | ashamed | shameful }",
+      "definition": "恥ずかしい"
     },
     {
-      "content": "brisk",
-      "translation": "活発な"
+      "term": "{ enough | sufficient | adequate }",
+      "definition": "十分な"
     },
     {
-      "content": "broad",
-      "translation": "広範囲な"
+      "term": "{ enthusiastic | avid | fanatical }",
+      "definition": "熱狂的な オタクな"
     },
     {
-      "content": "bulletproof",
-      "translation": "失敗の心配がいらない"
+      "term": "{ expected | anticipated }",
+      "definition": "期待される"
     },
     {
-      "content": "busy | jammed | congested",
-      "translation": "渋滞している"
+      "term": "{ expert | skillfull | accomplished | proficient }",
+      "definition": "熟達した"
     },
     {
-      "content": "calm | quiet | composed",
-      "translation": "落ち着いた"
+      "term": "{ extraordinary | exceptional }",
+      "definition": "異常な / 並外れた"
     },
     {
-      "content": "candid",
-      "translation": "率直な"
+      "term": "{ extreme | excessive | intense }",
+      "definition": "極端な"
     },
     {
-      "content": "capable",
-      "translation": "使える（受け入れられる）"
+      "term": "{ fake | bogus }",
+      "definition": "偽物の"
     },
     {
-      "content": "careful | cautious",
-      "translation": "注意深い"
+      "term": "{ famous | noted }",
+      "definition": "名高い"
     },
     {
-      "content": "certain",
-      "translation": "確かな"
+      "term": "{ fascinating | attractive }",
+      "definition": "わくわくする"
     },
     {
-      "content": "challenging",
-      "translation": "やりがいがある"
+      "term": "{ fast | quick | rapid | prompt | swift }",
+      "definition": "{ 速い | 素早い }"
     },
     {
-      "content": "cheap ! expensive",
-      "translation": "安価な ! 高価な"
+      "term": "{ favorable | agreeable }",
+      "definition": "好ましい"
     },
     {
-      "content": "clean",
-      "translation": "きれいな"
+      "term": "{ feasible | doable }",
+      "definition": "実現可能な"
     },
     {
-      "content": "clerical",
-      "translation": "事務の"
+      "term": "{ fixed | repaired }",
+      "definition": "修繕された"
     },
     {
-      "content": "clutch",
-      "translation": "ピンチに強い / 勝負を決める"
+      "term": "{ flaky | breakable | fragile }",
+      "definition": "壊れやすい"
     },
     {
-      "content": "cluttered | messy",
-      "translation": "散らかった"
+      "term": "{ flash | loud }",
+      "definition": "派手な"
     },
     {
-      "content": "comfortable",
-      "translation": "快適な"
+      "term": "{ flawed | defective }",
+      "definition": "欠陥のある"
     },
     {
-      "content": "common",
-      "translation": "共通の"
+      "term": "{ foolish | stupid | dumb | silly | mad }",
+      "definition": "間抜けな"
     },
     {
-      "content": "competent",
-      "translation": "有能な"
+      "term": "{ formal | prim | starchy }",
+      "definition": "堅苦しい"
     },
     {
-      "content": "complex | complicated",
-      "translation": "複雑な"
+      "term": "{ fragrant | aromatic }",
+      "definition": "香り高い"
     },
     {
-      "content": "comprehensive",
-      "translation": "総合的な"
+      "term": "{ free | complimentary }",
+      "definition": "無料の"
     },
     {
-      "content": "compulsory | mandatory",
-      "translation": "強制的な / 義務の"
+      "term": "{ friendly | amiable | affable }",
+      "definition": "人なつこい"
     },
     {
-      "content": "concise",
-      "translation": "簡潔な / 単純明快な"
+      "term": "{ frustrated | stressful }",
+      "definition": "欲求不満の"
     },
     {
-      "content": "concurrent | simultaneous",
-      "translation": "同時に起こる"
+      "term": "{ funny | hilarious | humorous }",
+      "definition": "面白い"
     },
     {
-      "content": "conditional",
-      "translation": "条件付きの"
+      "term": "{ gorgeous | splended }",
+      "definition": "華麗な"
     },
     {
-      "content": "confident",
-      "translation": "自信がある"
+      "term": "{ great | excellent | fabulous }",
+      "definition": "大変良い"
     },
     {
-      "content": "congruent",
-      "translation": "調和な"
+      "term": "{ greedy | eager }",
+      "definition": "貪欲な"
     },
     {
-      "content": "conscientious",
-      "translation": "誠実な"
+      "term": "{ harsh | bitter }",
+      "definition": "辛辣な / 痛烈な"
     },
     {
-      "content": "conscious",
-      "translation": "意識的な / 自覚している"
+      "term": "{ healing | remedial | sanative }",
+      "definition": "癒しの"
     },
     {
-      "content": "consistent | coherent",
-      "translation": "一貫性のある / ブレない"
+      "term": "{ healthy | nutritious }",
+      "definition": "健康的な / 栄養のある"
     },
     {
-      "content": "contagious | spreading",
-      "translation": "伝染性の"
+      "term": "{ holy | sacred }",
+      "definition": "神聖な"
     },
     {
-      "content": "contemporary",
-      "translation": "同時代の"
+      "term": "{ horrible | horrific }",
+      "definition": "恐ろしい"
     },
     {
-      "content": "continuing | ongoing",
-      "translation": "進行中の"
+      "term": "{ hot | spicy }",
+      "definition": "辛い"
     },
     {
-      "content": "continuous | consecutive",
-      "translation": "連続した"
+      "term": "{ huge | immense | enormous | tremendous }",
+      "definition": "莫大な"
     },
     {
-      "content": "conventional",
-      "translation": "従来の"
+      "term": "{ ignorant | untrained }",
+      "definition": "無知な"
     },
     {
-      "content": "cool | aloof | distant",
-      "translation": "よそよそしい"
+      "term": "{ immediate | urgent }",
+      "definition": "急ぎの"
     },
     {
-      "content": "cooperative",
-      "translation": "協力的な"
+      "term": "{ inconsistent | contradictory }",
+      "definition": "一貫性のない / 矛盾した"
     },
     {
-      "content": "corporal",
-      "translation": "肉体的な"
+      "term": "{ inevitable | fateful }",
+      "definition": "避けられない"
     },
     {
-      "content": "correct",
-      "translation": "正しい（誤りがない）"
+      "term": "{ intentional | deliberate }",
+      "definition": "意図的な"
     },
     {
-      "content": "corresponding",
-      "translation": "対になる"
+      "term": "{ invaluable | precious }",
+      "definition": "貴重な"
     },
     {
-      "content": "corrupt",
-      "translation": "腐敗した / 壊れた"
+      "term": "{ kind | thoughtful | considerate }",
+      "definition": "親切な / 思いやりのある"
     },
     {
-      "content": "cousory",
-      "translation": "雑に / ざくっと"
+      "term": "{ lackluster | dreary }",
+      "definition": "どんよりとした / 活気のない"
     },
     {
-      "content": "cramped",
-      "translation": "窮屈な"
+      "term": "{ last | final | ultimate }",
+      "definition": "最後の"
     },
     {
-      "content": "crazy | mad",
-      "translation": "気が狂った"
+      "term": "{ lush | verdant }",
+      "definition": "青々とした"
     },
     {
-      "content": "crispy",
-      "translation": "カリっと香ばしい"
+      "term": "{ luxurious | extravagant }",
+      "definition": "贅沢な"
     },
     {
-      "content": "critical",
-      "translation": "成否を左右するほど重要な"
+      "term": "{ magnificent | majestic }",
+      "definition": "壮大な"
     },
     {
-      "content": "crucial",
-      "translation": "極めて重要な（無視できない）"
+      "term": "{ mature | ripe }",
+      "definition": "成熟した"
     },
     {
-      "content": "cruel | brutal",
-      "translation": "残酷な"
+      "term": "{ merry | joyful }",
+      "definition": "陽気な"
     },
     {
-      "content": "curious | inquisitive",
-      "translation": "好奇心旺盛な"
+      "term": "{ modest | humble }",
+      "definition": "謙虚な"
     },
     {
-      "content": "cynical",
-      "translation": "皮肉な / 冷笑的な"
+      "term": "{ moral | ethical | virtuous }",
+      "definition": "道徳的な"
     },
     {
-      "content": "damaged",
-      "translation": "ボロボロの"
+      "term": "{ necessary | essential | vital | pivotal | integral }",
+      "definition": "必要な / 不可欠な"
     },
     {
-      "content": "dangerous",
-      "translation": "危険な"
+      "term": "{ next | following | subsequent }",
+      "definition": "次の"
     },
     {
-      "content": "dark | gloomy",
-      "translation": "暗い"
+      "term": "{ noisy | blatant }",
+      "definition": "うるさい"
     },
     {
-      "content": "daunting",
-      "translation": "怖じ気づくほど困難である"
+      "term": "{ numerous | innumerable }",
+      "definition": "無数の"
     },
     {
-      "content": "dazzling",
-      "translation": "眩しい（まばゆい）"
+      "term": "{ obvious | apparent }",
+      "definition": "明らかな"
     },
     {
-      "content": "dead",
-      "translation": "死んでいる"
+      "term": "{ old | obsolete | outdated | stale }",
+      "definition": "古い / 古風な / 時代遅れの"
     },
     {
-      "content": "decent",
-      "translation": "まともな"
+      "term": "{ other | alternative }",
+      "definition": "別の"
     },
     {
-      "content": "dedicated",
-      "translation": "専用の"
+      "term": "{ periodical | regular }",
+      "definition": "定期の"
     },
     {
-      "content": "deep ! shallow",
-      "translation": "深い ! 浅い"
+      "term": "{ persuasive | influential }",
+      "definition": "説得力がある"
     },
     {
-      "content": "defective",
-      "translation": "欠陥のある"
+      "term": "{ polite | courteous }",
+      "definition": "礼儀正しい"
     },
     {
-      "content": "delicious",
-      "translation": "とても美味しい"
+      "term": "{ populous | crowded }",
+      "definition": "人口が多い"
     },
     {
-      "content": "demanding",
-      "translation": "要求の多い"
+      "term": "{ practical | pragmatic }",
+      "definition": "実用的な"
     },
     {
-      "content": "depressing | dismal",
-      "translation": "気が滅入る"
+      "term": "{ profitable | lucrative }",
+      "definition": "儲かる"
     },
     {
-      "content": "derivative",
-      "translation": "派生した"
+      "term": "{ pure | absolute | utter }",
+      "definition": "純粋な"
     },
     {
-      "content": "desirable | preferable",
-      "translation": "好ましい / そうであると尚良い"
+      "term": "{ reliable | dependable }",
+      "definition": "信頼性のある"
     },
     {
-      "content": "desperate",
-      "translation": "自暴自棄な / 無鉄砲な / 絶望的に悲惨な"
+      "term": "{ remarkable | notable | considerable }",
+      "definition": "注目すべき / 無視できない"
     },
     {
-      "content": "despicable | scummy",
-      "translation": "卑劣な"
+      "term": "{ repetitious | repetitive }",
+      "definition": "繰り返しでくどい"
     },
     {
-      "content": "detrimental",
-      "translation": "害しやすい"
+      "term": "{ rich | affluent }",
+      "definition": "豊かな / 裕福な"
     },
     {
-      "content": "devastating",
-      "translation": "壊滅的な"
+      "term": "{ ridiculous | absurd | preposterous }",
+      "definition": "ばかばかしくて話にならない"
     },
     {
-      "content": "diligent | studious",
-      "translation": "勤勉な"
+      "term": "{ rude | crude | offensive }",
+      "definition": "無礼な"
     },
     {
-      "content": "dim",
-      "translation": "かすんだ / ぼやけた / 薄暗い"
+      "term": "{ safe | secure }",
+      "definition": "安全な"
     },
     {
-      "content": "diplomatic",
-      "translation": "外交上の"
+      "term": "{ satisfied | fulfilled }",
+      "definition": "満たされた"
     },
     {
-      "content": "dirty | nasty",
-      "translation": "汚い"
+      "term": "{ selfish | arrogant | egoistic }",
+      "definition": "傲慢な"
     },
     {
-      "content": "disappointed",
-      "translation": "がっかりする"
+      "term": "{ sensitive | delicate }",
+      "definition": "慎重に取り扱うべき"
     },
     {
-      "content": "discrete",
-      "translation": "区分けされた"
+      "term": "{ serious | earnest | solemn }",
+      "definition": "真剣な"
     },
     {
-      "content": "disgusting",
-      "translation": "胸くそ悪い"
+      "term": "{ severe | acue }",
+      "definition": "深刻な / 過酷な"
     },
     {
-      "content": "dispensable",
-      "translation": "不必要な"
+      "term": "{ sharp | keen | shrewd | acute }",
+      "definition": "鋭い / 洞察力のある"
     },
     {
-      "content": "distinct",
-      "translation": "他とは異なる / 区別できる"
+      "term": "{ shy | timid }",
+      "definition": "恥ずかしがり屋な"
     },
     {
-      "content": "diverse",
-      "translation": "多様な"
+      "term": "{ significant | substantial | decent }",
+      "definition": "かなりの"
     },
     {
-      "content": "domestic",
-      "translation": "家庭内の / 国内の"
+      "term": "{ simple | straightforward }",
+      "definition": "簡素な"
     },
     {
-      "content": "dominant",
-      "translation": "支配的な / 圧倒的な"
+      "term": "{ sincere | hearty | heartfelt }",
+      "definition": "嘘偽りのない正直な"
     },
     {
-      "content": "doubtful | suspicious",
-      "translation": "疑わしい"
+      "term": "{ small | tiny }",
+      "definition": "小さい"
     },
     {
-      "content": "downtown",
-      "translation": "商業地区の"
+      "term": "{ smart | sensible }",
+      "definition": "賢明な"
     },
     {
-      "content": "drastic",
-      "translation": "抜本的な"
+      "term": "{ smelly | stinking }",
+      "definition": "臭い"
     },
     {
-      "content": "dry ! wet",
-      "translation": "乾燥した ! 濡れた"
+      "term": "{ specific | particular | certain }",
+      "definition": "特定の"
     },
     {
-      "content": "dubious",
-      "translation": "半信半疑な"
+      "term": "{ strange | weird | odd | bizarre | peculiar }",
+      "definition": "風変わりな / 妙な"
     },
     {
-      "content": "duplicate",
-      "translation": "複製の"
+      "term": "{ strict | rigorous | stringent | rigid }",
+      "definition": "厳格な"
     },
     {
-      "content": "durable | robust",
-      "translation": "耐性のある"
+      "term": "{ stubborn | obstinate }",
+      "definition": "頑固な"
     },
     {
-      "content": "dying | wilting | wilted",
-      "translation": "枯れた"
+      "term": "{ sweet | mild }",
+      "definition": "甘い"
     },
     {
-      "content": "eager | anxious",
-      "translation": "切望している"
+      "term": "{ synthetic | artificial }",
+      "definition": "人工の"
     },
     {
-      "content": "easy ! difficult",
-      "translation": "簡単な ! 難しい"
+      "term": "{ tasty | savory }",
+      "definition": "美味しい"
     },
     {
-      "content": "easy ! uneasy",
-      "translation": "気楽な ! 気が休まらない"
+      "term": "{ tedious | boring | monotonous }",
+      "definition": "退屈な"
     },
     {
-      "content": "edible",
-      "translation": "食べられる"
+      "term": "{ temporary | provisional | tentative }",
+      "definition": "仮の"
     },
     {
-      "content": "efficient | effective",
-      "translation": "効果的な"
+      "term": "{ tight | fast }",
+      "definition": "しっかりとした"
     },
     {
-      "content": "elaborate | exquisite",
-      "translation": "精巧な"
+      "term": "{ typical | ordinary }",
+      "definition": "良くある / ありふれた"
     },
     {
-      "content": "elderly",
-      "translation": "年寄りの"
+      "term": "{ unbelievable | incredible }",
+      "definition": "信じられない"
     },
     {
-      "content": "elegant | decent",
-      "translation": "上品な"
+      "term": "{ useful | informative | benefical }",
+      "definition": "役立つ"
     },
     {
-      "content": "eloquent",
-      "translation": "雄弁な"
+      "term": "{ valuable | precious }",
+      "definition": "貴重な"
     },
     {
-      "content": "embarrassed | ashamed | shameful",
-      "translation": "恥ずかしい"
+      "term": "{ volatile | inconstant | changeable }",
+      "definition": "不安定な"
     },
     {
-      "content": "endangered",
-      "translation": "絶滅寸前の"
+      "term": "academic",
+      "definition": "学問的な"
     },
     {
-      "content": "enough | sufficient | adequate",
-      "translation": "十分な"
+      "term": "accessible",
+      "definition": "アクセスできる"
     },
     {
-      "content": "enthusiastic | avid | fanatical",
-      "translation": "熱狂的な オタクな"
+      "term": "accurate",
+      "definition": "正確な"
     },
     {
-      "content": "entire",
-      "translation": "全ての"
+      "term": "active",
+      "definition": "動いている"
     },
     {
-      "content": "equal",
-      "translation": "等しい"
+      "term": "actual",
+      "definition": "実際の"
     },
     {
-      "content": "equivalent",
-      "translation": "同等の（同じ価値の）"
+      "term": "administrative",
+      "definition": "管理の"
     },
     {
-      "content": "eternal",
-      "translation": "永遠な"
+      "term": "adverse",
+      "definition": "不利な"
     },
     {
-      "content": "ethical",
-      "translation": "倫理的な"
+      "term": "advisable",
+      "definition": "望ましい / 推奨する"
     },
     {
-      "content": "evil",
-      "translation": "凶悪な"
+      "term": "aforementioned",
+      "definition": "前述の"
     },
     {
-      "content": "exclusive",
-      "translation": "限定の / 排他の"
+      "term": "aged",
+      "definition": "年期のある"
     },
     {
-      "content": "expected | anticipated",
-      "translation": "期待される"
+      "term": "alarming",
+      "definition": "深刻な"
     },
     {
-      "content": "experienced",
-      "translation": "経験豊富な"
+      "term": "alike",
+      "definition": "同様の"
     },
     {
-      "content": "expert | skillfull | accomplished | proficient",
-      "translation": "熟達した"
+      "term": "alive",
+      "definition": "生きている"
     },
     {
-      "content": "exponential",
-      "translation": "指数的な"
+      "term": "ancient",
+      "definition": "古代の"
     },
     {
-      "content": "extensive",
-      "translation": "広範囲な"
+      "term": "annual",
+      "definition": "年次の"
     },
     {
-      "content": "extraordinary | exceptional",
-      "translation": "異常な / 並外れた"
+      "term": "anomalous",
+      "definition": "例外の"
     },
     {
-      "content": "extreme | excessive | intense",
-      "translation": "極端な"
+      "term": "anonymous",
+      "definition": "匿名の"
     },
     {
-      "content": "fake | bogus",
-      "translation": "偽物の"
+      "term": "anxious",
+      "definition": "（不安や切望で）そわそわした"
     },
     {
-      "content": "famous | noted",
-      "translation": "名高い"
+      "term": "applicable",
+      "definition": "適用できる"
     },
     {
-      "content": "fascinating | attractive",
-      "translation": "わくわくする"
+      "term": "arbitrary",
+      "definition": "任意の"
     },
     {
-      "content": "fast | quick | rapid | prompt | swift",
-      "translation": "{ 速い | 素早い }"
+      "term": "authentic",
+      "definition": "伝統にしたがった本流の"
     },
     {
-      "content": "favorable | agreeable",
-      "translation": "好ましい"
+      "term": "automated",
+      "definition": "自動化された"
     },
     {
-      "content": "feasible | doable",
-      "translation": "実現可能な"
+      "term": "awkward",
+      "definition": "ぎこちない"
     },
     {
-      "content": "federal",
-      "translation": "連邦制の"
+      "term": "bare",
+      "definition": "むき出しの"
     },
     {
-      "content": "ferocious",
-      "translation": "獰猛な"
+      "term": "beautiful",
+      "definition": "美しい"
     },
     {
-      "content": "fertile",
-      "translation": "肥えた / 豊作をもたらす"
+      "term": "bitter",
+      "definition": "苦い"
     },
     {
-      "content": "fierce",
-      "translation": "熾烈な"
+      "term": "brave",
+      "definition": "勇敢な"
     },
     {
-      "content": "firsthand",
-      "translation": "実地の / 現場の"
+      "term": "brief",
+      "definition": "手短な / 持続性がない"
     },
     {
-      "content": "fixed | repaired",
-      "translation": "修繕された"
+      "term": "brisk",
+      "definition": "活発な"
     },
     {
-      "content": "flaky | breakable | fragile",
-      "translation": "壊れやすい"
+      "term": "broad",
+      "definition": "広範囲な"
     },
     {
-      "content": "flammable",
-      "translation": "可燃性の"
+      "term": "bulletproof",
+      "definition": "失敗の心配がいらない"
     },
     {
-      "content": "flash | loud",
-      "translation": "派手な"
+      "term": "candid",
+      "definition": "率直な"
     },
     {
-      "content": "flawed",
-      "translation": "欠陥のある"
+      "term": "capable",
+      "definition": "使える（受け入れられる）"
     },
     {
-      "content": "flexible",
-      "translation": "柔軟な"
+      "term": "certain",
+      "definition": "確かな"
     },
     {
-      "content": "foolish | stupid | silly | absurd | preposterous",
-      "translation": "間抜けな"
+      "term": "challenging",
+      "definition": "やりがいがある"
     },
     {
-      "content": "foolproof",
-      "translation": "誰でも使える"
+      "term": "cheap ! expensive",
+      "definition": "安価な ! 高価な"
     },
     {
-      "content": "formal | prim | starchy",
-      "translation": "堅苦しい"
+      "term": "clean",
+      "definition": "きれいな"
     },
     {
-      "content": "fragrant | aromatic",
-      "translation": "香り高い"
+      "term": "clerical",
+      "definition": "事務の"
     },
     {
-      "content": "fraudulent",
-      "translation": "詐欺（ズル）の"
+      "term": "clutch",
+      "definition": "ピンチに強い / 勝負を決める"
     },
     {
-      "content": "free | complimentary",
-      "translation": "無料の"
+      "term": "comfortable",
+      "definition": "快適な"
     },
     {
-      "content": "fresh",
-      "translation": "新鮮な"
+      "term": "common",
+      "definition": "共通の"
     },
     {
-      "content": "friendly | amiable | affable",
-      "translation": "人なつこい"
+      "term": "competent",
+      "definition": "有能な"
     },
     {
-      "content": "fruitful",
-      "translation": "実りのある / 有益な"
+      "term": "comprehensive",
+      "definition": "総合的な"
     },
     {
-      "content": "frustrated | stressful",
-      "translation": "欲求不満の"
+      "term": "concise",
+      "definition": "簡潔な / 単純明快な"
     },
     {
-      "content": "functional",
-      "translation": "機能的な"
+      "term": "conditional",
+      "definition": "条件付きの"
     },
     {
-      "content": "funny | hilarious | humorous",
-      "translation": "面白い"
+      "term": "confident",
+      "definition": "自信がある"
     },
     {
-      "content": "furious",
-      "translation": "怒り狂った"
+      "term": "congruent",
+      "definition": "調和な"
     },
     {
-      "content": "furnished",
-      "translation": "家具付きの"
+      "term": "conscientious",
+      "definition": "誠実な"
     },
     {
-      "content": "general",
-      "translation": "一般的な"
+      "term": "conscious",
+      "definition": "意識的な / 自覚している"
     },
     {
-      "content": "generous",
-      "translation": "寛大な / 気前のよい"
+      "term": "contemporary",
+      "definition": "同時代の"
     },
     {
-      "content": "genuine",
-      "translation": "本物の / 正真正銘の"
+      "term": "conventional",
+      "definition": "従来の"
     },
     {
-      "content": "gibberish",
-      "translation": "無意味な"
+      "term": "cooperative",
+      "definition": "協力的な"
     },
     {
-      "content": "giddy",
-      "translation": "目まいがする"
+      "term": "corporal",
+      "definition": "肉体的な"
     },
     {
-      "content": "gigantic",
-      "translation": "膨大な"
+      "term": "correct",
+      "definition": "正しい（誤りがない）"
     },
     {
-      "content": "glad",
-      "translation": "嬉しがっている"
+      "term": "corresponding",
+      "definition": "対になる"
     },
     {
-      "content": "gorgeous | splended",
-      "translation": "華麗な"
+      "term": "corrupt",
+      "definition": "腐敗した / 壊れた"
     },
     {
-      "content": "graceful",
-      "translation": "優雅な"
+      "term": "cousory",
+      "definition": "雑に / ざくっと"
     },
     {
-      "content": "gracious",
-      "translation": "寛大な"
+      "term": "cramped",
+      "definition": "窮屈な"
     },
     {
-      "content": "gradual",
-      "translation": "なだらかな"
+      "term": "crispy",
+      "definition": "カリっと香ばしい"
     },
     {
-      "content": "great | excellent | fabulous",
-      "translation": "大変良い"
+      "term": "critical",
+      "definition": "成否を左右するほど重要な"
     },
     {
-      "content": "greedy | eager",
-      "translation": "貪欲な"
+      "term": "crucial",
+      "definition": "極めて重要な（無視できない）"
     },
     {
-      "content": "groggy",
-      "translation": "ふらふらした / よろめいた"
+      "term": "cynical",
+      "definition": "皮肉な / 冷笑的な"
     },
     {
-      "content": "gross",
-      "translation": "下劣な / ひどく不味い"
+      "term": "damaged",
+      "definition": "ボロボロの"
     },
     {
-      "content": "grubby",
-      "translation": "ウジ虫のわいた汚い"
+      "term": "dangerous",
+      "definition": "危険な"
     },
     {
-      "content": "grumpy",
-      "translation": "意地悪な / 性悪な"
+      "term": "daunting",
+      "definition": "怖じ気づくほど困難である"
     },
     {
-      "content": "happy",
-      "translation": "幸せに思う"
+      "term": "dazzling",
+      "definition": "眩しい（まばゆい）"
     },
     {
-      "content": "harmful",
-      "translation": "有害な"
+      "term": "dead",
+      "definition": "死んでいる"
     },
     {
-      "content": "hateful",
-      "translation": "いまいましい"
+      "term": "decent",
+      "definition": "まともな"
     },
     {
-      "content": "haughty",
-      "translation": "高慢な"
+      "term": "dedicated",
+      "definition": "専用の"
     },
     {
-      "content": "healing | remedial | sanative",
-      "translation": "癒しの"
+      "term": "deep ! shallow",
+      "definition": "深い ! 浅い"
     },
     {
-      "content": "healthy | nutritious",
-      "translation": "健康的な / 栄養のある"
+      "term": "delicious",
+      "definition": "とても美味しい"
     },
     {
-      "content": "helpful",
-      "translation": "助けになる"
+      "term": "demanding",
+      "definition": "要求の多い"
     },
     {
-      "content": "hereditary",
-      "translation": "遺伝性の / 親譲りの / 代々受け継がれた"
+      "term": "derivative",
+      "definition": "派生した"
     },
     {
-      "content": "historic",
-      "translation": "歴史的な"
+      "term": "desperate",
+      "definition": "自暴自棄な / 無鉄砲な / 絶望的に悲惨な"
     },
     {
-      "content": "hollow",
-      "translation": "空洞の"
+      "term": "detrimental",
+      "definition": "害しやすい"
     },
     {
-      "content": "holy | sacred",
-      "translation": "神聖な"
+      "term": "devastating",
+      "definition": "壊滅的な"
     },
     {
-      "content": "homogeneous ! heterogeneous",
-      "translation": "同質の ! 異質の"
+      "term": "dim",
+      "definition": "かすんだ / ぼやけた / 薄暗い"
     },
     {
-      "content": "hopeful",
-      "translation": "希望に満ちている"
+      "term": "diplomatic",
+      "definition": "外交上の"
     },
     {
-      "content": "horrible | horrific",
-      "translation": "恐ろしい"
+      "term": "disappointed",
+      "definition": "がっかりする"
     },
     {
-      "content": "hostile",
-      "translation": "敵意のある"
+      "term": "discrete",
+      "definition": "区分けされた"
     },
     {
-      "content": "hot | spicy",
-      "translation": "辛い"
+      "term": "disgusting",
+      "definition": "胸くそ悪い"
     },
     {
-      "content": "huge | immense | enormous | tremendous",
-      "translation": "莫大な"
+      "term": "disobedient",
+      "definition": "従順でない / 言うことを聞かない"
     },
     {
-      "content": "hysteric",
-      "translation": "ヒステリックな"
+      "term": "dispensable",
+      "definition": "不必要な"
     },
     {
-      "content": "iconic",
-      "translation": "象徴的な"
+      "term": "distinct",
+      "definition": "他とは異なる / 区別できる"
     },
     {
-      "content": "ideal",
-      "translation": "理想的な"
+      "term": "diverse",
+      "definition": "多様な"
     },
     {
-      "content": "identical",
-      "translation": "全く同じ"
+      "term": "domestic",
+      "definition": "家庭内の / 国内の"
     },
     {
-      "content": "ignorant | untrained",
-      "translation": "無知な"
+      "term": "dominant",
+      "definition": "支配的な / 圧倒的な"
     },
     {
-      "content": "immediate | urgent",
-      "translation": "急ぎの"
+      "term": "downtown",
+      "definition": "商業地区の"
     },
     {
-      "content": "imperative",
-      "translation": "緊急命令的な"
+      "term": "drastic",
+      "definition": "抜本的な"
     },
     {
-      "content": "important",
-      "translation": "重要な"
+      "term": "dry ! wet",
+      "definition": "乾燥した ! 濡れた"
     },
     {
-      "content": "inaugural",
-      "translation": "初の"
+      "term": "dubious",
+      "definition": "半信半疑な"
     },
     {
-      "content": "inconsistent | contradictory",
-      "translation": "一貫性のない / 矛盾した"
+      "term": "duplicate",
+      "definition": "複製の"
     },
     {
-      "content": "indecisive",
-      "translation": "優柔不断な"
+      "term": "easy ! difficult",
+      "definition": "簡単な ! 難しい"
     },
     {
-      "content": "inevitable | fateful",
-      "translation": "避けられない"
+      "term": "easy ! uneasy",
+      "definition": "気楽な ! 気が休まらない"
     },
     {
-      "content": "inferior",
-      "translation": "粗悪な"
+      "term": "edible",
+      "definition": "食べられる"
     },
     {
-      "content": "informed",
-      "translation": "識見のある / 知的な"
+      "term": "effective",
+      "definition": "効果的な(より結果が得られる)"
     },
     {
-      "content": "ingenious",
-      "translation": "独創的な"
+      "term": "efficient",
+      "definition": "効率的な(より手間がかからない)"
     },
     {
-      "content": "ingrained",
-      "translation": "根深い"
+      "term": "elderly",
+      "definition": "年寄りの"
     },
     {
-      "content": "inherent",
-      "translation": "本来備わっている"
+      "term": "eloquent",
+      "definition": "雄弁な"
     },
     {
-      "content": "inner ! outer",
-      "translation": "内の ! 外の"
+      "term": "endangered",
+      "definition": "絶滅寸前の"
     },
     {
-      "content": "inquisitive",
-      "translation": "根掘り葉掘り知りたがる"
+      "term": "entire",
+      "definition": "全ての"
     },
     {
-      "content": "insidious",
-      "translation": "油断ならない / 危険が潜んだ"
+      "term": "equal",
+      "definition": "等しい"
     },
     {
-      "content": "insightful",
-      "translation": "洞察力のある"
+      "term": "equivalent",
+      "definition": "同等の（同じ価値の）"
     },
     {
-      "content": "insurgent",
-      "translation": "反乱で暴徒化した"
+      "term": "eternal",
+      "definition": "永遠な"
     },
     {
-      "content": "intact",
-      "translation": "無傷である"
+      "term": "ethical",
+      "definition": "倫理的な"
     },
     {
-      "content": "integral",
-      "translation": "不可欠な"
+      "term": "evil",
+      "definition": "凶悪な"
     },
     {
-      "content": "intellectual",
-      "translation": "知的な"
+      "term": "exclusive",
+      "definition": "限定の / 排他の"
     },
     {
-      "content": "intensive ! extensive",
-      "translation": "徹底的な ! 広範囲な"
+      "term": "experienced",
+      "definition": "経験豊富な"
     },
     {
-      "content": "intentional | deliberate",
-      "translation": "意図的な"
+      "term": "exponential",
+      "definition": "指数的な"
     },
     {
-      "content": "interesting",
-      "translation": "興味深い"
+      "term": "extensive",
+      "definition": "広範囲な"
     },
     {
-      "content": "interim",
-      "translation": "臨時の"
+      "term": "federal",
+      "definition": "連邦制の"
     },
     {
-      "content": "interpersonal",
-      "translation": "対人の"
+      "term": "ferocious",
+      "definition": "獰猛な"
     },
     {
-      "content": "intimate",
-      "translation": "（肉体関係があるほど）親密な"
+      "term": "fertile",
+      "definition": "肥えた / 豊作をもたらす"
     },
     {
-      "content": "invaluable | precious",
-      "translation": "貴重な"
+      "term": "fierce",
+      "definition": "熾烈な"
     },
     {
-      "content": "kind | thoughtful | considerate",
-      "translation": "親切な / 思いやりのある"
+      "term": "firsthand",
+      "definition": "実地の / 現場の"
     },
     {
-      "content": "knowledgeable",
-      "translation": "もの知りな"
+      "term": "flammable",
+      "definition": "可燃性の"
     },
     {
-      "content": "lackluster | dreary",
-      "translation": "どんよりとした / 活気のない"
+      "term": "flexible",
+      "definition": "柔軟な"
     },
     {
-      "content": "last | final | ultimate",
-      "translation": "最後の"
+      "term": "foolproof",
+      "definition": "誰でも使える"
     },
     {
-      "content": "leading ! trailing",
-      "translation": "先頭の ! 末尾の"
+      "term": "fraudulent",
+      "definition": "詐欺（ズル）の"
     },
     {
-      "content": "legal",
-      "translation": "合法の"
+      "term": "fresh",
+      "definition": "新鮮な"
     },
     {
-      "content": "lengthy",
-      "translation": "長期的な / 長たらしい"
+      "term": "fruitful",
+      "definition": "実りのある / 有益な"
     },
     {
-      "content": "likely",
-      "translation": "ありそうな"
+      "term": "functional",
+      "definition": "機能的な"
     },
     {
-      "content": "logical",
-      "translation": "論理的な"
+      "term": "furious",
+      "definition": "怒り狂った"
     },
     {
-      "content": "lonely",
-      "translation": "孤独な"
+      "term": "furnished",
+      "definition": "家具付きの"
     },
     {
-      "content": "loose",
-      "translation": "ゆるい"
+      "term": "general",
+      "definition": "一般的な"
     },
     {
-      "content": "loyal",
-      "translation": "忠実な / 義理堅い"
+      "term": "generous",
+      "definition": "寛大な / 気前のよい"
     },
     {
-      "content": "lush | verdant",
-      "translation": "青々とした"
+      "term": "genuine",
+      "definition": "本物の / 正真正銘の"
     },
     {
-      "content": "luxurious | extravagant",
-      "translation": "贅沢な"
+      "term": "gibberish",
+      "definition": "無意味な"
     },
     {
-      "content": "magnificent | majestic",
-      "translation": "壮大な"
+      "term": "giddy",
+      "definition": "目まいがする"
     },
     {
-      "content": "major ! minor",
-      "translation": "多数派の ! 少数派の"
+      "term": "gigantic",
+      "definition": "膨大な"
     },
     {
-      "content": "malleable",
-      "translation": "捏造しやすい"
+      "term": "glad",
+      "definition": "嬉しがっている"
     },
     {
-      "content": "manageable",
-      "translation": "管理可能な"
+      "term": "graceful",
+      "definition": "優雅な"
     },
     {
-      "content": "managerial",
-      "translation": "経営管理上の"
+      "term": "gracious",
+      "definition": "寛大な"
     },
     {
-      "content": "martial",
-      "translation": "好戦的な"
+      "term": "gradual",
+      "definition": "なだらかな"
     },
     {
-      "content": "massive",
-      "translation": "大規模な"
+      "term": "groggy",
+      "definition": "ふらふらした / よろめいた"
     },
     {
-      "content": "mature | ripe",
-      "translation": "成熟した"
+      "term": "gross",
+      "definition": "下劣な / ひどく不味い"
     },
     {
-      "content": "mean",
-      "translation": "意地が悪い"
+      "term": "grubby",
+      "definition": "ウジ虫のわいた汚い"
     },
     {
-      "content": "mediocre",
-      "translation": "平凡な"
+      "term": "grumpy",
+      "definition": "意地悪な / 性悪な"
     },
     {
-      "content": "merry | joyful",
-      "translation": "陽気な"
+      "term": "happy",
+      "definition": "幸せに思う"
     },
     {
-      "content": "mild",
-      "translation": "穏やかな"
+      "term": "harmful",
+      "definition": "有害な"
     },
     {
-      "content": "minute",
-      "translation": "微細の"
+      "term": "hateful",
+      "definition": "いまいましい"
     },
     {
-      "content": "miserable",
-      "translation": "惨めな"
+      "term": "haughty",
+      "definition": "高慢な"
     },
     {
-      "content": "misleading",
-      "translation": "誤解を招く恐れがある"
+      "term": "helpful",
+      "definition": "助けになる"
     },
     {
-      "content": "moderate",
-      "translation": "中くらいの"
+      "term": "hereditary",
+      "definition": "遺伝性の / 親譲りの / 代々受け継がれた"
     },
     {
-      "content": "modern",
-      "translation": "現代の"
+      "term": "historic",
+      "definition": "歴史的な"
     },
     {
-      "content": "modest | humble",
-      "translation": "謙虚な"
+      "term": "hollow",
+      "definition": "空洞の"
     },
     {
-      "content": "moral | ethical | virtuous",
-      "translation": "道徳的な"
+      "term": "homogeneous ! heterogeneous",
+      "definition": "同質の ! 異質の"
     },
     {
-      "content": "multiple",
-      "translation": "複数の"
+      "term": "hopeful",
+      "definition": "希望に満ちている"
     },
     {
-      "content": "municipal",
-      "translation": "市営の"
+      "term": "hostile",
+      "definition": "敵意のある"
     },
     {
-      "content": "mutual",
-      "translation": "相互の"
+      "term": "hysteric",
+      "definition": "ヒステリックな"
     },
     {
-      "content": "mythological",
-      "translation": "神秘的な"
+      "term": "iconic",
+      "definition": "象徴的な"
     },
     {
-      "content": "natural",
-      "translation": "自然の"
+      "term": "ideal",
+      "definition": "理想的な"
     },
     {
-      "content": "nearby",
-      "translation": "近くの"
+      "term": "identical",
+      "definition": "全く同じ"
     },
     {
-      "content": "necessary | essential | vital | pivotal | integral",
-      "translation": "必要な / 不可欠な"
+      "term": "imperative",
+      "definition": "緊急命令的な"
     },
     {
-      "content": "negligible",
-      "translation": "取るに足らない"
+      "term": "important",
+      "definition": "重要な"
     },
     {
-      "content": "nervous",
-      "translation": "神経質な"
+      "term": "inaugural",
+      "definition": "初の"
     },
     {
-      "content": "next | following | subsequent",
-      "translation": "次の"
+      "term": "indecisive",
+      "definition": "優柔不断な"
     },
     {
-      "content": "noisy",
-      "translation": "うるさい"
+      "term": "inferior",
+      "definition": "粗悪な"
     },
     {
-      "content": "normal",
-      "translation": "通常の"
+      "term": "informed",
+      "definition": "識見のある / 知的な"
     },
     {
-      "content": "nosy",
-      "translation": "おせっかいな"
+      "term": "ingenious",
+      "definition": "独創的な"
     },
     {
-      "content": "notorious",
-      "translation": "忌々しい / 悪名高い"
+      "term": "ingrained",
+      "definition": "根深い"
     },
     {
-      "content": "numerous | innumerable",
-      "translation": "無数の"
+      "term": "inherent",
+      "definition": "本来備わっている"
     },
     {
-      "content": "obvious | apparent",
-      "translation": "明らかな"
+      "term": "inner ! outer",
+      "definition": "内の ! 外の"
     },
     {
-      "content": "occasional",
-      "translation": "時たまの"
+      "term": "inquisitive",
+      "definition": "根掘り葉掘り知りたがる"
     },
     {
-      "content": "old | obsolete | outdated | stale",
-      "translation": "古い / 古風な / 時代遅れの"
+      "term": "insidious",
+      "definition": "油断ならない / 危険が潜んだ"
     },
     {
-      "content": "optimistic ! pessimistic",
-      "translation": "楽観的な ! 悲観的な"
+      "term": "insightful",
+      "definition": "洞察力のある"
     },
     {
-      "content": "optional",
-      "translation": "任意の"
+      "term": "insurgent",
+      "definition": "反乱で暴徒化した"
     },
     {
-      "content": "other | alternative",
-      "translation": "別の"
+      "term": "intact",
+      "definition": "無傷である"
     },
     {
-      "content": "overseas",
-      "translation": "海外の"
+      "term": "integral",
+      "definition": "不可欠な"
     },
     {
-      "content": "painful",
-      "translation": "（客観的に）痛々しい"
+      "term": "intellectual",
+      "definition": "知的な"
     },
     {
-      "content": "pale",
-      "translation": "顔が青ざめた / 色が薄い / 弱々しい"
+      "term": "intensive ! extensive",
+      "definition": "徹底的な ! 広範囲な"
     },
     {
-      "content": "passionate",
-      "translation": "熱烈な"
+      "term": "interesting",
+      "definition": "興味深い"
     },
     {
-      "content": "patient",
-      "translation": "我慢強い"
+      "term": "interim",
+      "definition": "臨時の"
     },
     {
-      "content": "periodical | regular",
-      "translation": "定期の"
+      "term": "interpersonal",
+      "definition": "対人の"
     },
     {
-      "content": "permanent",
-      "translation": "常設の"
+      "term": "intimate",
+      "definition": "（肉体関係があるほど）親密な"
     },
     {
-      "content": "persistent",
-      "translation": "持続性のある / ねばり強い"
+      "term": "invidious",
+      "definition": "妬みや反感を買うような"
     },
     {
-      "content": "persuasive | influential",
-      "translation": "説得力がある"
+      "term": "knowledgeable",
+      "definition": "もの知りな"
     },
     {
-      "content": "physical ! spiritual",
-      "translation": "肉体的な ! 精神的な"
+      "term": "leading ! trailing",
+      "definition": "先頭の ! 末尾の"
     },
     {
-      "content": "plain",
-      "translation": "そのままの"
+      "term": "legal",
+      "definition": "合法の"
     },
     {
-      "content": "pleasant",
-      "translation": "気持ちのよい"
+      "term": "lengthy",
+      "definition": "長期的な / 長たらしい"
     },
     {
-      "content": "pointless",
-      "translation": "無意味な"
+      "term": "likely",
+      "definition": "ありそうな"
     },
     {
-      "content": "polite | courteous",
-      "translation": "礼儀正しい"
+      "term": "logical",
+      "definition": "論理的な"
     },
     {
-      "content": "poor",
-      "translation": "貧しい"
+      "term": "lonely",
+      "definition": "孤独な"
     },
     {
-      "content": "populous | crowded",
-      "translation": "人口が多い"
+      "term": "loose",
+      "definition": "ゆるい"
     },
     {
-      "content": "possible",
-      "translation": "可能な"
+      "term": "loyal",
+      "definition": "忠実な / 義理堅い"
     },
     {
-      "content": "practical | pragmatic",
-      "translation": "実用的な"
+      "term": "major ! minor",
+      "definition": "多数派の ! 少数派の"
     },
     {
-      "content": "precise",
-      "translation": "精密な"
+      "term": "malleable",
+      "definition": "捏造しやすい"
     },
     {
-      "content": "preliminary",
-      "translation": "予備の / 暫定の / 本番前の"
+      "term": "manageable",
+      "definition": "管理可能な"
     },
     {
-      "content": "prestigious",
-      "translation": "権威ある"
+      "term": "managerial",
+      "definition": "経営管理上の"
     },
     {
-      "content": "previous",
-      "translation": "前の"
+      "term": "martial",
+      "definition": "好戦的な"
     },
     {
-      "content": "priceless",
-      "translation": "値段がつけられないほど高価な"
+      "term": "massive",
+      "definition": "大規模な"
     },
     {
-      "content": "primary",
-      "translation": "最初の / 初歩の / 主の"
+      "term": "mean",
+      "definition": "意地が悪い"
     },
     {
-      "content": "prime",
-      "translation": "最高の / 高級の"
+      "term": "mediocre",
+      "definition": "平凡な"
     },
     {
-      "content": "primitive",
-      "translation": "原始的な"
+      "term": "mere",
+      "definition": "ぎりぎりわずかの"
     },
     {
-      "content": "principal",
-      "translation": "主成分の / 元になる"
+      "term": "mild",
+      "definition": "穏やかな"
     },
     {
-      "content": "probationary",
-      "translation": "見習いの"
+      "term": "minute",
+      "definition": "微細の"
     },
     {
-      "content": "profane",
-      "translation": "不敬な / 神を冒涜するような"
+      "term": "miserable",
+      "definition": "惨めな"
     },
     {
-      "content": "profitable | lucrative",
-      "translation": "儲かる"
+      "term": "misleading",
+      "definition": "誤解を招く恐れがある"
     },
     {
-      "content": "profound",
-      "translation": "（考えなどの）深みがある"
+      "term": "moderate",
+      "definition": "中くらいの"
     },
     {
-      "content": "prominent",
-      "translation": "突出した / 傑出した / 卓越した"
+      "term": "modern",
+      "definition": "現代の"
     },
     {
-      "content": "promising",
-      "translation": "有望な"
+      "term": "multiple",
+      "definition": "複数の"
     },
     {
-      "content": "prompt",
-      "translation": "迅速な"
+      "term": "municipal",
+      "definition": "市営の"
     },
     {
-      "content": "prospective",
-      "translation": "将来（有望）の"
+      "term": "mutual",
+      "definition": "相互の"
     },
     {
-      "content": "prosperous",
-      "translation": "栄えている"
+      "term": "mythological",
+      "definition": "神秘的な"
     },
     {
-      "content": "prurient",
-      "translation": "好色の"
+      "term": "natural",
+      "definition": "自然の"
     },
     {
-      "content": "pseudo",
-      "translation": "疑似の"
+      "term": "nearby",
+      "definition": "近くの"
     },
     {
-      "content": "punctual",
-      "translation": "{ きちんとしている | 約束を守る | 時間を守る }"
+      "term": "negligible",
+      "definition": "取るに足らない"
     },
     {
-      "content": "pure | absolute | utter",
-      "translation": "純粋な"
+      "term": "nervous",
+      "definition": "神経質な"
     },
     {
-      "content": "racial",
-      "translation": "人種上の"
+      "term": "normal",
+      "definition": "通常の"
     },
     {
-      "content": "rare",
-      "translation": "珍しい"
+      "term": "nosy",
+      "definition": "おせっかいな"
     },
     {
-      "content": "rational",
-      "translation": "合理的な"
+      "term": "notorious",
+      "definition": "忌々しい / 悪名高い"
     },
     {
-      "content": "real",
-      "translation": "現実の"
+      "term": "occasional",
+      "definition": "時たまの"
     },
     {
-      "content": "reasonable",
-      "translation": "正当な / 妥当な / 道理をわきまえた"
+      "term": "optimistic ! pessimistic",
+      "definition": "楽観的な ! 悲観的な"
     },
     {
-      "content": "reckless",
-      "translation": "無鉄砲な"
+      "term": "optional",
+      "definition": "任意の"
     },
     {
-      "content": "regular",
-      "translation": "規則的な"
+      "term": "overseas",
+      "definition": "海外の"
     },
     {
-      "content": "relevant",
-      "translation": "関係性のある"
+      "term": "painful",
+      "definition": "（客観的に）痛々しい"
     },
     {
-      "content": "reliable | dependable",
-      "translation": "信頼性のある"
+      "term": "pale",
+      "definition": "顔が青ざめた / 色が薄い / 弱々しい"
     },
     {
-      "content": "religious",
-      "translation": "信心深い"
+      "term": "passionate",
+      "definition": "熱烈な"
     },
     {
-      "content": "remarkable | notable | considerable",
-      "translation": "注目すべき / 無視できない"
+      "term": "patient",
+      "definition": "我慢強い"
     },
     {
-      "content": "repetitious | repetitive",
-      "translation": "繰り返しでくどい"
+      "term": "permanent",
+      "definition": "常設の"
     },
     {
-      "content": "repulsive",
-      "translation": "おぞましい / 反発をうむ"
+      "term": "persistent",
+      "definition": "持続性のある / ねばり強い"
     },
     {
-      "content": "resourceful",
-      "translation": "やりくり上手な"
+      "term": "physical ! spiritual",
+      "definition": "肉体的な ! 精神的な"
     },
     {
-      "content": "respective",
-      "translation": "めいめいの"
+      "term": "plain ! patterned",
+      "definition": "無地の ! 模様のある"
     },
     {
-      "content": "rich | affluent",
-      "translation": "豊かな / 裕福な"
+      "term": "pleasant",
+      "definition": "気持ちのよい"
     },
     {
-      "content": "ridiculous | absurd",
-      "translation": "ばかばかしくて話にならない"
+      "term": "pointless",
+      "definition": "無意味な"
     },
     {
-      "content": "right ! wrong",
-      "translation": "正しい ! 誤った"
+      "term": "poor",
+      "definition": "貧しい"
     },
     {
-      "content": "romantic",
-      "translation": "恋愛に適した"
+      "term": "possible",
+      "definition": "可能な"
     },
     {
-      "content": "rotten",
-      "translation": "腐っている"
+      "term": "precise",
+      "definition": "精密な"
     },
     {
-      "content": "rude | crude | offensive",
-      "translation": "無礼な"
+      "term": "preliminary",
+      "definition": "予備の / 暫定の / 本番前の"
     },
     {
-      "content": "rusty",
-      "translation": "錆び付いた"
+      "term": "prestigious",
+      "definition": "権威ある"
     },
     {
-      "content": "sad",
-      "translation": "悲しがっている"
+      "term": "previous",
+      "definition": "前の"
     },
     {
-      "content": "safe | secure",
-      "translation": "安全な"
+      "term": "priceless",
+      "definition": "値段がつけられないほど高価な"
     },
     {
-      "content": "salty",
-      "translation": "塩辛い"
+      "term": "primary",
+      "definition": "最初の / 初歩の / 主の"
     },
     {
-      "content": "same ! different",
-      "translation": "同じ ! 違う"
+      "term": "prime",
+      "definition": "最高の / 高級の"
     },
     {
-      "content": "sane",
-      "translation": "正気の"
+      "term": "primitive",
+      "definition": "原始的な"
     },
     {
-      "content": "sarcastic",
-      "translation": "皮肉な / いやみな"
+      "term": "principal",
+      "definition": "主成分の / 元になる"
     },
     {
-      "content": "satisfied | fulfilled",
-      "translation": "満たされた"
+      "term": "probationary",
+      "definition": "見習いの"
     },
     {
-      "content": "scarce",
-      "translation": "不足した / 貴重な"
+      "term": "profane",
+      "definition": "不敬な / 神を冒涜するような"
     },
     {
-      "content": "scenic",
-      "translation": "景色が良い"
+      "term": "profound",
+      "definition": "（考えなどの）深みがある"
     },
     {
-      "content": "selfish | arrogant | egoistic | blatant",
-      "translation": "傲慢な"
+      "term": "prominent",
+      "definition": "突出した / 傑出した / 卓越した"
     },
     {
-      "content": "semantic",
-      "translation": "意味論の"
+      "term": "promising",
+      "definition": "有望な"
     },
     {
-      "content": "senior ! junior",
-      "translation": "年上の ! 年下の"
+      "term": "prompt",
+      "definition": "迅速な"
     },
     {
-      "content": "sensible",
-      "translation": "賢明な"
+      "term": "prospective",
+      "definition": "将来（有望）の"
     },
     {
-      "content": "sensitive | delicate",
-      "translation": "慎重に取り扱うべき"
+      "term": "prosperous",
+      "definition": "栄えている"
     },
     {
-      "content": "serious | earnest | solemn",
-      "translation": "真剣な"
+      "term": "prurient",
+      "definition": "好色の"
     },
     {
-      "content": "severe | harsh | bitter",
-      "translation": "深刻な / 過酷な / 痛烈な"
+      "term": "pseudo",
+      "definition": "疑似の"
     },
     {
-      "content": "shabby",
-      "translation": "（衣服等が）よれよれの"
+      "term": "punctual",
+      "definition": "{ きちんとしている | 約束を守る | 時間を守る }"
     },
     {
-      "content": "sheer",
-      "translation": "まったくの / 他の形容ができない"
+      "term": "racial",
+      "definition": "人種上の"
     },
     {
-      "content": "short ! long",
-      "translation": "短い ! 長い"
+      "term": "rare",
+      "definition": "珍しい"
     },
     {
-      "content": "shy | timid",
-      "translation": "恥ずかしがり屋な"
+      "term": "rational",
+      "definition": "合理的な"
     },
     {
-      "content": "significant | substantial | decent",
-      "translation": "かなりの"
+      "term": "real",
+      "definition": "現実の"
     },
     {
-      "content": "simple | straightforward",
-      "translation": "簡素な"
+      "term": "reasonable",
+      "definition": "正当な / 妥当な / 道理をわきまえた"
     },
     {
-      "content": "sincere | hearty | heartfelt",
-      "translation": "嘘偽りのない正直な"
+      "term": "reckless",
+      "definition": "無鉄砲な"
     },
     {
-      "content": "skeptical",
-      "translation": "疑い深い / 信用しない"
+      "term": "regular",
+      "definition": "規則的な"
     },
     {
-      "content": "slight",
-      "translation": "わずかの"
+      "term": "relevant",
+      "definition": "関係性のある"
     },
     {
-      "content": "slimy",
-      "translation": "ネバネバした"
+      "term": "religious",
+      "definition": "信心深い"
     },
     {
-      "content": "small | tiny",
-      "translation": "小さい"
+      "term": "repulsive",
+      "definition": "おぞましい / 反発をうむ"
     },
     {
-      "content": "smart | sensible",
-      "translation": "賢明な"
+      "term": "resourceful",
+      "definition": "やりくり上手な"
     },
     {
-      "content": "smelly | stinking",
-      "translation": "臭い"
+      "term": "respective",
+      "definition": "めいめいの"
     },
     {
-      "content": "snappy",
-      "translation": "粋な"
+      "term": "right ! wrong",
+      "definition": "正しい ! 誤った"
     },
     {
-      "content": "sociable",
-      "translation": "社交的な"
+      "term": "romantic",
+      "definition": "恋愛に適した"
     },
     {
-      "content": "soggy",
-      "translation": "ふやけた"
+      "term": "rotten",
+      "definition": "腐っている"
     },
     {
-      "content": "sole | one and only",
-      "translation": "唯一の"
+      "term": "rusty",
+      "definition": "錆び付いた"
     },
     {
-      "content": "solvent",
-      "translation": "支払能力がない"
+      "term": "sad",
+      "definition": "悲しがっている"
     },
     {
-      "content": "sour",
-      "translation": "酸っぱい"
+      "term": "salty",
+      "definition": "塩辛い"
     },
     {
-      "content": "spacious",
-      "translation": "広々とした"
+      "term": "same ! different",
+      "definition": "同じ ! 違う"
     },
     {
-      "content": "specific | particular | certain",
-      "translation": "特定の"
+      "term": "sane",
+      "definition": "正気の"
     },
     {
-      "content": "spectacular",
-      "translation": "壮観な"
+      "term": "sarcastic",
+      "definition": "皮肉な / いやみな"
     },
     {
-      "content": "spirited",
-      "translation": "元気のよい"
+      "term": "scarce",
+      "definition": "不足した / 貴重な"
     },
     {
-      "content": "spontaneous",
-      "translation": "自発的な / 沸き起こる"
+      "term": "scenic",
+      "definition": "景色が良い"
     },
     {
-      "content": "stable",
-      "translation": "安定した"
+      "term": "semantic",
+      "definition": "意味論の"
     },
     {
-      "content": "steady",
-      "translation": "着実な"
+      "term": "senior ! junior",
+      "definition": "年上の ! 年下の"
     },
     {
-      "content": "steep",
-      "translation": "傾斜が急な"
+      "term": "sensible",
+      "definition": "賢明な"
     },
     {
-      "content": "stochastic",
-      "translation": "確率的な"
+      "term": "shabby",
+      "definition": "（衣服等が）よれよれの"
     },
     {
-      "content": "strange | weird | odd | bizarre | peculiar",
-      "translation": "風変わりな / 妙な"
+      "term": "sheer",
+      "definition": "まったくの / 他の形容ができない"
     },
     {
-      "content": "strenuous",
-      "translation": "精力的な"
+      "term": "short ! long",
+      "definition": "短い ! 長い"
     },
     {
-      "content": "strict | rigorous | stringent | rigid",
-      "translation": "厳格な"
+      "term": "skeptical",
+      "definition": "疑い深い / 信用しない"
     },
     {
-      "content": "strong ! weak",
-      "translation": "強い ! 弱い"
+      "term": "slight",
+      "definition": "わずかの"
     },
     {
-      "content": "stubborn | obstinate",
-      "translation": "頑固な"
+      "term": "slimy",
+      "definition": "ネバネバした"
     },
     {
-      "content": "sturdy",
-      "translation": "丈夫な"
+      "term": "snappy",
+      "definition": "粋な"
     },
     {
-      "content": "subjective ! objective",
-      "translation": "主観的な ! 客観的な"
+      "term": "sociable",
+      "definition": "社交的な"
     },
     {
-      "content": "subtle",
-      "translation": "微妙な / 巧妙な"
+      "term": "soggy",
+      "definition": "ふやけた"
     },
     {
-      "content": "sustainable",
-      "translation": "持続可能な"
+      "term": "sole",
+      "definition": "唯一の"
     },
     {
-      "content": "sweeping",
-      "translation": "思い切った"
+      "term": "solvent",
+      "definition": "支払能力がない"
     },
     {
-      "content": "sweet | mild",
-      "translation": "甘い"
+      "term": "sour",
+      "definition": "酸っぱい"
     },
     {
-      "content": "synthetic | artificial",
-      "translation": "人工の"
+      "term": "spacious",
+      "definition": "広々とした"
     },
     {
-      "content": "tangy",
-      "translation": "つんとくる刺激（酸味）"
+      "term": "spectacular",
+      "definition": "壮観な"
     },
     {
-      "content": "tasty | savory",
-      "translation": "美味しい"
+      "term": "spirited",
+      "definition": "元気のよい"
     },
     {
-      "content": "taut ! slack",
-      "translation": "張った ! 緩んだ"
+      "term": "spontaneous",
+      "definition": "自発的な / 沸き起こる"
     },
     {
-      "content": "tedious | boring | monotonous",
-      "translation": "退屈な"
+      "term": "stable",
+      "definition": "安定した"
     },
     {
-      "content": "temporary | provisional | tentative",
-      "translation": "仮の"
+      "term": "steady",
+      "definition": "着実な"
     },
     {
-      "content": "tempting",
-      "translation": "魅力的である"
+      "term": "steep",
+      "definition": "傾斜が急な"
     },
     {
-      "content": "tender",
-      "translation": "柔和な / 優しい / 華奢な"
+      "term": "stochastic",
+      "definition": "確率的な"
     },
     {
-      "content": "thick ! thin",
-      "translation": "厚い ! 薄い"
+      "term": "strenuous",
+      "definition": "精力的な"
     },
     {
-      "content": "thorough",
-      "translation": "徹底的な"
+      "term": "strong ! weak",
+      "definition": "強い ! 弱い"
     },
     {
-      "content": "tidy",
-      "translation": "整頓された"
+      "term": "sturdy",
+      "definition": "丈夫な"
     },
     {
-      "content": "tight | fast",
-      "translation": "しっかりとした"
+      "term": "subjective ! objective",
+      "definition": "主観的な ! 客観的な"
     },
     {
-      "content": "tolerant",
-      "translation": "寛容な"
+      "term": "subtle",
+      "definition": "微妙な / 巧妙な"
     },
     {
-      "content": "tough ! tender",
-      "translation": "固い ! 柔らかい"
+      "term": "sustainable",
+      "definition": "持続可能な"
     },
     {
-      "content": "traditional",
-      "translation": "伝統的な"
+      "term": "sweeping",
+      "definition": "思い切った"
     },
     {
-      "content": "trivial",
-      "translation": "取るに足らない"
+      "term": "tangy",
+      "definition": "つんとくる刺激（酸味）"
     },
     {
-      "content": "typical | ordinary",
-      "translation": "良くある / ありふれた"
+      "term": "taut ! slack",
+      "definition": "張った ! 緩んだ"
     },
     {
-      "content": "ugly",
-      "translation": "醜い"
+      "term": "tempting",
+      "definition": "魅力的である"
     },
     {
-      "content": "ultimate",
-      "translation": "究極の"
+      "term": "tender",
+      "definition": "柔和な / 優しい / 華奢な"
     },
     {
-      "content": "unbelievable | incredible",
-      "translation": "信じられない"
+      "term": "thick ! thin",
+      "definition": "厚い ! 薄い"
     },
     {
-      "content": "unblemished",
-      "translation": "傷や汚れのない"
+      "term": "thorough",
+      "definition": "徹底的な"
     },
     {
-      "content": "underlying",
-      "translation": "基礎となる"
+      "term": "thunderous",
+      "definition": "万雷の"
     },
     {
-      "content": "unknown",
-      "translation": "無名の"
+      "term": "tidy",
+      "definition": "整頓された"
     },
     {
-      "content": "unprecedented",
-      "translation": "かつてない"
+      "term": "tolerant",
+      "definition": "寛容な"
     },
     {
-      "content": "upcoming",
-      "translation": "来たるべき / 直近の"
+      "term": "tough ! tender",
+      "definition": "固い ! 柔らかい"
     },
     {
-      "content": "urban ! rural",
-      "translation": "都会の ! 田舎の"
+      "term": "traditional",
+      "definition": "伝統的な"
     },
     {
-      "content": "useful | informative | benefical",
-      "translation": "役立つ"
+      "term": "trivial",
+      "definition": "取るに足らない"
     },
     {
-      "content": "utmost",
-      "translation": "この上ない"
+      "term": "ugly",
+      "definition": "醜い"
     },
     {
-      "content": "valid",
-      "translation": "有効な"
+      "term": "ultimate",
+      "definition": "究極の"
     },
     {
-      "content": "valuable | precious",
-      "translation": "貴重な"
+      "term": "unblemished",
+      "definition": "傷や汚れのない"
     },
     {
-      "content": "vast",
-      "translation": "広大な"
+      "term": "underlying",
+      "definition": "基礎となる"
     },
     {
-      "content": "verbal",
-      "translation": "口語の"
+      "term": "unknown",
+      "definition": "無名の"
     },
     {
-      "content": "verbose",
-      "translation": "言葉数が多くてくどい"
+      "term": "unprecedented",
+      "definition": "かつてない"
     },
     {
-      "content": "versatile",
-      "translation": "多才な"
+      "term": "upcoming",
+      "definition": "来たるべき / 直近の"
     },
     {
-      "content": "virtual",
-      "translation": "事実上の"
+      "term": "urban ! rural",
+      "definition": "都会の ! 田舎の"
     },
     {
-      "content": "virtue ! vice",
-      "translation": "善 ! 悪"
+      "term": "utmost",
+      "definition": "この上ない"
     },
     {
-      "content": "vital",
-      "translation": "不可欠な"
+      "term": "valid",
+      "definition": "有効な"
     },
     {
-      "content": "vivid",
-      "translation": "はっきりとした / 生々しい"
+      "term": "vast",
+      "definition": "広大な"
     },
     {
-      "content": "volatile | inconstant | changeable",
-      "translation": "不安定な"
+      "term": "verbal",
+      "definition": "口語の"
     },
     {
-      "content": "voluntary",
-      "translation": "自主的な"
+      "term": "verbose",
+      "definition": "言葉数が多くてくどい"
     },
     {
-      "content": "vulnerable",
-      "translation": "脆弱な"
+      "term": "versatile",
+      "definition": "多才な"
     },
     {
-      "content": "wasteful",
-      "translation": "無駄な"
+      "term": "virtual",
+      "definition": "事実上の"
     },
     {
-      "content": "wide ! narrow",
-      "translation": "広い ! 狭い"
+      "term": "vital",
+      "definition": "不可欠な"
     },
     {
-      "content": "wild ! gentle",
-      "translation": "荒々しい ! 優しい"
+      "term": "vivid",
+      "definition": "はっきりとした / 生々しい"
     },
     {
-      "content": "wild ! tame",
-      "translation": "野性の ! 飼いならされた"
+      "term": "voluntary",
+      "definition": "自主的な"
     },
     {
-      "content": "worthwhile",
-      "translation": "値打ちのある"
+      "term": "vulnerable",
+      "definition": "脆弱な"
     },
     {
-      "content": "young",
-      "translation": "若い"
+      "term": "wasteful",
+      "definition": "無駄な"
     },
     {
-      "content": "youthful",
-      "translation": "若々しい"
+      "term": "wide ! narrow",
+      "definition": "広い ! 狭い"
+    },
+    {
+      "term": "wild ! gentle",
+      "definition": "荒々しい ! 優しい"
+    },
+    {
+      "term": "wild ! tame",
+      "definition": "野性の ! 飼いならされた"
+    },
+    {
+      "term": "worthwhile",
+      "definition": "値打ちのある"
+    },
+    {
+      "term": "young",
+      "definition": "若い"
+    },
+    {
+      "term": "youthful",
+      "definition": "若々しい"
     }
   ]
 }

@@ -1,146 +1,146 @@
 {
   "fields": [
     {
-      "key": "content",
-      "name": "Content"
+      "key": "term",
+      "name": "Term"
     },
     {
-      "key": "translation",
-      "name": "Translation"
+      "key": "definition",
+      "name": "Definition"
     }
   ],
   "rows": [
     {
-      "content": "(just)? as long as [...]",
-      "translation": "[...] である限り"
+      "term": "(just)? as long as [...]",
+      "definition": "[...] である限り"
     },
     {
-      "content": "after making sure [...]",
-      "translation": "[...] であることを確認してから"
+      "term": "after making sure [...]",
+      "definition": "[...] であることを確認してから"
     },
     {
-      "content": "as [RB] as I could [do]",
-      "translation": "なんとか [do] できるだけ [RB] に"
+      "term": "as [RB] as I could [do]",
+      "definition": "なんとか [do] できるだけ [RB] に"
     },
     {
-      "content": "as before [...]",
-      "translation": "以前に [...] であることと同じように"
+      "term": "as before [...]",
+      "definition": "以前に [...] であることと同じように"
     },
     {
-      "content": "as compared to [A]",
-      "translation": "[A] と比較して"
+      "term": "as compared to [A]",
+      "definition": "[A] と比較して"
     },
     {
-      "content": "as far as I know",
-      "translation": "自分の知る限りで"
+      "term": "as far as I know",
+      "definition": "自分の知る限りで"
     },
     {
-      "content": "as follows",
-      "translation": "以下の通り"
+      "term": "as follows",
+      "definition": "以下の通り"
     },
     {
-      "content": "as I mentioned before",
-      "translation": "先にお伝えした通り"
+      "term": "as I mentioned before",
+      "definition": "先にお伝えした通り"
     },
     {
-      "content": "as if [...]",
-      "translation": "あたかも [...] であるように"
+      "term": "as { if | though } [...]",
+      "definition": "あたかも [...] であるように"
     },
     {
-      "content": "as much as possible",
-      "translation": "なるべく"
+      "term": "as much as possible",
+      "definition": "なるべく"
     },
     {
-      "content": "as soon as possible",
-      "translation": "できるだけ早く"
+      "term": "as soon as possible",
+      "definition": "できるだけ早く"
     },
     {
-      "content": "as time has progressed",
-      "translation": "時が過ぎ"
+      "term": "as time has progressed",
+      "definition": "時が過ぎ"
     },
     {
-      "content": "each time [...]",
-      "translation": "[...] する度に"
+      "term": "each time [...]",
+      "definition": "[...] する度に"
     },
     {
-      "content": "even as [...]",
-      "translation": "[...] である状況にあっても"
+      "term": "even as [...]",
+      "definition": "[...] である状況にあっても"
     },
     {
-      "content": "even if [...]",
-      "translation": "たとえ [...] であっても"
+      "term": "even if [...]",
+      "definition": "たとえ [...] であっても"
     },
     {
-      "content": "every time [...]",
-      "translation": "[...] する時はいつも"
+      "term": "every time [...]",
+      "definition": "[...] する時はいつも"
     },
     {
-      "content": "if needed",
-      "translation": "必要ならば"
+      "term": "if needed",
+      "definition": "必要ならば"
     },
     {
-      "content": "in which [...]",
-      "translation": "[...] の条件で"
+      "term": "in which [...]",
+      "definition": "[...] の条件で"
     },
     {
-      "content": "more than I'd ever have guessed",
-      "translation": "今までのどんなことよりも"
+      "term": "more than I'd ever have guessed",
+      "definition": "今までのどんなことよりも"
     },
     {
-      "content": "no matter how [...]",
-      "translation": "どんなに [...] であろうとも"
+      "term": "no matter how [...]",
+      "definition": "どんなに [...] であろうとも"
     },
     {
-      "content": "no matter whether or not [...]",
-      "translation": "[...] であろうとなかろうと"
+      "term": "no matter whether or not [...]",
+      "definition": "[...] であろうとなかろうと"
     },
     {
-      "content": "once you've completed [A]",
-      "translation": "いったん [A] を終わらせたら"
+      "term": "once you've completed [A]",
+      "definition": "いったん [A] を終わらせたら"
     },
     {
-      "content": "sometime when [...]",
-      "translation": "いつか [...] となったら"
+      "term": "sometime when [...]",
+      "definition": "いつか [...] となったら"
     },
     {
-      "content": "than before",
-      "translation": "以前より"
+      "term": "than before",
+      "definition": "以前より"
     },
     {
-      "content": "than expected",
-      "translation": "思ったより"
+      "term": "than expected",
+      "definition": "思ったより"
     },
     {
-      "content": "than usual",
-      "translation": "いつもより"
+      "term": "than usual",
+      "definition": "いつもより"
     },
     {
-      "content": "whatever that means",
-      "translation": "どういう意味であれ"
+      "term": "whatever that means",
+      "definition": "どういう意味であれ"
     },
     {
-      "content": "when [doing]",
-      "translation": "[doing] する時に"
+      "term": "when [doing]",
+      "definition": "[doing] する時に"
     },
     {
-      "content": "when it comes to [A]",
-      "translation": "[A] のことになると"
+      "term": "when it comes to [A]",
+      "definition": "[A] のことになると"
     },
     {
-      "content": "when it matters",
-      "translation": "肝心な時に"
+      "term": "when it matters",
+      "definition": "肝心な時に"
     },
     {
-      "content": "whether or not [...] ",
-      "translation": "[...] であるかどうか"
+      "term": "whether or not [...] ",
+      "definition": "[...] であるかどうか"
     },
     {
-      "content": "why on earth [...]",
-      "translation": "一体どうして [...] であるのか"
+      "term": "why on earth [...]",
+      "definition": "一体どうして [...] であるのか"
     },
     {
-      "content": "more than I realized",
-      "translation": "実際よりずっと"
+      "term": "more than I realized",
+      "definition": "実際よりずっと"
     }
   ]
 }
