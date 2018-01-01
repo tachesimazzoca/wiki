@@ -699,6 +699,10 @@
       "definition": "[A] に寄りかかる"
     },
     {
+      "term": "leap over [A]",
+      "definition": "[A] を{ 飛び越える }"
+    },
+    {
       "term": "leave by [a exit]",
       "definition": "[a exit] から出る"
     },
@@ -1135,6 +1139,10 @@
       "definition": "[A] に悩まされる"
     },
     {
+      "term": "suffice",
+      "definition": "事足りる"
+    },
+    {
       "term": "sunbathe",
       "definition": "日光浴する"
     },
@@ -1265,14 +1273,6 @@
     {
       "term": "yawn",
       "definition": "あくびする"
-    },
-    {
-      "term": "suffice",
-      "definition": "事足りる"
-    },
-    {
-      "term": "leap over [A]",
-      "definition": "[A] を{ 飛び越える }"
     }
   ]
 }

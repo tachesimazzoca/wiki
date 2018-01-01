@@ -799,6 +799,10 @@
       "definition": "乗り物にのって去る"
     },
     {
+      "term": "ring in [the new year]",
+      "definition": "[the new year] を迎える"
+    },
+    {
       "term": "rinse out [one's] mouth",
       "definition": "口をすすぐ"
     },
@@ -993,6 +997,10 @@
     {
       "term": "take [one's] breath away",
       "definition": "（素晴らしい物が）驚かせる / 言葉を失わせる"
+    },
+    {
+      "term": "take [somebody] in",
+      "definition": "[somebody] を騙す"
     },
     {
       "term": "take off",
@@ -1213,10 +1221,6 @@
     {
       "term": "write [A] up",
       "definition": "[A] を公開する（説明/記事/レポート等）"
-    },
-    {
-      "term": "take [somebody] in",
-      "definition": "[somebody] を騙す"
     }
   ]
 }

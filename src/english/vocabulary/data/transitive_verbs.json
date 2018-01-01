@@ -247,6 +247,10 @@
       "definition": "[A] を( 内挿する ! 外挿する )"
     },
     {
+      "term": "{ invent | devise } [A]",
+      "definition": "[A] を{ 発明 | 考案 }する"
+    },
+    {
       "term": "{ investigate | analyze | study } [A]",
       "definition": "[A] を調査する"
     },
@@ -933,10 +937,6 @@
     {
       "term": "detect [A]",
       "definition": "[A] を調査して見つける"
-    },
-    {
-      "term": "devise [A]",
-      "definition": "[A] を考案 / 発明する"
     },
     {
       "term": "diagnose [A]",
