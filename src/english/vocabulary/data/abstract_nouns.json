@@ -115,8 +115,16 @@
       "definition": "提唱 / 主張"
     },
     {
+      "term": "allegation",
+      "definition": "申し立て"
+    },
+    {
       "term": "allegiance",
       "definition": "忠誠"
+    },
+    {
+      "term": "arbitration",
+      "definition": "仲裁"
     },
     {
       "term": "arrogance",
@@ -483,10 +491,6 @@
       "definition": "発生 / 発生率"
     },
     {
-      "term": "incidence",
-      "definition": "発生率"
-    },
-    {
       "term": "independence",
       "definition": "独立"
     },
@@ -687,6 +691,10 @@
       "definition": "先入観"
     },
     {
+      "term": "predicament",
+      "definition": "苦境"
+    },
+    {
       "term": "preference",
       "definition": "好み"
     },
@@ -785,10 +793,6 @@
     {
       "term": "revelation",
       "definition": "暴露 / 啓示 / お告げ"
-    },
-    {
-      "term": "revision",
-      "definition": "改訂"
     },
     {
       "term": "revision",

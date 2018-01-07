@@ -1619,6 +1619,10 @@
       "definition": "[A] を整理する"
     },
     {
+      "term": "oust [someone]",
+      "definition": "[someone] を{ 追い出す | 締め出す }"
+    },
+    {
       "term": "outweigh [disadvantages]",
       "definition": "[disadvantages] に勝る"
     },
@@ -1797,6 +1801,10 @@
     {
       "term": "quote [N] dollars for [A]",
       "definition": "[A] を [N] ドルと見積もる"
+    },
+    {
+      "term": "quarantine [someone]",
+      "definition": "[someone] を(伝染予防のために)隔離する"
     },
     {
       "term": "raid [A]",
