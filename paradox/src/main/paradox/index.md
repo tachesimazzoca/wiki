@@ -11,6 +11,7 @@ layout: index
  
 * [Docker](docker/index.md)
 * [English](english/index.md)
+* [Play Framework](play/index.md)
 * [Vagrant](vagrant/index.md)
 
 @@@
