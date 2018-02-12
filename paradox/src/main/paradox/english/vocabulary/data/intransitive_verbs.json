@@ -1,0 +1,1278 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "{ agree | consent | assent } to [A]",
+      "definition": "[A] に同意する"
+    },
+    {
+      "term": "{ arise | stem } from [A]",
+      "definition": "[A] から発生する / 生じる"
+    },
+    {
+      "term": "{ beg | plead } for [A]",
+      "definition": "[A] （要求）を懇願する"
+    },
+    {
+      "term": "{ begin | start } with [A]",
+      "definition": "[A] で始まる"
+    },
+    {
+      "term": "{ bother | worry } about [A]",
+      "definition": "[A] について心配する"
+    },
+    {
+      "term": "{ converge ! diverge }",
+      "definition": "(収束する ! 拡散する)"
+    },
+    {
+      "term": "{ cry | sob | weep }",
+      "definition": "泣く"
+    },
+    {
+      "term": "{ depend | rely | count } on [A]",
+      "definition": "[A] を頼りにしている"
+    },
+    {
+      "term": "{ differ | vary }",
+      "definition": "異なる"
+    },
+    {
+      "term": "{ disappear | fade }",
+      "definition": "消える"
+    },
+    {
+      "term": "{ happen | occur } to [A]",
+      "definition": "（出来事が） [A] に起こる"
+    },
+    {
+      "term": "{ hesitate | waver | falter } in [A]",
+      "definition": "[A] に躊躇する"
+    },
+    {
+      "term": "{ increase ! decrease } in [value]",
+      "definition": "[value] が (上がる ! 下がる)"
+    },
+    {
+      "term": "{ keep | carry | go } on [doing]",
+      "definition": "[doing] し続ける"
+    },
+    {
+      "term": "{ laugh | smile | chuckle | giggle | grin }",
+      "definition": "笑う"
+    },
+    {
+      "term": "{ look | gaze | glance | glare | stare | peek } at [A]",
+      "definition": "[A] を見る"
+    },
+    {
+      "term": "{ put | slam } on [A]",
+      "definition": "[A] を踏む"
+    },
+    {
+      "term": "{ retire | resign } from [A]",
+      "definition": "[A] から退役する / 退職する"
+    },
+    {
+      "term": "{ rise ! drop }",
+      "definition": "上がる ! 落ちる"
+    },
+    {
+      "term": "{ search | check } for [A]",
+      "definition": "調査動作"
+    },
+    {
+      "term": "{ shake | tremble } with [fear]",
+      "definition": "[fear] で震える"
+    },
+    {
+      "term": "{ shout | yell } { at | against } [somebody]",
+      "definition": "[somebody] に対して叫ぶ"
+    },
+    {
+      "term": "{ stop | pause | cease }",
+      "definition": "止まる"
+    },
+    {
+      "term": "{ strive | endeavor }",
+      "definition": "懸命に努力する"
+    },
+    {
+      "term": "{ succeed ! fail }",
+      "definition": "(成功する ! 失敗する)"
+    },
+    {
+      "term": "{ surrender | yield } to [A]",
+      "definition": "[A] に対して降参する"
+    },
+    {
+      "term": "{ swing | drop | stop | come } by [A]",
+      "definition": "[A] に立ち寄る"
+    },
+    {
+      "term": "{ wait | watch } for [A]",
+      "definition": "[A] を待つ / 監視する"
+    },
+    {
+      "term": "{ win over | lose to } [somebody]",
+      "definition": "[somebody] に(勝つ|負ける)"
+    },
+    {
+      "term": "abate",
+      "definition": "弱まる"
+    },
+    {
+      "term": "abide by [a rule]",
+      "definition": "[a rule] に従う"
+    },
+    {
+      "term": "accelerate",
+      "definition": "加速する"
+    },
+    {
+      "term": "account for [amount]",
+      "definition": "[amount] を占める"
+    },
+    {
+      "term": "adhere to [A]",
+      "definition": "[A] に従う"
+    },
+    {
+      "term": "agree on [A]",
+      "definition": "話し合いを通じて [A] （条項）に同意する"
+    },
+    {
+      "term": "agree with [somebody]",
+      "definition": "[somebody] と意見が一致している"
+    },
+    {
+      "term": "aim { at | against } [a target]",
+      "definition": "[a target] を狙う"
+    },
+    {
+      "term": "amount to [A]",
+      "definition": "[A] に達する"
+    },
+    {
+      "term": "apologize for [A]",
+      "definition": "[A] について謝罪する"
+    },
+    {
+      "term": "apologize to [somebody]",
+      "definition": "[somebody] に謝罪する"
+    },
+    {
+      "term": "appeal to [somebody]",
+      "definition": "[somebody] に懇願する"
+    },
+    {
+      "term": "appear in [A]",
+      "definition": "[A] に掲載される"
+    },
+    {
+      "term": "apply for [a job]",
+      "definition": "[a job] に応募する"
+    },
+    {
+      "term": "approve of [A]",
+      "definition": "[A] を（良い物であると）認定する"
+    },
+    {
+      "term": "argue about [A] with [somebody]",
+      "definition": "[somebody] と [A] について言い争う"
+    },
+    {
+      "term": "arrive at [A]",
+      "definition": "[A] に到着する"
+    },
+    {
+      "term": "aspire",
+      "definition": "熱望する"
+    },
+    {
+      "term": "associate with [somebody]",
+      "definition": "[somebody] と連携する"
+    },
+    {
+      "term": "attend to [A]",
+      "definition": "[A] に注意する"
+    },
+    {
+      "term": "bark",
+      "definition": "吠える"
+    },
+    {
+      "term": "bask in the sunshine",
+      "definition": "ひなたぼっこする"
+    },
+    {
+      "term": "believe in [A]",
+      "definition": "[A] を良いと思う"
+    },
+    {
+      "term": "believe in [oneself]",
+      "definition": "自分を信じる"
+    },
+    {
+      "term": "belong to [A]",
+      "definition": "[A] に属する"
+    },
+    {
+      "term": "blare",
+      "definition": "鳴り響く"
+    },
+    {
+      "term": "bleed",
+      "definition": "血を流す"
+    },
+    {
+      "term": "blush",
+      "definition": "赤面する"
+    },
+    {
+      "term": "boast of [A]",
+      "definition": "[A] を誇りを持って自慢する"
+    },
+    {
+      "term": "brag",
+      "definition": "大げさに自慢する"
+    },
+    {
+      "term": "brake",
+      "definition": "ブレーキをかける / 停止する"
+    },
+    {
+      "term": "breathe",
+      "definition": "呼吸する"
+    },
+    {
+      "term": "browse",
+      "definition": "立ち読みする"
+    },
+    {
+      "term": "bump into [A]",
+      "definition": "[A] に突き当たる"
+    },
+    {
+      "term": "call for [help]",
+      "definition": "[help] を求めて叫ぶ / 要請する"
+    },
+    {
+      "term": "call on [A]",
+      "definition": "[A] に訪問する/ 要請する"
+    },
+    {
+      "term": "care about [A]",
+      "definition": "[A] を気にする"
+    },
+    {
+      "term": "care for [A]",
+      "definition": "[A] を好む"
+    },
+    {
+      "term": "cater",
+      "definition": "仕出しサービスを提供する"
+    },
+    {
+      "term": "chat with [somebody]",
+      "definition": "[somebody] とおしゃべりする"
+    },
+    {
+      "term": "cheat",
+      "definition": "不正をする / いかさまする"
+    },
+    {
+      "term": "chill",
+      "definition": "ダラダラとリラックスする"
+    },
+    {
+      "term": "choke",
+      "definition": "（スポーツで）緊張する"
+    },
+    {
+      "term": "cling to [A]",
+      "definition": "[A] にしがみつく"
+    },
+    {
+      "term": "coalesce into [A]",
+      "definition": "（主体が）合体して [A] になる"
+    },
+    {
+      "term": "coincide with [A]",
+      "definition": "[A] と同時に起こる / 一致する"
+    },
+    {
+      "term": "collaborate on [A]",
+      "definition": "[A] の件で共同作業する / 協業する"
+    },
+    {
+      "term": "collaborate with [somebody]",
+      "definition": "[somebody] と共同作業する / 協業する"
+    },
+    {
+      "term": "collapse",
+      "definition": "崩壊する"
+    },
+    {
+      "term": "collide with [A]",
+      "definition": "[A] と衝突する"
+    },
+    {
+      "term": "compete { with | against } [somebody] for [A]",
+      "definition": "[A] について [somebody] と競い合う"
+    },
+    {
+      "term": "complain about [A]",
+      "definition": "[A] について不満である"
+    },
+    {
+      "term": "complain of [a symptom]",
+      "definition": "[a symptom] （症状）に悩まされる"
+    },
+    {
+      "term": "complain to [somebody]",
+      "definition": "[somebody] （相談相手）に不満を訴える"
+    },
+    {
+      "term": "comply with [demands]",
+      "definition": "[demands] に承諾する"
+    },
+    {
+      "term": "compromise with [somebody] on [A]",
+      "definition": "[A] の件で [somebody] と妥協する"
+    },
+    {
+      "term": "concentrate on [A]",
+      "definition": "[A] に集中する"
+    },
+    {
+      "term": "conclude with [A]",
+      "definition": "[A] で締めくくる"
+    },
+    {
+      "term": "conflict with [A]",
+      "definition": "[A] と相容れない / 矛盾する"
+    },
+    {
+      "term": "conform to [A]",
+      "definition": "[A] に順応する"
+    },
+    {
+      "term": "consist of [A]",
+      "definition": "[A] で構成される"
+    },
+    {
+      "term": "continue to be [A]",
+      "definition": "[A] であり続ける"
+    },
+    {
+      "term": "continue unabated",
+      "definition": "{ 弱まる | 衰える }気配がない"
+    },
+    {
+      "term": "contribute to [A]",
+      "definition": "[A] に貢献する"
+    },
+    {
+      "term": "cooperate with [somebody] on [A]",
+      "definition": "[A] の件で [somebody] と協力する"
+    },
+    {
+      "term": "cope with [difficult situations]",
+      "definition": "[difficult situations] に向き合う"
+    },
+    {
+      "term": "correspond to [A]",
+      "definition": "[A] に対応する / 示す"
+    },
+    {
+      "term": "correspond with [A]",
+      "definition": "[A] と一致する"
+    },
+    {
+      "term": "cough",
+      "definition": "咳をする"
+    },
+    {
+      "term": "crash into [A]",
+      "definition": "[A] に衝突する"
+    },
+    {
+      "term": "creep around [A]",
+      "definition": "[A] にはびこる / 絡みつく"
+    },
+    {
+      "term": "creep into [A]",
+      "definition": "[A] にゆっくりと（這いつくばって）入る"
+    },
+    {
+      "term": "creep into [one's] mind",
+      "definition": "心理につけ込む"
+    },
+    {
+      "term": "date back to [A]",
+      "definition": "[A] にさかのぼる"
+    },
+    {
+      "term": "decease",
+      "definition": "亡くなる"
+    },
+    {
+      "term": "decide { on | against | in favor of | between } [A]",
+      "definition": "[A] （議題）について決定する"
+    },
+    {
+      "term": "dedicate { [oneself] } to [A]",
+      "definition": "[A] に専念する"
+    },
+    {
+      "term": "deliberate on [A]",
+      "definition": "[A] について熟考する"
+    },
+    {
+      "term": "delve into [A]",
+      "definition": "[A] を手探りで探求する"
+    },
+    {
+      "term": "depart",
+      "definition": "出発する"
+    },
+    {
+      "term": "derive from [A]",
+      "definition": "[A] に由来する / 派生する"
+    },
+    {
+      "term": "deviate from [A]",
+      "definition": "[A] に衝突しないように避ける"
+    },
+    {
+      "term": "die of [A]",
+      "definition": "[A] を病因として亡くなる"
+    },
+    {
+      "term": "diminish",
+      "definition": "弱まる"
+    },
+    {
+      "term": "dispose of [A]",
+      "definition": "[A] を処分する"
+    },
+    {
+      "term": "dive into [A]",
+      "definition": "[A] に潜り込む / 探索する"
+    },
+    {
+      "term": "dream about [A]",
+      "definition": "[A] についての夢を見る"
+    },
+    {
+      "term": "dream of [A]",
+      "definition": "[A] を夢に持つ"
+    },
+    {
+      "term": "drop out of { school | college }",
+      "definition": "中退する"
+    },
+    {
+      "term": "drown",
+      "definition": "溺れる / 溺死する"
+    },
+    {
+      "term": "dwell on [the past]",
+      "definition": "[the past] のことをくよくよ考える"
+    },
+    {
+      "term": "eavesdrop on [A]",
+      "definition": "[A] を盗聴する"
+    },
+    {
+      "term": "elaborate on [A]",
+      "definition": "[A] を精巧に作り上げる"
+    },
+    {
+      "term": "email to [somebody]",
+      "definition": "[somebody] にメールする"
+    },
+    {
+      "term": "emerge from [A]",
+      "definition": "[A] から明らかになる / 浮かび上がる"
+    },
+    {
+      "term": "end with [A]",
+      "definition": "[A] で終わる"
+    },
+    {
+      "term": "engage in [A]",
+      "definition": "[A] に従事している / 取り組んでいる"
+    },
+    {
+      "term": "erupt",
+      "definition": "噴火する"
+    },
+    {
+      "term": "evacuate from [A]",
+      "definition": "[A] から避難する"
+    },
+    {
+      "term": "evolve",
+      "definition": "発展する / 進展する / 展開する"
+    },
+    {
+      "term": "excel in [subject]",
+      "definition": "[subject] に優れている"
+    },
+    {
+      "term": "experiment with [A]",
+      "definition": "[A] を使って実験する"
+    },
+    {
+      "term": "expire",
+      "definition": "期限が切れる"
+    },
+    {
+      "term": "face away from [A]",
+      "definition": "[A] から顔を背ける"
+    },
+    {
+      "term": "faint with [A]",
+      "definition": "[A] を原因として気を失う"
+    },
+    {
+      "term": "fall behind in [bills]",
+      "definition": "[bills] を滞納している"
+    },
+    {
+      "term": "fall in love with [somebody]",
+      "definition": "[somebody] のことが好きになる"
+    },
+    {
+      "term": "fall into [a category]",
+      "definition": "[a category] の範疇におさまる"
+    },
+    {
+      "term": "feast { on | with } [A]",
+      "definition": "[A] を味わう（宴会で）"
+    },
+    {
+      "term": "fiddle with [a computer]",
+      "definition": "[a computer] をいじる"
+    },
+    {
+      "term": "fire { at | against } [a target]",
+      "definition": "[a target] を撃つ"
+    },
+    {
+      "term": "flip",
+      "definition": "飛び跳ねる / 宙返りする"
+    },
+    {
+      "term": "fluctuate",
+      "definition": "変動する"
+    },
+    {
+      "term": "flutter",
+      "definition": "羽をばたつかせる"
+    },
+    {
+      "term": "focus on [A]",
+      "definition": "[A] に焦点を合わせる / 集中を向ける"
+    },
+    {
+      "term": "freeze",
+      "definition": "凍る"
+    },
+    {
+      "term": "function as [A]",
+      "definition": "[A] としての役目を果たす"
+    },
+    {
+      "term": "gallop",
+      "definition": "（馬など動物がギャロップで）走る"
+    },
+    {
+      "term": "gargle with water",
+      "definition": "うがいする"
+    },
+    {
+      "term": "generalize about [A]",
+      "definition": "[A] について一般論を語る"
+    },
+    {
+      "term": "graduate from [A]",
+      "definition": "[A] を卒業する"
+    },
+    {
+      "term": "happen to [do]",
+      "definition": "思いがけず [do] する"
+    },
+    {
+      "term": "head for [A]",
+      "definition": "[A] に向かう"
+    },
+    {
+      "term": "hear about [somebody]",
+      "definition": "[somebody] の悪い噂を聞く"
+    },
+    {
+      "term": "hear from [A]",
+      "definition": "[A] から便りがある"
+    },
+    {
+      "term": "hear of [A]",
+      "definition": "[A] について聞いたことがある"
+    },
+    {
+      "term": "hold onto [A]",
+      "definition": "[A] を手放さずにずっと持っておく / しがみつく"
+    },
+    {
+      "term": "hope for [A]",
+      "definition": "[A] を望む"
+    },
+    {
+      "term": "insist on [A]",
+      "definition": "[A] を主張する"
+    },
+    {
+      "term": "intensify over [A]",
+      "definition": "[A] のことで白熱する"
+    },
+    {
+      "term": "interact with [A]",
+      "definition": "[A] と互いに作用する / 相互作用する"
+    },
+    {
+      "term": "interfere with [A]",
+      "definition": "[A] を妨げる"
+    },
+    {
+      "term": "intrude on [privacy]",
+      "definition": "[privacy] を侵害する"
+    },
+    {
+      "term": "invest in [A]",
+      "definition": "[A] に投資する"
+    },
+    {
+      "term": "jump into [A]",
+      "definition": "[A] に飛び込む"
+    },
+    {
+      "term": "know about [somebody]",
+      "definition": "[somebody] の噂を知る"
+    },
+    {
+      "term": "know for sure",
+      "definition": "定かと分かっている"
+    },
+    {
+      "term": "know of [A]",
+      "definition": "[A] の存在を知っている"
+    },
+    {
+      "term": "last",
+      "definition": "続く"
+    },
+    {
+      "term": "laugh at [A]",
+      "definition": "[A] を見て笑う"
+    },
+    {
+      "term": "lead to [A]",
+      "definition": "[A] となる"
+    },
+    {
+      "term": "leak",
+      "definition": "漏れる"
+    },
+    {
+      "term": "lean against [A]",
+      "definition": "[A] に寄りかかる"
+    },
+    {
+      "term": "leap over [A]",
+      "definition": "[A] を{ 飛び越える }"
+    },
+    {
+      "term": "leave by [a exit]",
+      "definition": "[a exit] から出る"
+    },
+    {
+      "term": "leave early",
+      "definition": "早退する"
+    },
+    {
+      "term": "leave for [A]",
+      "definition": "[A] に向けて出発する"
+    },
+    {
+      "term": "lecture about [A]",
+      "definition": "[A] について講義する"
+    },
+    {
+      "term": "lecture on [A]",
+      "definition": "[A] をテーマとして講義する"
+    },
+    {
+      "term": "lecture to [somebody]",
+      "definition": "[somebody] に講義する"
+    },
+    {
+      "term": "listen to [A]",
+      "definition": "[A] を聴く / 耳を向ける"
+    },
+    {
+      "term": "live up to [A]",
+      "definition": "[A] に恥じない行動をする"
+    },
+    {
+      "term": "live with [A]",
+      "definition": "[A] を堪え忍ぶ / 我慢する"
+    },
+    {
+      "term": "long for [A]",
+      "definition": "[A] を待ち焦がれる"
+    },
+    {
+      "term": "look for [A]",
+      "definition": "[A] を探す"
+    },
+    {
+      "term": "lurk",
+      "definition": "待ち伏せする"
+    },
+    {
+      "term": "major in [A]",
+      "definition": "[A] を専攻している"
+    },
+    {
+      "term": "marvel at [A]",
+      "definition": "[A] に驚愕する"
+    },
+    {
+      "term": "mellow",
+      "definition": "熟す / 落ち着く"
+    },
+    {
+      "term": "mingle with [A]",
+      "definition": "[A] と交流する"
+    },
+    {
+      "term": "minister to [A]",
+      "definition": "[A] に仕える / 役に立つ"
+    },
+    {
+      "term": "misbehave",
+      "definition": "ふざける / （システムが）誤動作する"
+    },
+    {
+      "term": "move into [A]",
+      "definition": "[A] に引っ越す"
+    },
+    {
+      "term": "move to [A]",
+      "definition": "[A] に移動する"
+    },
+    {
+      "term": "nod to [A]",
+      "definition": "[A] に向かってうなずく"
+    },
+    {
+      "term": "operate on [somebody]",
+      "definition": "[somebody] に手術をする"
+    },
+    {
+      "term": "opt for [A]",
+      "definition": "[A] を選択する"
+    },
+    {
+      "term": "opt out of [A]",
+      "definition": "[A] から手を引く / 諦める"
+    },
+    {
+      "term": "originate from [A]",
+      "definition": "[A] から始まる"
+    },
+    {
+      "term": "overflow with [A]",
+      "definition": "[A] で溢れかえる"
+    },
+    {
+      "term": "pace",
+      "definition": "歩調を合わせて歩く"
+    },
+    {
+      "term": "pander to [prejudice]",
+      "definition": "[prejudice] につけこむ"
+    },
+    {
+      "term": "pass",
+      "definition": "通り過ぎる"
+    },
+    {
+      "term": "pass for [N] years old",
+      "definition": "[N] 歳として通用する"
+    },
+    {
+      "term": "perform",
+      "definition": "動作する"
+    },
+    {
+      "term": "persevere",
+      "definition": "辛抱強くやり通す"
+    },
+    {
+      "term": "persist",
+      "definition": "（状態が）持続する / 保存される"
+    },
+    {
+      "term": "persist in [doing]",
+      "definition": "[doing] することを持続する"
+    },
+    {
+      "term": "plan on [A]",
+      "definition": "[A] について計画する"
+    },
+    {
+      "term": "plummet",
+      "definition": "急落する"
+    },
+    {
+      "term": "plunge into [A]",
+      "definition": "[A] に突っ込む"
+    },
+    {
+      "term": "point { at | against } [a target]",
+      "definition": "[a target] を指す"
+    },
+    {
+      "term": "pray for [A]",
+      "definition": "[A] に祈りを捧げる"
+    },
+    {
+      "term": "preach to [somebody] { on | about } [A]",
+      "definition": "[somebody] へ [A] について訓示を垂れる"
+    },
+    {
+      "term": "prepare for [A]",
+      "definition": "[A] の準備をする"
+    },
+    {
+      "term": "prevail in [A]",
+      "definition": "[A] にはびこる / 根強く残る"
+    },
+    {
+      "term": "prevail over [A]",
+      "definition": "[A] に勝る / 優先する"
+    },
+    {
+      "term": "proceed to [A]",
+      "definition": "[A] へ前進する"
+    },
+    {
+      "term": "protest { at | against } [somebody]",
+      "definition": "[somebody] に対して抗議する"
+    },
+    {
+      "term": "prove to be [JJ]",
+      "definition": "[JJ] であると判明する"
+    },
+    {
+      "term": "provide for [A]",
+      "definition": "[A] （家族）を養う"
+    },
+    {
+      "term": "pry into [A]",
+      "definition": "[A] を覗いて探索する"
+    },
+    {
+      "term": "qualify for [A]",
+      "definition": "[A] への出場権を得る"
+    },
+    {
+      "term": "quarrel with [somebody]",
+      "definition": "[someone] と口喧嘩する"
+    },
+    {
+      "term": "quit",
+      "definition": "辞職する"
+    },
+    {
+      "term": "quit on [somebody]",
+      "definition": "[somebody] を見捨てる"
+    },
+    {
+      "term": "rage",
+      "definition": "（雷や風等が）荒れ狂う"
+    },
+    {
+      "term": "rage { at | against } [somebody]",
+      "definition": "[somebody] に対して激高する"
+    },
+    {
+      "term": "rage { for | about } [A]",
+      "definition": "[A] について激怒する"
+    },
+    {
+      "term": "reach into [A]",
+      "definition": "[A] の中に手を伸ばす"
+    },
+    {
+      "term": "read from [A] into [B]",
+      "definition": "[A] から [B] に読み込む"
+    },
+    {
+      "term": "recommend against [doing]",
+      "definition": "[doing] しないように勧める"
+    },
+    {
+      "term": "refer to [A]",
+      "definition": "[A] に関連する / 意味する"
+    },
+    {
+      "term": "reflect on [A]",
+      "definition": "[A] を考慮する"
+    },
+    {
+      "term": "refrain from [doing]",
+      "definition": "[doing] することを控える（誘惑を我慢する）"
+    },
+    {
+      "term": "refuel at [A]",
+      "definition": "[A] で燃料補給する"
+    },
+    {
+      "term": "register for [A]",
+      "definition": "[A] に登録する"
+    },
+    {
+      "term": "relax",
+      "definition": "ゆっくりする"
+    },
+    {
+      "term": "rest against [A]",
+      "definition": "[A] に寄りかかっている"
+    },
+    {
+      "term": "result from [A]",
+      "definition": "[A] に起因して起こる"
+    },
+    {
+      "term": "result in success",
+      "definition": "成功に終わる"
+    },
+    {
+      "term": "roll",
+      "definition": "転がる（ように動く）"
+    },
+    {
+      "term": "rule over [A]",
+      "definition": "[A] を支配する"
+    },
+    {
+      "term": "run for [A]",
+      "definition": "[A] に立候補する"
+    },
+    {
+      "term": "scream",
+      "definition": "悲鳴を上げる"
+    },
+    {
+      "term": "screech",
+      "definition": "引っ掻いたスリップ音が鳴る"
+    },
+    {
+      "term": "shatter",
+      "definition": "粉々になる"
+    },
+    {
+      "term": "shoot { at | against } [a target]",
+      "definition": "[a target] を撃つ"
+    },
+    {
+      "term": "shrink",
+      "definition": "縮まる"
+    },
+    {
+      "term": "sigh",
+      "definition": "ため息をつく"
+    },
+    {
+      "term": "sink in [A]",
+      "definition": "[A] に沈む"
+    },
+    {
+      "term": "sit in [A]",
+      "definition": "[A] に座る"
+    },
+    {
+      "term": "sit on [A]",
+      "definition": "[A] の上に乗っている"
+    },
+    {
+      "term": "skew",
+      "definition": "歪む"
+    },
+    {
+      "term": "skid",
+      "definition": "横滑りする"
+    },
+    {
+      "term": "sleep",
+      "definition": "寝る"
+    },
+    {
+      "term": "sleep late",
+      "definition": "朝寝坊する（意図的）"
+    },
+    {
+      "term": "slide",
+      "definition": "平行移動する"
+    },
+    {
+      "term": "smart from [A]",
+      "definition": "[A] に憤慨する"
+    },
+    {
+      "term": "snack on [A]",
+      "definition": "[A] を間食する"
+    },
+    {
+      "term": "sneak into [A]",
+      "definition": "[A] の中に忍び込む"
+    },
+    {
+      "term": "sneeze",
+      "definition": "くしゃみをする"
+    },
+    {
+      "term": "snoop",
+      "definition": "うろうろ捜し回る"
+    },
+    {
+      "term": "snore",
+      "definition": "いびきをかく"
+    },
+    {
+      "term": "soar",
+      "definition": "高く舞い上がる（空を舞う）"
+    },
+    {
+      "term": "splash",
+      "definition": "飛び散る"
+    },
+    {
+      "term": "stand by [A]",
+      "definition": "[A] のそばにいる"
+    },
+    {
+      "term": "starve for [A]",
+      "definition": "[A] を切望する"
+    },
+    {
+      "term": "stick to [A]",
+      "definition": "[A] に付着している /（信条）に固執する"
+    },
+    {
+      "term": "stiffen",
+      "definition": "ストレスで顔がこわばる"
+    },
+    {
+      "term": "stink",
+      "definition": "悪臭を放つ"
+    },
+    {
+      "term": "stomp",
+      "definition": "足を踏み鳴らす"
+    },
+    {
+      "term": "storm into [A]",
+      "definition": "[A] に突き進む"
+    },
+    {
+      "term": "stride",
+      "definition": "大股で歩く"
+    },
+    {
+      "term": "stroll",
+      "definition": "ぶらぶら歩く"
+    },
+    {
+      "term": "struggle with [A]",
+      "definition": "[A] に対してもがく"
+    },
+    {
+      "term": "study abroad",
+      "definition": "留学する"
+    },
+    {
+      "term": "stumble",
+      "definition": "つまずく"
+    },
+    {
+      "term": "stumble upon [A]",
+      "definition": "[A] に偶然出会う"
+    },
+    {
+      "term": "subscribe to [A]",
+      "definition": "[A] を購読する"
+    },
+    {
+      "term": "succeed at [A]",
+      "definition": "[A] において成功する"
+    },
+    {
+      "term": "succeed in [doing]",
+      "definition": "[doing] することに成功する"
+    },
+    {
+      "term": "suffer from [A]",
+      "definition": "[A] に悩まされる"
+    },
+    {
+      "term": "suffice",
+      "definition": "事足りる"
+    },
+    {
+      "term": "sunbathe",
+      "definition": "日光浴する"
+    },
+    {
+      "term": "survive into [the age]",
+      "definition": "[the age] まで生き残る"
+    },
+    {
+      "term": "swarm",
+      "definition": "群がる"
+    },
+    {
+      "term": "swear",
+      "definition": "誓う"
+    },
+    {
+      "term": "swear { at | against } [somebody]",
+      "definition": "[somebody] に対して悪態をつく"
+    },
+    {
+      "term": "sweep on the floor",
+      "definition": "床を掃く"
+    },
+    {
+      "term": "swell",
+      "definition": "（量的に）膨らむ / 増加する / 顔などが腫れる"
+    },
+    {
+      "term": "talk about [A]",
+      "definition": "[A] について話す"
+    },
+    {
+      "term": "talk to [somebody]",
+      "definition": "[somebody] に話す"
+    },
+    {
+      "term": "tamper with [A]",
+      "definition": "[A] を改ざんする"
+    },
+    {
+      "term": "telecommute",
+      "definition": "リモート勤務する"
+    },
+    {
+      "term": "think about [A]",
+      "definition": "[A] について考える"
+    },
+    {
+      "term": "think of [doing]",
+      "definition": "[doing] しようと思っている"
+    },
+    {
+      "term": "throw { at | against } [a target]",
+      "definition": "[a target] へ投げる"
+    },
+    {
+      "term": "tinker with [A]",
+      "definition": "[A] を（修繕するつもりで下手に）弄る"
+    },
+    {
+      "term": "tower",
+      "definition": "高くそびえる"
+    },
+    {
+      "term": "tumble",
+      "definition": "転ぶ / 躓く / 転落する"
+    },
+    {
+      "term": "turn to [A]",
+      "definition": "[A] に方向を変える"
+    },
+    {
+      "term": "type into [A]",
+      "definition": "[A] にキーボード入力する"
+    },
+    {
+      "term": "unwind",
+      "definition": "くつろぐ（羽をのばす）"
+    },
+    {
+      "term": "vanish",
+      "definition": "（事件や事故などで）消息を断つ"
+    },
+    {
+      "term": "venture",
+      "definition": "危険を冒して試みる"
+    },
+    {
+      "term": "vote { in favor of | against } [A]",
+      "definition": "[A] への (賛成票|反対票) を投票する"
+    },
+    {
+      "term": "waft",
+      "definition": "漂う"
+    },
+    {
+      "term": "wave to [somebody]",
+      "definition": "[somebody] に手を振る"
+    },
+    {
+      "term": "weigh",
+      "definition": "重さがある"
+    },
+    {
+      "term": "weigh into [A]",
+      "definition": "[A] （議論や闘争など）に入れこむ（熱く参加する）"
+    },
+    {
+      "term": "work as [a position]",
+      "definition": "[a position] として働く"
+    },
+    {
+      "term": "work at [an office]",
+      "definition": "[an office] で働く"
+    },
+    {
+      "term": "work for [a company]",
+      "definition": "[a company] に勤務する"
+    },
+    {
+      "term": "work for [somebody]",
+      "definition": "[somebody] に{ 合っている | 向いている }"
+    },
+    {
+      "term": "write to [somebody]",
+      "definition": "[somebody] に手紙を書く"
+    },
+    {
+      "term": "yawn",
+      "definition": "あくびする"
+    }
+  ]
+}

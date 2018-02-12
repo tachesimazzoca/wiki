@@ -1,0 +1,54 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "call [A] [Bob]",
+      "definition": "[A] を [Bob] と通称する"
+    },
+    {
+      "term": "consider [A] [rude]",
+      "definition": "[A] を [rude] とみなす"
+    },
+    {
+      "term": "find [A] [easy]",
+      "definition": "[A] を [easy] だと感じる"
+    },
+    {
+      "term": "keep [A] [clean]",
+      "definition": "[A] を [clean] に保つ"
+    },
+    {
+      "term": "label [A] [stupid]",
+      "definition": "[A] を [stupid] だとレッテルを貼る"
+    },
+    {
+      "term": "leave [A] [open]",
+      "definition": "[A] を [open] にしておく"
+    },
+    {
+      "term": "make [A] [happy]",
+      "definition": "[A] を [happy] にする"
+    },
+    {
+      "term": "paint [A] [white]",
+      "definition": "[A] を [white] に塗る"
+    },
+    {
+      "term": "prove [A] [right]",
+      "definition": "[A] を [right] だと証明する"
+    },
+    {
+      "term": "set [A] free",
+      "definition": "[A] を解放する"
+    }
+  ]
+}

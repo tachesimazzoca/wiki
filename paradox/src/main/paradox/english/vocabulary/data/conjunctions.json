@@ -1,0 +1,474 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "{ hence | therefore }",
+      "definition": "ゆえに"
+    },
+    {
+      "term": "{ in addition | plus }",
+      "definition": "加えて"
+    },
+    {
+      "term": "{ nevertheless | in spite of that }",
+      "definition": "それにもかかわらず"
+    },
+    {
+      "term": "{ on the whole | by and large }",
+      "definition": "概して"
+    },
+    {
+      "term": "above all",
+      "definition": "とりわけ / 何にもまして"
+    },
+    {
+      "term": "accordingly",
+      "definition": "従って"
+    },
+    {
+      "term": "actually",
+      "definition": "実は"
+    },
+    {
+      "term": "after all",
+      "definition": "結局"
+    },
+    {
+      "term": "afterwards",
+      "definition": "後々になって"
+    },
+    {
+      "term": "alternatively",
+      "definition": "あるいは"
+    },
+    {
+      "term": "and for that",
+      "definition": "そしてそのためには"
+    },
+    {
+      "term": "and yet",
+      "definition": "にもかかわらず"
+    },
+    {
+      "term": "apart from that",
+      "definition": "それとは別に"
+    },
+    {
+      "term": "apparently",
+      "definition": "どうやら"
+    },
+    {
+      "term": "as [A] put it",
+      "definition": "[A] が言う（示す）ように"
+    },
+    {
+      "term": "as a matter of fact",
+      "definition": "実際のところ"
+    },
+    {
+      "term": "as a result (of [A])",
+      "definition": "([A] の)結果として"
+    },
+    {
+      "term": "as a side comment",
+      "definition": "もう一つおまけでお話すると"
+    },
+    {
+      "term": "as an aside",
+      "definition": "余談ですが"
+    },
+    {
+      "term": "as discussed",
+      "definition": "話した通り"
+    },
+    {
+      "term": "as explained",
+      "definition": "説明した通り"
+    },
+    {
+      "term": "as far as [A] is concerned",
+      "definition": "[A] に関しては"
+    },
+    {
+      "term": "as I mentioned before",
+      "definition": "前述の通り"
+    },
+    {
+      "term": "as planned",
+      "definition": "予定通り"
+    },
+    {
+      "term": "as promised",
+      "definition": "約束通り"
+    },
+    {
+      "term": "as shown",
+      "definition": "掲載されている通り"
+    },
+    {
+      "term": "as usual",
+      "definition": "たいていは"
+    },
+    {
+      "term": "as written",
+      "definition": "書いてある通り"
+    },
+    {
+      "term": "as you can see",
+      "definition": "ご覧のように"
+    },
+    {
+      "term": "as you likely noticed",
+      "definition": "お気づきだと思いますが"
+    },
+    {
+      "term": "at first blush",
+      "definition": "一見して"
+    },
+    {
+      "term": "back home",
+      "definition": "自国では"
+    },
+    {
+      "term": "back in Japan",
+      "definition": "自国の日本では"
+    },
+    {
+      "term": "believe it or not",
+      "definition": "信じてくれないだろうけど"
+    },
+    {
+      "term": "besides [A]",
+      "definition": "[A] だけでなく"
+    },
+    {
+      "term": "between you and me",
+      "definition": "ここだけの話ですが"
+    },
+    {
+      "term": "but now",
+      "definition": "今となっては"
+    },
+    {
+      "term": "but wait",
+      "definition": "とはいえ（ちょっと待った）"
+    },
+    {
+      "term": "by contrast",
+      "definition": "対照的に"
+    },
+    {
+      "term": "by default",
+      "definition": "デフォルトでは"
+    },
+    {
+      "term": "by the way",
+      "definition": "ところで"
+    },
+    {
+      "term": "compared to [A]",
+      "definition": "[something] と比べると"
+    },
+    {
+      "term": "concretely",
+      "definition": "具体的には"
+    },
+    {
+      "term": "contrary to [A]",
+      "definition": "[A] に反して"
+    },
+    {
+      "term": "conversely",
+      "definition": "逆に / それとはひきかえに"
+    },
+    {
+      "term": "due to [a reason]",
+      "definition": "[a reason] を理由として"
+    },
+    {
+      "term": "eventually",
+      "definition": "最終的に / 結果的に"
+    },
+    {
+      "term": "finally",
+      "definition": "最後に / 結びとして"
+    },
+    {
+      "term": "for instance",
+      "definition": "例えば"
+    },
+    {
+      "term": "frankly speaking",
+      "definition": "無礼を承知ではっきりいうと"
+    },
+    {
+      "term": "generally",
+      "definition": "一般的に"
+    },
+    {
+      "term": "given that",
+      "definition": "そうであるならば"
+    },
+    {
+      "term": "however",
+      "definition": "しかしながら"
+    },
+    {
+      "term": "if anything",
+      "definition": "どちらかというと"
+    },
+    {
+      "term": "in a sense",
+      "definition": "ある程度は"
+    },
+    {
+      "term": "in an ideal world",
+      "definition": "理想では"
+    },
+    {
+      "term": "in any case",
+      "definition": "ともかく / いずれにしても"
+    },
+    {
+      "term": "in contrast",
+      "definition": "対して"
+    },
+    {
+      "term": "in fact",
+      "definition": "事実として（疑念を晴らす事実）"
+    },
+    {
+      "term": "in most cases",
+      "definition": "ほとんどの場合"
+    },
+    {
+      "term": "in order to [do]",
+      "definition": "[do] するために"
+    },
+    {
+      "term": "in other words",
+      "definition": "言いかえると"
+    },
+    {
+      "term": "in part",
+      "definition": "ひとつには"
+    },
+    {
+      "term": "in particular",
+      "definition": "特に"
+    },
+    {
+      "term": "in practice",
+      "definition": "実際のところは / 実用上は"
+    },
+    {
+      "term": "in spite of [A]",
+      "definition": "[A] にもかかわらず"
+    },
+    {
+      "term": "in sum",
+      "definition": "要するに"
+    },
+    {
+      "term": "in that respect",
+      "definition": "その点で"
+    },
+    {
+      "term": "in that sense",
+      "definition": "そういう意味では"
+    },
+    {
+      "term": "in the first place",
+      "definition": "そもそも"
+    },
+    {
+      "term": "in the meantime",
+      "definition": "当面の間は"
+    },
+    {
+      "term": "in the same vein",
+      "definition": "同じ意味で"
+    },
+    {
+      "term": "indeed",
+      "definition": "確かに"
+    },
+    {
+      "term": "ironically",
+      "definition": "皮肉にも"
+    },
+    {
+      "term": "just as [...]",
+      "definition": "[...] である通り"
+    },
+    {
+      "term": "just out of interest",
+      "definition": "単に好奇心からですが"
+    },
+    {
+      "term": "just to name a few",
+      "definition": "ほんの一例ですが（もっと例はありますが）"
+    },
+    {
+      "term": "knowing that [...]",
+      "definition": "[...] は既知であるので"
+    },
+    {
+      "term": "likewise",
+      "definition": "同じように"
+    },
+    {
+      "term": "more often than not",
+      "definition": "たいていは"
+    },
+    {
+      "term": "more precisely",
+      "definition": "もっと細かいことをいうと"
+    },
+    {
+      "term": "namely",
+      "definition": "すなわち"
+    },
+    {
+      "term": "needless to say",
+      "definition": "言うまでもなく"
+    },
+    {
+      "term": "no offence to [A]",
+      "definition": "[A] を悪く言うわけでないが"
+    },
+    {
+      "term": "now that I think about it",
+      "definition": "そういえば"
+    },
+    {
+      "term": "nowadays",
+      "definition": "今となっては"
+    },
+    {
+      "term": "on the other hand",
+      "definition": "一方（他方）では"
+    },
+    {
+      "term": "one way out of [A]",
+      "definition": "[A] から抜け出す方法の一つとして"
+    },
+    {
+      "term": "other than that",
+      "definition": "それ以外は"
+    },
+    {
+      "term": "otherwise",
+      "definition": "そうでないと"
+    },
+    {
+      "term": "rather than [A]",
+      "definition": "[A] ではなくて"
+    },
+    {
+      "term": "roughly speaking",
+      "definition": "ざっくりいうと"
+    },
+    {
+      "term": "similar to [A]",
+      "definition": "[A] と同じように"
+    },
+    {
+      "term": "simply put",
+      "definition": "簡単にいうと"
+    },
+    {
+      "term": "so far ",
+      "definition": "これまでのところ"
+    },
+    {
+      "term": "so to say",
+      "definition": "言うならば"
+    },
+    {
+      "term": "soon or later",
+      "definition": "遅かれ早かれ"
+    },
+    {
+      "term": "speak of the devil",
+      "definition": "うわさをすれば"
+    },
+    {
+      "term": "strange to say",
+      "definition": "奇妙な話だが"
+    },
+    {
+      "term": "thanks to [A]",
+      "definition": "[A] のおかげで"
+    },
+    {
+      "term": "that being said",
+      "definition": "とはいうものの"
+    },
+    {
+      "term": "that way",
+      "definition": "そうすれば / そう考えると"
+    },
+    {
+      "term": "these days",
+      "definition": "近頃は"
+    },
+    {
+      "term": "this way",
+      "definition": "このようにして"
+    },
+    {
+      "term": "those days",
+      "definition": "かつては（あの頃は）"
+    },
+    {
+      "term": "to be concrete",
+      "definition": "具体的には"
+    },
+    {
+      "term": "to be honest",
+      "definition": "正直言うと"
+    },
+    {
+      "term": "to begin with",
+      "definition": "大体からして / 第一 / そもそも"
+    },
+    {
+      "term": "to make matters worth",
+      "definition": "厄介なことに"
+    },
+    {
+      "term": "to my knowledge",
+      "definition": "私の知る限りで"
+    },
+    {
+      "term": "to tell the truth",
+      "definition": "正直言うと"
+    },
+    {
+      "term": "traditionally",
+      "definition": "伝統的に"
+    },
+    {
+      "term": "typically",
+      "definition": "慣習的（一般的）に"
+    },
+    {
+      "term": "ultimately",
+      "definition": "結局は"
+    },
+    {
+      "term": "what's more",
+      "definition": "それに加えて / おまけに"
+    }
+  ]
+}

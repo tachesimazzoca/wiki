@@ -1,0 +1,498 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "[do] like gangbusters",
+      "definition": "凄まじくエネルギッシュに [do] する"
+    },
+    {
+      "term": "{ appeal to reason ! resort to violence }",
+      "definition": "{ 理性に訴える ! 暴力に頼る }"
+    },
+    {
+      "term": "{ breathe | heave | utter } a sigh",
+      "definition": "ため息をつく"
+    },
+    {
+      "term": "{ change | take a turn } for the { better ! worth }",
+      "definition": "（病状などが）{ 改善 ! 悪化 }する"
+    },
+    {
+      "term": "{ keep | hold } [A] at bay",
+      "definition": "[A] (問題)との距離をおく"
+    },
+    {
+      "term": "{ start | get } off on the wrong foot",
+      "definition": "出だしでつまづく"
+    },
+    {
+      "term": "add to [one's] burdens",
+      "definition": "負担を増やす"
+    },
+    {
+      "term": "agree to differ",
+      "definition": "人それぞれだと受け入れて争わない"
+    },
+    {
+      "term": "argue back and forth",
+      "definition": "言い争う"
+    },
+    {
+      "term": "bar [A] from [B]",
+      "definition": "[A] から [A] を閉め出す"
+    },
+    {
+      "term": "be at loss for words",
+      "definition": "あきれて物が言えない"
+    },
+    {
+      "term": "be away on business",
+      "definition": "出張中である"
+    },
+    {
+      "term": "be cut out for [A]",
+      "definition": "[A] に性格が向いている"
+    },
+    {
+      "term": "be forced to lead a hard life",
+      "definition": "苦しい生活を強いられる"
+    },
+    {
+      "term": "be handed a pink slip",
+      "definition": "解雇される"
+    },
+    {
+      "term": "be hard up",
+      "definition": "金欠である"
+    },
+    {
+      "term": "be head and shoulders above the { others | rest | pack }",
+      "definition": "断トツのトップである"
+    },
+    {
+      "term": "be in great demand",
+      "definition": "引っ張りだこである"
+    },
+    {
+      "term": "be of two minds whether to [do] or not.",
+      "definition": "[do] するかどうか悩んでいる"
+    },
+    {
+      "term": "be second only to [A]",
+      "definition": "[A] の二の次である"
+    },
+    {
+      "term": "be second to none when [...]",
+      "definition": "[...] することにおいて長けている"
+    },
+    {
+      "term": "bear fruit",
+      "definition": "実を結ぶ"
+    },
+    {
+      "term": "beat around the bush",
+      "definition": "答えになっていない遠回しな表現をする"
+    },
+    {
+      "term": "bet [...]",
+      "definition": "[...] であると確信する"
+    },
+    {
+      "term": "blow [one's] nose with a tissue paper",
+      "definition": "ティッシュで鼻をかむ"
+    },
+    {
+      "term": "break [one's] promise",
+      "definition": "約束を破る"
+    },
+    {
+      "term": "break a sweat",
+      "definition": "汗ばむ"
+    },
+    {
+      "term": "burst into laughter",
+      "definition": "突然笑い出す"
+    },
+    {
+      "term": "buy [A] on impulse",
+      "definition": "[A] を衝動買いする"
+    },
+    {
+      "term": "call (all) the shots",
+      "definition": "(銃撃命令するように) { 偉い立場で振る舞う | 全ての決定権を支配する }"
+    },
+    {
+      "term": "cast a spell on [A]",
+      "definition": "[A] に呪いをかける"
+    },
+    {
+      "term": "cleanse [oneself] of [one's] sins",
+      "definition": "過去を洗い流す"
+    },
+    {
+      "term": "consider every aspect of [A]",
+      "definition": "[A] をあらゆる視点で検討する"
+    },
+    {
+      "term": "crack a book",
+      "definition": "（試験のために）本を解読する"
+    },
+    {
+      "term": "crack open [an egg]",
+      "definition": "[an egg] をパカっと割る"
+    },
+    {
+      "term": "deal a blow to [somebody]",
+      "definition": "[somebody] に一撃を食わせる"
+    },
+    {
+      "term": "defend [oneself]",
+      "definition": "弁護する"
+    },
+    {
+      "term": "die at the scene",
+      "definition": "即死する"
+    },
+    {
+      "term": "dip into savings",
+      "definition": "貯金に手をつける"
+    },
+    {
+      "term": "draw attention",
+      "definition": "話題を呼ぶ"
+    },
+    {
+      "term": "dredge up [one's past]",
+      "definition": "[one's past] を蒸し返す"
+    },
+    {
+      "term": "dress in costume",
+      "definition": "変装する"
+    },
+    {
+      "term": "drop [somebody] a line",
+      "definition": "[somebody] との連絡を保つ"
+    },
+    {
+      "term": "enter a crucial phase",
+      "definition": "正念場になる"
+    },
+    {
+      "term": "establish conference that [...]",
+      "definition": "[...] であると自信を持つ"
+    },
+    {
+      "term": "exercise the right to [A]",
+      "definition": "[A] の権利を行使する"
+    },
+    {
+      "term": "feel a pang of conscience",
+      "definition": "良心の呵責を覚える"
+    },
+    {
+      "term": "fit in with [somebody]",
+      "definition": "[somebody] と調子を合わせる"
+    },
+    {
+      "term": "fit into a mold",
+      "definition": "（自分自身を）型にはまる"
+    },
+    {
+      "term": "flash before [one's] eyes",
+      "definition": "走馬灯のように駆け巡る"
+    },
+    {
+      "term": "freeze to death",
+      "definition": "凍死する"
+    },
+    {
+      "term": "gain an intuition of [A]",
+      "definition": "[A] の感覚（コツ）を掴む"
+    },
+    {
+      "term": "gain momentum",
+      "definition": "勢いを増す / はずみがつく"
+    },
+    {
+      "term": "get a word in edgewise",
+      "definition": "口を挟む"
+    },
+    {
+      "term": "get into nuts and bolts of [A]",
+      "definition": "[A] の仕組みをつかむ"
+    },
+    {
+      "term": "get lay of land",
+      "definition": "概要をつかむ"
+    },
+    {
+      "term": "get off on the right foot",
+      "definition": "うまくいくように始める"
+    },
+    {
+      "term": "go dutch",
+      "definition": "割り勘にする"
+    },
+    {
+      "term": "go hand in hand",
+      "definition": "両立する"
+    },
+    {
+      "term": "go so far as to [do]",
+      "definition": "[do] しさえする"
+    },
+    {
+      "term": "go to { great | any | these } lengths",
+      "definition": "あえて面倒なことをする"
+    },
+    {
+      "term": "grow out of [A]",
+      "definition": "[A] （子供っぽい振る舞い）を卒業する"
+    },
+    {
+      "term": "grow out of [A]",
+      "definition": "[A] から生じる"
+    },
+    {
+      "term": "hear [A] straight from the horse's teeth",
+      "definition": "（噂ではなく）当事者から直接 [A] を聞く"
+    },
+    {
+      "term": "heat [A] (up) in the microwave",
+      "definition": "[A] をレンジで温める"
+    },
+    {
+      "term": "know better than to [do]",
+      "definition": "[do] しない分別がある"
+    },
+    {
+      "term": "lay it on thick",
+      "definition": "大げさに話を広げる / 話を盛る / 大風呂敷を敷く"
+    },
+    {
+      "term": "learn [A] by heart",
+      "definition": "[A] を暗記する"
+    },
+    {
+      "term": "learn [one's] lesson",
+      "definition": "懲りる / 痛い思いをする"
+    },
+    {
+      "term": "leave nothing to be desired",
+      "definition": "文句のつけようがない"
+    },
+    {
+      "term": "let go of [A]",
+      "definition": "[A] （良くない事）を手放す"
+    },
+    {
+      "term": "live from hand to mouth",
+      "definition": "その日暮らし（食うや食わずの生活）をする"
+    },
+    {
+      "term": "live in a state of ease",
+      "definition": "気楽に生きる"
+    },
+    {
+      "term": "live up to [one's] expectation(s)",
+      "definition": "期待に応える"
+    },
+    {
+      "term": "lose [one's] footing",
+      "definition": "足元をとられる"
+    },
+    {
+      "term": "maintain a positive attitude",
+      "definition": "前向きでいる"
+    },
+    {
+      "term": "make heads or tails of [A]",
+      "definition": "[A] の基本を理解する（否定文のみ = さっぱり分からない）"
+    },
+    {
+      "term": "meet the deadline",
+      "definition": "締め切りに間に合わせる"
+    },
+    {
+      "term": "notch first win",
+      "definition": "初優勝（勝利）する"
+    },
+    {
+      "term": "observe a minute of silence",
+      "definition": "一分間の黙祷をする"
+    },
+    {
+      "term": "pass each other",
+      "definition": "すれ違う"
+    },
+    {
+      "term": "pay the price",
+      "definition": "ツケ（代償）を払う"
+    },
+    {
+      "term": "pull an all-nighter",
+      "definition": "徹夜する"
+    },
+    {
+      "term": "pull strings",
+      "definition": "黒幕である（裏で操っている）"
+    },
+    {
+      "term": "raise (some|a few) eyebrows",
+      "definition": "まばたきして驚く"
+    },
+    {
+      "term": "remain neutral",
+      "definition": "中立の立場をとる"
+    },
+    {
+      "term": "run counter to [A]",
+      "definition": "[A] に相反する"
+    },
+    {
+      "term": "run into [somebody]",
+      "definition": "[somebody] と鉢合わせる"
+    },
+    {
+      "term": "sack [somebody]",
+      "definition": "[somebody] を解雇する"
+    },
+    {
+      "term": "shed (new) light on [A]",
+      "definition": "[A] を新たに見つめ直す/仕切り直す"
+    },
+    {
+      "term": "shoot the breeze",
+      "definition": "無駄話する"
+    },
+    {
+      "term": "sit on knees",
+      "definition": "正座する"
+    },
+    {
+      "term": "sleep like a (rock|log)",
+      "definition": "死んだように眠る"
+    },
+    {
+      "term": "slip from [one's] mind",
+      "definition": "記憶から抜け落ちる"
+    },
+    {
+      "term": "sow the seeds of [A]",
+      "definition": "[A] の種をまく / 礎を築く / 開花させる"
+    },
+    {
+      "term": "speak highly of [A]",
+      "definition": "[A] を褒める"
+    },
+    {
+      "term": "speed up efforts to [do]",
+      "definition": ""
+    },
+    {
+      "term": "split the check",
+      "definition": "割り勘にする"
+    },
+    {
+      "term": "stand on [one's] own (two) feet",
+      "definition": "自立する"
+    },
+    {
+      "term": "stand still",
+      "definition": "じっと立つ"
+    },
+    {
+      "term": "stare blankly",
+      "definition": "ぼーっとする"
+    },
+    {
+      "term": "stay calm",
+      "definition": "ゆっくりする"
+    },
+    {
+      "term": "stay in business",
+      "definition": "事業を継続する"
+    },
+    {
+      "term": "stay put",
+      "definition": "留まる"
+    },
+    {
+      "term": "stay the same",
+      "definition": "変わらずにいる / 昔のままでいる"
+    },
+    {
+      "term": "sweep into [a room]",
+      "definition": "[a room] に堂々と入る"
+    },
+    {
+      "term": "tell fact from fiction",
+      "definition": "虚構と現実を区別する"
+    },
+    {
+      "term": "throw a glance at [A]",
+      "definition": "[A] をじろりと見る"
+    },
+    {
+      "term": "trip on [A]",
+      "definition": "[A] につまづく"
+    },
+    {
+      "term": "turn [one's] back on [A]",
+      "definition": "[A] を見捨てる"
+    },
+    {
+      "term": "turn a blind eye",
+      "definition": "見て見ぬ振りをする"
+    },
+    {
+      "term": "turn to conversation to other matters",
+      "definition": "別の話題に話を変える"
+    },
+    {
+      "term": "up and [quit]",
+      "definition": "突然 [quit] する"
+    },
+    {
+      "term": "use caution",
+      "definition": "注意を払う"
+    },
+    {
+      "term": "volunteer in [one's] defense",
+      "definition": "（疑われて）自らの言い分を述べる"
+    },
+    {
+      "term": "wait on a customer",
+      "definition": "接客する"
+    },
+    {
+      "term": "wear [one's] hair in braids",
+      "definition": "髪を編んでお下げにする"
+    },
+    {
+      "term": "wear perfume",
+      "definition": "香水をつけている"
+    },
+    {
+      "term": "work around the clock",
+      "definition": "昼夜働く"
+    },
+    {
+      "term": "work overtime",
+      "definition": "残業する"
+    },
+    {
+      "term": "work side by side",
+      "definition": "互いに協力する"
+    }
+  ]
+}

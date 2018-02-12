@@ -1,0 +1,2430 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "{ abandon | renounce } [A]",
+      "definition": "[A] を{ 放棄する }"
+    },
+    {
+      "term": "{ achieve | accomplish | fulfil | attain } [A]",
+      "definition": "[A] を{ 成し遂げる | 達成する | 遂行する }"
+    },
+    {
+      "term": "{ add | put } [A] and [B] together",
+      "definition": "[A] と [B] を{ 足す }"
+    },
+    {
+      "term": "{ admire | praise | commend } [someone] for [A]",
+      "definition": "[someone] を [A] のことで{ 賞賛する }"
+    },
+    {
+      "term": "{ admit | acknowledge | confess } [A]",
+      "definition": "[A] を{ 認める }"
+    },
+    {
+      "term": "{ assume | take } [responsibility]",
+      "definition": "[responsibility] を負う / 引き受ける"
+    },
+    {
+      "term": "{ assure | convince | persuade } [someone] that [...]",
+      "definition": "[someone] に [...] であると{ 確信させる | 安心させる }"
+    },
+    {
+      "term": "{ attribute | ascribe | impute } [A] to [B]",
+      "definition": "[A] を [B] の{ おかげだとする | せいにする }"
+    },
+    {
+      "term": "{ avoid | escape | evade | elude } [A]",
+      "definition": "[A] を避ける"
+    },
+    {
+      "term": "{ beat | defeat } [someone]",
+      "definition": "[someone] を{ 打ち負かす | やっつける }"
+    },
+    {
+      "term": "{ beg | entreat } [someone]",
+      "definition": "[someone] に懇願する"
+    },
+    {
+      "term": "{ blame | condemn | criticize } [someone] for [A]",
+      "definition": "[someone] を [A] のことで{ 非難する | 批判する }"
+    },
+    {
+      "term": "{ bother | worry | annoy | plague } [someone]",
+      "definition": "[someone] を悩ませる"
+    },
+    {
+      "term": "{ break | destroy | tear | disrupt | ruin | demolish } [A]",
+      "definition": "[A] を壊す"
+    },
+    {
+      "term": "{ build | construct } [A]",
+      "definition": "[A] を{ 組み立てる | 構築する | 建てる }"
+    },
+    {
+      "term": "{ carry | deliver | convey } [A] to [B]",
+      "definition": "[A] を [B] に運ぶ"
+    },
+    {
+      "term": "{ catch | contract } [A]",
+      "definition": "[A] の病気にかかる"
+    },
+    {
+      "term": "{ change | alter | modify } [A]",
+      "definition": "[A] を変える"
+    },
+    {
+      "term": "{ cheat | deceive | fool | kid } [someone]",
+      "definition": "[A] を{ だます | 欺く }"
+    },
+    {
+      "term": "{ cherish | treasure } [A]",
+      "definition": "[A] を大事にする"
+    },
+    {
+      "term": "{ choose | select } [A]",
+      "definition": "[A] を選択する"
+    },
+    {
+      "term": "{ collect | gather | accumulate | assemble } [A]",
+      "definition": "[A] を集める"
+    },
+    {
+      "term": "{ combine | merge | consolidate } [A]",
+      "definition": "[A] をまとめる"
+    },
+    {
+      "term": "{ consider | ponder } [A]",
+      "definition": "[A] を{ 検討する | 思案する }"
+    },
+    {
+      "term": "{ contaminate | pollute | taint } [A] with [B]",
+      "definition": "[A] を [B] で汚染する"
+    },
+    {
+      "term": "{ copy | duplicate } [A]",
+      "definition": "[A] を複製する"
+    },
+    {
+      "term": "{ decorate | adorn | ornament } [A] with [B]",
+      "definition": "[A] を [B] で飾る"
+    },
+    {
+      "term": "{ defer | delay | postpone } [A]",
+      "definition": "[A] を延期する"
+    },
+    {
+      "term": "{ denote ! connote } [A]",
+      "definition": "[A] を{ 明示する ! 暗示する }"
+    },
+    {
+      "term": "{ disappoint | depress } [someone]",
+      "definition": "[someone] をがっかりさせる"
+    },
+    {
+      "term": "{ discard | dismiss } [A]",
+      "definition": "[A] を捨てる"
+    },
+    {
+      "term": "{ discuss | debate | dispute } [an issue]",
+      "definition": "[an issue] を話し合う"
+    },
+    {
+      "term": "{ distinguish | discriminate } [A]",
+      "definition": "[A] を区別する"
+    },
+    {
+      "term": "{ dominate | control | dictate } [A]",
+      "definition": "[A] を支配する"
+    },
+    {
+      "term": "{ draw | paint } [A]",
+      "definition": "[A] を描く"
+    },
+    {
+      "term": "{ elicit | evoke } [A]",
+      "definition": "[A] を{ 引き出す | 誘い出す | 呼び起こす }"
+    },
+    {
+      "term": "{ eliminate | expunge } [A]",
+      "definition": "[A] を却下する / 消し去る"
+    },
+    {
+      "term": "{ encourage | stimulate } [A]",
+      "definition": "[A] を促進する"
+    },
+    {
+      "term": "{ endure | suffer } [something bad]",
+      "definition": "[something bad] を耐える"
+    },
+    {
+      "term": "{ excerpt | quote | cite } [A] from [B]",
+      "definition": "[B] から [A] を引用する"
+    },
+    {
+      "term": "{ exchange | swap } [A] for [B]",
+      "definition": "[A] を [B] と交換する"
+    },
+    {
+      "term": "{ experience | undergo } [A]",
+      "definition": "[A] を{ 経験する }"
+    },
+    {
+      "term": "{ explain | describe | illustrate } [A]",
+      "definition": "[A] を説明する"
+    },
+    {
+      "term": "{ extend | expand | enlarge } [A]",
+      "definition": "[A] を拡張する"
+    },
+    {
+      "term": "{ fix | repair | restore | patch | overhaul | mend } [A]",
+      "definition": "[A] を修理する"
+    },
+    {
+      "term": "{ flatter | compliment } [someone] on [A]",
+      "definition": "[someone] を [A] についてお世辞を言う"
+    },
+    {
+      "term": "{ frighten | terrify | scare } [someone]",
+      "definition": "[someone] を怖がらせる"
+    },
+    {
+      "term": "{ get | gain | obtain | acquire } [A]",
+      "definition": "[A] を得る"
+    },
+    {
+      "term": "{ guess | infer | deduce | speculate } [A]",
+      "definition": "[A] を推測する"
+    },
+    {
+      "term": "{ hate | dislike | despise } [A]",
+      "definition": "[A] を嫌う"
+    },
+    {
+      "term": "{ hold | grab } [A]",
+      "definition": "[A] を握る"
+    },
+    {
+      "term": "{ hurt | injure | wound } [A]",
+      "definition": "[A] を怪我する"
+    },
+    {
+      "term": "{ ignore | neglect | disregard } [A]",
+      "definition": "[A] を無視する"
+    },
+    {
+      "term": "{ improve | enhance } [A]",
+      "definition": "[A] を改善する"
+    },
+    {
+      "term": "{ incite | provoke | arouse } [someone]",
+      "definition": "[someone] を刺激する"
+    },
+    {
+      "term": "{ incline | dispose } [someone] to [do]",
+      "definition": "[someone] を [do] する気にさせる"
+    },
+    {
+      "term": "{ include | contain } [A]",
+      "definition": "[A] を含む"
+    },
+    {
+      "term": "{ indicate | signify } [A]",
+      "definition": "（記号やジェスチャーが）[A] を表す"
+    },
+    {
+      "term": "{ interpolate ! extrapolate } [A]",
+      "definition": "[A] を( 内挿する ! 外挿する )"
+    },
+    {
+      "term": "{ invent | devise } [A]",
+      "definition": "[A] を{ 発明 | 考案 }する"
+    },
+    {
+      "term": "{ investigate | analyze | study } [A]",
+      "definition": "[A] を調査する"
+    },
+    {
+      "term": "{ label | name } [A] as [B]",
+      "definition": "[A] を [B] として分類する"
+    },
+    {
+      "term": "{ lend | rent | let } [A] to [someone]",
+      "definition": "[A] を [someone] に貸す"
+    },
+    {
+      "term": "{ make | create } [A]",
+      "definition": "[A] を作る"
+    },
+    {
+      "term": "{ mix | blend | merge | concoct } [A]",
+      "definition": "[A] を混ぜる"
+    },
+    {
+      "term": "{ need | require | necessitate } [A]",
+      "definition": "[A] を必要とする"
+    },
+    {
+      "term": "{ notice | realize | recognize | perceive } [A]",
+      "definition": "[A] に気付く"
+    },
+    {
+      "term": "{ obstruct | impede } [A]",
+      "definition": "[A] を妨害する"
+    },
+    {
+      "term": "{ oppose | resist | withstand | defy } [A]",
+      "definition": "[A] に対抗する"
+    },
+    {
+      "term": "{ predict | anticipate | forecast } [A]",
+      "definition": "[A] を予想する"
+    },
+    {
+      "term": "{ produce | generate | yield | spawn } [A]",
+      "definition": "[A] を生み出す"
+    },
+    {
+      "term": "{ prohibit | ban } [someone] from [doing]",
+      "definition": "[someone] が [doing] することを禁止する"
+    },
+    {
+      "term": "{ prohibit | ban | forbid } [A]",
+      "definition": "[A] を禁止する"
+    },
+    {
+      "term": "{ protect | guard | defend } [A]  { against | from } [B]",
+      "definition": "[A] を [B] から守る"
+    },
+    {
+      "term": "{ provide | supply | feed | provision | equip | furnish } [someone] with [A]",
+      "definition": "[someone] に [A] を供給する"
+    },
+    {
+      "term": "{ regard | consider } [A] as [B]",
+      "definition": "[A] を [B] だと見なす"
+    },
+    {
+      "term": "{ reject | refuse | decline | spurn } [a request]",
+      "definition": "[a request] を拒絶する"
+    },
+    {
+      "term": "{ request | demand } [something]",
+      "definition": "[something] を要求する"
+    },
+    {
+      "term": "{ retire | resign } from [A]",
+      "definition": "[A] から退役する / 退職する"
+    },
+    {
+      "term": "{ satisfy | fulfil | gratify } [needs]",
+      "definition": "[needs] を満たす"
+    },
+    {
+      "term": "{ save | store } [A]",
+      "definition": "[A] を蓄える"
+    },
+    {
+      "term": "{ see | meet } [someone]",
+      "definition": "[someone] に会う"
+    },
+    {
+      "term": "{ strengthen | reinforce } [A]",
+      "definition": "[A] を強化する"
+    },
+    {
+      "term": "{ summarize | abridge } [A]",
+      "definition": "[A] を要約する"
+    },
+    {
+      "term": "{ support | endorse | uphold } [A]",
+      "definition": "[A] を支持する"
+    },
+    {
+      "term": "{ surrender | yield } [A] to [someone]",
+      "definition": "[A] を [someone] に降参して明け渡す"
+    },
+    {
+      "term": "{ uncover | reveal | expose | disclose } [A]",
+      "definition": "[A] を暴露する"
+    },
+    {
+      "term": "{ understand | grasp | comprehend } [A]",
+      "definition": "[A] を理解する"
+    },
+    {
+      "term": "{ violate | infringe } [a rule]",
+      "definition": "[a rule] を{ 違反する | 侵害する }"
+    },
+    {
+      "term": "{ win | lose } [a game]",
+      "definition": "[a game] に(勝つ|負ける)"
+    },
+    {
+      "term": "{ worship | adore | revere } [A]",
+      "definition": "[A] を崇拝する"
+    },
+    {
+      "term": "abbreviate [a word]",
+      "definition": "[a word] を略語表記する"
+    },
+    {
+      "term": "abolish [a practice]",
+      "definition": "[a practice] を廃止する"
+    },
+    {
+      "term": "abstract [A]",
+      "definition": "[A] を抽象化する"
+    },
+    {
+      "term": "abuse [A]",
+      "definition": "[A] を悪用する"
+    },
+    {
+      "term": "accept [A]",
+      "definition": "[A] を受け入れる"
+    },
+    {
+      "term": "acclaim [A]",
+      "definition": "[A] を絶賛する"
+    },
+    {
+      "term": "accommodate [A]",
+      "definition": "[A] を収容する"
+    },
+    {
+      "term": "accuse [someone] of [A]",
+      "definition": "[A] の事で [someone] を告訴する / 非難する."
+    },
+    {
+      "term": "ace [A]",
+      "definition": "[A] で一番を勝ち取る"
+    },
+    {
+      "term": "acknowledge receipt of [A]",
+      "definition": "[A] を領収通知する"
+    },
+    {
+      "term": "add [A] to [B]",
+      "definition": "[A] を [B] に追加する"
+    },
+    {
+      "term": "address [a talk] to [someone]",
+      "definition": "[someone] に [a talk] を向ける"
+    },
+    {
+      "term": "address [A]",
+      "definition": "[A] （問題）に対処する"
+    },
+    {
+      "term": "address [oneself] to [A]",
+      "definition": "[A] に取りかかる（集中する）"
+    },
+    {
+      "term": "address [someone]",
+      "definition": "[someone] にむけて話しかける"
+    },
+    {
+      "term": "address [someone] as [A]",
+      "definition": "[someone] を [A] と敬称する"
+    },
+    {
+      "term": "admit [someone] to [A]",
+      "definition": "[A] に入ることを [someone] に認める"
+    },
+    {
+      "term": "adopt [A]",
+      "definition": "[A] を取り入れる / 養子として迎え入れる"
+    },
+    {
+      "term": "advise [someone] on [A]",
+      "definition": "[someone] に [A] について忠告する / アドバイスする"
+    },
+    {
+      "term": "affect [A]",
+      "definition": "[A] に影響を及ぼす"
+    },
+    {
+      "term": "affirm [A]",
+      "definition": "[A] を肯定する"
+    },
+    {
+      "term": "afford [A]",
+      "definition": "[A] を手に入れる余裕がある"
+    },
+    {
+      "term": "aggravate [tensions]",
+      "definition": "[tensions] を悪化させる"
+    },
+    {
+      "term": "allocate [A]",
+      "definition": "[A] を割り当てる"
+    },
+    {
+      "term": "amortize [A]",
+      "definition": "[A] を償却する"
+    },
+    {
+      "term": "answer [A]",
+      "definition": "[A] に答える"
+    },
+    {
+      "term": "apply [A] to [B]",
+      "definition": "[A] を [B] に適用する"
+    },
+    {
+      "term": "appoint [someone] as [A]",
+      "definition": "[someone] を [A] に任命する"
+    },
+    {
+      "term": "appreciate [one's] help",
+      "definition": "助けに感謝する"
+    },
+    {
+      "term": "approach [A]",
+      "definition": "[A] に近づく"
+    },
+    {
+      "term": "arrange [a meeting]",
+      "definition": "[a meeting] を手配する"
+    },
+    {
+      "term": "arrest [someone]",
+      "definition": "[someone] を逮捕する"
+    },
+    {
+      "term": "ask [a question] of [someone]",
+      "definition": "[someone] に [a question] について尋ねる"
+    },
+    {
+      "term": "ask [someone] about [a question]",
+      "definition": "[someone] に [a question] について尋ねる"
+    },
+    {
+      "term": "ask [someone] for [a request]",
+      "definition": "[someone] に [a request] を依頼する"
+    },
+    {
+      "term": "assault [someone]",
+      "definition": "[someone] に暴行を加える"
+    },
+    {
+      "term": "assert [A]",
+      "definition": "[A] を断言する"
+    },
+    {
+      "term": "assess [A]",
+      "definition": "[A] を評価する"
+    },
+    {
+      "term": "assign [something] to [someone]",
+      "definition": "[something] を [someone] に割り当てる / 選定する"
+    },
+    {
+      "term": "associate [key] with [value]",
+      "definition": "[key] を [value] に関連づける"
+    },
+    {
+      "term": "attach [A] to [B]",
+      "definition": "[A] を [B] に取り付ける"
+    },
+    {
+      "term": "attend [a meeting]",
+      "definition": "[a meeting] に出席する"
+    },
+    {
+      "term": "attract [someone]",
+      "definition": "[someone] を惹き付ける"
+    },
+    {
+      "term": "attract interest from [someone]",
+      "definition": "[someone] の興味を引きつける"
+    },
+    {
+      "term": "authorize [A]",
+      "definition": "[A] を認可する"
+    },
+    {
+      "term": "awake [someone]",
+      "definition": "[someone] を目覚めさせる"
+    },
+    {
+      "term": "bathe [a baby]",
+      "definition": "[a baby] を入浴させる"
+    },
+    {
+      "term": "beat [someone]",
+      "definition": "[someone] を打ち負かす"
+    },
+    {
+      "term": "believe [A] to be [B]",
+      "definition": "[A] のことを [B] だと信じる"
+    },
+    {
+      "term": "betray [someone]",
+      "definition": "[someone] を裏切る"
+    },
+    {
+      "term": "bind [A] with [B]",
+      "definition": "[B] で [A] を結ぶ"
+    },
+    {
+      "term": "bite [A]",
+      "definition": "[A] をかむ"
+    },
+    {
+      "term": "bless [someone]",
+      "definition": "[someone] に恵みを授ける"
+    },
+    {
+      "term": "board [A]",
+      "definition": "[A] に乗る"
+    },
+    {
+      "term": "boast [A]",
+      "definition": "[A] を誇る"
+    },
+    {
+      "term": "boast [oneself] [A]",
+      "definition": "自分自身を [A] だと自慢する"
+    },
+    {
+      "term": "borrow [A] from [someone]",
+      "definition": "[A] を [someone] から借りる"
+    },
+    {
+      "term": "bother [someone] about [A]",
+      "definition": "[someone] を [A] のことで悩ませる"
+    },
+    {
+      "term": "break the eggs into [A]",
+      "definition": "[A] に卵を割り入れる"
+    },
+    {
+      "term": "bring [A] to [B]",
+      "definition": "[A] を [B] に運ぶ"
+    },
+    {
+      "term": "bring a charge of [A] against [someone]",
+      "definition": "[A] の罪で [someone] を起訴する"
+    },
+    {
+      "term": "broaden out [A] into [B]",
+      "definition": "[A] を [B] にまで広めて捉える"
+    },
+    {
+      "term": "brush [one's] teeth",
+      "definition": "歯を磨く"
+    },
+    {
+      "term": "bully [someone] into [doing]",
+      "definition": "[someone] をいじめて [doing] させる"
+    },
+    {
+      "term": "bury [A]",
+      "definition": "[A] を埋葬する"
+    },
+    {
+      "term": "buy [A] for [someone]",
+      "definition": "[someone] のために [A] を買う"
+    },
+    {
+      "term": "call [someone]",
+      "definition": "[someone] に電話する"
+    },
+    {
+      "term": "capture [A]",
+      "definition": "[A] を記録する"
+    },
+    {
+      "term": "carve [A]",
+      "definition": "[A] を切り刻む"
+    },
+    {
+      "term": "cast aspersions on [somebody]",
+      "definition": "[somebody] をけなす"
+    },
+    {
+      "term": "catch [A]",
+      "definition": "[A] を聞き取る"
+    },
+    {
+      "term": "cause [A]",
+      "definition": "[A] を引き起こす"
+    },
+    {
+      "term": "celebrate [A]",
+      "definition": "[A] を祝福する"
+    },
+    {
+      "term": "center [oneself]",
+      "definition": "集中する"
+    },
+    {
+      "term": "check [A]",
+      "definition": "[A] に目を通す"
+    },
+    {
+      "term": "check [A] into [B]",
+      "definition": "[A] を [B] に記録する"
+    },
+    {
+      "term": "check [A]? for [B]",
+      "definition": "[B] を求めて [A] を調査する"
+    },
+    {
+      "term": "claim [a right]",
+      "definition": "[a right] を要求する"
+    },
+    {
+      "term": "claim [a tile]",
+      "definition": "[a title] を獲得する"
+    },
+    {
+      "term": "claim responsibility",
+      "definition": "仕業や犯行声明を発表する"
+    },
+    {
+      "term": "clarify [A]",
+      "definition": "[A] を明確にする"
+    },
+    {
+      "term": "classify [A] as [B]",
+      "definition": "[A] を [B] であると区分する"
+    },
+    {
+      "term": "classify [A] into [parts]",
+      "definition": "[A] を [parts] に分類する"
+    },
+    {
+      "term": "collect donations",
+      "definition": "募金活動する"
+    },
+    {
+      "term": "comfort [someone]",
+      "definition": "[someone] を慰める / 癒す"
+    },
+    {
+      "term": "commence [operation]",
+      "definition": "[operation] を開始する"
+    },
+    {
+      "term": "commit suicide",
+      "definition": "自殺する"
+    },
+    {
+      "term": "compare [A] to [B]",
+      "definition": "[A] を [B] と比較する"
+    },
+    {
+      "term": "compensate [someone] for [a loss]",
+      "definition": "[someone] に [a loss] のことで償う"
+    },
+    {
+      "term": "complement [A]",
+      "definition": "[A] を補完する / よく合う"
+    },
+    {
+      "term": "comprise [A]",
+      "definition": "[A] から構成される"
+    },
+    {
+      "term": "concatenate [A] with [B]",
+      "definition": "[A] を [B] と結合する"
+    },
+    {
+      "term": "conceal [A]",
+      "definition": "[A] を隠す / 秘密にする"
+    },
+    {
+      "term": "conceive [A]",
+      "definition": "[A] を想像する"
+    },
+    {
+      "term": "concoct [A]",
+      "definition": "[A] （悪巧み）仕組む / 作り話をでっちあげる"
+    },
+    {
+      "term": "conduct [A]",
+      "definition": "[A] （調査や面接等）を行なう"
+    },
+    {
+      "term": "confine [someone] to [A]",
+      "definition": "[someone] を [A] に拘束する"
+    },
+    {
+      "term": "confirm [A]",
+      "definition": "[A] を確認する"
+    },
+    {
+      "term": "confuse [A] with [B]",
+      "definition": "[A] を [B] と勘違いする"
+    },
+    {
+      "term": "congratulate [someone] on [A]",
+      "definition": "[someone] を [A] について祝福する"
+    },
+    {
+      "term": "connect [A] with [B]",
+      "definition": "[A] と [B] をつなげる"
+    },
+    {
+      "term": "conquer [A]",
+      "definition": "[A] を征服する / 克服する"
+    },
+    {
+      "term": "conserve [A]",
+      "definition": "[A] を節約する"
+    },
+    {
+      "term": "consider [someone] for [A]",
+      "definition": "[someone] の [A] への配属を検討する"
+    },
+    {
+      "term": "conspire [A]",
+      "definition": "[A] を共謀する"
+    },
+    {
+      "term": "consult [A]",
+      "definition": "[A] に相談する"
+    },
+    {
+      "term": "contradict [A]",
+      "definition": "[A] に逆らう"
+    },
+    {
+      "term": "control [oneself]",
+      "definition": "自制する / 我慢する"
+    },
+    {
+      "term": "convict [somebody] of [A]",
+      "definition": "[somebody] に [A] の罪で判決を言い渡す"
+    },
+    {
+      "term": "cook [A]",
+      "definition": "[A] を料理する"
+    },
+    {
+      "term": "cover [A]",
+      "definition": "[A] を報道する"
+    },
+    {
+      "term": "cover [A] with [B]",
+      "definition": "[A] を [B] で覆う"
+    },
+    {
+      "term": "cramp [A]",
+      "definition": "[A] を締め付ける"
+    },
+    {
+      "term": "credit [A]",
+      "definition": "[A] を信用する"
+    },
+    {
+      "term": "cremate [A]",
+      "definition": "[A] を火葬する"
+    },
+    {
+      "term": "cultivate [A]",
+      "definition": "[A] を耕す / 栽培する / 養う"
+    },
+    {
+      "term": "curb [A]",
+      "definition": "[A] を抑制する"
+    },
+    {
+      "term": "cure [someone] of [A]",
+      "definition": "[A] の状態の [someone] を治療する"
+    },
+    {
+      "term": "curse [A]",
+      "definition": "[A] を呪う / 災いをもたらす"
+    },
+    {
+      "term": "curse [someone] for [A]",
+      "definition": "[someone] を [A] のことでののしる"
+    },
+    {
+      "term": "cut [A] into [parts]",
+      "definition": "[A] を [parts] に切り分ける"
+    },
+    {
+      "term": "daunt [A]",
+      "definition": "[A] を怖じ気づかせる"
+    },
+    {
+      "term": "decide [A]",
+      "definition": "[A] を決定する"
+    },
+    {
+      "term": "dedicate [A] to [someone]",
+      "definition": "[A] を [someone] に捧げる"
+    },
+    {
+      "term": "dedicate [oneself]? to [A]",
+      "definition": "[A] に専念する"
+    },
+    {
+      "term": "define [A] as [B]",
+      "definition": "[A] を [B] として定義する"
+    },
+    {
+      "term": "deflate [A]",
+      "definition": "[A] を萎ませる"
+    },
+    {
+      "term": "degrade [A]",
+      "definition": "[A] の品位を落とす"
+    },
+    {
+      "term": "delegate [A] to [B]",
+      "definition": "[A] を [B] に委譲する"
+    },
+    {
+      "term": "delete [A] from [B]",
+      "definition": "[A] を [B] から削除する"
+    },
+    {
+      "term": "deliberate [A]",
+      "definition": "[A] を審議する"
+    },
+    {
+      "term": "delight [someone]",
+      "definition": "[someone] を喜ばせる"
+    },
+    {
+      "term": "deluge [A] (with water)?",
+      "definition": "[A] に洪水被害をもたらす"
+    },
+    {
+      "term": "denounce [acts]",
+      "definition": "[acts] を弾劫（だんがい）する"
+    },
+    {
+      "term": "deposit [money] in [a bank]",
+      "definition": "[money] を [a bank] に預ける"
+    },
+    {
+      "term": "deprive [someone] of [A]",
+      "definition": "[someone] から [A] を取り上げる"
+    },
+    {
+      "term": "derive [A] from [B]",
+      "definition": "[A] を [B]（何も無いところ）から導き出す / 見い出す"
+    },
+    {
+      "term": "deserve [consideration]",
+      "definition": "（主体が） [consideration] に値する"
+    },
+    {
+      "term": "designate [A]",
+      "definition": "[A] を指定する"
+    },
+    {
+      "term": "destruct [A]",
+      "definition": "[A] を取り壊す"
+    },
+    {
+      "term": "detect [A]",
+      "definition": "[A] を調査して見つける"
+    },
+    {
+      "term": "diagnose [A]",
+      "definition": "[A] （症状や状態）を診断する"
+    },
+    {
+      "term": "dictate [A] to [someone]",
+      "definition": "[A] を [someone] に指図する/書き取らせる"
+    },
+    {
+      "term": "direct [A] to [B]",
+      "definition": "[A] を [B] に導く"
+    },
+    {
+      "term": "disclose [A]",
+      "definition": "[A] を開示する"
+    },
+    {
+      "term": "discontinue [A]",
+      "definition": "[A] を販売終了する"
+    },
+    {
+      "term": "discover [A]",
+      "definition": "[A] を発見する"
+    },
+    {
+      "term": "disguise [oneself] with [A]",
+      "definition": "[A] で変装する"
+    },
+    {
+      "term": "dismember [bodies]",
+      "definition": "[bodies] をバラバラ殺人する"
+    },
+    {
+      "term": "dismiss [A]",
+      "definition": "[A] を解雇する / 捨て去る"
+    },
+    {
+      "term": "dispense [A]",
+      "definition": "[A] を引き出す / 分配する"
+    },
+    {
+      "term": "distract [someone] from [A]",
+      "definition": "[someone] を [A] から気をそらす"
+    },
+    {
+      "term": "disturb [A]",
+      "definition": "[A] を邪魔する"
+    },
+    {
+      "term": "divide [A] into [parts]",
+      "definition": "[parts] に分ける"
+    },
+    {
+      "term": "divorce [someone]",
+      "definition": "[someone] と離婚する"
+    },
+    {
+      "term": "dry [one's] body with [A]",
+      "definition": "[A] で体を拭く"
+    },
+    {
+      "term": "dust [A]",
+      "definition": "[A] の埃を取り除く"
+    },
+    {
+      "term": "dye [A]",
+      "definition": "[A] を染める"
+    },
+    {
+      "term": "embarrass [someone]",
+      "definition": "[someone] に恥ずかしい思いをさせる"
+    },
+    {
+      "term": "embed [A] in [B]",
+      "definition": "[A] を [B] に埋め込む"
+    },
+    {
+      "term": "embrace [A]",
+      "definition": "[A] を受け入れる / 抱きしめる"
+    },
+    {
+      "term": "emit [A]",
+      "definition": "[A] を放つ / まき散らす"
+    },
+    {
+      "term": "enact [the bill]",
+      "definition": "[the bill] （法案）を制定する"
+    },
+    {
+      "term": "enclose [A]",
+      "definition": "[A] を同封する"
+    },
+    {
+      "term": "encompass [A]",
+      "definition": "[A] を網羅する"
+    },
+    {
+      "term": "encounter [a problem]",
+      "definition": "[a problem] に直面する"
+    },
+    {
+      "term": "enforce [A]",
+      "definition": "[A] を強要する / （法律等を）施行する"
+    },
+    {
+      "term": "enlighten [someone] on [A]",
+      "definition": "[someone] に [A] について教示する"
+    },
+    {
+      "term": "ensure [A]",
+      "definition": "[A] を保証する"
+    },
+    {
+      "term": "ensure [A] { against | from } [B]",
+      "definition": "[A] を [B] から守る"
+    },
+    {
+      "term": "entail [a duty]",
+      "definition": "[a duty] を伴う"
+    },
+    {
+      "term": "enter [A]",
+      "definition": "[A] に入る"
+    },
+    {
+      "term": "entitle [someone] to [do]",
+      "definition": "[someone] に [do] する権利を与える"
+    },
+    {
+      "term": "envy [A]",
+      "definition": "[A] を妬む"
+    },
+    {
+      "term": "erect [A]",
+      "definition": "[A] を建てる / 直立させる"
+    },
+    {
+      "term": "escort [someone] to [A]",
+      "definition": "[someone] を [A] に連れて行く"
+    },
+    {
+      "term": "establish [A]",
+      "definition": "[A] を確立する / 規定する"
+    },
+    {
+      "term": "estimate [A]",
+      "definition": "[A] を見積もる"
+    },
+    {
+      "term": "evaluate [A]",
+      "definition": "[A] を評価する"
+    },
+    {
+      "term": "evict [someone]",
+      "definition": "[someone] を退去させる"
+    },
+    {
+      "term": "exaggerate [A]",
+      "definition": "[A] を誇張する"
+    },
+    {
+      "term": "examine [A]",
+      "definition": "[A] を検査する"
+    },
+    {
+      "term": "exceed [A]",
+      "definition": "[A] を超える"
+    },
+    {
+      "term": "excuse [A]",
+      "definition": "[A] の言い訳をする"
+    },
+    {
+      "term": "excuse [oneself] for [doing]",
+      "definition": "[doing] した言い訳をする"
+    },
+    {
+      "term": "excuse [someone] for [A]",
+      "definition": "[A] について [someone] を許す"
+    },
+    {
+      "term": "exert [influence] on [someone]",
+      "definition": "[someone] に [influence] を与える / 権力行使する"
+    },
+    {
+      "term": "exploit [A]",
+      "definition": "[A] を開拓する / 食い物にする / むさぼる"
+    },
+    {
+      "term": "express [A]",
+      "definition": "[A] を表現する"
+    },
+    {
+      "term": "express [oneself]",
+      "definition": "自己表現する"
+    },
+    {
+      "term": "express apologies to [someone]",
+      "definition": "[someone] にお詫びする"
+    },
+    {
+      "term": "express remorse to [someone]",
+      "definition": "[someone] に対して自責の念を表する"
+    },
+    {
+      "term": "exterminate [roaches]",
+      "definition": "[roaches] を退治（根絶）する"
+    },
+    {
+      "term": "facilitate [A]",
+      "definition": "[A] を促進する / うまく進める"
+    },
+    {
+      "term": "familiarize [oneself] with [A]",
+      "definition": "[A] に習熟する"
+    },
+    {
+      "term": "favor [A] over [B]",
+      "definition": "[B] よりも [A] を好む（えこひいきする）"
+    },
+    {
+      "term": "feel an affection towards [A]",
+      "definition": "[A] に愛情を感じる"
+    },
+    {
+      "term": "feel contempt for [someone]",
+      "definition": "[someone] を軽蔑する"
+    },
+    {
+      "term": "file [a suit]",
+      "definition": "[a suit] （訴訟）を提出する"
+    },
+    {
+      "term": "fill [A] with [B]",
+      "definition": "[A] を [B] で満たす"
+    },
+    {
+      "term": "find fault with [A]",
+      "definition": "[A] のあら探しをする"
+    },
+    {
+      "term": "fix [A] to [the size]",
+      "definition": "[A] を [the size] に確定する / 固定する"
+    },
+    {
+      "term": "flag [A]",
+      "definition": "[A] に旗を立てる / 印をつける"
+    },
+    {
+      "term": "flunk [a exam]",
+      "definition": "[a exam] に失敗する / 落第する"
+    },
+    {
+      "term": "force [A]",
+      "definition": "[A] を強要する"
+    },
+    {
+      "term": "forge [a relationship]",
+      "definition": "[a relationship] を築く"
+    },
+    {
+      "term": "forge [A]",
+      "definition": "[A] を偽造する / コツコツ作る"
+    },
+    {
+      "term": "forgive [someone] for [A]",
+      "definition": "[A] の事で [someone] を許す"
+    },
+    {
+      "term": "form [A]",
+      "definition": "[A] を形作る"
+    },
+    {
+      "term": "formalize [A]",
+      "definition": "[A] を定式化する"
+    },
+    {
+      "term": "give [A] to [someone]",
+      "definition": "[A] を [someone] に与える"
+    },
+    {
+      "term": "goad [A]",
+      "definition": "[A] を棒で突いて刺激する"
+    },
+    {
+      "term": "grant [a permission] to [someone]",
+      "definition": "[a permisson] を [someone] に許可する"
+    },
+    {
+      "term": "greet [someone] with [a smile]",
+      "definition": "[someone] に [a smile] で挨拶する"
+    },
+    {
+      "term": "ground [A]",
+      "definition": "[A] を出入り禁止にする / 閉め出す"
+    },
+    {
+      "term": "hail [a taxi]",
+      "definition": "[a taxi] を呼び止める"
+    },
+    {
+      "term": "hamper [A]",
+      "definition": "[A] を妨害する"
+    },
+    {
+      "term": "handle [A]",
+      "definition": "[A] を処理する / 取り扱う"
+    },
+    {
+      "term": "hang [A] on [B]",
+      "definition": "[A] を [B] に引っ掛ける"
+    },
+    {
+      "term": "harbor [A]",
+      "definition": "[A] を心に抱く"
+    },
+    {
+      "term": "haunt [A]",
+      "definition": "[A] に出没する"
+    },
+    {
+      "term": "head [a team]",
+      "definition": "[a team] を率いる"
+    },
+    {
+      "term": "herd [A] into [B]",
+      "definition": "[A] を [B] にかき集める / 追いやる"
+    },
+    {
+      "term": "hide [A]",
+      "definition": "[A] を隠す"
+    },
+    {
+      "term": "hide [oneself] behind [A]",
+      "definition": "[A] の陰に隠れる"
+    },
+    {
+      "term": "hinder [A]",
+      "definition": "[A] を妨げる"
+    },
+    {
+      "term": "hold [A]",
+      "definition": "（容器が）[A] を保管する"
+    },
+    {
+      "term": "hold [A] [JJ]",
+      "definition": "[A] を [JJ] に保つ"
+    },
+    {
+      "term": "hold [A] on [B]",
+      "definition": "[A] を [B] に固定する"
+    },
+    {
+      "term": "hold [meetings]",
+      "definition": "[meetings] （議論や検討）を重ねる"
+    },
+    {
+      "term": "honor [someone]",
+      "definition": "[someone] を称える / 名誉を与える"
+    },
+    {
+      "term": "house [A]",
+      "definition": "[A] を保管している"
+    },
+    {
+      "term": "idealize [A]",
+      "definition": "[A] を理想化する"
+    },
+    {
+      "term": "identify [A] as [B]",
+      "definition": "[A] を [B] であると特定する"
+    },
+    {
+      "term": "identify [A] with [B]",
+      "definition": "[A] を [B] と同一視する"
+    },
+    {
+      "term": "imitate [A]",
+      "definition": "[A] を真似る"
+    },
+    {
+      "term": "implicate [someone] in [a crime]",
+      "definition": "[someone] を [a crime] に巻き込む"
+    },
+    {
+      "term": "imply [A]",
+      "definition": "[A] を暗示する / ほのめかす"
+    },
+    {
+      "term": "impose [an unwelcome decision] on [someone]",
+      "definition": "[someone] に  [an unwelcome decision] を課す"
+    },
+    {
+      "term": "impress [someone] with [A]",
+      "definition": "[A] のことで [someone] に好印象を与える"
+    },
+    {
+      "term": "inch [A]",
+      "definition": "[A] を少しずつ動かす"
+    },
+    {
+      "term": "include [A]",
+      "definition": "[A] を含める"
+    },
+    {
+      "term": "incur [a penalty]",
+      "definition": "[a penalty] （罰金/延滞金）を受ける"
+    },
+    {
+      "term": "indicate [A]",
+      "definition": "[A] を示す"
+    },
+    {
+      "term": "indict [someone]",
+      "definition": "[someone] を起訴する"
+    },
+    {
+      "term": "inflate [A]",
+      "definition": "[A] を膨らます"
+    },
+    {
+      "term": "inflict [a punishment] on [someone]",
+      "definition": "[someone] に [a punishment] を負わせる"
+    },
+    {
+      "term": "influence [A]",
+      "definition": "[A] に影響を与える"
+    },
+    {
+      "term": "inform [someone] { of | about } [A]",
+      "definition": "[A] について [someone] に知らせる"
+    },
+    {
+      "term": "infuse [A] into [B]",
+      "definition": "[A] を [B] に注入する / 吹き込む"
+    },
+    {
+      "term": "inhabit [A]",
+      "definition": "[A] を住みかとする / 生息する"
+    },
+    {
+      "term": "inherit [a fortune] from [someone]",
+      "definition": "[someone] から [a fortune] を受け継ぐ"
+    },
+    {
+      "term": "inhibit [A]",
+      "definition": "[A] を抑制する"
+    },
+    {
+      "term": "initiate [A]",
+      "definition": "[A] を新たに始める"
+    },
+    {
+      "term": "insert [A] into [B]",
+      "definition": "[A] を [B] に挿入する"
+    },
+    {
+      "term": "inspect [A] for [B]",
+      "definition": "[B] の事で [A] を詳細を閲覧する / 点検する"
+    },
+    {
+      "term": "inspire [hope]",
+      "definition": "[hope] をもたらす"
+    },
+    {
+      "term": "install [A] in [B]",
+      "definition": "[A] を [B] にインストールする"
+    },
+    {
+      "term": "institute [A]",
+      "definition": "[A] を創出する"
+    },
+    {
+      "term": "insult [someone]",
+      "definition": "[someone] を侮辱する"
+    },
+    {
+      "term": "integrate [A] with [B]",
+      "definition": "[A] を [B] と統合する"
+    },
+    {
+      "term": "intend [A]",
+      "definition": "[A] を意図する"
+    },
+    {
+      "term": "interpret [A] as [B]",
+      "definition": "[A] を [B] と解釈する"
+    },
+    {
+      "term": "introduce [A]",
+      "definition": "[A] を導入する"
+    },
+    {
+      "term": "introduce [A] to [someone]",
+      "definition": "[A] を [someone] に紹介する"
+    },
+    {
+      "term": "intrude [A] on [someone]",
+      "definition": "[someone] に [A] を強いる"
+    },
+    {
+      "term": "invade [A]",
+      "definition": "[A] を侵略する"
+    },
+    {
+      "term": "invest [A] in [B]",
+      "definition": "[A] を [B] に投資する"
+    },
+    {
+      "term": "invite [someone] over",
+      "definition": "[someone] を自宅に招く"
+    },
+    {
+      "term": "invite [someone] to [A]",
+      "definition": "[someone] を [A] に招く"
+    },
+    {
+      "term": "involve [A]",
+      "definition": "[A] を巻き込む / 関わりを持たせる"
+    },
+    {
+      "term": "iron [A]",
+      "definition": "[A] にアイロンをかける"
+    },
+    {
+      "term": "isolate [A] from [B]",
+      "definition": "[A] を [B] から隔離する"
+    },
+    {
+      "term": "justify [A]",
+      "definition": "[A] を正当化する"
+    },
+    {
+      "term": "lack [A]",
+      "definition": "[A] が欠けている"
+    },
+    {
+      "term": "lead [someone] to [success]",
+      "definition": "[someone] を [success] に導く"
+    },
+    {
+      "term": "leave [a message]",
+      "definition": "[a message] を残す"
+    },
+    {
+      "term": "leave [A]",
+      "definition": "[A] を出発する / 離れる"
+    },
+    {
+      "term": "leave [A] to [someone]",
+      "definition": "[A] を [someone] に任せる"
+    },
+    {
+      "term": "lecture [someone] for [A]",
+      "definition": "[someone] に [A] の事で説教する"
+    },
+    {
+      "term": "lend [itself] to [A]",
+      "definition": "[A] に適している"
+    },
+    {
+      "term": "lessen [A]",
+      "definition": "[A] を減らす"
+    },
+    {
+      "term": "load [A] into [B]",
+      "definition": "[A] を [B] に読み込む"
+    },
+    {
+      "term": "locate [A]",
+      "definition": "[A] を見つける"
+    },
+    {
+      "term": "lodge [a protest]",
+      "definition": "[a protest] を提出する(政治的)"
+    },
+    {
+      "term": "look into possibility that [...]",
+      "definition": ""
+    },
+    {
+      "term": "make [A] for [someone]",
+      "definition": "[someone] のために [A] を作る"
+    },
+    {
+      "term": "mastermind [a scheme]",
+      "definition": "[a scheme] を（首謀者として）企てる"
+    },
+    {
+      "term": "meet [someone] halfway",
+      "definition": "[someone] と妥協する"
+    },
+    {
+      "term": "meet [someone] in person",
+      "definition": "[someone] に実際に会う"
+    },
+    {
+      "term": "mine [A]",
+      "definition": "[A] を採掘する"
+    },
+    {
+      "term": "mislead [A]",
+      "definition": "[A] の誤解を招く"
+    },
+    {
+      "term": "misplace [A]",
+      "definition": "[A] を間違った場所にしまう"
+    },
+    {
+      "term": "miss [A]",
+      "definition": "[A] を聞き逃す"
+    },
+    {
+      "term": "mistrust [A]",
+      "definition": "[A] を信用しない"
+    },
+    {
+      "term": "mitigate [A]",
+      "definition": "[A] を和らげる"
+    },
+    {
+      "term": "monitor [A]",
+      "definition": "[A] を監視する"
+    },
+    {
+      "term": "mow [a lawn]",
+      "definition": "[a lawn] を刈る"
+    },
+    {
+      "term": "name [A] [B] after [C]",
+      "definition": "[C] にちなんで [A] に [B] と名付ける"
+    },
+    {
+      "term": "name [A] in honor of [B]",
+      "definition": "[A] を [B] にちなんで名付ける"
+    },
+    {
+      "term": "need help on [A]",
+      "definition": "[A] の助けを必要とする"
+    },
+    {
+      "term": "need some medication",
+      "definition": "診てもらう必要がある / 処方箋を必要とする"
+    },
+    {
+      "term": "notify [someone] of [A]",
+      "definition": "[someone] に [A] を知らせる"
+    },
+    {
+      "term": "obey [A]",
+      "definition": "[A] に従う"
+    },
+    {
+      "term": "observe [A]",
+      "definition": "[A] を観察する"
+    },
+    {
+      "term": "occupy [A]",
+      "definition": "[A] を占有する"
+    },
+    {
+      "term": "offer [A] to [someone]",
+      "definition": "[A] を [someone] に提供する"
+    },
+    {
+      "term": "offer [an alibi]",
+      "definition": "[an alibi] を提示する"
+    },
+    {
+      "term": "offer flowers",
+      "definition": "献花する"
+    },
+    {
+      "term": "omit [A] from [B]",
+      "definition": "[A] を [B] から省く"
+    },
+    {
+      "term": "organize [A]",
+      "definition": "[A] を整理する"
+    },
+    {
+      "term": "oust [someone]",
+      "definition": "[someone] を{ 追い出す | 締め出す }"
+    },
+    {
+      "term": "outweigh [disadvantages]",
+      "definition": "[disadvantages] に勝る"
+    },
+    {
+      "term": "overcome [A]",
+      "definition": "[A] に打ち勝つ"
+    },
+    {
+      "term": "overlook [A]",
+      "definition": "[A] を見過ごす / 見下ろす位置にある"
+    },
+    {
+      "term": "overwhelm [A]",
+      "definition": "[A] を圧倒する / 閉口させる"
+    },
+    {
+      "term": "owe [A] to [someone]",
+      "definition": "[A] を [someone] に借りている"
+    },
+    {
+      "term": "parallelize [A]",
+      "definition": "[A] を並列化する"
+    },
+    {
+      "term": "paralyze [A]",
+      "definition": "[A] を麻痺させる"
+    },
+    {
+      "term": "paraphrase [A]",
+      "definition": "[A] を意訳する"
+    },
+    {
+      "term": "pay [A]? for [B]",
+      "definition": "[B] のために [A] を払う"
+    },
+    {
+      "term": "pay [someone]",
+      "definition": "[someone] に報酬を支払う"
+    },
+    {
+      "term": "pay attention to [A]",
+      "definition": "[A] に注意をはらう"
+    },
+    {
+      "term": "penalize [someone]",
+      "definition": "[someone] に罰を与える"
+    },
+    {
+      "term": "penetrate [A]",
+      "definition": "[A] を貫通する"
+    },
+    {
+      "term": "perceive [A]",
+      "definition": "[A] を認識する"
+    },
+    {
+      "term": "pile [papers]",
+      "definition": "[papers] を積み重ねる"
+    },
+    {
+      "term": "pinpoint [A]",
+      "definition": "[A] を正確に示す"
+    },
+    {
+      "term": "place a limit",
+      "definition": "限界値を設定する"
+    },
+    {
+      "term": "place an order",
+      "definition": "注文する"
+    },
+    {
+      "term": "plead [A]",
+      "definition": "[A] （事件）を弁護する"
+    },
+    {
+      "term": "polish [A]",
+      "definition": "[A] を磨く"
+    },
+    {
+      "term": "pooh-pooh [A]",
+      "definition": "[A] をあざける"
+    },
+    {
+      "term": "possess [A]",
+      "definition": "[A] を所有 / 所持している"
+    },
+    {
+      "term": "precede [A]",
+      "definition": "[A] を先導する"
+    },
+    {
+      "term": "prefer [A] to [B]",
+      "definition": "[B] よりも [A] を好む"
+    },
+    {
+      "term": "premeditate [a crime]",
+      "definition": "[a crime] を綿密に計画する"
+    },
+    {
+      "term": "prepare [a report]",
+      "definition": "[a report] を作成する"
+    },
+    {
+      "term": "present [A] to [someone]",
+      "definition": "[A] を [someone] に贈る"
+    },
+    {
+      "term": "preserve [A]",
+      "definition": "[A] を保存する / 保護する / 後世に残す"
+    },
+    {
+      "term": "prevent [A] from [doing]",
+      "definition": "[A] が [doing] することを防ぐ"
+    },
+    {
+      "term": "process [A] into [B]",
+      "definition": "[A] を [B] の形に処理する"
+    },
+    {
+      "term": "produce fruit",
+      "definition": "（木が）果実を生む"
+    },
+    {
+      "term": "prolong [A]",
+      "definition": "[A] を長引かせる"
+    },
+    {
+      "term": "promote [A]",
+      "definition": "[A] を昇進させる / 販売促進する"
+    },
+    {
+      "term": "proofread [A]",
+      "definition": "[A] を校正する"
+    },
+    {
+      "term": "propagate [A]",
+      "definition": "[A] を繁殖させる / 伝播させる"
+    },
+    {
+      "term": "prove [A]",
+      "definition": "[A] を証明する"
+    },
+    {
+      "term": "provide [A]",
+      "definition": "[A] の供給準備をしている"
+    },
+    {
+      "term": "prune [A]",
+      "definition": "[A] （余分なもの）を取り除く"
+    },
+    {
+      "term": "publicize [A]",
+      "definition": "[A] を宣伝する"
+    },
+    {
+      "term": "punctuate [A]",
+      "definition": "[A] に句読点を打つ"
+    },
+    {
+      "term": "purge [A] from [B]",
+      "definition": "[A] を [B] から一掃する"
+    },
+    {
+      "term": "pursue [A]",
+      "definition": "[A] を追求 / 追跡する"
+    },
+    {
+      "term": "put [A] in [B]",
+      "definition": "[A] を [B] に投入する"
+    },
+    {
+      "term": "quit [a job]",
+      "definition": "[a job] をやめる"
+    },
+    {
+      "term": "quote [N] dollars for [A]",
+      "definition": "[A] を [N] ドルと見積もる"
+    },
+    {
+      "term": "quarantine [someone]",
+      "definition": "[someone] を(伝染予防のために)隔離する"
+    },
+    {
+      "term": "raid [A]",
+      "definition": "[A] を襲撃する / 捜査で乗り込む"
+    },
+    {
+      "term": "raise [A] by [N] percent",
+      "definition": "[A] を [N] パーセント値上げする"
+    },
+    {
+      "term": "reach an agreement",
+      "definition": "合意に至る"
+    },
+    {
+      "term": "read [a book] aloud",
+      "definition": "[a book] を音読する"
+    },
+    {
+      "term": "receive [A] from [B]",
+      "definition": "[A] を [B] から受け取る"
+    },
+    {
+      "term": "recite [A]",
+      "definition": "[A] を暗唱する"
+    },
+    {
+      "term": "reclaim [A]",
+      "definition": "[A] を回収する"
+    },
+    {
+      "term": "reconcile [oneself] to [A]",
+      "definition": "[A] に甘んじる"
+    },
+    {
+      "term": "recover [A]",
+      "definition": "[A] を回復する"
+    },
+    {
+      "term": "reduce [A]",
+      "definition": "[A] を削減する"
+    },
+    {
+      "term": "reform [A]",
+      "definition": "[A] を改革する"
+    },
+    {
+      "term": "refund [A]",
+      "definition": "[A] を返金する（キャンセル理由）"
+    },
+    {
+      "term": "regain [A]",
+      "definition": "[A] を取り戻す"
+    },
+    {
+      "term": "regard [A]",
+      "definition": "[A] に注意を払う"
+    },
+    {
+      "term": "regulate [A]",
+      "definition": "[A] を規制する"
+    },
+    {
+      "term": "reimburse [A]",
+      "definition": "[A] を弁済する / （立替金）を払い戻す"
+    },
+    {
+      "term": "relegate [A] to [B]",
+      "definition": "[A] を [B] に追いやる"
+    },
+    {
+      "term": "relocate [A]",
+      "definition": "[A] を移転する"
+    },
+    {
+      "term": "remember [someone] [doing]",
+      "definition": "[someone] が [doing] したことを覚えている"
+    },
+    {
+      "term": "remind [someone] of [A]",
+      "definition": "[someone] に [A] を思い起こさせる"
+    },
+    {
+      "term": "remit [A] to [someone]",
+      "definition": "[A] を [someone] に送金する"
+    },
+    {
+      "term": "remodel [A]",
+      "definition": "[A] を改築する"
+    },
+    {
+      "term": "remove [A] from [B]",
+      "definition": "[A] を [B] から除去する"
+    },
+    {
+      "term": "rename [A] with [B]",
+      "definition": "[A] を [B] へ名称変更する"
+    },
+    {
+      "term": "renounce [A]",
+      "definition": "[A] を（法的/公式に）放棄することを宣誓する"
+    },
+    {
+      "term": "renovate [A]",
+      "definition": "[A] を改装する"
+    },
+    {
+      "term": "replace [A] with [B]",
+      "definition": "[A] を [B] で置き換える"
+    },
+    {
+      "term": "replenish [A]",
+      "definition": "[A] を補充する"
+    },
+    {
+      "term": "report [A] to [someone]",
+      "definition": "[A] を [someone] に報告する"
+    },
+    {
+      "term": "represent [A]",
+      "definition": "[A] を{ 表現する | 象徴する | 代表する }"
+    },
+    {
+      "term": "reprimand [someone] for [A]",
+      "definition": "[someone] に [A] について懲戒する"
+    },
+    {
+      "term": "research [A]",
+      "definition": "[A] （未知の法則）を調査する"
+    },
+    {
+      "term": "resemble [A]",
+      "definition": "[A] に似ている"
+    },
+    {
+      "term": "resent [A] [doing]",
+      "definition": "[doing] する [A] に憤慨する"
+    },
+    {
+      "term": "reserve [A] for [a purpose]",
+      "definition": "[A] を [B] のために取っておく / 確保する"
+    },
+    {
+      "term": "restrict [someone] to [A]",
+      "definition": "[someone] を [A] に制限する"
+    },
+    {
+      "term": "retain [A]",
+      "definition": "[A] を捨てずに保管する"
+    },
+    {
+      "term": "return [A] to [B]",
+      "definition": "[A] を [B] に戻す / 返す"
+    },
+    {
+      "term": "review [A]",
+      "definition": "[A] を見直す"
+    },
+    {
+      "term": "revise [A]",
+      "definition": "[A] を改訂する"
+    },
+    {
+      "term": "revitalize [A]",
+      "definition": "[A] を活性化する"
+    },
+    {
+      "term": "revolutionize [A]",
+      "definition": "[A] に革命を起こす"
+    },
+    {
+      "term": "reward [someone] with [A]",
+      "definition": "[someone] に [A] を褒美として与える"
+    },
+    {
+      "term": "ride [one's] bicycle to [A]",
+      "definition": "[A] へ自転車で行く"
+    },
+    {
+      "term": "rob [someone] of [A]",
+      "definition": "[someone] から [A] を強奪する"
+    },
+    {
+      "term": "roll [A] in [B]",
+      "definition": "[A] を [B] の中に巻いてくるむ"
+    },
+    {
+      "term": "roll [A] into [B]",
+      "definition": "[A] を [B] の形に丸める"
+    },
+    {
+      "term": "run [A] in [B]",
+      "definition": "[A] （距離）を [B] （時間）で走る"
+    },
+    {
+      "term": "sack [someone]",
+      "definition": "[someone] を解雇する"
+    },
+    {
+      "term": "sacrifice [A]",
+      "definition": "[A] を犠牲にする"
+    },
+    {
+      "term": "save [someone] from [doing]",
+      "definition": "[someone] が [doing] する手間を省く"
+    },
+    {
+      "term": "savor [A]",
+      "definition": "[A] を満喫する / 味わう"
+    },
+    {
+      "term": "scatter [A]",
+      "definition": "[A] を撒き散らす"
+    },
+    {
+      "term": "scold [someone] for [A]",
+      "definition": "[A] の事で [someone] を叱る"
+    },
+    {
+      "term": "scratch [one's] head",
+      "definition": "頭をかきむしる"
+    },
+    {
+      "term": "seal [A]",
+      "definition": "[A] を密封する / 捺印する"
+    },
+    {
+      "term": "search [A] for [B]",
+      "definition": "[B] を求めて [A] を探す"
+    },
+    {
+      "term": "secure [A]  { against | from } [an attack]",
+      "definition": "[an attack] から [A] を守る"
+    },
+    {
+      "term": "seek [A]",
+      "definition": "[A] を探す"
+    },
+    {
+      "term": "seek an injunction demanding that [...]",
+      "definition": "[...] ように差し止めを求める"
+    },
+    {
+      "term": "seize [control]",
+      "definition": "[control] をつかんで奪う"
+    },
+    {
+      "term": "send [A] to [B]",
+      "definition": "[A] を [B] に送る"
+    },
+    {
+      "term": "sentence [someone] to [A]",
+      "definition": "[someone] （被告）に [A] （刑）を宣告する"
+    },
+    {
+      "term": "separate [A] by [B]",
+      "definition": "[A] を [B] で分割する"
+    },
+    {
+      "term": "set [key] to [value]",
+      "definition": "[key] に [value] を設定 / 代入する"
+    },
+    {
+      "term": "settle [A]",
+      "definition": "[A] を決める / 取りまとめる"
+    },
+    {
+      "term": "shake [one's] head",
+      "definition": "首を振って拒否する"
+    },
+    {
+      "term": "share [A]",
+      "definition": "[A] を共有する"
+    },
+    {
+      "term": "shred [A] into [B]",
+      "definition": "[A] を [B] の形に切り刻む"
+    },
+    {
+      "term": "shut [A]",
+      "definition": "[A] を閉じる"
+    },
+    {
+      "term": "sip [A]",
+      "definition": "[A] をちびちび飲む（すする）"
+    },
+    {
+      "term": "slam [A]",
+      "definition": "[A] をバタンと閉める"
+    },
+    {
+      "term": "sling [A] around [one's] neck",
+      "definition": "[A] を首にかける"
+    },
+    {
+      "term": "sling [A] over [one's] shoulder",
+      "definition": "[A] を肩にかける"
+    },
+    {
+      "term": "snatch [A] from [B]",
+      "definition": "[B] から [A] を取り上げる"
+    },
+    {
+      "term": "soak [A] in [B]",
+      "definition": "[A] を [B] に浸す / つかる"
+    },
+    {
+      "term": "solicit aid from [someone]",
+      "definition": "[someone] からの援助を懇願 / 陳情する"
+    },
+    {
+      "term": "solidify [A]",
+      "definition": "[A] を強固にする"
+    },
+    {
+      "term": "specify [A]",
+      "definition": "[A] を明示する"
+    },
+    {
+      "term": "spend [money] on [A]",
+      "definition": "[money] を [A] に費やす"
+    },
+    {
+      "term": "spend [time] { in } [doing]",
+      "definition": "[time] を [doing] して過ごす"
+    },
+    {
+      "term": "spit [A]",
+      "definition": "[A] （つばや種）を（口から）吐く"
+    },
+    {
+      "term": "splinter [A]",
+      "definition": "[A] をバラバラにする"
+    },
+    {
+      "term": "split [A] into [parts]",
+      "definition": "[A] を [parts] に分割する"
+    },
+    {
+      "term": "spoil [A]",
+      "definition": "[A] を台無しにする / 腐らせる / 甘やかしてダメにする"
+    },
+    {
+      "term": "sprain [one's] ankle",
+      "definition": "足首をくじく（捻挫する）"
+    },
+    {
+      "term": "squelch [A]",
+      "definition": "[A] を押し殺す / 抑圧する"
+    },
+    {
+      "term": "stabilize [A]",
+      "definition": "[A] を安定させる"
+    },
+    {
+      "term": "stand [doing]",
+      "definition": "[doing] を自制する"
+    },
+    {
+      "term": "state [A]",
+      "definition": "[A] を明言する / 明記する"
+    },
+    {
+      "term": "steer [A]",
+      "definition": "[A] の舵取りをする / 運営をする"
+    },
+    {
+      "term": "stir [A]",
+      "definition": "[A] をかき混ぜる"
+    },
+    {
+      "term": "strain [one's] [A]",
+      "definition": "[A] （背中など）の筋を痛める"
+    },
+    {
+      "term": "strengthen [A]",
+      "definition": "[A] を強化する"
+    },
+    {
+      "term": "submit [A] to [B]",
+      "definition": "[B] に [A] を提出する"
+    },
+    {
+      "term": "substitute [A] for [B]",
+      "definition": "[B] の代わりに [A] を使う"
+    },
+    {
+      "term": "subtract [B] from [A]",
+      "definition": "[A] から [B] を引く"
+    },
+    {
+      "term": "suit [A]",
+      "definition": "[A] に似合っている / ふさわしい / 適合している"
+    },
+    {
+      "term": "summon [A]",
+      "definition": "[A] を召喚する / 呼びつける"
+    },
+    {
+      "term": "supervise [A]",
+      "definition": "[A] を監督する"
+    },
+    {
+      "term": "suppress [A]",
+      "definition": "[A] を差し止める"
+    },
+    {
+      "term": "surpass [A]",
+      "definition": "[A] を越える"
+    },
+    {
+      "term": "survive [A]",
+      "definition": "[A] (苦しみ)を乗り越える/制する"
+    },
+    {
+      "term": "suspect [A]",
+      "definition": "[A] を疑う"
+    },
+    {
+      "term": "suspend [A]",
+      "definition": "[A] を一時停止する"
+    },
+    {
+      "term": "swallow [A]",
+      "definition": "[A] を飲み込む"
+    },
+    {
+      "term": "swerve [N] degrees to the { left | right }",
+      "definition": "N 度(左|右)にそれる"
+    },
+    {
+      "term": "swim [A]",
+      "definition": "[A] （距離）を泳ぐ"
+    },
+    {
+      "term": "tailor [A] to [B]",
+      "definition": "[A] を [B] に仕立てる / 適合させる"
+    },
+    {
+      "term": "taint [A]",
+      "definition": ""
+    },
+    {
+      "term": "tap [A]",
+      "definition": "[A] をポンと叩く"
+    },
+    {
+      "term": "teach [A] to [someone]",
+      "definition": "[someone] に [A] を教える"
+    },
+    {
+      "term": "tease [someone]",
+      "definition": "[someone] をからかう"
+    },
+    {
+      "term": "tell [a story] to [someone]",
+      "definition": "[someone] に [a story] を話す"
+    },
+    {
+      "term": "thank [someone] for [A]",
+      "definition": "[A] の事で [someone] に感謝する"
+    },
+    {
+      "term": "threaten [A]",
+      "definition": "[A] を脅迫する"
+    },
+    {
+      "term": "throttle [A]",
+      "definition": "[A] を抑える / 絞める / 窒息させる"
+    },
+    {
+      "term": "tickle [A]",
+      "definition": "[A] をくすぐる"
+    },
+    {
+      "term": "tighten [A]",
+      "definition": "[A] をしっかりと締める"
+    },
+    {
+      "term": "tolerate [A]",
+      "definition": "[A] を受け入れる / 寛容である"
+    },
+    {
+      "term": "torture [A]",
+      "definition": "[A] を拷問にかける"
+    },
+    {
+      "term": "toss [A]",
+      "definition": "[A] を放り投げる"
+    },
+    {
+      "term": "trace [A]",
+      "definition": "[A] を追跡して突きとめる"
+    },
+    {
+      "term": "track [A]",
+      "definition": "[A] を追跡する"
+    },
+    {
+      "term": "transfer [A] to [B]",
+      "definition": "[A] を [B] に転送する"
+    },
+    {
+      "term": "transform [A] into [B]",
+      "definition": "[A] を [B] の形に変換する"
+    },
+    {
+      "term": "treat [A]",
+      "definition": "[A] を取り扱う"
+    },
+    {
+      "term": "treat [someone] to [A]",
+      "definition": "[someone] に [A] を奢る"
+    },
+    {
+      "term": "trick [someone] into [doing]",
+      "definition": "[someone] を騙して [doing] させる"
+    },
+    {
+      "term": "turn [A] into [B]",
+      "definition": "[A] を [B] に切り替える"
+    },
+    {
+      "term": "turn [A] upside down",
+      "definition": "[A] をひっくり返す"
+    },
+    {
+      "term": "tutor [someone] in [A]",
+      "definition": "[someone] に [A] に関して教える"
+    },
+    {
+      "term": "twist [one's] ankle",
+      "definition": "足首をくじく"
+    },
+    {
+      "term": "undergo [an operation]",
+      "definition": "[an operation] を受ける"
+    },
+    {
+      "term": "undertake [A]",
+      "definition": "[A] を引き受ける / 着手する"
+    },
+    {
+      "term": "unify [A]",
+      "definition": "[A] を統一する"
+    },
+    {
+      "term": "unroll [A]",
+      "definition": "[A] を広げる / 展開する"
+    },
+    {
+      "term": "unveil [A]",
+      "definition": "[A] を公表する"
+    },
+    {
+      "term": "uplift [A]",
+      "definition": "[A] を高揚させる"
+    },
+    {
+      "term": "upset [someone]",
+      "definition": "[someone] の気を動転させる"
+    },
+    {
+      "term": "value [A]",
+      "definition": "[A] に重きをおく"
+    },
+    {
+      "term": "visit [A]",
+      "definition": "[A] を訪れる"
+    },
+    {
+      "term": "vote { in favor of | against } [A]",
+      "definition": "[A] への (賛成票|反対票) を投票する"
+    },
+    {
+      "term": "waft [A]",
+      "definition": "[A] （音や匂い）をふわりと運ぶ"
+    },
+    {
+      "term": "waive [A]",
+      "definition": "[A] を放棄する"
+    },
+    {
+      "term": "warn [someone] of [A]",
+      "definition": "[A] の事で [someone] に警告する"
+    },
+    {
+      "term": "wash [A]",
+      "definition": "[A] を洗う"
+    },
+    {
+      "term": "waste { hours | a lot of time } [doing]",
+      "definition": "[doing] するのに時間を浪費する"
+    },
+    {
+      "term": "watch [A]",
+      "definition": "[A] を見る"
+    },
+    {
+      "term": "wear [A]",
+      "definition": "[A] を身につけている"
+    },
+    {
+      "term": "weigh [A]",
+      "definition": "[A] を測る"
+    },
+    {
+      "term": "welcome [someone]",
+      "definition": "[someone] を歓迎する"
+    },
+    {
+      "term": "withdraw [A]",
+      "definition": "[A] （貯金）を引き出す"
+    },
+    {
+      "term": "witness [A]",
+      "definition": "[A] を目撃する"
+    },
+    {
+      "term": "write [an essay]",
+      "definition": "[an essay] を書く"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "{ east | west | south | north }",
+      "definition": "{ 東 | 西 | 南 | 北 }へ"
+    },
+    {
+      "term": "{ in favour of ! against } [A]",
+      "definition": "[A] に{ 賛成 ! 反対 }して"
+    },
+    {
+      "term": "{ inside out | on backwards }",
+      "definition": "{ 裏返し | 後ろ前 }に"
+    },
+    {
+      "term": "{ one by one | one at a time }",
+      "definition": "一つ一つ"
+    },
+    {
+      "term": "{ up ! down } there",
+      "definition": "{ 上にある ! 下にある }そこで"
+    },
+    {
+      "term": "[later] than usual",
+      "definition": "いつもより [later]"
+    },
+    {
+      "term": "[N] [unit] (ahead|behind)",
+      "definition": "[N] [unit] (前方|後方) に"
+    },
+    {
+      "term": "above all",
+      "definition": "とりわけ"
+    },
+    {
+      "term": "absolutely | exactly | completely | roundly | utterly",
+      "definition": "全くもって / 当然"
+    },
+    {
+      "term": "according to [A]",
+      "definition": "[A] に従って"
+    },
+    {
+      "term": "accordingly",
+      "definition": "状況に応じて"
+    },
+    {
+      "term": "after all",
+      "definition": "結局のところ / 結果として"
+    },
+    {
+      "term": "afterwards",
+      "definition": "後で"
+    },
+    {
+      "term": "against  [one's] will",
+      "definition": "意に反して"
+    },
+    {
+      "term": "alike",
+      "definition": "同様に"
+    },
+    {
+      "term": "all of a sudden",
+      "definition": "不意に"
+    },
+    {
+      "term": "all over again",
+      "definition": "改めて始めから / 再び ... となるはめになる（二の舞）"
+    },
+    {
+      "term": "all the more",
+      "definition": "なおいっそう"
+    },
+    {
+      "term": "all the way",
+      "definition": "わざわざ / はるばる / 幅広く"
+    },
+    {
+      "term": "all the way to [A]",
+      "definition": "[A] への道中ずっと"
+    },
+    {
+      "term": "along the way",
+      "definition": "道中で / 事を進めながら"
+    },
+    {
+      "term": "alternately",
+      "definition": "交互に"
+    },
+    {
+      "term": "always > usually > regularly > normally > often > sometimes > occasionally > rarely > seldom > never ",
+      "definition": "頻度"
+    },
+    {
+      "term": "apart from [A]",
+      "definition": "[A] 以外は"
+    },
+    {
+      "term": "approximately,roughly",
+      "definition": "おおよそ"
+    },
+    {
+      "term": "as a whole",
+      "definition": "全体として"
+    },
+    {
+      "term": "as diverse as [A]",
+      "definition": "[A] にいたるまで様々に"
+    },
+    {
+      "term": "badly | terribly | horribly | awfully",
+      "definition": "ひどく"
+    },
+    {
+      "term": "barely",
+      "definition": "なんとか"
+    },
+    {
+      "term": "beforehand",
+      "definition": "前もって"
+    },
+    {
+      "term": "by accident",
+      "definition": "過失で"
+    },
+    {
+      "term": "by and large",
+      "definition": "全般的に"
+    },
+    {
+      "term": "by far",
+      "definition": "断然（最上級を修飾）"
+    },
+    {
+      "term": "by no means",
+      "definition": "決して ... ない"
+    },
+    {
+      "term": "coincidentally",
+      "definition": "偶然に"
+    },
+    {
+      "term": "day by day",
+      "definition": "日に日に"
+    },
+    {
+      "term": "deceptively",
+      "definition": "一見して"
+    },
+    {
+      "term": "deliberately",
+      "definition": "あえて / 故意に"
+    },
+    {
+      "term": "depending on [A]",
+      "definition": "[A] 次第で"
+    },
+    {
+      "term": "easly,readily",
+      "definition": "簡単に / すぐに"
+    },
+    {
+      "term": "emphatically",
+      "definition": "きっぱりと"
+    },
+    {
+      "term": "except for [A]",
+      "definition": "[A] を除いて"
+    },
+    {
+      "term": "extremely > very > moderately > slightly > not at all",
+      "definition": "全くそう思う > そう思う > 普通 > あまりそう思わない > 全くそう思わない"
+    },
+    {
+      "term": "finally | eventually | ultimately",
+      "definition": "最終的に / 結果的に"
+    },
+    {
+      "term": "flatly",
+      "definition": "うやむやにせずにはっきりと"
+    },
+    {
+      "term": "for anything",
+      "definition": "何としても"
+    },
+    {
+      "term": "for sure",
+      "definition": "明確に"
+    },
+    {
+      "term": "for the reason previously mentioned",
+      "definition": "前に言及した理由で"
+    },
+    {
+      "term": "free of charge",
+      "definition": "無料で"
+    },
+    {
+      "term": "greatly | extremely | terrifically",
+      "definition": "（量が）とても"
+    },
+    {
+      "term": "hardly | scarcely",
+      "definition": "滅多に ... ない"
+    },
+    {
+      "term": "here and there",
+      "definition": "そこかしこに"
+    },
+    {
+      "term": "here in [A]",
+      "definition": "この場所 [A] で"
+    },
+    {
+      "term": "highly",
+      "definition": "（程度が）とても"
+    },
+    {
+      "term": "in all likelihood",
+      "definition": "ほぼ間違いなく / 十中八九"
+    },
+    {
+      "term": "in any way",
+      "definition": "とにかく"
+    },
+    {
+      "term": "in case of [A]",
+      "definition": "[A] に備えて"
+    },
+    {
+      "term": "in the case of [A]",
+      "definition": "[A] の場合に"
+    },
+    {
+      "term": "inadvertently",
+      "definition": "うっかり"
+    },
+    {
+      "term": "indiscriminately",
+      "definition": "無差別に"
+    },
+    {
+      "term": "indoors ! outdoors",
+      "definition": "屋内で ! 屋外で"
+    },
+    {
+      "term": "inevitably",
+      "definition": "必然的に"
+    },
+    {
+      "term": "intently",
+      "definition": "熱心に（知覚動詞と合わせて良く使われる）"
+    },
+    {
+      "term": "just in case",
+      "definition": "念のため"
+    },
+    {
+      "term": "lightly",
+      "definition": "軽く"
+    },
+    {
+      "term": "literally",
+      "definition": "文字通りに / そのままに"
+    },
+    {
+      "term": "little by little",
+      "definition": "だんだんと"
+    },
+    {
+      "term": "madly",
+      "definition": "狂ったように"
+    },
+    {
+      "term": "merely",
+      "definition": "単に"
+    },
+    {
+      "term": "more or less",
+      "definition": "大体に"
+    },
+    {
+      "term": "more than I expected",
+      "definition": "期待してたよりずっと"
+    },
+    {
+      "term": "more than I realize",
+      "definition": "実際（感じている）よりもずっと"
+    },
+    {
+      "term": "most likely",
+      "definition": "どうやら"
+    },
+    {
+      "term": "narrowly",
+      "definition": "かろうじて"
+    },
+    {
+      "term": "nearly",
+      "definition": "ほとんど"
+    },
+    {
+      "term": "necessarily",
+      "definition": "必ずしも（否定形のみ）"
+    },
+    {
+      "term": "no doubt",
+      "definition": "間違いなく"
+    },
+    {
+      "term": "obviously | definitely | clearly | certainly",
+      "definition": "明らかに"
+    },
+    {
+      "term": "on and off",
+      "definition": "そうであったりそうでなかったり"
+    },
+    {
+      "term": "once (and)? for all",
+      "definition": "これっきりで"
+    },
+    {
+      "term": "one after another",
+      "definition": "次々と"
+    },
+    {
+      "term": "one station away from the closest station",
+      "definition": "最寄り駅の隣の駅に"
+    },
+    {
+      "term": "one way or another",
+      "definition": "なんやかんやで / なんとかして / 何においても"
+    },
+    {
+      "term": "ordinarily | customarily",
+      "definition": "{ たいていは | 普通は | 通例では }"
+    },
+    {
+      "term": "out of fear that [...]",
+      "definition": "[...] であることを恐れて"
+    },
+    {
+      "term": "out of the blue",
+      "definition": "突然 / 前触れもなく"
+    },
+    {
+      "term": "over and over again",
+      "definition": "何度も"
+    },
+    {
+      "term": "paradoxically",
+      "definition": "逆説的には"
+    },
+    {
+      "term": "partly | partially",
+      "definition": "一部分では"
+    },
+    {
+      "term": "rapidly | quickly | swiftly",
+      "definition": "迅速に"
+    },
+    {
+      "term": "rarely",
+      "definition": "珍しく"
+    },
+    {
+      "term": "readily",
+      "definition": "二つ返事で快く / 直ぐに"
+    },
+    {
+      "term": "really",
+      "definition": "本当に / まさしく"
+    },
+    {
+      "term": "regardless of [A]",
+      "definition": "[A] とは無関係に"
+    },
+    {
+      "term": "repeatedly",
+      "definition": "何度も"
+    },
+    {
+      "term": "reportedly,allegedly",
+      "definition": "伝えられるところでは"
+    },
+    {
+      "term": "saving for a rainy day",
+      "definition": "まさかの時に備えて"
+    },
+    {
+      "term": "side by side",
+      "definition": "（横に）並んで / お互いに"
+    },
+    {
+      "term": "slightly",
+      "definition": "わずかに"
+    },
+    {
+      "term": "somehow",
+      "definition": "なんとなく"
+    },
+    {
+      "term": "somewhat",
+      "definition": "いくぶん"
+    },
+    {
+      "term": "the other way around",
+      "definition": "（コネクタ等の向きが）逆向きで"
+    },
+    {
+      "term": "the time being",
+      "definition": "当分の間"
+    },
+    {
+      "term": "through rose-tinted spectacles",
+      "definition": "現実を美化して / 楽観視して"
+    },
+    {
+      "term": "time and again",
+      "definition": "繰り返し"
+    },
+    {
+      "term": "totally",
+      "definition": "全体的に"
+    },
+    {
+      "term": "until [one's] safety has been confirmed",
+      "definition": "安全が確認されるまで"
+    },
+    {
+      "term": "up until now",
+      "definition": "今のところは"
+    },
+    {
+      "term": "upstairs ! downstairs",
+      "definition": "階上に ! 階下に"
+    },
+    {
+      "term": "very > rather > quite > pretty",
+      "definition": "とても > 思ったより > まあまあ > それなりに"
+    },
+    {
+      "term": "word for word",
+      "definition": "一字一句"
+    }
+  ]
+}

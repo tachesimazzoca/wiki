@@ -1,0 +1,702 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "about [N] { high | long | tall }",
+      "definition": "[N] ほどの { 高さ | 長さ | 背 } の"
+    },
+    {
+      "term": "along with [A]",
+      "definition": "[A] を同伴した / と同時の"
+    },
+    {
+      "term": "as a last resort",
+      "definition": "最後の手段として / 手立てが尽きたら"
+    },
+    {
+      "term": "as a result",
+      "definition": "結果として"
+    },
+    {
+      "term": "as compared to [A]",
+      "definition": "[A] と比較して"
+    },
+    {
+      "term": "at (a speed of)? [N] miles",
+      "definition": "[N] マイル時に"
+    },
+    {
+      "term": "at { first ! last }",
+      "definition": "{ 最初 ! 最後 }に"
+    },
+    {
+      "term": "at (the)? { most ! least }",
+      "definition": "{ 最大 ! 最小 }でも"
+    },
+    {
+      "term": "at [one's] disposal",
+      "definition": "思い通りに"
+    },
+    {
+      "term": "at a glance",
+      "definition": "一目で"
+    },
+    {
+      "term": "at all",
+      "definition": "全く"
+    },
+    {
+      "term": "at all costs",
+      "definition": "どんな犠牲を払っても"
+    },
+    {
+      "term": "at best",
+      "definition": "せいぜい"
+    },
+    {
+      "term": "at first glance",
+      "definition": "ぱっと見たところ"
+    },
+    {
+      "term": "at first sight",
+      "definition": "一目惚れで / 見た目の第一印象で"
+    },
+    {
+      "term": "at hand",
+      "definition": "手元に"
+    },
+    {
+      "term": "at heart",
+      "definition": "根から / 性格的に / 生理学的に"
+    },
+    {
+      "term": "at random",
+      "definition": "無作為に"
+    },
+    {
+      "term": "at risk of [A]",
+      "definition": "[A] による危機的状況にある"
+    },
+    {
+      "term": "at stake",
+      "definition": "懸かっている / 危うい状況にある / 問題提起されている"
+    },
+    {
+      "term": "at the discretion of [A]",
+      "definition": "[A] （協議者）の裁定により"
+    },
+    {
+      "term": "at the expense of [A]",
+      "definition": "[A] の出費で / に負担を強いて / を踏み台にして"
+    },
+    {
+      "term": "at the thought of [A]",
+      "definition": "[A] のことを考えると"
+    },
+    {
+      "term": "at will",
+      "definition": "意のままに"
+    },
+    {
+      "term": "behind the scenes",
+      "definition": "裏で / 目に見えないところで"
+    },
+    {
+      "term": "beyond description",
+      "definition": "言い表せないほどに"
+    },
+    {
+      "term": "beyond the reach of [one's] imagination",
+      "definition": "想像の範囲を越えて"
+    },
+    {
+      "term": "by [N] percent",
+      "definition": "[N] パーセントの割合で"
+    },
+    {
+      "term": "by [some other reasons]",
+      "definition": "[some other reasons] で"
+    },
+    {
+      "term": "by [the following instructions]",
+      "definition": "[the following instructions] に従って"
+    },
+    {
+      "term": "by chance",
+      "definition": "偶然に"
+    },
+    {
+      "term": "by coincidence",
+      "definition": "たまたま"
+    },
+    {
+      "term": "by hand",
+      "definition": "手動で"
+    },
+    {
+      "term": "by intuition",
+      "definition": "勘で"
+    },
+    {
+      "term": "by luck",
+      "definition": "運で"
+    },
+    {
+      "term": "by mistake",
+      "definition": "間違えて"
+    },
+    {
+      "term": "by nature",
+      "definition": "生まれつき"
+    },
+    {
+      "term": "by the hundreds",
+      "definition": "無数に"
+    },
+    {
+      "term": "due to [A]",
+      "definition": "[A] のために / 起因して"
+    },
+    {
+      "term": "except for [A]",
+      "definition": "[A] 以外は"
+    },
+    {
+      "term": "for a change",
+      "definition": "気分転換に"
+    },
+    {
+      "term": "for free",
+      "definition": "無料で"
+    },
+    {
+      "term": "for good this time",
+      "definition": "今回を機に"
+    },
+    {
+      "term": "for more information",
+      "definition": "詳しくは"
+    },
+    {
+      "term": "for several { days | weeks } ahead",
+      "definition": "何 { 日 | 週間 } も先のために事前に"
+    },
+    {
+      "term": "for the sake of [A]",
+      "definition": "[A] の利益のために"
+    },
+    {
+      "term": "for your reference",
+      "definition": "ご参考のために"
+    },
+    {
+      "term": "from coast to coast",
+      "definition": "全米中で"
+    },
+    {
+      "term": "from generation to generation",
+      "definition": "代々"
+    },
+    {
+      "term": "from now on",
+      "definition": "今後は"
+    },
+    {
+      "term": "in { accordance | compliance } with [A]",
+      "definition": "[A] に従って"
+    },
+    {
+      "term": "in { connection | conjunction } with [A]",
+      "definition": "[A] を通じて"
+    },
+    {
+      "term": "in { practice | general | principle | theory }",
+      "definition": "{ 実際には | 一般的には | 原則的には | 理論上では }"
+    },
+    {
+      "term": "in { units of } bytes",
+      "definition": "バイト単位で"
+    },
+    {
+      "term": "in [doing]",
+      "definition": "[doing] することにおいて"
+    },
+    {
+      "term": "in [one's] hand",
+      "definition": "手にいれて"
+    },
+    {
+      "term": "in [one's] presence",
+      "definition": "人前で"
+    },
+    {
+      "term": "in a [JJ] condition",
+      "definition": "[JJ] な状態で"
+    },
+    {
+      "term": "in a [JJ] situation",
+      "definition": "[JJ] な状況で"
+    },
+    {
+      "term": "in a better mood",
+      "definition": "機嫌が直って"
+    },
+    {
+      "term": "in a bid to [do]",
+      "definition": "[do] しようと目論んで"
+    },
+    {
+      "term": "in a different way",
+      "definition": "違うやり方で"
+    },
+    {
+      "term": "in a hurry",
+      "definition": "急いで"
+    },
+    {
+      "term": "in a line",
+      "definition": "列をなして"
+    },
+    {
+      "term": "in a loud voice",
+      "definition": "大きな声で"
+    },
+    {
+      "term": "in a nutshell",
+      "definition": "手短に"
+    },
+    {
+      "term": "in a rage",
+      "definition": "かんかんに怒って"
+    },
+    {
+      "term": "in a row",
+      "definition": "連続して"
+    },
+    {
+      "term": "in a sense",
+      "definition": "ある意味"
+    },
+    {
+      "term": "in a timely manner",
+      "definition": "タイミングよく"
+    },
+    {
+      "term": "in a vacuum",
+      "definition": "聞く耳もたず / 外部と関わることなく"
+    },
+    {
+      "term": "in addition to [A]",
+      "definition": "[A] に加えて"
+    },
+    {
+      "term": "in change",
+      "definition": "小銭で"
+    },
+    {
+      "term": "in charge of [A]",
+      "definition": "[A] を担当をしている"
+    },
+    {
+      "term": "in class",
+      "definition": "授業中に"
+    },
+    {
+      "term": "in collaboration with [A]",
+      "definition": "[A] と共同して"
+    },
+    {
+      "term": "in detail",
+      "definition": "詳細に"
+    },
+    {
+      "term": "in disguise",
+      "definition": "変装して"
+    },
+    {
+      "term": "in earnest",
+      "definition": "真剣に"
+    },
+    {
+      "term": "in every { way | respect }",
+      "definition": "あらゆる面で"
+    },
+    {
+      "term": "in haste",
+      "definition": "急いで"
+    },
+    {
+      "term": "in honer of [A]",
+      "definition": "[A] に敬意を表して"
+    },
+    {
+      "term": "in justification of [A]",
+      "definition": "[A] の根拠として"
+    },
+    {
+      "term": "in keeping with [A]",
+      "definition": "[A] に合わせて"
+    },
+    {
+      "term": "in luxury",
+      "definition": "贅沢して"
+    },
+    {
+      "term": "in my judgement",
+      "definition": "私の判断では"
+    },
+    {
+      "term": "in need",
+      "definition": "困って（助けが必要で）"
+    },
+    {
+      "term": "in new",
+      "definition": "流行中で"
+    },
+    {
+      "term": "in next door",
+      "definition": "隣近所に"
+    },
+    {
+      "term": "in no time",
+      "definition": "直ちに"
+    },
+    {
+      "term": "in one hand",
+      "definition": "手に取って"
+    },
+    {
+      "term": "in operation",
+      "definition": "操業中で"
+    },
+    {
+      "term": "in person",
+      "definition": "直接会って"
+    },
+    {
+      "term": "in perspective",
+      "definition": "広い視野を持って"
+    },
+    {
+      "term": "in preparation for [A]",
+      "definition": "[A] に備えて"
+    },
+    {
+      "term": "in prison",
+      "definition": "服役中で"
+    },
+    {
+      "term": "in progress",
+      "definition": "進行中で"
+    },
+    {
+      "term": "in public",
+      "definition": "人前で / 公の場で"
+    },
+    {
+      "term": "in reality",
+      "definition": "現実に"
+    },
+    {
+      "term": "in recognition of [A]",
+      "definition": "[A] の褒美（お礼）として"
+    },
+    {
+      "term": "in relation to [A]",
+      "definition": "[A] に関連して"
+    },
+    {
+      "term": "in return",
+      "definition": "見返りとして"
+    },
+    {
+      "term": "in room number 123",
+      "definition": "123号室に"
+    },
+    {
+      "term": "in search of [A]",
+      "definition": "[A] を求めて"
+    },
+    {
+      "term": "in shape",
+      "definition": "体が鍛えられて"
+    },
+    {
+      "term": "in sight",
+      "definition": "見えて / 視界にあって"
+    },
+    {
+      "term": "in succession",
+      "definition": "連続して / 次々に"
+    },
+    {
+      "term": "in tears",
+      "definition": "泣きながら"
+    },
+    {
+      "term": "in terms of [A]",
+      "definition": "[A] の観点で / をふまえて"
+    },
+    {
+      "term": "in the { begining | end }",
+      "definition": "{ 始めに | 終わり }に"
+    },
+    {
+      "term": "in the { singular | plural }",
+      "definition": "{ 単数形 | 複数形 } で"
+    },
+    {
+      "term": "in the course of [A]",
+      "definition": "[A] の過程で"
+    },
+    {
+      "term": "in the face of [adversity]",
+      "definition": "[adversity] に直面している"
+    },
+    {
+      "term": "in the long run",
+      "definition": "長期的には"
+    },
+    {
+      "term": "in the wrong direction",
+      "definition": "間違った方向に"
+    },
+    {
+      "term": "in turn",
+      "definition": "交代で"
+    },
+    {
+      "term": "in use",
+      "definition": "使用中の"
+    },
+    {
+      "term": "in vain",
+      "definition": "無駄に"
+    },
+    {
+      "term": "in various ways",
+      "definition": "あらゆる方法で"
+    },
+    {
+      "term": "in writing",
+      "definition": "書面で"
+    },
+    {
+      "term": "on [one's] own",
+      "definition": "自身の力で"
+    },
+    {
+      "term": "on a daily basis",
+      "definition": "１日単位で"
+    },
+    {
+      "term": "on a global scale",
+      "definition": "地球規模で"
+    },
+    {
+      "term": "on account of [A]",
+      "definition": "[A] を原因として"
+    },
+    {
+      "term": "on average",
+      "definition": "平均で"
+    },
+    {
+      "term": "on behalf of [A] / on [one's] behalf",
+      "definition": "[A] を代理（代表）して"
+    },
+    {
+      "term": "on board",
+      "definition": "乗り組んでいる"
+    },
+    {
+      "term": "on display",
+      "definition": "展示されて"
+    },
+    {
+      "term": "on duty",
+      "definition": "勤務中に"
+    },
+    {
+      "term": "on hand",
+      "definition": "その場にいて / 用意されて"
+    },
+    {
+      "term": "on how to [do]",
+      "definition": "どのように [do] するかについて"
+    },
+    {
+      "term": "on impulse",
+      "definition": "衝動的に"
+    },
+    {
+      "term": "on my way home from [A]",
+      "definition": "[A] からの帰り道で"
+    },
+    {
+      "term": "on practice",
+      "definition": "実際に / 現場レベルで"
+    },
+    {
+      "term": "on purpose",
+      "definition": "わざと"
+    },
+    {
+      "term": "on stage",
+      "definition": "舞台で"
+    },
+    {
+      "term": "on the subject of [A]",
+      "definition": "[A] という命題において"
+    },
+    {
+      "term": "on the verge of [A]",
+      "definition": "今にも [A] の状況で"
+    },
+    {
+      "term": "on Wi-Fi",
+      "definition": "Wi-Fi 接続して"
+    },
+    {
+      "term": "out of a fairy tale",
+      "definition": "おとぎ話から出てきたような"
+    },
+    {
+      "term": "over the course of [time]",
+      "definition": "[time] にわたってずっと"
+    },
+    {
+      "term": "owing to [A]",
+      "definition": "[A] を原因として"
+    },
+    {
+      "term": "past [A]",
+      "definition": "[A] を通り過ぎて"
+    },
+    {
+      "term": "regarding [A]",
+      "definition": "[A] に関しては / おいては"
+    },
+    {
+      "term": "through [A]",
+      "definition": "[A] を（初めから終わりまで）経て"
+    },
+    {
+      "term": "to [one's] heart's content",
+      "definition": "思うがままに"
+    },
+    {
+      "term": "to a (certain)? { extent | degree }",
+      "definition": "ある程度は"
+    },
+    {
+      "term": "together with [A]",
+      "definition": "[A] と一緒に"
+    },
+    {
+      "term": "toward [A]",
+      "definition": "[A] を向いて"
+    },
+    {
+      "term": "under [A]",
+      "definition": "[A] の条件下で"
+    },
+    {
+      "term": "under any circumstances",
+      "definition": "いかなる状況でも"
+    },
+    {
+      "term": "under investigation",
+      "definition": "調査中で"
+    },
+    {
+      "term": "under the Constitution",
+      "definition": "憲法では"
+    },
+    {
+      "term": "under way",
+      "definition": "進行中で"
+    },
+    {
+      "term": "with a [N]-[M]ths majority",
+      "definition": "N/M の多数決で"
+    },
+    {
+      "term": "with a little effort",
+      "definition": "ちょっとした努力で"
+    },
+    {
+      "term": "with a view to [doing]",
+      "definition": "[doing] することを目指して"
+    },
+    {
+      "term": "with accuracy",
+      "definition": "正確に"
+    },
+    {
+      "term": "with all the [A]",
+      "definition": "[A] があるおかげで / あれだけあるのだから"
+    },
+    {
+      "term": "with expertise in [A]",
+      "definition": "[A] に熟練した"
+    },
+    {
+      "term": "with high expectations",
+      "definition": "高い期待を持って"
+    },
+    {
+      "term": "with horror",
+      "definition": "怖くて"
+    },
+    {
+      "term": "with reluctance",
+      "definition": "不本意ながら / いやいや"
+    },
+    {
+      "term": "with the exception of [A]",
+      "definition": "[A] を例外として"
+    },
+    {
+      "term": "with the lever sliding down",
+      "definition": "レバーを下げた状態で"
+    },
+    {
+      "term": "within the { range | bounds | confines } of [A]",
+      "definition": "[A] の範囲で"
+    },
+    {
+      "term": "without [doing]",
+      "definition": "[doing] することなしに"
+    },
+    {
+      "term": "without a murmur",
+      "definition": "ぶつくさ不平を言わずに"
+    },
+    {
+      "term": "without a trace",
+      "definition": "痕跡を残さず"
+    },
+    {
+      "term": "without an explanation",
+      "definition": "なんの説明もなく"
+    },
+    {
+      "term": "without notice",
+      "definition": "予告なく"
+    },
+    {
+      "term": "without permission",
+      "definition": "許可なく"
+    }
+  ]
+}

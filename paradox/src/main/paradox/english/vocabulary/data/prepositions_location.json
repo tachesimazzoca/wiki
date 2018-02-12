@@ -1,0 +1,158 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "{ above ! below } [A]",
+      "definition": "[A] （境界線）の { 上 ! 下 } にある"
+    },
+    {
+      "term": "{ across from | opposite } [A]",
+      "definition": "[A] と対面の"
+    },
+    {
+      "term": "{ at | in } { this side ! the back } of [A]",
+      "definition": "[A] の { 手前 ! 奥 } の"
+    },
+    {
+      "term": "{ in front of ! behind } [A]",
+      "definition": "[A] の { 前 ! 後 } の"
+    },
+    {
+      "term": "{ inside ! outside } [A]",
+      "definition": "[A] の { 内側 ! 外側 } の"
+    },
+    {
+      "term": "{ near | by | beside } [A]",
+      "definition": "[A] のそばの"
+    },
+    {
+      "term": "{ next | close } to [A]",
+      "definition": "[A] の近くに"
+    },
+    {
+      "term": "{ over ! under } [A]",
+      "definition": "[A] （物体）の { 上 ! 下 } の"
+    },
+    {
+      "term": "accross [A]",
+      "definition": "[A] （通り）をはさんだ位置にある"
+    },
+    {
+      "term": "ahead of [A]",
+      "definition": "[A] の前方の"
+    },
+    {
+      "term": "all over [A]",
+      "definition": "[A] の一面の"
+    },
+    {
+      "term": "along [A]",
+      "definition": "[A] に沿った"
+    },
+    {
+      "term": "at line [N]",
+      "definition": "[N] 行目に"
+    },
+    {
+      "term": "at the { left ! right } { top ! bottom } corner of [A]",
+      "definition": "四隅の位置"
+    },
+    {
+      "term": "at the { top ! bottom } of [A]",
+      "definition": "上下の位置"
+    },
+    {
+      "term": "at the scene",
+      "definition": "現場で"
+    },
+    {
+      "term": "at the site",
+      "definition": "現地で"
+    },
+    {
+      "term": "away from [A]",
+      "definition": "[A] から遠くに"
+    },
+    {
+      "term": "beneath [A]",
+      "definition": "[A] の下に"
+    },
+    {
+      "term": "between [A] and [B]",
+      "definition": "[A] と [B] の間に"
+    },
+    {
+      "term": "in suburbs",
+      "definition": "郊外に"
+    },
+    {
+      "term": "in the [N] th drawer from the { top ! bottom }",
+      "definition": "{ 上 ! 下 }  から [N] 番目の引き出しの中に"
+    },
+    {
+      "term": "in the country",
+      "definition": "田舎に"
+    },
+    {
+      "term": "in the distance",
+      "definition": "遠方に"
+    },
+    {
+      "term": "in town",
+      "definition": "町に / 在京の"
+    },
+    {
+      "term": "next door",
+      "definition": "隣近所に"
+    },
+    {
+      "term": "next to each other",
+      "definition": "隣り合わせに"
+    },
+    {
+      "term": "on page [N]",
+      "definition": "[N] ページに"
+    },
+    {
+      "term": "on the [N] th floor",
+      "definition": "[N] 階に"
+    },
+    {
+      "term": "on the spot",
+      "definition": "即座に / その場で"
+    },
+    {
+      "term": "on the way to [A]",
+      "definition": "[A] の道中で"
+    },
+    {
+      "term": "out { here | there }",
+      "definition": "ここら中に"
+    },
+    {
+      "term": "out of town",
+      "definition": "町の外れに"
+    },
+    {
+      "term": "throughout the world",
+      "definition": "世界中に"
+    },
+    {
+      "term": "up the stairs",
+      "definition": "階上に"
+    },
+    {
+      "term": "in the { neighborhood | vicinity } of [A]",
+      "definition": "[A] の付近に"
+    }
+  ]
+}

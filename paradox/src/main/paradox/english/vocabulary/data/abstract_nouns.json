@@ -1,0 +1,878 @@
+{
+  "fields": [
+    {
+      "key": "term",
+      "name": "Term"
+    },
+    {
+      "key": "definition",
+      "name": "Definition"
+    }
+  ],
+  "rows": [
+    {
+      "term": "-age",
+      "definition": "動詞変化"
+    },
+    {
+      "term": "-ance",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "-cy",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "-dom",
+      "definition": "名詞変化"
+    },
+    {
+      "term": "-ence",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "-hood",
+      "definition": "名詞変化"
+    },
+    {
+      "term": "-ing",
+      "definition": "動詞変化"
+    },
+    {
+      "term": "-ion",
+      "definition": "動詞変化"
+    },
+    {
+      "term": "-ism",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "-ment",
+      "definition": "動詞変化"
+    },
+    {
+      "term": "-ness",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "-ship",
+      "definition": "名詞変化"
+    },
+    {
+      "term": "-th",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "-ty",
+      "definition": "形容詞変化"
+    },
+    {
+      "term": "{ advantage ! disadvantage }",
+      "definition": "有利 ! 不利"
+    },
+    {
+      "term": "{ construction ! destruction }",
+      "definition": "建設 ! 破壊"
+    },
+    {
+      "term": "{ optimism ! pessimism }",
+      "definition": "楽観 ! 悲観"
+    },
+    {
+      "term": "{ paternity ! maternity }",
+      "definition": "父系 ! 母系"
+    },
+    {
+      "term": "abduction",
+      "definition": "拉致"
+    },
+    {
+      "term": "abolition",
+      "definition": "廃止"
+    },
+    {
+      "term": "absurdity",
+      "definition": "不条理"
+    },
+    {
+      "term": "acceleration",
+      "definition": "加速"
+    },
+    {
+      "term": "acquisition",
+      "definition": "獲得"
+    },
+    {
+      "term": "admission",
+      "definition": "入場 / 入学"
+    },
+    {
+      "term": "adversity",
+      "definition": "逆境"
+    },
+    {
+      "term": "advocacy",
+      "definition": "提唱 / 主張"
+    },
+    {
+      "term": "allegation",
+      "definition": "申し立て"
+    },
+    {
+      "term": "allegiance",
+      "definition": "忠誠"
+    },
+    {
+      "term": "arbitration",
+      "definition": "仲裁"
+    },
+    {
+      "term": "arrogance",
+      "definition": "傲慢"
+    },
+    {
+      "term": "assessment",
+      "definition": "評価"
+    },
+    {
+      "term": "assignment",
+      "definition": "宿題"
+    },
+    {
+      "term": "assistance",
+      "definition": "援助"
+    },
+    {
+      "term": "assumption",
+      "definition": "仮定"
+    },
+    {
+      "term": "authority",
+      "definition": "権限"
+    },
+    {
+      "term": "aviation",
+      "definition": "航空"
+    },
+    {
+      "term": "baptism",
+      "definition": "洗礼"
+    },
+    {
+      "term": "brevity",
+      "definition": "簡潔"
+    },
+    {
+      "term": "cancellation",
+      "definition": "中断"
+    },
+    {
+      "term": "capability",
+      "definition": "才能"
+    },
+    {
+      "term": "capacity",
+      "definition": "度量"
+    },
+    {
+      "term": "censorship",
+      "definition": "検閲"
+    },
+    {
+      "term": "charity",
+      "definition": "慈愛 / 思いやり"
+    },
+    {
+      "term": "circulation",
+      "definition": "貸出 / 発行部数 / 流通 / 循環"
+    },
+    {
+      "term": "civilization",
+      "definition": "文明"
+    },
+    {
+      "term": "coincidence",
+      "definition": "同時発生 / 重複"
+    },
+    {
+      "term": "collision",
+      "definition": "衝突"
+    },
+    {
+      "term": "commencement",
+      "definition": "始まり"
+    },
+    {
+      "term": "commitment",
+      "definition": "委託"
+    },
+    {
+      "term": "comparison",
+      "definition": "比較"
+    },
+    {
+      "term": "competitiveness",
+      "definition": "競争力"
+    },
+    {
+      "term": "completion",
+      "definition": "完了"
+    },
+    {
+      "term": "concession",
+      "definition": "譲歩"
+    },
+    {
+      "term": "conciseness",
+      "definition": "簡潔"
+    },
+    {
+      "term": "condolence",
+      "definition": "哀悼の意"
+    },
+    {
+      "term": "conformity",
+      "definition": "適合 / 整合 / 一致"
+    },
+    {
+      "term": "congestion",
+      "definition": "混雑"
+    },
+    {
+      "term": "conscience",
+      "definition": "良心"
+    },
+    {
+      "term": "consequence",
+      "definition": "結果"
+    },
+    {
+      "term": "conservation",
+      "definition": "節約"
+    },
+    {
+      "term": "consolation",
+      "definition": "慰め"
+    },
+    {
+      "term": "constriction",
+      "definition": "狭窄"
+    },
+    {
+      "term": "consumption",
+      "definition": "消費"
+    },
+    {
+      "term": "contact",
+      "definition": "接触"
+    },
+    {
+      "term": "contention",
+      "definition": "競合"
+    },
+    {
+      "term": "contingency",
+      "definition": "不測の事態"
+    },
+    {
+      "term": "convention",
+      "definition": "慣習 / 決め事"
+    },
+    {
+      "term": "conviction",
+      "definition": "確信"
+    },
+    {
+      "term": "correspondence",
+      "definition": "やり取り"
+    },
+    {
+      "term": "corruption",
+      "definition": "汚職 / 腐敗 / 破壊"
+    },
+    {
+      "term": "courage",
+      "definition": "勇気"
+    },
+    {
+      "term": "coverage",
+      "definition": "報道"
+    },
+    {
+      "term": "criticism",
+      "definition": "批判"
+    },
+    {
+      "term": "damage",
+      "definition": "損害"
+    },
+    {
+      "term": "deception",
+      "definition": "欺瞞"
+    },
+    {
+      "term": "deference",
+      "definition": "尊敬"
+    },
+    {
+      "term": "delinquency",
+      "definition": "非行 / 怠慢 / 滞納"
+    },
+    {
+      "term": "demeanor",
+      "definition": "態度"
+    },
+    {
+      "term": "density",
+      "definition": "密度"
+    },
+    {
+      "term": "dependability",
+      "definition": "信頼性"
+    },
+    {
+      "term": "dependence",
+      "definition": "依存"
+    },
+    {
+      "term": "deregulation",
+      "definition": "規制緩和"
+    },
+    {
+      "term": "deterrence",
+      "definition": "抑止"
+    },
+    {
+      "term": "diplomacy",
+      "definition": "外交手腕"
+    },
+    {
+      "term": "discrepancy",
+      "definition": "不一致"
+    },
+    {
+      "term": "discretion",
+      "definition": "見極め / 裁量 / 判断"
+    },
+    {
+      "term": "discrimination",
+      "definition": "差別"
+    },
+    {
+      "term": "disturbance",
+      "definition": "攪乱（かくらん）"
+    },
+    {
+      "term": "donation",
+      "definition": "寄付"
+    },
+    {
+      "term": "drowsiness",
+      "definition": "眠気"
+    },
+    {
+      "term": "education",
+      "definition": "教育"
+    },
+    {
+      "term": "emission",
+      "definition": "排気"
+    },
+    {
+      "term": "employment",
+      "definition": "雇用"
+    },
+    {
+      "term": "enrollment",
+      "definition": "登録 / 入会"
+    },
+    {
+      "term": "eruption",
+      "definition": "噴火"
+    },
+    {
+      "term": "eviction",
+      "definition": "立ち退き"
+    },
+    {
+      "term": "execution",
+      "definition": "執行"
+    },
+    {
+      "term": "exemption",
+      "definition": "免除"
+    },
+    {
+      "term": "expectation",
+      "definition": "期待"
+    },
+    {
+      "term": "expertise",
+      "definition": "専門知識"
+    },
+    {
+      "term": "extinction",
+      "definition": "消滅 / 絶滅"
+    },
+    {
+      "term": "extravagance",
+      "definition": "贅沢（節操のない）"
+    },
+    {
+      "term": "fact",
+      "definition": "事実"
+    },
+    {
+      "term": "fiction",
+      "definition": "虚構"
+    },
+    {
+      "term": "freedom",
+      "definition": "自由"
+    },
+    {
+      "term": "friction",
+      "definition": "軋轢"
+    },
+    {
+      "term": "hardship",
+      "definition": "苦難"
+    },
+    {
+      "term": "harshness",
+      "definition": "厳しさ"
+    },
+    {
+      "term": "honesty",
+      "definition": "正直"
+    },
+    {
+      "term": "hospitality",
+      "definition": "もてなし"
+    },
+    {
+      "term": "humidity",
+      "definition": "湿度"
+    },
+    {
+      "term": "idempotence",
+      "definition": "冪等性"
+    },
+    {
+      "term": "ignorance",
+      "definition": "無知"
+    },
+    {
+      "term": "impartiality",
+      "definition": "公明正大さ"
+    },
+    {
+      "term": "impeachment",
+      "definition": "弾劾"
+    },
+    {
+      "term": "importance",
+      "definition": "重要"
+    },
+    {
+      "term": "inauguration",
+      "definition": "就任"
+    },
+    {
+      "term": "incarceration",
+      "definition": "投獄"
+    },
+    {
+      "term": "inception",
+      "definition": "開始"
+    },
+    {
+      "term": "incidence",
+      "definition": "発生 / 発生率"
+    },
+    {
+      "term": "independence",
+      "definition": "独立"
+    },
+    {
+      "term": "indiscretion",
+      "definition": "無分別 / 不謹慎"
+    },
+    {
+      "term": "infection",
+      "definition": "感染 / 悪い感化"
+    },
+    {
+      "term": "infringement",
+      "definition": "(ルールの)侵害"
+    },
+    {
+      "term": "ingestion",
+      "definition": "摂取"
+    },
+    {
+      "term": "insistence",
+      "definition": "主張"
+    },
+    {
+      "term": "inspection",
+      "definition": "検査"
+    },
+    {
+      "term": "installation",
+      "definition": "設置"
+    },
+    {
+      "term": "integration",
+      "definition": "統合"
+    },
+    {
+      "term": "integrity",
+      "definition": "誠実"
+    },
+    {
+      "term": "intensity",
+      "definition": "強度"
+    },
+    {
+      "term": "intermission",
+      "definition": "休止"
+    },
+    {
+      "term": "interpretation",
+      "definition": "解釈"
+    },
+    {
+      "term": "intrusion",
+      "definition": "押しつけ"
+    },
+    {
+      "term": "intuition",
+      "definition": "直感"
+    },
+    {
+      "term": "invasion",
+      "definition": "侵略"
+    },
+    {
+      "term": "invention",
+      "definition": "発明"
+    },
+    {
+      "term": "justification",
+      "definition": "正当化 / 根拠"
+    },
+    {
+      "term": "kidnapping",
+      "definition": "誘拐"
+    },
+    {
+      "term": "leverage",
+      "definition": "行動力"
+    },
+    {
+      "term": "loyalty",
+      "definition": "忠誠"
+    },
+    {
+      "term": "malfunction",
+      "definition": "故障"
+    },
+    {
+      "term": "maneuverability",
+      "definition": "操作性"
+    },
+    {
+      "term": "mastery",
+      "definition": "習得"
+    },
+    {
+      "term": "mediocrity",
+      "definition": "平凡"
+    },
+    {
+      "term": "meditation",
+      "definition": "瞑想"
+    },
+    {
+      "term": "mercy",
+      "definition": "慈悲"
+    },
+    {
+      "term": "mileage",
+      "definition": "燃費"
+    },
+    {
+      "term": "modesty",
+      "definition": "謙遜"
+    },
+    {
+      "term": "mortality",
+      "definition": "致死"
+    },
+    {
+      "term": "motivation",
+      "definition": "動機"
+    },
+    {
+      "term": "negligence",
+      "definition": "過失"
+    },
+    {
+      "term": "nobility",
+      "definition": "崇高 / 貴族"
+    },
+    {
+      "term": "nutrition",
+      "definition": "栄養摂取 / 栄養 / 栄養学"
+    },
+    {
+      "term": "objection",
+      "definition": "反対"
+    },
+    {
+      "term": "obligation",
+      "definition": "義務"
+    },
+    {
+      "term": "observance",
+      "definition": "遵守"
+    },
+    {
+      "term": "obsession",
+      "definition": "強迫観念"
+    },
+    {
+      "term": "occurrence",
+      "definition": "発生"
+    },
+    {
+      "term": "omission",
+      "definition": "欠落 / 手抜き"
+    },
+    {
+      "term": "patience",
+      "definition": "忍耐 / 我慢"
+    },
+    {
+      "term": "patronage",
+      "definition": "後援 / 愛顧"
+    },
+    {
+      "term": "peculiarity",
+      "definition": "特異 / 独創 / 風変わり"
+    },
+    {
+      "term": "perception",
+      "definition": "認識"
+    },
+    {
+      "term": "perseverance",
+      "definition": "忍耐力"
+    },
+    {
+      "term": "persistence",
+      "definition": "粘り強さ / 持続性"
+    },
+    {
+      "term": "petition",
+      "definition": "嘆願書"
+    },
+    {
+      "term": "poverty",
+      "definition": "貧困"
+    },
+    {
+      "term": "practice",
+      "definition": "習慣 / 実践 / 開業"
+    },
+    {
+      "term": "preconception",
+      "definition": "先入観"
+    },
+    {
+      "term": "predicament",
+      "definition": "苦境"
+    },
+    {
+      "term": "preference",
+      "definition": "好み"
+    },
+    {
+      "term": "prejudice",
+      "definition": "偏見"
+    },
+    {
+      "term": "presence",
+      "definition": "存在感"
+    },
+    {
+      "term": "proliferation",
+      "definition": "増殖"
+    },
+    {
+      "term": "prosperity",
+      "definition": "繁栄"
+    },
+    {
+      "term": "provision",
+      "definition": "支給 / 配布"
+    },
+    {
+      "term": "punishment",
+      "definition": "処罰"
+    },
+    {
+      "term": "rationality",
+      "definition": "合理性"
+    },
+    {
+      "term": "rationalization",
+      "definition": "合理化"
+    },
+    {
+      "term": "readiness",
+      "definition": "準備が出来ていること"
+    },
+    {
+      "term": "recession",
+      "definition": "景気後退"
+    },
+    {
+      "term": "recommence",
+      "definition": "再開"
+    },
+    {
+      "term": "refutation",
+      "definition": "論破"
+    },
+    {
+      "term": "regulation",
+      "definition": "規則"
+    },
+    {
+      "term": "reinforcement",
+      "definition": "強化"
+    },
+    {
+      "term": "reluctance",
+      "definition": "不本意"
+    },
+    {
+      "term": "reorganization",
+      "definition": "再編成"
+    },
+    {
+      "term": "repayment",
+      "definition": "返済"
+    },
+    {
+      "term": "repercussion",
+      "definition": "反響"
+    },
+    {
+      "term": "repetition",
+      "definition": "繰り返し"
+    },
+    {
+      "term": "resilience",
+      "definition": "弾力"
+    },
+    {
+      "term": "responsibility",
+      "definition": "責任"
+    },
+    {
+      "term": "resurgence",
+      "definition": "復活"
+    },
+    {
+      "term": "retirement",
+      "definition": "引退"
+    },
+    {
+      "term": "revelation",
+      "definition": "暴露 / 啓示 / お告げ"
+    },
+    {
+      "term": "revision",
+      "definition": "改訂"
+    },
+    {
+      "term": "sanitation",
+      "definition": "衛生"
+    },
+    {
+      "term": "seniority",
+      "definition": "年功(序列)"
+    },
+    {
+      "term": "shortage",
+      "definition": "不足"
+    },
+    {
+      "term": "sobriety",
+      "definition": "厳粛 / 生真面目"
+    },
+    {
+      "term": "society",
+      "definition": "社会"
+    },
+    {
+      "term": "speculation",
+      "definition": "推測"
+    },
+    {
+      "term": "stability",
+      "definition": "安定性"
+    },
+    {
+      "term": "standstill",
+      "definition": "停止"
+    },
+    {
+      "term": "stillness",
+      "definition": "静寂"
+    },
+    {
+      "term": "superstition",
+      "definition": "迷信"
+    },
+    {
+      "term": "temptation",
+      "definition": "誘惑"
+    },
+    {
+      "term": "tolerance",
+      "definition": "耐性"
+    },
+    {
+      "term": "transaction",
+      "definition": "取引"
+    },
+    {
+      "term": "transgression",
+      "definition": "罪"
+    },
+    {
+      "term": "vaccination",
+      "definition": "予防接種"
+    },
+    {
+      "term": "vocation",
+      "definition": "天職"
+    },
+    {
+      "term": "wealth",
+      "definition": "富"
+    },
+    {
+      "term": "wisdom",
+      "definition": "賢明"
+    },
+    {
+      "term": "youth",
+      "definition": "若さ"
+    }
+  ]
+}
