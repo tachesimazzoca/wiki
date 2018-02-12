@@ -6,5 +6,5 @@ lazy val root = (project in file(".")).
   )
 
 paradoxProperties += (
-  "github.base_url" -> s"https://github.com/tachesimazzoca/wiki/tree/master/paradox"
+  "github.base_url" -> s"https://github.com/tachesimazzoca/wiki"
 )
