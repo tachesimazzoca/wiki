@@ -7,7 +7,6 @@
 <title>$page.title$ | tachesimazzoca - Wiki</title>
 <link href="$page.base$assets/lib/bootstrap-3.2.0/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="$page.base$assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css">
-<link href="$page.base$assets/stylesheets/github.css" media="screen" rel="stylesheet" type="text/css">
 <script src="$page.base$assets/lib/jquery-1.11.1/jquery.min.js"></script>
 <script src="$page.base$assets/lib/bootstrap-3.2.0/js/bootstrap.min.js"></script>
 $gtm()$
@@ -45,5 +44,14 @@ $gtm()$
   $footer()$
 </div>
 <!--/#wrapper-->
+<style type="text/css">@import "$page.base$assets/lib/prettify/prettify.css";</style>
+<script type="text/javascript" src="$page.base$assets/lib/prettify/prettify.js"></script>
+<script type="text/javascript">
+(function(jq) {
+  jq(function(){
+    window.prettyPrint && prettyPrint();
+  });
+})(window.jQuery);
+</script>
 </body>
 </html>
