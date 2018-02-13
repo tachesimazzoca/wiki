@@ -1,6 +1,9 @@
+---
+layout: index
+---
 # Docker
 
-## Index of Pages
+## Table of Contents
 
 @@toc { headers=false }
 

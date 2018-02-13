@@ -1,6 +1,6 @@
 # Vocabulary
 
-## Index of Pages
+## Table of Contents
 
 @@toc { depth=1 headers=false }
 

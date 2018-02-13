@@ -1,6 +1,6 @@
 # Appendix
 
-## Index of Pages
+## Table of Contents
 
 @@toc { depth=2 headers=false }
 

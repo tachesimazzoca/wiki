@@ -3,7 +3,7 @@ layout: index
 ---
 # Play Framework
 
-## Index of Pages
+## Table of Contents
 
 @@toc { headers=false }
 

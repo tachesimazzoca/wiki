@@ -15,10 +15,17 @@ $gtm()$
 <div id="wrapper">
   $header()$
   <div id="main">
+    $if (!page.home.active)$
+    <div class="container-fluid">
+      <div class="pankuzu">
+        $page.breadcrumbs$
+      </div>
+    </div>
+    $endif$
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          $if(page.source_url)$
+          $if (page.source_url)$
           <div class="btn-group pull-right">
             <a class="btn btn-default" href="$page.source_url$">Source</a>
           </div>

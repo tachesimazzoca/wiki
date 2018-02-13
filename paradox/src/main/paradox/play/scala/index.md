@@ -1,6 +1,6 @@
 # Scala
 
-## Index of Pages
+## Table of Contents
 
 @@toc { headers=false }
 

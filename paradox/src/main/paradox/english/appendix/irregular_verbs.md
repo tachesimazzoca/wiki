@@ -1,3 +1,6 @@
+---
+layout: index
+---
 # Irregualr Verbs
 
 <table data-url="data/irregular_verbs.json" class="table">

@@ -3,7 +3,7 @@ layout: index
 ---
 # English
 
-## Index of Pages
+## Table of Contents
 
 @@toc { headers=false }
 

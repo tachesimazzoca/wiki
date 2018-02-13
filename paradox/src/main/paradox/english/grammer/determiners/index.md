@@ -104,7 +104,7 @@ _There (is|are)_ に続く情報は未知のものなので、既知の物を指
 
 * There is __the book__ that changed my life.
 
-## Index of Pages
+## Table of Contents
 
 @@toc { depth=2 headers=false }
 
