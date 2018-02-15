@@ -2,7 +2,8 @@ lazy val root = (project in file(".")).
   enablePlugins(ParadoxPlugin).
   settings(
     name := "tachesimazzoca - Wiki",
-    paradoxTheme := None
+    paradoxTheme := None,
+    paradoxNavigationExpandDepth := Some(1)
   )
 
 paradoxProperties += (

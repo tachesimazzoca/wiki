@@ -12,14 +12,10 @@
 <script type="text/javascript">
 (function(jq) {
   jq(function() {
-    if (!window.location.pathname.match(/\/index.html/)) {
-      jq('#jsNavigationHolder').toctree({ selector:'#content :header', offset:1, depth:1 });
-    } else {
-      var navbase = jq('.pankuzu > ul > li:nth-child(2)').text();
-      jq('#jsNavigationHolder').html(
-        jq('#jsNavigationForest > ul > li > a[class="page"]:contains("' +navbase + '")').parent().html()
-      )
-    }
+    var navbase = jq('.pankuzu > ul > li:nth-child(2)').text();
+    jq('#jsNavigationHolder').html(
+      jq('#jsNavigationForest > ul > li > a[class="page"]:contains("' +navbase + '")').parent().html()
+    )
   });
 })(window.jQuery);
 </script>

@@ -4,11 +4,21 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>$page.title$ | tachesimazzoca - Wiki</title>
+<title>tachesimazzoca - Wiki | $page.title$</title>
 <link href="$page.base$assets/lib/bootstrap-3.2.0/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="$page.base$assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css">
 <script src="$page.base$assets/lib/jquery-1.11.1/jquery.min.js"></script>
 <script src="$page.base$assets/lib/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+(function(jq) {
+  jq(function() {
+    if (!window.location.pathname.match(/\/index.html\$/)) {
+      jq('h1').after('<div id="toc"></div>');
+      jq('#toc').toctree({ selector: '#content :header', offset: 1, depth: 1 });
+    }
+  });
+})(window.jQuery);
+</script>
 $gtm()$
 </head>
 <body>
@@ -22,15 +32,15 @@ $gtm()$
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 col-sm-4 hidden-xs">
-          <div id="navigation" data-spy="affix" data-offset-top="110" data-offset-bottom="100">
+        <div class="col-md-3 col-sm-3 hidden-xs">
+          <div id="navigation">
           $navigation()$
           </div>
         </div>
-        <div class="col-md-9 col-sm-8">
+        <div class="col-md-9 col-sm-9">
           $if(page.source_url)$
           <div class="btn-group pull-right">
-            <a class="btn btn-default" href="$page.source_url$">Source</a>
+            <a class="btn btn-info" href="$page.source_url$">Source</a>
           </div>
           $endif$
           <div id="content">
