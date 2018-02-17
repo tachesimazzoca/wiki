@@ -31,6 +31,7 @@ layout: index
 * [ ](pgsql/index.md)
 * [ ](play/index.md)
 * [ ](postfix/index.md)
+* [ ](rails3/index.md)
 * [ ](vagrant/index.md)
 
 @@@
