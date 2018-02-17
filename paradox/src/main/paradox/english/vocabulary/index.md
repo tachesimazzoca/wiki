@@ -1,3 +1,6 @@
+---
+layout: index
+---
 # Vocabulary
 
 ## Table of Contents

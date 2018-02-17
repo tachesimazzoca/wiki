@@ -1,3 +1,6 @@
+---
+layout: index
+---
 # Phrases
 
 ## Table of Contents

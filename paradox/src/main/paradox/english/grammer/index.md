@@ -1,3 +1,6 @@
+---
+layout: index
+---
 # Grammer
 
 ## Table of Contents

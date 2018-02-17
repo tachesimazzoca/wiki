@@ -1,3 +1,6 @@
+---
+layout: index
+---
 # Tenses
 
 ## Table of Contents

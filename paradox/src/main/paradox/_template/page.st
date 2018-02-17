@@ -9,16 +9,6 @@
 <link href="$page.base$assets/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css">
 <script src="$page.base$assets/lib/jquery-1.11.1/jquery.min.js"></script>
 <script src="$page.base$assets/lib/bootstrap-3.2.0/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-(function(jq) {
-  jq(function() {
-    if (!window.location.pathname.match(/\/index.html\$/)) {
-      jq('h1').after('<div id="toc"></div>');
-      jq('#toc').toctree({ selector: '#content :header', offset: 1, depth: 1 });
-    }
-  });
-})(window.jQuery);
-</script>
 $gtm()$
 </head>
 <body>
@@ -33,7 +23,7 @@ $gtm()$
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 col-sm-3 hidden-xs">
-          <div id="navigation">
+          <div id="navigation" data-spy="affix" data-offset-top="110">
           $navigation()$
           </div>
         </div>

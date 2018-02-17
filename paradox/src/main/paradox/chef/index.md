@@ -1,6 +1,3 @@
----
-layout: index
----
 # Chef
 
 ## Overview

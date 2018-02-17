@@ -1,6 +1,3 @@
----
-layout: index
----
 # Vagrant
 
 ## Creating a Base Box

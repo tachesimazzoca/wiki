@@ -64,6 +64,12 @@ code {
 .pankuzu > .active {
   color: #777; }
 
+#navigation {
+  width: 220px; }
+
+#navigation.affix {
+  top: 20px; }
+
 #navigation ul {
   padding: 4px 0 0 4px; }
 

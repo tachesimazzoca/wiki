@@ -1,4 +1,11 @@
+---
+layout: index
+---
 # Determiners
+
+## Table of Contents
+
+@@toc { headers=false }
 
 ## 使い方
 
@@ -103,10 +110,6 @@ _There (is|are)_ に続く情報は未知のものなので、既知の物を指
 文章内で修飾されて限定された場合は使える。
 
 * There is __the book__ that changed my life.
-
-## Table of Contents
-
-@@toc { headers=false }
 
 @@@ index
 
