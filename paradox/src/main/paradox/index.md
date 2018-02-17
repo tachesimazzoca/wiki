@@ -33,6 +33,7 @@ layout: index
 * [ ](postfix/index.md)
 * [ ](rails3/index.md)
 * [ ](rbenv/index.md)
+* [ ](rvm/index.md)
 * [ ](vagrant/index.md)
 
 @@@
