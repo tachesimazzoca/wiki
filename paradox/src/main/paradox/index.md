@@ -21,6 +21,7 @@ layout: index
 * [ ](hadoop/index.md)
 * [ ](haproxy/index.md)
 * [ ](haskell/index.md)
+* [ ](httpd/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
