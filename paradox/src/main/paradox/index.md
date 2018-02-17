@@ -12,6 +12,7 @@ layout: index
 * [Android](android/index.md)
 * [AWS](aws/index.md)
 * [Chef](chef/index.md)
+* [Cryptography](crypto/index.md)
 * [Docker](docker/index.md)
 * [English](english/index.md)
 * [Play Framework](play/index.md)
