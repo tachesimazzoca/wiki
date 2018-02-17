@@ -27,7 +27,7 @@ _be_ 動詞は主に _were_ を用いる。
 
 ### 仮定法現在
 
-仮定法現在 _Subjunctive Present_ は、_should_ を省いた動詞の原形を用いて、現在や未来の仮定を表す。
+仮定法現在 _Subjunctive Present_ は _should_ を省いた動詞の原形を用いて、現在や未来の仮定を表す。
 
 * I suggested that he _(should)_ __take__ a break on Twitter.
 * The doctor recommended that I _(should)_ __not go__ to work today.
@@ -53,9 +53,9 @@ _be_ 動詞は主に _were_ を用いる。
 * If it __had been__ cheaper, I __would have__ bought it. _もっと安かったら、買っていたけどね_
     * _It was too expensive, so I didn't buy it._
 
-未来の話「そうなったら ... するでしょう（でしょう）」をする場合は、_if_ 節は現在形になる。
+未来の話「そうなったら ... するでしょう（でしょう）」をする場合は _if_ 節は現在形になる。
 
-* If I __find__ your key, I__'ll tell__ you.
+* If I __find__ your key, I __will tell__ you.
 
 _would_ は _if_ 節では使えない。現在形（未来） / 過去形（現在） / 過去完了形（過去） の動詞のみ使える。
 
@@ -87,8 +87,8 @@ _wish_ は仮定法をつかって「後悔」「実現不可能な希望」を�
 * I __wish__ I __knew__ what he wants me to do. _何をしてほしいか知っていればいいんだけど_
 * I __wish__ you __didn't leave__ soon. _もうちょっとゆっくりしていばいいのに_
 * Do you __wish__ you __lived__ in the 60's? _60年代に生きていればなあと思うかい？_
-* I __wish__ I__'d known__ about the party. _パーティのことを知っていたらなぁ_
-* I __wish__ I__'d studied__ computer science instead of economics. _経済学でなくて情報科学を専攻しておけばよかった_
+* I __wish__ I __had known__ about the party. _パーティのことを知っていたらなぁ_
+* I __wish__ I __had studied__ computer science instead of economics. _経済学でなくて情報科学を専攻しておけばよかった_
 
 _wish ... could_ をつかうとその可能性はない（なかった）ことを残念に思う時に使える。
 
@@ -115,10 +115,10 @@ _It's time to ..._ で「... する時間だ」という意味になる。
 仮定法過去で「もう ... する時間なのに（そうでない）」という批判や不満を伝える事ができる。
 
 * __It's time__ you __went__ home.  _もう家に帰る時間だよ_
-* He's still in bed. __It's time__ he __got__ up. _彼はまだ寝てるよ。もう起きる時間なのに。_
-* __It's time__ the train __left__. _もう発車する時間なのに。_
+* He's still in bed. __It's time__ he __got__ up. _彼はまだ寝てるよ。もう起きる時間なのに_
+* __It's time__ the train __left__. _もう発車する時間なのに_
 
-「今 ... する時間」になるので、仮定法過去完了による過去の願望には使えない。_It was time_ 「... する時間だった」なら、単に直接法過去になる。
+「今 ... する時間」になるので、仮定法過去完了による過去の願望には使えない。 _It was time_ 「... する時間だった」なら、単に直接法過去になる。
 
 * <del>__It's time__ you __had gone__ home.</del> __It was time__ you had gone home.
 
@@ -130,7 +130,7 @@ _that_ 節に、相手に決定権がある仮定を置き、現在 / 過去 / �
 
 * Alice __suggested__ that Bob _(should)_ __buy__ a new car.
 * I __suggest__ that you _(should)_ __be__ careful about getting involved in a community that has a lot of rules.
-* He__'ll suggest__ that they _(should)_ __try__ to contact each other.
+* He __will suggest__ that they _(should)_ __try__ to contact each other.
 
 _suggest_ の他には、以下のような動詞がある。
 
@@ -167,7 +167,7 @@ _prefer A to B_ の場合は「B よりも A を好む」になる。この場�
 * I __prefer__ "IntelliJ IDEA" __to__ "Eclipse".
 * I __prefer__ driving __to__ traveling by train.
 
-不定詞を使う場合は、_prefer to ... rather than ..._ になる。
+不定詞を使う場合は _prefer to ... rather than ..._ になる。
 
 * I __prefer__ to use "IntelliJ IDEA" __rather than__ "Eclipse".
 * I __prefer__ to write tests __rather than__ print debug message.
@@ -175,14 +175,14 @@ _prefer A to B_ の場合は「B よりも A を好む」になる。この場�
 _would prefer_ は「（一時的に / その状況では）... するほうを好む」の意味になる。「これからすること」なので動名詞は使えない。
 
 * __Would__ you __prefer__ tea or coffee?
-* Should we wait for the next bus? I__'d prefer__ <del>going</del> to go on foot.
-* It's too cold. I__'d prefer__ <del>staying</del> to stay home tonight __rather than__ go out.
+* Should we wait for the next bus? I __would prefer__ <del>going</del> to go on foot.
+* It's too cold. I __would prefer__ <del>staying</del> to stay home tonight __rather than__ go out.
 
 _would prefer to ... rather than ..._ は _would rather ... than ..._ に省略できる。
 
-* I__'d rather__ stay home tonight __than__ go out.
-* I__'d rather not__ go out.
-* Should we go on foot? I__'d rather not__.
+* I __would rather__ stay home tonight __than__ go out.
+* I __would rather not__ go out.
+* Should we go on foot? I __would rather not__.
 
 _would rather someone + 仮定法過去_ で「どちらかといえば ... に ... してほしい」という仮定法がつかえる。
 

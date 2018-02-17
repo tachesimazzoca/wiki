@@ -4,8 +4,8 @@
 
 現在進行形 _Present Continuous_ は _(am|are|is)_ + 現在分詞 _participle_ で、一定期間の行動や出来事について、その最中であることを伝える場合に使う。
 
-* I__'m working__.
-* I__'m going__ to work.
+* I __am working__.
+* I __am going__ to work.
 
 ## 進行形がない動作
 
@@ -51,8 +51,8 @@ _look / feel_ は、現在形と現在進行形のどちらでも使える。
 
 _be being ..._ は「普段と違って ... である」という意味になる。
 
-* He__'s being__ very quiet. _（普段と違って）やけに静かだ_
-* You__'re being__ silly. _（普段と違って）なにバカなことしてるんだ_
-* I'm a student. But now, I__'m being__ a teacher. _普段は学生ですが、今は先生（役 or 家庭教師）をします。_
-* "May I help you?" I__'m being__ helped, thanks. _もう応対してもらってます。_
+* He __is being__ very quiet. _（普段と違って）やけに静かだ_
+* You __are being__ silly. _（普段と違って）なにバカなことしてるんだ_
+* I'm a student. But now, I __am being__ a teacher. _普段は学生ですが、今は先生（役 or 家庭教師）をします_
+* "May I help you?" I __am being__ helped, thanks. _もう応対してもらってます_
 

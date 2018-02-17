@@ -43,7 +43,7 @@ _of_ を使う場合は、「直属」の関係、すなわち同グループで
 * There's no __need__ for it.
 * The __supply__ and __demand__ for gold
 
-これらの単語が、必ず _for_ を使うわけではない。抽象名詞を補足する直属の関係であれば、_of_ を使う。
+これらの単語が、必ず _for_ を使うわけではない。抽象名詞を補足する直属の関係であれば _of_ を使う。
 
 * I don't know __the reason for__ that. _それに対する（具体的な）理由（that は理由ではない）_
 * He was dismissed by __reason of__ his age. _年齢を理由に解雇された (年齢が理由)_
@@ -62,7 +62,7 @@ _of_ を使う場合は、「直属」の関係、すなわち同グループで
 * an __invitation__ to the party
 * the __damage__ to my reputation
 
-意味によっては _for_ を使う事もあるが、ニュアンスが異なる。_solution_ 「解法」を例にすると、_for_ では漠然とした対策の印象になり、明確に答えに導くニュアンスではないので不自然になる。
+意味によっては _for_ を使う事もあるが、ニュアンスが異なる。 _solution_ 「解法」を例にすると _for_ では漠然とした対策の印象になり、明確に答えに導くニュアンスではないので不自然になる。
 
 * an answer __to__ the question _質問の答え_
 * an answer __for__ the fact _事実についての弁明_
@@ -71,7 +71,7 @@ _of_ を使う場合は、「直属」の関係、すなわち同グループで
 
 ### in
 
-変化を表す _increase / decrease / rise / drop_ には、_in_ が使われる。
+変化を表す _increase / decrease / rise / drop_ には _in_ が使われる。
 
 * increase in (the number of) crime
 * decrease in (the number of) population
@@ -223,14 +223,14 @@ _to 名詞_ は対になる対象に使う。不定詞と勘違いしないよ�
 
 ### famous for vs. famous as
 
-_famous for ..._ は有名になる要因、_famous as ..._ は、有名である肩書きを表す。
+_famous for ..._ は有名になる要因 _famous as ..._ は、有名である肩書きを表す。
 
 * New Orleans is famous __for__ Jazz music. _ジャズで有名 (ニューオリンズはジャズではない)_
 * He is famous __as__ a Jazz musician. _ジャズミュージシャンとして有名_
 
 ### known + to / for / as / by
 
-「誰かに知られている」場合は _by somebody_ ではなく _to somebody_ を使う。_by_ は知るための手段を指す。
+「誰かに知られている」場合は _by somebody_ ではなく _to somebody_ を使う。 _by_ は知るための手段を指す。
 
 * He is known <del>by us</del> __to__ us. _私たちに知られている_
 * Lady Gaga is known __for__ her over-the-top looks. _奇抜な衣装で知られている（主格とは別：Lady Gaga != the looks）_
@@ -271,7 +271,7 @@ _sorry_ は、元々は「心が痛む」という意味である。自分が原
     * I explained the problem __to them__.
     * Can you explain __to me__ what you mean?
 
-対象に到達する動作でなければ、_to_ は使われない。
+対象に到達する動作でなければ _to_ は使われない。
 
 * I bought a bag <del>to her</del> __for her__.
 * Please call a taxi <del>to me</del> __for me__.
@@ -309,12 +309,12 @@ _shout / throw_ 等は _to / agaist_ も使われるが、ニュアンスが異�
 
 ### about + 状況
 
-状況には _about_ を使う。「...について」と訳されるため、_for_ を使ってしまいがちだが、_for_ は動作の対価を明示しているのに対して、_about_ はそういう状況下であることを補足する。
+状況には _about_ を使う。「...について」と訳されるため _for_ を使ってしまいがちだが _for_ は動作の対価を明示しているのに対して _about_ はそういう状況下であることを補足する。
 
 * talk / read / know / tell
     * We talked <del>for our future</del> __about our future__.
 
-_know_ の場合、自動詞と他動詞があるが、一般的な物事や状況に対して、_自動詞 + about_ を使う。人 / 物 / 具体的な事実 には他動詞を使う。
+_know_ の場合、自動詞と他動詞があるが、一般的な物事や状況に対して _自動詞 + about_ を使う。人 / 物 / 具体的な事実 には他動詞を使う。
 
 * I don't know __about programming__.
 * I didn't know __about the meeting__.
@@ -325,7 +325,7 @@ _know_ の場合、自動詞と他動詞があるが、一般的な物事や状�
 
 ### for + 対価
 
-対価には _for_ を使う。_to_ とは違い、動作の到達点ではない。その動作を行なう対価に _for_ を使う。
+対価には _for_ を使う。 _to_ とは違い、動作の到達点ではない。その動作を行なう対価に _for_ を使う。
 
 * ask
     * Please ask them __for more information__. _「情報」は尋ねる内容ではなく、得られる対価_
@@ -433,7 +433,7 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 * I tried to convince them __of__ the truth.
 * He persuaded me __of__ the benefits of the cloud computing model.
 
-説得内容が節となる場合は、_of_ の代わりに _that_ 節を使う。
+説得内容が節となる場合は _of_ の代わりに _that_ 節を使う。
 
 * She assured us __that__ everything would turn out alright.
 
@@ -444,14 +444,14 @@ _blame_ を例にすると、原因となる罪に _for_ を用いる。
 
 ### 思考 + of / about
 
-_think about ..._ は、「検討する」議題や状況を指し、_think of ..._ は「頭に浮かんだ」具体的なアイデアを指す。
+_think about ..._ は、「検討する」議題や状況を指し _think of ..._ は「頭に浮かんだ」具体的なアイデアを指す。
 
 * I thought __about__ what you suggested. _あなたに言われたことを考えた_
 * We'll think __about__ it. _検討しましょう_
 * I'm thinking __of__ how to solve this problem. _どうやって解くかアイデアを練っている_
 * Not that I can think __of__. _何も思いつかないです_
 
-_think of ..._ は、_like ..._ の意味で、意見を求めるときにも使う。_think about ..._ は意見は求めていない。
+_think of ..._ は _like ..._ の意味で、意見を求めるときにも使う。 _think about ..._ は意見は求めていない。
 
 * What do you think __of__ our products? _私たちの製品はいかがですか？_
 * I don't think much __of__ it. _それを評価しない / どうでもいい_
@@ -462,7 +462,7 @@ _think of ..._ は、_like ..._ の意味で、意見を求めるときにも使
 * I'm thinking __of__ buying a new car. _買う気になっている（買いたい）_
 * I'm thinking __about__ buying a new car. _買う事を検討している（買うにあたって何かを考えている）_
 
-他の思考動作でも、_of_ は頭に浮かぶ物を指し、_about_ は状況を指すと考えると区別しやすい。
+他の思考動作でも _of_ は頭に浮かぶ物を指し _about_ は状況を指すと考えると区別しやすい。
 
 * hear
    * I've never __heard of__ him. _知らない / 思い浮かばない_
@@ -588,7 +588,7 @@ _provide_ は _give_ のように目的格に供給物も使う。ただし「�
 
 ### talk about / discuss
 
-_discuss_ は他動詞で、議題が目的語になる。_talk about ..._ につられて、自動詞と勘違いしやすい。
+_discuss_ は他動詞で、議題が目的語になる。 _talk about ..._ につられて、自動詞と勘違いしやすい。
 
 * We're gonna __talk about eduction__.
 * We're gonna <del>discuss about</del> __discuss__ education.
@@ -603,7 +603,7 @@ _care for ..._ は、「世話をする」の意味になる。疑問文や否�
 * I don't __care for him__. _彼のことが嫌いだ（考えることすらしない）_
 * <del>I care for you.</del> _肯定文の「好き」として care for は使わない_
 
-_care about_ は、「気にする」の意味になる。_about_ の代わりに疑問詞も使える。
+_care about_ は、「気にする」の意味になる。 _about_ の代わりに疑問詞も使える。
 
 * You should __care about your clothes__.
 * I __care about you__. _あなたのことを大切に思っています（恋愛対象以外につかえる）_
@@ -632,7 +632,7 @@ _care about_ は、「気にする」の意味になる。_about_ の代わり�
 * The people got sick __from__ food poisoning.
 * I suffer __from__ bad headaches.
 
-_protect_ は守る対象が目的語になるが、_prevent_ は防ぐ対象、すなわち外敵が目的語になる。
+_protect_ は守る対象が目的語になるが _prevent_ は防ぐ対象、すなわち外敵が目的語になる。
 
 * protect 守る対象 (from|against) 外敵
     * Sunglasses __protects__ your eyes __from__ the sun.
@@ -645,7 +645,7 @@ _protect_ は守る対象が目的語になるが、_prevent_ は防ぐ対象、
 
 ### agree with + 意見 / agree to + 提案 / agree on + 議題
 
-_agree with_ は賛成意見に対して使う。一致 _agreement_ を表現するのであって、_argue with_ のように議論し合う相手というわけではない。
+_agree with_ は賛成意見に対して使う。一致 _agreement_ を表現するのであって _argue with_ のように議論し合う相手というわけではない。
 
 * I __agree with__ you.
 * I __agree with__ your idea.

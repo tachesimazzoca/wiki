@@ -34,7 +34,7 @@ val noopFilter = Filter { (next, rh) =>
 }
 ```
 
-_Global_ オブジェクトを `play.api.GlobalSetting` から `play.api.mvc.WithFilters` に置き換えて、_Filter_ を指定する。
+_Global_ オブジェクトを `play.api.GlobalSetting` から `play.api.mvc.WithFilters` に置き換えて _Filter_ を指定する。
 
 ```scala
 object Global extends WithFilters(LoggingFilter, CSRFFilter()) {
@@ -47,7 +47,7 @@ object Global extends WithFilters(LoggingFilter, CSRFFilter()) {
 
 `play.api.mvc.EssentialFilter` は、`EssentialAction` を返すフィルタになる。
 
-`EsssitialAction` の実体は `(RequestHeader) => Iteratee[Array[Byte], Result]` であるので、_Iteratee_ の前段、すなわちリクエストボディ部 `Array[Byte]` に  _Enumeratee_ を適用できる。例えば gzip 圧縮されたリクエストボディ部を解凍する事が出来る。
+`EsssitialAction` の実体は `(RequestHeader) => Iteratee[Array[Byte], Result]` であるので _Iteratee_ の前段、すなわちリクエストボディ部 `Array[Byte]` に  _Enumeratee_ を適用できる。例えば gzip 圧縮されたリクエストボディ部を解凍する事が出来る。
 
 ```scala
 import play.filters.gzip.Gzip

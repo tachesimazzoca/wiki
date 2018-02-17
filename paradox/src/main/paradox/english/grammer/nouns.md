@@ -72,7 +72,7 @@
 * sugar / salt / bread / chocolate
 * paper / soap / toothpaste
 
-数で数えることができないので、複数形は持たない。_of_ で切り分けるか、_little / some / (a lot of|much)_ で量を示すことしかできない。
+数で数えることができないので、複数形は持たない。 _of_ で切り分けるか _little / some / (a lot of|much)_ で量を示すことしかできない。
 
 * a glass of water
 * some coffee
@@ -105,11 +105,11 @@ _people / police / personnel_ 等は、複数形は持たず、単数形で常�
 * The police __are__ coming up.
 * I'm __a police officer__. _個々は police officer / policeman / policewoman_
 
-_people_ は _person_ の複数形ではない。_person_ の複数形は _persons_ だが、人々を表す集合名詞 _people_ を用いるということになる。
+_people_ は _person_ の複数形ではない。 _person_ の複数形は _persons_ だが、人々を表す集合名詞 _people_ を用いるということになる。
 
 #### 間違いやすい集合名詞
 
-_software / hardware / cookware_ などの _-ware_ は、用品の総称であるので具象名詞ではない。_-age / -ure / -ry_ 等で終わる名詞も、集合を表す傾向にある。
+_software / hardware / cookware_ などの _-ware_ は、用品の総称であるので具象名詞ではない。 _-age / -ure / -ry_ 等で終わる名詞も、集合を表す傾向にある。
 
 * software
     * a piece of software / applications / programs / libraries / drivers
@@ -166,7 +166,7 @@ _software / hardware / cookware_ などの _-ware_ は、用品の総称であ�
 
 ## 可算名詞 / 不可算名詞
 
-名詞は、可算名詞か不可算名詞か、どちらか一方に属するわけでない。_How (many|much)_ どちらかの意味かで使い分ける。
+名詞は、可算名詞か不可算名詞か、どちらか一方に属するわけでない。 _How (many|much)_ どちらかの意味かで使い分ける。
 
 * 可算名詞 _Countable noun_
     * 数で数える _How many_
@@ -184,7 +184,7 @@ _advice / information / money_ など、英語では慣習的に概念や総称�
 * work / homework / research
     * jobs / tasks / assignments / reports / experiments
 
-形のある物体として存在していなくても、範囲がある（他と区別できる）場合には可算扱いになる。_outlook / criteria_ のように、 慣習的に、単数形 / 複数形どちらかでのみ用いられる名詞もある。
+形のある物体として存在していなくても、範囲がある（他と区別できる）場合には可算扱いになる。 _outlook / criteria_ のように、 慣習的に、単数形 / 複数形どちらかでのみ用いられる名詞もある。
 
 * 選択肢
     * options / choices
@@ -226,13 +226,13 @@ _10-dollar bill_「10ドル札」のように形容詞のように用いられ�
 
 ## 属性
 
-物の属性を表す時は、_the 属性名 of ..._ で表すことができる。場合によっては _the book name_ のように、「物 + 属性名」でつなげることもできる。
+物の属性を表す時は _the 属性名 of ..._ で表すことができる。場合によっては _the book name_ のように、「物 + 属性名」でつなげることもできる。
 
 * the name __of the book__ / the book name
 * the owner __of the restaurant__ / the restaurant owner
 * the beginning __of the month__
 
-人や動物の属性は、_...'s 属性名_ を用いる。ただし、関係代名詞でつなげるときは _of_ を使う。
+人や動物の属性は _...'s 属性名_ を用いる。ただし、関係代名詞でつなげるときは _of_ を使う。
 
 * <del>the name of my father</del> __my father's__ name
 * What is <del>the man's name</del> the name __of the man__ who is speaking?

@@ -53,7 +53,7 @@
 
 ## 連結動詞
 
-連結動詞 _Linking Verb_ は、第二文型 S + V + C あるいは、_be + 前置詞 + 場所_ で、主格を修飾する。
+連結動詞 _Linking Verb_ は、第二文型 S + V + C あるいは _be + 前置詞 + 場所_ で、主格を修飾する。
 
 連結動詞の見分け方は、主格と補語が同じであるかで判断すればよい。以下の４つのパターンのいずれかになる。
 
@@ -100,12 +100,12 @@
 
 相手がいるから他動詞と考えるのは誤り。「相手がいないと成立しない」動詞が他動詞になる。
 
-_I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立する自動詞で、_to him_ の前置詞句で修飾していることになる。相手がいるので勘違いしやすいが、目的語ではない。
+_I talked to him._ を例にすると _talk_ は _I talked._ だけで成立する自動詞で _to him_ の前置詞句で修飾していることになる。相手がいるので勘違いしやすいが、目的語ではない。
 
 * I talked (to him). _自動詞 + 前置詞句_
 * <del>I talked to (him).</del> 「前置詞をとる動詞（他動詞）」ではない。
 
-動詞は、自動詞か他動詞のどちらか一方に属するわけではない。_speak_ を例に上げると 自動詞 / 他動詞としてそれぞれの意味を持つ。
+動詞は、自動詞か他動詞のどちらか一方に属するわけではない。 _speak_ を例に上げると 自動詞 / 他動詞としてそれぞれの意味を持つ。
 
 * I'm speaking (to someone about something). _語っています（自動詞）_
 * I speak Japanese. _日本語を話します（他動詞）_
@@ -119,7 +119,7 @@ _I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立�
 
 主語の性質に合わせて、動詞を変化させることを「一致」 _Agreement_ と呼ぶ。言語により人間関係や性別などがあるが、英語においては、数による一致 _Agreement in Number_ を行なう。
 
-主語の数に合わせて、動詞を一致させる。主体が可算かつ複数存在しているかどうかであって、_-s_ のついた複数形であれば複数と見なすのではない。
+主語の数に合わせて、動詞を一致させる。主体が可算かつ複数存在しているかどうかであって _-s_ のついた複数形であれば複数と見なすのではない。
 
 * 主語が可算名詞の場合、動詞も主語の数に合わせる。
     * _The book_ __is__ mine.
@@ -150,7 +150,7 @@ _I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立�
     * _50 dollars_ __is__ paid for the 8 hours of work.
     * _8 hours_ __is__ too long for me to work.
 
-表記上の複数形ではなく、単数扱いであるかどうかに注視する。_media_ は _medium_ 「媒体」の複数形であるが、マスメディアのように集合名のように使われることもある。
+表記上の複数形ではなく、単数扱いであるかどうかに注視する。 _media_ は _medium_ 「媒体」の複数形であるが、マスメディアのように集合名のように使われることもある。
 
 * Most _media_ __are__ reporting the incident.
 * The _mass media_ __(is|are)__ dominated by five major companies.
@@ -180,7 +180,7 @@ _I talked to him._ を例にすると、_talk_ は _I talked._ だけで成立�
 
 ### while + ...ing
 
-_(while / when / upon) + ..ing_ で「... している時」と同時に起こっている事を伝える。_while_ は省略できる。
+_(while / when / upon) + ..ing_ で「... している時」と同時に起こっている事を伝える。 _while_ は省略できる。
 
 * I hurt my knee __(while) taking__ a bath.
 

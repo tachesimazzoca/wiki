@@ -23,7 +23,7 @@ OTP とは異なり、保有キーの利用が１度限りであっても、PRG 
     Predictable PRG-KEY : 0110 1001|0110 1001|0110 1001|0110 ....
     Revealed PT         : 1111 1111 0110 0101 1101 0111 1011
 
-たとえランダムであっても、乱数生成に周期性があると同様に予測可能である。_Linear Congruential Generator (LCG)_ のアルゴリズムでは周期性がある。
+たとえランダムであっても、乱数生成に周期性があると同様に予測可能である。 _Linear Congruential Generator (LCG)_ のアルゴリズムでは周期性がある。
 
 <script type="math/tex; mode=display" id="MathJax-Element-cipher_lcg">
 X_{n+1} := (A \cdot X_n + B) \bmod M \\

@@ -16,7 +16,7 @@
 * I met him __by (accident|chance)__.
 * They sent the wrong items __by mistake__.
 
-限定詞が付く場合には、_in / on_ を使う。
+限定詞が付く場合には _in / on_ を使う。
 
 * I went there __on the 9:45 train__.
 * Did you come here __in your car__?
@@ -112,11 +112,11 @@ _other than_ は名詞句を導き、「... 以外の ...」で、除外元集�
 
 ## by phone vs. on the phone
 
-_by phone_ は、_contact_ と共に用いられる。
+_by phone_ は _contact_ と共に用いられる。
 
 * Please contact us __by phone__.
 
-_on the phone_ は、_talk_ と共に用いられる。
+_on the phone_ は _talk_ と共に用いられる。
 
 * We were talking to each other __on the phone__.
 
@@ -124,7 +124,7 @@ _on the phone_ は、_talk_ と共に用いられる。
 
 ## by vs. with
 
-_by_ は行為者に用いる。_with_ は行為者が用いた道具を指す。
+_by_ は行為者に用いる。 _with_ は行為者が用いた道具を指す。
 
 * The window was broken __by somebody__.
 * The window was broken __with a hammer__.

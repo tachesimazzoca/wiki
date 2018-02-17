@@ -59,7 +59,7 @@ layout: index
 
 * <del>all half books</del> _all books? half books?_
 
-間違いやすい例として「私の本の中のいくつか」という場合、 _some my books_ という言い方はできない。「いくつかの本」「私の本」という二つの集合が混在してしまう。_of_ で階層を明示して、部分集合を表す。
+間違いやすい例として「私の本の中のいくつか」という場合、 _some my books_ という言い方はできない。「いくつかの本」「私の本」という二つの集合が混在してしまう。 _of_ で階層を明示して、部分集合を表す。
 
 * some __of my books__
 * some books __of mine__

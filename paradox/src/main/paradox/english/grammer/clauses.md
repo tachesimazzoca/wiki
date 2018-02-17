@@ -27,7 +27,7 @@
 
 ### that / who / which / what
 
-_who_ により、人物に関する情報を追加できる。_who_ の代わりに _that_ を使う事ができる。目的語になる場合は、_who / that_ を省略できる。
+_who_ により、人物に関する情報を追加できる。 _who_ の代わりに _that_ を使う事ができる。目的語になる場合は _who / that_ を省略できる。
 
 * The woman __(who|that)__ is speaking is my mother.
 * The people I work with are very friendly.
@@ -56,13 +56,13 @@ _whose_ は _his / her / their_ の代わりとして、関係節を組み立て
 
 ### whom / which
 
-目的語の場合 _whom / which_ で、ペアの前置詞を前に持ってくる事ができる。前置詞をともなう場合は、_that_ に置き換えることはできない。ただし、口語ではあまり使われない。
+目的語の場合 _whom / which_ で、ペアの前置詞を前に持ってくる事ができる。前置詞をともなう場合は _that_ に置き換えることはできない。ただし、口語ではあまり使われない。
 
 * The people <del>with that</del> __with whom__ I work are very friendly.
 * Mr. Yamada, <del>to that</del> __to whom__ I talked yesterday, is interesting.
 * I had a map, <del>without that</del> __without which__ I wouldn't have gotten here.
 
-_of ..._ で部分集合に関連づけるときは、_whom / which_ を使う。
+_of ..._ で部分集合に関連づけるときは _whom / which_ を使う。
 
 * I have a lot of friends, __most of whom__ I met in college.
 * She said that she bought a book, __the name of which__ I can't remember.
@@ -75,7 +75,7 @@ _of ..._ で部分集合に関連づけるときは、_whom / which_ を使う�
 * The man _(who is)_ __standing__ by that door is my father.
 * The taxi _(which was)_ __taking__ us to the airport broke down.
 
-常時起こっていること _which do_ についても、_...ing_ で省略できる。
+常時起こっていること _which do_ についても _...ing_ で省略できる。
 
 * He has a book __containing__ the information we need. _(A book which contains the information)_
 
@@ -87,7 +87,7 @@ _(who / which) + be + ...ed_ は _...ed_ に省略できる。
 
 ### when / where / why / how
 
-_前置詞 + which_ は、_when / where / why / how_ あるいは _that_ に置き換える。文脈から自明の先行詞や関係詞は省略する。
+_前置詞 + which_ は _when / where / why / how_ あるいは _that_ に置き換える。文脈から自明の先行詞や関係詞は省略する。
 
 * when: `the (year|month|day|time) (in|on|at) which`
     * Next month is January. That's __the month in which__ I was born.

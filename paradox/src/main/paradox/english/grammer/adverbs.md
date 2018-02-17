@@ -7,7 +7,7 @@
 * He spoke __quietly__.
 * He speaks English __perfectly__.
 
-頻度や程度など、主体を修飾する時は、動詞の直前に置く。_be_ 動詞や助動詞の場合は直後に置く。
+頻度や程度など、主体を修飾する時は、動詞の直前に置く。 _be_ 動詞や助動詞の場合は直後に置く。
 
 * 頻度: _always / usually / often / sometimes / seldom / hardly / never_
     * I __always__ get to work at 10:00.
@@ -21,7 +21,7 @@
     * _We_ __all__ got the answer.
     * _We_ have __all__ done things we wish we hadn't.
 
-形容詞や副詞を修飾する時は、直前に置く。_enough_ のように例外もある。
+形容詞や副詞を修飾する時は、直前に置く。 _enough_ のように例外もある。
 
 * The book is __extremely__ good.
 * It's __completely__ wrong.
@@ -35,7 +35,7 @@ _Fortunately, ..._ のように、文全体を修飾する時は先頭に置く�
 
 ## 形容詞 + ly
 
-多くの形容詞は _...ly_ をつけると副詞にはなるが、そうでないものもあるので、そのルールで覚えてはならない。_hard / hardly_ のように形容詞と副詞で意味が異なる場合もある。
+多くの形容詞は _...ly_ をつけると副詞にはなるが、そうでないものもあるので、そのルールで覚えてはならない。 _hard / hardly_ のように形容詞と副詞で意味が異なる場合もある。
 
 * bad / badly
 * careful / carefully
@@ -72,7 +72,7 @@ _good_ に対応する副詞は _well_ になる。
 * She's a very __fast__ runner.
 * She can run very __fast__.
 
-「しっかりとした（ぐらつかない）」意味なら、_fastly_ という副詞もある。
+「しっかりとした（ぐらつかない）」意味なら _fastly_ という副詞もある。
 
 * Fast Rope / Fast Gloves / Fast Grip
 * They are __fast__ friends.
@@ -130,7 +130,7 @@ _still_ は「まだ ...」の副詞になる。疑問/否定文の時は _yet_ 
 
 ## anymore / no longer
 
-_not ... anymore (any longer)_ は「今ではもう ... していない」の意味になる。_anymore_ は文末に置く。
+_not ... anymore (any longer)_ は「今ではもう ... していない」の意味になる。 _anymore_ は文末に置く。
 
 * I'm not interested in PHP __anymore__.
 * I never see him __anymore__.
@@ -160,7 +160,7 @@ _even_ は「... さえも」という、想定していない驚きを加える
 * She was texting on her phone, __even__ while we were talking to each other.
 * he managed to control himself, __even__ in that situation.
 
-比較級を修飾すると「さらに ...」という意味になる。比較する文節を提示した後に、_, but ..._ などで続けて使う。
+比較級を修飾すると「さらに ...」という意味になる。比較する文節を提示した後に _, but ..._ などで続けて使う。
 
 * I'm good at playing guitar, but she is __even__ better. _彼女はさらに上手だ_
 
@@ -182,7 +182,7 @@ _quite_ は、段階（評価）のない形容詞の場合には _absolutely / 
 * quite perfect
 * quite wrong
 
-_quite (few|little)_ 「きわめて少ない」意味だが、_quite a (few|little|bit)_ は「結構多い」意味になる。_quite (few|little)_ は紛らわしいので、あまり使われていない。使われていても、_a_ が抜けてしまった間違いであるケースが多い。Google 翻訳では「かなりの数の」と翻訳される。
+_quite (few|little)_ 「きわめて少ない」意味だが _quite a (few|little|bit)_ は「結構多い」意味になる。 _quite (few|little)_ は紛らわしいので、あまり使われていない。使われていても _a_ が抜けてしまった間違いであるケースが多い。Google 翻訳では「かなりの数の」と翻訳される。
 
 * quite [a bit different] = 結構多い「わずかな違い」 = very different
 * [quite few] days = 「きわめて少ない」日数 = very few / few / not many

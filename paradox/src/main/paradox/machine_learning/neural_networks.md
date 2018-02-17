@@ -250,7 +250,7 @@ D^{(l)}_{i,j} = D^{(l)}_{i,j} + \frac{\lambda}{m} \Theta^{(l)}_{i,j} \\
 
 ### Numerical Gradient
 
-_Backpropagation_ を正しく行なえているかどうかは、一つのパラメータのみ極小値で増減させて、二つのコスト関数を適用した差分が、_Backpropagation_ で得た偏微分とほぼ相違ないこと（1e-9 以下が目安）をチェックすればよい。
+_Backpropagation_ を正しく行なえているかどうかは、一つのパラメータのみ極小値で増減させて、二つのコスト関数を適用した差分が _Backpropagation_ で得た偏微分とほぼ相違ないこと（1e-9 以下が目安）をチェックすればよい。
 
 <script type="math/tex; mode=display" id="MathJax-Element-grad_checking">
 \frac{\partial}{\partial \theta_1} J(\theta) \approx \frac{ J(\theta_1 + \epsilon, \theta_2, \theta_3, \ldots, \theta_n) - J(\theta_1 - \epsilon, \theta_2 , \theta_3, \ldots, \theta_n) }{2 \epsilon} \\
@@ -273,7 +273,7 @@ function grad = numericalGradient(J, theta)
 end
 ```
 
-すべてのパラメータに対してコスト関数を適用するため、非常に処理時間がかかる。あくまで、_Backpropagation_ が正しくおこなえているかのチェックのみで、実際の学習処理に含めてはならない。
+すべてのパラメータに対してコスト関数を適用するため、非常に処理時間がかかる。あくまで _Backpropagation_ が正しくおこなえているかのチェックのみで、実際の学習処理に含めてはならない。
 
 ### Symmetry Breaking
 

@@ -2,7 +2,7 @@
 
 ## 使い方
 
-動名詞 _Gerund_ は、_...ing_ で「やること / やっていたこと」を表す。
+動名詞 _Gerund_ は _...ing_ で「やること / やっていたこと」を表す。
 
 * I __enjoy watching__ TV.
 * I've __finished working__.
@@ -17,7 +17,7 @@
 * admit / avoid / escape / deny
 * recommend / suggest
 
-_...ing_ の時制が過去「... やろうとしていた」になる場合は、_having + 過去分詞_ でもよい。
+_...ing_ の時制が過去「... やろうとしていた」になる場合は _having + 過去分詞_ でもよい。
 
 * He admitted __(stealing|having stolen)__ my money.
 

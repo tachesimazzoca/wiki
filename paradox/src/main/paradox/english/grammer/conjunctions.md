@@ -62,7 +62,7 @@ _yet_ は _but_ と同じ意味になるが、意外性がある場合に使う�
 * It was _unbelievable_ __yet__ _real_.
 * _I'm tired_, __yet__ _I can't sleep_.
 
-_yet_ は _another_ 等を修飾して「さらに」の意味もあるので接続詞と混同しないこと。_Yet another_ はプログラマー間のスラングでは「非公式」を指す。
+_yet_ は _another_ 等を修飾して「さらに」の意味もあるので接続詞と混同しないこと。 _Yet another_ はプログラマー間のスラングでは「非公式」を指す。
 
 ### or / nor
 
@@ -80,7 +80,7 @@ _nor_ は否定文で選択肢をさらに否定する。節の場合は倒置�
 * I could__n't__ go there _by train_ __nor__ _by bus_.
 * I have __never__ eaten sashimi, __nor__ do I want to eat.
 
-否定文は _nor_ でなければならないわけではない。_or_ も使える。
+否定文は _nor_ でなければならないわけではない。 _or_ も使える。
 
 * I do__n't__ smoke __or__ drink.
 
@@ -97,7 +97,7 @@ _A, so B_ は、原因と結果の因果関係をつなぐ。
 * It won't rain, __so__ you don't need to take an umbrella.
 * He was sick yesterday, __so__ he stayed in bed all day.
 
-正式文書では _therefore / hence / thus / consequently_ などの接続副詞を使う。接続副詞なので、_..., and therefore_ のように区切る。
+正式文書では _therefore / hence / thus / consequently_ などの接続副詞を使う。接続副詞なので _..., and therefore_ のように区切る。
 
 * Carl Hewitt introduced the Actor Model in 1973, __and therefore__ the concept has been around quite a long time.
 
@@ -125,7 +125,7 @@ _either A or B_ は「A か B のいずれか」の意味になる。
 
 * __Either__ Alice __or__ Tom will attend the meeting.
 
-_whether A or B_ は「A であるか B であるか」の意味になる。_either_ は「どちらか一方」を指すが、_whether_ は「... かどうか」という接続詞で「どちらかわからない」疑問のニュアンスが含まれる。
+_whether A or B_ は「A であるか B であるか」の意味になる。 _either_ は「どちらか一方」を指すが _whether_ は「... かどうか」という接続詞で「どちらかわからない」疑問のニュアンスが含まれる。
 
 * I can't decide __whether__ to go to college __or__ to get a job.
 * You have to decide __either__ to go to college __or__ to get a job.
@@ -181,7 +181,7 @@ _when / whenerver_ は「... する時 / する時はいつでも」として広
 * __When__ you get home, call be back. _状況が切り替わった時（連続して次に何かが起こる）_
 * __When__ I was young, I wanted to be rich. _ある状態であった時_
 
-同時進行で並列に起こることには、_as_ 「... しながら」が使える。二つのことが依存し合い、同時に始まり終わるイメージになる。
+同時進行で並列に起こることには _as_ 「... しながら」が使える。二つのことが依存し合い、同時に始まり終わるイメージになる。
 
 * __As__ he spoke on the phone, he was interrupted by his son.
 * __As__ I was doing the dishes, a thought struck me.
@@ -190,7 +190,7 @@ _when / whenerver_ は「... する時 / する時はいつでも」として広
 
 * __(As|Because)__ I was young, I wanted to be rich. _「若かったので、お金持ちになりたかった」_
 
-進行形のように「... している最中」の場合には、_while_ を用いる。名詞句には _during_ を使う。
+進行形のように「... している最中」の場合には _while_ を用いる。名詞句には _during_ を使う。
 
 * I fell asleep __while__ _(I was)_ watching TV.
 * __While__ _(I was)_ waiting for a bus, I noticed a blind man.
@@ -204,23 +204,23 @@ _before / after_ は、主節と従属節が連続した動作になる。
 * Clean your room __before__ you go out.
 * I'll go straight home __after__ I've done the shopping.
 
-時制には未来であっても現在時制を用いる。_can_ と組み合わせて「そうなったら」というニュアンスを出せる。
+時制には未来であっても現在時制を用いる。 _can_ と組み合わせて「そうなったら」というニュアンスを出せる。
 
 * You must finish your chores __before__ you __can__ go to the party.
 
-過去の話を伝えるとき、通常はどちらが先に起こったかを伝えるために過去完了を用いるが、_before / after_ は自明であるので過去形でもよい。
+過去の話を伝えるとき、通常はどちらが先に起こったかを伝えるために過去完了を用いるが _before / after_ は自明であるので過去形でもよい。
 
 * He __(had cleaned|cleaned)__ his room _before_ he went out.
 * I went straight home _after_ I __(had done|did)__ the shopping.
 
 #### since / until
 
-_since_ は「... から今まで」、 _until_ 「今から ... まで」の継続期間を表す。_since_ の場合、主節はもれなく完了形になる。
+_since_ は「... から今まで」、 _until_ 「今から ... まで」の継続期間を表す。 _since_ の場合、主節はもれなく完了形になる。
 
 * I've lived in Tokyo __since__ I entered college.
 * Please wait here __until__ I come back.
 
-_by_ は前置詞のみで、文節をつなげる接続詞としては使えない。_until_ はその時まで動作を継続させるが、_by_ はその時までに動作を終えておく期限になる。
+_by_ は前置詞のみで、文節をつなげる接続詞としては使えない。 _until_ はその時まで動作を継続させるが _by_ はその時までに動作を終えておく期限になる。
 
 * Please finish those letters <del>by I come back</del> __by the time__ I come back.
 * I'll fix this problem __by__ the end of tomorrow.
@@ -257,7 +257,7 @@ _It's because ... that ..._ の強調構文で用いることもできる。
 
 #### since / as
 
-原因が既知で補足情報である場合には、_since / as_ が使える。文頭に置くこともできる。
+原因が既知で補足情報である場合には _since / as_ が使える。文頭に置くこともできる。
 
 * __Since__ I wasn't familiar with the area, I had no idea where the shop was.
 * __Since__ I didn't have much time, I had lunch at McDonald's.
@@ -278,7 +278,7 @@ _Now that A, B_ で「今となっては A であるので、B」の意味にな
 
 #### so ... that
 
-_so A that B_ で「_B_ であるほど _A_ である」のように、_that_ 節に結果 _Effect_ を導くことができる。
+_so A that B_ で「_B_ であるほど _A_ である」のように _that_ 節に結果 _Effect_ を導くことができる。
 
 * I was __so__ tired __that__ I went straight to bed.
 * She spoke __so__ quickly __that__ I couldn't hear what she said.
@@ -321,7 +321,7 @@ _if ..._ は条件を付け加える。主節が未来であっても、現在�
 
 #### unless / only if / as long as / provided
 
-_unless ..._ は例外条件を付け加える。主節の内容が本線で「... でない限り」実現不可能という場合に使う。「... でなかったら」という意味なら _if ... not ..._ を使う。_unless_ では仮定法は使えない。
+_unless ..._ は例外条件を付け加える。主節の内容が本線で「... でない限り」実現不可能という場合に使う。「... でなかったら」という意味なら _if ... not ..._ を使う。 _unless_ では仮定法は使えない。
 
 * The match will restart at 17:30 __unless__ there's any problem.
 * She will be disappointed <del>unless you come</del> __if you don't come__  to the party.
@@ -346,7 +346,7 @@ _in case ..._ は「万が一に備えて」という意味になる。条件が
 
 * __In case__ it rains, take my umbrella with you.
 * I'll stay here __in case__ she comes back.
-* Just __in case__, there is something that I want to confirm.  _念のため、確認したいことがあります。_
+* Just __in case__, there is something that I want to confirm.  _念のため、確認したいことがあります。 _
 
 名詞句には _in case of ..._ を使う。
 
@@ -391,12 +391,12 @@ _if_ には「もし ... なら」の条件の意味もあるので、「... か
 
 #### although / even though / though
 
-_Although ...,_ で「... だけれども」という譲歩 _Concession_ の意味になる。_Even though ...,_ はより強調した表現になる。
+_Although ...,_ で「... だけれども」という譲歩 _Concession_ の意味になる。 _Even though ...,_ はより強調した表現になる。
 
 * __Although__ it rained, we played tennis yesterday.
 * __Even though__ he's Japanese, he was born and raised in Hawaii.
 
-フォーマルではないが _though_ も代わりに使える。_..., though_ として、文末に置く表現が多く用いられる。文末に置く表現には _although_ は使えない。
+フォーマルではないが _though_ も代わりに使える。 _..., though_ として、文末に置く表現が多く用いられる。文末に置く表現には _although_ は使えない。
 
 * We played tennis yesterday __(though|although)__ it rained.
 * It rained yesterday. We played tennis, <del>although</del> __though__.
@@ -427,7 +427,7 @@ _while / whereas_ は「... である一方」という対比 _Opposition_ を�
 
 #### as / like
 
-_as_ は「... と同じように」という同等性を表すことができる。_AmE_ のくだけだ表現では _like_ が使われることもある。
+_as_ は「... と同じように」という同等性を表すことができる。 _AmE_ のくだけだ表現では _like_ が使われることもある。
 
 * I left it __as__ it was.
 * You should have done it __(as|like)__ I showed you.

@@ -70,13 +70,13 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * I have __little__ money. _少ししか持っていない（後ろ向き）_
 * I have __a little__ money. _少しなら持っている（前向き）_
 
-「たくさん」を表す場合、語り手がどの程度の数量が分かっている肯定文の目的語には、_a lot of / lots of / plenty of_ 等で程度を表現する。
+「たくさん」を表す場合、語り手がどの程度の数量が分かっている肯定文の目的語には _a lot of / lots of / plenty of_ 等で程度を表現する。
 
 * I have <del>many</del> __a lot of__ friends.
 * We have __plenty of__ time.
 * He has __full of__ confidence. _自信満々_
 
-疑問/否定/条件文の目的語のように、どの程度の数量か不明な場合は、可算名詞には _many_ を使い、不可算名詞には _much_ を使う。ただし、主語であったり、_so / too_ で修飾されれば使える。
+疑問/否定/条件文の目的語のように、どの程度の数量か不明な場合は、可算名詞には _many_ を使い、不可算名詞には _much_ を使う。ただし、主語であったり _so / too_ で修飾されれば使える。
 
 * I don't have __many__ books.
 * Do you have __many__ friends?
@@ -85,7 +85,7 @@ _no_ の場合は、否定形を用いた重複否定はできない。
 * If you have __much__ money, ....
 * I have __too much__ money.
 
-肯定文であっても、_many / much_ が使われるケースも見かけるが、よく耳にする _fun / money_ など、慣習的に肯定文で _much_ は使われていないことは、ネイティブでなくても実感できるはずである。
+肯定文であっても _many / much_ が使われるケースも見かけるが、よく耳にする _fun / money_ など、慣習的に肯定文で _much_ は使われていないことは、ネイティブでなくても実感できるはずである。
 
 * __Many__ people die of cancer. _主語の場合_
 * There are __many__ ways to skin a cat.

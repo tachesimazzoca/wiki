@@ -4,7 +4,7 @@
 
 現在形 _Present Simple_ は、一般的なことや日常の状態を伝える時に使う。
 
-* I__'m__ a teacher.
+* I __am__ a teacher.
 * You __speak__ Japanese quite well.
 * He __comes__ from japan.
 
@@ -15,13 +15,13 @@
 _think_ を例にすると、普段から思っている _believe_ のか、今考えている _consider_ のかで使い分ける。
 
 * I __think__ she is Japanese.
-* I__'m thinking__ of quitting my job.
+* I __am thinking__ of quitting my job.
 
 特に _go / come / stay_ などで、手配した行動を伝える場合に間違いやすい。この場合は、現在進行形を使う。
 
-* I__'m staying__ at a hotel this evening.
+* I __am staying__ at a hotel this evening.
   * <del>I __stay__ at a hotel this evening.</del>
-* I__'m going__ out tonight.
+* I __am going__ out tonight.
   * <del>I __go__ out tonight.</del>
 * He __isn't coming__ to the party tommorow.
   * <del>He __doesn't come__ to the party tommorow.</del>

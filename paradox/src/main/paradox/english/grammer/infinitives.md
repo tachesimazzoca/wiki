@@ -2,7 +2,7 @@
 
 ## 使い方
 
-不定詞 _Infinitive_  は、_to 動詞_ で「これからすること」「現実には起きていないこと」を表す。
+不定詞 _Infinitive_  は _to 動詞_ で「これからすること」「現実には起きていないこと」を表す。
 
 * I hope __to hear__ from you.
 * I decided __not to go__ to the movie.
@@ -52,7 +52,7 @@ _in order to_ の「... するために」と同じ意味で、副詞的に用�
 
 ### for ... ing
 
-名詞の場合は、_for 名詞_ を用いる。目的を質問するときは _What ... for?_ を使う。
+名詞の場合は _for 名詞_ を用いる。目的を質問するときは _What ... for?_ を使う。
 
 * Would you like to join us __for lunch__?
 * The cloth is __for washing cars__.
@@ -64,12 +64,12 @@ _for someone to ..._ で「... が ... するために」という表現が使�
 
 ### so that + 仮定法
 
-「... しないように」という場合は、_so that ... (won't / wouldn't)_ を用いる。
+「... しないように」という場合は _so that ... (won't / wouldn't)_ を用いる。
 
 * We developed these __so that__ you __wouldn't__ miss awesome stuff around you.
 * Check our blog __so that__ you __(won't|don't)__ miss any important information.
 
-「... できるように」という場合は、_so that ... (can / could)_ を用いる。
+「... できるように」という場合は _so that ... (can / could)_ を用いる。
 
 * We developed these __so that__ you __could__ get awesome stuff around you.
 * Check our blog __so that__ you __can__ get any important information.
@@ -99,9 +99,9 @@ _for someone to ..._ で「... が ... するために」という表現が使�
 
 _I'm sorry to hear that ..._ で「... を聞いて気の毒に思う」の意味になる。
 
-* I__'m sorry to__ hear that your father died. _お気の毒に_
+* I __am sorry to__ hear that your father died. _お気の毒に_
 
-_hear / see / read / learn / know / find_ と共に用いられ、それに対する気持ちを伝える時に使う。_sorry_ の他に以下の形容詞がよく用いられる。
+_hear / see / read / learn / know / find_ と共に用いられ、それに対する気持ちを伝える時に使う。 _sorry_ の他に以下の形容詞がよく用いられる。
 
 * sorry / sad / disappointed
 * happy / glad / pleased
@@ -112,7 +112,7 @@ _hear / see / read / learn / know / find_ と共に用いられ、それに対�
 
 ### afraid to ... / afraid of ...ing
 
-_afraid to ..._ と _afraid of ...ing_ では意味が異なる。_afraid to ..._ の場合は、不定詞として「やりたい（が怖くてできない）」事を置くが、_afraid of ...ing_ は「やりたくない」恐れの対象を動名詞で置く。
+_afraid to ..._ と _afraid of ...ing_ では意味が異なる。 _afraid to ..._ の場合は、不定詞として「やりたい（が怖くてできない）」事を置くが _afraid of ...ing_ は「やりたくない」恐れの対象を動名詞で置く。
 
 * I'm __afraid to go__ near the dog. _怖くてその犬に近づくことができない（近づきたい）_
 * I'm __afraid of being__ bitten by the dog. _噛まれるのが怖い（噛まれたくない）_
@@ -129,7 +129,7 @@ _interested to ..._ と _interested in ..._ は、興味があるという点で
 * I was __interested in__ what he thought. _彼が考えていることに興味があった_
 * I would be __interested in__ what he thinks. _彼が考えている事に興味が湧くだろう_
 
-_interested to ..._ の場合は、実際にそうなったあとで興味を持ったことになる。_interested in ..._ の場合は、興味があるだけで、まだその内容は体験していない。
+_interested to ..._ の場合は、実際にそうなったあとで興味を持ったことになる。 _interested in ..._ の場合は、興味があるだけで、まだその内容は体験していない。
 
 ## 補語としての不定詞
 
@@ -178,7 +178,7 @@ _want_ は _that_ 節や動名詞とともに用いることはできない。
 
 ### 不定詞が使えないケース
 
-動名詞しかとれない動詞は、不定詞は使えない。_that_ 節、または動名詞を使う。
+動名詞しかとれない動詞は、不定詞は使えない。 _that_ 節、または動名詞を使う。
 
 * I __suggested that__ he __learn__ English.
     * <del>I suggested him to learn English.</del>

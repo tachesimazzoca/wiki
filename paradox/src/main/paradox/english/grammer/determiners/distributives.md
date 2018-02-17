@@ -16,7 +16,7 @@ _all / half / both_ の場合は、形容詞として用いれば _of_ を省略
 * __Half__ (of) this money is yours.
 * __Both__ (of) these books are good.
 
-ただし、目的格の代名詞 _us / you / them / it_ には、形容詞は使えない。代名詞として、_of_ を伴うか、副詞として用いる。
+ただし、目的格の代名詞 _us / you / them / it_ には、形容詞は使えない。代名詞として _of_ を伴うか、副詞として用いる。
 
 * I like <del>both them</del>.
   * I like __both of them__.
@@ -28,32 +28,32 @@ _all / half / both_ の場合は、形容詞として用いれば _of_ を省略
   * We are __all__ surprised at the news.
   * __All of us__ are surprised at the news.
 
-自明な場合は、_of ..._ を省略することもできる。
+自明な場合は _of ..._ を省略することもできる。
 
 * __Half of it__ is mine, and __half__ _(of it)_ is yours.
 * Do all American husbands help around the house? Not all of them. __Some__ do, __some__ don’t.
 
 ## each / every
 
-_each / every_ は集合の個々の要素を指し、単数扱いになる。_each_ は個々の状態にフォーカスが当たり、_every_ は _all_「全て」の意味に近い。
+_each / every_ は集合の個々の要素を指し、単数扱いになる。 _each_ は個々の状態にフォーカスが当たり _every_ は _all_「全て」の意味に近い。
 
 * __Each__ side of a square is the same length.
 * He asked __each participant__ to fill out a survey.
 * I've read __every__ book.
 * __Every__ sheet was taken.
 
-2名以下の場合は、_every_ は使えない。
+2名以下の場合は _every_ は使えない。
 
 * In Wimbledon men's singles, <del>every</del> __each__ player is allowed to take a bathroom break after a set.
 
-_each_ は単体で名詞として使える。_every_ は形容詞の意味しかもたないため、_every one_ とする。
+_each_ は単体で名詞として使える。 _every_ は形容詞の意味しかもたないため _every one_ とする。
 
 * There are 5 rooms. __Each (one)__ (of the rooms) has a different color.
 * I checked out __every one__ of their profiles.
 
 ## both / either / neither
 
-_both / neither / either_ は二つの事柄について指す。_neither / either_ は単数扱いになる。自明の名詞は省略できる。
+_both / neither / either_ は二つの事柄について指す。 _neither / either_ は単数扱いになる。自明の名詞は省略できる。
 
 * There are 2 restaurants. Which restaurant shall we go?
   * __Both (restaurants)__ are very good.

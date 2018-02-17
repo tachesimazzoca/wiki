@@ -29,7 +29,7 @@ P(00) + P(01) + P(10) + P(11) = 1
 
 ### Uniform Distribution
 
-すべての要素が同じ確率である場合、_Uniform distribution_ （一様分布）と呼ぶ。すべての `P(x)` は同じ値で `1/|U|` となる。`|U|` は `U` の要素数を表す。
+すべての要素が同じ確率である場合 _Uniform distribution_ （一様分布）と呼ぶ。すべての `P(x)` は同じ値で `1/|U|` となる。`|U|` は `U` の要素数を表す。
 
 <script type="math/tex; mode=display" id="MathJax-Element-uniform_distribution">
 P(x) = 1/|U| \quad \text{for all $x \in U$} \\
@@ -58,7 +58,7 @@ Pr[A] = \sum_{x \in A} P(x) \in [0, 1] \\
 Pr[U] = 1
 </script>
 
-8bit の集合 `U` で、下位 2bit が `11` となる補集合を `A` とした時、_Uniform distribution_ であれば、256 通りのうち、条件を満たすパターン `??????11` は 64 通りなので `64/256 = 1/4` すなわち `Pr[A] = 1/4` となる。
+8bit の集合 `U` で、下位 2bit が `11` となる補集合を `A` とした時 _Uniform distribution_ であれば、256 通りのうち、条件を満たすパターン `??????11` は 64 通りなので `64/256 = 1/4` すなわち `Pr[A] = 1/4` となる。
 
 二つの事象の確率 `Pr[A]` と `Pr[B]` の積は、AND 集合の確率 `Pr[A ∩ B]` に等しい。
 

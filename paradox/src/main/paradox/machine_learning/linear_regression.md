@@ -299,7 +299,7 @@ y_{m} \\
 \end{bmatrix}
 </script>
 
-公式は `X^-1 * y` になるが、逆行列 `X^-1` を求めるには `m = n` の正方行列 _Square matrix_ である必要がある。正方行列でない場合は、疑似逆行列 _Pseudo-inverse matrix_ `(X^T * X)^-1 * X^T` を用いる。疑似逆行列の計算には、_O(n^3)_ のコストがかかってしまうので、パラメータ数が多い場合は最急降下法を使う。
+公式は `X^-1 * y` になるが、逆行列 `X^-1` を求めるには `m = n` の正方行列 _Square matrix_ である必要がある。正方行列でない場合は、疑似逆行列 _Pseudo-inverse matrix_ `(X^T * X)^-1 * X^T` を用いる。疑似逆行列の計算には _O(n^3)_ のコストがかかってしまうので、パラメータ数が多い場合は最急降下法を使う。
 
 <script type="math/tex; mode=display" id="MathJax-Element-normaleq_matrices_formula">
 \begin{align}

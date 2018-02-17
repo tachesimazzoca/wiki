@@ -11,7 +11,7 @@
 * _Terminate_ では、デフォルトの `DeleteOnTermination: True` なら EBS ボリュームが破棄される。
 * `DeleteOnTermination` は EC2 Management Console からは、インスタンス作成時にしか指定できない。AWS CLI を使えば、起動中でも変更できる。
 * 永続データは持てるが、Instance store と比較して、I/O 性能に劣る。
-* EBS はネットワークを介するため、スループットはそのトラフィックに依存する。性能がでない場合は、_EBS-optimized_ で帯域を確保する必要がある。
+* EBS はネットワークを介するため、スループットはそのトラフィックに依存する。性能がでない場合は _EBS-optimized_ で帯域を確保する必要がある。
 * 永続データを持てるためデータベースサーバに適している。
 
 #### Instance Store-backed 

@@ -56,7 +56,7 @@ for v in min(pval):s:max(pval)
 end
 ```
 
-分岐点ごとに、精度 _Precision_ と再現率 _Recall_ を算出し、_F-score_ が最も良い分岐点を採用する。
+分岐点ごとに、精度 _Precision_ と再現率 _Recall_ を算出し _F-score_ が最も良い分岐点を採用する。
 
 <script type="math/tex; mode=display" id="MathJax-Element-anomaly_detection_algorithm_fscore">
 {\scriptsize \text{$tp = $ true positive, $fp = $ false positive, $fn = $ false negative}} \\
@@ -72,7 +72,7 @@ F_{1} = 2 \frac{PR}{P + R} \\
 
 分岐点が決定したら、テストデータに対して例外を予測し、その精度を確かめる。
 
-このように、確率分布から例外の分岐点を決める方法は、_Supervise learning_ と異なり、アルゴリズム（確率密度関数）の組み立てには正解値を必要としない。
+このように、確率分布から例外の分岐点を決める方法は _Supervise learning_ と異なり、アルゴリズム（確率密度関数）の組み立てには正解値を必要としない。
 
 現実に則した正常数と例外数（例：例外率 1 %）に分離されるような、入力パラメータ `x` を見つけることが重要になる。
 
@@ -120,7 +120,7 @@ p(x; \mu, S) & = \frac{1}{ ( \sqrt{ 2 \pi } )^{m} \sqrt{ | S | } } \exp \left( -
 * サンプル数 `m` が、パラメータ数 `n` に対して少なすぎる。
 * 重複しているパラメータ `x1 = x2, x3 = x4 + x5, ...` がある。
 
-共分散行列から算出するため、_O(N^2)_ のコストとなる点が欠点になる。各パラメータに相関がないか、相関をパラメータ化できているならば、あえて使う必要はない。
+共分散行列から算出するため _O(N^2)_ のコストとなる点が欠点になる。各パラメータに相関がないか、相関をパラメータ化できているならば、あえて使う必要はない。
 
 ### vs. Normal Distribution
 

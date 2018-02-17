@@ -58,7 +58,7 @@ println(asyncHttpClient.getConfig.getMaxRequestRetry)
 
 ## NingWSClient
 
-デフォルトの `WSClient` は、_Java_ ライブラリの _AsyncHttpClient_ による実装の `play.api.libs.ws.ning.NingWSClient` になる。
+デフォルトの `WSClient` は Java ライブラリの _AsyncHttpClient_ による実装の `play.api.libs.ws.ning.NingWSClient` になる。
 
 ```scala
 import play.api.libs.ws._

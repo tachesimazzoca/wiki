@@ -19,7 +19,7 @@ _to bed / work / school ..._ は「寝る」「仕事先に向かう」「学び
 * What time do you get __to work__? _何時から仕事を始めていますか？_
 * He didn't go __to school__ yesterday.
 
-_to_ は到達先で、_onto_ は到達面になる。_into_ は侵入先で _out of_ は退出元を示す。
+_to_ は到達先で _onto_ は到達面になる。 _into_ は侵入先で _out of_ は退出元を示す。
 
 * I went __to__ a shop.
 * I got __onto__ a train.
@@ -58,7 +58,7 @@ _round_ は、面で広く行き渡る様を表現し、丸みに関するあら
 
 ### through / via
 
-_through_ は「...を通リ抜けて」、_via_ は「...を経由して」の意味になる。「通過する」意味でどちらも使えるように思えるが、_via_ は _by way of_ の意味で、特定経路を使った手段の意味がある。
+_through_ は「...を通リ抜けて」 _via_ は「...を経由して」の意味になる。「通過する」意味でどちらも使えるように思えるが _via_ は _by way of_ の意味で、特定経路を使った手段の意味がある。
 
 * comumunicate __(via|through)__ proxy server _サーバを経由して（= サーバを通り抜けて / サーバを使って）_
 * delivered __(via|through)__ air mail _航空便を使って_

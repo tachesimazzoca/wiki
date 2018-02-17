@@ -24,7 +24,7 @@
     * I __was asked__ the question.
     * The question __was asked of__ me.
 
-受動態にする場合、主に人（間接目的語）を主語にするが、_buy_ のように「人が買われた」と誤解される場合は、その限りではない。
+受動態にする場合、主に人（間接目的語）を主語にするが _buy_ のように「人が買われた」と誤解される場合は、その限りではない。
 
 * _Someone_ bought her the present.
     * <del>She __was bought__ the present.</del>
@@ -46,29 +46,29 @@
 
 _It's said that / is said to_ で「... と言われている」という噂を伝えることができる。
 
-* It__'s said that__ she is a teacher.
-    * She__'s said to__ be a teacher.
-* It__'s known that__ Lisp is the best programming language.
+* It __is said that__ she is a teacher.
+    * She __is said to__ be a teacher.
+* It __is known that__ Lisp is the best programming language.
     * Lisp __is known to__ be the best programming language.
-* It__'s believed that__ he will win the game.
+* It __is believed that__ he will win the game.
     * He __is believed to__ win the game.
-* It__'s expected that__ more than 10,000 people will visit the site per day on average.
+* It __is expected that__ more than 10,000 people will visit the site per day on average.
     * More than 10,000 people __is expected to__ visit the site per day on average.
 
 警察の捜査の際に _allege / believe / report_ がよく使われる。過去について言及する時は _to have + 過去分詞_ の形になる。
 
-* It__'s alleged that__ he stole the money. _彼がその金を盗んだと疑われている_
+* It __is alleged that__ he stole the money. _彼がその金を盗んだと疑われている_
     * He __is alleged to__ have stolen the money.
-* It__'s believed that__ he is wearing a hat. _彼は帽子をかぶっているらしい_
+* It __is believed that__ he is wearing a hat. _彼は帽子をかぶっているらしい_
     * He __is believed to__ be wearing a hat.
-* It__'s reported that__ he was walking along the street. _彼はその道路を歩いていたと報告がある_
+* It __is reported that__ he was walking along the street. _彼はその道路を歩いていたと報告がある_
     * He __is reported to__ have been walking along the street.
 
 _said to_ の代わりに _supposed to_ 「... という噂だ」も使える。
 
 * The new version __is supposed to__ work fine. _ちゃんと動くみたいだ_
 * The book __is supposed to__ not be very good. _あまり良くないらしい_
-* He__'s supposed to__ have stolen money. _お金を盗んだらしい_
+* He __is supposed to__ have stolen money. _お金を盗んだらしい_
 
 _supposed to_ には「... すること（予定）である」という意味もある。
 
@@ -82,7 +82,7 @@ _not supposed to_ の場合は「... することは想定されていない = �
 
 ## get
 
-出来事や変化のある動詞で、_be_ の代わりに _get_ が用いられることがある。
+出来事や変化のある動詞で _be_ の代わりに _get_ が用いられることがある。
 
 * I __got invited__ to the party. _誘われていた_
 * I __get involved__ in Haskell. _夢中になっている_

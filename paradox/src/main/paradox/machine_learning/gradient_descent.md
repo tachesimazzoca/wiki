@@ -110,7 +110,7 @@ theta
 s_{j} = \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x_{j}^{(i)} \\
 </script>
 
-_MapReduce_ であれば、_Mapper_ に学習データを振り分けて総和のみを算出したのち、_Reducer_ で各 _Mapper_ からの総和を合算して平均を求めることができる。
+_MapReduce_ であれば _Mapper_ に学習データを振り分けて総和のみを算出したのち _Reducer_ で各 _Mapper_ からの総和を合算して平均を求めることができる。
 
 <script type="math/tex; mode=display" id="MathJax-Element-data_parallelism_mapred">
 {\scriptsize \text{$m = 80,000$}} \\

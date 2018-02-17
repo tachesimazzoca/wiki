@@ -34,7 +34,7 @@
 
 ## 比較級
 
-比較級 _Comparative_ は、比較対象と比べて、よりそうであることを表す。_...er_ を加えると比較級になる。音節 _Syllables_ が二つ以上の場合は、_more + ..._ とする。
+比較級 _Comparative_ は、比較対象と比べて、よりそうであることを表す。 _...er_ を加えると比較級になる。音節 _Syllables_ が二つ以上の場合は _more + ..._ とする。
 
 * This is __cheaper__ than that.
 * This is __easier__ than that.
@@ -92,7 +92,7 @@ _twice as / N times as_ で倍数を表すことができる。
 * My car is __twice as__ expensive __as__ his one.
 * Standard 4G LTE is __5 times as__ fast __as__ 3G.
 
-形容詞では意見「高い / 安い」等を持っているので、同等であることを伝えるにはやや不向きである。_the same ... as_ で「... と同じ ...」としたほうが伝わりやすい。
+形容詞では意見「高い / 安い」等を持っているので、同等であることを伝えるにはやや不向きである。 _the same ... as_ で「... と同じ ...」としたほうが伝わりやすい。
 
 * This bag is <del>as expensive as</del> __the same__ price __as__ that one.
 
@@ -114,7 +114,7 @@ _not so much ...(, but ...)_ で「... というわけではありません。�
 
 ## 最上級
 
-最上級 _Superlative_ は、最もそうであることを表す。_the ...est_ を加えると最上級になる。音節 _Syllables_ が二つ以上の場合は、_the most + ..._ とする。
+最上級 _Superlative_ は、最もそうであることを表す。 _the ...est_ を加えると最上級になる。音節 _Syllables_ が二つ以上の場合は _the most + ..._ とする。
 
 * This is __the nicest__ book I've ever read.
 * This class may be __the best__ (one) I've ever taken.
@@ -148,7 +148,7 @@ _good / well_ の比較級は _better_ になる。最上級は _best_ になる
 * Your suggestion is __better__ than mine.
 * I feel __better__.
 
-副詞の _best_ では、_the_ を伴うことが多い。特定の候補内の一番と強調する時には _the best_ が使われる。
+副詞の _best_ では _the_ を伴うことが多い。特定の候補内の一番と強調する時には _the best_ が使われる。
 
 * I like the song __(the) best__.
 * Which season do you like __the best__? I like summer __the best__ (of all the seasons).
@@ -169,7 +169,7 @@ _far_ の比較級は _farther / further_ になる。最上級は _farthest / f
 * He didn't complain any __further__.
 * Do you have any __further__ questions?
 
-どちらも同じように使えるが、距離であっても漠然とした「遠さ」には _farther_ よりも、_further_ が使われているケースがあるので、曖昧な時は _further_ を使うほうが無難。
+どちらも同じように使えるが、距離であっても漠然とした「遠さ」には _farther_ よりも _further_ が使われているケースがあるので、曖昧な時は _further_ を使うほうが無難。
 
 ## elder / eldest
 

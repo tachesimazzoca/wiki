@@ -17,7 +17,7 @@
 * It __can__ be difficult. _難しそう / 状況が難しくするかも_
 * We __can__ have some coffee. _コーヒーでも飲みましょうか_
 
-否定形は _can't / cannot_ を使うようにする。_can not_ と分けてしまうと _not_ が動詞を否定して意味が変わってしまう。
+否定形は _can't / cannot_ を使うようにする。 _can not_ と分けてしまうと _not_ が動詞を否定して意味が変わってしまう。
 
 * You cannot go out. _外出してはならない_
 * You can not go out. _外出しなくてよい_
@@ -52,7 +52,7 @@ _was able to_ は 「なんとかやり遂げた」_managed to_ の意味にな�
 * 「... できたくらいの思いがあった」
     * I was so hungry. I __could have eaten__ a horse.
 
-疑問形で以下の表現が使える。_Could_ のほうが丁寧な表現になる。
+疑問形で以下の表現が使える。 _Could_ のほうが丁寧な表現になる。
 
 * 要求する「... してくれますか？ / していただけますか？」
     * __(Can / Could) you__ help me?
@@ -81,14 +81,14 @@ _must_ には _have to_ の意味もあるが、より「必ず守らなけれ�
 * Code __must__ use 4 spaces for indenting, no tabs.
 * To start a game, you __must__ press the button "Start".
 
-_must not_ は「... してはならない」だが、_not have to_ は「... する必要はない（あえてするなら、それでもよい）」になる。
+_must not_ は「... してはならない」だが _not have to_ は「... する必要はない（あえてするなら、それでもよい）」になる。
 
 * You __must not__ tell lies. _嘘をついてはいけない_
 * You __don't have to__ use "Ruby on Rails" for web applications in Ruby. _使わないとダメってわけじゃない_
 
 ## should / ought to
 
-_should_ は「... したほうがよい」という提案を伝える。_must / have to_ よりも弱い。
+_should_ は「... したほうがよい」という提案を伝える。 _must / have to_ よりも弱い。
 
 * You __should__ take a break from work. _休憩したら？_
 * You __shouldn't__ believe everything you read in Twitter. _何でも信じないほうがいいよ_
@@ -152,7 +152,7 @@ _would_ は _will / won't_ の過去形になる。
 * I __would have called__ you, but I __didn't have__ your number.
     * I __would call__ you, but I __don't have__ your number.
 * I __would have bought__ it, but It __was__ too expensive.
-    * I __would buy__ it, but it__'s__ too expensive.
+    * I __would buy__ it, but it __is__ too expensive.
 
 _Would you like ..._ は誘う時に使う。
 
@@ -182,7 +182,7 @@ _might_ は「たぶん ... する（である）」という可能性を伝え�
 * It __might__ not be true.
 * He __might__ not want to come to the party.
 
-過去形は、_might have + 過去分詞_ を使う。
+過去形は _might have + 過去分詞_ を使う。
 
 * A: "I've lost my key." B: "You __might have__ left it in your car."
 * He didn't come to the meeting. He __might have__ forgotten the schedule.

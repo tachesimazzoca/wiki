@@ -209,7 +209,7 @@ val result: Future[String] = futureIt.run
 
 ## Enumerator
 
-_Enumerator_ は、_Iteratee_ に送る入力ストリームを生成する。
+_Enumerator_ は _Iteratee_ に送る入力ストリームを生成する。
 
 ```scala
 val enumerator1: Enumerator[String] = Enumerator("foo", "bar")

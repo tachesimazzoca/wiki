@@ -17,7 +17,7 @@
 
 ### on
 
-日付は _on_ を使う。カレンダー日付枠上に予定が書かれているイメージになる。_on_ はなくてもよい。
+日付は _on_ を使う。カレンダー日付枠上に予定が書かれているイメージになる。 _on_ はなくてもよい。
 
 * (on) Sunday
 * (on) Sundays
@@ -96,14 +96,14 @@ _by then / by that time_ で、前文を受けて「その時までに」とい�
 
 ### during
 
-_during + 名詞_ で「...の間に」の意味になる。節の場合は、_while_ を使う。
+_during + 名詞_ で「...の間に」の意味になる。節の場合は _while_ を使う。
 
 * during spring break
 * while I was reading a book
 
 ### until / til
 
-_until_ は「...までずっと」の継続状態を表す。_by_ は区切りの期限だが、_until_ は、指定条件になるまで継続する。
+_until_ は「...までずっと」の継続状態を表す。 _by_ は区切りの期限だが _until_ は、指定条件になるまで継続する。
 
 _til_ は口語的で、節には _until_ は用いる。
 
@@ -118,7 +118,7 @@ _til_ は口語的で、節には _until_ は用いる。
 
 ### within
 
-期間内を表す時は _within_ を使う。_in_ も範囲を表すが、指定期間後になる。
+期間内を表す時は _within_ を使う。 _in_ も範囲を表すが、指定期間後になる。
 
 * I'll be back in a week. _一週間後に戻ってきます_
 * __in__ a few minutes _数分後_
@@ -145,7 +145,7 @@ _When_ に対する答えは、 _at / ago / when_ で開始点を伝える。
 * __When__ did you get married? I got married __5 years ago__.
 * __When__ did you and Bob first meet? We first met __when I was in college__.
 
-_How long_ に対する答えは、_for / since_ で期間を伝える。
+_How long_ に対する答えは _for / since_ で期間を伝える。
 
 * __How long__ has it been raining? It has been raining __since this morning__.
 * __How long__ have you been married? I've been married __for 5 years__.
@@ -153,7 +153,7 @@ _How long_ に対する答えは、_for / since_ で期間を伝える。
 
 ## When vs. What / Which
 
-時刻を尋ねる際、_When ..._ では漠然すぎるため _What time ..._ を用いる。
+時刻を尋ねる際 _When ..._ では漠然すぎるため _What time ..._ を用いる。
 
 * __When__ do you usually go to bed? When I'm sleepy.
 * __What time__ do you usually go to bed? Usually at 23:00.
@@ -280,7 +280,7 @@ _in time / too late_ は、間に合ったか（その時間内か）どうか�
 
 ### at once / at a time
 
-_once_ は「一度」だが、_at once_ は、「まとめて一気に」すなわち「直ちに」の意味になる。
+_once_ は「一度」だが _at once_ は、「まとめて一気に」すなわち「直ちに」の意味になる。
 
 * Come __at once__. _すぐに来てくれ_
 
@@ -290,5 +290,5 @@ _at a time_ は「一度に / 同時に」の意味になる。
 
 ### at any time / at all times
 
-_at any time_ は「いつでも」の任意の時間を表し、_at all times_ は「常時」で継続した期間を表す。
+_at any time_ は「いつでも」の任意の時間を表し _at all times_ は「常時」で継続した期間を表す。
 

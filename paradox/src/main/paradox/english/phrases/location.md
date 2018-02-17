@@ -89,7 +89,7 @@ _in bed / school ..._ は「寝ている」「学生である」という意味�
 
 ### near / by / beside
 
-「... の近く」の _near_ は、元は副詞句の _near to ..._ で、_to_ が省略されて前置詞のように使われる。
+「... の近く」の _near_ は、元は副詞句の _near to ..._ で _to_ が省略されて前置詞のように使われる。
 
 * Is there a hotel __near the station__?
 * We're staying at __a hotel near the station__.
@@ -104,7 +104,7 @@ _by_ は _near_ よりも、寄り添っているくらい近い。
 * Who is standing __by the window__?
 * I live in __a house by the ocean__.
 
-_beside_ は、「近く」というよりも「隣り」の意味になる。_be_ 動詞の連結動詞で用いると「...を外れている」という慣用句があるので、_stand / sit_ などの動作動詞と組み合わせて使う。
+_beside_ は、「近く」というよりも「隣り」の意味になる。 _be_ 動詞の連結動詞で用いると「...を外れている」という慣用句があるので _stand / sit_ などの動作動詞と組み合わせて使う。
 
 * __The lamp beside the bed__ has a beautiful blue shade.
 * Please sit __beside her__.
@@ -161,12 +161,12 @@ _in_ と _inside_ は、は外から見えない壁があるかどうかで使�
 
 ### in front of / behind
 
-_in front of_ は立体的な位置「... の前に」を表す。_before_ は時間や平面上の位置を表す。
+_in front of_ は立体的な位置「... の前に」を表す。 _before_ は時間や平面上の位置を表す。
 
 * A guard is standing __in front of the gate__.
 * I plowed __the snow in front of my car__.
 
-対応する立体的な「...の後ろに」は、_behind_ になる。_the back of ..._ の表現はあるが「... の奥に / 裏手に」の空間内での位置を表す。
+対応する立体的な「...の後ろに」は _behind_ になる。 _the back of ..._ の表現はあるが「... の奥に / 裏手に」の空間内での位置を表す。
 
 * Someone is standing __behind the wall__. _壁の背後_
     * <del>... standing at the back of the wall.</del> _壁内の奥に立つ？_
@@ -193,7 +193,7 @@ _across from_ で「... の対面に」を表す。
 * The bank is __across from the post office__. _郵便局の対面に（何かを挟んで）_
 * The bank is __across the street__. _道を挟んだ向かいに_
 
-_opposite_ は、_near_ と同じように、副詞句 _opposite to_ の _to_ が省略されて、前置詞のように使われる。
+_opposite_ は _near_ と同じように、副詞句 _opposite to_ の _to_ が省略されて、前置詞のように使われる。
 
 * The man is sitting __opposite to me__. _副詞句_
 * The man is sitting __opposite me__. _前置詞句の副詞的用法_
@@ -250,7 +250,7 @@ _all over_ で「... のあたり一面 / あちこち / 隅々」を表す。
 
 * __Where__ do you live <del>in</del>? I live in Tokyo.
 
-_from / to_ に対しては、疑問代名詞として使う。_to_ は、疑問副詞に含まれているので省略する。まれに強調するときに使われる。
+_from / to_ に対しては、疑問代名詞として使う。 _to_ は、疑問副詞に含まれているので省略する。まれに強調するときに使われる。
 
 * Where are you __from__? I'm from Japan.
 * Where did you go __(to)__?.
@@ -280,5 +280,5 @@ _(watch TV|work)_ のように何かをする場合は、副詞句 _at home_ を
 * She works __at home__.
 * I was watching TV __at home__ last night.
 
-家から動かない _Static_ なら、_at home_ のように使えるが、家へ向かっていく _Dynamic_ なら、副詞としての _home_ を使う。
+家から動かない _Static_ なら _at home_ のように使えるが、家へ向かっていく _Dynamic_ なら、副詞としての _home_ を使う。
 
