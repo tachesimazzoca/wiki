@@ -28,6 +28,7 @@ layout: index
 * [ ](math/index.md)
 * [ ](mysql/index.md)
 * [ ](oracle/index.md)
+* [ ](pgsql/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
