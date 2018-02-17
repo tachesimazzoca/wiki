@@ -25,6 +25,7 @@ layout: index
 * [ ](java/index.md)
 * [ ](machine_learning/index.md)
 * [ ](mahout/index.md)
+* [ ](math/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
