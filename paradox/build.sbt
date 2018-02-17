@@ -6,6 +6,6 @@ lazy val root = (project in file(".")).
     paradoxNavigationExpandDepth := Some(1)
   )
 
-paradoxProperties += (
-  "github.base_url" -> s"https://github.com/tachesimazzoca/wiki"
-)
+//paradoxProperties += (
+//  "github.base_url" -> s"https://github.com/tachesimazzoca/wiki"
+//)
