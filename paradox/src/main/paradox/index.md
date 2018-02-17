@@ -23,6 +23,7 @@ layout: index
 * [ ](haskell/index.md)
 * [ ](httpd/index.md)
 * [ ](java/index.md)
+* [ ](machine_learning/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
