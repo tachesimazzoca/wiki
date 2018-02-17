@@ -1,0 +1,9 @@
+*~
+
+/.ruby-version
+/.rvmrc
+/.bundle
+/vendor
+/Gemfile.lock
+/src/_site
+/src/.sass-cache
