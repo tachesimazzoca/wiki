@@ -106,12 +106,12 @@ _There (is|are)_ に続く情報は未知のものなので、既知の物を指
 
 ## Table of Contents
 
-@@toc { depth=2 headers=false }
+@@toc { headers=false }
 
 @@@ index
 
-- [Articles](articles.md)
-- [Distributives](distributives.md)
-- [Quantifiers](quantifiers.md)
+- [ ](articles.md)
+- [ ](distributives.md)
+- [ ](quantifiers.md)
 
 @@@

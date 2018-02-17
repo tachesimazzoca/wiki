@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-@@toc { depth=2 headers=false }
+@@toc { headers=false }
 
 @@@ index
 
-* [Irregualar Verbs](irregular_verbs.md)
+* [ ](irregular_verbs.md)
 
 @@@

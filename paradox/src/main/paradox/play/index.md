@@ -9,7 +9,7 @@ layout: index
 
 @@@ index
 
-- [Scala](scala/index.md)
-- [Deploying](deploying.md)
+- [ ](scala/index.md)
+- [ ](deploying.md)
 
 @@@

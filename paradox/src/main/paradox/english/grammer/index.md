@@ -2,25 +2,25 @@
 
 ## Table of Contents
 
-@@toc { depth=2 headers=false }
+@@toc { headers=false }
 
 @@@ index
 
-- [Nouns](nouns.md)
-- [Pronouns](pronouns.md)
-- [Determiners](determiners/index.md)
-- [Verbs](verbs.md)
-- [Tenses](tenses/index.md)
-- [Adjectives](adjectives.md)
-- [Adverbs](adverbs.md)
-- [Modals](modals.md)
-- [Passive](passive.md)
-- [Subjuncitve](subjunctive.md)
-- [Gerunds](gerunds.md)
-- [Infinitives](infinitives.md)
-- [Clauses](clauses.md)
-- [Conjunctions](conjunctions.md)
-- [Prepositions](prepositions.md)
-- [Inversion](inversion.md)
+- [ ](nouns.md)
+- [ ](pronouns.md)
+- [ ](determiners/index.md)
+- [ ](verbs.md)
+- [ ](tenses/index.md)
+- [ ](adjectives.md)
+- [ ](adverbs.md)
+- [ ](modals.md)
+- [ ](passive.md)
+- [ ](subjunctive.md)
+- [ ](gerunds.md)
+- [ ](infinitives.md)
+- [ ](clauses.md)
+- [ ](conjunctions.md)
+- [ ](prepositions.md)
+- [ ](inversion.md)
 
 @@@

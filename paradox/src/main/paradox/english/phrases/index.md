@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-@@toc { depth=2 headers=false }
+@@toc { headers=false }
 
 @@@ index
 
-- [Time](time.md)
-- [Location](location.md)
-- [Direction](direction.md)
-- [Condition](condition.md)
-- [Reported Speech](reported_speech.md)
+- [ ](time.md)
+- [ ](location.md)
+- [ ](direction.md)
+- [ ](condition.md)
+- [ ](reported_speech.md)
 
 @@@

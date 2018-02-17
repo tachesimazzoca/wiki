@@ -3,8 +3,6 @@ layout: index
 ---
 # Gitolite
 
-**gitolite**
-
 <https://github.com/sitaramc/gitolite>
 
 ## Table of Contents
@@ -13,7 +11,7 @@ layout: index
 
 @@@ index
 
-- [Installation](installation.md)
-- [Basics](basics.md)
+- [ ](installation.md)
+- [ ](basics.md)
 
 @@@

@@ -9,15 +9,15 @@ layout: index
 
 @@@ index
  
-* [Android](android/index.md)
-* [AWS](aws/index.md)
-* [Chef](chef/index.md)
-* [Cryptography](crypto/index.md)
-* [Docker](docker/index.md)
-* [English](english/index.md)
-* [Git](git/index.md)
-* [Gitolite](gitolite/index.md)
-* [Play Framework](play/index.md)
-* [Vagrant](vagrant/index.md)
+* [ ](android/index.md)
+* [ ](aws/index.md)
+* [ ](chef/index.md)
+* [ ](crypto/index.md)
+* [ ](docker/index.md)
+* [ ](english/index.md)
+* [ ](git/index.md)
+* [ ](gitolite/index.md)
+* [ ](play/index.md)
+* [ ](vagrant/index.md)
 
 @@@

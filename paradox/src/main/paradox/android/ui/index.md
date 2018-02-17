@@ -6,7 +6,7 @@
 
 @@@ index
 
-- [Action Bar](actionbar.md)
-- [Search](search.md)
+- [ ](actionbar.md)
+- [ ](search.md)
 
 @@@

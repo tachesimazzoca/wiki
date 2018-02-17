@@ -6,7 +6,7 @@
 
 @@@ index
 
-- [Android Debug Bridge](adb.md)
-- [Android Virtual Device](avd.md)
+- [ ](adb.md)
+- [ ](avd.md)
 
 @@@

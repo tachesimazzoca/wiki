@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-@@toc { depth=2 headers=false }
+@@toc { headers=false }
 
 @@@ index
 
-- [Present Simple](present_simple.md)
-- [Present Simple](present_continuous.md)
-- [Present Simple](present_perfect.md)
-- [Present Simple](future.md)
+- [ ](present_simple.md)
+- [ ](present_continuous.md)
+- [ ](present_perfect.md)
+- [ ](future.md)
 
 @@@
