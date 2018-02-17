@@ -16,6 +16,7 @@ layout: index
 * [Docker](docker/index.md)
 * [English](english/index.md)
 * [Git](git/index.md)
+* [Gitolite](gitolite/index.md)
 * [Play Framework](play/index.md)
 * [Vagrant](vagrant/index.md)
 
