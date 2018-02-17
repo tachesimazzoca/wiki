@@ -34,6 +34,7 @@ layout: index
 * [ ](rails3/index.md)
 * [ ](rbenv/index.md)
 * [ ](rvm/index.md)
+* [ ](sbt/index.md)
 * [ ](vagrant/index.md)
 
 @@@
