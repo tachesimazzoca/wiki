@@ -8,7 +8,7 @@ layout: index
 @@toc { depth=1 headers=false }
 
 @@@ index
- 
+
 * [ ](android/index.md)
 * [ ](aws/index.md)
 * [ ](chef/index.md)

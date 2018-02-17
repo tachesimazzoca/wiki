@@ -11,7 +11,7 @@
 <https://ccp.cloudera.com/display/CDHDOC/CDH3+Installation>
 
 
-## RHEL 
+## RHEL
 
 CDH3 のリポジトリを追加します。
 
@@ -83,7 +83,7 @@ Oracle JDK (Sun JDK) の利用が推奨されています。
     ....
 
 
-## Pseudo Distributed Mode 
+## Pseudo Distributed Mode
 
 `hadoop-0.20-conf-pseudo` パッケージで１台構成の疑似分散モードでの設定と一通りのデーモンがインストールできます。
 

@@ -1,4 +1,4 @@
-# Virtual Machine 
+# Virtual Machine
 
 ## インストールCDからの起動
 
