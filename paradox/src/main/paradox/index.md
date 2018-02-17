@@ -17,6 +17,7 @@ layout: index
 * [ ](english/index.md)
 * [ ](git/index.md)
 * [ ](gitolite/index.md)
+* [ ](octave/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
