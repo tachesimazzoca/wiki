@@ -27,6 +27,7 @@ layout: index
 * [ ](mahout/index.md)
 * [ ](math/index.md)
 * [ ](mysql/index.md)
+* [ ](oracle/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
