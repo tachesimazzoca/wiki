@@ -15,6 +15,7 @@ layout: index
 * [Cryptography](crypto/index.md)
 * [Docker](docker/index.md)
 * [English](english/index.md)
+* [Git](git/index.md)
 * [Play Framework](play/index.md)
 * [Vagrant](vagrant/index.md)
 
