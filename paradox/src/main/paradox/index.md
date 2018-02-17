@@ -19,6 +19,7 @@ layout: index
 * [ ](gitolite/index.md)
 * [ ](octave/index.md)
 * [ ](hadoop/index.md)
+* [ ](haproxy/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
