@@ -20,6 +20,7 @@ layout: index
 * [ ](octave/index.md)
 * [ ](hadoop/index.md)
 * [ ](haproxy/index.md)
+* [ ](haskell/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
