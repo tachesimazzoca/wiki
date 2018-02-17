@@ -22,12 +22,12 @@ $gtm()$
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3 col-sm-3 hidden-xs">
+        <div class="col-md-3 col-sm-4 hidden-xs">
           <div id="navigation" data-spy="affix" data-offset-top="110">
           $navigation()$
           </div>
         </div>
-        <div class="col-md-9 col-sm-9">
+        <div class="col-md-9 col-sm-8">
           $if(page.source_url)$
           <div class="btn-group pull-right">
             <a class="btn btn-info" href="$page.source_url$">Source</a>
