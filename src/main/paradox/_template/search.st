@@ -1,4 +1,4 @@
-<form class="navbar-form navbar-right" action="http://www.google.com/search" style="box-shadow: none; border: none">
+<form class="navbar-form navbar-right" action="https://www.google.com/search" style="box-shadow: none; border: none">
   <input type="hidden" name="as_sitesearch" value="tachesimazzoca.github.io/wiki">
   <div class="form-group">
     <div class="input-group">
