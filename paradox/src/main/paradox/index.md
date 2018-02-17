@@ -22,6 +22,7 @@ layout: index
 * [ ](haproxy/index.md)
 * [ ](haskell/index.md)
 * [ ](httpd/index.md)
+* [ ](java/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
