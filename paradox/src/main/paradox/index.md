@@ -26,6 +26,7 @@ layout: index
 * [ ](machine_learning/index.md)
 * [ ](mahout/index.md)
 * [ ](math/index.md)
+* [ ](mysql/index.md)
 * [ ](play/index.md)
 * [ ](vagrant/index.md)
 
