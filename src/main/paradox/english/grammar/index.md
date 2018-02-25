@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-# Grammer
+# Grammar
 
 ## Table of Contents
 
