@@ -9,7 +9,7 @@ layout: index
 
 @@@ index
 
-* [ ](grammer/index.md)
+* [ ](grammar/index.md)
 * [ ](phrases/index.md)
 * [ ](vocabulary/index.md)
 * [ ](appendix/index.md)
