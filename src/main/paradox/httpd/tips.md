@@ -61,6 +61,14 @@ htpasswd コマンドで、パスワードファイルを作成します。
         deny from all
     </Files>
 
+## IP Address Restriction
+
+    <Location />
+      SetEnvIf X-Forwarded-For "192\.168\.33\.101.*" allowed_ip
+      Order Deny,Allow
+      Deny from all
+      Allow from env=allowed_ip
+    </Location>
 
 ## Maitenance Mode
 
