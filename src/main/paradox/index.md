@@ -18,6 +18,7 @@ layout: index
 * [ ](git/index.md)
 * [ ](gitolite/index.md)
 * [ ](octave/index.md)
+* [ ](gcp/index.md)
 * [ ](hadoop/index.md)
 * [ ](haproxy/index.md)
 * [ ](haskell/index.md)
