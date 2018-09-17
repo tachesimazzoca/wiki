@@ -20,4 +20,4 @@ Host github-tachesimazzoca
 EOS
 chmod 600 /root/.ssh/config
 
-echo n | ./publish.sh
+echo y | ./publish.sh

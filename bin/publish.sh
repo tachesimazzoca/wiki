@@ -25,14 +25,14 @@ git config user.email "tachesimazzoca@gmail.com"
 git add wiki
 
 # Check if there are nothing to do
-git diff-index --quiet HEAD
-if [ $? = 0 ];
+git diff-index --quiet HEAD || modified=1
+if [ -z "$modified" ];
 then
   echo Nothing to do
   exit 0
 fi
 
-git commit -a -e -m "${message}"
+git commit -m "${message}"
 
 echo -n "Are you sure?"
 read INPUT
