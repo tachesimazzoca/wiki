@@ -13,6 +13,7 @@ layout: index
 * [ ](aws/index.md)
 * [ ](chef/index.md)
 * [ ](crypto/index.md)
+* [ ](debian/index.md)
 * [ ](docker/index.md)
 * [ ](english/index.md)
 * [ ](git/index.md)
