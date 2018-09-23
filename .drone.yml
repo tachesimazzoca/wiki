@@ -5,9 +5,11 @@ pipeline:
       - sbt paradox
 
   publish:
-    image: hseeberger/scala-sbt:8u181_2.12.6_1.2.1
+    image: tachesimazzoca/pipeline-base
     commands:
-      - bin/drone-publish.sh
+      - echo "$${GITHUB_SSH_KEY}" | pipeline-ssh-key id_rsa
+      - pipeline-ssh-config-add github-tachesimazzoca git github.com
+      - echo y | bin/publish.sh
     secrets: [ github_ssh_key ]
     when:
       branch: master
