@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: tachesimazzoca/sbt-base
+    image: tachesimazzoca/sbt-paradox:0.3.2
     commands:
       - sbt paradox
 
