@@ -11,6 +11,7 @@ layout: index
 
 * [ ](android/index.md)
 * [ ](aws/index.md)
+* [ ](bash/index.md)
 * [ ](chef/index.md)
 * [ ](crypto/index.md)
 * [ ](debian/index.md)
