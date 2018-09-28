@@ -171,7 +171,7 @@ m.bind(Map(
 }
 ```
 
-ユーティリィティメゾッドの `RepeatedMapping.indexes` により、`Map[String, String]` から、指定キーのインデックス値のリスト `Seq[Int]` を得る事ができる。キーは昇順ソートされ、重複キーは削除される。
+ユーティリィティメソッドの `RepeatedMapping.indexes` により、`Map[String, String]` から、指定キーのインデックス値のリスト `Seq[Int]` を得る事ができる。キーは昇順ソートされ、重複キーは削除される。
 
 ```scala
 val data = Map(
@@ -233,10 +233,10 @@ validator(0) match {
 * `Constraint[T].apply` を使ってバリデータを作成する。引数には、値をチェックする関数 `T => play.api.data.validation.ValidationResult` を渡す。
     * 正常時には `Valid` を返す。
     * エラー時には `Invalid` を返す。
-* `Constraint[T]#apply` メゾッドで値をチェックして `ValidationResult` を受け取る。
+* `Constraint[T]#apply` メソッドで値をチェックして `ValidationResult` を受け取る。
 * バリデータのメタ情報を外部から参照できるように、`Constraint[T].apply` でバリデーション名と引数 `Any*` を定義することができる。入力のヒント文字列の組み立て等のために、外部用に提供する属性であって、バリデーションを行なう関数内から参照はできない。設定が冗長になるのを回避するには、`Constraint[T]` インスタンスを生成するヘルパー関数を定義するとよい。
 
-`Invalid` は `apply` メゾッドに `play.api.data.validation.ValidationError` を渡して作成する。メッセージと引数だけの `apply` も提供されている。インスタンスは `Invalid#++` でマージできる。
+`Invalid` は `apply` メソッドに `play.api.data.validation.ValidationError` を渡して作成する。メッセージと引数だけの `apply` も提供されている。インスタンスは `Invalid#++` でマージできる。
 
 ```scala
 val result1 = Invalid(ValidationError("error.foo", 1))
@@ -258,7 +258,7 @@ val alnum = pattern(regex = """^[A-Z0-9]+$""".r, error = "must be alphanumeric")
 
 ### Working with Mapping
 
-`Mapping#verifying` メゾッドで、フィールド値の制約を定義できる。
+`Mapping#verifying` メソッドで、フィールド値の制約を定義できる。
 
 ```scala
 val m = tuple(
@@ -300,7 +300,7 @@ assert(Some(User("Foo", 26)) == boundForm.value)
 assert(false == boundForm.hasErrors)
 ```
 
-状態は持つが `Form` はケースクラス、すなわちイミュータブルであり、副作用のメゾッドは持たない。言い換えると `Form#(bind|fill)` 等で状態を更新する度にコピーされるので、スレッドセーフについては考慮しなくてよい。
+状態は持つが `Form` はケースクラス、すなわちイミュータブルであり、副作用のメソッドは持たない。言い換えると `Form#(bind|fill)` 等で状態を更新する度にコピーされるので、スレッドセーフについては考慮しなくてよい。
 
 `Controller` 内で利用する際、リクエスト毎に `Mapping` から `Form` を毎回組み立てるのはコストがかかるので、`Controller` のメンバー変数などに、初期値でインスタンス化したものを保持しておくとよい。
 
@@ -338,7 +338,7 @@ object ContactsController extends Controller {
 
 ### Field
 
-`Form#apply` メゾッドを介して、指定フィールドのモデル `play.api.data.Field` を得ることができる。フィールド状態の取得の他、HTMLの組み立てを想定した API が提供されている。
+`Form#apply` メソッドを介して、指定フィールドのモデル `play.api.data.Field` を得ることができる。フィールド状態の取得の他、HTMLの組み立てを想定した API が提供されている。
 
 ```scala
 val itemForm = Form(mapping(

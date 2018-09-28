@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
 
 ## SQL
 
-ヘルパーメゾッド `SQL` により、SQL文字列が `SqlQuery` に変換される。
+ヘルパーメソッド `SQL` により、SQL文字列が `SqlQuery` に変換される。
 
 ```scala
 def SQL(stmt: String): SqlQuery =
@@ -43,9 +43,9 @@ println(ts.tokens)
 
 ### SqlQuery
 
-`SqlQuery` 自体は、単に `TokenizedStatement` を保持しておくだけの箱である。Implicit conversion により`SqlQuery#asSimple` が呼ばれ `SimpleSql` のメゾッドが利用可能になる。
+`SqlQuery` 自体は、単に `TokenizedStatement` を保持しておくだけの箱である。Implicit conversion により`SqlQuery#asSimple` が呼ばれ `SimpleSql` のメソッドが利用可能になる。
 
-都度、ヘルパーメゾッド `SQL` を呼ぶと変換コストがかかってしまうので、変換済みの `SqlQuery` インスタンスを保持しておくようにする。
+都度、ヘルパーメソッド `SQL` を呼ぶと変換コストがかかってしまうので、変換済みの `SqlQuery` インスタンスを保持しておくようにする。
 
 ```scala
 import anorm._
@@ -68,11 +68,11 @@ for (n <- 1 to 10000) {
 
 ## WithResult
 
-`WithResult` は、SELECT 結果を得るメゾッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.(PreparedStatement|ResultSet)` がクローズされる。
+`WithResult` は、SELECT 結果を得るメソッドを提供する。scala-arm の `resource.ManagedResource` により、自動的に `java.sql.(PreparedStatement|ResultSet)` がクローズされる。
 
 ### as
 
-`as` メゾッドに `ResultSetParser` を渡すことで、結果セットを任意のモデルに変換できる。
+`as` メソッドに `ResultSetParser` を渡すことで、結果セットを任意のモデルに変換できる。
 
 ```scala
 import anorm._
@@ -89,7 +89,7 @@ val usersList: List[(Long, String)] =
 
 ### withResult
 
-`withResult` メゾッドを使えば、結果を一度にメモリに入れることなく一行づつ処理できる。Loan pattern でカーソルを受け取る関数 `Option[Cursor] => T` を渡す。`List[Row]` を組み立てる場合を例にすると、 アキュムレータを使った再帰関数を部分適用して渡せば良い。
+`withResult` メソッドを使えば、結果を一度にメモリに入れることなく一行づつ処理できる。Loan pattern でカーソルを受け取る関数 `Option[Cursor] => T` を渡す。`List[Row]` を組み立てる場合を例にすると、 アキュムレータを使った再帰関数を部分適用して渡せば良い。
 
 ```scala
 @annotation.tailrec
@@ -106,7 +106,7 @@ val result: Either[List[Throwable], List[Row]] =
 
 ### fold
 
-通常は `fold` メゾッドを使うと良い。内部で `withResult` を呼んでいる。
+通常は `fold` メソッドを使うと良い。内部で `withResult` を呼んでいる。
 
 ```scala
 val result: Either[List[Throwable], List[Row]] =
@@ -131,7 +131,7 @@ val result: Either[List[Throwable], List[Row]] =
 
 `RowParser[+A]` の実体は、関数 `Row => SqlResult[A]` である。
 
-ヘルパーメゾッド `SqlParser.get[T]` で、指定のカラム名またはカラム番号の RowParser を得られる。
+ヘルパーメソッド `SqlParser.get[T]` で、指定のカラム名またはカラム番号の RowParser を得られる。
 
 ```scala
 import anorm.SqlParser._
@@ -141,7 +141,7 @@ val emailColumnParser = get[String]("email")
 val thirdColumnParser = get[Int](3)
 ```
 
-一般的な型のヘルパーメゾッドが定義されているので、通常はこれらを使う。
+一般的な型のヘルパーメソッドが定義されているので、通常はこれらを使う。
 
 ```scala
 import anorm.SqlParser._
@@ -190,7 +190,7 @@ val tuple: (Long, String, Int) = tupleLike match {
 }
 ```
 
-ケースクラスとしての `anorm.~[+A, +B]` と、`RowParser` のメゾッド `~[B](p: RowParser[B]): RowParser[A ~ B]` を混同しがちである。
+ケースクラスとしての `anorm.~[+A, +B]` と、`RowParser` のメソッド `~[B](p: RowParser[B]): RowParser[A ~ B]` を混同しがちである。
 
 ```scala
 // NG: ~[RowParser[Long], RowParser[String]]
@@ -200,7 +200,7 @@ val ok = SqlParser.long("id") ~ SqlParser.long("email")
 ```
 
 * 前者は、単に擬似タプルとしての `~[A, B]` であり、`RowParser` ではない。
-* 後者は、`RowParser[A]` のメゾッドにより、別の `RowParser[B]` を加えて生成された、新たな `RowParser[A ~ B]` である。
+* 後者は、`RowParser[A]` のメソッドにより、別の `RowParser[B]` を加えて生成された、新たな `RowParser[A ~ B]` である。
 
 `RowParser[+A]` の実体は、関数 `Row => SqlResult[A]` であるので
 
@@ -309,7 +309,7 @@ object SqlParser {
 
 ## ResultSetParser
 
-`ResultSetParser[+A]` の実体は 関数 `Option[Cursor] => SqlResult[A]` である。`RowParser` のメゾッドから得られる。
+`ResultSetParser[+A]` の実体は 関数 `Option[Cursor] => SqlResult[A]` である。`RowParser` のメソッドから得られる。
 
 ```scala
 val parser: RowParser[(Long, String)] = long("id") ~ str("email") map {

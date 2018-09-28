@@ -6,7 +6,7 @@
 
 `play.api.libs.iteratee.Iteratee[E, +A]` は入力から出力を組み立てる _Consumer_ となる。単に入力 `E` に対して、どのように出力 `A` を組み立てるかのみを定義する。
 
-ヘルパーメゾッド `Iteratee.fold[E, A]` により、アキュームレータ `A` と入力 `E` から、出力 `A` を返す関数を指定するだけで `Iteratee[E, A]` を実装できる。
+ヘルパーメソッド `Iteratee.fold[E, A]` により、アキュームレータ `A` と入力 `E` から、出力 `A` を返す関数を指定するだけで `Iteratee[E, A]` を実装できる。
 
 ```scala
 val it: Iteratee[String, Int] = Iteratee.fold[String, Int](0) { (acc, x) =>
@@ -57,7 +57,7 @@ Iteratee.flatten(doneIt.feed(Input.El("345"))).run.onComplete(println)
 
 ### ContIteratee
 
-`play.api.libs.iteratee.Cont[E, A])` により、継続する _Iteratee_ を生成できる。入力に応じた次の _Iteratee_ を返す関数 `Input[E] => Iteratee[E, A]` を `apply` メゾッドに渡せばよい。
+`play.api.libs.iteratee.Cont[E, A])` により、継続する _Iteratee_ を生成できる。入力に応じた次の _Iteratee_ を返す関数 `Input[E] => Iteratee[E, A]` を `apply` メソッドに渡せばよい。
 
 ```scala
 def step(acc: Int)(in: Input[String]): Iteratee[String, Int] = in match {
@@ -109,14 +109,14 @@ def step(acc: Int)(in: Input[String]): Iteratee[String, Int] = in match {
 
 ### Step
 
-独自の _Iteratee_ を作成するには、`Iteratee#fold` メゾッドを実装する。
+独自の _Iteratee_ を作成するには、`Iteratee#fold` メソッドを実装する。
 
 ```scala
 def fold[B](folder: Step[E, A] => Future[B])
            (implicit ec: ExecutionContext) : Future[B]
 ```
 
-`fold` メゾッドにより、`folder` 関数を通じて _Iteratee_ は自身がどのステップ `play.api.libs.iteratee.Step` であるかを伝えて処理結果を得る。
+`fold` メソッドにより、`folder` 関数を通じて _Iteratee_ は自身がどのステップ `play.api.libs.iteratee.Step` であるかを伝えて処理結果を得る。
 
 ```scala
 trait Step[E, +A]
@@ -308,7 +308,7 @@ val fileEnumerator: Enumerator[Array[Byte]] = {
 
 `plap.api.libs.iteratee.Enumeratee[From, To]` により、ストリームデータを変換をすることができる。
 
-ヘルパーメゾッド `Enumeratee.map` に変換関数を渡せば _Enumeratee_ を生成できる。
+ヘルパーメソッド `Enumeratee.map` に変換関数を渡せば _Enumeratee_ を生成できる。
 
 ```scala
 val byteToHexStr: Enumeratee[Byte, String] = Enumeratee.map[Byte] { b =>
@@ -375,7 +375,7 @@ Iteratee.isDoneOrError(originalIt).onComplete(println) // Success(false)
 
 ### Traversable
 
-`Enumeratee.(take|drop|takeWhile|dropWhile|...)` 等のヘルパーメゾッドは、他のコレクション API のように、要素を切り出す _Enumeratee_ を生成できる。
+`Enumeratee.(take|drop|takeWhile|dropWhile|...)` 等のヘルパーメソッドは、他のコレクション API のように、要素を切り出す _Enumeratee_ を生成できる。
 
 ただし切り出し位置は _Enumerator_ から送信されるチャンク単位になる。
 

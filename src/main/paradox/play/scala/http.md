@@ -44,7 +44,7 @@ val enumratorFromXml: Enumerator[Array[Byte]] = enumerator(<foo>bar</foo>)
 
 ### Status
 
-`Result` インスタンスの生成には、通常は `play.api.mvc.Results.Status` のヘルパーメゾッドを使えばよい。ボディ部は `Writeable[E]` により、暗黙的に `Array[Byte]` に変換される。
+`Result` インスタンスの生成には、通常は `play.api.mvc.Results.Status` のヘルパーメソッドを使えばよい。ボディ部は `Writeable[E]` により、暗黙的に `Array[Byte]` に変換される。
 
 ```scala
 // Result(123, Map(Content-Type -> text/plain; charset=utf-8))
@@ -67,7 +67,7 @@ val withQueryString = Redirect("/path/to/url", Map("foo" -> Seq("bar", "baz")))
 
 ### Chunked Transfer Encoding
 
-ファイル送信を行なうには、ヘルパーメゾッドの `Status.sendFile` を使えばよい。
+ファイル送信を行なうには、ヘルパーメソッドの `Status.sendFile` を使えばよい。
 
 ```scala
 val file = new java.io.File(getClass.getResource("/a.txt").getPath())
@@ -98,7 +98,7 @@ Result(
 
 入力ソースが `java.io.InputStream` のように、あらかじめボディ部のサイズを得る事ができない場合は `Transfer-Encoding: chunked` で送信する。
 
-ヘルパーメゾッドの `Status.chunked` により、Chunked 形式で送信できる。
+ヘルパーメソッドの `Status.chunked` により、Chunked 形式で送信できる。
 
 ```scala
 val input = getClass.getResourceAsStream("/a.txt")
@@ -137,7 +137,7 @@ object Request {
 }
 ```
 
-テスト時にモックを作りたい場合は、`play.api.test.FakeRequest` を使う。テストがしやすいように `withHeaders` などのメゾッドが追加されている。
+テスト時にモックを作りたい場合は、`play.api.test.FakeRequest` を使う。テストがしやすいように `withHeaders` などのメソッドが追加されている。
 
 ```scala
 val rh: Request[NodeSeq] = FakeRequest("POST", "/create")

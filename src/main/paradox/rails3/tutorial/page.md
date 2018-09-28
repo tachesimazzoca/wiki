@@ -20,7 +20,7 @@
       match 'pages/home'
     end
 
-`app/controllers/pages_controller.rb` を作成し home メゾッドを定義します。
+`app/controllers/pages_controller.rb` を作成し home メソッドを定義します。
 
     class PagesController < ApplicationController
       def home

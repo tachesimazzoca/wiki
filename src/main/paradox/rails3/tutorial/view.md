@@ -15,7 +15,7 @@
 
     <%# これはコメントブロックです。出力されません %>
 
-Rails3 からはデフォルトでHTMLエスケープされた結果が出力されます。HTMLエスケープをスキップするには `raw` メゾッドを使います
+Rails3 からはデフォルトでHTMLエスケープされた結果が出力されます。HTMLエスケープをスキップするには `raw` メソッドを使います
 
     <!-- &lt;strong&gt;foo&lt;/strong&gt; -->
     <%= '<strong>foo<strong>' %>
@@ -30,7 +30,7 @@ Rails3 からはデフォルトでHTMLエスケープされた結果が出力さ
 
 * [ActionView::Helpers::CaptureHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/CaptureHelper.html)
 
-`content_for` メゾッドを使います。
+`content_for` メソッドを使います。
 
 `app/views/(:controller)/(:action).html.erb`:
 
@@ -60,7 +60,7 @@ Rails3 からはデフォルトでHTMLエスケープされた結果が出力さ
 * [ActionView::Helpers::RenderingHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/RenderingHelper.html)
 * [ActionView::PartialRenderer](http://api.rubyonrails.org/classes/ActionView/PartialRenderer.html)
 
-`render` メゾッドにより他のファイルを差し込むことができます。
+`render` メソッドにより他のファイルを差し込むことができます。
 
 `app/views/(:controller)/_(name_of_partial).html.erb` のように先頭にアンダースコアを付与したファイル名を読み込みます。
 
@@ -98,11 +98,11 @@ partial_name を明示的に指定するには `:as` で指定します。
 
 * [ActionView::Helpers::UrlHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)
 
-`url_for` メゾッドで `config/routes.rb` で設定したマッピングで URL を取得できます。
+`url_for` メソッドで `config/routes.rb` で設定したマッピングで URL を取得できます。
 
     <%= url_for :controller => 'pages', :action => 'help', :format => 'html' %>
 
-`(name_of_route)_path` `(name_of_route)_url` メゾッドで指定することもできます。
+`(name_of_route)_path` `(name_of_route)_url` メソッドで指定することもできます。
 
     <!-- /pages/help.html -->
     <%= pages_help_path(:format => 'html') %>
@@ -110,7 +110,7 @@ partial_name を明示的に指定するには `:as` で指定します。
     <!-- http://www.exmaple.net/pages/help.html -->
     <%= pages_help_url(:format => 'html') %> #
 
-`link_to` メゾッドでリンク記述を簡略化できます。
+`link_to` メソッドでリンク記述を簡略化できます。
 
     <%= link_to :controller => 'pages', :action => 'help', :format => 'html' do %>Help<% end %>
     <%= link_to 'Back To Home', pages_home_path(:format => 'html') %>

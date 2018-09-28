@@ -198,7 +198,7 @@ public Cursor query(Uri uri, String[] projection, String selection,
 }
 ```
 
-`searchable[@android:searchSuggestSelection]` に、`ContentProvider#query` の第２引数 `selection` に渡す文字列（WHERE 節等）を指定できる。この場合、検索クエリは、第３引数の `selectionArgs` に渡される。`selection` 文字列をどう使うかは、`ContentProvider#query` メゾッドの実装次第なので、単に `selectionArgs` から検索クエリを受け取るために、ダミーの `android:searchSuggestSelection` を指定する方法もある。
+`searchable[@android:searchSuggestSelection]` に、`ContentProvider#query` の第２引数 `selection` に渡す文字列（WHERE 節等）を指定できる。この場合、検索クエリは、第３引数の `selectionArgs` に渡される。`selection` 文字列をどう使うかは、`ContentProvider#query` メソッドの実装次第なので、単に `selectionArgs` から検索クエリを受け取るために、ダミーの `android:searchSuggestSelection` を指定する方法もある。
 
 ```xml
 <searchable ...

@@ -56,7 +56,7 @@ trait Action[A] extends EssentialAction {
 
 ### Helper Methods
 
-ヘルパーメゾッド `Action.apply` を使って `Action#apply(request: Request[A])` を実装できる。
+ヘルパーメソッド `Action.apply` を使って `Action#apply(request: Request[A])` を実装できる。
 
 ```scala
 def noRequest: Action[AnyContent] = Action {
@@ -79,7 +79,7 @@ def wsAction = Action.async {
 }
 ```
 
-`Action.async` は非同期処理用ではなく、明示的に `Future[Result]` を返したい場合のヘルパーメゾッドである。いずれのヘルパーメゾッドを使ったとしても、実装される `Action#apply(request: Request)` が返すのは `Future[Result]` であり、どちらも非同期に実行されることに違いはない。
+`Action.async` は非同期処理用ではなく、明示的に `Future[Result]` を返したい場合のヘルパーメソッドである。いずれのヘルパーメソッドを使ったとしても、実装される `Action#apply(request: Request)` が返すのは `Future[Result]` であり、どちらも非同期に実行されることに違いはない。
 
 `Future` を使えば、自動的にノンブロッキングとなるのではない。ブロックする処理を書かなければいけない場合は、コアのスレッドを占有しないように、別の `ExecutionContext` を使う必要がある。
 
@@ -124,7 +124,7 @@ def xmlFormat = Action { request =>
 }
 ```
 
-ヘルパーメゾッド `Action.apply[A](parser: BodyParser[A])(...)` を使うと、ボディ部を明示的に指定できる。 不正なリクエストの場合は _Action_ ブロックには渡らず _BadReqeust_ 400 エラーが直接応答される。
+ヘルパーメソッド `Action.apply[A](parser: BodyParser[A])(...)` を使うと、ボディ部を明示的に指定できる。 不正なリクエストの場合は _Action_ ブロックには渡らず _BadReqeust_ 400 エラーが直接応答される。
 
 ```scala
 def xmlOnly = Action(parse.xml) { request => ... }
@@ -144,7 +144,7 @@ def xmlOnly = Action(parse.torelantXml) { request => ... }
 val parser = parse.file(to = new java.io.File("/path/to/a.txt"))
 ```
 
-`parse.temporaryFile` は一時ファイルで保存できる。`play.api.libs.Files.TemporaryFile` がボディ部になる。`TemporaryFIle` のメゾッドは、旧 Java File API によるもののため _Deprecated_ となっている。
+`parse.temporaryFile` は一時ファイルで保存できる。`play.api.libs.Files.TemporaryFile` がボディ部になる。`TemporaryFIle` のメソッドは、旧 Java File API によるもののため _Deprecated_ となっている。
 
 フォームからのファイルアップロード `multipart/form-data` 形式には、`parse.multipartFormData` を使う。
 
@@ -161,7 +161,7 @@ val upload = Action(parse.multipartFormData) { request =>
 }
 ```
 
-ファイルサイズに制限をかけたい場合は、ヘルパーメゾッド `parse.maxLength` を使う。ボディ部は `Either[MaxSizeexceeded, A]` となる。
+ファイルサイズに制限をかけたい場合は、ヘルパーメソッド `parse.maxLength` を使う。ボディ部は `Either[MaxSizeexceeded, A]` となる。
 
 ```scala
 // up to 4096 bytes

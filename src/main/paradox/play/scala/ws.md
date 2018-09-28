@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
 
 ## WSClient
 
-ヘルパーメゾッド `play.api.libs.ws.WS.client` より、アプリケーション内に _WSPlugin_ 経由でロードされている HTTP クライアント `play.api.libs.ws.WSClient` が得られる。
+ヘルパーメソッド `play.api.libs.ws.WS.client` より、アプリケーション内に _WSPlugin_ 経由でロードされている HTTP クライアント `play.api.libs.ws.WSClient` が得られる。
 
 ```scala
 val client: WSClient = WS.client
@@ -82,7 +82,7 @@ client.close()
 
 ## WS
 
-HTTP リクエスト `WSRequestHolder` を作成する場合、 通常はヘルパーメゾッド `WS.url` を使えばよい。HTTP クライアントは `WS.client` が使われる。
+HTTP リクエスト `WSRequestHolder` を作成する場合、 通常はヘルパーメソッド `WS.url` を使えばよい。HTTP クライアントは `WS.client` が使われる。
 
 ```scala
 val holderWithDefaultClient: WSRequestHolder = WS.url("http://example.net")

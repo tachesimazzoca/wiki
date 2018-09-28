@@ -35,8 +35,8 @@ public static void copy(
 `BufferedOutputStream#write` ではバッファに溜め込むだけで、実際に出力が行われるわけではありません。以下の条件で出力が行われます。
 
 * バッファがいっぱいになった時
-* `BufferedOutputStream#flush` メゾッドにより、任意のタイミングでバッファを出力
-* `BufferedOutputStream#close` メゾッドにより、ストリームを閉じる際にバッファを出力
+* `BufferedOutputStream#flush` メソッドにより、任意のタイミングでバッファを出力
+* `BufferedOutputStream#close` メソッドにより、ストリームを閉じる際にバッファを出力
 
 ## Reader / Writer
 

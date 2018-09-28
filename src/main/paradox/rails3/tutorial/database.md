@@ -35,7 +35,7 @@
       password:
       socket: /var/lib/mysql/mysql.sock
 
-[ActiveRecord::Base](http://api.rubyonrails.org/classes/ActiveRecord/Base.html) の [establish_connection](http://api.rubyonrails.org/classes/ActiveRecord/Base.html#method-c-establish_connection) メゾッドを通じて、この設定ファイルが読み込まれます。
+[ActiveRecord::Base](http://api.rubyonrails.org/classes/ActiveRecord/Base.html) の [establish_connection](http://api.rubyonrails.org/classes/ActiveRecord/Base.html#method-c-establish_connection) メソッドを通じて、この設定ファイルが読み込まれます。
 
     #!/usr/bin/env ruby
 
