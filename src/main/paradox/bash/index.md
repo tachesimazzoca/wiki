@@ -40,7 +40,7 @@ while [ -h "$PRG" ]; do
     PRG="$link"
   else
     PRG=`dirname "$PRG"`/"$link"
-  fi  
+  fi
 done
 
 PRGDIR=`dirname "$PRG"`
