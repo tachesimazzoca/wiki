@@ -27,6 +27,7 @@ layout: index
 * [ ](haskell/index.md)
 * [ ](httpd/index.md)
 * [ ](java/index.md)
+* [ ](kubernetes/index.md)
 * [ ](machine_learning/index.md)
 * [ ](mahout/index.md)
 * [ ](math/index.md)
