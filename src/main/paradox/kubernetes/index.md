@@ -57,8 +57,27 @@ $ kubectl config view | grep namespace
 
 ### run vs. apply
 
+The `run` command creates a deployment or job to manage the created containers.
+
 ```
 $ kubectl run <DEPLOYMENT_NAME> --image=<IMAGE>
+```
+
+If you want to just create a pod, use the `apply` command with the Pod configuration.
+
+```
+$ cat my-pod.yml
+apiVersion: v1
+kind: Pod
+metadata:
+  ...
+spec:
+  containers:
+    - image: <IMAGE>
+      name: <POD_NAME>
+      ...
+
+$ kubectl apply -f my-pod.yml
 ```
 
 ### logs
