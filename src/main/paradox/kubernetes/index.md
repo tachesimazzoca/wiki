@@ -101,3 +101,19 @@ $ kubectl cp <POD_NAME>:/path/to/pod/file /path/to/local/file
 ```
 $ kubectl delete <DEPLOYMENT_NAME>
 ```
+
+### port-forward
+
+The `port-forward` command forwards local ports to the specified pod or a selected pod by the deployment.
+
+```
+$ kubectl port-forward --help
+...
+Usage:
+  kubectl port-forward TYPE/NAME [LOCAL_PORT:]REMOTE_PORT [...[LOCAL_PORT_N:]REMOTE_PORT_N] [options]
+...
+
+# TYPE defaults to pod if omitted.
+$ kubectl port-forward <POD_NAME> <LOCAL_PORT>:<REMOTE_PORT>
+$ kubectl port-forward deployment/<DEPLOYMENT_NAME> <LOCAL_PORT>:<REMOTE_PORT>
+```
