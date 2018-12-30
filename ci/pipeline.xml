@@ -18,6 +18,7 @@ jobs:
   build_logs_to_retain: 3
   plan:
   - get: resource-wiki
+    trigger: true
   - get: resource-gh-page
   - task: publish
     config:
