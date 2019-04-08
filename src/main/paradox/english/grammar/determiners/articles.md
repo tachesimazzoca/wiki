@@ -111,7 +111,7 @@ _the_ が付いて特定の意味になるものもある。
 
 * the __United__ States / the __United__ Kingdom
 * the Czech __Republic__
-* the Philippine__s__ / the Netherland__s__
+* the Philippines / the Netherlands
 * Brazil / France / Japan
 * __the__ Lebanon / __the__ Sudan
 
@@ -128,8 +128,8 @@ _the_ が付いて特定の意味になるものもある。
 
 家族名には _the_ をつける。
 
-* __the__ Rockefeller__s__ / the Rockefeller family
-* __the__ Kenney__s__ / the Kennedy family
+* __the__ Rockefellers / the Rockefeller family
+* __the__ Kenneys / the Kennedy family
 
 ## 品種
 
@@ -232,9 +232,9 @@ _the young (= young people)_ 「若者」のように _the + 形容詞_ だけ�
 
 国の形容詞が _-ch / -sh / -ese_ になる場合 _the + 形容詞_ でその国の人々を表すことができる。
 
-* _-ch / -chman_: The Fren__ch__ / a Fren__chman__
-* _-sh / -shman_: The Engli__sh__ / a Engli__shman__
-* _-ese / -ese_: The Japan__ese__ / a Japan__ese__
+* _-ch / -chman_: The French / a Frenchman
+* _-sh / -shman_: The English / a Englishman
+* _-ese / -ese_: The Japanese / a Japanese
 
 _Swiss_ は形容詞も同じなので _The Swiss / a Swiss_ になる。
 
