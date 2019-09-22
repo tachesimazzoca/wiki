@@ -64,7 +64,7 @@ The `run` command creates a deployment or job to manage the created containers.
 $ kubectl run <DEPLOYMENT_NAME> --image=<IMAGE>
 kubectl run --generator=deployment/apps.v1beta1 is DEPRECATED and will be removed in a future version. Use kubectl create instead.
 
-# Use the run command instead
+# Use the create command instead
 $ kubectl create deployment <DEPLOYMENT_NAME> --image=<IMAGE>
 ```
 
