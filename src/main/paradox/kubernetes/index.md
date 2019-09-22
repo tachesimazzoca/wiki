@@ -117,3 +117,23 @@ Usage:
 $ kubectl port-forward <POD_NAME> <LOCAL_PORT>:<REMOTE_PORT>
 $ kubectl port-forward deployment/<DEPLOYMENT_NAME> <LOCAL_PORT>:<REMOTE_PORT>
 ```
+
+## Google Kubernetes Engine
+
+```sh
+$ gcloud container clusters create <cluster-name> \
+  --zone=asia-northeast1-a \
+  --machinet-ype=n1-standard-1 \
+  --num-nodes=3
+
+$ gcloud container clusters resize <cluster-name> \
+  --num-nodes=1
+
+$ gcloud container clusters update <cluster-name> \
+  --monitoring-servce none
+
+$ gcloud container clusters update <cluster-name> \
+  --logging-servce none
+
+$ gcloud container clusters delete <cluster-name>
+```
