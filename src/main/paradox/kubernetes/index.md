@@ -60,7 +60,12 @@ $ kubectl config view | grep namespace
 The `run` command creates a deployment or job to manage the created containers.
 
 ```
+# The run command is deprecated.
 $ kubectl run <DEPLOYMENT_NAME> --image=<IMAGE>
+kubectl run --generator=deployment/apps.v1beta1 is DEPRECATED and will be removed in a future version. Use kubectl create instead.
+
+# Use the run command instead
+$ kubectl create deployment <DEPLOYMENT_NAME> --image=<IMAGE>
 ```
 
 If you want to just create a pod, use the `apply` command with the Pod configuration.
