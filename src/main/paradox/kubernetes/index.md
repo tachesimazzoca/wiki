@@ -6,7 +6,7 @@
 
 The `get` command prints a table of the most important information about specified resources.
 
-```
+```shell
 $ kubectl get --help
 ...
 $ kubectl get componentsstatuses
@@ -26,7 +26,7 @@ $ kubectl describe nodes <NAME_PREFIX>
 
 Kubernetes uses namespaces to organize objects in the cluster.
 
-```
+```shell
 $ kubectl get namespaces
 NAME          STATUS    AGE
 default       Active    8d
@@ -36,7 +36,7 @@ kube-system   Active    8d
 
 You need to specify the `--namespace` flag to set the difference namespace temporarily.
 
-```
+```shell
 $ kubectl get deployments --namespace=kube-system
 NAME                    DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
 event-exporter-v0.2.3   1         1         1            1           8d
@@ -59,7 +59,7 @@ $ kubectl config view | grep namespace
 
 The `run` command creates a deployment or job to manage the created containers.
 
-```
+```shell
 # The run command is deprecated.
 $ kubectl run <DEPLOYMENT_NAME> --image=<IMAGE>
 kubectl run --generator=deployment/apps.v1beta1 is DEPRECATED and will be removed in a future version. Use kubectl create instead.
@@ -70,7 +70,7 @@ $ kubectl create deployment <DEPLOYMENT_NAME> --image=<IMAGE>
 
 If you want to just create a pod, use the `apply` command with the Pod configuration.
 
-```
+```shell
 $ cat my-pod.yml
 apiVersion: v1
 kind: Pod
@@ -87,23 +87,23 @@ $ kubectl apply -f my-pod.yml
 
 ### logs
 
-```
+```shell
 $ kubectl logs <POD_NAME>
 ```
 
 ### exec / cp
 
-```
+```shell
 $ kubectl exec -it <POD_NAME> -- bash
 ```
 
-```
+```shell
 $ kubectl cp <POD_NAME>:/path/to/pod/file /path/to/local/file
 ```
 
 ### delete
 
-```
+```shell
 $ kubectl delete service <SERVICE_NAME>
 $ kubectl delete deployment <DEPLOYMENT_NAME>
 ```
@@ -112,7 +112,7 @@ $ kubectl delete deployment <DEPLOYMENT_NAME>
 
 The `port-forward` command forwards local ports to the specified pod or a selected pod by the deployment.
 
-```
+```shell
 $ kubectl port-forward --help
 ...
 Usage:
@@ -128,13 +128,13 @@ $ kubectl port-forward deployment/<DEPLOYMENT_NAME> <LOCAL_PORT>:<REMOTE_PORT>
 
 The `proxy` command launches a proxy server between localhost and the Kubernetes API server.
 
-```
+```shell
 $ kubectl proxy --port=8001
 Starting to serve on 127.0.0.1:8001
 ...
 ```
 
-```
+```shell
 $ curl http://localhost:8001/api/v1/nodes
 ...
 ```
