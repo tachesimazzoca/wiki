@@ -104,7 +104,8 @@ $ kubectl cp <POD_NAME>:/path/to/pod/file /path/to/local/file
 ### delete
 
 ```
-$ kubectl delete <DEPLOYMENT_NAME>
+$ kubectl delete service <SERVICE_NAME>
+$ kubectl delete deployment <DEPLOYMENT_NAME>
 ```
 
 ### port-forward
@@ -121,6 +122,21 @@ Usage:
 # TYPE defaults to pod if omitted.
 $ kubectl port-forward <POD_NAME> <LOCAL_PORT>:<REMOTE_PORT>
 $ kubectl port-forward deployment/<DEPLOYMENT_NAME> <LOCAL_PORT>:<REMOTE_PORT>
+```
+
+### proxy
+
+The `proxy` command launches a proxy server between localhost and the Kubernetes API server.
+
+```
+$ kubectl proxy --port=8001
+Starting to serve on 127.0.0.1:8001
+...
+```
+
+```
+$ curl http://localhost:8001/api/v1/nodes
+...
 ```
 
 ## Google Kubernetes Engine
