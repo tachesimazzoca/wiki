@@ -32,7 +32,7 @@
 タイトル名は、先頭以外の 冠詞 / 等位接続詞 / 前置詞 を除き、大文字とする。
 
 * Alice in Wonderland
-* Beaty and the Beast
+* Beauty and the Beast
 * All of Me
 * In a Sentimental Mood
 
