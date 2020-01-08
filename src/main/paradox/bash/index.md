@@ -48,3 +48,59 @@ PRGDIR=`dirname "$PRG"`
 # Set PGM_HOME to the parent directory of $PRGDIR
 PRG_HOME=$(cd "$PRGDIR/.." >/dev/null; pwd)
 ```
+
+### Incremental counter
+
+```bash
+i=0
+while [ $i -lt 10 ]
+do
+  echo $i
+  i=$((i+1))
+done
+```
+
+### Read lines from stdin
+
+```bash
+while IFS= read x
+do
+  echo "|${x}|"
+done < '/path/to/file'
+```
+
+`IFS=` (Internal Field Separator) keeps leading and trailing spaces of each line.
+
+```bash
+$ cat a.txt
+foo foo
+  bar,  baz
+
+$ cat a.txt | for x in $(cat a.txt); do echo "|${x}|"; done
+|foo|
+|foo|
+|bar,|
+|baz|
+
+$ cat a.txt | while read x; do echo "|${x}|"; done
+|foo foo|
+|bar,  baz|
+
+$ cat a.txt | while IFS= read x; do echo "|${x}|"; done
+|foo foo|
+|  bar,  baz|
+```
+
+### Join rows with a separator
+
+```bash
+$ cat a.txt
+foo
+bar
+baz
+
+# -z: Separate lines by NUL characters
+$ cat a.txt | sed -z 's/\n/,/g'
+foo,bar,baz,
+```
+
