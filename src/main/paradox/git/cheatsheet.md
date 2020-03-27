@@ -55,6 +55,13 @@ $ git status -s
 A  c.txt
 ```
 
+## update-index
+
+```shell
+$ chomod 755 setup.sh
+$ git update-index --chmod=+x setup.sh
+```
+
 ## rm
 
 ```shell
