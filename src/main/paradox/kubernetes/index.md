@@ -141,6 +141,17 @@ $ curl http://localhost:8001/api/v1/nodes
 
 ## Google Kubernetes Engine
 
+When you authorize your gcloud account, the current project will be updated.
+
+```shell
+$ gcloud auth login
+...
+$ gcloud config get-value project
+<PROJECT_ID>
+
+$ gcloud config set compute/zone asia-northeast1-a
+```
+
 How to manage clusters:
 
 ```shell
@@ -150,8 +161,17 @@ $ gcloud container clusters create <CLUSTER_NAME> \
   --num-nodes=1
 
 $ gcloud container clusters resize <CLUSTER_NAME> --num-nodes=3
-
 $ gcloud container clusters delete <CLUSTER_NAME>
+```
+
+How to update kubectl current-context:
+
+```shell
+$ gcloud container clusters get-credentials <CLUSTER_NAME>
+...
+$ kubectl config current-context
+$ kubectl get nodes
+...
 ```
 
 How to reduce default add-on resources:
